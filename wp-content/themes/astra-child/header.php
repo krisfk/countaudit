@@ -72,4 +72,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             <div class="ast-container">
 
-                <?php //astra_content_top(); ?>
+                <?php astra_content_top(); ?>
