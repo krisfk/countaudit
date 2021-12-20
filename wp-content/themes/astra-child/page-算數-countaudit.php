@@ -57,7 +57,7 @@ get_header(); ?>
                 <div class="img-shadow"></div>
             </div>
         </div>
-        <div class="col-5 p-4">
+        <div class="col-5 pl-4 ps-5">
 
             <div>
                 <h4 class="gold"> //為何成立？</h4>
