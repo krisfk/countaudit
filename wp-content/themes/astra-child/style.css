@@ -31,6 +31,9 @@ Template: astra
 .top-menu-ul {
     padding: 0;
     margin: 0;
+    display: inline-block;
+    margin: 0 auto;
+    display: table;
 }
 
 .top-menu-ul li {
@@ -39,6 +42,7 @@ Template: astra
 
 .top-menu-ul li {
     display: inline-block;
+    margin: 0 0.5rem;
 }
 
 .top-menu-ul-outer-ul {
