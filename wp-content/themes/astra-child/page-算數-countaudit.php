@@ -68,7 +68,7 @@ get_header(); ?>
                     <td></td>
                     <td>
 
-                        <div>
+                        <div class="gold">
                             加快資訊傳遞
                         </div>
                         <div>
@@ -81,7 +81,7 @@ get_header(); ?>
                 <tr>
                     <td></td>
                     <td>
-                        <div>
+                        <div class="gold">
                             增強小機構業務力量
                         </div>
                         <div>協助小型機構，尤其是不太擅長市場推廣的NGO非弁利機構、
@@ -94,7 +94,7 @@ get_header(); ?>
                 <tr>
                     <td></td>
                     <td>
-                        <div>普及商業知識</div>
+                        <div class="gold">普及商業知識</div>
                         <div>使香港各界人士對商業及財務知識更有了解，為自己爭取應得
                             之福祉，例如減少僱員／自僱人士被僱主剝削。</div>
                     </td>
@@ -102,7 +102,7 @@ get_header(); ?>
                 <tr>
                     <td></td>
                     <td>
-                        <div>連結社會創新企業</div>
+                        <div class="gold">連結社會創新企業</div>
                         <div>締結社會創新圈子，令創業家能夠相互幫助，達至社會共蠃</div>
                     </td>
                 </tr>
