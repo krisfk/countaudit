@@ -60,7 +60,7 @@ get_header(); ?>
         <div class="col-5">
 
             <div>
-                <h4> //為何成立？</h4>
+                <h4 class="gold"> //為何成立？</h4>
             </div>
             <div>
                 <h2> 我們的宗旨</h2>
