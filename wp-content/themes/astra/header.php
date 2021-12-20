@@ -64,7 +64,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         <?php //astra_header(); ?>
 
         <?php //astra_header_after(); ?>
-
+        d
         <?php astra_content_before(); ?>
 
         <div id="content" class="site-content">
