@@ -18,6 +18,12 @@ Template: astra
     display: none;
 }
 
+.logo-a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .logo-a img {
     width: 125px;
 }

@@ -72,16 +72,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <?php //astra_content_before(); ?>
 
+        <a href="<?php echo get_site_url();?>" class="logo-a">
+            <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/countaudit-logo.png" alt="">
+
+        </a>
+
         <div class="top-menu">
 
             <!-- <a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/countaudit-logo.png"
                     alt=""></a> -->
 
 
-            <a href="<?php echo get_site_url();?>" class="logo-a">
-                <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/countaudit-logo.png" alt="">
 
-            </a>
             <ul class="top-menu-ul-outer-ul">
 
                 <ul class=" top-menu-ul">
