@@ -210,7 +210,8 @@ img.scaled-image {
 }
 
 .price-table table img {
-    width: 20px;
+    width: 100px;
+    margin: 0 1rem 0 0;
 }
 
 .price-table table tr td:last-child {
@@ -221,6 +222,11 @@ img.scaled-image {
     width: 30px;
     padding: 0;
     text-align: center;
+    vertical-align: middle;
+}
+
+.price-table td {
+    padding: 0;
 }
 
 .price-table .know-more-btn {
