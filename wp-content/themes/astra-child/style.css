@@ -62,6 +62,6 @@ Template: astra
     left: 0;
 }
 
-.main-banner img {
+.main-banner .main-banner-img {
     width: 100%;
 }
