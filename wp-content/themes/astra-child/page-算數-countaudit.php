@@ -15,8 +15,17 @@ get_header(); ?>
 </div>
 
 
-<div>
+<div class="container">
 
+    <ul class="home-pts-ul m-0 p-0 ">
+        <li>專業認可 持牌執業 <br>
+            會計師事務所</li>
+        <li>1對1專人長期跟進</li>
+        <li>實用資訊文章 <br>
+            舉辦講座工作坊</li>
+        <li>實用資訊文章 <br>
+            舉辦講座工作坊</li>
+    </ul>
 
 </div>
 <?php get_footer(); ?>
