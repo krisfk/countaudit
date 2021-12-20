@@ -70,10 +70,18 @@ Template: astra
     margin: 0 auto;
 }
 
-.main-banner {}
+.main-banner {
+    overflow: hidden;
+    background: url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/banner-bg.jpg.webp);
+    background-size: cover;
+    background-position: 0 96%;
+}
 
 .main-banner .main-banner-img {
-    width: 100%;
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    opacity: 0;
 }
 
 .home-pts-ul {
