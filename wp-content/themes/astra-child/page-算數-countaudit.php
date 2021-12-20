@@ -57,7 +57,29 @@ get_header(); ?>
                 <div class="img-shadow"></div>
             </div>
         </div>
-        <div class="col-5"></div>
+        <div class="col-5">
+
+            <div>//為何成立？
+            </div>
+            <div>我們的宗旨</div>
+
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+
+                        <div>
+                            加快資訊傳遞
+                        </div>
+                        <div>
+                            不斷找出最新商業財務準則之更新，執法部門之行動，
+                            業內最新消息，令重要資訊更快廣為人知。
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
 <?php get_footer(); ?>
