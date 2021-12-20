@@ -169,7 +169,7 @@ get_header(); ?>
 
         <div class="row">
 
-            <div class="col-4">
+            <div class="col-4 mb-4">
 
                 <div class="price-table">
 
@@ -226,7 +226,7 @@ get_header(); ?>
             </div>
 
 
-            <div class="col-4">
+            <div class="col-4 mb-4">
 
                 <div class="price-table">
 
@@ -282,7 +282,7 @@ get_header(); ?>
             </div>
 
 
-            <div class="col-4">
+            <div class="col-4 mb-4">
 
                 <div class="price-table">
 
@@ -339,7 +339,7 @@ get_header(); ?>
 
 
 
-            <div class="col-4">
+            <div class="col-4 mb-4">
 
                 <div class="price-table">
 
@@ -397,7 +397,7 @@ get_header(); ?>
 
 
 
-            <div class="col-4">
+            <div class="col-4 mb-4">
 
                 <div class="price-table">
 
@@ -452,7 +452,7 @@ get_header(); ?>
 
             </div>
 
-            <div class="col-4">
+            <div class="col-4 mb-4">
 
                 <div class="price-table">
 
