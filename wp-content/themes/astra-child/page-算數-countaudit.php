@@ -174,7 +174,7 @@ get_header(); ?>
                 <div class="price-table">
 
                     <div class="price-title white blue-bg text-center pt-3 pb-3">
-                        <h3 class="gold">特快銀行開戶</h3>
+                        <h3 class="gold-2">特快銀行開戶</h3>
                         <div>低至HK$1,000</div>
                     </div>
 
