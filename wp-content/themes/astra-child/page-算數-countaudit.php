@@ -71,7 +71,7 @@ get_header(); ?>
                     <td><img class="gold-diamond"
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
-                    <td class="pb-4">
+                    <td class="pb-3">
 
                         <h5 class="gold"> 加快資訊傳遞</h5>
                         <div>
