@@ -183,6 +183,29 @@ img.scaled-image {
 }
 
 .price {
-    font-size: 100px;
+    font-size: 70px;
     font-weight: bold;
+}
+
+.price-table ul {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.price-table ul li {
+    list-style-type: none;
+    border: none;
+}
+
+.price-table table {
+    border: none;
+}
+
+.price-table table img {
+    width: 20px;
+}
+
+.price-table table tr td:last-child {
+    text-align: left;
 }
