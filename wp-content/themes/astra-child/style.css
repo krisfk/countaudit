@@ -34,3 +34,8 @@ Template: astra
 .top-menu-ul li {
     display: inline-block;
 }
+
+.top-menu-ul-outer-ul {
+    padding: 0;
+    margin: 0;
+}
