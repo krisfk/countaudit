@@ -125,7 +125,7 @@ get_header(); ?>
 
 <div class="mt-4 blue-bg">
 
-    <div class="container">
+    <div class="container contact-container">
         <h2 class="text-center">聯絡我們</h2>
 
         <ul class="contact-ul">
