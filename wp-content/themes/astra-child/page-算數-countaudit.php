@@ -187,7 +187,8 @@ get_header(); ?>
                             <li>
                                 <table>
                                     <tr>
-                                        <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
                                                 alt=""></td>
                                         <td>HSBC, BEA, CITIC
                                             開戶專人跟進</td>
@@ -197,7 +198,8 @@ get_header(); ?>
                             <li>
                                 <table>
                                     <tr>
-                                        <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
                                                 alt=""></td>
                                         <td>最快一星期成功開戶</td>
                                     </tr>
@@ -206,7 +208,8 @@ get_header(); ?>
                             <li>
                                 <table>
                                     <tr>
-                                        <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
                                                 alt=""></td>
                                         <td>開戶費可減甚至全免</td>
                                     </tr>
