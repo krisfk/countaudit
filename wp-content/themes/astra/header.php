@@ -14,36 +14,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <?php astra_html_before(); ?>
 <html <?php language_attributes(); ?>>
+
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156936142-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156936142-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-156936142-1');
-</script>
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-	
-<?php astra_head_top(); ?>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="https://gmpg.org/xfn/11">
+    gtag('config', 'UA-156936142-1');
+    </script>
 
-<?php wp_head(); ?>
-<?php astra_head_bottom(); ?>
+
+    <?php astra_head_top(); ?>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    <?php wp_head(); ?>
+    <?php astra_head_bottom(); ?>
 </head>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
 
-<?php astra_body_top(); ?>
-<?php wp_body_open(); ?>
-<div 
-	<?php
+    <?php astra_body_top(); ?>
+    <?php wp_body_open(); ?>
+    <div <?php
 	echo astra_attr(
 		'site',
 		array(
@@ -51,20 +55,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'class' => 'hfeed site',
 		)
 	);
-	?>
->
-	<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?></a>
+	?>>
+        <a class="skip-link screen-reader-text"
+            href="#content"><?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?></a>
 
-	<?php astra_header_before(); ?>
+        <?php //astra_header_before(); ?>
 
-	<?php astra_header(); ?>
+        <?php //astra_header(); ?>
 
-	<?php astra_header_after(); ?>
+        <?php //astra_header_after(); ?>
 
-	<?php astra_content_before(); ?>
+        <?php astra_content_before(); ?>
 
-	<div id="content" class="site-content">
+        <div id="content" class="site-content">
 
-		<div class="ast-container">
-
-		<?php astra_content_top(); ?>
+            <!-- <div class="ast-container"> -->
+            <div>
+                <?php astra_content_top(); ?>
