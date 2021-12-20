@@ -159,3 +159,7 @@ img.scaled-image {
 .contact-container {
     color: #fff;
 }
+
+.white {
+    color: #fff !important;
+}
