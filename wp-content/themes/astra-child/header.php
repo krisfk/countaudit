@@ -79,7 +79,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
                     <li class="mb-4 mt-0 mobile-logo-a">
                         <a href="<?php echo get_site_url();?>" class="logo-a">
-                            <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+                            <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/countaudit-logo.png"
+                                alt="">
 
                         </a>
 
