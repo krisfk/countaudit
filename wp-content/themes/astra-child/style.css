@@ -200,6 +200,7 @@ img.scaled-image {
 
 .price-table table {
     border: none;
+    margin: 0 auto;
 }
 
 .price-table table img {
