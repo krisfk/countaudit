@@ -85,7 +85,7 @@ get_header(); ?>
                     <td><img class="gold-diamond"
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
-                    <td>
+                    <td class="pb-3">
 
                         <h5 class="gold">
                             增強小機構業務力量</h5>
@@ -100,7 +100,7 @@ get_header(); ?>
                     <td><img class="gold-diamond"
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
-                    <td>
+                    <td class="pb-3">
 
                         <h5 class="gold">普及商業知識</h5>
                         <div>使香港各界人士對商業及財務知識更有了解，為自己爭取應得
@@ -111,7 +111,7 @@ get_header(); ?>
                     <td><img class="gold-diamond"
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
-                    <td>
+                    <td class="pb-3">
                         <h5 class="gold">連結社會創新企業</h5>
 
                         <div>締結社會創新圈子，令創業家能夠相互幫助，達至社會共蠃</div>
