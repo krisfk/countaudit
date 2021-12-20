@@ -7,7 +7,11 @@
 
 get_header(); ?>
 
-test
+
+<div>
+
+
+</div>
 <?php get_footer(); ?>
 
 </body>

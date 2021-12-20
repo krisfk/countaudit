@@ -67,6 +67,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <?php //astra_content_before(); ?>
 
+        <div class="top-menu">
+
+            <a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/countaudit-logo.png"
+                    alt=""></a>
+
+
+        </div>
         <div id="content" class="site-content">
 
             <div class="">
