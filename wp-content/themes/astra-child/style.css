@@ -28,6 +28,10 @@ Template: astra
     width: 125px;
 }
 
+.top-menu {
+    position: absolute;
+}
+
 .top-menu-ul {
     padding: 0;
     margin: 0;
