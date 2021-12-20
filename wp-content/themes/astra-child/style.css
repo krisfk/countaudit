@@ -222,3 +222,7 @@ img.scaled-image {
     padding: 0;
     text-align: center;
 }
+
+.price-table .know-more-btn {
+    border-radius: 1rem;
+}
