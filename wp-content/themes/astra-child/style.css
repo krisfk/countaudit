@@ -75,3 +75,26 @@ Template: astra
 .main-banner .main-banner-img {
     width: 100%;
 }
+
+.home-pts-ul {
+    display: table;
+    margin: 0 auto !important;
+}
+
+.home-pts-ul li {
+    display: table-cell;
+    /* vertical-align: middle; */
+    width: 25%;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.home-pts-ul li:nth-child(2n) {
+    background: #3e475e;
+    color: #fff;
+}
+
+.home-pts-ul li:nth-child(2n + 1) {
+    background: #363e51;
+    color: #fff;
+}
