@@ -70,5 +70,5 @@ if ( ! defined( 'ABSPATH' ) ) {
         <div id="content" class="site-content">
 
             <div class="">
-                fff
+
                 <?php astra_content_top(); ?>
