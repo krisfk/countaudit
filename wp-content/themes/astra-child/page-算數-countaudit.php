@@ -128,7 +128,7 @@ get_header(); ?>
     <div class="container contact-container">
         <h2 class="text-center white">聯絡我們</h2>
 
-        <ul class="contact-ul text-center m-0">
+        <ul class="contact-ul text-center p-0">
             <li>
                 <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1.png" alt="">
                 </div>
