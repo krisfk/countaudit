@@ -47,9 +47,9 @@ get_header(); ?>
 
 <div class="container mt-5">
 
-    <div class="row">
+    <div class="row justify-content-center">
 
-        <div class="col-4 pb-5">
+        <div class="col-5 pb-5">
 
             <div class="img-shadow-div">
                 <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg"
@@ -57,7 +57,7 @@ get_header(); ?>
                 <div class="img-shadow"></div>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-5"></div>
     </div>
 </div>
 <?php get_footer(); ?>
