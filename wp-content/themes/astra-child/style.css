@@ -190,7 +190,7 @@ img.scaled-image {
 }
 
 .price-table ul {
-    margin: 0 auto;
+    margin: 1rem auto;
     padding: 0;
     width: fit-content;
 }
