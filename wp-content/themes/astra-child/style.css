@@ -192,7 +192,7 @@ img.scaled-image {
 .price-table ul {
     margin: 1rem auto 2rem auto;
     padding: 0;
-    width: fit-content;
+    width: 65%;
 }
 
 .price-table ul li {
