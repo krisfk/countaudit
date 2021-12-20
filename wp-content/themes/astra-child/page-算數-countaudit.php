@@ -225,6 +225,63 @@ get_header(); ?>
 
             </div>
 
+
+            <div class="col-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">審計、報稅</h3>
+                        <div>低至HK$3,500</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$3,500</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png"
+                                                alt=""></td>
+                                        <td class="ps-1">審計服務</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png"
+                                                alt=""></td>
+                                        <td class="ps-1">報稅服務</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png"
+                                                alt=""></td>
+                                        <td class="ps-1">稅務支出減免建議</td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
