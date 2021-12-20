@@ -85,7 +85,7 @@ Template: astra
     display: table-cell;
     /* vertical-align: middle; */
     width: 25%;
-    padding: 0 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     text-align: center;
 }
 
@@ -100,5 +100,7 @@ Template: astra
 }
 
 .home-pts-icon {
-    width: 50px;
+    display: block;
+    width: 4rem;
+    margin: 1rem auto 1rem auto;
 }
