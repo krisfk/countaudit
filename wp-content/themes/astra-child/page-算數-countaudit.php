@@ -128,10 +128,27 @@ get_header(); ?>
     <div class="container">
         <h2 class="text-center">聯絡我們</h2>
 
-        <ul>
-            <li>+852 2345 6789</li>
-            <li>xxxxxxxxx@mail.com</li>
-            <li>+852 2345 6789</li>
+        <ul class="contact-ul">
+            <li>
+                <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1.png" alt="">
+                </div>
+                <div>
+
+                    +852 2345 6789
+                </div>
+            </li>
+            <li>
+                <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2.png" alt="">
+                </div>
+                <div>
+                    xxxxxxxxx@mail.com</div>
+            </li>
+            <li>
+                <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3.png" alt="">
+                </div>
+                <div>
+                    +852 2345 6789</div>
+            </li>
         </ul>
     </div>
 </div>

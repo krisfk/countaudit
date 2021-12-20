@@ -151,3 +151,7 @@ img.scaled-image {
     background: #3e475e;
     color: #fff;
 }
+
+.contact-ul li {
+    display: inline-block;
+}
