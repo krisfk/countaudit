@@ -65,10 +65,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <?php //astra_header_after(); ?>
 
-        <?php astra_content_before(); ?>
+        <?php //astra_content_before(); ?>
 
         <div id="content" class="site-content">
 
             <div class="">
 
-                <?php astra_content_top(); ?>
+                <?php //astra_content_top(); ?>
