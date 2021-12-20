@@ -78,18 +78,15 @@ if ( ! defined( 'ABSPATH' ) ) {
                     alt=""></a> -->
 
 
+            <a href="<?php echo get_site_url();?>" class="logo-a">
+                <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/countaudit-logo.png" alt="">
+
+            </a>
             <ul class="top-menu-ul-outer-ul">
 
                 <ul class=" top-menu-ul">
 
-                    <li class="mb-4 mt-0 mobile-logo-a">
-                        <a href="<?php echo get_site_url();?>" class="logo-a">
-                            <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/countaudit-logo.png"
-                                alt="">
 
-                        </a>
-
-                    </li>
                     <?php
     $main_menu = wp_get_menu_array('Menu');
 foreach ($main_menu as $menu_item) {
