@@ -218,7 +218,7 @@ get_header(); ?>
                         </ul>
 
                         <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
-                        <div>亦可聯絡我們詳議</div>
+                        <div class="small">亦可聯絡我們詳議</div>
                     </div>
 
                 </div>
