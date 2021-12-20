@@ -121,6 +121,14 @@ get_header(); ?>
         </div>
     </div>
 </div>
+
+
+<div class="mt-4">
+
+    <h2 class="text-center">聯絡我們</h2>
+
+</div>
+
 <?php get_footer(); ?>
 
 </body>
