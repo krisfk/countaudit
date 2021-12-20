@@ -15,7 +15,7 @@ get_header(); ?>
 </div>
 
 
-<div class="container">
+<div class="container home-pts-ul-wrapper-container">
 
     <ul class="home-pts-ul  p-0 ">
         <li>
