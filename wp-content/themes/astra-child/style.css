@@ -185,10 +185,12 @@ img.scaled-image {
 .price {
     font-size: 70px;
     font-weight: bold;
+    line-height: 70px;
+    padding: 1rem 0 0 0;
 }
 
 .price-table ul {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: fit-content;
 }
@@ -196,6 +198,10 @@ img.scaled-image {
 .price-table ul li {
     list-style-type: none;
     border: none;
+    background: #fff;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
 .price-table table {
@@ -209,4 +215,10 @@ img.scaled-image {
 
 .price-table table tr td:last-child {
     text-align: left;
+}
+
+.price-table .icon-td {
+    width: 30px;
+    padding: 0;
+    text-align: center;
 }
