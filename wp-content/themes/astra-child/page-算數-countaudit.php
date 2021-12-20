@@ -165,6 +165,64 @@ get_header(); ?>
     </div>
 
 
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white">
+                        <h3>特快銀行開戶</h3>
+                        <div>低至HK$1,000</div>
+                    </div>
+
+                    <div class="price-table-body">
+
+                        <div>$1,000</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
+                                                alt=""></td>
+                                        <td>HSBC, BEA, CITIC
+                                            開戶專人跟進</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
+                                                alt=""></td>
+                                        <td>最快一星期成功開戶</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
+                                                alt=""></td>
+                                        <td>開戶費可減甚至全免</td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
 
 </div>
 
