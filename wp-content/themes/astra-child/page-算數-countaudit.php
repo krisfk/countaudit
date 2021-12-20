@@ -70,9 +70,7 @@ get_header(); ?>
                     </td>
                     <td>
 
-                        <div class="gold">
-                            <h5> 加快資訊傳遞</h5>
-                        </div>
+                        <h5 class="gold"> 加快資訊傳遞</h5>
                         <div>
                             不斷找出最新商業財務準則之更新，執法部門之行動，
                             業內最新消息，令重要資訊更快廣為人知。
@@ -85,11 +83,9 @@ get_header(); ?>
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
                     <td>
-                        <div class="gold">
 
-                            <h5>
-                                增強小機構業務力量</h5>
-                        </div>
+                        <h5 class="gold">
+                            增強小機構業務力量</h5>
                         <div>協助小型機構，尤其是不太擅長市場推廣的NGO非弁利機構、
                             社會企業和初創小型公司。提供市場商業建議，協助他們實行
                             更有效率管理，省下時間專注服務社會。
@@ -102,10 +98,8 @@ get_header(); ?>
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
                     <td>
-                        <div class="gold">
 
-                            <h5>普及商業知識</h5>
-                        </div>
+                        <h5 class="gold">普及商業知識</h5>
                         <div>使香港各界人士對商業及財務知識更有了解，為自己爭取應得
                             之福祉，例如減少僱員／自僱人士被僱主剝削。</div>
                     </td>
@@ -115,9 +109,8 @@ get_header(); ?>
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
                     <td>
-                        <div class="gold">
-                            <h5>連結社會創新企業</h5>
-                        </div>
+                        <h5 class="gold">連結社會創新企業</h5>
+
                         <div>締結社會創新圈子，令創業家能夠相互幫助，達至社會共蠃</div>
                     </td>
                 </tr>
