@@ -111,3 +111,8 @@ Template: astra
     position: relative;
     z-index: 100;
 }
+
+img.scaled-image {
+    border: none !important;
+    margin: 0 !important;
+}
