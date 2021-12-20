@@ -177,3 +177,7 @@ img.scaled-image {
 .price-title {
     border-radius: 1rem 1rem 0 0;
 }
+
+.grey-bg {
+    background: #f7f7f7;
+}

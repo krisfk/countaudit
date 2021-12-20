@@ -178,7 +178,7 @@ get_header(); ?>
                         <div>低至HK$1,000</div>
                     </div>
 
-                    <div class="price-table-body">
+                    <div class="price-table-body grey-bg">
 
                         <div>$1,000</div>
                         <div>Per Company</div>
