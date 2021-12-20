@@ -10,6 +10,10 @@ Text Domain: astra-child
 Template: astra
 */
 
+body {
+    color: #363e51 !important;
+}
+
 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated>.elementor-widget-wrap {
     padding: 0;
 }
@@ -137,4 +141,8 @@ img.scaled-image {
 
 .img-shadow-div {
     position: relative;
+}
+
+.gold {
+    color: #e7ab5d;
 }
