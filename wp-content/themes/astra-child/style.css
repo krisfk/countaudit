@@ -30,6 +30,7 @@ Template: astra
 
 .top-menu {
     position: absolute;
+    width: 100%;
 }
 
 .top-menu-ul {
@@ -47,6 +48,11 @@ Template: astra
 .top-menu-ul li {
     display: inline-block;
     margin: 0 0.5rem;
+}
+
+.top-menu-ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .top-menu-ul-outer-ul {
