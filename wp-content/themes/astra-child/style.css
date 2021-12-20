@@ -164,3 +164,7 @@ img.scaled-image {
 .white {
     color: #fff !important;
 }
+
+.contact-ul img {
+    width: 90px;
+}
