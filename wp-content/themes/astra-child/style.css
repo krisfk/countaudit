@@ -114,5 +114,5 @@ Template: astra
 
 img.scaled-image {
     border: none !important;
-    margin: 0 !important;
+    margin: inherit;
 }
