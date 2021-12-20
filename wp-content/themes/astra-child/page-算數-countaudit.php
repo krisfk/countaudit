@@ -8,9 +8,6 @@
 get_header(); ?>
 
 
-fdsaf
-
-
 <?php get_footer(); ?>
 
 </body>
