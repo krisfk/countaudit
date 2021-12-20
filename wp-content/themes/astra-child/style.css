@@ -181,3 +181,7 @@ img.scaled-image {
 .grey-bg {
     background: #f7f7f7;
 }
+
+.price {
+    font-size: 100px;
+}
