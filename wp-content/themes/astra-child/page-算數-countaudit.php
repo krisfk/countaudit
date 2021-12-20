@@ -190,7 +190,7 @@ get_header(); ?>
                                         <td class="icon-td"><img
                                                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
                                                 alt=""></td>
-                                        <td>HSBC, BEA, CITIC
+                                        <td class="ps-2">HSBC, BEA, CITIC
                                             開戶專人跟進</td>
                                     </tr>
                                 </table>
@@ -201,7 +201,7 @@ get_header(); ?>
                                         <td class="icon-td"><img
                                                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
                                                 alt=""></td>
-                                        <td>最快一星期成功開戶</td>
+                                        <td class="ps-2">最快一星期成功開戶</td>
                                     </tr>
                                 </table>
                             </li>
@@ -211,7 +211,7 @@ get_header(); ?>
                                         <td class="icon-td"><img
                                                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
                                                 alt=""></td>
-                                        <td>開戶費可減甚至全免</td>
+                                        <td class="ps-2">開戶費可減甚至全免</td>
                                     </tr>
                                 </table>
                             </li>
