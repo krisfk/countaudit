@@ -63,7 +63,7 @@ get_header(); ?>
             </div>
             <div>我們的宗旨</div>
 
-            <table>
+            <table class="border-0">
                 <tr>
                     <td><img class="gold-diamond"
                             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
