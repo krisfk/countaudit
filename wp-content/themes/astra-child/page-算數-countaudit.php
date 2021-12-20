@@ -339,6 +339,176 @@ get_header(); ?>
 
 
 
+            <div class="col-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">會計</h3>
+                        <div>低至HK$1,000</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$1,000</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
+                                                alt=""></td>
+                                        <td class="ps-2">雲端會計服務
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
+                                                alt=""></td>
+                                        <td class="ps-2">會計紀錄整理代存服務</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
+                                                alt=""></td>
+                                        <td class="ps-2">會計分析服務</td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">虛擬辦公室</h3>
+                        <div>低至HK$650</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$650</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png"
+                                                alt=""></td>
+                                        <td class="ps-2">代收信件包裹</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png"
+                                                alt=""></td>
+                                        <td class="ps-2">公司水牌</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png"
+                                                alt=""></td>
+                                        <td class="ps-2">其他業務增值服務</td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">公司秘書</h3>
+                        <div>低至HK$1,000</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$1,000</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
+                                                alt=""></td>
+                                        <td class="ps-2">製作交付周年申報
+                                            及其他表格</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png"
+                                                alt=""></td>
+                                        <td class="ps-2">合規及盡職調查</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td class="icon-td"><img
+                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png"
+                                                alt=""></td>
+                                        <td class="ps-2">重要控制人士登記冊</td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
