@@ -17,3 +17,7 @@ Template: astra
 .mobile-menu-submenu {
     display: none;
 }
+
+.logo-a img {
+    width: 125px;
+}
