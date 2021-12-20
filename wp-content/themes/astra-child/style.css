@@ -105,4 +105,8 @@ Template: astra
     margin: 1rem auto 1rem auto;
 }
 
-.home-pts-ul-wrapper-container {}
+.home-pts-ul-wrapper-container {
+    margin: -110px 0 0 0;
+    position: relative;
+    z-index: 100;
+}
