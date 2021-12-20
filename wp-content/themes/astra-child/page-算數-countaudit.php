@@ -25,18 +25,18 @@ get_header(); ?>
             會計師事務所
         </li>
         <li>
-            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png"
+            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-2.png"
                 alt="">
             1對1專人長期跟進
         </li>
         <li>
-            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png"
+            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-3.png"
                 alt="">
             實用資訊文章 <br>
             舉辦講座工作坊
         </li>
         <li>
-            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png"
+            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-4.png"
                 alt="">
             實用資訊文章 <br>
             舉辦講座工作坊
