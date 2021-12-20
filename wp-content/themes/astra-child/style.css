@@ -146,3 +146,8 @@ img.scaled-image {
 .gold {
     color: #e7ab5d;
 }
+
+.blue-bg {
+    background: #3e475e;
+    color: #fff;
+}

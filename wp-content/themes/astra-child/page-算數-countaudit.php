@@ -123,10 +123,17 @@ get_header(); ?>
 </div>
 
 
-<div class="mt-4">
+<div class="mt-4 blue-bg">
 
-    <h2 class="text-center">聯絡我們</h2>
+    <div class="container">
+        <h2 class="text-center">聯絡我們</h2>
 
+        <ul>
+            <li>+852 2345 6789</li>
+            <li>xxxxxxxxx@mail.com</li>
+            <li>+852 2345 6789</li>
+        </ul>
+    </div>
 </div>
 
 <?php get_footer(); ?>
