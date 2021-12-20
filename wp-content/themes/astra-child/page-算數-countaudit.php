@@ -157,11 +157,11 @@ get_header(); ?>
 <div class="container">
 
     <div>
-        <h4 class="gold"> //全方位解決所有商業問題
+        <h4 class="gold text-center"> //全方位解決所有商業問題
         </h4>
     </div>
     <div>
-        <h2> CountAudit 服務項目</h2>
+        <h2 class=" text-center"> CountAudit 服務項目</h2>
     </div>
 
 
