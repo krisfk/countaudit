@@ -125,3 +125,7 @@ img.scaled-image {
     height: 100%;
     background: #3e475e;
 }
+
+.img-shadow-div {
+    position: relative;
+}
