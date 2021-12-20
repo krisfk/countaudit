@@ -186,11 +186,11 @@ img.scaled-image {
     font-size: 70px;
     font-weight: bold;
     line-height: 70px;
-    padding: 1rem 0 0 0;
+    padding: 1.5rem 0 0 0;
 }
 
 .price-table ul {
-    margin: 1rem auto;
+    margin: 1rem auto 2rem auto;
     padding: 0;
     width: fit-content;
 }
@@ -231,8 +231,17 @@ img.scaled-image {
 
 .price-table .know-more-btn {
     border-radius: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     text-decoration: none;
+    /* margin: 1rem 0 2rem 0; */
+    display: table;
+    margin: 0 auto 0.2rem auto;
 }
 
-.small-2 {}
+.small-2 {
+    font-size: 0.7rem;
+}
+
+.price-table-body {
+    padding: 0 0 1.5rem 0;
+}
