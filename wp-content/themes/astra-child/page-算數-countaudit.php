@@ -59,9 +59,12 @@ get_header(); ?>
         </div>
         <div class="col-5">
 
-            <div>//為何成立？
+            <div>
+                <h4> //為何成立？</h4>
             </div>
-            <div>我們的宗旨</div>
+            <div>
+                <h2> 我們的宗旨</h2>
+            </div>
 
             <table class="border-0">
                 <tr>
