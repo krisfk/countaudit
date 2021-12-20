@@ -56,11 +56,7 @@ Template: astra
     margin: 0 auto;
 }
 
-.main-banner {
-    position: absolute;
-    top: 0%;
-    left: 0;
-}
+.main-banner {}
 
 .main-banner .main-banner-img {
     width: 100%;
