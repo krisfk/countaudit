@@ -249,3 +249,16 @@ img.scaled-image {
 .price-table-body {
     padding: 0 0 1.5rem 0;
 }
+
+.slick-dots li button:before {
+    /*     background:#fff ; */
+    color: #fff !important;
+    opacity: 1 !important;
+    /* width: 100px !important; */
+    font-size: 0.8rem !important;
+    /* height: 100px !important; */
+}
+
+.slick-dots .slick-active button:before {
+    color: #e7ab5d !important;
+}
