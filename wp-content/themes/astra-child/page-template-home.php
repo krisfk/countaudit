@@ -1,4 +1,8 @@
 <?php
+/**
+ * Template Name: Home page
+ * Template Post Type: page
+ **/
 
 
 // if ( ! defined( 'ABSPATH' ) ) {
