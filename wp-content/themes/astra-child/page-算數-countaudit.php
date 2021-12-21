@@ -784,7 +784,7 @@ get_header(); ?>
 
 
     <div class="container">
-        <div class="row  mt-5">
+        <div class="row  mt-5 align-items-center">
             <div class="col-6">
 
                 <div>
