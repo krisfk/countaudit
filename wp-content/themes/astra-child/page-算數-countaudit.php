@@ -584,6 +584,10 @@ get_header(); ?>
     </div>
 
 
+
+</div>
+<div>
+
     <div class="container">
 
         <div class="row">
@@ -615,8 +619,8 @@ get_header(); ?>
 
     </div>
 
-</div>
 
+</div>
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
