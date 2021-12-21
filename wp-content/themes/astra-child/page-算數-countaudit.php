@@ -716,6 +716,20 @@ get_header(); ?>
 
 </div>
 
+<div class="container">
+
+    <div class="mt-5">
+        <h4 class="gold text-center">//其他人是怎樣看的？
+
+        </h4>
+    </div>
+    <div class="mb-5">
+        <h2 class=" text-center">客戶評價</h2>
+    </div>
+
+
+</div>
+
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
