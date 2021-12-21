@@ -680,6 +680,12 @@ get_header(); ?>
                     alt="">
 
 
+            </div>
+
+
+        </div>
+        <div class="row mt-5 align-items-center justify-content-middle">
+            <div class="col-6">
                 <div class="home-big-point-content">
                     <div>
                         <span class="big-num">#4</span>
@@ -700,11 +706,6 @@ get_header(); ?>
 
                 </div>
             </div>
-
-
-        </div>
-        <div class="row mt-5 align-items-center justify-content-middle">
-            <div class="col-6"></div>
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-4.jpg"
                     alt=""></div>
 
