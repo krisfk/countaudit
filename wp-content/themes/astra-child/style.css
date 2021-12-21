@@ -418,4 +418,5 @@ img.scaled-image {
     background: #363e51;
     color: #fff;
     max-width: 991px !important;
+    margin: -80px 0 0 0;
 }
