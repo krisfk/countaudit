@@ -650,7 +650,32 @@ get_header(); ?>
             </div>
         </div>
         <div class="row mt-5 align-items-center justify-content-middle">
-            <div class="col-6"></div>
+            <div class="col-6">
+
+
+                <div class="home-big-point-content">
+                    <div>
+                        <span class="big-num">#3</span>
+                        <span>
+                            <h2 class="d-inline-block blue">公司開立、公司秘書
+
+                            </h2>
+                        </span>
+                    </div>
+
+                    <ul>
+                        <li>- 成立公司全包服務（$2,950 起）</li>
+                        <li>- NGO、社團、Funding 申請服務（$4,000 起）</li>
+                        <li>- 公司秘書服務（每年$800 起）</li>
+                        <li>- 註冊辦公室地址 （每年$650 起）</li>
+
+                    </ul>
+
+                    <a href="#" class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+
+                </div>
+
+            </div>
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-3.jpg"
                     alt=""></div>
 
