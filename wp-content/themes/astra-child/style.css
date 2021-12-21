@@ -356,3 +356,7 @@ img.scaled-image {
     color: #363e51;
     text-decoration: none;
 }
+
+.form-div input {
+    border-radius: 1rem;
+}
