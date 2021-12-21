@@ -783,8 +783,8 @@ get_header(); ?>
 <div class="grey-bg-2 mt-5">
 
 
-    <div class="container mt-5">
-        <div class="row">
+    <div class="container">
+        <div class="row  mt-5">
             <div class="col-6">
 
                 <div>
