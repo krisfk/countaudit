@@ -102,7 +102,7 @@ echo'</li>';
 
 </div>
 <div class="blue-bg-2">
-    <div class="container">
+    <div class="container copyright-sentence">
         Copyright © 2021 CountAudit 算數會計師事務所 | Powered by CountAudit 算數會計師事務所 | CPA Practice Registration Number: 2589 |
         Business Registration: 41090856
 
