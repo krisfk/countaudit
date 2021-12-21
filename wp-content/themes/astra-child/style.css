@@ -335,3 +335,9 @@ img.scaled-image {
 .grey-bg-2 {
     background: #d2d4da;
 }
+
+.contact-table td {
+    padding: 0;
+}
+
+.contact-table td img {}
