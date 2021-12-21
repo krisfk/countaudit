@@ -269,6 +269,9 @@ img.scaled-image {
 
 .article-container {
     margin: 0 1rem;
+    border-radius: 1rem;
+    display: block;
+    overflow: hidden;
 }
 
 .white-bg {
