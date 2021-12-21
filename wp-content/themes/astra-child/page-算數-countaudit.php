@@ -590,26 +590,26 @@ get_header(); ?>
 
     <div class="container">
 
-        <div class="row">
+        <div class="row mt-5">
 
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-1.jpg"
                     alt=""></div>
             <div class="col-6"></div>
         </div>
 
-        <div class="row">
+        <div class="row mt-5">
 
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-2.jpg"
                     alt=""></div>
             <div class="col-6"></div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-6"></div>
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-3.jpg"
                     alt=""></div>
 
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-6"></div>
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-4.jpg"
                     alt=""></div>
