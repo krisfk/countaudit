@@ -734,8 +734,8 @@ get_header(); ?>
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
             <div class="text-center">
-                <h4>樹洞香港 TreeholeHK</h4>
-                <div class="small-2 gold">企業培訓公司</div>
+                <h4 class="blue m-0 p-0">樹洞香港 TreeholeHK</h4>
+                <div class="small gold">企業培訓公司</div>
             </div>
 
             <div class="mt-4">
