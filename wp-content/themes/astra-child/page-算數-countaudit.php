@@ -541,8 +541,21 @@ $(function() {
     $('.article-carousel').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        pauseOnFocus: false,
+        infinite: true,
+        speed: 800,
+        autoplaySpeed: 5000,
+        cssEase: 'ease-out',
+        pauseOnHover: false
+
     });
+
+
+
 
 })
 </script>
