@@ -156,6 +156,10 @@ img.scaled-image {
     color: #fff;
 }
 
+.blue {
+    color: #363e51 !important;
+}
+
 .contact-ul li {
     display: inline-block;
     margin: 0 2rem;
