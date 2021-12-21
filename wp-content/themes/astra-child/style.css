@@ -387,3 +387,16 @@ img.scaled-image {
     resize: none;
     background: #f6f6f6;
 }
+
+.bottom-menu-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-menu-ul li {
+    display: inline-block;
+}
+
+.bottom-menu-ul li a {
+    text-decoration: none;
+}
