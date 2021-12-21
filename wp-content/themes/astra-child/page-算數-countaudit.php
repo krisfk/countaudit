@@ -783,14 +783,16 @@ get_header(); ?>
 <div class="grey-bg-2 mt-5">
 
 
-    <div class="row">
-        <div class="col-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
 
-            <div>
-                <h2 class="blue">聯絡我們</h2>
+                <div>
+                    <h2 class="blue">聯絡我們</h2>
+                </div>
             </div>
+            <div class="col-6"></div>
         </div>
-        <div class="col-6"></div>
     </div>
 
 </div>
