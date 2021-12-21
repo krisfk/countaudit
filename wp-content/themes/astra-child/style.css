@@ -249,8 +249,10 @@ img.scaled-image {
     border-radius: 1rem;
     padding: 0.5rem 2rem;
     text-decoration: none;
-    display: table;
-    margin: 0 auto 0.2rem auto;
+    /* display: table; */
+    /* margin: 0 auto 0.2rem auto; */
+    margin: 1rem 0 0 0;
+    display: inline-block;
 }
 
 .quote-btn {
