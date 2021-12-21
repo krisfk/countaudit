@@ -532,7 +532,7 @@ get_header(); ?>
 
                 <div class="white-bg blue">
                     <h3 class="text-center blue">僱員僱主文章</h3>
-                    <div>我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
+                    <div class="p-2">我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
                 </div>
             </div>
 
