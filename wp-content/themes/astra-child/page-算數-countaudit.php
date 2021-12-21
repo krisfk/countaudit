@@ -825,9 +825,9 @@ get_header(); ?>
                     </table>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 p-5">
 
-                <div class="form-div white-bg pp-5">
+                <div class="form-div white-bg ">
 
                     <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
