@@ -730,9 +730,10 @@ get_header(); ?>
     <div class="row">
 
         <div class="col-4">
+            <img class="profile-shadow"
+                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+
             <div class=" grey-bg client-comment-div pe-4 ps-4  pb-5">
-                <img class="profile-shadow"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
                 <div class="text-center">
                     <h4 class="blue m-0 p-0">樹洞香港 TreeholeHK</h4>
