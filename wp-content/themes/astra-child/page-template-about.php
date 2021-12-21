@@ -30,24 +30,22 @@ get_header(); ?>
 
 <div class="container mt-5">
 
+
+    <div>
+        <h4 class="gold"> //Future-Oriented
+        </h4>
+    </div>
+    <div>
+        <h2> 我們的團隊</h2>
+        <div class="small-2">真誠服務社會，希望為商業社會帶來一點不一樣</div>
+    </div>
+
+
     <div class="row justify-content-center">
 
-        <div class="col-5 pb-5">
 
-            <div class="img-shadow-div">
-                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg"
-                    alt="">
-                <div class="img-shadow"></div>
-            </div>
-        </div>
-        <div class="col-5 pl-4 ps-5">
+        <div class="col-12 pl-4 ps-5">
 
-            <div>
-                <h4 class="gold"> //為何成立？</h4>
-            </div>
-            <div>
-                <h2> 我們的宗旨</h2>
-            </div>
 
             <table class="border-0 mt-4">
                 <tr>
