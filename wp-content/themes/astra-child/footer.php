@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-            <ul class="bottom-menu-ul-outer-ul">
+            <ul class="bottom-menu-ul-outer-ul m-0 p-0">
 
                 <ul class=" bottom-menu-ul">
 
