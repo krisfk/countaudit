@@ -590,7 +590,7 @@ get_header(); ?>
 
     <div class="container">
 
-        <div class="row mt-5">
+        <div class="row mt-5 align-items-center justify-content-middle">
 
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-1.jpg"
                     alt=""></div>
