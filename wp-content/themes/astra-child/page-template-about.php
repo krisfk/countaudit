@@ -21,7 +21,9 @@ get_header(); ?>
 
 <div class="container banner-bottom-blue-container">
 
-    <h3 class="white">“令中小型規模公司的創業家們可以將所有煩人的行政財務工作交給我們，專心於發展自己的事業”</h3>
+    <div class="p-4">
+        <h3 class="white">“令中小型規模公司的創業家們可以將所有煩人的行政財務工作交給我們，專心於發展自己的事業”</h3>
+    </div>
 </div>
 
 <div class="container mt-5">
