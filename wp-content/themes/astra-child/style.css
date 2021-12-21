@@ -436,8 +436,17 @@ img.scaled-image {
     transform: translate(-50%, 0);
 }
 
-.member-sm-ul li {}
+.member-sm-ul {
+    text-align: center;
+}
+
+.member-sm-ul li {
+    list-style-type: none;
+    display: inline-block;
+}
 
 .member-sm-ul li a {}
 
-.member-sm-ul li a img {}
+.member-sm-ul li a img {
+    width: 35px;
+}
