@@ -241,10 +241,16 @@ img.scaled-image {
     border-radius: 1rem;
     padding: 0.5rem 2rem;
     text-decoration: none;
-    /* margin: 1rem 0 2rem 0; */
     display: table;
     margin: 0 auto 0.2rem auto;
-    /*  */
+}
+
+.submit-btn {
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    display: table;
+    margin: 0 auto 0.2rem auto;
 }
 
 .quote-btn {
