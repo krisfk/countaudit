@@ -622,7 +622,32 @@ get_header(); ?>
 
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-2.jpg"
                     alt=""></div>
-            <div class="col-6"></div>
+            <div class="col-6">
+
+
+                <div class="home-big-point-content">
+                    <div>
+                        <span class="big-num">#2</span>
+                        <span>
+                            <h2 class="d-inline-block blue">審計、報稅
+
+                            </h2>
+                        </span>
+                    </div>
+
+                    <ul>
+                        <li>- 審計報稅服務 （$3,500 起）</li>
+                        <li>- 無限公司報稅服務（$1,000 起）</li>
+                        <li>- 增值服務﹕稅務支出減免建議</li>
+                        <li>- 服務報價</li>
+
+                    </ul>
+
+                    <a href="#" class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+
+                </div>
+
+            </div>
         </div>
         <div class="row mt-5">
             <div class="col-6"></div>
