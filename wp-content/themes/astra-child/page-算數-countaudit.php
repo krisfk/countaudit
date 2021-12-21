@@ -724,7 +724,7 @@ get_header(); ?>
         </h4>
     </div>
     <div class="mb-5">
-        <h2 class=" text-center">客戶評價</h2>
+        <h2 class=" text-center blue">客戶評價</h2>
     </div>
 
 
