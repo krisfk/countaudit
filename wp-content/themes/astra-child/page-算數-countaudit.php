@@ -735,7 +735,7 @@ get_header(); ?>
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
                 <div class="text-center">
-                    <h4 class="blue m-0 p-0">樹洞香港 TreeholeHK</h4>
+                    <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">樹洞香港 TreeholeHK</h4>
                     <div class="small gold">企業培訓公司</div>
                 </div>
 
@@ -750,7 +750,7 @@ get_header(); ?>
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
                 <div class="text-center">
-                    <h4 class="blue m-0 p-0">IDRPHK LIMITED</h4>
+                    <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">IDRPHK LIMITED</h4>
                     <div class="small gold">香港綜合債務重組機構</div>
                 </div>
 
@@ -766,7 +766,7 @@ get_header(); ?>
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
                 <div class="text-center">
-                    <h4 class="blue m-0 p-0">Dream Impact 夢創成真</h4>
+                    <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">Dream Impact 夢創成真</h4>
                     <div class="small gold">社創工作空間</div>
                 </div>
 
