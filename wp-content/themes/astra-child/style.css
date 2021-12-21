@@ -389,14 +389,18 @@ img.scaled-image {
 }
 
 .bottom-menu-ul {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
+    display: table;
+    margin: 0 auto;
 }
 
 .bottom-menu-ul li {
     display: inline-block;
+    margin: 0 1rem;
 }
 
 .bottom-menu-ul li a {
     text-decoration: none;
+    color: #fff;
 }
