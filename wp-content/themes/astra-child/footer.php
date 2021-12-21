@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<div class="blue-bg pt-5 pb-5">
+<div class="blue-bg pt-4 pb-4">
 
     <div class="container">
 
