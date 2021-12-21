@@ -601,7 +601,7 @@ get_header(); ?>
                     <div>
                         <span class="big-num">#1</span>
                         <span>
-                            <h2 class="d-inline-block">增值服務</h2>
+                            <h2 class="d-inline-block blue">增值服務</h2>
                         </span>
                     </div>
 
