@@ -50,7 +50,7 @@ get_header(); ?>
                 <img class="team-member-icon"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/team-member-1.png" alt="">
 
-                <div class="blue">
+                <div class="blue mt-5">
                     <h4 class="member-name blue m-0 ps-0 pe-0 pb-0 pt-2">SAM NG
                     </h4>
                     <div class="member-title">PARTNER (SECRETARY)</div>
