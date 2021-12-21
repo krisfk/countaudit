@@ -729,42 +729,50 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-4 grey-bg client-comment-div pe-4 ps-4  pb-5">
-            <img class="profile-shadow"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+        <div class="col-4">
+            <div class=" grey-bg client-comment-div pe-4 ps-4  pb-5">
+                <img class="profile-shadow"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
-            <div class="text-center">
-                <h4 class="blue m-0 p-0">樹洞香港 TreeholeHK</h4>
-                <div class="small gold">企業培訓公司</div>
+                <div class="text-center">
+                    <h4 class="blue m-0 p-0">樹洞香港 TreeholeHK</h4>
+                    <div class="small gold">企業培訓公司</div>
+                </div>
+
+                <div class="mt-4">
+                    我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！令我非常安心專注自己的培訓業務，其他財務工作也交給CountAudit</div>
             </div>
-
-            <div class="mt-4">
-                我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！令我非常安心專注自己的培訓業務，其他財務工作也交給CountAudit</div>
         </div>
-        <div class="col-4 grey-bg client-comment-div pe-4 ps-4  pb-5">
-            <img class="profile-shadow"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+        <div class="col-4">
+            <div class=" grey-bg client-comment-div pe-4 ps-4  pb-5">
 
-            <div class="text-center">
-                <h4 class="blue m-0 p-0">IDRPHK LIMITED</h4>
-                <div class="small gold">香港綜合債務重組機構</div>
+                <img class="profile-shadow"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+
+                <div class="text-center">
+                    <h4 class="blue m-0 p-0">IDRPHK LIMITED</h4>
+                    <div class="small gold">香港綜合債務重組機構</div>
+                </div>
+
+                <div class="mt-4">
+                    感謝CountAudit 在公司的出入帳上提供莫大的幫助。基於會計師的專業，令凌亂的帳目得以改善。CountAudit 將會在日後與我們機構維持良好的長期合作關係。</div>
             </div>
-
-            <div class="mt-4">
-                感謝CountAudit 在公司的出入帳上提供莫大的幫助。基於會計師的專業，令凌亂的帳目得以改善。CountAudit 將會在日後與我們機構維持良好的長期合作關係。</div>
         </div>
 
-        <div class="col-4 grey-bg client-comment-div pe-4 ps-4  pb-5">
-            <img class="profile-shadow"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+        <div class="col-4">
+            <div class=" grey-bg client-comment-div pe-4 ps-4  pb-5">
 
-            <div class="text-center">
-                <h4 class="blue m-0 p-0">Dream Impact 夢創成真</h4>
-                <div class="small gold">社創工作空間</div>
+                <img class="profile-shadow"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+
+                <div class="text-center">
+                    <h4 class="blue m-0 p-0">Dream Impact 夢創成真</h4>
+                    <div class="small gold">社創工作空間</div>
+                </div>
+
+                <div class="mt-4">
+                    Sam 是一個貼心的服務提供者。由了解我嘅需要到設計貼身嘅會計服務，整個過程都好順暢，令我可以專注於業務。</div>
             </div>
-
-            <div class="mt-4">
-                Sam 是一個貼心的服務提供者。由了解我嘅需要到設計貼身嘅會計服務，整個過程都好順暢，令我可以專注於業務。</div>
         </div>
 
     </div>
