@@ -43,22 +43,6 @@ get_header(); ?>
     </div>
 
 
-</div>
-
-
-
-
-<div class="container">
-
-    <div class="mt-5">
-        <h4 class="gold text-center">//其他人是怎樣看的？
-
-        </h4>
-    </div>
-    <div class="mb-5">
-        <h2 class=" text-center blue">客戶評價</h2>
-    </div>
-
     <div class="row">
 
         <div class="col-4 mt-5">
@@ -109,6 +93,25 @@ get_header(); ?>
             </div>
         </div>
 
+    </div>
+
+
+
+
+</div>
+
+
+
+
+<div class="container">
+
+    <div class="mt-5">
+        <h4 class="gold text-center">//其他人是怎樣看的？
+
+        </h4>
+    </div>
+    <div class="mb-5">
+        <h2 class=" text-center blue">客戶評價</h2>
     </div>
 
 </div>
