@@ -809,12 +809,18 @@ get_header(); ?>
                         <tr>
                             <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2-1.png"
                                     alt=""> </td>
-                            <td></td>
+                            <td>3525 1900 <br>
+                                Office hour: Mon to Fri 10am - 7pm<br>
+                                6519 4755 (Whatsapp Only)</td>
                         </tr>
                         <tr>
                             <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3-1.png"
                                     alt=""></td>
-                            <td></td>
+                            <td>
+                                <a href="mailto:info@countaudit.hk" target="_blank">info@countaudit.hk</a>
+
+
+                            </td>
                         </tr>
                     </table>
                 </div>
