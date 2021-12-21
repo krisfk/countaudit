@@ -101,7 +101,7 @@ echo'</li>';
     </div>
 
 </div>
-<div class="blue-bg-2">
+<div class="blue-bg-2 pt-3 pb-3">
     <div class="container copyright-sentence small-2">
         Copyright &copy; <?php echo date('Y');?> CountAudit 算數會計師事務所 | Powered by CountAudit 算數會計師事務所 | CPA Practice
         Registration Number:
