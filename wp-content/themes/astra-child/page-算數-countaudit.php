@@ -560,7 +560,7 @@ $(function() {
         slidesToScroll: 3,
         dots: true,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         pauseOnFocus: false,
         infinite: true,
         speed: 800,
