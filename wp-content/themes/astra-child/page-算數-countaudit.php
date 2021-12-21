@@ -513,11 +513,39 @@ get_header(); ?>
     </div>
 
 
+    <div>
+
+        <h2>資訊文章類型</h2>
+
+
+        <div class="article-carousel">
+
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+        </div>
+
+    </div>
+
+
 
 </div>
 
 <?php get_footer(); ?>
+<script type="text/javascript">
+$(function() {
+    $('.article-carousel').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
 
+})
+</script>
 </body>
 
 </html>
