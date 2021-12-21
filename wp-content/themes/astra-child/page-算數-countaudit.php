@@ -648,7 +648,7 @@ get_header(); ?>
 
 
 </div>
-<div class="blue-bg pt-5 pb-5">
+<div class="blue-bg pt-5 pb-5 mt-5">
 
     <h2 class="text-center white">資訊文章類型</h2>
 
