@@ -361,9 +361,17 @@ img.scaled-image {
 /*  */
 
 .form-div {
-    padding: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .form-div input {
     border-radius: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.form-div textarea {
+    border-radius: 1rem;
+    margin: 0 0 1rem 0;
+    resize: none;
 }
