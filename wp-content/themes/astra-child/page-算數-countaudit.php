@@ -677,7 +677,30 @@ get_header(); ?>
 
             </div>
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-3.jpg"
-                    alt=""></div>
+                    alt="">
+
+
+                <div class="home-big-point-content">
+                    <div>
+                        <span class="big-num">#4</span>
+                        <span>
+                            <h2 class="d-inline-block blue">會計
+                            </h2>
+                        </span>
+                    </div>
+
+                    <ul>
+                        <li>- 雲端會計服務（每月$500 起）</li>
+                        <li>- 會計紀錄整理代存服務（每月$500 起）</li>
+                        <li>- 增值服務﹕會計分析服務</li>
+                        <li> - 服務報價</li>
+                    </ul>
+
+                    <a href="#" class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+
+                </div>
+            </div>
+
 
         </div>
         <div class="row mt-5 align-items-center justify-content-middle">
