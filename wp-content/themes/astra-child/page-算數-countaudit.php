@@ -794,6 +794,9 @@ get_header(); ?>
                         <tr>
                             <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1-1.png"
                                     alt="">
+
+                            </td>
+                            <td>
                                 <div>Lai Chi Kok Office <br>
                                     Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok, Kowloon<br>
                                     Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon<br>
@@ -801,7 +804,6 @@ get_header(); ?>
                                     Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun Tong,<br>
                                     Kowloon, Hong Kong</div>
                             </td>
-                            <td></td>
                         </tr>
                     </table>
                 </div>
