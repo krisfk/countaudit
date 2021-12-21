@@ -315,4 +315,8 @@ img.scaled-image {
     font-weight: bold;
 }
 
-.profile-shadow {}
+.profile-shadow {
+    width: 100px;
+    margin: 0 auto 1rem auto;
+    display: table;
+}
