@@ -57,7 +57,7 @@ get_header(); ?>
 
 
                 </div>
-                <ul class="member-sm-ul p-0 m-0">
+                <ul class="member-sm-ul p-0 mt-4">
                     <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-1.png"
                                 alt=""></a></li>
                     <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-2.png"
