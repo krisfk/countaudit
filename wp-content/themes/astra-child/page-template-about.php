@@ -24,7 +24,7 @@ get_header(); ?>
     <div class="p-4">
         <h3 class="white text-center">“令中小型規模公司的創業家們可以將所有煩人的行政財務工作交給我們，專心於發展自己的事業”</h3>
 
-        <div class="text-end gold small-2">CountAudit宗旨</div>
+        <div class="text-end gold small">CountAudit宗旨</div>
     </div>
 </div>
 
