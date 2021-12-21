@@ -296,6 +296,11 @@ img.scaled-image {
     bottom: -3rem !important;
 }
 
+.home-big-point-content {
+    display: table;
+    margin: 0 auto;
+}
+
 .home-big-point-content ul {
     margin: 0;
     padding: 0;
