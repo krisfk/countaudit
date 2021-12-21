@@ -43,7 +43,7 @@ get_header(); ?>
     </div>
 
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mt-5">
 
         <div class="col-3 mt-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
