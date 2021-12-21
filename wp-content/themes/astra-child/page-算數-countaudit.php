@@ -611,6 +611,9 @@ get_header(); ?>
                         <li>- 商標註冊</li>
                         <li>- 資助申請</li>
                     </ul>
+
+                    <a href="#" class="blue-bg white know-more-btn mt-3">服務報價</a>
+
                 </div>
             </div>
         </div>
