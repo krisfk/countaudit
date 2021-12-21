@@ -729,9 +729,17 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-4 grey-bg client-comment-div">
+        <div class="col-4 grey-bg client-comment-div pe-4 ps-4 pt-5 pb-5">
             <img class="profile-shadow"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+
+            <div class="text-center">
+                <h4>樹洞香港 TreeholeHK</h4>
+                <div class="small-2 gold">企業培訓公司</div>
+            </div>
+
+            <div class="mt-4">
+                我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！令我非常安心專注自己的培訓業務，其他財務工作也交給CountAudit</div>
         </div>
         <div class="col-4 grey-bg"></div>
         <div class="col-4 grey-bg"></div>
