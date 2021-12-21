@@ -26,15 +26,7 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
 
 
-
-
-function wp_get_menu_array($current_menu='Main Menu') {
-
-	$menu_array = wp_get_nav_menu_items($current_menu);
-
-	$menu = array();
-
-	function populate_children($menu_array, $menu_item)
+function populate_children($menu_array, $menu_item)
 	{
 		$children = array();
 		if (!empty($menu_array)){
@@ -54,6 +46,15 @@ function wp_get_menu_array($current_menu='Main Menu') {
 
 		return $children;
 	}
+
+
+function wp_get_menu_array($current_menu='Main Menu') {
+
+	$menu_array = wp_get_nav_menu_items($current_menu);
+
+	$menu = array();
+
+	
 
 	foreach ($menu_array as $m) {
 		if (empty($m->menu_item_parent)) {
