@@ -50,17 +50,16 @@ get_header(); ?>
                 <img class="team-member-icon"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/team-member-1.png" alt="">
 
-                <div class="text-center">
-                    <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">樹洞香港 TreeholeHK</h4>
-                    <div class="small gold">企業培訓公司</div>
+                <div class="blue">
+                    <h4 class="member-name blue m-0 ps-0 pe-0 pb-0 pt-2">SAM NG
+                    </h4>
+                    <div class="member-title">PARTNER (SECRETARY)</div>
                 </div>
 
-                <div class="mt-4">
-                    我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！令我非常安心專注自己的培訓業務，其他財務工作也交給CountAudit
-                </div>
+
             </div>
         </div>
-        <div class="col-4 mt-5">
+        <!-- <div class="col-4 mt-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100">
 
                 <img class="team-member-icon"
@@ -76,7 +75,6 @@ get_header(); ?>
             </div>
 
         </div>
-        <!--  -->
         <div class="col-4 mt-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
 
@@ -91,7 +89,7 @@ get_header(); ?>
                 <div class="mt-4">
                     Sam 是一個貼心的服務提供者。由了解我嘅需要到設計貼身嘅會計服務，整個過程都好順暢，令我可以專注於業務。</div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
