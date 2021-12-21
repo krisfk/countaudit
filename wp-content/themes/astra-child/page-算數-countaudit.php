@@ -790,7 +790,7 @@ get_header(); ?>
                 <div>
                     <h2 class="blue">聯絡我們</h2>
 
-                    <table>
+                    <table class="border-0">
                         <tr>
                             <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1-1.png"
                                     alt="">
