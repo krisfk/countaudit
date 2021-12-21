@@ -730,7 +730,7 @@ get_header(); ?>
     <div class="row">
 
         <div class="col-4">
-            <div class=" grey-bg client-comment-div pe-4 ps-4  pb-5">
+            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5">
                 <img class="profile-shadow"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
