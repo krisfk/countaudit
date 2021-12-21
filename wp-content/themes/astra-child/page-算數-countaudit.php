@@ -604,10 +604,10 @@ get_header(); ?>
                     </div>
 
                     <ul>
-                        <li>公司保險</li>
-                        <li>強積金</li>
-                        <li>商標註冊</li>
-                        <li>資助申請</li>
+                        <li>- 公司保險</li>
+                        <li>- 強積金</li>
+                        <li>- 商標註冊</li>
+                        <li>- 資助申請</li>
                     </ul>
                 </div>
             </div>

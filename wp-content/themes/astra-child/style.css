@@ -290,3 +290,7 @@ img.scaled-image {
     margin: 0;
     padding: 0;
 }
+
+.home-big-point-content ul li {
+    list-style-type: none;
+}
