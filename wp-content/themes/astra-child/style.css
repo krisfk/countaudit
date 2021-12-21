@@ -317,6 +317,10 @@ img.scaled-image {
 
 .profile-shadow {
     width: 100px;
-    margin: 0 auto 1rem auto;
+    margin: -50px auto 1rem auto;
     display: table;
+}
+
+.client-comment-div {
+    border-radius: 1rem;
 }
