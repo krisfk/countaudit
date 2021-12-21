@@ -37,7 +37,7 @@ get_header(); ?>
             </h4>
         </div>
         <div>
-            <h2> 我們的團隊</h2>
+            <h2 class="blue"> 我們的團隊</h2>
             <div class="small-2">真誠服務社會，希望為商業社會帶來一點不一樣</div>
         </div>
     </div>
