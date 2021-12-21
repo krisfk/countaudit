@@ -825,7 +825,21 @@ get_header(); ?>
                     </table>
                 </div>
             </div>
-            <div class="col-6"></div>
+            <div class="col-6">
+
+                <div class="form-div">
+
+                    <input type="text" class="form-control" placeholder="如何稱呼您？">
+                    <input type="text" class="form-control" placeholder="聯絡電話">
+                    <input type="text" class="form-control" placeholder="電郵">
+                    <input type="text" class="form-control" placeholder="查詢類別">
+                    <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="簡短留言"></textarea>
+
+                    <a href="#" class="blue-bg white know-more-btn mt-3">服務報價</a>
+
+
+                </div>
+            </div>
         </div>
     </div>
 
