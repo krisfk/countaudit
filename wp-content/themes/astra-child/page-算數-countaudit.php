@@ -531,8 +531,10 @@ get_header(); ?>
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
                 <!--  -->
                 <div class="white-bg blue">
-                    <h3 class="text-center blue">僱員僱主文章</h3>
-                    <div class="p-2">我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
+                    <h3 class="text-center blue pt-3">僱員僱主文章</h3>
+                    <div class="pt-2 ps-4 pe-4 pb-3">我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
+
+                    <a href="#" class="article-read-more">Read More>></a>
                 </div>
             </div>
 
