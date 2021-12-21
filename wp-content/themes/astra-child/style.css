@@ -406,9 +406,10 @@ img.scaled-image {
 }
 
 .blue-bg-2 {
-    background: #3e475e;
+    background: #2e3547;
 }
 
 .copyright-sentence {
-    color: #fff;
+    color: #b8bbc4;
+    text-align: center;
 }
