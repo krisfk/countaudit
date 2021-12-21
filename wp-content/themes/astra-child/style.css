@@ -417,4 +417,5 @@ img.scaled-image {
 .banner-bottom-blue-container {
     background: #363e51;
     color: #fff;
+    max-width: 991px !important;
 }
