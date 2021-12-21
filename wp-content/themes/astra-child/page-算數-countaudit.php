@@ -534,7 +534,9 @@ get_header(); ?>
                     <h3 class="text-center blue pt-3">僱員僱主文章</h3>
                     <div class="pt-2 ps-4 pe-4 pb-3">我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
 
-                    <a href="#" class="article-read-more">Read More>></a>
+                    <div class="text-end">
+                        <a href="#" class="article-read-more gold">Read More>></a>
+                    </div>
                 </div>
             </div>
 

@@ -275,4 +275,6 @@ img.scaled-image {
     background: #fff;
 }
 
-.article-read-more {}
+.article-read-more {
+    text-decoration: none;
+}
