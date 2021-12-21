@@ -541,14 +541,44 @@ get_header(); ?>
             </div>
 
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                <!--  -->
+                <div class="white-bg blue  ps-4 pe-4 pb-4">
+                    <h3 class="text-center blue pt-3">僱員僱主文章</h3>
+                    <div class="pt-2 pb-3">我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
+
+                    <div class="text-end">
+                        <a href="#" class="article-read-more gold">Read More>></a>
+                    </div>
+                </div>
+            </div>
 
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                <!--  -->
+                <div class="white-bg blue  ps-4 pe-4 pb-4">
+                    <h3 class="text-center blue pt-3">僱員僱主文章</h3>
+                    <div class="pt-2 pb-3">我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
+
+                    <div class="text-end">
+                        <a href="#" class="article-read-more gold">Read More>></a>
+                    </div>
+                </div>
+            </div>
+
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
-            <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                <!--  -->
+                <div class="white-bg blue  ps-4 pe-4 pb-4">
+                    <h3 class="text-center blue pt-3">僱員僱主文章</h3>
+                    <div class="pt-2 pb-3">我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！</div>
+
+                    <div class="text-end">
+                        <a href="#" class="article-read-more gold">Read More>></a>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </div>
