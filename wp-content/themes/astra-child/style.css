@@ -294,3 +294,8 @@ img.scaled-image {
 .home-big-point-content ul li {
     list-style-type: none;
 }
+
+.home-big-point-content .big-num {
+    font-size: 3rem;
+    font-weight: bold;
+}
