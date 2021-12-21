@@ -527,13 +527,15 @@ get_header(); ?>
     <div class="container">
         <div class="article-carousel">
 
-            <div>1</div>
-            <div>1</div>
-            <div>1</div>
-            <div>1</div>
-            <div>1</div>
-            <div>1</div>
-            <div>1</div>
+            <div class="article-container"><img class="w-100"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+
+            <div class="article-container"><img class="w-100"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+
+            <div class="article-container"><img class="w-100"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+
         </div>
     </div>
 
