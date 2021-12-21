@@ -331,3 +331,7 @@ img.scaled-image {
     border-radius: 1rem;
     /* margin: 0 1rem; */
 }
+
+.grey-bg-2 {
+    background: #d2d4da;
+}
