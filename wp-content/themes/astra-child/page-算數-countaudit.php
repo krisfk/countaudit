@@ -597,7 +597,7 @@ get_header(); ?>
             <div class="col-6">
 
 
-                <div>
+                <div class="home-big-point-content">
                     <div>
                         <span>#1</span>
                         <span>增值服務</span>
