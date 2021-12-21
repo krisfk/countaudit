@@ -262,3 +262,7 @@ img.scaled-image {
 .slick-dots .slick-active button:before {
     color: #e7ab5d !important;
 }
+
+.article-container {
+    margin: 0 1rem;
+}
