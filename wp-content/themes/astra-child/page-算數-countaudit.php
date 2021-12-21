@@ -727,6 +727,15 @@ get_header(); ?>
         <h2 class=" text-center blue">客戶評價</h2>
     </div>
 
+    <div class="row">
+
+        <div class="col-4 grey-bg client-comment-div">
+            <img class="profile-shadow"
+                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+        </div>
+        <div class="col-4 grey-bg"></div>
+        <div class="col-4 grey-bg"></div>
+    </div>
 
 </div>
 
