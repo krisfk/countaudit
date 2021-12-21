@@ -524,15 +524,17 @@ get_header(); ?>
     <h2 class="text-center white">資訊文章類型</h2>
 
 
-    <div class="article-carousel">
+    <div class="container">
+        <div class="article-carousel">
 
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+        </div>
     </div>
 
 </div>
