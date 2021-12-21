@@ -375,4 +375,5 @@ img.scaled-image {
     border-radius: 1rem;
     margin: 0 0 1rem 0;
     resize: none;
+    background: #f6f6f6;
 }
