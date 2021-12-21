@@ -835,8 +835,9 @@ get_header(); ?>
                     <input type="text" class="form-control" placeholder="查詢類別">
                     <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="簡短留言"></textarea>
 
-                    <a href="#" class="blue-bg white about-btn mt-3">服務報價</a>
-
+                    <div class="text-end">
+                        <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
+                    </div>
 
                 </div>
             </div>
