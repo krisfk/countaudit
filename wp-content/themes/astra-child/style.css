@@ -360,6 +360,10 @@ img.scaled-image {
 
 /*  */
 
+.form-div {
+    padding: 1rem;
+}
+
 .form-div input {
     border-radius: 1rem;
 }
