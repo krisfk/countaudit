@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home page
+ * Template Name: About page
  * Template Post Type: page
  **/
 
