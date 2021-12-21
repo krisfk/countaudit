@@ -413,3 +413,8 @@ img.scaled-image {
     color: #b8bbc4;
     text-align: center;
 }
+
+.banner-bottom-blue-container {
+    background: #363e51;
+    color: #fff;
+}

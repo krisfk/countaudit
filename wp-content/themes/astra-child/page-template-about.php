@@ -19,11 +19,9 @@ get_header(); ?>
 </div>
 
 
-<div class="container blue-container">
-    fdsfsd
+<div class="container banner-bottom-blue-container">
 
-
-</div>
+    “令中小型規模公司的創業家們可以將所有煩人的行政財務工作交給我們，專心於發展自己的事業” </div>
 
 <div class="container mt-5">
 
@@ -505,7 +503,8 @@ get_header(); ?>
         <div class="row mt-4 align-items-center justify-content-middle">
 
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-1.jpg"
-                    alt=""></div>
+                    alt="">
+            </div>
             <div class="col-6">
 
 
@@ -533,7 +532,8 @@ get_header(); ?>
         <div class="row mt-5 align-items-center justify-content-middle">
 
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-2.jpg"
-                    alt=""></div>
+                    alt="">
+            </div>
             <div class="col-6">
 
 
@@ -619,7 +619,8 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-4.jpg"
-                    alt=""></div>
+                    alt="">
+            </div>
 
         </div>
 
@@ -720,7 +721,8 @@ get_header(); ?>
                 </div>
 
                 <div class="mt-4">
-                    我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！令我非常安心專注自己的培訓業務，其他財務工作也交給CountAudit</div>
+                    我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！令我非常安心專注自己的培訓業務，其他財務工作也交給CountAudit
+                </div>
             </div>
         </div>
         <div class="col-4 mt-5">
@@ -778,10 +780,12 @@ get_header(); ?>
                             </td>
                             <td>
                                 <div>Lai Chi Kok Office <br>
-                                    Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok, Kowloon<br>
+                                    Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok,
+                                    Kowloon<br>
                                     Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon<br>
                                     Kwun Tong Office<br>
-                                    Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun Tong,<br>
+                                    Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun
+                                    Tong,<br>
                                     Kowloon, Hong Kong</div>
                             </td>
                         </tr>
