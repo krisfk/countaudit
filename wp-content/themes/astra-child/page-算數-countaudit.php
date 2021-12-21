@@ -535,6 +535,10 @@ get_header(); ?>
 
             <div class="article-container"><img class="w-100"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+            <div class="article-container"><img class="w-100"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
+            <div class="article-container"><img class="w-100"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt=""></div>
 
         </div>
     </div>
