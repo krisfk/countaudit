@@ -15,6 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
+<div>fdsfd</div>
 <?php astra_content_bottom(); ?>
 
 </div> <!-- ast-container -->
