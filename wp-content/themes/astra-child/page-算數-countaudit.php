@@ -594,7 +594,23 @@ get_header(); ?>
 
             <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-1.jpg"
                     alt=""></div>
-            <div class="col-6"></div>
+            <div class="col-6">
+
+
+                <div>
+                    <div>
+                        <span>#1</span>
+                        <span>增值服務</span>
+                    </div>
+
+                    <ul>
+                        <li>公司保險</li>
+                        <li>強積金</li>
+                        <li>商標註冊</li>
+                        <li>資助申請</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="row mt-5">
