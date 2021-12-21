@@ -599,8 +599,10 @@ get_header(); ?>
 
                 <div class="home-big-point-content">
                     <div>
-                        <span>#1</span>
-                        <span>增值服務</span>
+                        <span class="big-num">#1</span>
+                        <span>
+                            <h2>增值服務</h2>
+                        </span>
                     </div>
 
                     <ul>
