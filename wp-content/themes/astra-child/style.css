@@ -337,10 +337,22 @@ img.scaled-image {
 }
 
 .contact-table td {
-    padding: 0;
+    padding: 0 0 1rem 0;
 }
 
 
 /*  */
 
-.contact-table td img {}
+.contact-table td img {
+    width: 40px;
+    margin: 0 1rem 0 0;
+}
+
+.contact-table {
+    margin: 1.5rem 0 0 0;
+}
+
+.contact-table a {
+    color: #363e51;
+    text-decoration: none;
+}
