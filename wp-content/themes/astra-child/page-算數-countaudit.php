@@ -513,9 +513,9 @@ get_header(); ?>
     </div>
 
 
-    <div>
+    <div class="blue-bg">
 
-        <h2>資訊文章類型</h2>
+        <h2 class="text-center white">資訊文章類型</h2>
 
 
         <div class="article-carousel">
