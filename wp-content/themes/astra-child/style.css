@@ -479,3 +479,7 @@ img.scaled-image {
 .about-carousel .right-content-div {
     border-radius: 0 1rem 1rem 0;
 }
+
+.about-carousel-icon {
+    width: 100px;
+}
