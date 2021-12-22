@@ -177,7 +177,7 @@ get_header(); ?>
 
         <div class="about-carousel">
 
-            <div class="white-bg">
+            <div>
 
                 <div class="row justify-content-center">
 
@@ -186,7 +186,7 @@ get_header(); ?>
                         <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
                             alt="">
                     </div>
-                    <div class="col-5">
+                    <div class="col-5 white-bg">
 
                         <div>
 
