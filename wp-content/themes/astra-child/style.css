@@ -462,6 +462,7 @@ img.scaled-image {
 
 .respon .txt {
     z-index: 100;
+    position: relative;
 }
 
 .skew-blue-bg {
