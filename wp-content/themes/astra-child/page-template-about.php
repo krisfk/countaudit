@@ -91,7 +91,9 @@ get_header(); ?>
                 </ul>
                 <div class="respon blue-bg white">
                     <div class="skew-blue-bg"></div>
-                    CPA (Practising)
+
+                    <span class="txt">CPA (Practising)</span>
+
                 </div>
 
             </div>
