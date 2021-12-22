@@ -186,7 +186,7 @@ get_header(); ?>
                         <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
                             alt="">
                     </div>
-                    <div class="col-5 white-bg">
+                    <div class="col-5 white-bg right-content-div">
 
                         <div>
 

@@ -475,3 +475,7 @@ img.scaled-image {
     background: #3e475e;
     transform: skew(-15deg);
 }
+
+.about-carousel .right-content-div {
+    border-radius: 0 1rem 1rem 0;
+}
