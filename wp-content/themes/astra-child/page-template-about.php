@@ -186,18 +186,20 @@ get_header(); ?>
                         <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
                             alt="">
                     </div>
-                    <div class="col-5 white-bg right-content-div">
+                    <div class="col-5 right-content-div">
 
-                        <div class="text-center">
+                        <div class="white-bg position-absolute w-100 h-100">
+                            <div class="text-center">
 
 
-                            <img class="about-carousel-icon"
-                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1-icon.png"
-                                alt="">
-                            <h4 class="gold mt-3"> 加快資訊傳遞</h4>
+                                <img class="about-carousel-icon"
+                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1-icon.png"
+                                    alt="">
+                                <h4 class="gold mt-3"> 加快資訊傳遞</h4>
 
-                            <div class="blue mt-3">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
+                                <div class="blue mt-3">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
 
+                            </div>
                         </div>
                     </div>
 
