@@ -485,4 +485,5 @@ img.scaled-image {
 
 .about-carousel-icon {
     width: 60px;
+    margin: 0 auto !important;
 }
