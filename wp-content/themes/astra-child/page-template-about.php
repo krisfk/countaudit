@@ -65,7 +65,12 @@ get_header(); ?>
                                 alt=""></a></li>
                 </ul>
 
-                <div class="respon blue-bg white">CPA (Practising)</div>
+                <div class="respon  white">
+                    <div class="skew-blue-bg"></div>
+
+                    <span class="txt">CPA (Practising)</span>
+
+                </div>
             </div>
 
         </div>
@@ -118,8 +123,12 @@ get_header(); ?>
                     <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-3.png"
                                 alt=""></a></li>
                 </ul>
-                <div class="respon blue-bg white">insurance, MPF and banking</div>
+                <div class="respon  white">
+                    <div class="skew-blue-bg"></div>
 
+                    <span class="txt">insurance, MPF and banking</span>
+
+                </div>
             </div>
         </div>
         <!-- <div class="col-4 mt-5">
