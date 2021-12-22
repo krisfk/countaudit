@@ -456,6 +456,6 @@ img.scaled-image {
     bottom: 0;
     right: -0.5rem;
     background: url(./assets/images/skew-bg.png);
-    background-size: 100% 100%;
+    background-size: auto 100%;
     padding: 0.3rem 1rem;
 }
