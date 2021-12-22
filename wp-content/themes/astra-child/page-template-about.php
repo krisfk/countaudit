@@ -66,6 +66,7 @@ get_header(); ?>
                                 alt=""></a></li>
                 </ul>
 
+                <div class="respon blue-bg white">CPA (Practising)</div>
             </div>
         </div>
         <div class="col-3 mt-5">

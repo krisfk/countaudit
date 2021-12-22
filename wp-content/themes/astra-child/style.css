@@ -450,3 +450,9 @@ img.scaled-image {
 .member-sm-ul li a img {
     width: 35px;
 }
+
+.respon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
