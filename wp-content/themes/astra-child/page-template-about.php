@@ -178,30 +178,31 @@ get_header(); ?>
         <div class="about-carousel">
 
 
-            <div class="row justify-content-center gx-0 align-items-middle">
+            <div>
+                <div class="row justify-content-center gx-0 align-items-middle">
 
-                <div class="col-5">
+                    <div class="col-5">
 
-                    <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
-                        alt="">
-                </div>
-                <div class="col-5 right-content-div white-bg position-relative">
-
-                    <div class="text-center inner-div">
-
-
-                        <img class="about-carousel-icon"
-                            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1-icon.png"
+                        <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
                             alt="">
-                        <h4 class="gold mt-3"> 加快資訊傳遞</h4>
-
-                        <div class="blue mt-3">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
-
                     </div>
+                    <div class="col-5 right-content-div white-bg position-relative">
+
+                        <div class="text-center inner-div">
+
+
+                            <img class="about-carousel-icon"
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1-icon.png"
+                                alt="">
+                            <h4 class="gold mt-3"> 加快資訊傳遞</h4>
+
+                            <div class="blue mt-3">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
+
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
-
             <div>
 
                 <div class="row justify-content-center gx-0 align-items-middle">
