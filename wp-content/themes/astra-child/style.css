@@ -455,4 +455,6 @@ img.scaled-image {
     position: absolute;
     bottom: 0;
     right: 0;
+    background: url(./assets/images/skew-bg.png);
+    background-size: cover;
 }
