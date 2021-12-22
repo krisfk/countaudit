@@ -188,7 +188,7 @@ get_header(); ?>
                     </div>
                     <div class="col-5 white-bg right-content-div">
 
-                        <div>
+                        <div class="text">
 
 
                             <img class="about-carousel-icon"
@@ -196,7 +196,7 @@ get_header(); ?>
                                 alt="">
                             <h4 class="gold"> 加快資訊傳遞</h4>
 
-                            <div>不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
+                            <div class="blue">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
 
                         </div>
                     </div>
