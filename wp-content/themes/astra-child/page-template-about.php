@@ -261,8 +261,8 @@ get_header(); ?>
 $(function() {
     $('.about-carousel').slick({
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         dots: true,
         arrows: false,
         autoplay: false,
