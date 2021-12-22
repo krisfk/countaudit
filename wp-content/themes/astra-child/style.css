@@ -454,7 +454,8 @@ img.scaled-image {
 .respon {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -0.5rem;
     background: url(./assets/images/skew-bg.png);
-    background-size: cover;
+    background-size: 100% 100%;
+    padding: 0.3rem 1rem;
 }
