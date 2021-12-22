@@ -177,109 +177,131 @@ get_header(); ?>
 
         <div class="about-carousel">
 
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+            <div class="white-bg">
 
-        </div>
-    </div>
+                <div class="row">
 
-</div>
+                    <div class="col-6">
+
+                        <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
+                            alt="">
+                    </div>
+                    <div class="col-6">
+
+                        <div>
 
 
-<div class="grey-bg-2 mt-5">
+                            <img class="about-carousel-icon"
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1-icon.png"
+                                alt="">
+                            <h4 class="gold"> 加快資訊傳遞</h4>
 
+                            <div>不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
 
-    <div class="container">
-        <div class="row  mt-5 align-items-center">
-            <div class="col-6">
-
-                <div>
-                    <h2 class="blue">聯絡我們</h2>
-
-                    <table class="border-0 contact-table">
-                        <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1-1.png"
-                                    alt="">
-
-                            </td>
-                            <td>
-                                <div>Lai Chi Kok Office <br>
-                                    Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok,
-                                    Kowloon<br>
-                                    Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon<br>
-                                    Kwun Tong Office<br>
-                                    Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun
-                                    Tong,<br>
-                                    Kowloon, Hong Kong</div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2-1.png"
-                                    alt=""> </td>
-                            <td>3525 1900 <br>
-                                Office hour: Mon to Fri 10am - 7pm<br>
-                                6519 4755 (Whatsapp Only)</td>
-                        </tr>
-                        <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3-1.png"
-                                    alt=""></td>
-                            <td>
-                                <a href="mailto:info@countaudit.hk" target="_blank">info@countaudit.hk</a>
-
-                                <!--  -->
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="col-6 p-5">
-
-                <div class="form-div white-bg ">
-
-                    <input type="text" class="form-control" placeholder="如何稱呼您？">
-                    <input type="text" class="form-control" placeholder="聯絡電話">
-                    <input type="text" class="form-control" placeholder="電郵">
-                    <input type="text" class="form-control" placeholder="查詢類別">
-                    <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="簡短留言"></textarea>
-
-                    <div class="text-end">
-                        <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
+                        </div>
                     </div>
 
                 </div>
+
+
             </div>
         </div>
+
     </div>
 
-</div>
 
-<?php get_footer(); ?>
-<script type="text/javascript">
-$(function() {
-    $('.about-carousel').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false,
-        autoplay: false,
-        pauseOnFocus: false,
-        infinite: true,
-        speed: 800,
-        autoplaySpeed: 5000,
-        cssEase: 'ease-out',
-        pauseOnHover: false
-
-    });
+    <div class="grey-bg-2 mt-5">
 
 
+        <div class="container">
+            <div class="row  mt-5 align-items-center">
+                <div class="col-6">
+
+                    <div>
+                        <h2 class="blue">聯絡我們</h2>
+
+                        <table class="border-0 contact-table">
+                            <tr>
+                                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1-1.png"
+                                        alt="">
+
+                                </td>
+                                <td>
+                                    <div>Lai Chi Kok Office <br>
+                                        Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok,
+                                        Kowloon<br>
+                                        Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon<br>
+                                        Kwun Tong Office<br>
+                                        Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun
+                                        Tong,<br>
+                                        Kowloon, Hong Kong</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2-1.png"
+                                        alt=""> </td>
+                                <td>3525 1900 <br>
+                                    Office hour: Mon to Fri 10am - 7pm<br>
+                                    6519 4755 (Whatsapp Only)</td>
+                            </tr>
+                            <tr>
+                                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3-1.png"
+                                        alt=""></td>
+                                <td>
+                                    <a href="mailto:info@countaudit.hk" target="_blank">info@countaudit.hk</a>
+
+                                    <!--  -->
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-6 p-5">
+
+                    <div class="form-div white-bg ">
+
+                        <input type="text" class="form-control" placeholder="如何稱呼您？">
+                        <input type="text" class="form-control" placeholder="聯絡電話">
+                        <input type="text" class="form-control" placeholder="電郵">
+                        <input type="text" class="form-control" placeholder="查詢類別">
+                        <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="簡短留言"></textarea>
+
+                        <div class="text-end">
+                            <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <?php get_footer(); ?>
+    <script type="text/javascript">
+    $(function() {
+        $('.about-carousel').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            autoplay: false,
+            pauseOnFocus: false,
+            infinite: true,
+            speed: 800,
+            autoplaySpeed: 5000,
+            cssEase: 'ease-out',
+            pauseOnHover: false
+
+        });
 
 
-})
-</script>
-</body>
 
-</html>
+
+    })
+    </script>
+    </body>
+
+    </html>
