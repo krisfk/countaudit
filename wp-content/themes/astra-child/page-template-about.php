@@ -93,6 +93,9 @@ get_header(); ?>
                 </ul>
 
             </div>
+            <div class="member-title">PARTNER (SECRETARY)</div>
+
+
         </div>
         <div class="col-3 mt-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
@@ -116,6 +119,8 @@ get_header(); ?>
                 </ul>
 
             </div>
+            <div class="member-title">insurance, MPF and banking</div>
+
         </div>
         <!-- <div class="col-4 mt-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100">
