@@ -489,4 +489,9 @@ img.scaled-image {
     margin: 0 auto !important;
 }
 
-.about-carousel .right-content-div .inner-div {}
+.about-carousel .right-content-div .inner-div {
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+    padding: 0 3rem;
+}
