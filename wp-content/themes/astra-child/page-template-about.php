@@ -179,7 +179,7 @@ get_header(); ?>
 
             <div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center gx-0">
 
                     <div class="col-5">
 
