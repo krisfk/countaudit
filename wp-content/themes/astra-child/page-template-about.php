@@ -220,9 +220,10 @@ get_header(); ?>
                             <img class="about-carousel-icon"
                                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-2-icon.png"
                                 alt="">
-                            <h4 class="gold mt-3"> 加快資訊傳遞</h4>
+                            <h4 class="gold mt-3"> 增強小機構業務力量</h4>
 
-                            <div class="blue mt-3">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
+                            <div class="blue mt-3">
+                                協助小型機構，尤其是不太擅長市場推廣的NGO非弁利機構、社會企業和初創小型公司。提供市場商業建議，協助他們實行更有效率管理，省下時間專注服務社會。</div>
 
                         </div>
                     </div>
@@ -247,9 +248,9 @@ get_header(); ?>
                             <img class="about-carousel-icon"
                                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-3-icon.png"
                                 alt="">
-                            <h4 class="gold mt-3"> 加快資訊傳遞</h4>
+                            <h4 class="gold mt-3"> 普及商業知識</h4>
 
-                            <div class="blue mt-3">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
+                            <div class="blue mt-3">使香港各界人士對商業及財務知識更有了解，為自己爭取應得之福祉，例如減少僱員/自僱人士被僱主剝削。</div>
 
                         </div>
                     </div>
@@ -274,9 +275,9 @@ get_header(); ?>
                             <img class="about-carousel-icon"
                                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-4-icon.png"
                                 alt="">
-                            <h4 class="gold mt-3"> 加快資訊傳遞</h4>
+                            <h4 class="gold mt-3"> 連結社會創新企業</h4>
 
-                            <div class="blue mt-3">不斷找出最新商業財務準則之更新，執法部門之行動，業內最新消息，令重要資訊更快廣為人知。</div>
+                            <div class="blue mt-3">締結社會創新圈子，令創業家能夠相互幫助，達至社會共贏</div>
 
                         </div>
                     </div>
