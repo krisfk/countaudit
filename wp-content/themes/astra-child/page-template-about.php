@@ -171,20 +171,22 @@ get_header(); ?>
 </div>
 
 
+<div class="blue-bg">
 
+    <div class="container">
 
-<div class="container">
+        <div class="about-carousel">
 
-    <div class="mt-5">
-        <h4 class="gold text-center">//其他人是怎樣看的？
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
 
-        </h4>
-    </div>
-    <div class="mb-5">
-        <h2 class=" text-center blue">客戶評價</h2>
+        </div>
     </div>
 
 </div>
+
 
 <div class="grey-bg-2 mt-5">
 
@@ -257,7 +259,7 @@ get_header(); ?>
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
-    $('.article-carousel').slick({
+    $('.about-carousel').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
