@@ -39,8 +39,7 @@ get_header(); ?>
     <div class="row justify-content-center gx-5">
         <div class="col-4">
             <div class="img-shadow-div grey-bg p-3">
-                <!-- <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg.webp"
-                    alt=""> -->
+
                 <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
                     alt="">
                 <div class="deep-blue">

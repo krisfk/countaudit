@@ -291,6 +291,66 @@ get_header(); ?>
 </div>
 
 
+<div class="container mt-5">
+
+
+    <div class="row justify-content-center gx-5">
+        <div class="col-4">
+            <div class="img-shadow-div grey-bg p-3">
+
+                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
+                    alt="">
+                <div class="deep-blue">
+                    <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
+                    <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
+                </div>
+
+                <div class="text-end mt-3">
+                    <a href="javascript:void(0);" class="service-contact-btn">Contact Us</a>
+                </div>
+                <div class="img-shadow"></div>
+
+
+            </div>
+
+
+        </div>
+        <div class="col-4">
+            <div class="text-start">
+                <div>
+                    <h4 class="gold"> //HK$3,500起
+                    </h4>
+                </div>
+                <div>
+                    <h2 class="blue"> 有限公司周年審計服務 </h2>
+                    <div class="small-2">價格包括以下服務﹕</div>
+                </div>
+
+                <ul class="service-ul mt-4">
+                    <li>審計核數服務</li>
+                    <li> 編制財務年報</li>
+                    <li> 委任為稅務代表</li>
+                    <li> 填妥利得稅報稅表</li>
+                    <li> 遞交報稅表</li>
+                    <li> 稅務建議</li>
+                    <li> 其他雜項費用</li>
+
+                </ul>
+
+                <div class="mt-4">如您需要，我們也可負責將不完整的賬目完善直到合乎審計標準，詳情另議。
+                    會有專人跟進回覆提問及與客戶商討解決其所有困難。不計工作時間，以解決客人問題為本。</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
