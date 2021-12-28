@@ -165,4 +165,52 @@ echo'</li>';
 
             <div class="">
 
+                <script type="text/javascript">
+                $(function() {
+
+
+                    $('.level-1').mouseenter(function() {
+
+                        if ($(window).width() > 1200) {
+                            $('.mobile-menu-submenu').clearQueue().fadeOut(0);
+
+
+                            if ($(this).hasClass('parent')) {
+                                $(this).next('.mobile-menu-submenu').slideDown(200);
+                            }
+                        }
+
+
+
+                    })
+
+                    $('.mobile-menu-submenu').mouseleave(function() {
+
+                        if ($(window).width() > 1200) {
+
+                            $('.mobile-menu-submenu').fadeOut(0);
+                        }
+                    })
+
+
+                    $('.mobile-menu-submenu').mouseenter(function() {
+
+                        $(this).clearQueue().fadeIn(0);
+
+                    })
+
+
+                    $('.level-1').mouseleave(function() {
+
+                        if ($(window).width() > 1200) {
+
+
+                            $('.mobile-menu-submenu').delay(500).fadeOut(0)
+
+                        }
+                    })
+
+                })
+                </script>
+
                 <?php //astra_content_top(); ?>
