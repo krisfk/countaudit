@@ -439,6 +439,8 @@ img.scaled-image {
     color: #fff;
     max-width: 991px !important;
     margin: -80px 0 0 0;
+    z-index: 100;
+    position: relative;
 }
 
 .banner-bottom-blue-container h3 {
