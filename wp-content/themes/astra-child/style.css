@@ -608,6 +608,11 @@ img.scaled-image {
     margin: 0;
 }
 
+.eng-font {
+    font-family: serif;
+    font-weight: bold;
+}
+
 
 /* 
 .grey-bg-3{
