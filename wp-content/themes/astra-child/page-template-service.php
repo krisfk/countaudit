@@ -40,8 +40,8 @@ get_header(); ?>
         <div class="col-4">
             <div class="img-shadow-div grey-bg p-3">
 
-                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
-                    alt="">
+                <!-- <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
+                    alt=""> -->
                 <div class="deep-blue">
                     <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
                     <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
@@ -59,6 +59,9 @@ get_header(); ?>
         </div>
         <div class="col-4">
             <div class="text-start">
+                <?php echo get_field('service_content');?>
+                <!--
+                    
                 <div>
                     <h4 class="gold"> //HK$3,500起
                     </h4>
@@ -81,6 +84,7 @@ get_header(); ?>
 
                 <div class="mt-4">如您需要，我們也可負責將不完整的賬目完善直到合乎審計標準，詳情另議。
                     會有專人跟進回覆提問及與客戶商討解決其所有困難。不計工作時間，以解決客人問題為本。</div>
+                 -->
             </div>
         </div>
     </div>
