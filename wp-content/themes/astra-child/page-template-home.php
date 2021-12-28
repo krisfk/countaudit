@@ -16,7 +16,9 @@ get_header(); ?>
 
     <div class="position-absolute top-0 start-0 w-100 h-100">
         <div class="container title-container">
-            <div>test</div>
+            <div>
+                <h1 class="txt">test</h1>
+            </div>
         </div>
     </div>
 
