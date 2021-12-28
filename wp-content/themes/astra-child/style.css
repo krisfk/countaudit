@@ -570,6 +570,10 @@ img.scaled-image {
     margin: 1rem auto 0 auto;
 }
 
+.bank-account-table td {
+    padding: 0;
+}
+
 
 /* 
 .grey-bg-3{
