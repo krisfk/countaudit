@@ -36,14 +36,19 @@ get_header(); ?>
 <div class="container mt-5">
 
 
-    <div class="text-center">
-        <div>
-            <h4 class="gold"> //Future-Oriented
-            </h4>
-        </div>
-        <div>
-            <h2 class="blue"> 我們的團隊</h2>
-            <div class="small-2">真誠服務社會，希望為商業社會帶來一點不一樣</div>
+    <div class="row justify-content-middle">
+        <div class="col-5"></div>
+        <div class="col-5">
+            <div class="text-center">
+                <div>
+                    <h4 class="gold"> //Future-Oriented
+                    </h4>
+                </div>
+                <div>
+                    <h2 class="blue"> 我們的團隊</h2>
+                    <div class="small-2">真誠服務社會，希望為商業社會帶來一點不一樣</div>
+                </div>
+            </div>
         </div>
     </div>
 
