@@ -27,12 +27,14 @@ get_header(); ?>
         <div class="position-absolute top-0 start-0 w-100 h-100">
             <div class="container title-container">
                 <div>
-                    <h1 class="txt">test2</h1>
+                    <h1 class="txt">
+                        承包您所有企業行政工作</h1> <br>
+                    <h3 class="txt smaller">審計 | 會計 | 報稅 | 秘書 | 網站 | 數位宣傳 | 設計 等服務</h3>
                 </div>
             </div>
         </div>
         <img class="main-banner-img"
-            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-1.jpg" alt="">
+            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-2.jpg" alt="">
     </div>
 </div>
 
@@ -891,7 +893,7 @@ $(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
-        fade: true,
+        // fade: true,
         arrows: false,
         autoplay: true,
         pauseOnFocus: false,
