@@ -587,7 +587,11 @@ img.scaled-image {
 
 /*  */
 
-.title-container {}
+.title-container {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
 
 .title-container .txt {}
 
