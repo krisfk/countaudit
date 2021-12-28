@@ -37,7 +37,7 @@ get_header(); ?>
 
 
     <div class="row justify-content-center gx-5">
-        <div class="col-4">
+        <div class="col-5">
             <div class="img-shadow-div grey-bg p-3">
 
                 <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('service_image'),'full')[0];?>"
@@ -57,7 +57,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-4">
+        <div class="col-5">
             <div class="text-start">
                 <?php echo get_field('service_content');?>
                 <!--
