@@ -298,7 +298,7 @@ get_header(); ?>
         <div class="col-4">
             <div class="img-shadow-div grey-bg p-3">
 
-                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
+                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-img-1.png"
                     alt="">
 
 
