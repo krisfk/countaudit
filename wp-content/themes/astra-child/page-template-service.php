@@ -111,7 +111,7 @@ get_header(); ?>
                     </div>
                     <div>
                         <h2 class="blue"> 索取服務報價 </h2>
-                        <div class="small-2">請聯絡我們並提供資料，即時能獲取準確報價</div>
+                        <div class="small">請聯絡我們並提供資料，即時能獲取準確報價</div>
                     </div>
                 </div>
             </div>
