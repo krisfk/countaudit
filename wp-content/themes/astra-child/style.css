@@ -574,6 +574,10 @@ img.scaled-image {
     padding: 0;
 }
 
+.round-corner {
+    border-radius: 1rem;
+}
+
 
 /* 
 .grey-bg-3{
