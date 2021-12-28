@@ -331,6 +331,14 @@ get_header(); ?>
 
 </div>
 
+<div class="grey-bg-2">
+
+    <div>
+        <div>Our Team Of Experts <br>
+            Are Here For You</div>
+        <a href="javascript:void(0);" class="meet-them-btn gold-bg white">Meet Them</a>
+    </div>
+</div>
 
 
 <?php get_footer(); ?>
