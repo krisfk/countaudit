@@ -100,7 +100,7 @@ get_header(); ?>
 
 
     <div class="container">
-        <div class="row  mt-5 align-items-center justify-content-center">
+        <div class="row pt-5 pb-5  mt-5 align-items-center justify-content-center">
             <div class="col-5">
 
                 <div>
