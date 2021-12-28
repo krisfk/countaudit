@@ -98,7 +98,7 @@ get_header(); ?>
 
     <div class="container">
         <div class="row  mt-5 align-items-center justify-content-center">
-            <div class="col-5">
+            <div class="col-4">
 
                 <div>
                     <div>
@@ -112,7 +112,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-5 p-5">
+            <div class="col-4 p-5">
 
                 <div class="form-div white-bg ">
 
