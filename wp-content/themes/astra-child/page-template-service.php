@@ -97,7 +97,7 @@ get_header(); ?>
 
 
     <div class="container">
-        <div class="row  mt-5 align-items-center">
+        <div class="row  mt-5 align-items-center justify-content-center">
             <div class="col-5">
 
                 <div>
