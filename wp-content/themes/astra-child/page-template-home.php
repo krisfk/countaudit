@@ -12,7 +12,7 @@
 get_header(); ?>
 
 <div class="main-banner">
-
+    <!--  -->
 
     <div class="position-absolute top-0 start-0 w-100 h-100">
         <div class="container title-container">
