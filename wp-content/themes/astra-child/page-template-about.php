@@ -291,7 +291,7 @@ get_header(); ?>
 </div>
 
 
-<div class="container pt-5 pb-5">
+<div class="container mt-5 mb-5">
 
 
     <div class="row justify-content-center gx-5 align-items-center">
@@ -333,7 +333,7 @@ get_header(); ?>
 
 <div class="grey-bg-2">
 
-    <div class="text-center mt-5 mb-5">
+    <div class="text-center pt-5 pb-5">
         <div class="about-slogan blue">Our Team Of Experts <br>
             Are Here For You</div>
         <a href="javascript:void(0);" class="meet-them-btn gold-bg white">Meet Them</a>
