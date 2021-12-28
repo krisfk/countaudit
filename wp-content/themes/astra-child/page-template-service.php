@@ -36,7 +36,7 @@ get_header(); ?>
 <div class="container mt-5">
 
 
-    <div class="row justify-content-middle">
+    <div class="row justify-content-center">
         <div class="col-5">
             <div class="img-shadow-div">
                 <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg.webp"
@@ -56,6 +56,17 @@ get_header(); ?>
                     <h2 class="blue"> 我們的團隊</h2>
                     <div class="small-2">真誠服務社會，希望為商業社會帶來一點不一樣</div>
                 </div>
+
+                <ul class="service-ul">
+                    <li>審計核數服務</li>
+                    <li> 編制財務年報</li>
+                    <li> 委任為稅務代表</li>
+                    <li> 填妥利得稅報稅表</li>
+                    <li> 遞交報稅表</li>
+                    <li> 稅務建議</li>
+                    <li> 其他雜項費用</li>
+
+                </ul>
             </div>
         </div>
     </div>

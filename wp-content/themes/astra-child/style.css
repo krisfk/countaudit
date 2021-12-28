@@ -532,6 +532,10 @@ img.scaled-image {
     border-radius: 1rem;
 }
 
+.service-ul li {
+    list-style-type: none;
+}
+
 
 /* 
 .grey-bg-3{
