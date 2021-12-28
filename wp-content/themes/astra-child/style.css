@@ -534,6 +534,7 @@ img.scaled-image {
 
 .service-ul li {
     list-style-type: none;
+    background: url(./assets/images/service-ul-li-icon.png) no-repeat;
 }
 
 .service-ul {
