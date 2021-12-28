@@ -333,8 +333,8 @@ get_header(); ?>
 
 <div class="grey-bg-2">
 
-    <div>
-        <div>Our Team Of Experts <br>
+    <div class="text-center mt-5 mb-5">
+        <div class="about-slogan blue">Our Team Of Experts <br>
             Are Here For You</div>
         <a href="javascript:void(0);" class="meet-them-btn gold-bg white">Meet Them</a>
     </div>
