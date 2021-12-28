@@ -47,7 +47,7 @@ get_header(); ?>
 
         </div>
         <div class="col-5">
-            <div class="text-center">
+            <div class="text-start">
                 <div>
                     <h4 class="gold"> //Future-Oriented
                     </h4>
