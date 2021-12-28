@@ -44,8 +44,8 @@ get_header(); ?>
                 <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
                     alt="">
                 <div class="deep-blue">
-                    <h3 class="blue mt-3">我們是CountAudit<br>算數會計師事務所</h3>
-                    <div class=" mt-3">是真正在hkicpa登記的<br>執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
+                    <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
+                    <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
                 </div>
 
                 <div class="text-end mt-3">
