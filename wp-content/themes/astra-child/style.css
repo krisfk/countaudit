@@ -608,6 +608,10 @@ img.scaled-image {
     margin: 0;
 }
 
+.title-container .txt.smaller {
+    font-size: 2.5rem;
+}
+
 .eng-font {
     font-family: serif;
     font-weight: bold;
