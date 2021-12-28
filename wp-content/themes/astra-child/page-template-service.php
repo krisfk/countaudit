@@ -112,7 +112,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-8 p-5">
+            <div class="col-7 p-5">
 
                 <div class="form-div white-bg ">
 
