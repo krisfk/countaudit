@@ -48,7 +48,7 @@ get_header(); ?>
                     <div class=" mt-3">是真正在hkicpa登記的<br>執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
                 </div>
 
-                <a href="service-contact-btn">Contact Us</a>
+                <a href="javascript:void(0);" class="service-contact-btn">Contact Us</a>
                 <div class="img-shadow"></div>
 
 
