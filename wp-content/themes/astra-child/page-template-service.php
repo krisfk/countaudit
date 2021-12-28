@@ -49,12 +49,12 @@ get_header(); ?>
         <div class="col-4">
             <div class="text-start">
                 <div>
-                    <h4 class="gold"> //Future-Oriented
+                    <h4 class="gold"> //HK$3,500起
                     </h4>
                 </div>
                 <div>
-                    <h2 class="blue"> 我們的團隊</h2>
-                    <div class="small-2">真誠服務社會，希望為商業社會帶來一點不一樣</div>
+                    <h2 class="blue"> 有限公司周年審計服務 </h2>
+                    <div class="small-2">價格包括以下服務﹕</div>
                 </div>
 
                 <ul class="service-ul mt-4">
