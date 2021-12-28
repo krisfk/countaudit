@@ -37,7 +37,15 @@ get_header(); ?>
 
 
     <div class="row justify-content-middle">
-        <div class="col-5"></div>
+        <div class="col-5">
+            <div class="img-shadow-div">
+                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg.webp"
+                    alt="">
+                <div class="img-shadow"></div>
+            </div>
+
+
+        </div>
         <div class="col-5">
             <div class="text-center">
                 <div>
