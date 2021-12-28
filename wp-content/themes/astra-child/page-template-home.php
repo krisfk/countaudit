@@ -892,7 +892,7 @@ $(function() {
         slidesToScroll: 1,
         dots: false,
         arrows: false,
-        autoplay: false,
+        autoplay: true,
         pauseOnFocus: false,
         infinite: true,
         speed: 800,
