@@ -547,6 +547,10 @@ img.scaled-image {
 
 .service-contact-btn {
     display: inline-block;
+    background: #3e485e;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
 
