@@ -47,7 +47,11 @@ get_header(); ?>
                     <h3 class="blue mt-3">我們是CountAudit<br>算數會計師事務所</h3>
                     <div class=" mt-3">是真正在hkicpa登記的<br>執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
                 </div>
+
+                <a href="service-contact-btn">Contact Us</a>
                 <div class="img-shadow"></div>
+
+
             </div>
 
 

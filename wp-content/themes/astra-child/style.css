@@ -545,6 +545,10 @@ img.scaled-image {
     margin: 0 0 0 0;
 }
 
+.service-contact-btn {
+    display: inline-block;
+}
+
 
 /* 
 .grey-bg-3{
