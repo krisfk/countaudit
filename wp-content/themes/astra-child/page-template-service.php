@@ -24,7 +24,12 @@ get_header(); ?>
     <div class="p-4">
         <h3 class="white text-center">We'd Love To Meet You <br>And Let You The Perfect Solution</h3>
 
-        <div class="text-end gold small">CountAudit宗旨</div>
+        <ul class="gold-btn-ul">
+            <li> <a class="gold-btn" href="javascript:void(0);"> SCHEDULE A MEETING</a></li>
+            <li><a class="gold-btn" href="javascript:void(0);">CONTACT US</a></li>
+            <li><a class="gold-btn" href="javascript:void(0);">DOWNLOAD BROCHURE</a></li>
+        </ul>
+        <!-- <div class="text-end gold small">CountAudit宗旨</div> -->
     </div>
 </div>
 

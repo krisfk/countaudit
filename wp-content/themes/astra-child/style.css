@@ -512,6 +512,14 @@ img.scaled-image {
     padding: 0 3rem;
 }
 
+.gold-btn-ul {}
+
+.gold-btn-ul li {}
+
+.gold-btn-ul li a {
+    color: #363e51;
+}
+
 
 /* 
 .grey-bg-3{
