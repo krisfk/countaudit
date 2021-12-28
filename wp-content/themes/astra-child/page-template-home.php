@@ -38,6 +38,21 @@ get_header(); ?>
         <img class="main-banner-img"
             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-2.jpg" alt="">
     </div>
+
+    <div class="main-banner">
+        <div class="position-absolute top-0 start-0 w-100 h-100">
+            <div class="container title-container">
+                <div>
+                    <h1 class="txt">
+
+                        每天不分晝夜</h1> <br>
+                    <h3 class="txt">解答您的各種商業疑難</h3>
+                </div>
+            </div>
+        </div>
+        <img class="main-banner-img"
+            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-3.jpg" alt="">
+    </div>
 </div>
 
 <div class="container home-pts-ul-wrapper-container">
