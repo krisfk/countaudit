@@ -891,6 +891,7 @@ $(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
+        fade: true,
         arrows: false,
         autoplay: true,
         pauseOnFocus: false,
