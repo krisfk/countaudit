@@ -512,12 +512,24 @@ img.scaled-image {
     padding: 0 3rem;
 }
 
-.gold-btn-ul {}
+.gold-btn-ul {
+    margin: 2rem 0 0 0;
+    padding: 0;
+    text-align: center;
+}
 
-.gold-btn-ul li {}
+.gold-btn-ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
 
 .gold-btn-ul li a {
+    text-decoration: none;
     color: #363e51;
+    background: #e7ab5d;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
 
