@@ -57,7 +57,7 @@ get_header(); ?>
                     <div class="small-2">真誠服務社會，希望為商業社會帶來一點不一樣</div>
                 </div>
 
-                <ul class="service-ul">
+                <ul class="service-ul mt-4">
                     <li>審計核數服務</li>
                     <li> 編制財務年報</li>
                     <li> 委任為稅務代表</li>
@@ -68,7 +68,7 @@ get_header(); ?>
 
                 </ul>
 
-                <div class="mt-3">如您需要，我們也可負責將不完整的賬目完善直到合乎審計標準，詳情另議。
+                <div class="mt-4">如您需要，我們也可負責將不完整的賬目完善直到合乎審計標準，詳情另議。
                     會有專人跟進回覆提問及與客戶商討解決其所有困難。不計工作時間，以解決客人問題為本。</div>
             </div>
         </div>
