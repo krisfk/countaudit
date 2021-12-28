@@ -36,8 +36,8 @@ get_header(); ?>
 <div class="container mt-5">
 
 
-    <div class="row justify-content-center">
-        <div class="col-5">
+    <div class="row justify-content-center gx-5">
+        <div class="col-4">
             <div class="img-shadow-div">
                 <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg.webp"
                     alt="">
@@ -46,7 +46,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-5">
+        <div class="col-4">
             <div class="text-start">
                 <div>
                     <h4 class="gold"> //Future-Oriented
