@@ -294,7 +294,7 @@ get_header(); ?>
 <div class="container mt-5">
 
 
-    <div class="row justify-content-center gx-5">
+    <div class="row justify-content-center gx-5 align-items-middle">
         <div class="col-4">
             <div class="img-shadow-div grey-bg p-3">
 
@@ -318,27 +318,15 @@ get_header(); ?>
         <div class="col-4">
             <div class="text-start">
                 <div>
-                    <h4 class="gold"> //HK$3,500起
+                    <h4 class="gold"> //Remember The Society
                     </h4>
                 </div>
                 <div>
-                    <h2 class="blue"> 有限公司周年審計服務 </h2>
-                    <div class="small-2">價格包括以下服務﹕</div>
+                    <h2 class="blue"> 盡心服務社會 </h2>
+                    <div class="small-2">作為一個社會企業，所有業務工作都首要以社會利益為依歸，著眼社會利益多於個人利益</div>
                 </div>
 
-                <ul class="service-ul mt-4">
-                    <li>審計核數服務</li>
-                    <li> 編制財務年報</li>
-                    <li> 委任為稅務代表</li>
-                    <li> 填妥利得稅報稅表</li>
-                    <li> 遞交報稅表</li>
-                    <li> 稅務建議</li>
-                    <li> 其他雜項費用</li>
 
-                </ul>
-
-                <div class="mt-4">如您需要，我們也可負責將不完整的賬目完善直到合乎審計標準，詳情另議。
-                    會有專人跟進回覆提問及與客戶商討解決其所有困難。不計工作時間，以解決客人問題為本。</div>
             </div>
         </div>
     </div>
