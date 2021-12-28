@@ -20,6 +20,21 @@ body {
 
 .mobile-menu-submenu {
     display: none;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    padding: 0.5rem 0 0.5rem 0;
+    background: #000;
+    margin: 0;
+    border-radius: 1rem;
+}
+
+.mobile-menu-submenu li {
+    display: block !important;
+    width: max-content;
+    padding: 0.2rem 1rem;
+    /* background:#000; */
+    margin: 0 !important;
 }
 
 .logo-a {
