@@ -16,7 +16,9 @@ get_header(); ?>
         <div class="position-absolute top-0 start-0 w-100 h-100">
             <div class="container title-container">
                 <div>
-                    <h1 class="txt">test</h1>
+                    <h1 class="txt">
+                        The Answers, At One Go</h1> <br>
+                    <h3 class="txt smaller">後顧無憂的商業解答</h3>
                 </div>
             </div>
         </div>
