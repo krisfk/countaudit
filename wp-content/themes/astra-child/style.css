@@ -536,6 +536,11 @@ img.scaled-image {
     list-style-type: none;
 }
 
+.service-ul {
+    padding: 0;
+    margin: 0;
+}
+
 
 /* 
 .grey-bg-3{
