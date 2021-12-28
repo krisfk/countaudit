@@ -14,7 +14,7 @@ get_header(); ?>
 <div class="main-banner">
 
 
-    <div class="">
+    <div class="position-absolute top-0 start-0 w-100 h-100">
         <div class="container">
             <div><?php echo get_field('title_txt');?></div>
         </div>
