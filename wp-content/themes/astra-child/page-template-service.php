@@ -48,7 +48,7 @@ get_header(); ?>
                 </div>
 
                 <div class="text-end mt-3">
-                    <a href="javascript:void(0);" class="service-contact-btn">Contact Us</a>
+                    <a href="javascript:void(0);" class="service-contact-btn">Registry</a>
                 </div>
                 <div class="img-shadow"></div>
 
