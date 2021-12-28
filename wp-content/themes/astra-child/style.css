@@ -554,9 +554,21 @@ img.scaled-image {
     color: #fff;
 }
 
-.about-slogan {}
+.about-slogan {
+    font-size: 4rem;
+    font-family: serif;
+    font-weight: bold;
+    line-height: 4rem;
+}
 
-.meet-them-btn {}
+.meet-them-btn {
+    background: #e7ab5d;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: table;
+    margin: 1rem auto 0 auto;
+}
 
 
 /* 
