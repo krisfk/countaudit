@@ -601,7 +601,7 @@ img.scaled-image {
 
 .title-container .txt {
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     background: rgb(54 63 80 / 75%);
     color: #fff;
     padding: 0.5rem 1.5rem;
@@ -609,7 +609,7 @@ img.scaled-image {
 }
 
 .title-container .txt.smaller {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .eng-font {
