@@ -104,7 +104,7 @@ body {
 /*  */
 
 .main-banner .main-banner-img {
-    width: 65%;
+    /* width: 65%; */
     margin: 0 auto;
     display: block;
     opacity: 0;
