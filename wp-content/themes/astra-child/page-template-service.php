@@ -39,8 +39,14 @@ get_header(); ?>
     <div class="row justify-content-center gx-5">
         <div class="col-4">
             <div class="img-shadow-div">
-                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg.webp"
+                <!-- <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg.webp"
+                    alt=""> -->
+                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
                     alt="">
+                <div>
+                    <h2>我們是CountAudit<br>算數會計師事務所</h2>
+                    <div>是真正在hkicpa登記的<br>執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
+                </div>
                 <div class="img-shadow"></div>
             </div>
 
