@@ -406,20 +406,28 @@ get_header(); ?>
 
     <div class="container img-shadow-div grey-bg p-3">
 
-        <img class="w-100 lazyloaded"
-            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg.webp" alt=""
-            data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg.webp" loading="lazy"
-            data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg.webp"><noscript><img
-                class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg" alt=""
-                data-eio="l"></noscript>
-        <div class="deep-blue">
-            <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
-            <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
+        <div class="row">
+            <div class="col-3"> <img class="w-100 lazyloaded"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg.webp" alt=""
+                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg.webp"
+                    loading="lazy"
+                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg.webp"><noscript><img
+                        class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-1.jpg"
+                        alt="" data-eio="l"></noscript></div>
+            <div class="col-9">
+                <div class="deep-blue">
+                    <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
+                    <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
+                </div>
+            </div>
         </div>
 
-        <div class="text-end mt-3">
+
+
+
+        <!-- <div class="text-end mt-3">
             <a href="javascript:void(0);" class="service-contact-btn">Registry</a>
-        </div>
+        </div> -->
         <div class="img-shadow"></div>
 
 
