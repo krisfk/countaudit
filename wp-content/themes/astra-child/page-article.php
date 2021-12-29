@@ -18,7 +18,7 @@ get_header(); ?>
 
         <div class="container title-container">
             <div>
-                <h2 class="txt"><?php echo get_the_title();?></h2><?php //echo get_field('title_txt');?>
+                <h2 class="txt smaller"><?php echo get_the_title();?></h2><?php //echo get_field('title_txt');?>
             </div>
         </div>
 
