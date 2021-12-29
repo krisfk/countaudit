@@ -266,9 +266,9 @@ get_header(); ?>
             </tr>
             <tr>
                 <td class="border-0"></td>
-                <td class="border-0 white-bg"></td>
-                <td class="border-0 white-bg"></td>
-                <td class="border-0 white-bg"></td>
+                <td class="border-0"> <a href="#" class="choose-plan-btn">Choose Plan</a> </td>
+                <td class="border-0"><a href="#" class="choose-plan-btn">Choose Plan</a></td>
+                <td class="border-0"><a href="#" class="choose-plan-btn">Choose Plan</a></td>
                 </td>
             </tr>
 
