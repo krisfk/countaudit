@@ -76,7 +76,7 @@ get_header(); ?>
 
                     <div class="price-table-body grey-bg text-center">
 
-                        <div class="price">$1,000</div>
+                        <div class="price">$650</div>
                         <div>Per Company</div>
 
                         <ul>
@@ -84,14 +84,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"
-                                                    loading="lazy" class=" ls-is-cached lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">HSBC, BEA, CITIC
                                                 開戶專人跟進</td>
                                         </tr>
