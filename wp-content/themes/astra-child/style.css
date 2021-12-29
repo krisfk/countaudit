@@ -658,3 +658,11 @@ img.scaled-image {
 .grey-bg-3{
     background: ;
 } */
+
+.gold-btn {
+    text-decoration: none;
+    color: #363e51;
+    background: #e7ab5d;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
