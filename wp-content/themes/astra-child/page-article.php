@@ -86,7 +86,7 @@ get_header(); ?>
     border-top: 1px solid #363e51;
     padding: 1rem 0 0 0; */
 
-    margin: 1rem 0 0 0 !important;
+    /* margin: 1rem 0 0 0 !important; */
     display: inline-block;
     background: rgb(54 62 81);
     color: #fff;
