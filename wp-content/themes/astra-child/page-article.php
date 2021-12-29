@@ -54,7 +54,7 @@ get_header(); ?>
 }
 
 .elementor-widget-table-of-contents {
-    display: none;
+    /* display: none; */
 }
 
 .article-content h1 {
