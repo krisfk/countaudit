@@ -703,5 +703,5 @@ img.scaled-image {
 }
 
 .ltd-co-table th:nth-child(2n + 1) .table-head {
-    background: #000;
+    background: rgb(54 64 80 / 90%);
 }
