@@ -55,6 +55,14 @@ get_header(); ?>
 .elementor-widget-table-of-contents {
     display: none;
 }
+
+h2 {
+    color: #363e51;
+}
+
+h3 {
+    color: #363e51;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
