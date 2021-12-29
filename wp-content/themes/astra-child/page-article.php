@@ -17,7 +17,9 @@ get_header(); ?>
 
 
         <div class="container title-container">
-            <!-- <div><?php echo get_field('title_txt');?></div> -->
+            <div>
+                <h2 class="txt">fdsaf</h2><?php //echo get_field('title_txt');?>
+            </div>
         </div>
 
     </div>
