@@ -80,6 +80,21 @@ get_header(); ?>
                 </th>
             </tr>
         </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>
+                    <div>$2,950</div>
+                    <a href="#" class="gold-btn">fdsaf</a>
+                </td>
+                <td>
+                    <div>$3,845</div>
+                </td>
+                <td>
+                    <div>$4,645</div>
+                </td>
+            </tr>
+        </tbody>
     </table>
 
 </div>
