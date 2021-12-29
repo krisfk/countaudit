@@ -61,59 +61,484 @@ get_header(); ?>
             會有專人跟進回覆提問及與客戶商討解決其所有困難。不計工作時間，以解決客人問題為本。</div>
     </div>
 
-    <div class="row justify-content-center gx-5">
-        <div class="col-5">
-            <div class="img-shadow-div grey-bg p-3">
+    <div class="container">
 
-                <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('service_image'),'full')[0];?>"
-                    alt="">
-                <div class="deep-blue">
-                    <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
-                    <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
+        <div class="row">
+
+            <div class="col-4 mb-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">特快銀行開戶</h3>
+                        <div>低至HK$1,000</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$1,000</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">HSBC, BEA, CITIC
+                                                開戶專人跟進</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">最快一星期成功開戶</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">開戶費可減甚至全免</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
                 </div>
-
-                <div class="text-end mt-3">
-                    <a href="javascript:void(0);" class="service-contact-btn">Registry</a>
-                </div>
-                <div class="img-shadow"></div>
-
 
             </div>
 
 
-        </div>
-        <div class="col-5">
-            <div class="text-start">
-                <?php echo get_field('service_content');?>
-                <!--
-                    
-                <div>
-                    <h4 class="gold"> //HK$3,500起
-                    </h4>
+            <div class="col-4 mb-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">審計、報稅</h3>
+                        <div>低至HK$3,500</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$3,500</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">審計服務</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">報稅服務</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"
+                                                    loading="lazy" class=" lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">稅務支出減免建議</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
                 </div>
-                <div>
-                    <h2 class="blue"> 有限公司周年審計服務 </h2>
-                    <div class="small-2">價格包括以下服務﹕</div>
-                </div>
 
-                <ul class="service-ul mt-4">
-                    <li>審計核數服務</li>
-                    <li> 編制財務年報</li>
-                    <li> 委任為稅務代表</li>
-                    <li> 填妥利得稅報稅表</li>
-                    <li> 遞交報稅表</li>
-                    <li> 稅務建議</li>
-                    <li> 其他雜項費用</li>
-
-                </ul>
-
-                <div class="mt-4">如您需要，我們也可負責將不完整的賬目完善直到合乎審計標準，詳情另議。
-                    會有專人跟進回覆提問及與客戶商討解決其所有困難。不計工作時間，以解決客人問題為本。</div>
-                 -->
             </div>
+
+
+            <div class="col-4 mb-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">特快銀行開戶</h3>
+                        <div>低至HK$2,950</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$2,950</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
+                                                    loading="lazy" class=" lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">成立公司全包服務</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"
+                                                    loading="lazy" class=" lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">轉介開戶服務</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"
+                                                    loading="lazy" class=" lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">各種牌照,技術轉介</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-4 mb-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">會計</h3>
+                        <div>低至HK$1,000</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$1,000</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">雲端會計服務
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">會計紀錄整理代存服務</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">會計分析服務</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-4 mb-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">虛擬辦公室</h3>
+                        <div>低至HK$650</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$650</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">代收信件包裹</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">公司水牌</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">其他業務增值服務</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-4 mb-4">
+
+                <div class="price-table">
+
+                    <div class="price-title white blue-bg text-center pt-3 pb-3">
+                        <h3 class="gold-2">公司秘書</h3>
+                        <div>低至HK$1,000</div>
+                    </div>
+
+                    <div class="price-table-body grey-bg text-center">
+
+                        <div class="price">$1,000</div>
+                        <div>Per Company</div>
+
+                        <ul>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">製作交付周年申報
+                                                及其他表格</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">合規及盡職調查</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"
+                                                    loading="lazy" class=" ls-is-cached lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">重要控制人士登記冊</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <div class="small-2">亦可聯絡我們詳議</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
+    <!-- <div class="row justify-content-center gx-5">
+
+
+    </div>
+ -->
 
 
 
