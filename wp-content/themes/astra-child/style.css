@@ -679,3 +679,7 @@ img.scaled-image {
 .ltd-co-table tbody tr td {
     border-bottom: 1px solid #e5e5e5;
 }
+
+.ltd-co-table tbody tr:nth-child(n + 1) td {
+    padding: 1rem;
+}
