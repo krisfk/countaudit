@@ -165,7 +165,9 @@ img.scaled-image {
     position: relative;
 }
 
-.img-shadow-div.one-column {}
+.img-shadow-div.one-column {
+    max-width: 991px;
+}
 
 .gold {
     color: #e7ab5d;
