@@ -87,7 +87,7 @@ get_header(); ?>
     padding: 1rem 0 0 0;
 }
 
-.elementor-divider-separator {
+.elementor-widget-divider .elementor-divider {
     /* border-top: 1px solid #363e51; */
     display: none;
 
