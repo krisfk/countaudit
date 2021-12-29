@@ -70,6 +70,13 @@ get_header(); ?>
 
 }
 
+.elementor a {
+    color: #363e51 !important;
+    text-decoration: underline;
+
+}
+
+
 .article-content .elementor-icon-list-icon {
     margin: 0 0.5rem 0 0;
 }
