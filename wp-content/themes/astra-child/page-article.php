@@ -77,6 +77,12 @@ get_header(); ?>
 .article-content h3 {
     color: #363e51;
 }
+
+.article-content .elementor-icon-list-item:not(:last-child):after {
+    content: "";
+    height: 15%;
+    border-color: #363e51;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
