@@ -274,14 +274,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">註冊公司地址
                                                 (觀塘及荃灣)</td>
                                         </tr>
@@ -292,14 +287,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">信件代收</td>
                                         </tr>
                                     </tbody>
@@ -309,14 +299,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">稅局郵件轉寄</td>
                                         </tr>
                                     </tbody>
@@ -326,14 +311,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">製作公司水牌</td>
                                         </tr>
                                     </tbody>
@@ -343,14 +323,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">每月郵件轉寄</td>
                                         </tr>
                                     </tbody>
@@ -360,14 +335,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">每月包裹轉寄
                                                 (包首1kg 以下)</td>
                                         </tr>
@@ -378,14 +348,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">每月一次
                                                 會議室出租</td>
                                         </tr>
@@ -396,14 +361,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">辦公室電話代接</td>
                                         </tr>
                                     </tbody>
@@ -413,14 +373,9 @@ get_header(); ?>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
-                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
                                             <td class="ps-2">辦公室出租(另議)</td>
                                         </tr>
                                     </tbody>
