@@ -59,6 +59,7 @@ get_header(); ?>
 
 .elementor-widget-table-of-contents h2 {
     border-top: 0px !important;
+    margin: 0;
 }
 
 .article-content h1 {
