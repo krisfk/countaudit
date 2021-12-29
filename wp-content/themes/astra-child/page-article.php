@@ -86,7 +86,7 @@ get_header(); ?>
 }
 
 .article-content .elementor-post-info {
-    display: none;
+    display: none !important;
 }
 
 .article-content .elementor-icon-list-item:not(:last-child):after {
