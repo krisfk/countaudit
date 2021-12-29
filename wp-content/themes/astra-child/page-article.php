@@ -65,8 +65,8 @@ get_header(); ?>
     color: #363e51;
 }
 
-.article-content a {
-    color: #363e51;
+.article-content .elementor-inline-items a {
+    color: #363e51 !important;
 
 }
 
