@@ -87,8 +87,7 @@ get_header(); ?>
                                             <td class="icon-td"><img class="w-100"
                                                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
                                                     alt=""></td>
-                                            <td class="ps-2">HSBC, BEA, CITIC
-                                                開戶專人跟進</td>
+                                            <td class="ps-2">註冊公司地址 (觀塘及荃灣)</td>
                                         </tr>
                                     </tbody>
                                 </table>
