@@ -65,6 +65,10 @@ get_header(); ?>
     color: #363e51;
 }
 
+.elementor-widget-table-of-contents .elementor-widget-container {
+    border: 2px solid #363e51;
+}
+
 .article-content h2 {
     color: #363e51;
     border-top: 1px solid #363e51;
