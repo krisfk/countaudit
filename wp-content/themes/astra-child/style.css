@@ -666,4 +666,6 @@ img.scaled-image {
     background: #e7ab5d;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
