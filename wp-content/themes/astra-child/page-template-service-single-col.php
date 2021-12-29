@@ -288,6 +288,23 @@ get_header(); ?>
                                     </tbody>
                                 </table>
                             </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
+                                                    alt=""
+                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"
+                                                    loading="lazy" class=" lazyloaded"
+                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png.webp"><noscript><img
+                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
+                                                        alt="" data-eio="l"></noscript></td>
+                                            <td class="ps-2">信件代收</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
 
 
                         </ul>
