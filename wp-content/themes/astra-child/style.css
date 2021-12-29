@@ -684,6 +684,10 @@ img.scaled-image {
     padding: 0.5rem;
 }
 
+.ltd-co-table tbody tr:last-child td {
+    border-radius: 0 0 1rem 1rem;
+}
+
 .tick {
     width: 2rem;
 }
