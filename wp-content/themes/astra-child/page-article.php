@@ -73,6 +73,7 @@ get_header(); ?>
 .elementor a {
     color: #363e51 !important;
     text-decoration: underline;
+    font-weight: bold;
 
 }
 
