@@ -85,13 +85,17 @@ get_header(); ?>
                 <td></td>
                 <td>
                     <div class="price">$2,950</div>
-                    <a href="#" class="gold-btn">fdsaf</a>
+                    <span class="gold-label">BEST PRICE</span>
                 </td>
                 <td>
                     <div class="price">$3,845</div>
+                    <span class="gold-label">MOST POPULAR</span>
+
                 </td>
                 <td>
                     <div class="price">$4,645</div>
+                    <span class="gold-label">ALL INCLUSIVE</span>
+
                 </td>
             </tr>
         </tbody>
