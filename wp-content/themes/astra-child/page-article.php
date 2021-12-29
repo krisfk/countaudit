@@ -87,6 +87,11 @@ get_header(); ?>
     padding: 1rem 0 0 0;
 }
 
+.elementor-divider-separator {
+    border-top: 1px solid #363e51;
+
+}
+
 .article-content .elementor-inline-items .elementor-icon-list-text {
     color: #363e51 !important;
 
