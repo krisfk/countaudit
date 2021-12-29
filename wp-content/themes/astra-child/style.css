@@ -669,3 +669,7 @@ img.scaled-image {
     font-weight: bold;
     font-size: 0.8rem;
 }
+
+.ltd-co-table tr td:nth-child(2n) {
+    background: #f7f7f7;
+}
