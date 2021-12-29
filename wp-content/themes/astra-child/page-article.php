@@ -147,6 +147,11 @@ get_header(); ?>
     border-top: 0px;
     padding: 0 1rem;
 }
+
+.elementor-posts .elementor-post__thumbnail {
+    position: relative;
+    padding: 0 !important;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
