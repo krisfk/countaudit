@@ -66,6 +66,11 @@ get_header(); ?>
     color: #363e51;
 }
 
+.elementor-widget-table-of-contents {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .elementor-widget-table-of-contents .elementor-widget-container {
     border: 0px solid #363e51;
     border-radius: 1rem 1rem 0 0;
