@@ -58,7 +58,7 @@ get_header(); ?>
 }
 
 .elementor-widget-table-of-contents h2 {
-    border-top: 0px;
+    border-top: 0px !important;
 }
 
 .article-content h1 {
