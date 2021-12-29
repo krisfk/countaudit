@@ -47,8 +47,7 @@ get_header(); ?>
 </div>
 
 <?php echo get_the_content();?>
-
-<!--  -->
+<!-- 
 <div class="container mt-5">
 
     <div class="text-center">
@@ -295,7 +294,7 @@ get_header(); ?>
         </div>
     </div>
     <div class="img-shadow"></div>
-</div>
+</div> -->
 
 
 
