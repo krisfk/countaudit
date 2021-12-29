@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<div class="blue-bg pt-4 pb-4">
+<div class="blue-bg pt-4 pb-4 d-table w-100">
 
     <div class="container">
 
@@ -101,7 +101,7 @@ echo'</li>';
     </div>
 
 </div>
-<div class="blue-bg-2 pt-3 pb-3">
+<div class="blue-bg-2 pt-3 pb-3 d-table w-100">
     <div class="container copyright-sentence small-2">
         Copyright &copy; <?php echo date('Y');?> CountAudit 算數會計師事務所 | Powered by CountAudit 算數會計師事務所 | CPA Practice
         Registration Number:
