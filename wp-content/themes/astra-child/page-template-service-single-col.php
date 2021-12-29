@@ -146,13 +146,13 @@ get_header(); ?>
                 <div class="price-table">
 
                     <div class="price-title white blue-bg text-center pt-3 pb-3">
-                        <h3 class="gold-2">審計、報稅</h3>
+                        <h3 class="gold-2">Standard</h3>
                         <div>低至HK$3,500</div>
                     </div>
 
                     <div class="price-table-body grey-bg text-center">
 
-                        <div class="price">$3,500</div>
+                        <div class="price">$950</div>
                         <div>Per Company</div>
 
                         <ul>
@@ -173,40 +173,8 @@ get_header(); ?>
                                     </tbody>
                                 </table>
                             </li>
-                            <li>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"
-                                                    loading="lazy" class=" ls-is-cached lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png"
-                                                        alt="" data-eio="l"></noscript></td>
-                                            <td class="ps-2">報稅服務</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
-                            <li>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png"
-                                                        alt="" data-eio="l"></noscript></td>
-                                            <td class="ps-2">稅務支出減免建議</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
+
+
                         </ul>
 
                         <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
