@@ -57,13 +57,17 @@ get_header(); ?>
     /* display: none; */
 }
 
+.elementor-widget-table-of-contents h2 {
+    border-top: 0px;
+}
+
 .article-content h1 {
     color: #363e51;
 }
 
 .article-content h2 {
     color: #363e51;
-    border-top: 3px solid #363e51;
+    border-top: 1px solid #363e51;
     padding: 1rem 0 0 0;
 }
 
