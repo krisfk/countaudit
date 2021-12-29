@@ -78,6 +78,10 @@ get_header(); ?>
     color: #363e51;
 }
 
+.article-content .elementor-post-info {
+    display: none;
+}
+
 .article-content .elementor-icon-list-item:not(:last-child):after {
     content: "";
     height: 15%;
