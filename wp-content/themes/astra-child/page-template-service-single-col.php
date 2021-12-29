@@ -191,64 +191,77 @@ get_header(); ?>
             <tr>
                 <td>填寫及遞交之後年份周年申報表</td>
                 <td></td>
-                <td></td>
-                <td></td>
+                <td>如下年度秘書服務續期</td>
+                <td>如下年度秘書服務續期</td>
             </tr>
             <tr>
                 <td>更改公司秘書及董事</td>
                 <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
 
             <tr>
                 <td>註冊辦事處地址更改</td>
                 <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
 
             <tr>
                 <td>重要控制人登記冊</td>
                 <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>辦理公司綠盒(Company Kit)</td>
                 <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>商業大廈公司註冊地址</td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>公司水牌</td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>代收公司郵件</td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>每月郵件轉寄</td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>每月一次會議室租借</td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
 
 
