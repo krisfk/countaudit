@@ -138,6 +138,15 @@ get_header(); ?>
     height: 15%;
     border-color: #363e51 !important;
 }
+
+.comments-area {
+    /* border-top: 1px solid #eee;
+    margin-top: 2em; */
+    max-width: 1000px;
+    margin: 0 auto 5rem auto;
+    border-top: 0px;
+    padding: 0 1rem;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
