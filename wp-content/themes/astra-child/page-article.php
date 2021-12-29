@@ -71,6 +71,9 @@ get_header(); ?>
 
 .elementor-toc__header {
     border-bottom: 4px solid #363e51;
+    padding: 0 1rem;
+    background: #363e51;
+    color: #fff;
 
 }
 
