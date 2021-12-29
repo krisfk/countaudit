@@ -675,3 +675,7 @@ img.scaled-image {
 .ltd-co-table tr td:nth-child(2n) {
     background: #f7f7f7;
 }
+
+.ltd-co-table tbody tr td {
+    border-bottom: 1px solid #403f50;
+}
