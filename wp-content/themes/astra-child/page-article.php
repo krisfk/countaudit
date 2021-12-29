@@ -69,6 +69,7 @@ get_header(); ?>
     border: 0px solid #363e51;
     border-radius: 1rem 1rem 0 0;
     background: #f7f7f7;
+    margin: 2rem 0 0 0;
 
 }
 
