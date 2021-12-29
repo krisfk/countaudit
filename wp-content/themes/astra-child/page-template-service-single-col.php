@@ -92,6 +92,42 @@ get_header(); ?>
                                     </tbody>
                                 </table>
                             </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
+                                            <td class="ps-2">信件代收</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
+                                            <td class="ps-2">稅局郵件轉寄</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-td"><img class="w-100"
+                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/double-tick.png"
+                                                    alt=""></td>
+                                            <td class="ps-2">製作公司水牌</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
 
 
                         </ul>
