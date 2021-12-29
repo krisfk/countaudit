@@ -688,4 +688,11 @@ img.scaled-image {
     width: 2rem;
 }
 
-.choose-plan-btn {}
+.choose-plan-btn {
+    display: inline-block;
+    background: #363f50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin: 0 0 1rem;
+}
