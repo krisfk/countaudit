@@ -702,6 +702,6 @@ img.scaled-image {
     margin: 0 0 1rem;
 }
 
-.ltd-co-table .table-head:nth-child(2n + 1) {
+.ltd-co-table th:nth-child(2n + 1) .table-head {
     background: #000;
 }
