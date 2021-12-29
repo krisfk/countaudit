@@ -621,7 +621,18 @@ img.scaled-image {
     font-weight: bold;
 }
 
-.ltd-co-table .table-head {}
+.ltd-co-table .table-head {
+    background: #364050;
+    color: #e7aa5d;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.ltd-co-table th {
+    margin: 0;
+    padding: 0;
+}
 
 
 /* 
