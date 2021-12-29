@@ -65,6 +65,11 @@ get_header(); ?>
     color: #363e51;
 }
 
+.article-content a {
+    color: #363e51;
+
+}
+
 .article-content .elementor-icon-list-icon {
     margin: 0 0.5rem 0 0;
 }
