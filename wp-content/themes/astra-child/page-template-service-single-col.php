@@ -404,7 +404,7 @@ get_header(); ?>
 
 
 
-    <div class="container img-shadow-div grey-bg p-3">
+    <div class="container img-shadow-div one-column grey-bg p-3">
 
         <div class="row">
             <div class="col-3"> <img class="w-100"
@@ -419,16 +419,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-
-
-
-
-        <!-- <div class="text-end mt-3">
-            <a href="javascript:void(0);" class="service-contact-btn">Registry</a>
-        </div> -->
         <div class="img-shadow"></div>
-
-
     </div>
 
 
