@@ -102,64 +102,91 @@ get_header(); ?>
                 <td>查冊公司名稱</td>
                 <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
                 </td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
-            <!--  -->
             <tr>
                 <td>成立合法有限公司</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>填寫法團成立表格</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>首年商業登記証</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>公司開立証明書</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>修訂公司組織章程細則</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>跟進轉介開立公司戶口</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>會計師核証副本</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>持續業務諮詢介紹</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
 
             <tr>
                 <td>委任一年公司秘書</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td> </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
+                </td>
             </tr>
             <tr>
                 <td>填寫及遞交之後年份周年申報表</td>
