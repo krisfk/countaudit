@@ -49,6 +49,18 @@ get_header(); ?>
 <div class="container mt-5">
 
 
+
+    <div>
+        <h4 class="gold"> //HK$650一年起
+        </h4>
+    </div>
+    <div>
+        <h2 class="blue"> 虛擬辦公室服務 </h2>
+        <div class="small-2">價格包括以下服務﹕ </div>
+        <div class="small-2 mt-3">如您需要，我們也可提供信件包裹轉寄服務及會議室租用服務($20/月起, 需預約)，詳情另議。
+            會有專人跟進回覆提問及與客戶商討解決其所有困難。不計工作時間，以解決客人問題為本。</div>
+    </div>
+
     <div class="row justify-content-center gx-5">
         <div class="col-5">
             <div class="img-shadow-div grey-bg p-3">
