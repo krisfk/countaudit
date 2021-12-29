@@ -681,5 +681,5 @@ img.scaled-image {
 }
 
 .ltd-co-table tbody tr:nth-child(n + 1) td {
-    padding: 1rem;
+    padding: 0.5rem;
 }
