@@ -66,7 +66,10 @@ get_header(); ?>
 }
 
 .elementor-widget-table-of-contents .elementor-widget-container {
-    border: 2px solid #363e51;
+    border: 0px solid #363e51;
+    border-radius: 1rem 1rem 0 0;
+    background: #f7f7f7;
+
 }
 
 .elementor-toc__header {
