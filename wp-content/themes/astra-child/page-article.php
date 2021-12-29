@@ -57,6 +57,10 @@ get_header(); ?>
     display: none;
 }
 
+.article-content h1 {
+    color: #363e51;
+}
+
 .article-content h2 {
     color: #363e51;
 }
