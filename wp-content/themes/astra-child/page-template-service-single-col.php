@@ -278,6 +278,26 @@ get_header(); ?>
 
 </div>
 
+<div class="container img-shadow-div one-column grey-bg p-3">
+    <div class="row">
+        <div class="col-3"> <img class="w-100 lazyloaded"
+                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-3.jpg.webp" alt=""
+                data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-3.jpg.webp"
+                loading="lazy"><noscript><img class="w-100"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/service-img-3.jpg.webp" alt=""
+                    data-eio="l"></noscript></div>
+        <div class="col-9 position-relative">
+            <div class="deep-blue">
+                <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
+                <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:2589</div>
+            </div>
+            <div class="text-end mt-3"> <a href="javascript:void(0);" class="service-contact-btn">Registry</a> </div>
+        </div>
+    </div>
+    <div class="img-shadow"></div>
+</div>
+
+
 
 <div class="grey-bg-2 mt-5">
 
