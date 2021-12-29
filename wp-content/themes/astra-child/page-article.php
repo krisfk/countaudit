@@ -41,8 +41,9 @@ get_header(); ?>
 
     <?php astra_primary_content_top(); ?>
 
-    <?php astra_content_page_loop(); ?>
-
+    <div class="article-content">
+        <?php astra_content_page_loop(); ?>
+    </div>
     <?php astra_primary_content_bottom(); ?>
 
 </div><!-- #primary -->
@@ -56,11 +57,11 @@ get_header(); ?>
     display: none;
 }
 
-h2 {
+.article-content h2 {
     color: #363e51;
 }
 
-h3 {
+.article-content h3 {
     color: #363e51;
 }
 </style>
