@@ -220,6 +220,10 @@ img.scaled-image {
     padding: 1.5rem 0 0 0;
 }
 
+.price-table {
+    border: none;
+}
+
 .price-table ul {
     margin: 1rem auto 2rem auto;
     padding: 0;
@@ -239,6 +243,11 @@ img.scaled-image {
 .price-table table {
     border: none;
     margin: 0 auto;
+}
+
+.price-table table th,
+.price-table table td {
+    text-align: center;
 }
 
 .price-table table img {
