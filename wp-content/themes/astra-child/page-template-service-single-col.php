@@ -100,7 +100,7 @@ get_header(); ?>
             </tr>
             <tr>
                 <td>查冊公司名稱</td>
-                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="w-100" alt="">
+                <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/tick.png" class="tick" alt="">
                 </td>
                 <td></td>
                 <td></td>

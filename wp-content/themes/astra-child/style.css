@@ -683,3 +683,7 @@ img.scaled-image {
 .ltd-co-table tbody tr:nth-child(n + 1) td {
     padding: 0.5rem;
 }
+
+.tick {
+    width: 2rem;
+}
