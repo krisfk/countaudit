@@ -81,7 +81,7 @@ get_header(); ?>
 .article-content .elementor-icon-list-item:not(:last-child):after {
     content: "";
     height: 15%;
-    border-color: #363e51;
+    border-color: #363e51 !important;
 }
 </style>
 
