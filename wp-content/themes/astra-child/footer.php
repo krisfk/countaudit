@@ -128,11 +128,7 @@ echo'</li>';
 </div><!-- #page -->
 
 <?php //astra_body_bottom(); ?>
-<style type="text/css">
-.page .entry-header {
-    text-align: center;
-}
-</style>
+
 <?php wp_footer(); ?>
 
 </body>
