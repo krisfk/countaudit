@@ -86,7 +86,7 @@ get_header(); ?>
 
 .article-content h3 {
     color: #363e51;
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 
 .article-content .elementor-post-info {
