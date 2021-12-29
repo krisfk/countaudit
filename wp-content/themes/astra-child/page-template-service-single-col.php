@@ -260,13 +260,13 @@ get_header(); ?>
                 <div class="price-table">
 
                     <div class="price-title white blue-bg text-center pt-3 pb-3">
-                        <h3 class="gold-2">特快銀行開戶</h3>
+                        <h3 class="gold-2">Preimum</h3>
                         <div>低至HK$2,950</div>
                     </div>
 
                     <div class="price-table-body grey-bg text-center">
 
-                        <div class="price">$2,950</div>
+                        <div class="price">$1,500</div>
                         <div>Per Company</div>
 
                         <ul>
@@ -288,40 +288,8 @@ get_header(); ?>
                                     </tbody>
                                 </table>
                             </li>
-                            <li>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png"
-                                                        alt="" data-eio="l"></noscript></td>
-                                            <td class="ps-2">轉介開戶服務</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
-                            <li>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"
-                                                    loading="lazy" class=" lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png"
-                                                        alt="" data-eio="l"></noscript></td>
-                                            <td class="ps-2">各種牌照,技術轉介</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
+
+
                         </ul>
 
                         <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
