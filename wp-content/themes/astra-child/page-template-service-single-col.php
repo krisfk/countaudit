@@ -93,40 +93,8 @@ get_header(); ?>
                                     </tbody>
                                 </table>
                             </li>
-                            <li>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"
-                                                    loading="lazy" class=" ls-is-cached lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
-                                                        alt="" data-eio="l"></noscript></td>
-                                            <td class="ps-2">最快一星期成功開戶</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
-                            <li>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="icon-td"><img
-                                                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"
-                                                    alt=""
-                                                    data-src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"
-                                                    loading="lazy" class=" ls-is-cached lazyloaded"
-                                                    data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png.webp"><noscript><img
-                                                        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
-                                                        alt="" data-eio="l"></noscript></td>
-                                            <td class="ps-2">開戶費可減甚至全免</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
+
+
                         </ul>
 
                         <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
