@@ -630,6 +630,10 @@ img.scaled-image {
     font-weight: bold;
 }
 
+.ltd-co-table {
+    border: none;
+}
+
 .ltd-co-table .table-head {
     background: #364050;
     color: #e7aa5d;
