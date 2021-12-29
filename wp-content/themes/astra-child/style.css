@@ -668,6 +668,8 @@ img.scaled-image {
     border-radius: 1rem;
     font-weight: bold;
     font-size: 0.8rem;
+    display: inline-block;
+    margin: 0 0 1rem 0;
 }
 
 .ltd-co-table tr td:nth-child(2n) {
