@@ -65,7 +65,7 @@ get_header(); ?>
     color: #363e51;
 }
 
-.article-content .elementor-inline-items a {
+.article-content .elementor-inline-items .elementor-icon-list-text {
     color: #363e51 !important;
 
 }
