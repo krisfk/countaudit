@@ -88,7 +88,8 @@ get_header(); ?>
 }
 
 .elementor-divider-separator {
-    border-top: 1px solid #363e51;
+    /* border-top: 1px solid #363e51; */
+    display: none;
 
 }
 
