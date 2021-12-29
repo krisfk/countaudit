@@ -701,3 +701,7 @@ img.scaled-image {
     border-radius: 1rem;
     margin: 0 0 1rem;
 }
+
+.ltd-co-table .table-head:nth-child(2n + 1) {
+    background: #000;
+}
