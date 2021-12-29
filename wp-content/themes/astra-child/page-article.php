@@ -51,6 +51,10 @@ get_header(); ?>
 .page .entry-header {
     display: none;
 }
+
+.elementor-widget-table-of-contents {
+    display: none;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
