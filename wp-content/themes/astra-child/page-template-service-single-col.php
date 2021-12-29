@@ -98,6 +98,12 @@ get_header(); ?>
 
                 </td>
             </tr>
+            <tr>
+                <td>查冊公司名稱</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
         </tbody>
     </table>
 
