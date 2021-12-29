@@ -264,6 +264,13 @@ get_header(); ?>
                         class="tick" alt="">
                 </td>
             </tr>
+            <tr>
+                <td class="border-0"></td>
+                <td class="border-0 white-bg"></td>
+                <td class="border-0 white-bg"></td>
+                <td class="border-0 white-bg"></td>
+                </td>
+            </tr>
 
 
         </tbody>
