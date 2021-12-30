@@ -161,6 +161,10 @@ get_header(); ?>
 
 }
 
+.elementor-form-fields-wrapper {
+    padding: 0 0 2rem 0;
+}
+
 .elementor-widget-container {
     border: none !important;
 }
