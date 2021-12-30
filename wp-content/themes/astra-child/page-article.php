@@ -152,6 +152,14 @@ get_header(); ?>
     position: relative;
     padding: 0 !important;
 }
+
+.logged-in-as a {
+    color: #363e51 !important;
+    text-decoration: underline;
+    /* font-weight: bold; */
+
+
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
