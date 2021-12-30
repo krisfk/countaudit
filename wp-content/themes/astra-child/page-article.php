@@ -160,6 +160,10 @@ get_header(); ?>
 
 
 }
+
+.elementor-widget-container {
+    border: none;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
