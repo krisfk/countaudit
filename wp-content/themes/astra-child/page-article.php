@@ -162,7 +162,7 @@ get_header(); ?>
 }
 
 .elementor-widget-container {
-    border: none;
+    border: none !important;
 }
 </style>
 
