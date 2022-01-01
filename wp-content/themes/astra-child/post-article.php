@@ -137,6 +137,10 @@ get_header(); ?>
 
 }
 
+nav ul {
+    margin: 0;
+}
+
 /* h2,
 .entry-content h2 {
     color: #363e51 !important;
