@@ -197,6 +197,18 @@ get_header(); ?>
         margin: 0px 0px 0px 0px;
     }
 }
+
+@media (max-width: 544px) {
+
+    .ast-right-sidebar #secondary,
+    .ast-left-sidebar #secondary,
+    .ast-separate-container.ast-two-container.ast-left-sidebar #secondary,
+    .ast-separate-container.ast-two-container.ast-right-sidebar #secondary,
+    .ast-separate-container.ast-right-sidebar #secondary,
+    .ast-separate-container.ast-left-sidebar #secondary {
+        padding: 0 1rem;
+    }
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
