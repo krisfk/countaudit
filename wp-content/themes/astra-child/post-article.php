@@ -51,6 +51,10 @@ get_header(); ?>
 </div><!-- #primary -->
 
 <style type="text/css">
+.code-block {
+    display: none;
+}
+
 .page .entry-header {
     display: none;
 }
