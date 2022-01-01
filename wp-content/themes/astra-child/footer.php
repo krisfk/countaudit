@@ -131,6 +131,11 @@ echo'</li>';
 
 <?php wp_footer(); ?>
 
+<style type="text/css">
+body.single {
+    margin-bottom: 0px !important;
+}
+</style>
 </body>
 
 </html>
