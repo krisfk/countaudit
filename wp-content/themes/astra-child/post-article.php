@@ -127,6 +127,10 @@ get_header(); ?>
 
 }
 
+.ninja-forms-field[type="button"] {
+    border-radius: 0px;
+}
+
 /* h2,
 .entry-content h2 {
     color: #363e51 !important;
