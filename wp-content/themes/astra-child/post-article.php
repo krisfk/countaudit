@@ -174,7 +174,7 @@ get_header(); ?>
 }
 
 #primary {
-    padding: 0 1rem;
+    padding: 0 1rem !important;
 }
 
 @media (max-width: 767px) {
