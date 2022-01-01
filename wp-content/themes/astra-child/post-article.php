@@ -128,9 +128,13 @@ get_header(); ?>
 }
 
 .ninja-forms-field[type="button"] {
-    border-radius: 0px;
+
+
     line-height: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem;
+    background: #363f50 !important;
+
 }
 
 /* h2,
