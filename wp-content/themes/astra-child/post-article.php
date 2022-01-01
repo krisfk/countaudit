@@ -139,6 +139,7 @@ get_header(); ?>
 
 nav ul {
     margin: 0;
+    padding: 0;
 }
 
 /* h2,
