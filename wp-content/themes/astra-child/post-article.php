@@ -129,6 +129,8 @@ get_header(); ?>
 
 .ninja-forms-field[type="button"] {
     border-radius: 0px;
+    line-height: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 /* h2,
