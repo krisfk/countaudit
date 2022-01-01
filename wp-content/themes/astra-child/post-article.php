@@ -127,6 +127,11 @@ get_header(); ?>
 
 }
 
+.essb-subscribe-form-content.essb-subscribe-from-design1 .essb-subscribe-form-content-title {
+    color: #363e51 !important;
+
+}
+
 .saboxplugin-wrap {
     border-color: #363e51;
 }
