@@ -179,11 +179,14 @@ get_header(); ?>
 
 .ast-separate-container .post-navigation {
     padding: 0;
+    margin: 0 0 3rem 0;
+
 }
 
 .single .post-navigation a {
     padding: 0;
 }
+
 
 .rank-math-link {
     color: #363e51;
