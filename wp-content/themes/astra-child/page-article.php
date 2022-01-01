@@ -168,6 +168,10 @@ get_header(); ?>
 .elementor-widget-container {
     border: none !important;
 }
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
