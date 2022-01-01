@@ -616,7 +616,7 @@ img.scaled-image {
     display: inline-block;
     font-size: 2.5rem;
     background: rgb(54 63 80 / 75%);
-    color: #fff;
+    color: #fff !important;
     padding: 0.5rem 1.5rem;
     margin: 0;
 }
