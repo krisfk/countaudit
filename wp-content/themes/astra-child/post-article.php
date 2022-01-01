@@ -132,6 +132,11 @@ get_header(); ?>
 
 }
 
+#nf-form-title-1 h3 {
+    color: #363e51 !important;
+
+}
+
 .saboxplugin-wrap {
     border-color: #363e51;
 }
