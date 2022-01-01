@@ -148,6 +148,7 @@ get_header(); ?>
 
 .widget-title {
     color: #363e51 !important;
+    font-weight: bold;
 
 }
 
