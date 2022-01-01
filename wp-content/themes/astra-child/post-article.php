@@ -127,7 +127,7 @@ get_header(); ?>
 
 }
 
-h2,
+/* h2,
 .entry-content h2 {
     color: #363e51 !important;
 
@@ -136,7 +136,7 @@ h2,
 h1,
 .entry-content h1 {
     color: #363e51 !important;
-}
+} */
 
 .article-content .elementor-icon-list-icon {
     margin: 0 0.5rem 0 0;
