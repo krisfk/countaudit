@@ -177,6 +177,10 @@ get_header(); ?>
     padding: 0 1rem !important;
 }
 
+.ast-separate-container .post-navigation {
+    padding: 0;
+}
+
 @media (max-width: 767px) {
     .elementor-771 .elementor-element.elementor-element-440582af>.elementor-element-populated {
         margin: 0px 0px 0px 0px;
