@@ -112,6 +112,7 @@ get_header(); ?>
 
 }
 
+.aside a,
 .elementor a {
     color: #363e51 !important;
     text-decoration: underline;
