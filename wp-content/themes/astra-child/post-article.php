@@ -127,6 +127,11 @@ get_header(); ?>
 
 }
 
+.widget-title {
+    color: #363e51 !important;
+
+}
+
 .ninja-forms-field[type="button"] {
 
 
