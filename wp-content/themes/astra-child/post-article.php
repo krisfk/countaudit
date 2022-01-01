@@ -112,7 +112,7 @@ get_header(); ?>
 
 }
 
-.aside a,
+#recent-posts-2 a,
 .elementor a {
     color: #363e51 !important;
     text-decoration: underline;
