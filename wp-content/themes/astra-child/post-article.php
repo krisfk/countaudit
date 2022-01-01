@@ -131,6 +131,11 @@ get_header(); ?>
     border-color: #363e51;
 }
 
+.saboxplugin-wrap .saboxplugin-socials {
+    border-color: #363e51;
+
+}
+
 .widget-title {
     color: #363e51 !important;
 
