@@ -172,6 +172,12 @@ get_header(); ?>
 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
     padding: 10px;
 }
+
+@media (max-width: 767px) {
+    .elementor-771 .elementor-element.elementor-element-440582af>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+    }
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
