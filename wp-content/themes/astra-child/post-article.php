@@ -145,7 +145,7 @@ get_header(); ?>
     max-width: 1000px;
     margin: 0 auto 5rem auto;
     border-top: 0px;
-    padding: 0 1rem;
+    padding: 0 0;
 }
 
 .elementor-posts .elementor-post__thumbnail {
