@@ -37,15 +37,17 @@ get_header(); ?>
 
 <?php endif ?>
 
-<div id="primary" <?php astra_primary_class(); ?>>
+<div class="container">
+    <div id="primary" <?php astra_primary_class(); ?>>
 
-    <?php astra_primary_content_top(); ?>
+        <?php astra_primary_content_top(); ?>
 
-    <div class="article-content">
-        <?php astra_content_page_loop(); ?>
+        <div class="article-content">
+            <?php astra_content_page_loop(); ?>
+        </div>
+        <?php astra_primary_content_bottom(); ?>
+
     </div>
-    <?php astra_primary_content_bottom(); ?>
-
 </div><!-- #primary -->
 
 <style type="text/css">
