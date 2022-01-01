@@ -127,6 +127,12 @@ get_header(); ?>
 
 }
 
+h2,
+.entry-content h2 {
+    color: #363e51 !important;
+
+}
+
 
 .article-content .elementor-icon-list-icon {
     margin: 0 0.5rem 0 0;
