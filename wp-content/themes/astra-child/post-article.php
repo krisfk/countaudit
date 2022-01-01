@@ -185,6 +185,10 @@ get_header(); ?>
     padding: 0;
 }
 
+.rank-math-link {
+    color: #363e51;
+}
+
 @media (max-width: 767px) {
     .elementor-771 .elementor-element.elementor-element-440582af>.elementor-element-populated {
         margin: 0px 0px 0px 0px;
