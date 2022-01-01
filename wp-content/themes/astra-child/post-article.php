@@ -152,6 +152,10 @@ get_header(); ?>
 
 }
 
+body.single {
+    margin-bottom: 0px !important;
+}
+
 .ninja-forms-field[type="button"] {
 
 
