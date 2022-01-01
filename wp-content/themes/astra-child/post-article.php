@@ -113,6 +113,7 @@ get_header(); ?>
 }
 
 #recent-posts-2 a,
+#categories-2 a,
 .elementor a {
     color: #363e51 !important;
     text-decoration: underline;
