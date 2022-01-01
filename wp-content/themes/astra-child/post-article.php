@@ -209,6 +209,10 @@ get_header(); ?>
         padding: 0 1rem;
     }
 }
+
+#ninja_forms_widget-3 {
+    margin: 3rem 0 0 0;
+}
 </style>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
