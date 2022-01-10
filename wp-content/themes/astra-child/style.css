@@ -110,12 +110,14 @@ body {
     opacity: 1;
 }
 
-.home-pts-ul {
+.home-pts-ul,
+.contact-pts-ul {
     display: table;
     margin: 0 auto !important;
 }
 
-.home-pts-ul li {
+.home-pts-ul li,
+.contact-pts-ul li {
     display: table-cell;
     /* vertical-align: middle; */
     width: 25%;
@@ -123,24 +125,28 @@ body {
     text-align: center;
 }
 
-.home-pts-ul li:nth-child(2n) {
+.home-pts-ul li:nth-child(2n),
+.contact-pts-ul li:nth-child(2n) {
     background: #3e475e;
     color: #fff;
 }
 
-.home-pts-ul li:nth-child(2n + 1) {
+.home-pts-ul li:nth-child(2n + 1),
+.contact-pts-ul li:nth-child(2n + 1) {
     background: #363e51;
     color: #fff;
 }
 
-.home-pts-icon {
+.home-pts-icon,
+.contact-pts-icon {
     display: block;
     width: 4rem;
     margin: 1rem auto 1rem auto !important;
     border: none !important;
 }
 
-.home-pts-ul-wrapper-container {
+.home-pts-ul-wrapper-container,
+.contact-pts-ul-wrapper-container {
     margin: -80px 0 0 0;
     position: relative;
     z-index: 100;
