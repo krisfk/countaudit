@@ -734,7 +734,14 @@ a.gold.no-deco:hover {
 
 @media only screen and (max-width: 1200px) {}
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+    .home-pts-ul-wrapper-container,
+    .contact-pts-ul-wrapper-container {
+        margin: 0px 0 0 0;
+        position: relative;
+        z-index: 100;
+    }
+}
 
 @media only screen and (max-width: 768px) {}
 
