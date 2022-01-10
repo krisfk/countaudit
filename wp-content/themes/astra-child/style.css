@@ -755,6 +755,7 @@ a.gold.no-deco:hover {
         /* flex-wrap: nowrap; */
         margin: 0.5rem 0 0rem 0;
     }
+    .main-banners {}
 }
 
 @media only screen and (max-width: 768px) {}
