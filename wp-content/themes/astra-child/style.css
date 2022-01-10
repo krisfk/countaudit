@@ -719,3 +719,8 @@ img.scaled-image {
 a.gold.no-deco:hover {
     color: #e7ab5d;
 }
+
+.map-iframe {
+    height: 429px;
+    width: 100%;
+}
