@@ -80,47 +80,6 @@ get_header(); ?>
 </div>
 
 
-
-<div class="container mt-5 mb-5">
-
-
-    <div class="row justify-content-center gx-5 align-items-center">
-        <div class="col-4">
-            <div class="img-shadow-div grey-bg p-3">
-
-                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-img-1.png"
-                    alt="">
-
-
-                <div class="img-shadow"></div>
-
-
-            </div>
-
-
-        </div>
-        <div class="col-4">
-            <div class="text-start">
-                <div>
-                    <h4 class="gold"> //Remember The Society
-                    </h4>
-                </div>
-                <div>
-                    <h2 class="blue"> 盡心服務社會 </h2>
-                    <div class="small-2">作為一個社會企業，所有業務工作都首要以社會利益為依歸，著眼社會利益多於個人利益</div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-</div>
-
 <div class="grey-bg-2">
 
     <div class="text-center pt-5 pb-5">
