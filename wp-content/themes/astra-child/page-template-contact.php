@@ -69,8 +69,8 @@ get_header(); ?>
             <h3 class="white m-0 fw-bold">CONTACT US</h3>
             <div>數小時內回覆</div>
 
-            <div class="gold mt-3">info@countaudit.hk
-            </div>
+            <a class="gold mt-3" href="#">info@countaudit.hk
+                </日>
 
         </li>
 
