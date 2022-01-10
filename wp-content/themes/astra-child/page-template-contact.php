@@ -36,14 +36,14 @@ get_header(); ?>
             <img class="contact-pts-icon"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-1.png" alt="">
 
-            <h3 class="white">VISIT US</h3>
+            <h3 class="white m-0">VISIT US</h3>
             <div>可預約會面</div>
 
-            <div class="gold">Lai Chi Kok Office</div>
+            <div class="gold mt-3">Lai Chi Kok Office</div>
             <div>Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok, Kowloon
                 Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon</div>
 
-            <div>Kwun Tong Office</div>
+            <div class="gold mt-3">Kwun Tong Office</div>
             <div>Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong
             </div>
         </li>
