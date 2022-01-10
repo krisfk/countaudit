@@ -740,7 +740,7 @@ a.gold.no-deco:hover {
     }
     .home-pts-ul-wrapper-container,
     .contact-pts-ul-wrapper-container {
-        margin: 2rem 0 0 0;
+        margin: 1rem 0 0 0;
         position: relative;
         z-index: 100;
         padding: 0 !important;
