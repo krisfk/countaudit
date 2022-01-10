@@ -723,6 +723,7 @@ a.gold.no-deco:hover {
 .map-iframe {
     height: 640px;
     width: 100%;
+    display: block;
     margin: -1rem 0 0 0;
 }
 
