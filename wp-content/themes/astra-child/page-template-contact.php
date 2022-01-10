@@ -50,12 +50,7 @@ get_header(); ?>
             專業認可 持牌執業 <br>
             會計師事務所
         </li>
-        <li>
-            <img class="contact-pts-icon"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-4.png" alt="">
-            專業認可 持牌執業 <br>
-            會計師事務所
-        </li>
+
     </ul>
 
 </div>
