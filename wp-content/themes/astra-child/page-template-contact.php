@@ -91,39 +91,7 @@ get_header(); ?>
                 <div>
                     <h2 class="blue">聯絡我們</h2>
 
-                    <table class="border-0 contact-table">
-                        <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1-1.png"
-                                    alt="">
 
-                            </td>
-                            <td>
-                                <div>Lai Chi Kok Office <br>
-                                    Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok, Kowloon<br>
-                                    Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon<br>
-                                    Kwun Tong Office<br>
-                                    Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun Tong,<br>
-                                    Kowloon, Hong Kong</div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2-1.png"
-                                    alt=""> </td>
-                            <td>3525 1900 <br>
-                                Office hour: Mon to Fri 10am - 7pm<br>
-                                6519 4755 (Whatsapp Only)</td>
-                        </tr>
-                        <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3-1.png"
-                                    alt=""></td>
-                            <td>
-                                <a href="mailto:info@countaudit.hk" target="_blank">info@countaudit.hk</a>
-
-                                <!--  -->
-                            </td>
-                        </tr>
-                    </table>
                 </div>
             </div>
             <div class="col-6 p-5">
