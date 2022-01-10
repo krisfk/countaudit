@@ -748,9 +748,8 @@ a.gold.no-deco:hover {
         z-index: 100;
         padding: 1rem 0 1rem 0 !important;
         background: #f7f7f7;
-        pad;
         padding: 1;
-        FONT-WEIGHT: 100;
+        font-weight: 100;
         display: block;
     }
     .home-pts-ul,
