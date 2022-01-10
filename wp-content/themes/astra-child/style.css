@@ -743,10 +743,15 @@ a.gold.no-deco:hover {
     }
     .home-pts-ul-wrapper-container,
     .contact-pts-ul-wrapper-container {
-        margin: 1rem 0 0 0;
+        margin: 0rem 0 0 0;
         position: relative;
         z-index: 100;
-        padding: 0 !important;
+        padding: 1rem 0 1rem 0 !important;
+        background: #f7f7f7;
+        pad;
+        padding: 1;
+        FONT-WEIGHT: 100;
+        display: block;
     }
     .home-pts-ul,
     .contact-pts-ul {
@@ -759,11 +764,11 @@ a.gold.no-deco:hover {
         display: block;
         width: 50%;
         /* flex-wrap: nowrap; */
-        margin: 0.1rem 0 0rem 0;
+        /* margin: 1rem 0 0em 0; */
         padding: 0.1rem;
         font-size: 1rem;
         background: none !important;
-        color: #3e475e !important;
+        color: #000000 !important;
     }
     .main-banners {
         /* margin: 40px 0 0 0; */
