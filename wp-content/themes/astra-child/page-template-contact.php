@@ -66,8 +66,12 @@ get_header(); ?>
         <li>
             <img class="contact-pts-icon"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-3.png" alt="">
-            專業認可 持牌執業 <br>
-            會計師事務所
+            <h3 class="white m-0 fw-bold">CONTACT US</h3>
+            <div>數小時內回覆</div>
+
+            <div class="gold mt-3">info@countaudit.hk
+            </div>
+
         </li>
 
     </ul>
