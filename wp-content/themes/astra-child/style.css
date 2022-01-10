@@ -737,14 +737,24 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 991px) {
     .home-pts-ul-wrapper-container,
     .contact-pts-ul-wrapper-container {
-        margin: 0px 0 0 0;
+        margin: 0rem 0 0 0;
         position: relative;
         z-index: 100;
+        /* padding: 0 !important; */
     }
     .home-pts-ul,
-    .contact-pts-ul {}
+    .contact-pts-ul {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
     .home-pts-ul li,
-    .contact-pts-ul li {}
+    .contact-pts-ul li {
+        display: block;
+        width: 50%;
+        /* flex-wrap: nowrap; */
+        margin: 0.5rem 0 0rem 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {}
