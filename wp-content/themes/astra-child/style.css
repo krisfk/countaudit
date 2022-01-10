@@ -741,6 +741,10 @@ a.gold.no-deco:hover {
         position: relative;
         z-index: 100;
     }
+    .home-pts-ul,
+    .contact-pts-ul {}
+    .home-pts-ul li,
+    .contact-pts-ul li {}
 }
 
 @media only screen and (max-width: 768px) {}
