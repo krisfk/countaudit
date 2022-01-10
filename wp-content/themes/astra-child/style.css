@@ -738,6 +738,9 @@ a.gold.no-deco:hover {
     .logo-a {
         padding: 1rem;
     }
+    .title-container {
+        text-align: center;
+    }
     .home-pts-ul-wrapper-container,
     .contact-pts-ul-wrapper-container {
         margin: 1rem 0 0 0;
