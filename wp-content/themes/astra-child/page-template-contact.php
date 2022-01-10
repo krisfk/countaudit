@@ -88,8 +88,14 @@ get_header(); ?>
         <div class="row  mt-5 align-items-center">
             <div class="col-6">
 
-                <div>
-                    <h2 class="blue">聯絡我們</h2>
+                <div class="text-start">
+                    <div>
+                        <h4 class="gold">//HK$3,500起</h4>
+                    </div>
+                    <div>
+                        <h2 class="blue">有限公司周年審計服務</h2>
+                        <div class="small">價格包括以下服務﹕</div>
+                    </div>
 
 
                 </div>
