@@ -35,8 +35,17 @@ get_header(); ?>
         <li>
             <img class="contact-pts-icon"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-1.png" alt="">
-            專業認可 持牌執業 <br>
-            會計師事務所
+
+            <h3>VISIT US</h3>
+            <div>可預約會面</div>
+
+            <div class="gold">Lai Chi Kok Office</div>
+            <div>Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok, Kowloon
+                Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon</div>
+
+            <div>Kwun Tong Office</div>
+            <div>Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong
+            </div>
         </li>
         <li>
             <img class="contact-pts-icon"
