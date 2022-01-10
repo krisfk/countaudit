@@ -36,7 +36,7 @@ get_header(); ?>
             <img class="contact-pts-icon"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-1.png" alt="">
 
-            <h3>VISIT US</h3>
+            <h3 class="white">VISIT US</h3>
             <div>可預約會面</div>
 
             <div class="gold">Lai Chi Kok Office</div>
