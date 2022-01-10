@@ -35,47 +35,26 @@ get_header(); ?>
         <li>
             <img class="contact-pts-icon"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-1.png" alt="">
-            <!-- <img class="contact-pts-icon ewww_webp_loaded scaled-image"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png.webp" alt=""
-                data-src-img="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png"
-                data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png.webp"
-                data-eio="j" title="Forced to wrong size: 72x72, natural is 250x250!"><noscript><img
-                    class="contact-pts-icon"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png" alt=""></noscript> -->
             專業認可 持牌執業 <br>
             會計師事務所
         </li>
         <li>
-            <img class="contact-pts-icon ewww_webp_loaded scaled-image"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-2.png.webp" alt=""
-                data-src-img="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-2.png"
-                data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-2.png.webp"
-                data-eio="j" title="Forced to wrong size: 72x72, natural is 250x250!"><noscript><img
-                    class="contact-pts-icon"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-2.png" alt=""></noscript>
-            1對1專人長期跟進
+            <img class="contact-pts-icon"
+                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-2.png" alt="">
+            專業認可 持牌執業 <br>
+            會計師事務所
         </li>
         <li>
-            <img class="contact-pts-icon ewww_webp_loaded scaled-image"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-3.png.webp" alt=""
-                data-src-img="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-3.png"
-                data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-3.png.webp"
-                data-eio="j" title="Forced to wrong size: 72x72, natural is 250x250!"><noscript><img
-                    class="contact-pts-icon"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-3.png" alt=""></noscript>
-            實用資訊文章 <br>
-            舉辦講座工作坊
+            <img class="contact-pts-icon"
+                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-3.png" alt="">
+            專業認可 持牌執業 <br>
+            會計師事務所
         </li>
         <li>
-            <img class="contact-pts-icon ewww_webp_loaded scaled-image"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-4.png.webp" alt=""
-                data-src-img="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-4.png"
-                data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-4.png.webp"
-                data-eio="j" title="Forced to wrong size: 72x72, natural is 250x250!"><noscript><img
-                    class="contact-pts-icon"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-4.png" alt=""></noscript>
-            實用資訊文章 <br>
-            舉辦講座工作坊
+            <img class="contact-pts-icon"
+                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-4.png" alt="">
+            專業認可 持牌執業 <br>
+            會計師事務所
         </li>
     </ul>
 
