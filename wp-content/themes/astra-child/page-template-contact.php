@@ -50,8 +50,18 @@ get_header(); ?>
         <li>
             <img class="contact-pts-icon"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-2.png" alt="">
-            專業認可 持牌執業 <br>
-            會計師事務所
+            <h3 class="white m-0 fw-bold">CALL US</h3>
+            <div>可致電或Whatsapp我們</div>
+
+            <div class="gold mt-3">3525 1900
+            </div>
+            <div>Office hour: Mon to Fri 10am - 7pm
+            </div>
+
+            <div class="gold mt-3">6519 4755 </div>
+            <div>Office hour: Mon to Fri 10am - 7pm
+
+            </div>
         </li>
         <li>
             <img class="contact-pts-icon"
