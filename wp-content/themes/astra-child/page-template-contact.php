@@ -70,7 +70,7 @@ get_header(); ?>
             <div>數小時內回覆</div>
 
             <div class="mt-3">
-                <a class="gold" href="#" target="_blank">info@countaudit.hk
+                <a class="gold no-deco" href="#" target="_blank">info@countaudit.hk
                 </a>
             </div>
         </li>
