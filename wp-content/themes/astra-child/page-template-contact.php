@@ -33,13 +33,15 @@ get_header(); ?>
 
     <ul class="home-pts-ul  p-0 ">
         <li>
-            <img class="home-pts-icon ewww_webp_loaded scaled-image"
+            <img class="home-pts-icon"
+                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-1.png" alt="">
+            <!-- <img class="home-pts-icon ewww_webp_loaded scaled-image"
                 src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png.webp" alt=""
                 data-src-img="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png"
                 data-src-webp="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png.webp"
                 data-eio="j" title="Forced to wrong size: 72x72, natural is 250x250!"><noscript><img
                     class="home-pts-icon"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png" alt=""></noscript>
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png" alt=""></noscript> -->
             專業認可 持牌執業 <br>
             會計師事務所
         </li>
