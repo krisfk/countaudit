@@ -90,11 +90,12 @@ get_header(); ?>
 
                 <div class="text-start">
                     <div>
-                        <h4 class="gold">//HK$3,500起</h4>
+                        <h4 class="gold">//明碼實價
+                        </h4>
                     </div>
                     <div>
-                        <h2 class="blue">有限公司周年審計服務</h2>
-                        <div class="small">價格包括以下服務﹕</div>
+                        <h2 class="blue">索取服務報價</h2>
+                        <div class="small">請聯絡我們並提供資料，即時能獲取準確報價</div>
                     </div>
 
 
