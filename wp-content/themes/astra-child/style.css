@@ -716,4 +716,6 @@ img.scaled-image {
     margin: 0 0 5rem 0;
 }
 
-a.no-deco {}
+a.gold.no-deco:hover {
+    color: #e7ab5d;
+}
