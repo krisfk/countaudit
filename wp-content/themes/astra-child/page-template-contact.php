@@ -86,7 +86,7 @@ get_header(); ?>
 
 
 
-<div class="grey-bg-2 mt-5">
+<div class="grey-bg-2">
 
 
     <div class="container">
