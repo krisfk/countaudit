@@ -839,7 +839,7 @@ get_header(); ?>
 
     <div class="container">
         <div class="row  mt-5 align-items-center">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
                 <div>
                     <h2 class="blue">聯絡我們</h2>
@@ -879,7 +879,7 @@ get_header(); ?>
                     </table>
                 </div>
             </div>
-            <div class="col-6 p-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-5">
 
                 <div class="form-div white-bg ">
 
