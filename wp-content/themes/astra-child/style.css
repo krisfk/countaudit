@@ -743,7 +743,7 @@ a.gold.no-deco:hover {
         margin: 0rem 0 0 0 !important;
         position: relative;
         z-index: 100;
-        padding: 1rem 0 1rem 0 !important;
+        padding: 3rem 0 3rem 0 !important;
         background: #3e485e;
         padding: 1;
         font-weight: 100;
@@ -768,6 +768,11 @@ a.gold.no-deco:hover {
         font-size: 1rem;
         background: none !important;
         color: #fff !important;
+        margin: 0 0 3rem;
+    }
+    .home-pts-ul li:nth-child(3),
+    .home-pts-ul li:nth-child(4) {
+        margin: 0;
     }
     .main-banners {
         /* margin: 40px 0 0 0; */
