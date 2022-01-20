@@ -749,6 +749,12 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .about-slogan {
+        font-size: 2rem;
+        font-family: serif;
+        font-weight: bold;
+        line-height: 3.5rem;
+    }
     .about-carousel-icon {
         width: 40px;
         margin: 0 auto !important;
