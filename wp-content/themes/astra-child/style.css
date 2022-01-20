@@ -463,7 +463,7 @@ img.scaled-image {
 }
 
 .banner-bottom-blue-container h3 {
-    line-height: 2.7rem;
+    line-height: 1rem;
 }
 
 .team-member-icon {
@@ -618,6 +618,8 @@ img.scaled-image {
     /* top: 50%;
     transform: translate(0, -50%); */
     /* z-index: 200; */
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .title-container p {
@@ -739,6 +741,10 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .banner-bottom-blue-container h3 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
     .top-menu-ul {
         display: none;
     }
@@ -810,14 +816,14 @@ a.gold.no-deco:hover {
     }
     .title-container .txt {
         display: inline-block;
-        font-size: 1rem;
+        font-size: 1.5rem;
         background: rgb(54 63 80 / 75%);
         color: #fff !important;
         padding: 0.5rem 1.5rem;
         margin: 0;
     }
     .title-container .txt.smaller {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     .home-pts-icon,
     .contact-pts-icon {
