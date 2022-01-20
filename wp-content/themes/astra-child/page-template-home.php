@@ -579,10 +579,10 @@ get_header(); ?>
 
         <div class="row mt-4 align-items-center  justify-content-center">
 
-            <div class="col-lg-6 col-md-6 col-sm-10 col-10 ">
+            <div class="col-lg-5 col-md-5 col-sm-10 col-10 ">
                 <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-1.jpg" alt="">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12 ">
 
 
                 <div class="home-big-point-content">
@@ -608,9 +608,10 @@ get_header(); ?>
 
         <div class="row mt-5 align-items-center  justify-content-center">
 
-            <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-2.jpg"
-                    alt=""></div>
-            <div class="col-6">
+            <div class="col-lg-5 col-md-5 col-sm-10 col-10 ">
+                <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-2.jpg" alt="">
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12 ">
 
 
                 <div class="home-big-point-content">
@@ -638,7 +639,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="row mt-5 align-items-center  justify-content-center">
-            <div class="col-6">
+            <div class="col-lg-5 col-md-5 col-sm-10 col-10 ">
 
 
                 <div class="home-big-point-content">
@@ -673,7 +674,7 @@ get_header(); ?>
 
         </div>
         <div class="row mt-5 align-items-center  justify-content-center">
-            <div class="col-6">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12 ">
                 <div class="home-big-point-content">
                     <div>
                         <span class="big-num">#4</span>
