@@ -879,7 +879,7 @@ get_header(); ?>
                     </table>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12  p-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
                 <div class="form-div white-bg ">
 
