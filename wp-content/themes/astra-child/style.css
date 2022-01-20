@@ -795,7 +795,7 @@ a.gold.no-deco:hover {
         /* flex-wrap: nowrap; */
         /* margin: 1rem 0 0em 0; */
         padding: 0.1rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
         background: none !important;
         color: #fff !important;
         margin: 0 0 1rem;
@@ -828,7 +828,7 @@ a.gold.no-deco:hover {
     .home-pts-icon,
     .contact-pts-icon {
         display: block;
-        width: 4rem;
+        width: 2rem;
         margin: 0rem auto 0.3rem auto !important;
         border: none !important;
     }
