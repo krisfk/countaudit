@@ -804,8 +804,8 @@ a.gold.no-deco:hover {
     .reverse-row {
         /* flex-direction: row-reverse; */
     }
-    .contact-table table img {
-        padding: 0 1rem 0 0;
+    .contact-table td {
+        padding: 0.3rem;
     }
 }
 
