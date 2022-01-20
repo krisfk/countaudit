@@ -791,6 +791,11 @@ a.gold.no-deco:hover {
         margin: 0rem auto 0.3rem auto !important;
         border: none !important;
     }
+    .contact-ul li {
+        display: inline-block;
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {}
