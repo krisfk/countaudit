@@ -807,6 +807,9 @@ a.gold.no-deco:hover {
     .contact-table td {
         padding: 0.3rem;
     }
+    .contact-container h2 {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 768px) {
