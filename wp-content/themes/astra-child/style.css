@@ -770,7 +770,7 @@ a.gold.no-deco:hover {
         border-radius: 0px;
     }
     .title-container {
-        text-align: center;
+        /* text-align: center; */
     }
     .home-pts-ul-wrapper-container,
     .contact-pts-ul-wrapper-container {
