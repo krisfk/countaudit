@@ -639,7 +639,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="row mt-5 align-items-center  justify-content-center">
-            <div class="col-lg-5 col-md-5 col-sm-10 col-10 ">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12 ">
 
 
                 <div class="home-big-point-content">
@@ -665,8 +665,8 @@ get_header(); ?>
                 </div>
 
             </div>
-            <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-3.jpg"
-                    alt="">
+            <div class="col-lg-5 col-md-5 col-sm-10 col-10 ">
+                <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-3.jpg" alt="">
 
 
             </div>
@@ -695,8 +695,9 @@ get_header(); ?>
 
                 </div>
             </div>
-            <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-4.jpg"
-                    alt=""></div>
+            <div class="col-lg-5 col-md-5 col-sm-10 col-10 ">
+                <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-4.jpg" alt="">
+            </div>
 
         </div>
 
