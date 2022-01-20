@@ -556,6 +556,9 @@ img.scaled-image {
     background: #e7ab5d;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+    margin: 0 0 0.5rem 0;
+    display: table;
+    font-size: 0.8rem;
 }
 
 .service-ul li {
