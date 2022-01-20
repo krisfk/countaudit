@@ -430,6 +430,7 @@ img.scaled-image {
 .bottom-menu-ul {
     /* margin: 0; */
     padding: 0;
+    text-align: center;
     display: table;
     margin: 0 auto;
 }
