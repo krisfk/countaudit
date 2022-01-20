@@ -801,6 +801,9 @@ a.gold.no-deco:hover {
         margin: 0 0 0rem 0;
         width: 100%;
     }
+    .reverse-row {
+        flex-direction: column-reverse;
+    }
 }
 
 @media only screen and (max-width: 768px) {}

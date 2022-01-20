@@ -638,7 +638,7 @@ get_header(); ?>
 
             </div>
         </div>
-        <div class="row mt-5 align-items-center  justify-content-center">
+        <div class="row mt-5 align-items-center  justify-content-center reverse-row">
             <div class="col-lg-5 col-md-5 col-sm-12 col-12 ">
 
 
@@ -673,7 +673,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="row mt-5 align-items-center  justify-content-center">
+        <div class="row mt-5 align-items-center  justify-content-center reverse-row">
             <div class="col-lg-5 col-md-5 col-sm-12 col-12 ">
                 <div class="home-big-point-content">
                     <div>
