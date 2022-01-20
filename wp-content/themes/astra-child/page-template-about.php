@@ -246,10 +246,9 @@ get_header(); ?>
 
                 <div class="row justify-content-center gx-0 align-items-middle">
 
-                    <div class="col-5">
+                    <div class="col-5"
+                        style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-3.png);background-size:cover;">
 
-                        <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-3.png"
-                            alt="">
                     </div>
                     <div class="col-5 right-content-div white-bg position-relative">
 
@@ -273,10 +272,9 @@ get_header(); ?>
 
                 <div class="row justify-content-center gx-0 align-items-middle">
 
-                    <div class="col-5">
+                    <div class="col-5"
+                        style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-4.png);background-size:cover;">
 
-                        <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-4.png"
-                            alt="">
                     </div>
                     <div class="col-5 right-content-div white-bg position-relative">
 
