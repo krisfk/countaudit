@@ -742,11 +742,11 @@ a.gold.no-deco:hover {
 }
 
 .slick-slide {
-    margin: 0 0.5rem;
+    /* margin: 0 0.5rem; */
 }
 
-.home .slick-slide {
-    margin: 0;
+.home .main-banners .slick-slide {
+    /* margin: 0; */
 }
 
 @media only screen and (max-width: 1920px) {}
