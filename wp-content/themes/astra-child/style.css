@@ -732,6 +732,9 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .top-menu-ul {
+        display: none;
+    }
     .banner-bottom-blue-container {
         background: #363e51;
         color: #fff;
