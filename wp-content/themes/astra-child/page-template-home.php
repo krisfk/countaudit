@@ -104,7 +104,7 @@ get_header(); ?>
 
     <div class="row justify-content-center">
 
-        <div class="col-5 pb-5">
+        <div class="col-lg-5 col-md-5 col-sm-12 col-lg-12  pb-5">
 
             <div class="img-shadow-div">
                 <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg"
