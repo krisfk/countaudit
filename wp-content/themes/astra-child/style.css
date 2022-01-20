@@ -886,7 +886,7 @@ a.gold.no-deco:hover {
     }
     .contact-form-container h2,
     .contact-form-container h4,
-    .contact-form-container small {
+    .contact-form-container .small {
         text-align: center;
     }
 }
