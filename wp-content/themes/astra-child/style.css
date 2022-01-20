@@ -436,7 +436,7 @@ img.scaled-image {
 
 .bottom-menu-ul li {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 1rem 0rem 1rem;
 }
 
 .bottom-menu-ul li a {
@@ -749,6 +749,10 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .bottom-menu-ul li {
+        display: inline-block;
+        margin: 0 1rem 0.5rem 1rem;
+    }
     .about-slogan {
         font-size: 2rem;
         font-family: serif;
