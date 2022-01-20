@@ -783,8 +783,8 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100  mb-3">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5 mb-3">
+            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100 ">
                 <img class="profile-shadow"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
@@ -797,8 +797,8 @@ get_header(); ?>
                     我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！令我非常安心專注自己的培訓業務，其他財務工作也交給CountAudit</div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100 mb-3">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5 mb-3">
+            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100 ">
 
                 <img class="profile-shadow"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
@@ -814,8 +814,8 @@ get_header(); ?>
 
         </div>
         <!--  -->
-        <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100  mb-3">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5  mb-3">
+            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100  ">
 
                 <img class="profile-shadow"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
