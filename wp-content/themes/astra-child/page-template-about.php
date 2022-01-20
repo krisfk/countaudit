@@ -318,7 +318,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-10 col-10 mt-lg-0 mt-md-0 mt-sm-5 mt-5  ">
+        <div class="col-lg-4 col-md-5 col-sm-10 col-10 mt-lg-0 mt-md-0 mt-sm-5 mt-5  ">
             <div class="text-start">
                 <div>
                     <h4 class="gold"> //Remember The Society
