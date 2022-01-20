@@ -784,7 +784,7 @@ get_header(); ?>
     <div class="row">
 
         <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
+            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100  mb-3">
                 <img class="profile-shadow"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
@@ -798,7 +798,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100">
+            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100 mb-3">
 
                 <img class="profile-shadow"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
@@ -815,7 +815,7 @@ get_header(); ?>
         </div>
         <!--  -->
         <div class="col-lg-4 col-md-4 col-sm-12 col-12  mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
+            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100  mb-3">
 
                 <img class="profile-shadow"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
