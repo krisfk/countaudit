@@ -802,7 +802,7 @@ a.gold.no-deco:hover {
         width: 100%;
     }
     .reverse-row {
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
     }
 }
 
