@@ -806,7 +806,11 @@ a.gold.no-deco:hover {
     }
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .reverse-row {
+        flex-direction: column-reverse;
+    }
+}
 
 @media only screen and (max-width: 640px) {}
 
