@@ -884,7 +884,9 @@ a.gold.no-deco:hover {
     .contact-table td {
         padding: 0.3rem;
     }
-    .contact-form-container h2 {
+    .contact-form-container h2,
+    .contact-form-container h4,
+    .contact-form-container small {
         text-align: center;
     }
 }
