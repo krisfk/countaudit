@@ -579,10 +579,10 @@ get_header(); ?>
 
         <div class="row mt-4 align-items-center justify-content-middle">
 
-            <div class="col-lg-6 col-md-6 col-sm-3 col-3 ">
+            <div class="col-lg-6 col-md-6 col-sm-10 col-10 ">
                 <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-1.jpg" alt="">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-9 col-9 ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
 
                 <div class="home-big-point-content">
