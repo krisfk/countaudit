@@ -112,7 +112,7 @@ get_header(); ?>
 <div class="grey-bg-2 mt-5">
 
 
-    <div class="container">
+    <div class="container contact-form-container">
         <div class="row pt-5 pb-5  mt-5 align-items-center justify-content-center">
             <div class="col-5">
 
