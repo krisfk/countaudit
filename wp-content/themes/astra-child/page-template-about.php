@@ -54,7 +54,7 @@ get_header(); ?>
 
     <div class="row justify-content-center mt-5">
 
-        <div class="col-lg-3 col-md-3 col-sm-12 col-12  mt-5">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12  mt-5 mb-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
                 <img class="team-member-icon"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/team-member-1.png" alt="">
@@ -83,7 +83,7 @@ get_header(); ?>
             </div>
 
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-12  mt-5">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12  mt-5  mb-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
                 <img class="team-member-icon"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/team-member-2.png" alt="">
@@ -112,7 +112,7 @@ get_header(); ?>
 
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-12  mt-5">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12  mt-5  mb-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
                 <img class="team-member-icon"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/team-member-3.png" alt="">
