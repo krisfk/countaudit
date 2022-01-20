@@ -190,10 +190,11 @@ get_header(); ?>
             <div>
                 <div class="row justify-content-center gx-0 align-items-middle">
 
-                    <div class="col-lg-5 col-md-6 col-sm-6 col-6  ">
-
+                    <div class="col-lg-5 col-md-6 col-sm-6 col-6"
+                        style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png);">
+                        <!-- 
                         <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
-                            alt="">
+                            alt=""> -->
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-6 col-6 right-content-div white-bg position-relative">
 
