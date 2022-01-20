@@ -754,7 +754,7 @@ a.gold.no-deco:hover {
     .home-pts-ul,
     .contact-pts-ul {
         display: flex;
-        width: 75%;
+        width: 95%;
         flex-wrap: wrap;
         font-weight: normal;
     }
