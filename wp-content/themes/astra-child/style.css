@@ -613,14 +613,14 @@ img.scaled-image {
     /* z-index: 200; */
 }
 
-.title-container {
+
+/* .title-container {
     position: absolute;
-    /* top: 50%;
-    transform: translate(0, -50%); */
-    /* z-index: 200; */
     top: 50%;
     transform: translate(0, -50%);
-}
+} */
+
+.title-container-wrapper {}
 
 .title-container p {
     margin: 0;

@@ -15,11 +15,11 @@ get_header(); ?>
 
     <!-- <div class="position-absolute top-0 start-0 w-100 h-100"> -->
 
-    <!-- <div> -->
-    <div class="container title-container">
-        <div><?php echo get_field('title_txt');?></div>
+    <div class="title-container-wrapper">
+        <div class="container title-container">
+            <div><?php echo get_field('title_txt');?></div>
+        </div>
     </div>
-    <!-- </div> -->
 
 
     <img class="main-banner-img" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-1.jpg"
