@@ -745,6 +745,12 @@ a.gold.no-deco:hover {
     }
     .logo-a {
         padding: 1rem;
+        display: table;
+        margin: 0 auto;
+        position: relative;
+        border: none;
+        background: none;
+        border-radius: 0px;
     }
     .title-container {
         text-align: center;
@@ -787,7 +793,7 @@ a.gold.no-deco:hover {
     }
     .main-banners {
         /* margin: 40px 0 0 0; */
-        padding: 4rem 0 0 0;
+        /* padding: 4rem 0 0 0; */
     }
     .main-banner {
         /* margin: 4rem 0 0 0; */
