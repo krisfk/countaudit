@@ -16,9 +16,9 @@ get_header(); ?>
     <!-- <div class="position-absolute top-0 start-0 w-100 h-100"> -->
 
     <!-- <div> -->
-    <!-- <div class="container title-container">
+    <div class="container title-container">
         <div><?php echo get_field('title_txt');?></div>
-    </div> -->
+    </div>
     <!-- </div> -->
 
 
