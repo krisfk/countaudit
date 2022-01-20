@@ -905,8 +905,8 @@ get_header(); ?>
 $(function() {
     $('.article-carousel').slick({
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        // slidesToShow: 3,
+        // slidesToScroll: 3,
         dots: true,
         arrows: false,
         autoplay: false,
@@ -917,14 +917,20 @@ $(function() {
         cssEase: 'ease-out',
         pauseOnHover: false,
         responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
+                breakpoint: 1920,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-        }]
+        ]
 
     });
 
