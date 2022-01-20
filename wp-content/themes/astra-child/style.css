@@ -790,7 +790,7 @@ a.gold.no-deco:hover {
         padding: 4rem 0 0 0;
     }
     .main-banner {
-        margin: 4rem 0 0 0;
+        /* margin: 4rem 0 0 0; */
     }
     .home .main-banner {
         padding: 0;
