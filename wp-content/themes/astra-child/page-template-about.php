@@ -304,7 +304,7 @@ get_header(); ?>
 
 
     <div class="row justify-content-center gx-5 align-items-center">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-10 col-10 ">
             <div class="img-shadow-div grey-bg p-3">
 
                 <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-img-1.png"
@@ -318,7 +318,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-10 col-10 mt-lg-0 mt-md-0 mt-sm-5 mt-5  ">
             <div class="text-start">
                 <div>
                     <h4 class="gold"> //Remember The Society
