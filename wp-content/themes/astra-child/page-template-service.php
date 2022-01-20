@@ -50,7 +50,7 @@ get_header(); ?>
 
 
     <div class="row justify-content-center gx-5">
-        <div class="col-lg-5 col-md-5 col-sm-10 col-10 ">
+        <div class="col-lg-5 col-md-5 col-sm-10 col-10  mb-5">
             <div class="img-shadow-div grey-bg p-3">
 
                 <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('service_image'),'full')[0];?>"
