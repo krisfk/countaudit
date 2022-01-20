@@ -744,10 +744,6 @@ a.gold.no-deco:hover {
     margin: -1rem 0 0 0;
 }
 
-.slick-slide {
-    /* margin: 0 0.5rem; */
-}
-
 .home .main-banners .slick-slide {
     /* margin: 0; */
 }
@@ -900,6 +896,9 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 640px) {}
 
 @media only screen and (max-width: 480px) {
+    .about-carousel .slick-slide {
+        margin: 0 0.5rem;
+    }
     .title-container .txt {
         display: inline-block;
         font-size: 1rem;
