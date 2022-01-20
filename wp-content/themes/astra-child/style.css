@@ -463,7 +463,7 @@ img.scaled-image {
 }
 
 .banner-bottom-blue-container h3 {
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 
 .team-member-icon {
