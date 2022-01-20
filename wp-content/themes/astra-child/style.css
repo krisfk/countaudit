@@ -732,6 +732,14 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .banner-bottom-blue-container {
+        background: #363e51;
+        color: #fff;
+        max-width: 991px !important;
+        margin: 0px 0 0 0;
+        z-index: 100;
+        position: relative;
+    }
     .logo-a {
         padding: 1rem;
     }
