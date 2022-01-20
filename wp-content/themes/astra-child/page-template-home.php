@@ -837,7 +837,7 @@ get_header(); ?>
 <div class="grey-bg-2 mt-5">
 
 
-    <div class="container contact-container">
+    <div class="container contact-form-container">
         <div class="row pt-lg-0 pt-md-0 pt-sm-5  pt-5  mt-5 align-items-center">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
