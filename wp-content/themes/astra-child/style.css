@@ -774,10 +774,15 @@ a.gold.no-deco:hover {
     .home-pts-ul li:nth-child(4) {
         margin: 0;
     }
-    .main-banners,
-    .main-banner {
+    .main-banners {
         /* margin: 40px 0 0 0; */
         padding: 4rem 0 0 0;
+    }
+    .main-banner {
+        padding: 4rem 0 0 0;
+    }
+    .home .main-banner {
+        padding: 0;
     }
     .title-container .txt {
         display: inline-block;
