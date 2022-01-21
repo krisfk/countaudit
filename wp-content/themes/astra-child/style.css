@@ -894,7 +894,12 @@ a.gold.no-deco:hover {
     }
 }
 
-@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 640px) {
+    .ltd-co-table .price {
+        font-size: 1rem;
+        padding: 0.5rem 0 0.5rem 0 !important;
+    }
+}
 
 @media only screen and (max-width: 480px) {
     .about-carousel .slick-slide {
