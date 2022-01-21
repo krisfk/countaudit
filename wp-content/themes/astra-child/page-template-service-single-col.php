@@ -303,7 +303,7 @@ get_header(); ?>
 
     <div class="container contact-form-container">
         <div class="row pt-5 pb-5  mt-5 align-items-center justify-content-center">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
                 <div>
                     <div>
@@ -317,7 +317,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
                 <div class="form-div white-bg ">
 
