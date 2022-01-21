@@ -173,6 +173,7 @@ img.scaled-image {
 
 .img-shadow-div.one-column {
     max-width: 991px;
+    width: 90%;
 }
 
 .gold {
