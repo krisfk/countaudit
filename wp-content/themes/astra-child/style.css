@@ -758,7 +758,7 @@ a.gold.no-deco:hover {
 
 @media only screen and (max-width: 991px) {
     .contact-form-container {
-        padding: 1rem 0 0 0;
+        padding: 3rem 0 0 0;
     }
     .bottom-menu-ul li {
         display: inline-block;
