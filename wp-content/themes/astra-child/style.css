@@ -762,7 +762,8 @@ a.gold.no-deco:hover {
     }
     .bottom-menu-ul li {
         display: inline-block;
-        margin: 0 1rem 0.5rem 1rem;
+        margin: 0 0.8rem 0.2rem 1rem;
+        font-size: 0.8rem;
     }
     .about-slogan {
         font-size: 2rem;
