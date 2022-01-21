@@ -89,10 +89,9 @@ get_header(); ?>
 <div class="grey-bg-2">
 
 
-    <div class="container">
+    <div class="container contact-form-container">
         <div class="row   align-items-center">
-            <div class="col-6">
-
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
                 <div class="text-start">
                     <div>
                         <h4 class="gold">//明碼實價
@@ -106,7 +105,7 @@ get_header(); ?>
 
                 </div>
             </div>
-            <div class="col-6 p-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
                 <div class="form-div white-bg ">
 
