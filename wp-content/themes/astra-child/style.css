@@ -817,8 +817,7 @@ a.gold.no-deco:hover {
         width: 100% !important;
         max-width: 100% !important;
     }
-    .home-pts-ul,
-    .contact-pts-ul {
+    .home-pts-ul {
         display: flex;
         width: 95%;
         flex-wrap: wrap;
@@ -835,6 +834,18 @@ a.gold.no-deco:hover {
         background: none !important;
         color: #fff !important;
         margin: 0 0 1rem;
+    }
+    .contact-pts-ul li {
+        display: block;
+        width: 100%;
+        /* flex-wrap: nowrap; */
+        /* margin: 1rem 0 0em 0; */
+        padding: 0.1rem;
+        font-size: 0.8rem;
+        background: none !important;
+        color: #fff !important;
+        margin: 2rem 0 2rem;
+        font-weight: normal;
     }
     .home-pts-ul li:nth-child(3),
     .home-pts-ul li:nth-child(4) {
