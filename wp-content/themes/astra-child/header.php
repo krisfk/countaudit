@@ -193,7 +193,7 @@ echo'</li>';
                 $(function() {
 
 
-                    $('.level-1 parent').click(function() {
+                    $('.level-1.parent').click(function() {
 
                         $(this).toggleClass('active');
 
