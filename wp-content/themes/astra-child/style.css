@@ -763,6 +763,7 @@ a.gold.no-deco:hover {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 999999999;
 }
 
 .mobile-menu-btn:hover,
@@ -833,6 +834,8 @@ a.gold.no-deco:hover {
         top: 0;
         left: 0;
         width: 100%;
+        background: #fff;
+        z-index: 9999;
     }
     .top-div {
         opacity: 0;
