@@ -217,7 +217,7 @@ echo'</li>';
                             // $('.top-menu-ul').css({
                             //     'display': 'table'
                             // });
-                            $('.top-menu-ul').fadeIn(0);
+                            $('.top-menu-ul').fadeIn(200);
 
                             $('body').css({
                                 'overflow': 'hidden'
