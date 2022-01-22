@@ -212,9 +212,14 @@ echo'</li>';
                         if ($(this).hasClass('opened')) {
 
                             $('.top-menu-ul').fadeIn(200);
+                            $('body').css({
+                                'overflow': 'hidden'
+                            });
                         } else {
                             $('.top-menu-ul').fadeOut(0);
-
+                            $('body').css({
+                                'overflow': 'auto'
+                            });
                         }
                     })
 
