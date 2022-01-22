@@ -734,6 +734,10 @@ img.scaled-image {
     font-size: 0.8rem;
 }
 
+.choose-plan-btn:hover {
+    color: #fff;
+}
+
 .ltd-co-table th:nth-child(2n + 1) .table-head {
     background: rgb(54 64 80 / 90%);
 }
