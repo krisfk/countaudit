@@ -814,11 +814,18 @@ a.gold.no-deco:hover {
     stroke-width: 6;
 }
 
+.mobile-top-div {
+    display: none;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .mobile-top-div {
+        display: block;
+    }
     .contact-form-container {
         padding: 3rem 0 0 0;
     }
