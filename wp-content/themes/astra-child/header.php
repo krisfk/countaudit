@@ -210,6 +210,9 @@ echo'</li>';
                             $('.top-menu-ul').css({
                                 'display': 'table'
                             });
+                            $('body').css({
+                                'overflow': 'auto'
+                            });
                         } else {
                             $('.top-menu-ul').css({
                                 'display': 'none'
