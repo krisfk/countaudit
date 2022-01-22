@@ -193,6 +193,14 @@ echo'</li>';
                 $(function() {
 
 
+                    $('.level-1 parent').click(function() {
+
+                        $(this).toggleClass('active');
+
+                        if ($(this).hasClass('active')) {
+                            $(this).next('.mobile-menu-submenu').fadeIn(200)
+                        }
+                    })
                     $(window).resize(function() {
 
                         if ($(window).width() > 991) {
