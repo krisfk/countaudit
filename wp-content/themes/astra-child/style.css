@@ -848,6 +848,11 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .form-div {
+        padding: 2rem;
+        border-radius: 1rem;
+        margin: 0 0 2rem 0;
+    }
     .bottom-menu-ul .mobile-menu-submenu {
         display: none;
         /* : none !important; */
