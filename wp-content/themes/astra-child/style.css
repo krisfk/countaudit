@@ -848,6 +848,10 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 991px) {
+    .bottom-menu-ul .mobile-menu-submenu {
+        display: none;
+        : none !important;
+    }
     .mobile-menu-submenu {
         display: block;
         position: relative;
