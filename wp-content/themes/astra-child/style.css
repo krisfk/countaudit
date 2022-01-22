@@ -848,7 +848,18 @@ a.gold.no-deco:hover {
         line-height: 1.5rem;
     }
     .top-menu-ul {
-        display: none;
+        display: block;
+        position: fixed;
+        top: 3rem;
+        left: 0;
+        background: #3e495e;
+        width: 100%;
+        z-index: 100000000;
+        height: 100%;
+    }
+    .top-menu-ul li {
+        display: block;
+        width: 100%;
     }
     .banner-bottom-blue-container {
         background: #363e51;
@@ -874,7 +885,7 @@ a.gold.no-deco:hover {
     .contact-pts-ul-wrapper-container {
         margin: 0rem 0 0 0 !important;
         position: relative;
-        z-index: 100;
+        z-index: -1;
         padding: 1rem 0 1rem 0 !important;
         background: #3e485e;
         padding: 1;
