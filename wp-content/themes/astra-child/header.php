@@ -228,7 +228,9 @@ echo'</li>';
 
                     if ($(this).hasClass('opened')) {
 
-                        $('.top-menu-ul').fadeIn(200);
+                        $('.top-menu-ul').css({
+                            'display': 'table'
+                        });
                         $('body').css({
                             'overflow': 'hidden'
                         });
