@@ -193,6 +193,33 @@ echo'</li>';
                 $(function() {
 
 
+
+                    // $('.mobile-menu-overlay .mobile-menu a.parent').click(function(e) {
+                    //     e.preventDefault();
+                    //     $(this).toggleClass('active');
+
+                    //     if ($(this).hasClass('active')) {
+                    //         $('.mobile-menu-submenu').slideDown(200);
+                    //     } else {
+                    //         $('.mobile-menu-submenu').fadeOut(0);
+
+                    //     }
+
+                    // })
+
+                    $('.mobile-menu-btn').click(function() {
+
+                        if ($(this).hasClass('opened')) {
+
+                            $('.top-menu-ul').fadeIn(200);
+                        } else {
+                            $('.top-menu-ul').fadeOut(0);
+
+                        }
+                    })
+
+
+
                     $('.level-1').mouseenter(function() {
 
                         if ($(window).width() > 1200) {
