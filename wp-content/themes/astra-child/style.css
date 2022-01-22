@@ -927,11 +927,11 @@ a.gold.no-deco:hover {
     }
     .top-menu-ul li a {
         display: block;
-        padding: 0.5rem 0 0.5rem 0;
+        padding: 0.5rem 0 0.5rem 1rem;
         outline: none;
     }
     .mobile-menu-submenu li a {
-        padding: 0.1rem 0 0.1rem 0;
+        padding: 0.1rem 0 0.1rem 1rem;
     }
     .banner-bottom-blue-container {
         background: #363e51;
