@@ -818,6 +818,10 @@ a.gold.no-deco:hover {
     display: none;
 }
 
+.top-div {
+    opacity: 1;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
@@ -825,6 +829,9 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 991px) {
     .mobile-top-div {
         display: block;
+    }
+    .top-div {
+        opacity: 0;
     }
     .contact-form-container {
         padding: 3rem 0 0 0;
