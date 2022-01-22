@@ -208,71 +208,80 @@ echo'</li>';
                     // })
                     $(window).resize(function() {
 
-                        if ($(window).width() > 991) {
-                            $('.top-menu-ul').css({
-                                'display': 'table'
-                            });
-                        }
-                    })
-
-                    $('.mobile-menu-btn').click(function() {
-
-                        if ($(this).hasClass('opened')) {
-
-                            $('.top-menu-ul').fadeIn(200);
-                            $('body').css({
-                                'overflow': 'hidden'
-                            });
-                        } else {
-                            $('.top-menu-ul').fadeOut(0);
-                            $('body').css({
-                                'overflow': 'auto'
-                            });
-                        }
-                    })
-
-
-
-                    $('.level-1').mouseenter(function() {
-
-                        if ($(window).width() > 1200) {
-                            $('.mobile-menu-submenu').clearQueue().fadeOut(0);
-
-
-                            if ($(this).hasClass('parent')) {
-                                $(this).next('.mobile-menu-submenu').slideDown(200);
+                            if ($(window).width() > 991) {
+                                $('.top-menu-ul').css({
+                                    'display': 'table'
+                                });
+                            } else {
+                                $('.top-menu-ul').css({
+                                    'display': 'none'
+                                });
+                                $('.mobile-menu-btn').removeClass('opened');
                             }
-                        }
-
-
-
-                    })
-
-                    $('.mobile-menu-submenu').mouseleave(function() {
-
-                        if ($(window).width() > 1200) {
-
-                            $('.mobile-menu-submenu').fadeOut(0);
-                        }
-                    })
-
-
-                    $('.mobile-menu-submenu').mouseenter(function() {
-
-                        $(this).clearQueue().fadeIn(0);
-
-                    })
-
-
-                    $('.level-1').mouseleave(function() {
-
-                        if ($(window).width() > 1200) {
-
-
-                            $('.mobile-menu-submenu').delay(500).fadeOut(0)
 
                         }
+
+
                     })
+
+                $('.mobile-menu-btn').click(function() {
+
+                    if ($(this).hasClass('opened')) {
+
+                        $('.top-menu-ul').fadeIn(200);
+                        $('body').css({
+                            'overflow': 'hidden'
+                        });
+                    } else {
+                        $('.top-menu-ul').fadeOut(0);
+                        $('body').css({
+                            'overflow': 'auto'
+                        });
+                    }
+                })
+
+
+
+                $('.level-1').mouseenter(function() {
+
+                    if ($(window).width() > 1200) {
+                        $('.mobile-menu-submenu').clearQueue().fadeOut(0);
+
+
+                        if ($(this).hasClass('parent')) {
+                            $(this).next('.mobile-menu-submenu').slideDown(200);
+                        }
+                    }
+
+
+
+                })
+
+                $('.mobile-menu-submenu').mouseleave(function() {
+
+                    if ($(window).width() > 1200) {
+
+                        $('.mobile-menu-submenu').fadeOut(0);
+                    }
+                })
+
+
+                $('.mobile-menu-submenu').mouseenter(function() {
+
+                    $(this).clearQueue().fadeIn(0);
+
+                })
+
+
+                $('.level-1').mouseleave(function() {
+
+                    if ($(window).width() > 1200) {
+
+
+                        $('.mobile-menu-submenu').delay(500).fadeOut(0)
+
+                    }
+                })
 
                 })
                 </script>
