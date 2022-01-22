@@ -875,7 +875,7 @@ a.gold.no-deco:hover {
         line-height: 1.5rem;
     }
     .top-menu-ul {
-        display: block;
+        display: none;
         position: fixed;
         top: 3rem;
         left: 0;
