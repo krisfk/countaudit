@@ -198,7 +198,10 @@ echo'</li>';
                         $(this).toggleClass('active');
 
                         if ($(this).hasClass('active')) {
-                            $(this).next('.mobile-menu-submenu').fadeIn(200)
+                            $(this).next('.mobile-menu-submenu').slideDown(200)
+                        } else {
+                            $(this).next('.mobile-menu-submenu').fadeOut(0)
+
                         }
                     })
                     $(window).resize(function() {
