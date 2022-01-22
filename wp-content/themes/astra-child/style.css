@@ -833,10 +833,10 @@ a.gold.no-deco:hover {
     .mobile-menu-submenu {
         display: block;
         position: relative;
-        top: 2rem;
+        top: 0;
         left: 0;
         padding: 0.5rem 0 0.5rem 0;
-        background: rgb(54 63 80 / 85%);
+        background: no-repeat;
         margin: 0;
         border-radius: 0.5rem;
     }
