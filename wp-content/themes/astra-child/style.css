@@ -826,6 +826,16 @@ a.gold.no-deco:hover {
     opacity: 1;
 }
 
+.submenu-arrow {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(./assets/images/down-arrow.png);
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
