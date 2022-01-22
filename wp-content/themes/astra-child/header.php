@@ -209,7 +209,9 @@ echo'</li>';
                     $(window).resize(function() {
 
                         if ($(window).width() > 991) {
-                            $('.top-menu-ul').fadeIn(0);
+                            $('.top-menu-ul').css({
+                                'display': 'table'
+                            });
                         }
                     })
 
