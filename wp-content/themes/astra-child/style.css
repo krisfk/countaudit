@@ -756,6 +756,7 @@ a.gold.no-deco:hover {
     display: none;
     background-color: transparent;
     border: none;
+    position: relative;
     cursor: pointer;
     /* display: block; */
     padding: 0;
@@ -831,6 +832,7 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 991px) {
     .mobile-menu-btn {
         display: block;
+        position: fixed;
     }
     .mobile-top-div {
         display: block;
