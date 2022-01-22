@@ -228,9 +228,11 @@ echo'</li>';
 
                     if ($(this).hasClass('opened')) {
 
-                        $('.top-menu-ul').css({
-                            'display': 'table'
-                        });
+                        // $('.top-menu-ul').css({
+                        //     'display': 'table'
+                        // });
+                        $('.top-menu-ul').fadeIn(0);
+
                         $('body').css({
                             'overflow': 'hidden'
                         });
