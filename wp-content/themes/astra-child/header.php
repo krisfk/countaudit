@@ -231,6 +231,7 @@ echo'</li>';
                         // $('.top-menu-ul').css({
                         //     'display': 'table'
                         // });
+                        alert(6);
                         $('.top-menu-ul').fadeIn(0);
 
                         $('body').css({
