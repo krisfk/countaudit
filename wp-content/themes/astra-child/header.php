@@ -135,7 +135,7 @@ $slug=str_replace('/','',$slug);
 if(count($menu_item['children']))
 {
 
-echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'">'.$title;
+echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'"><div class="submenu-arrow"></div>'.$title;
 ?>
                     <img class="arrow"
                         src="<?php echo get_template_directory_uri();?>/assets/images/white-arrow-enter.png" alt="">
