@@ -74,7 +74,7 @@ body {
     position: relative;
 }
 
-.top-menu-ul li>a {
+.top-menu-ul li>a.level-1 {
     color: #fff;
     text-decoration: none;
     text-shadow: #212528 0px 0px 4px, #212528 0px 0px 4px, #212528 0px 0px 4px;
