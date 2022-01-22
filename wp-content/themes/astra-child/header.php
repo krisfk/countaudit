@@ -206,6 +206,7 @@ echo'</li>';
                     //     }
 
                     // })
+                    $(window).resize(function() {})
 
                     $('.mobile-menu-btn').click(function() {
 
