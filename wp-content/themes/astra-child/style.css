@@ -829,6 +829,10 @@ a.gold.no-deco:hover {
 @media only screen and (max-width: 991px) {
     .mobile-top-div {
         display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
     .top-div {
         opacity: 0;
