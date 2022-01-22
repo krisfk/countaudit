@@ -74,9 +74,13 @@ body {
     position: relative;
 }
 
-.top-menu-ul li>a.level-1 {
+.top-menu-ul li>a {
     color: #fff;
     text-decoration: none;
+    /* text-shadow: #212528 0px 0px 4px, #212528 0px 0px 4px, #212528 0px 0px 4px; */
+}
+
+.top-menu-ul li>a.level-1 {
     text-shadow: #212528 0px 0px 4px, #212528 0px 0px 4px, #212528 0px 0px 4px;
 }
 
