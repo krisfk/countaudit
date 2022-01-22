@@ -193,19 +193,6 @@ echo'</li>';
                 $(function() {
 
 
-
-                            // $('.mobile-menu-overlay .mobile-menu a.parent').click(function(e) {
-                            //     e.preventDefault();
-                            //     $(this).toggleClass('active');
-
-                            //     if ($(this).hasClass('active')) {
-                            //         $('.mobile-menu-submenu').slideDown(200);
-                            //     } else {
-                            //         $('.mobile-menu-submenu').fadeOut(0);
-
-                            //     }
-
-                            // })
                             $(window).resize(function() {
 
                                     if ($(window).width() > 991) {
@@ -285,6 +272,7 @@ echo'</li>';
 
                                     }
                                 })
+
 
                             })
                 </script>
