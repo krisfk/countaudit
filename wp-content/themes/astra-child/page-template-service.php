@@ -196,10 +196,10 @@ get_header(); ?>
 
 
                         <tr>
-                            <td><label for="ended-date"> If Yes, please provide the related year ended date
+                            <td><label for="year-ended-date"> If Yes, please provide the related year ended date
                                     <br>
                                     如是，請提供相關年結日</label></td>
-                            <td><input id="ended-date" type="text" class="form-control"></td>
+                            <td><input id="year-ended-date" type="text" class="form-control"></td>
                         </tr>
 
 
@@ -225,6 +225,14 @@ get_header(); ?>
                             </td>
 
 
+                        </tr>
+
+
+                        <tr>
+                            <td><label for="year-assessment"> If Yes, please provide the related year of assessment
+                                    <br>
+                                    如是，請提供相關課稅年度</label></td>
+                            <td><input id="year-assessment" type="text" class="form-control"></td>
                         </tr>
 
 
