@@ -149,6 +149,18 @@ get_header(); ?>
                             <td><label for="tel">Tel 電話:</label></td>
                             <td><input id="tel" type="text" class="form-control"></td>
                         </tr>
+                        <tr>
+                            <td><label for="email">E-mail 電郵:</label></td>
+                            <td><input id="email" type="text" class="form-control"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <h4 class="text-center mb-4">Company Information 公司資料</h4>
+                            </td>
+                        </tr>
+
+
                     </table>
 
                     <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
