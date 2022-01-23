@@ -130,9 +130,11 @@ get_header(); ?>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
+                <h4 class="text-center"> Quotation Form of Accounting Service <br>
+                    會計服務報價表</h4>
+
+
                 <div class="form-div white-bg ">
-                    <h4 class="text-center"> Quotation Form of Accounting Service <br>
-                        會計服務報價表</h4>
                     <table class="border-0 mt-4">
                         <tr>
                             <td colspan="2">
