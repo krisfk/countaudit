@@ -427,7 +427,7 @@ img.scaled-image {
 
 .form-div input {
     border-radius: 1rem;
-    margin: 0 0 1rem 0;
+    /* margin: 0 0 1rem 0; */
     background: #f6f6f6;
 }
 
