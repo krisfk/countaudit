@@ -145,6 +145,10 @@ get_header(); ?>
                             <td><label for="name">Name 姓名:</label></td>
                             <td><input id="name" type="text" class="form-control"></td>
                         </tr>
+                        <tr>
+                            <td><label for="tel">Tel 電話:</label></td>
+                            <td><input id="tel" type="text" class="form-control"></td>
+                        </tr>
                     </table>
 
                     <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
