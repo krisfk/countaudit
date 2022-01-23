@@ -142,31 +142,31 @@ get_header(); ?>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:50px"><label for="name">Name<br>姓名:</label></td>
+                            <td><label for="name">Name 姓名:</label></td>
                             <td><input id="name" type="text" class="form-control"></td>
                         </tr>
                         <tr>
-                            <td><label for="tel">Tel<br>電話:</label></td>
+                            <td><label for="tel">Tel 電話:</label></td>
                             <td><input id="tel" type="text" class="form-control"></td>
                         </tr>
                         <tr>
-                            <td><label for="email">E-mail<br>電郵:</label></td>
+                            <td><label for="email">E-mail 電郵:</label></td>
                             <td><input id="email" type="text" class="form-control"></td>
                         </tr>
 
                         <tr>
                             <td colspan="2">
-                                <h4 class="text-center mb-4">Company Information<br>公司資料</h4>
+                                <h4 class="text-center mb-4">Company Information 公司資料</h4>
                             </td>
                         </tr>
 
                         <tr>
-                            <td><label for="company-name">Company name<br>公司名稱</label></td>
+                            <td><label for="company-name">Company name 公司名稱</label></td>
                             <td><input id="company-name" type="text" class="form-control"></td>
                         </tr>
 
                         <tr>
-                            <td><label for="principal-activities">Principal activities<br>主要業務</label></td>
+                            <td><label for="principal-activities">Principal activities 主要業務</label></td>
                             <td><input id="principal-activities" type="text" class="form-control"></td>
                         </tr>
 
