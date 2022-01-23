@@ -143,15 +143,15 @@ get_header(); ?>
                         </tr>
                         <tr>
                             <td><label for="name">Name 姓名:</label></td>
-                            <td><input id="name" type="text" class="form-control"></td>
+                            <td><input id="name" name="name" type="text" class="form-control"></td>
                         </tr>
                         <tr>
                             <td><label for="tel">Tel 電話:</label></td>
-                            <td><input id="tel" type="text" class="form-control"></td>
+                            <td><input id="tel" name="tel" type="text" class="form-control"></td>
                         </tr>
                         <tr>
                             <td><label for="email">E-mail 電郵:</label></td>
-                            <td><input id="email" type="text" class="form-control"></td>
+                            <td><input id="email" name="email" type="text" class="form-control"></td>
                         </tr>
 
                         <tr>
@@ -162,12 +162,13 @@ get_header(); ?>
 
                         <tr>
                             <td><label for="company-name">Company name 公司名稱</label></td>
-                            <td><input id="company-name" type="text" class="form-control"></td>
+                            <td><input id="company-name" name="company-name" type="text" class="form-control"></td>
                         </tr>
 
                         <tr>
                             <td><label for="principal-activities">Principal activities 主要業務</label></td>
-                            <td><input id="principal-activities" type="text" class="form-control"></td>
+                            <td><input id="principal-activities" name="principal-activities" type="text"
+                                    class="form-control"></td>
                         </tr>
 
                         <tr>
@@ -199,7 +200,8 @@ get_header(); ?>
                             <td><label for="year-ended-date"> If Yes, please provide the related year ended date
                                     <br>
                                     如是，請提供相關年結日</label></td>
-                            <td><input id="year-ended-date" type="text" class="form-control"></td>
+                            <td><input id="year-ended-date" name="year-ended-date" type="text" class="form-control">
+                            </td>
                         </tr>
 
 
@@ -232,7 +234,8 @@ get_header(); ?>
                             <td><label for="year-assessment"> If Yes, please provide the related year of assessment
                                     <br>
                                     如是，請提供相關課稅年度</label></td>
-                            <td><input id="year-assessment" type="text" class="form-control"></td>
+                            <td><input id="year-assessment" name="year-assessment" type="text" class="form-control">
+                            </td>
                         </tr>
 
 
@@ -267,7 +270,8 @@ get_header(); ?>
                             <td><label for="year-ended-date-2"> If Yes, please provide the related year ended date
                                     <br>
                                     如是，請提供相關年結日</label></td>
-                            <td><input id="year-ended-date-2" type="text" class="form-control"></td>
+                            <td><input id="year-ended-date-2" name="year-ended-date-2" type="text" class="form-control">
+                            </td>
                         </tr>
 
 
