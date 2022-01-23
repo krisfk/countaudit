@@ -160,6 +160,16 @@ get_header(); ?>
                             </td>
                         </tr>
 
+                        <tr>
+                            <td><label for="company-name">Company name 公司名稱</label></td>
+                            <td><input id="company-name" type="text" class="form-control"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="principal-activities">Principal activities 主要業務</label></td>
+                            <td><input id="principal-activities" type="text" class="form-control"></td>
+                        </tr>
+
 
                     </table>
 
