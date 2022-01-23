@@ -203,6 +203,32 @@ get_header(); ?>
                         </tr>
 
 
+                        <tr>
+                            <td><label for="declared-profits-tax-before">Has declared profits tax before? <br>
+                                    是否曾申報利得稅</label></td>
+                            <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                        id="declared-profits-tax-before-yes">
+                                    <label class="form-check-label" for="performed-audit-before-yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                        id="declared-profits-tax-before-no">
+                                    <label class="form-check-label" for="performed-audit-before-no">
+                                        No
+                                    </label>
+                                </div>
+
+                            </td>
+
+
+                        </tr>
+
+
+
 
 
                     </table>
