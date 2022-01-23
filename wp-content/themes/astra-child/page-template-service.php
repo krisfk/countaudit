@@ -138,7 +138,7 @@ get_header(); ?>
                     <table class="border-0 mt-0">
                         <tr>
                             <td colspan="2">
-                                <h4 class="text-center"> Contact Information 聯絡資料</h4>
+                                <h4 class="text-center mb-4"> Contact Information 聯絡資料</h4>
                             </td>
                         </tr>
                         <tr>
