@@ -278,6 +278,39 @@ get_header(); ?>
 
 
 
+                        <tr>
+                            <td><label for="done-accounting-before">Reporting Frequency <br>
+                                    會計匯報頻率</label></td>
+                            <td>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="done-accounting-before"
+                                        id="done-accounting-before-yes">
+                                    <label class="form-check-label" for="done-accounting-before-yes">
+                                        每月 Monthly
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="done-accounting-before"
+                                        id="done-accounting-before-no">
+                                    <label class="form-check-label" for="done-accounting-before-no">
+                                        每季 Quarterly
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="done-accounting-before"
+                                        id="done-accounting-before-no">
+                                    <label class="form-check-label" for="done-accounting-before-no">
+                                        每年 Yearly
+                                    </label>
+                                </div>
+
+                            </td>
+
+
+                        </tr>
+
+
 
 
 
