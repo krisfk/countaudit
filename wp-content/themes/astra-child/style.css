@@ -856,6 +856,10 @@ a.gold.no-deco:hover {
     /* transform: rotate(-3deg); */
 }
 
+.form-check {
+    display: inline-block;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
