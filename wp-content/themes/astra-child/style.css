@@ -858,6 +858,7 @@ a.gold.no-deco:hover {
 
 .form-check {
     display: inline-block !important;
+    margin: 0 0.5rem 0 0;
 }
 
 .form-check .form-check-input {
