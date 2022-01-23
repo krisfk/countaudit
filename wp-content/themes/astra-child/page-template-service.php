@@ -175,14 +175,14 @@ get_header(); ?>
                                     是否曾進行核數</label></td>
                             <td>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    <input class="form-check-input" type="radio" name="performed-audit-before"
                                         id="performed-audit-before-yes">
                                     <label class="form-check-label" for="performed-audit-before-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    <input class="form-check-input" type="radio" name="performed-audit-before"
                                         id="performed-audit-before-no">
                                     <label class="form-check-label" for="performed-audit-before-no">
                                         No
