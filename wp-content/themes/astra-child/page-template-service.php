@@ -114,7 +114,7 @@ get_header(); ?>
 
     <div class="container contact-form-container">
         <div class="row pt-0 pb-0  mt-0 align-items-center justify-content-center">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12  text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12  text-center mt-5">
 
                 <div>
                     <div>
