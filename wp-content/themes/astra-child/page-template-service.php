@@ -134,8 +134,8 @@ get_header(); ?>
                     會計服務報價表</h4>
 
 
-                <div class="form-div white-bg ">
-                    <table class="border-0 mt-4">
+                <div class="form-div white-bg mt-5">
+                    <table class="border-0 mt-0">
                         <tr>
                             <td colspan="2">
                                 <h4 class="text-center"> Contact Information 聯絡資料</h4>
