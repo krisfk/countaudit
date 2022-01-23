@@ -133,6 +133,17 @@ get_header(); ?>
                 <div class="form-div white-bg ">
                     <h4 class="text-center"> Quotation Form of Accounting Service <br>
                         會計服務報價表</h4>
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                <h4 class="text-center"> Contact Information 聯絡資料</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="name">Name 姓名:</label></td>
+                            <td><input id="name" type="text" class="form-control"></td>
+                        </tr>
+                    </table>
 
                     <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
