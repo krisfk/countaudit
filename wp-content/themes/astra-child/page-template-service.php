@@ -133,7 +133,7 @@ get_header(); ?>
                 <div class="form-div white-bg ">
                     <h4 class="text-center"> Quotation Form of Accounting Service <br>
                         會計服務報價表</h4>
-                    <table>
+                    <table class="border-0">
                         <tr>
                             <td colspan="2">
                                 <h4 class="text-center"> Contact Information 聯絡資料</h4>
