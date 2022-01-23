@@ -132,7 +132,7 @@ get_header(); ?>
 
                 <div class="form-div white-bg ">
 
-                    <input type="text" class="form-control" placeholder="如何稱呼您？">
+                    <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
                     <input type="text" class="form-control" placeholder="電郵">
                     <input type="text" class="form-control" placeholder="查詢類別">
@@ -140,7 +140,7 @@ get_header(); ?>
 
                     <div class="text-end">
                         <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
