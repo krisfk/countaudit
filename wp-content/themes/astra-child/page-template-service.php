@@ -131,8 +131,8 @@ get_header(); ?>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
                 <div class="form-div white-bg ">
-                    <h2> Quotation Form of Accounting Service <br>
-                        會計服務報價表</h2>
+                    <h4> Quotation Form of Accounting Service <br>
+                        會計服務報價表</h4>
 
                     <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
