@@ -210,14 +210,14 @@ get_header(); ?>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="declared-profits-tax-before"
                                         id="declared-profits-tax-before-yes">
-                                    <label class="form-check-label" for="performed-audit-before-yes">
+                                    <label class="form-check-label" for="declared-profits-tax-before-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="declared-profits-tax-before"
                                         id="declared-profits-tax-before-no">
-                                    <label class="form-check-label" for="performed-audit-before-no">
+                                    <label class="form-check-label" for="declared-profits-tax-before-no">
                                         No
                                     </label>
                                 </div>
@@ -236,6 +236,31 @@ get_header(); ?>
                         </tr>
 
 
+
+
+                        <tr>
+                            <td><label for="done-accounting-before">Has done accounting before? <br>
+                                    是否曾做會計帳</label></td>
+                            <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="done-accounting-before"
+                                        id="done-accounting-before-yes">
+                                    <label class="form-check-label" for="done-accounting-before-yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="done-accounting-before"
+                                        id="done-accounting-before-no">
+                                    <label class="form-check-label" for="done-accounting-before-no">
+                                        No
+                                    </label>
+                                </div>
+
+                            </td>
+
+
+                        </tr>
 
 
 
