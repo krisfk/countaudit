@@ -176,15 +176,15 @@ get_header(); ?>
                             <td>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        id="performed-audit-before-yes">
+                                    <label class="form-check-label" for="performed-audit-before-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        id="performed-audit-before-no">
+                                    <label class="form-check-label" for="performed-audit-before-no">
                                         No
                                     </label>
                                 </div>
