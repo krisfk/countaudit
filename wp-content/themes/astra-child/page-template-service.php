@@ -142,7 +142,7 @@ get_header(); ?>
                             </td>
                         </tr>
                         <tr>
-                            <td><label for="name">Name<br>姓名:</label></td>
+                            <td style="width:50px"><label for="name">Name<br>姓名:</label></td>
                             <td><input id="name" type="text" class="form-control"></td>
                         </tr>
                         <tr>
