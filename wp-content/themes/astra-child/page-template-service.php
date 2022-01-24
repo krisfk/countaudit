@@ -354,7 +354,7 @@ get_header(); ?>
                         </div>
                         <div class="col-6 mb-3">
 
-                            <input type="file" class="excel-file" name="excel-file" id="excel-file">
+                            <input type="file" class="form-control" name="excel-file" id="excel-file">
                             <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
                                 class="form-control"> -->
                         </div>
