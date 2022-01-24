@@ -586,7 +586,7 @@ img.scaled-image {
 }
 
 .service-contact-btn,
-.submit-btn {
+.form-submit-btn {
     display: inline-block;
     background: #3e485e;
     text-decoration: none;
@@ -596,7 +596,7 @@ img.scaled-image {
 }
 
 .service-contact-btn:hover,
-.submit-btn:hover {
+.form-submit-btn:hover {
     color: #fff;
 }
 
