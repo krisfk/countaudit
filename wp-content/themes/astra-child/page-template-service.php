@@ -524,6 +524,21 @@ get_header(); ?>
 
 
 
+                        <div class="col-6 mb-3">
+
+                            <label for="no-of-employees">
+                                No. of employees <br>
+                                員工人數 </label>
+
+                        </div>
+
+                        <div class="col-6 mb-3">
+
+                            <input name="no-of-employees" id="no-of-employees" type="text" class="form-control">
+
+                        </div>
+
+
 
 
 
