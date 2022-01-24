@@ -147,10 +147,11 @@ get_header(); ?>
 
 
                         <div class="row  align-items-center">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="name">Name 姓名:</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">Name
+                                    姓名:</label>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="name" name="name"
-                                    type="text" class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
+                                    name="client-name" type="text" class="form-control">
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="tel">Tel 電話:</label></div>
@@ -601,7 +602,7 @@ get_header(); ?>
     if($_POST)
     {
     
-        // $name = $_POST['name'];
+        $client_name = $_POST['client_name'];
         // $tel = $_POST['tel'];
 
         // $email = $_POST['email'];
