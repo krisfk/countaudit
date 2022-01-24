@@ -601,7 +601,10 @@ get_header(); ?>
     if($_POST)
     {
         $name = $_POST['name'];
+        echo $name;
         $tel = $_POST['tel'];
+        echo $tel;
+
         $email = $_POST['email'];
         $company_name=$_POST['company-name'];
         $principal_activities=$_POST['principal-activities'];
