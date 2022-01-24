@@ -135,7 +135,7 @@ get_header(); ?>
 
 
 
-                <form action="" method="post" enctype="multipart/form-data">
+                <form id="form" action="" method="post" enctype="multipart/form-data">
 
                     <div class="form-div white-bg mt-4">
 
@@ -649,8 +649,8 @@ get_header(); ?>
     <script type="text/javascript">
     $(function() {
         $('.form-submit-btn').click(function() {
-            alert(650);
-            // $('form').submit();
+            // alert(650);
+            $('#form').submit();
         });
         $('.about-carousel').slick({
             infinite: true,
