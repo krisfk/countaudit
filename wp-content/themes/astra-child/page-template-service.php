@@ -195,14 +195,14 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-yes">
+                                        id="performed-audit-before-yes" value="yes">
                                     <label class="form-check-label" for="performed-audit-before-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-no">
+                                        id="performed-audit-before-no" value="no">
                                     <label class="form-check-label" for="performed-audit-before-no">
                                         No
                                     </label>
@@ -238,14 +238,14 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="declared-profits-tax-before"
-                                        id="declared-profits-tax-before-yes">
+                                        id="declared-profits-tax-before-yes" value="yes">
                                     <label class="form-check-label" for="declared-profits-tax-before-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="declared-profits-tax-before"
-                                        id="declared-profits-tax-before-no">
+                                        id="declared-profits-tax-before-no" value="no">
                                     <label class="form-check-label" for="declared-profits-tax-before-no">
                                         No
                                     </label>
@@ -279,14 +279,14 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="done-accounting-before"
-                                        id="done-accounting-before-yes">
+                                        id="done-accounting-before-yes" value="yes">
                                     <label class="form-check-label" for="done-accounting-before-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="done-accounting-before"
-                                        id="done-accounting-before-no">
+                                        id="done-accounting-before-no" value="no">
                                     <label class="form-check-label" for="done-accounting-before-no">
                                         No
                                     </label>
@@ -324,21 +324,21 @@ get_header(); ?>
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="reporting-frequency"
-                                        id="reporting-frequency-monthly">
+                                        id="reporting-frequency-monthly" value="monthly">
                                     <label class="form-check-label" for="reporting-frequency-monthly">
                                         每月 Monthly
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="reporting-frequency"
-                                        id="reporting-frequency-quarterly">
+                                        id="reporting-frequency-quarterly" value="quarterly">
                                     <label class="form-check-label" for="reporting-frequency-quarterly">
                                         每季 Quarterly
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="reporting-frequency"
-                                        id="reporting-frequency-yearly">
+                                        id="reporting-frequency-yearly" value="yearly">
                                     <label class="form-check-label" for="reporting-frequency-yearly">
                                         每年 Yearly
                                     </label>
@@ -360,7 +360,7 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="excel-for-business-records"
-                                        id="excel-for-business-records-yes">
+                                        id="excel-for-business-records-yes" value="yes">
                                     <label class="form-check-label" for="excel-for-business-records-yes"
                                         name="excel-for-business-records">
                                         Yes
@@ -368,7 +368,7 @@ get_header(); ?>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="excel-for-business-records"
-                                        id="excel-for-business-records-no">
+                                        id="excel-for-business-records-no" value="no">
                                     <label class="form-check-label" for="excel-for-business-records-no"
                                         name="excel-for-business-records">
                                         No
@@ -422,13 +422,15 @@ get_header(); ?>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-yes">
+                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-yes"
+                                        value="yes">
                                     <label class="form-check-label" for="any-stock-yes" name="any-stock">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-no">
+                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-no"
+                                        value="no">
                                     <label class="form-check-label" for="any-stock-no" name="any-stock">
                                         No
                                     </label>
@@ -486,14 +488,14 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="any-property"
-                                        id="any-property-yes">
+                                        id="any-property-yes" value="yes">
                                     <label class="form-check-label" for="any-property-yes" name="any-property">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="any-property"
-                                        id="any-property-no">
+                                        id="any-property-no" value="no">
                                     <label class="form-check-label" for="any-property-no" name="any-property">
                                         No
                                     </label>
@@ -517,7 +519,7 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="any-motor-vehicle"
-                                        id="any-motor-vehicle-yes">
+                                        id="any-motor-vehicle-yes" value="yes">
                                     <label class="form-check-label" for="any-motor-vehicle-yes"
                                         name="any-motor-vehicle">
                                         Yes
@@ -525,7 +527,7 @@ get_header(); ?>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="any-motor-vehicle"
-                                        id="any-motor-vehicle-no">
+                                        id="any-motor-vehicle-no" value="no">
                                     <label class="form-check-label" for="any-motor-vehicle-no" name="any-motor-vehicle">
                                         No
                                     </label>
@@ -632,6 +634,22 @@ get_header(); ?>
         $any_motor_vehicle=$_POST['any-motor-vehicle'];
         $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
         $no_of_employees=$_POST['no-of-employees'];
+
+        $post_title = $name.' application';
+        $post_id = wp_insert_post(array (
+            'post_type' => 'accounting_q_form',
+            'post_title' => $post_title,
+            'post_status' => 'publish',
+            'comment_status' => 'closed',   // if you prefer
+            'ping_status' => 'closed',      // if you prefer
+        ));
+        
+        if ($post_id) {
+            add_post_meta($post_id, 'name', $name);
+            add_post_meta($post_id, 'tel', $tel);
+            add_post_meta($post_id, 'email', $email);
+            add_post_meta($post_id, 'company_name', $company_name);
+        }
     }
     ?>
     <script type="text/javascript">
