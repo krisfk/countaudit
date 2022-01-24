@@ -366,7 +366,7 @@ $(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        // adaptiveHeight: true,
+        adaptiveHeight: true,
         arrows: false,
         autoplay: false,
         pauseOnFocus: false,
