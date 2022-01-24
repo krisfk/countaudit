@@ -624,6 +624,7 @@ get_header(); ?>
         $excel_for_business_records=$_POST['excel-for-business-records'];
         $excel_file =$_POST['excel-file'];//FILE
         $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
+        
     }
     ?>
     <script type="text/javascript">
