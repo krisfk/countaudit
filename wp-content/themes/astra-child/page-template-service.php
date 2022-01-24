@@ -135,7 +135,7 @@ get_header(); ?>
 
 
 
-                <form id="form" action="" method="post" enctype="multipart/form-data">
+                <form id="form" action="?" method="post" enctype="multipart/form-data">
 
                     <div class="form-div white-bg mt-4">
 
