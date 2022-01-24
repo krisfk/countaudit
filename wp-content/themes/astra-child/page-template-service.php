@@ -369,7 +369,7 @@ get_header(); ?>
                             </label>
                         </div>
                         <div class="col-6 mb-3">
-
+                            <input type="text" class="form-control" name="way-of-sorting-receipts">
                             <!-- <input type="file" class="excel-file" name="excel-file" id="excel-file"> -->
                             <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
                                 class="form-control"> -->
