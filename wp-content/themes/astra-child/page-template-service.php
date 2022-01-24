@@ -411,8 +411,8 @@ get_header(); ?>
                                 </label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
-                                <input type="text" class="form-control" name="way-of-sorting-receipts"
-                                    id="way-of-sorting-receipts">
+                                <input type="text" class="form-control" name="total-turnover-yearly"
+                                    id="total-turnover-yearly">
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
@@ -609,7 +609,21 @@ get_header(); ?>
     
     if($_POST)
     {
-        echo 11;
+        $name = $_POST['name'];
+        $tel = $_POST['tel'];
+        $email = $_POST['email'];
+        $company_name=$_POST['company-name'];
+        $principal_activities=$_POST['principal-activities'];
+        $performed_audit_before=$_POST['performed-audit-before'];
+        $year_ended_date=$_POST['year-ended-date'];
+        $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
+        $year_assessment=$_POST['year-assessment'];
+        $done_accounting_before=$_POST['done-accounting-before'];
+        $year_ended_date_2=$_POST['year-ended-date-2'];
+        $reporting_frequency=$_POST['reporting-frequency'];
+        $excel_for_business_records=$_POST['excel-for-business-records'];
+        $excel_file =$_POST['excel-file'];//FILE
+        $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
     }
     ?>
     <script type="text/javascript">
