@@ -352,7 +352,7 @@ get_header(); ?>
                                 　如有，請上載</label></div>
                         <div class="col-6 mb-3">
 
-                            <input type="file">
+                            <input type="file" class="form-control">
                             <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
                                 class="form-control"> -->
                         </div>
