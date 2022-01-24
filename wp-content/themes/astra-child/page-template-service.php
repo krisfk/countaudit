@@ -425,6 +425,28 @@ get_header(); ?>
                         </div>
 
 
+                        <div class="col-6 mb-3">
+
+                            <label for="no-of-bank-transactions-monthly">
+
+                                No. of bank transactions (monthly) <br>
+                                每月經銀行交易的數量
+
+                            </label>
+
+                        </div>
+
+                        <div class="col-6 mb-3">
+
+                            <input name="no-of-bank-transactions-monthly" id="no-of-bank-transactions-monthly"
+                                type="text" class="form-control">
+
+                        </div>
+
+
+
+
+
 
 
 
