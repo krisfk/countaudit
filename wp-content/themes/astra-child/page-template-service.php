@@ -590,6 +590,8 @@ get_header(); ?>
     <?php get_footer(); ?>
     <script type="text/javascript">
     $(function() {
+
+        $('.form-submit-btn').submit();
         $('.about-carousel').slick({
             infinite: true,
             slidesToShow: 1,
