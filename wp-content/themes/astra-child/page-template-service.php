@@ -323,6 +323,42 @@ get_header(); ?>
 
 
 
+                        <div class="col-6 mb-3"><label for="done-accounting-before">Has done accounting before? <br>
+                                是否曾做會計帳</label></div>
+                        <div class="col-6 mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="done-accounting-before"
+                                    id="done-accounting-before-yes">
+                                <label class="form-check-label" for="done-accounting-before-yes">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="done-accounting-before"
+                                    id="done-accounting-before-no">
+                                <label class="form-check-label" for="done-accounting-before-no">
+                                    No
+                                </label>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-6 mb-3"><label for="year-ended-date-2"> If Yes, please provide the related year
+                                ended
+                                date
+                                <br>
+                                如是，請提供相關年結日</label></div>
+                        <div class="col-6 mb-3"><input id="year-ended-date-2" name="year-ended-date-2" type="text"
+                                class="form-control">
+                        </div>
+
+
+
+
+
+
+
                         <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
                     <input type="text" class="form-control" placeholder="電郵">
