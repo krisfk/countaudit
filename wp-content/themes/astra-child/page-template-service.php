@@ -134,7 +134,8 @@ get_header(); ?>
                     會計服務報價表</h4>
 
 
-
+                <?php echo get_field('bottom_form');?>
+                <!-- 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
 
                     <div class="form-div white-bg mt-4">
@@ -385,8 +386,7 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <input type="file" class="form-control" name="excel-file" id="excel-file">
-                                <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
-                                class="form-control"> -->
+
                             </div>
 
 
@@ -589,7 +589,7 @@ get_header(); ?>
 
                         </div>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
 
