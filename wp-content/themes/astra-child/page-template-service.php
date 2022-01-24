@@ -323,20 +323,24 @@ get_header(); ?>
 
 
 
-                        <div class="col-6 mb-3"><label for="done-accounting-before">Has done accounting before? <br>
-                                是否曾做會計帳</label></div>
+                        <div class="col-6 mb-3"><label for="excel-for-business-records">
+                                Has done Excel for business records? <br>
+                                有否做Excel營業記錄？
+
+
+                            </label></div>
                         <div class="col-6 mb-3">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="done-accounting-before"
-                                    id="done-accounting-before-yes">
-                                <label class="form-check-label" for="done-accounting-before-yes">
+                                <input class="form-check-input" type="radio" name="excel-for-business-records"
+                                    id="excel-for-business-records-yes">
+                                <label class="form-check-label" for="excel-for-business-records-yes">
                                     Yes
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="done-accounting-before"
-                                    id="done-accounting-before-no">
-                                <label class="form-check-label" for="done-accounting-before-no">
+                                <input class="form-check-input" type="radio" name="excel-for-business-records"
+                                    id="excel-for-business-records-no">
+                                <label class="form-check-label" for="excel-for-business-records-no">
                                     No
                                 </label>
                             </div>
