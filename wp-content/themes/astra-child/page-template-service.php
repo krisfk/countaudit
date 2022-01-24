@@ -624,7 +624,14 @@ get_header(); ?>
         $excel_for_business_records=$_POST['excel-for-business-records'];
         $excel_file =$_POST['excel-file'];//FILE
         $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
-        
+        $total_turnover_yearly = $_POST['total-turnover-yearly'];
+        $any_stock_yes=$_POST['any-stock-yes'];
+        $no_of_bank_used=$_POST['no-of-bank-used'];
+        $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
+        $any_property_yes= $_POST['any-property-yes'];
+        $any_motor_vehicle=$_POST['any-motor-vehicle'];
+        $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
+        $no_of_employees=$_POST['no-of-employees'];
     }
     ?>
     <script type="text/javascript">
