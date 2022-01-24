@@ -636,9 +636,9 @@ get_header(); ?>
 
         if ($post_id) {
             add_post_meta($post_id, 'name', $name);
-            add_post_meta($post_id, 'tel', $tel);
-            add_post_meta($post_id, 'email', $email);
-            add_post_meta($post_id, 'company_name', $company_name);
+            // add_post_meta($post_id, 'tel', $tel);
+            // add_post_meta($post_id, 'email', $email);
+            // add_post_meta($post_id, 'company_name', $company_name);
         }
     }
     ?>
