@@ -407,9 +407,22 @@ get_header(); ?>
 
                         </div>
 
-                        <div class="col-6 mb-3"></div>
+                        <div class="col-6 mb-3">
 
-                        <div class="col-6 mb-3"></div>
+                            <label for="no-of-bank-used">
+
+                                No. of bank used <br>
+                                使用銀行的數量
+
+                            </label>
+
+                        </div>
+
+                        <div class="col-6 mb-3">
+
+                            <input name="no-of-bank-used" id="no-of-bank-used" type="text" class="form-control">
+
+                        </div>
 
 
 
