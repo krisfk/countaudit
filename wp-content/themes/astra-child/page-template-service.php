@@ -135,188 +135,191 @@ get_header(); ?>
 
 
                 <div class="form-div white-bg mt-4">
-                    <table class="border-0 mt-0">
-                        <tr>
-                            <td colspan="2">
-                                <h4 class="text-center mb-4"> Contact Information 聯絡資料</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="name">Name 姓名:</label></td>
-                            <td><input id="name" name="name" type="text" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="tel">Tel 電話:</label></td>
-                            <td><input id="tel" name="tel" type="text" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="email">E-mail 電郵:</label></td>
-                            <td><input id="email" name="email" type="text" class="form-control"></td>
-                        </tr>
 
-                        <tr>
-                            <td colspan="2">
-                                <h4 class="text-center mb-4">Company Information 公司資料</h4>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td><label for="company-name">Company name 公司名稱</label></td>
-                            <td><input id="company-name" name="company-name" type="text" class="form-control"></td>
-                        </tr>
-
-                        <tr>
-                            <td><label for="principal-activities">Principal activities 主要業務</label></td>
-                            <td><input id="principal-activities" name="principal-activities" type="text"
-                                    class="form-control"></td>
-                        </tr>
-
-                        <tr>
-                            <td><label for="performed-audit-before">Has performed audit before?
-                                    是否曾進行核數</label></td>
-                            <td>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-yes">
-                                    <label class="form-check-label" for="performed-audit-before-yes">
-                                        Yes
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-no">
-                                    <label class="form-check-label" for="performed-audit-before-no">
-                                        No
-                                    </label>
-                                </div>
-
-                            </td>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="text-center mb-4"> Contact Information 聯絡資料</h4>
+                        </div>
+                    </div>
 
 
-                        </tr>
+                    <div class="row">
+                        <div class="col-6"><label for="name">Name 姓名:</label></div>
+                        <div class="col-6"><input id="name" name="name" type="text" class="form-control"></div>
+
+                        <div class="col-6"><label for="tel">Tel 電話:</label></div>
+                        <div class="col-6"><input id="tel" name="tel" type="text" class="form-control"></div>
 
 
-                        <tr>
-                            <td><label for="year-ended-date"> If Yes, please provide the related year ended date
-                                    <br>
-                                    如是，請提供相關年結日</label></td>
-                            <td><input id="year-ended-date" name="year-ended-date" type="text" class="form-control">
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td><label for="declared-profits-tax-before">Has declared profits tax before? <br>
-                                    是否曾申報利得稅</label></td>
-                            <td>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
-                                        id="declared-profits-tax-before-yes">
-                                    <label class="form-check-label" for="declared-profits-tax-before-yes">
-                                        Yes
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
-                                        id="declared-profits-tax-before-no">
-                                    <label class="form-check-label" for="declared-profits-tax-before-no">
-                                        No
-                                    </label>
-                                </div>
-
-                            </td>
-
-
-                        </tr>
-
-
-                        <tr>
-                            <td><label for="year-assessment"> If Yes, please provide the related year of assessment
-                                    <br>
-                                    如是，請提供相關課稅年度</label></td>
-                            <td><input id="year-assessment" name="year-assessment" type="text" class="form-control">
-                            </td>
-                        </tr>
+                        <div class="col-6"><label for="email">E-mail 電郵:</label></div>
+                        <div class="col-6"><input id="email" name="email" type="text" class="form-control"></div>
 
 
 
-
-                        <tr>
-                            <td><label for="done-accounting-before">Has done accounting before? <br>
-                                    是否曾做會計帳</label></td>
-                            <td>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="done-accounting-before"
-                                        id="done-accounting-before-yes">
-                                    <label class="form-check-label" for="done-accounting-before-yes">
-                                        Yes
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="done-accounting-before"
-                                        id="done-accounting-before-no">
-                                    <label class="form-check-label" for="done-accounting-before-no">
-                                        No
-                                    </label>
-                                </div>
-
-                            </td>
+                        <div class="col-12">
+                            <h4 class="text-center mb-4">Company Information 公司資料</h4>
+                        </div>
 
 
-                        </tr>
+
+                        <div class="col-6"><label for="company-name">Company name 公司名稱</label></div>
+                        <div class="col-6"><input id="company-name" name="company-name" type="text"
+                                class="form-control"></div>
 
 
-                        <tr>
-                            <td><label for="year-ended-date-2"> If Yes, please provide the related year ended date
-                                    <br>
-                                    如是，請提供相關年結日</label></td>
-                            <td><input id="year-ended-date-2" name="year-ended-date-2" type="text" class="form-control">
-                            </td>
-                        </tr>
+
+                        <div class="col-6"><label for="principal-activities">Principal activities 主要業務</label></div>
+                        <div class="col-6"><input id="principal-activities" name="principal-activities" type="text"
+                                class="form-control"></div>
+
+
+
+                        <div class="col-6"><label for="performed-audit-before">Has performed audit before?
+                                是否曾進行核數</label></div>
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="performed-audit-before"
+                                    id="performed-audit-before-yes">
+                                <label class="form-check-label" for="performed-audit-before-yes">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="performed-audit-before"
+                                    id="performed-audit-before-no">
+                                <label class="form-check-label" for="performed-audit-before-no">
+                                    No
+                                </label>
+                            </div>
+
+                        </div>
 
 
 
 
 
-                        <tr>
-                            <td><label for="reporting-frequency">Reporting Frequency <br>
-                                    會計匯報頻率</label></td>
-                            <td>
 
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="reporting-frequency"
-                                        id="reporting-frequency-monthly">
-                                    <label class="form-check-label" for="reporting-frequency-monthly">
-                                        每月 Monthly
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="reporting-frequency"
-                                        id="reporting-frequency-quarterly">
-                                    <label class="form-check-label" for="reporting-frequency-quarterly">
-                                        每季 Quarterly
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="reporting-frequency"
-                                        id="reporting-frequency-yearly">
-                                    <label class="form-check-label" for="reporting-frequency-yearly">
-                                        每年 Yearly
-                                    </label>
-                                </div>
-
-                            </td>
-
-
-                        </tr>
+                        <div class="col-6"><label for="year-ended-date"> If Yes, please provide the related year ended
+                                date
+                                <br>
+                                如是，請提供相關年結日</label></div>
+                        <div class="col-6"><input id="year-ended-date" name="year-ended-date" type="text"
+                                class="form-control">
+                        </div>
 
 
 
 
+                        <div class="col-6"><label for="declared-profits-tax-before">Has declared profits tax before?
+                                <br>
+                                是否曾申報利得稅</label></div>
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                    id="declared-profits-tax-before-yes">
+                                <label class="form-check-label" for="declared-profits-tax-before-yes">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                    id="declared-profits-tax-before-no">
+                                <label class="form-check-label" for="declared-profits-tax-before-no">
+                                    No
+                                </label>
+                            </div>
 
-                    </table>
+                        </div>
 
-                    <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
+
+
+
+
+
+                        <div class="col-6"><label for="year-assessment"> If Yes, please provide the related year of
+                                assessment
+                                <br>
+                                如是，請提供相關課稅年度</label></div>
+                        <div class="col-6"><input id="year-assessment" name="year-assessment" type="text"
+                                class="form-control">
+                        </div>
+
+
+
+
+
+                        <div class="col-6"><label for="done-accounting-before">Has done accounting before? <br>
+                                是否曾做會計帳</label></div>
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="done-accounting-before"
+                                    id="done-accounting-before-yes">
+                                <label class="form-check-label" for="done-accounting-before-yes">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="done-accounting-before"
+                                    id="done-accounting-before-no">
+                                <label class="form-check-label" for="done-accounting-before-no">
+                                    No
+                                </label>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                        <div class="col-6"><label for="year-ended-date-2"> If Yes, please provide the related year ended
+                                date
+                                <br>
+                                如是，請提供相關年結日</label></div>
+                        <div class="col-6"><input id="year-ended-date-2" name="year-ended-date-2" type="text"
+                                class="form-control">
+                        </div>
+
+
+
+
+
+
+
+                        <div class="col-6"><label for="reporting-frequency">Reporting Frequency <br>
+                                會計匯報頻率</label></div>
+                        <div class="col-6">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="reporting-frequency"
+                                    id="reporting-frequency-monthly">
+                                <label class="form-check-label" for="reporting-frequency-monthly">
+                                    每月 Monthly
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="reporting-frequency"
+                                    id="reporting-frequency-quarterly">
+                                <label class="form-check-label" for="reporting-frequency-quarterly">
+                                    每季 Quarterly
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="reporting-frequency"
+                                    id="reporting-frequency-yearly">
+                                <label class="form-check-label" for="reporting-frequency-yearly">
+                                    每年 Yearly
+                                </label>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
                     <input type="text" class="form-control" placeholder="電郵">
                     <input type="text" class="form-control" placeholder="查詢類別">
@@ -326,37 +329,37 @@ get_header(); ?>
                         <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
                     </div> -->
 
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
-</div>
+    <?php get_footer(); ?>
+    <script type="text/javascript">
+    $(function() {
+        $('.about-carousel').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            autoplay: false,
+            pauseOnFocus: false,
+            infinite: true,
+            speed: 800,
+            autoplaySpeed: 5000,
+            cssEase: 'ease-out',
+            pauseOnHover: false
 
-<?php get_footer(); ?>
-<script type="text/javascript">
-$(function() {
-    $('.about-carousel').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false,
-        autoplay: false,
-        pauseOnFocus: false,
-        infinite: true,
-        speed: 800,
-        autoplaySpeed: 5000,
-        cssEase: 'ease-out',
-        pauseOnHover: false
-
-    });
+        });
 
 
 
 
-})
-</script>
-</body>
+    })
+    </script>
+    </body>
 
-</html>
+    </html>
