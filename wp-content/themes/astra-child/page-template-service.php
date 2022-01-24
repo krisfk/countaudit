@@ -135,7 +135,7 @@ get_header(); ?>
 
 
 
-                <form id="form" action="?" method="post" enctype="multipart/form-data">
+                <form id="form" action="" method="post" enctype="multipart/form-data">
 
                     <div class="form-div white-bg mt-4">
 
@@ -601,49 +601,46 @@ get_header(); ?>
     if($_POST)
     {
     
-        $name = $_POST['name'];
-        echo $name;
-        $tel = $_POST['tel'];
-        echo $tel;
+        // $name = $_POST['name'];
+        // $tel = $_POST['tel'];
 
-        $email = $_POST['email'];
-        $company_name=$_POST['company-name'];
-        $principal_activities=$_POST['principal-activities'];
-        $performed_audit_before=$_POST['performed-audit-before'];
-        $year_ended_date=$_POST['year-ended-date'];
-        $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
-        $year_assessment=$_POST['year-assessment'];
-        $done_accounting_before=$_POST['done-accounting-before'];
-        $year_ended_date_2=$_POST['year-ended-date-2'];
-        $reporting_frequency=$_POST['reporting-frequency'];
-        $excel_for_business_records=$_POST['excel-for-business-records'];
-        $excel_file =$_POST['excel-file'];//FILE
-        $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
-        $total_turnover_yearly = $_POST['total-turnover-yearly'];
-        $any_stock_yes=$_POST['any-stock-yes'];
-        $no_of_bank_used=$_POST['no-of-bank-used'];
-        $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
-        $any_property_yes= $_POST['any-property-yes'];
-        $any_motor_vehicle=$_POST['any-motor-vehicle'];
-        $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
-        $no_of_employees=$_POST['no-of-employees'];
+        // $email = $_POST['email'];
+        // $company_name=$_POST['company-name'];
+        // $principal_activities=$_POST['principal-activities'];
+        // $performed_audit_before=$_POST['performed-audit-before'];
+        // $year_ended_date=$_POST['year-ended-date'];
+        // $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
+        // $year_assessment=$_POST['year-assessment'];
+        // $done_accounting_before=$_POST['done-accounting-before'];
+        // $year_ended_date_2=$_POST['year-ended-date-2'];
+        // $reporting_frequency=$_POST['reporting-frequency'];
+        // $excel_for_business_records=$_POST['excel-for-business-records'];
+        // $excel_file =$_POST['excel-file'];//FILE
+        // $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
+        // $total_turnover_yearly = $_POST['total-turnover-yearly'];
+        // $any_stock_yes=$_POST['any-stock-yes'];
+        // $no_of_bank_used=$_POST['no-of-bank-used'];
+        // $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
+        // $any_property_yes= $_POST['any-property-yes'];
+        // $any_motor_vehicle=$_POST['any-motor-vehicle'];
+        // $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
+        // $no_of_employees=$_POST['no-of-employees'];
 
-        $post_title = $name.' application';
-        $post_id = wp_insert_post(array (
-            'post_type' => 'accounting_q_form',
-            'post_title' => $post_title,
-            'post_status' => 'publish',
-            'comment_status' => 'closed',   // if you prefer
-            'ping_status' => 'closed',      // if you prefer
-        ));
-        echo 888;
+        // $post_title = $name.' application';
+        // $post_id = wp_insert_post(array (
+        //     'post_type' => 'accounting_q_form',
+        //     'post_title' => $post_title,
+        //     'post_status' => 'publish',
+        //     'comment_status' => 'closed',   // if you prefer
+        //     'ping_status' => 'closed',      // if you prefer
+        // ));
 
-        if ($post_id) {
-            add_post_meta($post_id, 'name', $name);
-            add_post_meta($post_id, 'tel', $tel);
-            add_post_meta($post_id, 'email', $email);
-            add_post_meta($post_id, 'company_name', $company_name);
-        }
+        // if ($post_id) {
+        //     add_post_meta($post_id, 'name', $name);
+        //     add_post_meta($post_id, 'tel', $tel);
+        //     add_post_meta($post_id, 'email', $email);
+        //     add_post_meta($post_id, 'company_name', $company_name);
+        // }
     }
     ?>
     <script type="text/javascript">
