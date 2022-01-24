@@ -144,15 +144,15 @@ get_header(); ?>
 
 
                     <div class="row  align-items-center">
-                        <div class="col-6"><label for="name">Name 姓名:</label></div>
-                        <div class="col-6"><input id="name" name="name" type="text" class="form-control"></div>
+                        <div class="col-6 mb-3"><label for="name">Name 姓名:</label></div>
+                        <div class="col-6 mb-3"><input id="name" name="name" type="text" class="form-control"></div>
 
-                        <div class="col-6"><label for="tel">Tel 電話:</label></div>
-                        <div class="col-6"><input id="tel" name="tel" type="text" class="form-control"></div>
+                        <div class="col-6 mb-3"><label for="tel">Tel 電話:</label></div>
+                        <div class="col-6 mb-3"><input id="tel" name="tel" type="text" class="form-control"></div>
 
 
-                        <div class="col-6"><label for="email">E-mail 電郵:</label></div>
-                        <div class="col-6"><input id="email" name="email" type="text" class="form-control"></div>
+                        <div class="col-6 mb-3"><label for="email">E-mail 電郵:</label></div>
+                        <div class="col-6 mb-3"><input id="email" name="email" type="text" class="form-control"></div>
 
 
 
@@ -162,21 +162,22 @@ get_header(); ?>
 
 
 
-                        <div class="col-6"><label for="company-name">Company name 公司名稱</label></div>
-                        <div class="col-6"><input id="company-name" name="company-name" type="text"
+                        <div class="col-6 mb-3"><label for="company-name">Company name 公司名稱</label></div>
+                        <div class="col-6 mb-3"><input id="company-name" name="company-name" type="text"
                                 class="form-control"></div>
 
 
 
-                        <div class="col-6"><label for="principal-activities">Principal activities 主要業務</label></div>
-                        <div class="col-6"><input id="principal-activities" name="principal-activities" type="text"
-                                class="form-control"></div>
+                        <div class="col-6 mb-3"><label for="principal-activities">Principal activities 主要業務</label>
+                        </div>
+                        <div class="col-6 mb-3 mb-3"><input id="principal-activities" name="principal-activities"
+                                type="text" class="form-control"></div>
 
 
 
-                        <div class="col-6"><label for="performed-audit-before">Has performed audit before?
+                        <div class="col-6 mb-3"><label for="performed-audit-before">Has performed audit before?
                                 是否曾進行核數</label></div>
-                        <div class="col-6">
+                        <div class="col-6 mb-3">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="performed-audit-before"
                                     id="performed-audit-before-yes">
@@ -199,21 +200,23 @@ get_header(); ?>
 
 
 
-                        <div class="col-6"><label for="year-ended-date"> If Yes, please provide the related year ended
+                        <div class="col-6 mb-3"><label for="year-ended-date"> If Yes, please provide the related year
+                                ended
                                 date
                                 <br>
                                 如是，請提供相關年結日</label></div>
-                        <div class="col-6"><input id="year-ended-date" name="year-ended-date" type="text"
+                        <div class="col-6 mb-3"><input id="year-ended-date" name="year-ended-date" type="text"
                                 class="form-control">
                         </div>
 
 
 
 
-                        <div class="col-6"><label for="declared-profits-tax-before">Has declared profits tax before?
+                        <div class="col-6 mb-3"><label for="declared-profits-tax-before">Has declared profits tax
+                                before?
                                 <br>
                                 是否曾申報利得稅</label></div>
-                        <div class="col-6">
+                        <div class="col-6 mb-3">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="declared-profits-tax-before"
                                     id="declared-profits-tax-before-yes">
@@ -236,11 +239,11 @@ get_header(); ?>
 
 
 
-                        <div class="col-6"><label for="year-assessment"> If Yes, please provide the related year of
+                        <div class="col-6 mb-3"><label for="year-assessment"> If Yes, please provide the related year of
                                 assessment
                                 <br>
                                 如是，請提供相關課稅年度</label></div>
-                        <div class="col-6"><input id="year-assessment" name="year-assessment" type="text"
+                        <div class="col-6 mb-3"><input id="year-assessment" name="year-assessment" type="text"
                                 class="form-control">
                         </div>
 
@@ -248,9 +251,9 @@ get_header(); ?>
 
 
 
-                        <div class="col-6"><label for="done-accounting-before">Has done accounting before? <br>
+                        <div class="col-6 mb-3"><label for="done-accounting-before">Has done accounting before? <br>
                                 是否曾做會計帳</label></div>
-                        <div class="col-6">
+                        <div class="col-6 mb-3">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="done-accounting-before"
                                     id="done-accounting-before-yes">
@@ -273,11 +276,12 @@ get_header(); ?>
 
 
 
-                        <div class="col-6"><label for="year-ended-date-2"> If Yes, please provide the related year ended
+                        <div class="col-6 mb-3"><label for="year-ended-date-2"> If Yes, please provide the related year
+                                ended
                                 date
                                 <br>
                                 如是，請提供相關年結日</label></div>
-                        <div class="col-6"><input id="year-ended-date-2" name="year-ended-date-2" type="text"
+                        <div class="col-6 mb-3"><input id="year-ended-date-2" name="year-ended-date-2" type="text"
                                 class="form-control">
                         </div>
 
@@ -287,9 +291,9 @@ get_header(); ?>
 
 
 
-                        <div class="col-6"><label for="reporting-frequency">Reporting Frequency <br>
+                        <div class="col-6 mb-3"><label for="reporting-frequency">Reporting Frequency <br>
                                 會計匯報頻率</label></div>
-                        <div class="col-6">
+                        <div class="col-6 mb-3">
 
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="reporting-frequency"
