@@ -591,7 +591,9 @@ get_header(); ?>
     <script type="text/javascript">
     $(function() {
 
-        $('.form-submit-btn').submit();
+        $('.form-submit-btn').click(function() {
+            $('form').submit();
+        });
         $('.about-carousel').slick({
             infinite: true,
             slidesToShow: 1,
