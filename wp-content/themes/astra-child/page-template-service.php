@@ -586,17 +586,6 @@ get_header(); ?>
 
 
 
-
-                            <!-- <input type="text" class="form-control" placeholder="如何稱呼您？">
-                    <input type="text" class="form-control" placeholder="聯絡電話">
-                    <input type="text" class="form-control" placeholder="電郵">
-                    <input type="text" class="form-control" placeholder="查詢類別">
-                    <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="簡短留言"></textarea>
-
-                    <div class="text-end">
-                        <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
-                    </div> -->
-
                         </div>
                     </div>
                 </form>
@@ -650,7 +639,6 @@ get_header(); ?>
             add_post_meta($post_id, 'tel', $tel);
             add_post_meta($post_id, 'email', $email);
             add_post_meta($post_id, 'company_name', $company_name);
-            echo 999;
         }
     }
     ?>
