@@ -505,6 +505,24 @@ get_header(); ?>
 
 
 
+                        <div class="col-6 mb-3">
+
+                            <label for="no-of-loans-hire-purchases">
+                                No. of loans / hire purchases <br>
+                                貸款/分期付款數目
+
+                            </label>
+
+                        </div>
+
+                        <div class="col-6 mb-3">
+
+                            <input name="no-of-loans-hire-purchases" id="no-of-loans-hire-purchases" type="text"
+                                class="form-control">
+
+                        </div>
+
+
 
 
 
