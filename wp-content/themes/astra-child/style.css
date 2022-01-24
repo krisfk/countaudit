@@ -1116,7 +1116,7 @@ a.gold.no-deco:hover {
 
 @media only screen and (max-width: 480px) {
     .about-carousel .slick-slide {
-        margin: 0 0.5rem;
+        margin: 0 1rem;
     }
     .title-container .txt {
         display: inline-block;
