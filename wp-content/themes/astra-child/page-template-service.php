@@ -369,12 +369,49 @@ get_header(); ?>
                             </label>
                         </div>
                         <div class="col-6 mb-3">
-                            <input type="text" class="form-control" name="way-of-sorting-receipts">
-                            <!-- <input type="file" class="excel-file" name="excel-file" id="excel-file"> -->
-                            <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
-                                class="form-control"> -->
+                            <input type="text" class="form-control" name="way-of-sorting-receipts"
+                                id="way-of-sorting-receipts">
                         </div>
 
+
+
+                        <div class="col-6 mb-3"><label for="total-turnover-yearly">
+
+                                Total Turnover (yearly) <br>
+                                全年總營業額
+                            </label>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <input type="text" class="form-control" name="way-of-sorting-receipts"
+                                id="way-of-sorting-receipts">
+                        </div>
+
+                        <div class="col-3">
+                            <label for="any-stock">Any stock? <br>
+                                有否存貨?</label>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="col-6 mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-yes">
+                                    <label class="form-check-label" for="any-stock-yes" name="any-stock">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-no">
+                                    <label class="form-check-label" for="any-stock-no" name="any-stock">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-3"></div>
+
+                        <div class="col-3"></div>
 
 
 
