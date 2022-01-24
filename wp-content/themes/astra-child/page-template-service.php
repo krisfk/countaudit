@@ -333,14 +333,16 @@ get_header(); ?>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="excel-for-business-records"
                                     id="excel-for-business-records-yes">
-                                <label class="form-check-label" for="excel-for-business-records-yes">
+                                <label class="form-check-label" for="excel-for-business-records-yes"
+                                    name="excel-for-business-records">
                                     Yes
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="excel-for-business-records"
                                     id="excel-for-business-records-no">
-                                <label class="form-check-label" for="excel-for-business-records-no">
+                                <label class="form-check-label" for="excel-for-business-records-no"
+                                    name="excel-for-business-records">
                                     No
                                 </label>
                             </div>
@@ -348,14 +350,34 @@ get_header(); ?>
                         </div>
 
 
-                        <div class="col-6 mb-3"><label for="year-ended-date-2">if Yes, please upload <br>如有，請上載</label>
+                        <div class="col-6 mb-3"><label for="excel-file">if Yes, please upload <br>如有，請上載</label>
                         </div>
                         <div class="col-6 mb-3">
 
-                            <input type="file" class="form-control">
+                            <input type="file" class="excel-file" name="excel-file" id="excel-file">
                             <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
                                 class="form-control"> -->
                         </div>
+
+
+                        <div class="col-6 mb-3"><label for="way-of-sorting-receipts">
+
+                                Way of sorting and keeping receipts <br>
+                                整理單據的方式 <br>
+                                e.g. Scanning / taking picture / sorted by folder / unsorted <br>
+                                例如電子掃描//拍照/分類袋分類/沒有任何分類
+                            </label>
+                        </div>
+                        <div class="col-6 mb-3">
+
+                            <!-- <input type="file" class="excel-file" name="excel-file" id="excel-file"> -->
+                            <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
+                                class="form-control"> -->
+                        </div>
+
+
+
+
 
 
 
