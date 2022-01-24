@@ -602,7 +602,7 @@ get_header(); ?>
     if($_POST)
     {
     
-        $client_name = $_POST['client_name'];
+        $client_name = $_POST['client-name'];
         $tel = $_POST['tel'];
 
         $email = $_POST['email'];
