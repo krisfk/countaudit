@@ -600,6 +600,7 @@ get_header(); ?>
     
     if($_POST)
     {
+    
         $name = $_POST['name'];
         echo $name;
         $tel = $_POST['tel'];
