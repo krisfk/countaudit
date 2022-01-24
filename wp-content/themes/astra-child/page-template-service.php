@@ -588,9 +588,16 @@ get_header(); ?>
     </div>
 
     <?php get_footer(); ?>
+
+    <?php
+    
+    if($_POST)
+    {
+        echo 11;
+    }
+    ?>
     <script type="text/javascript">
     $(function() {
-
         $('.form-submit-btn').click(function() {
             $('form').submit();
         });
