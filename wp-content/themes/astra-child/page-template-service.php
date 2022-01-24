@@ -539,7 +539,7 @@ get_header(); ?>
                         </div>
 
 
-                        <div class="text-end mt-3">
+                        <div class="text-center mt-3">
                             <a href="javascript:void(0);" class="form-submit-btn">Submit</a>
                         </div>
 
