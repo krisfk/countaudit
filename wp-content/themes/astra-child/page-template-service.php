@@ -348,13 +348,13 @@ get_header(); ?>
                         </div>
 
 
-                        <div class="col-6 mb-3"><label for="year-ended-date-2"> If Yes, please provide the related year
-                                ended
-                                date
-                                <br>
-                                如是，請提供相關年結日</label></div>
-                        <div class="col-6 mb-3"><input id="year-ended-date-2" name="year-ended-date-2" type="text"
-                                class="form-control">
+                        <div class="col-6 mb-3"><label for="year-ended-date-2">if Yes, please upload <br>
+                                　如有，請上載</label></div>
+                        <div class="col-6 mb-3">
+
+                            <input type="file">
+                            <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
+                                class="form-control"> -->
                         </div>
 
 
