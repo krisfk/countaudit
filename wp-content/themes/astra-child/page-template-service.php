@@ -147,17 +147,22 @@ get_header(); ?>
 
 
                         <div class="row  align-items-center">
-                            <div class="col-6 mb-3"><label for="name">Name 姓名:</label></div>
-                            <div class="col-6 mb-3"><input id="name" name="name" type="text" class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="name">Name 姓名:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="name" name="name"
+                                    type="text" class="form-control">
                             </div>
 
-                            <div class="col-6 mb-3"><label for="tel">Tel 電話:</label></div>
-                            <div class="col-6 mb-3"><input id="tel" name="tel" type="text" class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="tel">Tel 電話:</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="tel" name="tel" type="text"
+                                    class="form-control">
                             </div>
 
 
-                            <div class="col-6 mb-3"><label for="email">E-mail 電郵:</label></div>
-                            <div class="col-6 mb-3"><input id="email" name="email" type="text" class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">E-mail 電郵:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="email" name="email"
+                                    type="text" class="form-control">
                             </div>
 
 
@@ -168,23 +173,26 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3"><label for="company-name">Company name 公司名稱</label></div>
-                            <div class="col-6 mb-3"><input id="company-name" name="company-name" type="text"
-                                    class="form-control"></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="company-name">Company name
+                                    公司名稱</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="company-name"
+                                    name="company-name" type="text" class="form-control"></div>
 
 
 
-                            <div class="col-6 mb-3"><label for="principal-activities">Principal activities
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="principal-activities">Principal activities
                                     主要業務</label>
                             </div>
-                            <div class="col-6 mb-3 mb-3"><input id="principal-activities" name="principal-activities"
-                                    type="text" class="form-control"></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3 mb-3"><input id="principal-activities"
+                                    name="principal-activities" type="text" class="form-control"></div>
 
 
 
-                            <div class="col-6 mb-3"><label for="performed-audit-before">Has performed audit before?
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="performed-audit-before">Has performed audit before?
                                     是否曾進行核數</label></div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="performed-audit-before"
                                         id="performed-audit-before-yes">
@@ -207,25 +215,27 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3"><label for="year-ended-date"> If Yes, please provide the related
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="year-ended-date"> If Yes,
+                                    please provide the related
                                     year
                                     ended
                                     date
                                     <br>
                                     如是，請提供相關年結日</label></div>
-                            <div class="col-6 mb-3"><input id="year-ended-date" name="year-ended-date" type="text"
-                                    class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="year-ended-date"
+                                    name="year-ended-date" type="text" class="form-control">
                             </div>
 
 
 
 
-                            <div class="col-6 mb-3"><label for="declared-profits-tax-before">Has declared profits
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="declared-profits-tax-before">Has declared profits
                                     tax
                                     before?
                                     <br>
                                     是否曾申報利得稅</label></div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="declared-profits-tax-before"
                                         id="declared-profits-tax-before-yes">
@@ -248,23 +258,25 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3"><label for="year-assessment"> If Yes, please provide the related
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="year-assessment"> If Yes,
+                                    please provide the related
                                     year of
                                     assessment
                                     <br>
                                     如是，請提供相關課稅年度</label></div>
-                            <div class="col-6 mb-3"><input id="year-assessment" name="year-assessment" type="text"
-                                    class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="year-assessment"
+                                    name="year-assessment" type="text" class="form-control">
                             </div>
 
 
 
 
 
-                            <div class="col-6 mb-3"><label for="done-accounting-before">Has done accounting before?
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="done-accounting-before">Has done accounting before?
                                     <br>
                                     是否曾做會計帳</label></div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="done-accounting-before"
                                         id="done-accounting-before-yes">
@@ -287,15 +299,16 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3"><label for="year-ended-date-2"> If Yes, please provide the
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="year-ended-date-2"> If
+                                    Yes, please provide the
                                     related
                                     year
                                     ended
                                     date
                                     <br>
                                     如是，請提供相關年結日</label></div>
-                            <div class="col-6 mb-3"><input id="year-ended-date-2" name="year-ended-date-2" type="text"
-                                    class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="year-ended-date-2"
+                                    name="year-ended-date-2" type="text" class="form-control">
                             </div>
 
 
@@ -304,9 +317,10 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3"><label for="reporting-frequency">Reporting Frequency <br>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="reporting-frequency">Reporting Frequency <br>
                                     會計匯報頻率</label></div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="reporting-frequency"
@@ -336,13 +350,14 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3"><label for="excel-for-business-records">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="excel-for-business-records">
                                     Has done Excel for business records? <br>
                                     有否做Excel營業記錄？
 
 
                                 </label></div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="excel-for-business-records"
                                         id="excel-for-business-records-yes">
@@ -363,9 +378,10 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="col-6 mb-3"><label for="excel-file">if Yes, please upload <br>如有，請上載</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="excel-file">if Yes, please
+                                    upload <br>如有，請上載</label>
                             </div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <input type="file" class="form-control" name="excel-file" id="excel-file">
                                 <!-- <input id="year-ended-date-2" name="year-ended-date-2" type="text"
@@ -373,7 +389,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="col-6 mb-3"><label for="way-of-sorting-receipts">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="way-of-sorting-receipts">
 
                                     Way of sorting and keeping receipts <br>
                                     整理單據的方式 <br>
@@ -381,30 +397,30 @@ get_header(); ?>
                                     例如電子掃描//拍照/分類袋分類/沒有任何分類
                                 </label>
                             </div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <input type="text" class="form-control" name="way-of-sorting-receipts"
                                     id="way-of-sorting-receipts">
                             </div>
 
 
 
-                            <div class="col-6 mb-3"><label for="total-turnover-yearly">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="total-turnover-yearly">
 
                                     Total Turnover (yearly)
                                     全年總營業額
                                 </label>
                             </div>
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <input type="text" class="form-control" name="way-of-sorting-receipts"
                                     id="way-of-sorting-receipts">
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <label for="any-stock">Any stock?
                                     有否存貨?</label>
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="any-stock" id="any-stock-yes">
                                     <label class="form-check-label" for="any-stock-yes" name="any-stock">
@@ -420,7 +436,7 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <label for="no-of-bank-used">
 
@@ -431,14 +447,14 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <input name="no-of-bank-used" id="no-of-bank-used" type="text" class="form-control">
 
                             </div>
 
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <label for="no-of-bank-transactions-monthly">
 
@@ -449,7 +465,7 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <input name="no-of-bank-transactions-monthly" id="no-of-bank-transactions-monthly"
                                     type="text" class="form-control">
@@ -457,7 +473,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <label for="any-property">
 
@@ -467,7 +483,7 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="any-property"
                                         id="any-property-yes">
@@ -488,7 +504,7 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <label for="any-motor-vehicle">
 
@@ -498,7 +514,7 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="any-motor-vehicle"
                                         id="any-motor-vehicle-yes">
@@ -521,7 +537,7 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <label for="no-of-loans-hire-purchases">
                                     No. of loans / hire purchases <br>
@@ -531,7 +547,7 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <input name="no-of-loans-hire-purchases" id="no-of-loans-hire-purchases" type="text"
                                     class="form-control">
@@ -540,7 +556,7 @@ get_header(); ?>
 
 
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <label for="no-of-employees">
                                     No. of employees <br>
@@ -548,7 +564,7 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-6 mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
                                 <input name="no-of-employees" id="no-of-employees" type="text" class="form-control">
 
