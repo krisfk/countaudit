@@ -668,7 +668,7 @@ get_header(); ?>
 
    if(!empty($_FILES))
     {
-        print_r($_FILES);
+        // print_r($_FILES);
 
         //File 1
         if($_FILES["excel-file"]['size'])
