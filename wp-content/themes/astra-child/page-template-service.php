@@ -649,7 +649,8 @@ get_header(); ?>
     <script type="text/javascript">
     $(function() {
         $('.form-submit-btn').click(function() {
-            $('form').submit();
+            alert(650);
+            // $('form').submit();
         });
         $('.about-carousel').slick({
             infinite: true,
