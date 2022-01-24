@@ -377,7 +377,7 @@ get_header(); ?>
 
                         <div class="col-6 mb-3"><label for="total-turnover-yearly">
 
-                                Total Turnover (yearly) <br>
+                                Total Turnover (yearly)
                                 全年總營業額
                             </label>
                         </div>
@@ -387,7 +387,7 @@ get_header(); ?>
                         </div>
 
                         <div class="col-6 mb-3">
-                            <label for="any-stock">Any stock? <br>
+                            <label for="any-stock">Any stock?
                                 有否存貨?</label>
                         </div>
 
