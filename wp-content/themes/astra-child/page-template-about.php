@@ -192,9 +192,9 @@ get_header(); ?>
 
                     <div class="col-lg-5 col-md-5 col-sm-4 col-4 "
                         style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png);background-size:cover;">
-                        <!-- 
+
                         <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/about-carousel-img-1.png"
-                            alt=""> -->
+                            alt="">
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-8 col-8  right-content-div white-bg position-relative">
 
