@@ -444,6 +444,34 @@ get_header(); ?>
                         </div>
 
 
+                        <div class="col-6 mb-3">
+
+                            <label for="any-property">
+
+                                Any property? <br>
+                                有否物業?
+                            </label>
+
+                        </div>
+
+                        <div class="col-6 mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="any-property" id="any-property-yes">
+                                <label class="form-check-label" for="any-property-yes" name="any-property">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="any-property" id="any-property-no">
+                                <label class="form-check-label" for="any-property-no" name="any-property">
+                                    No
+                                </label>
+                            </div>
+
+                        </div>
+
+
+
 
 
 
