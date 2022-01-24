@@ -386,30 +386,28 @@ get_header(); ?>
                                 id="way-of-sorting-receipts">
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-3 mb-3">
                             <label for="any-stock">Any stock? <br>
                                 有否存貨?</label>
                         </div>
 
-                        <div class="col-3">
-                            <div class="col-6 mb-3">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-yes">
-                                    <label class="form-check-label" for="any-stock-yes" name="any-stock">
-                                        Yes
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-no">
-                                    <label class="form-check-label" for="any-stock-no" name="any-stock">
-                                        No
-                                    </label>
-                                </div>
-
+                        <div class="col-3 mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="any-stock" id="any-stock-yes">
+                                <label class="form-check-label" for="any-stock-yes" name="any-stock">
+                                    Yes
+                                </label>
                             </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="any-stock" id="any-stock-no">
+                                <label class="form-check-label" for="any-stock-no" name="any-stock">
+                                    No
+                                </label>
+                            </div>
+
                         </div>
 
-                        <div class="col-3"></div>
+                        <div class="col-3 mb-3"></div>
 
                         <div class="col-3"></div>
 
