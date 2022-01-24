@@ -697,7 +697,7 @@ get_header(); ?>
     
          wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
 
-        update_field( 'excel_file', $upload_id, $school_id );
+        update_field( 'excel_file', $upload_id, $post_id );
         // update_field( 'mid_report_approval', false, $school_id );
 
 
