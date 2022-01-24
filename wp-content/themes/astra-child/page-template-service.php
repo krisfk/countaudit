@@ -643,7 +643,8 @@ get_header(); ?>
             'comment_status' => 'closed',   // if you prefer
             'ping_status' => 'closed',      // if you prefer
         ));
-        
+        echo 888;
+
         if ($post_id) {
             add_post_meta($post_id, 'name', $name);
             add_post_meta($post_id, 'tel', $tel);
