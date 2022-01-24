@@ -136,14 +136,14 @@ get_header(); ?>
 
                 <div class="form-div white-bg mt-4">
 
-                    <div class="row">
+                    <div class="row  align-items-center">
                         <div class="col-12">
                             <h4 class="text-center mb-4"> Contact Information 聯絡資料</h4>
                         </div>
                     </div>
 
 
-                    <div class="row">
+                    <div class="row  align-items-center">
                         <div class="col-6"><label for="name">Name 姓名:</label></div>
                         <div class="col-6"><input id="name" name="name" type="text" class="form-control"></div>
 
