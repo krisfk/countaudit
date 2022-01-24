@@ -641,6 +641,25 @@ get_header(); ?>
             add_post_meta($post_id, 'tel', $tel);
             add_post_meta($post_id, 'email', $email);
             add_post_meta($post_id, 'company_name', $company_name);
+            add_post_meta($post_id, 'principal_activities', $principal_activities);
+            add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
+            add_post_meta($post_id, 'year_ended_date', $year_ended_date);
+            add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
+            add_post_meta($post_id, 'year_assessment', $year_assessment);
+            add_post_meta($post_id, 'done_accounting_before', $done_accounting_before);
+            add_post_meta($post_id, 'year_ended_date_2', $year_ended_date_2);
+            add_post_meta($post_id, 'reporting_frequency', $reporting_frequency);
+            add_post_meta($post_id, 'excel_for_business_records', $excel_for_business_records);
+            add_post_meta($post_id, 'way_of_sorting_receipts', $way_of_sorting_receipts);
+            add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
+            add_post_meta($post_id, 'any_stock_yes', $any_stock_yes);
+            add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
+            add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
+            add_post_meta($post_id, 'any_property_yes', $any_property_yes);
+            add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
+            add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
+            add_post_meta($post_id, 'no_of_employees', $no_of_employees);
+  
         }
     }
     ?>
