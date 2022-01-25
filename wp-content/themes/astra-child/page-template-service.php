@@ -1145,15 +1145,9 @@ get_header(); ?>
                 add_post_meta($post_id, 'any_property', $any_property);
                 add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
                 add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
-                add_post_meta($post_id, 'no_of_employees', $no_of_employees);
-
-            
-                
+                add_post_meta($post_id, 'no_of_employees', $no_of_employees);   
             }
-            
         }
-
-        
     }
 
 
