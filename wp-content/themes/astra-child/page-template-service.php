@@ -199,7 +199,7 @@ get_header(); ?>
                                 如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name">
-                                    姓名 Name:</label>
+                                    聯絡人姓名 Name:</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name"
                                     name="contact-name" type="text" class="form-control">
