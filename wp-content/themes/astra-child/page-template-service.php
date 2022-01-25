@@ -204,11 +204,12 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name"
                                     name="contact-name" type="text" class="form-control">
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="phone-number">聯絡電話Phone
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="contact-phone-number">聯絡電話Phone
                                     Number:</label>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="phone-number"
-                                    name="phone-number" type="text" class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-phone-number"
+                                    name="contact-phone-number" type="text" class="form-control">
                             </div>
 
 
