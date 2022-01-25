@@ -1043,7 +1043,7 @@ get_header(); ?>
             $any_stock=$_POST['any-stock'];
             $no_of_bank_used=$_POST['no-of-bank-used'];
             $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
-            $any_property_yes= $_POST['any-property-yes'];
+            $any_property= $_POST['any-property'];
             $any_motor_vehicle=$_POST['any-motor-vehicle'];
             $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
             $no_of_employees=$_POST['no-of-employees'];
@@ -1076,7 +1076,7 @@ get_header(); ?>
                 add_post_meta($post_id, 'any_stock', $any_stock);
                 add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
                 add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
-                add_post_meta($post_id, 'any_property_yes', $any_property_yes);
+                add_post_meta($post_id, 'any_property', $any_property);
                 add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
                 add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
                 add_post_meta($post_id, 'no_of_employees', $no_of_employees);
@@ -1099,44 +1099,23 @@ get_header(); ?>
             $incorporation_date=$_POST['incorporation-date'];
             $performed_audit_before=$_POST['performed-audit-before'];
             $year_ended_date=$_POST['year-ended-date'];
-
             $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
-           
             $year_assessment=$_POST['year-assessment'];
-           
             $has_receive_tax_return=$_POST['has-receive-tax-return'];
- 
             $total_turnover_yearly=$_POST['total-turnover-yearly'];
-            
-
-
             $any_stock=$_POST['any-stock'];
-
-
-
-
-
-
-            // $done_accounting_before=$_POST['done-accounting-before'];
-
-            
-
+            $no_of_bank_used=$_POST['no-of-bank-used'];
+            $no_of_bank_transaction_monthly= $_POST['no-of-bank-transactions-monthly'];
+            $no_of_non_bank_transactions_monthly=$_POST['no-of-non-bank-transactions-monthly'];
+            $any_property= $_POST['any-property'];
+            $any_motor_vehicle=$_POST['any-motor-vehicle'];
+            $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
+            $no_of_employees=$_POST['no-of-employees'];
            
-            // $year_ended_date_2=$_POST['year-ended-date-2'];
-            // $reporting_frequency=$_POST['reporting-frequency'];
-            // $excel_for_business_records=$_POST['excel-for-business-records'];
-            // $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
-            // $total_turnover_yearly = $_POST['total-turnover-yearly'];
-            // $no_of_bank_used=$_POST['no-of-bank-used'];
-            // $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
-            // $any_property_yes= $_POST['any-property-yes'];
-            // $any_motor_vehicle=$_POST['any-motor-vehicle'];
-            // $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
-            // $no_of_employees=$_POST['no-of-employees'];
-
+            
             $post_title = $client_name.' application';
             $post_id = wp_insert_post(array (
-                'post_type' => 'accounting_q_form',
+                'post_type' => 'audit_and_tax_report',
                 'post_title' => $post_title,
                 'post_status' => 'publish',
                 'comment_status' => 'closed',   // if you prefer
