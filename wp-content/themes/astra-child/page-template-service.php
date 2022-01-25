@@ -172,6 +172,32 @@ get_header(); ?>
                             </div>
 
 
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="billing-contact-person">上述申請人為賬單聯絡人 The above applicant is the billing contact
+                                    person</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="billing-contact-person"
+                                        id="billing-contact-person-yes" value="yes">
+                                    <label class="form-check-label" for="billing-contact-person-yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="billing-contact-person"
+                                        id="billing-contact-person-no" value="no">
+                                    <label class="form-check-label" for="billing-contact-person-no">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
+
+
+
+
                         </div>
                 </form>
                 <!-- 
