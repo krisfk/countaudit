@@ -177,27 +177,28 @@ get_header(); ?>
                                     for="reporting-purposes">Reporting purposes 報表用途</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-yes" value="yes">
-                                    <label class="form-check-label" for="performed-audit-before-yes">
+                                    <input class="form-check-input" type="radio" name="reporting-purposes"
+                                        id="reporting-purposes-hk" value="HK Profits Tax declaration 申報香港利得稅">
+                                    <label class="form-check-label" for="reporting-purposes-hk">
                                         HK Profits Tax declaration <br>
                                         申報香港利得稅
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-no" value="no">
-                                    <label class="form-check-label" for="performed-audit-before-no">
+                                    <input class="form-check-input" type="radio" name="reporting-purposes"
+                                        id="reporting-purposes-borrowing" value="Borrowing loans from banks 向銀行借款">
+                                    <label class="form-check-label" for="reporting-purposes-borrowing">
                                         Borrowing loans from banks<br>
                                         向銀行借款
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-no" value="no">
-                                    <label class="form-check-label" for="performed-audit-before-no">
+                                    <input class="form-check-input" type="radio" name="reporting-purposes"
+                                        id="reporting-purposes-funding" value="Funding purposes 基金要求">
+                                    <label class="form-check-label" for="reporting-purposes-funding">
                                         Funding purposes<br>
                                         基金要求
+
                                     </label>
                                 </div>
 
@@ -279,20 +280,20 @@ get_header(); ?>
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
-                                    for="performed-audit-before">Has performed audit before?
+                                    for="reporting-purposes">Has performed audit before?
                                     是否曾進行核數</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-yes" value="yes">
-                                    <label class="form-check-label" for="performed-audit-before-yes">
+                                    <input class="form-check-input" type="radio" name="reporting-purposes"
+                                        id="reporting-purposes-yes" value="yes">
+                                    <label class="form-check-label" for="reporting-purposes-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="performed-audit-before"
-                                        id="performed-audit-before-no" value="no">
-                                    <label class="form-check-label" for="performed-audit-before-no">
+                                    <input class="form-check-input" type="radio" name="reporting-purposes"
+                                        id="reporting-purposes-no" value="no">
+                                    <label class="form-check-label" for="reporting-purposes-no">
                                         No
                                     </label>
                                 </div>
@@ -698,7 +699,7 @@ get_header(); ?>
             $email = $_POST['email'];
             $company_name=$_POST['company-name'];
             $principal_activities=$_POST['principal-activities'];
-            $performed_audit_before=$_POST['performed-audit-before'];
+            $performed_audit_before=$_POST['reporting-purposes'];
             $year_ended_date=$_POST['year-ended-date'];
             $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
             $year_assessment=$_POST['year-assessment'];
