@@ -133,6 +133,18 @@ get_header(); ?>
 
 
                 <?php echo get_field('bottom_form');?>
+
+                <form id="form" action="" method="post" enctype="multipart/form-data">
+
+                    <div class="form-div white-bg mt-4">
+
+                        <div class="row  align-items-center">
+                            <div class="col-12">
+                                <h4 class="text-center mb-4"> Contact Information 聯絡資料</h4>
+                            </div>
+                        </div>
+                    </div>
+                </form>
                 <!-- 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
 
