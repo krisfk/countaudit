@@ -444,6 +444,103 @@ get_header(); ?>
 
                             </div>
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <label for="any-property">
+
+                                    Any property? <br>
+                                    有否物業?
+                                </label>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-property"
+                                        id="any-property-yes" value="yes">
+                                    <label class="form-check-label" for="any-property-yes" name="any-property">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-property"
+                                        id="any-property-no" value="no">
+                                    <label class="form-check-label" for="any-property-no" name="any-property">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <label for="any-motor-vehicle">
+
+                                    Any motor vehicle? <br>
+                                    有否車輛?
+                                </label>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-motor-vehicle"
+                                        id="any-motor-vehicle-yes" value="yes">
+                                    <label class="form-check-label" for="any-motor-vehicle-yes"
+                                        name="any-motor-vehicle">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-motor-vehicle"
+                                        id="any-motor-vehicle-no" value="no">
+                                    <label class="form-check-label" for="any-motor-vehicle-no" name="any-motor-vehicle">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <label for="no-of-loans-hire-purchases">
+                                    No. of loans / hire purchases <br>
+                                    貸款/分期付款數目
+
+                                </label>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input name="no-of-loans-hire-purchases" id="no-of-loans-hire-purchases" type="text"
+                                    class="form-control">
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <label for="no-of-employees">
+                                    No. of employees <br>
+                                    員工人數 </label>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input name="no-of-employees" id="no-of-employees" type="text" class="form-control">
+
+                            </div>
+
+
+
+                            <div class="text-center mt-3">
+                                <a href="javascript:void(0);" class="form-submit-btn">Submit</a>
+                            </div>
+
+
+
+
 
 
 
