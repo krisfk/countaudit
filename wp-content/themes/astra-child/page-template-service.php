@@ -255,7 +255,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="excel-file">2. 有效之身份證 /
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="upload-file-2">2. 有效之身份證 /
                                     護照副本 及 3 個月內之住址證明
                                     All member’s ID/passport copy and address proof within 3 months</label>
                             </div>
