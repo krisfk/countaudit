@@ -322,20 +322,20 @@ get_header(); ?>
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
-                                    for="declared-profits-tax-before">Has received the tax return this year <br>
+                                    for="has-receive-tax-return">Has received the tax return this year <br>
                                     有否收到今年度利得稅報稅表</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
-                                        id="declared-profits-tax-before-yes" value="yes">
-                                    <label class="form-check-label" for="declared-profits-tax-before-yes">
+                                    <input class="form-check-input" type="radio" name="has-receive-tax-return"
+                                        id="has-receive-tax-return-yes" value="yes">
+                                    <label class="form-check-label" for="has-receive-tax-return-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
-                                        id="declared-profits-tax-before-no" value="no">
-                                    <label class="form-check-label" for="declared-profits-tax-before-no">
+                                    <input class="form-check-input" type="radio" name="has-receive-tax-return"
+                                        id="has-receive-tax-return-no" value="no">
+                                    <label class="form-check-label" for="has-receive-tax-return-no">
                                         No
                                     </label>
                                 </div>
