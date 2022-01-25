@@ -170,6 +170,42 @@ get_header(); ?>
                                     type="text" class="form-control">
                             </div>
 
+
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="reporting-purposes">Reporting purposes 報表用途</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="performed-audit-before"
+                                        id="performed-audit-before-yes" value="yes">
+                                    <label class="form-check-label" for="performed-audit-before-yes">
+                                        HK Profits Tax declaration
+                                        申報香港利得稅
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="performed-audit-before"
+                                        id="performed-audit-before-no" value="no">
+                                    <label class="form-check-label" for="performed-audit-before-no">
+                                        Borrowing loans from banks
+                                        向銀行借款
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="performed-audit-before"
+                                        id="performed-audit-before-no" value="no">
+                                    <label class="form-check-label" for="performed-audit-before-no">
+                                        Funding purposes
+                                        基金要求
+                                    </label>
+                                </div>
+
+                            </div>
+
+
+
+
                         </div>
                     </div>
                 </form>
