@@ -212,6 +212,10 @@ get_header(); ?>
                                     name="contact-phone-number" type="text" class="form-control">
                             </div>
 
+                            <div class="col-12 mt-4">
+                                <h4 class="text-center mb-4"> 公司資料 Company Information</h4>
+                            </div>
+
 
 
 
