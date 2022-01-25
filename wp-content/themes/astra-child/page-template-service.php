@@ -155,6 +155,23 @@ get_header(); ?>
                                     name="client-name" type="text" class="form-control">
                             </div>
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">E-mail 電郵:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="email" name="email"
+                                    type="text" class="form-control">
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="tel">電話 Tel:</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="tel" name="tel" type="text"
+                                    class="form-control">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="fax">傳真 Fax:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="fax" name="fax" type="text"
+                                    class="form-control">
+                            </div>
+
+
                         </div>
                 </form>
                 <!-- 
