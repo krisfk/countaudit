@@ -321,6 +321,29 @@ get_header(); ?>
 
 
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="declared-profits-tax-before">Has received the tax return this year <br>
+                                    有否收到今年度利得稅報稅表</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                        id="declared-profits-tax-before-yes" value="yes">
+                                    <label class="form-check-label" for="declared-profits-tax-before-yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                        id="declared-profits-tax-before-no" value="no">
+                                    <label class="form-check-label" for="declared-profits-tax-before-no">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
+
+
+
                         </div>
                     </div>
                 </form>
