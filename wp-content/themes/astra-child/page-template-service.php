@@ -134,6 +134,12 @@ get_header(); ?>
 
                 <?php echo get_field('bottom_form');?>
 
+                <h4 class="text-center lh-base"> Quotation Form of Audit and Tax Reporting
+                    <br>
+                    審計及稅務報價表
+
+                </h4>
+
                 <form id="form" action="" method="post" enctype="multipart/form-data">
 
                     <div class="form-div white-bg mt-4">
@@ -151,6 +157,19 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
                                     name="client-name" type="text" class="form-control">
                             </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="tel">Tel 電話:</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="tel" name="tel" type="text"
+                                    class="form-control">
+                            </div>
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">E-mail 電郵:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="email" name="email"
+                                    type="text" class="form-control">
+                            </div>
+
                         </div>
                     </div>
                 </form>
