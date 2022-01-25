@@ -242,6 +242,30 @@ get_header(); ?>
                                 <h4 class="text-center mb-4">申請所需之文件 Required Documents <br>
                                     (請上載下列文件 Please upload the following documents)</h4>
                             </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="upload-file-1">
+                                    1. 商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格
+                                    (NNC1); 公司證書 (CI); 公司章程 (AA)
+                                </label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input type="file" class="form-control" name="upload-file-1" id="upload-file-1">
+
+                            </div>
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="excel-file">2. 有效之身份證 /
+                                    護照副本 及 3 個月內之住址證明
+                                    All member’s ID/passport copy and address proof within 3 months</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input type="file" class="form-control" name="upload-file-2" id="upload-file-2">
+
+                            </div>
+
+
                         </div>
 
 
