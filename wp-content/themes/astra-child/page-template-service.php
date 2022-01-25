@@ -265,6 +265,25 @@ get_header(); ?>
 
                             </div>
 
+                            <div class="col-12 mt-4">
+                                <h4 class="text-center mb-4">附加詳情 Further Information</h4>
+                                <div>上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the
+                                    Company Members during the past annual year?</div>
+                            </div>
+
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="upload-file-2">變動詳情
+
+                                    Details of changes</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <!-- <input type="file" class="form-control" name="upload-file-2" id="upload-file-2"> -->
+
+                            </div>
+
+
 
                         </div>
 
