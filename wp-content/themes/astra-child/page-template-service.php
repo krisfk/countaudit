@@ -135,6 +135,28 @@ get_header(); ?>
                 <?php echo get_field('bottom_form');?>
 
 
+                <h4 class="text-center lh-base"> Company Secretary in Hong Kong Application Form<br> 香港公司秘書服務計劃申請表 </h4>
+
+                <form id="form" action="" method="post" enctype="multipart/form-data">
+
+                    <div class="form-div white-bg mt-4">
+
+                        <div class="row  align-items-center">
+                            <div class="col-12">
+                                <h4 class="text-center mb-4"> 申請人資料 Applicant Information</h4>
+                            </div>
+                        </div>
+
+                        <div class="row  align-items-center">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">Name
+                                    姓名:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
+                                    name="client-name" type="text" class="form-control">
+                            </div>
+
+                        </div>
+                </form>
                 <!-- 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
 
