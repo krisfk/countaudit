@@ -621,66 +621,69 @@ get_header(); ?>
     if($_POST)
     {
         
+        if($_POST['form-type']=='accounting_q_form')
+        {
+            
+            $client_name = $_POST['client-name'];
+            $tel = $_POST['tel'];
+
+            $email = $_POST['email'];
+            $company_name=$_POST['company-name'];
+            $principal_activities=$_POST['principal-activities'];
+            $performed_audit_before=$_POST['performed-audit-before'];
+            $year_ended_date=$_POST['year-ended-date'];
+            $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
+            $year_assessment=$_POST['year-assessment'];
+            $done_accounting_before=$_POST['done-accounting-before'];
+            $year_ended_date_2=$_POST['year-ended-date-2'];
+            $reporting_frequency=$_POST['reporting-frequency'];
+            $excel_for_business_records=$_POST['excel-for-business-records'];
+            $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
+            $total_turnover_yearly = $_POST['total-turnover-yearly'];
+            $any_stock_yes=$_POST['any-stock-yes'];
+            $no_of_bank_used=$_POST['no-of-bank-used'];
+            $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
+            $any_property_yes= $_POST['any-property-yes'];
+            $any_motor_vehicle=$_POST['any-motor-vehicle'];
+            $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
+            $no_of_employees=$_POST['no-of-employees'];
+
+            $post_title = $client_name.' application';
+            $post_id = wp_insert_post(array (
+                'post_type' => 'accounting_q_form',
+                'post_title' => $post_title,
+                'post_status' => 'publish',
+                'comment_status' => 'closed',   // if you prefer
+                'ping_status' => 'closed',      // if you prefer
+            ));
+
+            if ($post_id) {
+                add_post_meta($post_id, 'client_name', $client_name);
+                add_post_meta($post_id, 'tel', $tel);
+                add_post_meta($post_id, 'email', $email);
+                add_post_meta($post_id, 'company_name', $company_name);
+                add_post_meta($post_id, 'principal_activities', $principal_activities);
+                add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
+                add_post_meta($post_id, 'year_ended_date', $year_ended_date);
+                add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
+                add_post_meta($post_id, 'year_assessment', $year_assessment);
+                add_post_meta($post_id, 'done_accounting_before', $done_accounting_before);
+                add_post_meta($post_id, 'year_ended_date_2', $year_ended_date_2);
+                add_post_meta($post_id, 'reporting_frequency', $reporting_frequency);
+                add_post_meta($post_id, 'excel_for_business_records', $excel_for_business_records);
+                add_post_meta($post_id, 'way_of_sorting_receipts', $way_of_sorting_receipts);
+                add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
+                add_post_meta($post_id, 'any_stock_yes', $any_stock_yes);
+                add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
+                add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
+                add_post_meta($post_id, 'any_property_yes', $any_property_yes);
+                add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
+                add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
+                add_post_meta($post_id, 'no_of_employees', $no_of_employees);
     
-        $client_name = $_POST['client-name'];
-        $tel = $_POST['tel'];
+            }
 
-        $email = $_POST['email'];
-        $company_name=$_POST['company-name'];
-        $principal_activities=$_POST['principal-activities'];
-        $performed_audit_before=$_POST['performed-audit-before'];
-        $year_ended_date=$_POST['year-ended-date'];
-        $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
-        $year_assessment=$_POST['year-assessment'];
-        $done_accounting_before=$_POST['done-accounting-before'];
-        $year_ended_date_2=$_POST['year-ended-date-2'];
-        $reporting_frequency=$_POST['reporting-frequency'];
-        $excel_for_business_records=$_POST['excel-for-business-records'];
-        $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
-        $total_turnover_yearly = $_POST['total-turnover-yearly'];
-        $any_stock_yes=$_POST['any-stock-yes'];
-        $no_of_bank_used=$_POST['no-of-bank-used'];
-        $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
-        $any_property_yes= $_POST['any-property-yes'];
-        $any_motor_vehicle=$_POST['any-motor-vehicle'];
-        $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
-        $no_of_employees=$_POST['no-of-employees'];
-
-        $post_title = $client_name.' application';
-        $post_id = wp_insert_post(array (
-            'post_type' => 'accounting_q_form',
-            'post_title' => $post_title,
-            'post_status' => 'publish',
-            'comment_status' => 'closed',   // if you prefer
-            'ping_status' => 'closed',      // if you prefer
-        ));
-
-        if ($post_id) {
-            add_post_meta($post_id, 'client_name', $client_name);
-            add_post_meta($post_id, 'tel', $tel);
-            add_post_meta($post_id, 'email', $email);
-            add_post_meta($post_id, 'company_name', $company_name);
-            add_post_meta($post_id, 'principal_activities', $principal_activities);
-            add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
-            add_post_meta($post_id, 'year_ended_date', $year_ended_date);
-            add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
-            add_post_meta($post_id, 'year_assessment', $year_assessment);
-            add_post_meta($post_id, 'done_accounting_before', $done_accounting_before);
-            add_post_meta($post_id, 'year_ended_date_2', $year_ended_date_2);
-            add_post_meta($post_id, 'reporting_frequency', $reporting_frequency);
-            add_post_meta($post_id, 'excel_for_business_records', $excel_for_business_records);
-            add_post_meta($post_id, 'way_of_sorting_receipts', $way_of_sorting_receipts);
-            add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
-            add_post_meta($post_id, 'any_stock_yes', $any_stock_yes);
-            add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
-            add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
-            add_post_meta($post_id, 'any_property_yes', $any_property_yes);
-            add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
-            add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
-            add_post_meta($post_id, 'no_of_employees', $no_of_employees);
-  
         }
-
 
         
     }
