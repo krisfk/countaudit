@@ -215,7 +215,7 @@ get_header(); ?>
                             <div class="col-12 mt-4">
                                 <h4 class="text-center mb-4"> 公司資料 Company Information</h4>
                             </div>
-                            <div class="col-12">公司名稱 Company Name＊</div>
+                            <div class="col-12 font-weight-bold">公司名稱 Company Name＊</div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name">
                                     中文名稱 Chinese Name</label>
