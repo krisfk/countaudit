@@ -230,9 +230,10 @@ get_header(); ?>
                                     name="contact-name" type="text" class="form-control">
                             </div>
 
-
-
                         </div>
+
+
+                    </div>
                 </form>
                 <!-- 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
