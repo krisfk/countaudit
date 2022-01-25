@@ -217,6 +217,32 @@ get_header(); ?>
 
 
 
+                            <div class="col-12">
+                                <h4 class="text-center mb-4">Company Information 公司資料</h4>
+                            </div>
+
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="company-name">Company name
+                                    公司名稱</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="company-name"
+                                    name="company-name" type="text" class="form-control"></div>
+
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="principal-activities">Principal activities
+                                    主要業務</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3 mb-3"><input id="principal-activities"
+                                    name="principal-activities" type="text" class="form-control"></div>
+
+
+
+
+
+
+
 
 
 
