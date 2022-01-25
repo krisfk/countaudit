@@ -265,7 +265,7 @@ get_header(); ?>
 
                             </div>
 
-                            <div class="col-12 mt-4">
+                            <div class="col-12 mt-4 mb-4">
                                 <h4 class="text-center mb-4">附加詳情 Further Information</h4>
                                 <div>上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the
                                     Company Members during the past annual year?</div>
