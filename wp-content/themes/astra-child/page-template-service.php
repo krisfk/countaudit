@@ -1121,6 +1121,36 @@ get_header(); ?>
                 'comment_status' => 'closed',   // if you prefer
                 'ping_status' => 'closed',      // if you prefer
             ));   
+
+
+            if ($post_id) {
+                add_post_meta($post_id, 'client_name', $client_name);
+                add_post_meta($post_id, 'tel', $tel);
+                add_post_meta($post_id, 'email', $email);
+                add_post_meta($post_id, 'reporting_purposes', $reporting_purposes);
+                add_post_meta($post_id, 'other_reporting_purposes', $other_reporting_purposes);
+                add_post_meta($post_id, 'company_name', $company_name);
+                add_post_meta($post_id, 'principal_activities', $principal_activities);
+                add_post_meta($post_id, 'incorporation_date', $incorporation_date);
+                add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
+                add_post_meta($post_id, 'year_ended_date', $year_ended_date);
+                add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
+                add_post_meta($post_id, 'year_assessment', $year_assessment);
+                add_post_meta($post_id, 'has_receive_tax_return', $has_receive_tax_return);
+                add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
+                add_post_meta($post_id, 'any_stock', $any_stock);
+                add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
+                add_post_meta($post_id, 'no_of_bank_transaction_monthly', $no_of_bank_transaction_monthly);
+                add_post_meta($post_id, 'no_of_non_bank_transactions_monthly', $no_of_non_bank_transactions_monthly);
+                add_post_meta($post_id, 'any_property', $any_property);
+                add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
+                add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
+                add_post_meta($post_id, 'no_of_employees', $no_of_employees);
+
+            
+                
+            }
+            
         }
 
         
