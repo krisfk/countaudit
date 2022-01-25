@@ -341,9 +341,8 @@ get_header(); ?>
                                     </label>
                                 </div>
 
-                                <div class="form-check">
-                                    <!-- <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"> -->
-                                    <label class="form-check-label" for="defaultCheck1">
+                                <div class="mt-3">
+                                    <label class="form-check-label mb-3" for="defaultCheck1">
                                         其他 Others:
                                     </label>
                                     <input type="text" class="form-control">
