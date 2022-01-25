@@ -175,7 +175,8 @@ get_header(); ?>
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
-                                    for="billing-contact-person">上述申請人為賬單聯絡人 The above applicant is the billing contact
+                                    for="billing-contact-person">上述申請人為賬單聯絡人<br>The above applicant is the billing
+                                    contact
                                     person</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
