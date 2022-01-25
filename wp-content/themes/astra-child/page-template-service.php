@@ -142,6 +142,9 @@ get_header(); ?>
 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
 
+
+                    <input type="hidden" id="form-type" name="form-type" value="audit_and_tax_report">
+
                     <div class="form-div white-bg mt-4">
 
                         <div class="row  align-items-center">
@@ -250,21 +253,22 @@ get_header(); ?>
 
 
 
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="reporting-purposes">Has
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="performed-audit-before">Has
                                     performed audit before?
                                     是否曾進行核數</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="reporting-purposes"
-                                        id="reporting-purposes-yes" value="yes">
-                                    <label class="form-check-label" for="reporting-purposes-yes">
+                                    <input class="form-check-input" type="radio" name="performed-audit-before"
+                                        id="performed-audit-before-yes" value="yes">
+                                    <label class="form-check-label" for="performed-audit-before-yes">
                                         Yes
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="reporting-purposes"
-                                        id="reporting-purposes-no" value="no">
-                                    <label class="form-check-label" for="reporting-purposes-no">
+                                    <input class="form-check-input" type="radio" name="performed-audit-before"
+                                        id="performed-audit-before-no" value="no">
+                                    <label class="form-check-label" for="performed-audit-before-no">
                                         No
                                     </label>
                                 </div>
@@ -1023,11 +1027,10 @@ get_header(); ?>
             
             $client_name = $_POST['client-name'];
             $tel = $_POST['tel'];
-
             $email = $_POST['email'];
             $company_name=$_POST['company-name'];
             $principal_activities=$_POST['principal-activities'];
-            $performed_audit_before=$_POST['reporting-purposes'];
+            $performed_audit_before=$_POST['performed-audit-before'];
             $year_ended_date=$_POST['year-ended-date'];
             $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
             $year_assessment=$_POST['year-assessment'];
@@ -1037,7 +1040,7 @@ get_header(); ?>
             $excel_for_business_records=$_POST['excel-for-business-records'];
             $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
             $total_turnover_yearly = $_POST['total-turnover-yearly'];
-            $any_stock_yes=$_POST['any-stock-yes'];
+            $any_stock=$_POST['any-stock'];
             $no_of_bank_used=$_POST['no-of-bank-used'];
             $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
             $any_property_yes= $_POST['any-property-yes'];
@@ -1070,7 +1073,7 @@ get_header(); ?>
                 add_post_meta($post_id, 'excel_for_business_records', $excel_for_business_records);
                 add_post_meta($post_id, 'way_of_sorting_receipts', $way_of_sorting_receipts);
                 add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
-                add_post_meta($post_id, 'any_stock_yes', $any_stock_yes);
+                add_post_meta($post_id, 'any_stock', $any_stock);
                 add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
                 add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
                 add_post_meta($post_id, 'any_property_yes', $any_property_yes);
@@ -1080,6 +1083,65 @@ get_header(); ?>
     
             }
 
+        }
+
+
+        if($_POST['form-type']=='audit_and_tax_report')
+        {
+           
+            $client_name = $_POST['client-name'];
+            $tel = $_POST['tel'];
+            $email = $_POST['email'];
+            $reporting_purposes = $_POST['reporting-purposes'];
+            $other_reporting_purposes=$_POST['other-reporting-purposes'];
+            $company_name=$_POST['company-name'];
+            $principal_activities=$_POST['principal-activities'];
+            $incorporation_date=$_POST['incorporation-date'];
+            $performed_audit_before=$_POST['performed-audit-before'];
+            $year_ended_date=$_POST['year-ended-date'];
+
+            $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
+           
+            $year_assessment=$_POST['year-assessment'];
+           
+            $has_receive_tax_return=$_POST['has-receive-tax-return'];
+ 
+            $total_turnover_yearly=$_POST['total-turnover-yearly'];
+            
+
+
+            $any_stock=$_POST['any-stock'];
+
+
+
+
+
+
+            // $done_accounting_before=$_POST['done-accounting-before'];
+
+            
+
+           
+            // $year_ended_date_2=$_POST['year-ended-date-2'];
+            // $reporting_frequency=$_POST['reporting-frequency'];
+            // $excel_for_business_records=$_POST['excel-for-business-records'];
+            // $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
+            // $total_turnover_yearly = $_POST['total-turnover-yearly'];
+            // $no_of_bank_used=$_POST['no-of-bank-used'];
+            // $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
+            // $any_property_yes= $_POST['any-property-yes'];
+            // $any_motor_vehicle=$_POST['any-motor-vehicle'];
+            // $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
+            // $no_of_employees=$_POST['no-of-employees'];
+
+            $post_title = $client_name.' application';
+            $post_id = wp_insert_post(array (
+                'post_type' => 'accounting_q_form',
+                'post_title' => $post_title,
+                'post_status' => 'publish',
+                'comment_status' => 'closed',   // if you prefer
+                'ping_status' => 'closed',      // if you prefer
+            ));   
         }
 
         
