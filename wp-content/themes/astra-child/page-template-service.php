@@ -1105,7 +1105,7 @@ get_header(); ?>
             $total_turnover_yearly=$_POST['total-turnover-yearly'];
             $any_stock=$_POST['any-stock'];
             $no_of_bank_used=$_POST['no-of-bank-used'];
-            $no_of_bank_transaction_monthly= $_POST['no-of-bank-transactions-monthly'];
+            $no_of_bank_transactions_monthly= $_POST['no-of-bank-transactions-monthly'];
             $no_of_non_bank_transactions_monthly=$_POST['no-of-non-bank-transactions-monthly'];
             $any_property= $_POST['any-property'];
             $any_motor_vehicle=$_POST['any-motor-vehicle'];
@@ -1140,7 +1140,7 @@ get_header(); ?>
                 add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
                 add_post_meta($post_id, 'any_stock', $any_stock);
                 add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
-                add_post_meta($post_id, 'no_of_bank_transaction_monthly', $no_of_bank_transaction_monthly);
+                add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
                 add_post_meta($post_id, 'no_of_non_bank_transactions_monthly', $no_of_non_bank_transactions_monthly);
                 add_post_meta($post_id, 'any_property', $any_property);
                 add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
