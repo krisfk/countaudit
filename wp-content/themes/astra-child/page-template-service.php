@@ -250,7 +250,50 @@ get_header(); ?>
 
 
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="reporting-purposes">Has
+                                    performed audit before?
+                                    是否曾進行核數</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="reporting-purposes"
+                                        id="reporting-purposes-yes" value="yes">
+                                    <label class="form-check-label" for="reporting-purposes-yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="reporting-purposes"
+                                        id="reporting-purposes-no" value="no">
+                                    <label class="form-check-label" for="reporting-purposes-no">
+                                        No
+                                    </label>
+                                </div>
 
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="declared-profits-tax-before">Has declared profits
+                                    tax
+                                    before?
+                                    <br>
+                                    是否曾申報利得稅</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                        id="declared-profits-tax-before-yes" value="yes">
+                                    <label class="form-check-label" for="declared-profits-tax-before-yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="declared-profits-tax-before"
+                                        id="declared-profits-tax-before-no" value="no">
+                                    <label class="form-check-label" for="declared-profits-tax-before-no">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
 
 
 
