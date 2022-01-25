@@ -343,13 +343,16 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
-                                    for="receive-tax-return-issue-date">
-                                    If Yes, please provide the issued date <br>
-                                    如有，請提供發出日期</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input
-                                    id="receive-tax-return-issue-date" name="receive-tax-return-issue-date" type="text"
-                                    class="form-control">
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="excel-file">是否有做會計帳目？
+                                    如有，請提供審計年度的Profit and Loss, Balance Sheet
+                                    如沒有，請提供以下資料</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input type="file" class="form-control" name="excel-file" id="excel-file">
+
                             </div>
 
 
