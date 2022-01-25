@@ -871,6 +871,10 @@ a.gold.no-deco:hover {
     margin-top: 5px;
 }
 
+.code-block {
+    display: none;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
