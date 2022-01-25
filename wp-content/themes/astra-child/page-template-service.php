@@ -279,7 +279,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3 mt-4">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3 ">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
