@@ -308,6 +308,15 @@ get_header(); ?>
 
                             </div>
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="year-assessment"> If Yes,
+                                    please provide the related
+                                    year of
+                                    assessment
+                                    <br>
+                                    如是，請提供相關課稅年度</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="year-assessment"
+                                    name="year-assessment" type="text" class="form-control">
+                            </div>
 
 
 
