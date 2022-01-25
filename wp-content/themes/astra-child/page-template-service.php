@@ -271,6 +271,19 @@ get_header(); ?>
 
                             </div>
 
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="year-ended-date"> If Yes,
+                                    please provide the related
+                                    year
+                                    ended
+                                    date
+                                    <br>
+                                    如是，請提供相關年結日</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="year-ended-date"
+                                    name="year-ended-date" type="text" class="form-control">
+                            </div>
+
+
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
                                     for="declared-profits-tax-before">Has declared profits
                                     tax
