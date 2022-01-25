@@ -180,7 +180,7 @@ get_header(); ?>
                                     <input class="form-check-input" type="radio" name="performed-audit-before"
                                         id="performed-audit-before-yes" value="yes">
                                     <label class="form-check-label" for="performed-audit-before-yes">
-                                        HK Profits Tax declaration
+                                        HK Profits Tax declaration <br>
                                         申報香港利得稅
                                     </label>
                                 </div>
@@ -188,7 +188,7 @@ get_header(); ?>
                                     <input class="form-check-input" type="radio" name="performed-audit-before"
                                         id="performed-audit-before-no" value="no">
                                     <label class="form-check-label" for="performed-audit-before-no">
-                                        Borrowing loans from banks
+                                        Borrowing loans from banks<br>
                                         向銀行借款
                                     </label>
                                 </div>
@@ -196,7 +196,7 @@ get_header(); ?>
                                     <input class="form-check-input" type="radio" name="performed-audit-before"
                                         id="performed-audit-before-no" value="no">
                                     <label class="form-check-label" for="performed-audit-before-no">
-                                        Funding purposes
+                                        Funding purposes<br>
                                         基金要求
                                     </label>
                                 </div>
