@@ -238,7 +238,10 @@ get_header(); ?>
                                     name="date-change-secretary" type="text" class="form-control">
                             </div>
 
-
+                            <div class="col-12 mt-4">
+                                <h4 class="text-center mb-4">申請所需之文件 Required Documents <br>
+                                    (請上載下列文件 Please upload the following documents)</h4>
+                            </div>
                         </div>
 
 
