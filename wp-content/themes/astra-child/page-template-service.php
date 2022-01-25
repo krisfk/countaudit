@@ -272,7 +272,8 @@ get_header(); ?>
                             </div>
 
 
-
+                        </div>
+                        <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="upload-file-2">變動詳情
 
                                     Details of changes</label>
@@ -350,14 +351,17 @@ get_header(); ?>
 
                             </div>
 
-
-
                         </div>
 
 
+
+
                     </div>
-                </form>
-                <!-- 
+
+
+            </div>
+            </form>
+            <!-- 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
 
                     <div class="form-div white-bg mt-4">
@@ -812,14 +816,14 @@ get_header(); ?>
                         </div>
                     </div>
                 </form> -->
-            </div>
         </div>
-
     </div>
 
-    <?php get_footer(); ?>
+</div>
 
-    <?php
+<?php get_footer(); ?>
+
+<?php
     
     if($_POST)
     {
@@ -999,33 +1003,33 @@ get_header(); ?>
 
     
     ?>
-    <script type="text/javascript">
-    $(function() {
-        $('.form-submit-btn').click(function() {
-            // alert(650);
-            $('#form').submit();
-        });
-        $('.about-carousel').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            autoplay: false,
-            pauseOnFocus: false,
-            infinite: true,
-            speed: 800,
-            autoplaySpeed: 5000,
-            cssEase: 'ease-out',
-            pauseOnHover: false
+<script type="text/javascript">
+$(function() {
+    $('.form-submit-btn').click(function() {
+        // alert(650);
+        $('#form').submit();
+    });
+    $('.about-carousel').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        autoplay: false,
+        pauseOnFocus: false,
+        infinite: true,
+        speed: 800,
+        autoplaySpeed: 5000,
+        cssEase: 'ease-out',
+        pauseOnHover: false
 
-        });
-
-
+    });
 
 
-    })
-    </script>
-    </body>
 
-    </html>
+
+})
+</script>
+</body>
+
+</html>
