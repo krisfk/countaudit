@@ -217,7 +217,7 @@ get_header(); ?>
 
 
 
-                            <div class="col-12">
+                            <div class="col-12 mt-4">
                                 <h4 class="text-center mb-4">Company Information 公司資料</h4>
                             </div>
 
