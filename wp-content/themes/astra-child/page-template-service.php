@@ -143,6 +143,15 @@ get_header(); ?>
                                 <h4 class="text-center mb-4"> Contact Information 聯絡資料</h4>
                             </div>
                         </div>
+
+                        <div class="row  align-items-center">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">Name
+                                    姓名:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
+                                    name="client-name" type="text" class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </form>
                 <!-- 
@@ -611,6 +620,7 @@ get_header(); ?>
     
     if($_POST)
     {
+        
     
         $client_name = $_POST['client-name'];
         $tel = $_POST['tel'];
@@ -626,7 +636,6 @@ get_header(); ?>
         $year_ended_date_2=$_POST['year-ended-date-2'];
         $reporting_frequency=$_POST['reporting-frequency'];
         $excel_for_business_records=$_POST['excel-for-business-records'];
-        // $excel_file =$_POST['excel-file'];//FILE
         $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
         $total_turnover_yearly = $_POST['total-turnover-yearly'];
         $any_stock_yes=$_POST['any-stock-yes'];
@@ -671,6 +680,9 @@ get_header(); ?>
             add_post_meta($post_id, 'no_of_employees', $no_of_employees);
   
         }
+
+
+        
     }
 
 
