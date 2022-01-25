@@ -361,13 +361,18 @@ get_header(); ?>
                             </div>
 
 
+
+
+
+                        </div>
+
+                        <div class="row  align-items-center">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="remarks">
                                     備註 Remarks</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="remarks" name="remarks"
                                     type="text" class="form-control">
                             </div>
-
 
                         </div>
 
