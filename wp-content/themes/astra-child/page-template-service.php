@@ -148,14 +148,14 @@ get_header(); ?>
                         </div>
 
                         <div class="row  align-items-center">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">Name
-                                    姓名:</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">
+                                    姓名 Name:</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
                                     name="client-name" type="text" class="form-control">
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">E-mail 電郵:</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">電郵 E-mail:</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="email" name="email"
                                     type="text" class="form-control">
@@ -195,6 +195,22 @@ get_header(); ?>
                                 </div>
 
                             </div>
+                            <div class="col-12">
+                                如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name">
+                                    姓名 Name:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name"
+                                    name="contact-name" type="text" class="form-control">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="phone-number">聯絡電話Phone
+                                    Number:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="phone-number"
+                                    name="phone-number" type="text" class="form-control">
+                            </div>
+
 
 
 
