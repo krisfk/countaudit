@@ -217,18 +217,27 @@ get_header(); ?>
                             </div>
                             <div class="col-12 fw-bold">公司名稱 Company Name＊</div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-chinese">
                                     中文名稱 Chinese Name</label>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name"
-                                    name="contact-name" type="text" class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name-chinese"
+                                    name="contact-name-chinese" type="text" class="form-control">
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
                                     英文名稱 English Name</label>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name"
-                                    name="contact-name" type="text" class="form-control">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name-english"
+                                    name="contact-name-english" type="text" class="form-control">
                             </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="date-change-secretary">
+                                    公司秘書更改日期
+                                    The date of changing Company Secretary＊</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="date-change-secretary"
+                                    name="date-change-secretary" type="text" class="form-control">
+                            </div>
+
 
                         </div>
 
