@@ -273,15 +273,26 @@ get_header(); ?>
 
 
 
-                            <div class="col-12 mt-4">
-                                <h4 class="text-center mb-4"> 變動詳情
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="upload-file-2">變動詳情
 
-                                    Details of changes</h4>
+                                    Details of changes</label>
                             </div>
+
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
-                                <!-- <input type="file" class="form-control" name="upload-file-2" id="upload-file-2"> -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Default checkbox
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Default checkbox
+                                    </label>
+                                </div>
 
                             </div>
 
