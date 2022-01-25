@@ -240,6 +240,16 @@ get_header(); ?>
 
 
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="incorporation-date">Incorporation date
+                                    公司開立日期</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3 mb-3"><input id="incorporation-date"
+                                    name="incorporation-date" type="text" class="form-control"></div>
+
+
+
+
 
 
 
