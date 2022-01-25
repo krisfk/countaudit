@@ -355,6 +355,97 @@ get_header(); ?>
 
                             </div>
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="total-turnover-yearly">
+
+                                    Total Turnover (yearly)
+                                    全年總營業額
+                                </label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <input type="text" class="form-control" name="total-turnover-yearly"
+                                    id="total-turnover-yearly">
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <label for="any-stock">Any stock?
+                                    有否存貨?</label>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-yes"
+                                        value="yes">
+                                    <label class="form-check-label" for="any-stock-yes" name="any-stock">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="any-stock" id="any-stock-no"
+                                        value="no">
+                                    <label class="form-check-label" for="any-stock-no" name="any-stock">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <label for="no-of-bank-used">
+
+                                    No. of bank used <br>
+                                    使用銀行的數量
+
+                                </label>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input name="no-of-bank-used" id="no-of-bank-used" type="text" class="form-control">
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <label for="no-of-bank-transactions-monthly">
+
+                                    No. of bank transactions (monthly) <br>
+                                    每月經銀行交易的數量
+
+                                </label>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input name="no-of-bank-transactions-monthly" id="no-of-bank-transactions-monthly"
+                                    type="text" class="form-control">
+
+                            </div>
+
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <label for="no-of-non-bank-transactions-monthly">
+
+                                    No. of non-bank transactions (monthly) <br>
+                                    每月非經銀行交易的數量
+                                </label>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
+                                <input name="no-of-non-bank-transactions-monthly"
+                                    id="no-of-non-bank-transactions-monthly" type="text" class="form-control">
+
+                            </div>
+
+
+
 
 
 
