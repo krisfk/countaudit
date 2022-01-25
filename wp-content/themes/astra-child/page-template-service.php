@@ -342,10 +342,11 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <!-- <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"> -->
                                     <label class="form-check-label" for="defaultCheck1">
                                         其他 Others:
                                     </label>
+                                    <input type="text" class="form-control">
                                 </div>
 
 
