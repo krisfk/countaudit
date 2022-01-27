@@ -427,7 +427,7 @@ get_header(); ?>
 
 
                         </div>
-                        <div>
+                        <div class="mb-3">
                             <h5 class="text-center">- 尖沙咀 Tsim Sha Tsui -</h5>
                         </div>
 
@@ -491,7 +491,7 @@ get_header(); ?>
                             </div>
                         </div>
 
-                        <div>
+                        <div class="mb-3">
                             <h5 class="text-center">
                                 - 荔枝角 Lai Chi Kok -</h5>
                         </div>
