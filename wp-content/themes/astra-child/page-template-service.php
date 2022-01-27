@@ -596,6 +596,77 @@ get_header(); ?>
                         </div>
 
 
+                        <div class="row">
+
+                            <div class="col-4">
+
+
+
+
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK650-year"
+                                        value="lck-HK650-year">
+                                    <label class="form-check-label" for="lck-HK650-year">
+                                        HK$650/year
+
+                                    </label>
+                                </div>
+
+                                <ul class="m-0 ps-4">
+                                    <li>註冊公司地址</li>
+                                    <li>信件代收</li>
+                                    <li>製作公司水牌</li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK950-year"
+                                        value="lck-HK950-year">
+                                    <label class="form-check-label" for="lck-HK950-year">
+                                        HK$950/year
+
+                                    </label>
+                                </div>
+
+                                <ul class="m-0 ps-4">
+                                    <li>註冊公司地址</li>
+                                    <li>信件包裹代收</li>
+                                    <li>稅局郵件轉寄</li>
+                                    <li>製作公司水牌</li>
+                                    <li>每月轉寄郵件</li>
+
+                                </ul>
+                            </div>
+                            <div class="col-4">
+
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK1200-year"
+                                        value="lck-HK950-year">
+                                    <label class="form-check-label" for="lck-HK1200-year">
+                                        HK$1,200/year
+
+                                    </label>
+                                </div>
+
+                                <ul class="m-0 ps-4">
+                                    <li>註冊公司地址</li>
+                                    <li>信件包裹代收</li>
+                                    <li>稅局郵件轉寄</li>
+                                    <li>製作公司水牌</li>
+                                    <li>更改商業登記地址</li>
+                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li>每月一次會議室出租</li>
+                                    <li>辦公室電話代接</li>
+                                </ul>
+
+
+
+                            </div>
+                        </div>
 
 
 
