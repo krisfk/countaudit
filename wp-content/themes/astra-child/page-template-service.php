@@ -407,7 +407,7 @@ get_header(); ?>
 
 
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="virtual-office" id="virtual-office"
+                            <input class="form-check-input" type="checkbox" name="virtual-office" id="virtual-office"
                                 value="yes">
                             <label class="form-check-label" for="virtual-office">
                                 虛擬辦工室 Virtual Office
