@@ -635,7 +635,7 @@ get_header(); ?>
 
                         <div class="row mt-4">
 
-                            <div class="col-12">
+                            <div class="col-12 mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
@@ -646,7 +646,7 @@ get_header(); ?>
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
@@ -657,7 +657,7 @@ get_header(); ?>
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
@@ -668,7 +668,7 @@ get_header(); ?>
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
@@ -680,7 +680,7 @@ get_header(); ?>
                                 </div>
                             </div>
 
-                            <div class="col-12">
+                            <div class="col-12 mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
@@ -693,7 +693,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="col-12">
+                            <div class="col-12 mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
@@ -705,7 +705,7 @@ get_header(); ?>
                                 </div>
                             </div>
 
-                            <div class="col-12">
+                            <div class="col-12 mb-3">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
