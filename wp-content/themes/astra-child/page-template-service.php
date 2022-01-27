@@ -427,7 +427,8 @@ get_header(); ?>
 
 
                         </div>
-                        <div> <a class="toggle-hide-content-a" href="javascript:void(0);"> 尖沙咀 Tsim Sha Tsui</a>
+                        <div>
+                            <h6> 尖沙咀 Tsim Sha Tsui</h6>
                         </div>
 
                         <div class="row">
