@@ -491,7 +491,7 @@ get_header(); ?>
                             </div>
                         </div>
 
-                        <div class="mb-3">
+                        <div class="mb-3 mt-4">
                             <h5 class="text-center">
                                 - 荔枝角 Lai Chi Kok -</h5>
                         </div>
@@ -557,7 +557,7 @@ get_header(); ?>
                         </div>
 
 
-                        <div>
+                        <div class="mt-4 mb-3">
                             <h5 class="text-center">
                                 - 觀塘 Kwun Tong -</h5>
 
