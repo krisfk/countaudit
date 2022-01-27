@@ -433,7 +433,18 @@ get_header(); ?>
                                     <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
                                 </ul>
                             </div>
-                            <div class="col-4"></div>
+                            <div class="col-4">
+
+                                <div> HK$1,600/year
+                                </div>
+                                <ul>
+                                    <li>註冊公司地址</li>
+                                    <li>信件包裹代收</li>
+                                    <li>稅局郵件轉寄</li>
+                                    <li>製作公司水牌</li>
+                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                </ul>
+                            </div>
                             <div class="col-4"></div>
                         </div>
 
