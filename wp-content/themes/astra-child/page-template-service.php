@@ -559,7 +559,7 @@ get_header(); ?>
 
                         <div>
                             <h5 class="text-center">
-                                觀塘 Kwun Tong</h5>
+                                - 觀塘 Kwun Tong -</h5>
 
                         </div>
 
