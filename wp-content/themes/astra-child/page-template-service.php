@@ -448,7 +448,7 @@ get_header(); ?>
                                     </label>
                                 </div>
 
-                                <ul class="m-0 ps-3">
+                                <ul class="m-0 ps-4">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
                                     <li>稅局郵件轉寄</li>
@@ -469,7 +469,7 @@ get_header(); ?>
                                 </div>
 
 
-                                <ul class="m-0 ps-3">
+                                <ul class="m-0 ps-4">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
                                     <li>稅局郵件轉寄</li>
@@ -493,7 +493,7 @@ get_header(); ?>
                                 </div>
 
 
-                                <ul class="m-0 ps-3">
+                                <ul class="m-0 ps-4">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
                                     <li>稅局郵件轉寄</li>
@@ -533,7 +533,7 @@ get_header(); ?>
                                     </label>
                                 </div>
 
-                                <ul class="m-0 ps-3">
+                                <ul class="m-0 ps-4">
                                     <li>註冊公司地址</li>
                                     <li>信件代收</li>
                                     <li>製作公司水牌</li>
@@ -543,7 +543,7 @@ get_header(); ?>
 
                                 <div> HK$950/year
                                 </div>
-                                <ul class="m-0 ps-3">
+                                <ul class="m-0 ps-4">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
                                     <li>稅局郵件轉寄</li>
@@ -555,7 +555,7 @@ get_header(); ?>
                             <div class="col-4">
                                 <div> HK$1,200/year
                                 </div>
-                                <ul class="m-0 ps-3">
+                                <ul class="m-0 ps-4">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
                                     <li>稅局郵件轉寄</li>
