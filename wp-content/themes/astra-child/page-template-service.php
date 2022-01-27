@@ -435,14 +435,17 @@ get_header(); ?>
                             </div>
                             <div class="col-4">
 
-                                <div> HK$1,600/year
+                                <div> HK$4,000/year
                                 </div>
                                 <ul class="m-0 ps-3">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
                                     <li>稅局郵件轉寄</li>
                                     <li>製作公司水牌</li>
-                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li>每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                    <li>辦公室電話代接</li>
+                                    <li>稅局文件代處理及信件代開</li>
+                                    <li> 準備及保存重要控制人登記册</li>
                                 </ul>
                             </div>
                             <div class="col-4"></div>
