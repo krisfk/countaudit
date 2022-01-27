@@ -440,8 +440,9 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="HK1600-year">
-                                    <label class="form-check-label" for="HK1600-year">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="tst-HK1600-year"
+                                        value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
                                         HK$1,600/year
 
                                     </label>
@@ -457,8 +458,17 @@ get_header(); ?>
                             </div>
                             <div class="col-4">
 
-                                <div> HK$4,000/year
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="tst-HK4000-year"
+                                        value="tst-HK4000-year">
+                                    <label class="form-check-label" for="tst-HK4000-year">
+                                        HK$4,000/year
+
+                                    </label>
                                 </div>
+
+
                                 <ul class="m-0 ps-3">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
