@@ -641,14 +641,84 @@ get_header(); ?>
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
                                         value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
                                     <label class="form-check-label" for="additional-1">
-                                        增加公司註冊股本 (港幣$500全包)
+                                        增加公司註冊股本 (港幣$500全包) <br>
                                         Increase of Capital (HK$500 all inclusive)
                                     </label>
                                 </div>
-
-
-
                             </div>
+                            <div class="col-12">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
+                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <label class="form-check-label" for="additional-1">
+                                        分配股份(港幣$500全包) <br>
+                                        Allotment of Shares (HK$500 all inclusive)
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
+                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <label class="form-check-label" for="additional-1">
+                                        申請分行(港幣$500全包) <br>
+                                        Register Branch (HK$500 all inclusive)
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
+                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <label class="form-check-label" for="additional-1">
+                                        年度股東大會(港幣$500全包) <br>
+                                        Annual General Name (HK$500 all inclusive)
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
+                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <label class="form-check-label" for="additional-1">
+                                        更改公司或分行名稱(港幣$500全包) <br>
+                                        Change of Company / Branch Name (HK$500 all inclusive)
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
+                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <label class="form-check-label" for="additional-1">
+                                        股份轉讓 (HK$700服務費加印花稅） <br>
+                                        Transfer of Shares (HK$700 plus stamp duty fees)
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
+                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <label class="form-check-label" for="additional-1">
+                                        撤銷公司(港幣$1,000加政府費用) <br>
+                                        Deregistration of Limited Company (HK$1,000 plus government charges)
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12"></div>
+
                         </div>
 
 
