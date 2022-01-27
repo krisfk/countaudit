@@ -406,7 +406,7 @@ get_header(); ?>
                         </div>
 
 
-                        <div class="form-check">
+                        <!-- <div class="form-check">
 
                             <input class="form-check-input" type="checkbox" name="virtual-office" id="virtual-office"
                                 value="yes">
@@ -414,8 +414,19 @@ get_header(); ?>
                                 虛擬辦工室 Virtual Office
 
                             </label>
-                        </div>
+                        </div> -->
 
+                        <div class="col-12">
+
+                            <div class="col-12 mt-4">
+                                <h4 class="text-center mb-4"> 虛擬辦工室 Virtual Office </h4>
+
+                            </div>
+
+
+
+
+                        </div>
                         <div> <a class="toggle-hide-content-a" href="javascript:void(0);"> 尖沙咀 Tsim Sha Tsui</a>
                         </div>
 
