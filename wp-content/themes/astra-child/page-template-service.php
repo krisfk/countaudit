@@ -425,7 +425,7 @@ get_header(); ?>
 
                                 <div> HK$1,600/year
                                 </div>
-                                <ul>
+                                <ul class="m-0">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
                                     <li>稅局郵件轉寄</li>
