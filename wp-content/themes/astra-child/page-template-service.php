@@ -493,7 +493,7 @@ get_header(); ?>
 
                         <div>
                             <h5 class="text-center">
-                                荔枝角 Lai Chi Kok</h5>
+                                - 荔枝角 Lai Chi Kok -</h5>
                         </div>
 
                         <div class="row">
