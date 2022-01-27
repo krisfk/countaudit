@@ -407,6 +407,7 @@ get_header(); ?>
 
 
                         <div class="form-check">
+
                             <input class="form-check-input" type="checkbox" name="virtual-office" id="virtual-office"
                                 value="yes">
                             <label class="form-check-label" for="virtual-office">
@@ -414,6 +415,38 @@ get_header(); ?>
 
                             </label>
                         </div>
+
+                        <div> <a href="javascript:void(0);"> 尖沙咀 Tsim Sha Tsui</a>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-4">
+
+                                <div> HK$1,600/year
+                                </div>
+                                <ul>
+                                    <li>註冊公司地址</li>
+                                    <li>信件包裹代收</li>
+                                    <li>稅局郵件轉寄</li>
+                                    <li>製作公司水牌</li>
+                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                </ul>
+                            </div>
+                            <div class="col-4"></div>
+                            <div class="col-4"></div>
+                        </div>
+
+                        <div>
+                            <a href="javascript:void(0);">荔枝角 Lai Chi Kok</a>
+                        </div>
+
+
+                        <div>
+                            <a href="javascript:void(0);">觀塘 Kwun Tong</a>
+
+                        </div>
+
 
 
 
