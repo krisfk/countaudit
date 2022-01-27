@@ -633,6 +633,29 @@ get_header(); ?>
                         </div>
 
 
+                        <div class="row">
+
+                            <div class="col-4">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
+                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <label class="form-check-label" for="additional-1">
+                                        增加公司註冊股本 (港幣$500全包)
+                                        Increase of Capital (HK$500 all inclusive)
+                                    </label>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+
 
 
 
