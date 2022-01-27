@@ -416,12 +416,11 @@ get_header(); ?>
                             </label>
                         </div> -->
 
-                        <div class="col-12">
+                        <div class="col-12 mt-4">
 
-                            <div class="col-12 mt-4">
-                                <h5 class="text-center mb-4"> 虛擬辦工室 Virtual Office </h5>
 
-                            </div>
+                            <h5 class="text-center mb-4"> 虛擬辦工室 Virtual Office </h5>
+
 
 
 
