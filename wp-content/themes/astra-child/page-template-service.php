@@ -492,12 +492,74 @@ get_header(); ?>
                         </div>
 
                         <div>
-                            <a href="javascript:void(0);">荔枝角 Lai Chi Kok</a>
+                            <h5>
+                                荔枝角 Lai Chi Kok</h5>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-4">
+
+
+
+
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="HK1600-year">
+                                    <label class="form-check-label" for="HK1600-year">
+                                        HK$1,600/year
+
+                                    </label>
+                                </div>
+
+                                <ul class="m-0 ps-3">
+                                    <li>註冊公司地址</li>
+                                    <li>信件包裹代收</li>
+                                    <li>稅局郵件轉寄</li>
+                                    <li>製作公司水牌</li>
+                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+
+                                <div> HK$4,000/year
+                                </div>
+                                <ul class="m-0 ps-3">
+                                    <li>註冊公司地址</li>
+                                    <li>信件包裹代收</li>
+                                    <li>稅局郵件轉寄</li>
+                                    <li>製作公司水牌</li>
+                                    <li>每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                    <li>辦公室電話代接</li>
+                                    <li>稅局文件代處理及信件代開</li>
+                                    <li>準備及保存重要控制人登記册</li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <div> HK$12,000/year
+                                </div>
+                                <ul class="m-0 ps-3">
+                                    <li>註冊公司地址</li>
+                                    <li>信件包裹代收</li>
+                                    <li>稅局郵件轉寄</li>
+                                    <li>製作公司水牌</li>
+                                    <li>更改商業登記地址</li>
+                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li>辦公室電話代接</li>
+                                    <li>稅局文件代處理及信件代開</li>
+                                    <li>準備及保存重要控制人登記册</li>
+                                    <li>每月三次會議室出租</li>
+                                </ul>
+
+
+
+                            </div>
                         </div>
 
 
                         <div>
-                            <a href="javascript:void(0);">觀塘 Kwun Tong</a>
+                            <h5>
+                                觀塘 Kwun Tong</h5>
 
                         </div>
 
