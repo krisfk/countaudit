@@ -561,8 +561,17 @@ get_header(); ?>
                                 </ul>
                             </div>
                             <div class="col-4">
-                                <div> HK$1,200/year
+
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK1200-year"
+                                        value="lck-HK1200-year">
+                                    <label class="form-check-label" for="lck-HK1200-year">
+                                        HK$1,200/year
+
+                                    </label>
                                 </div>
+
                                 <ul class="m-0 ps-4">
                                     <li>註冊公司地址</li>
                                     <li>信件包裹代收</li>
