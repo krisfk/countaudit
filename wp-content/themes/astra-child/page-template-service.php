@@ -633,9 +633,9 @@ get_header(); ?>
                         </div>
 
 
-                        <div class="row">
+                        <div class="row mt-4">
 
-                            <div class="col-4">
+                            <div class="col-12">
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
