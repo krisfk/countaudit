@@ -385,17 +385,18 @@ get_header(); ?>
                                     服務費用 (每年港幣$950) Service fee (per year HK$950)，已包括：</b>
 
 
-                                擔任法定公司秘書 Act as Company Secretary <br>
-                                準備及遞交週年申報表 Prepare and Submit Annual Return <br>
-                                協助續辦商業登記證 Renew the Business Registration Certificate <br>
-                                對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter <br>
-                                更改公司註冊地址資料 Change of Registered Office Address <br>
-                                準備及遞交任免董事資料 Appointment / Resignation / Change of Director <br>
-                                準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary <br>
-                                更改董事個人資料 Change of Personal Particulars of Director <br>
-                                業務性質變更 Change of Company Business Nature <br>
-                                準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register
-
+                                <ul>
+                                    <li>擔任法定公司秘書 Act as Company Secretary</li>
+                                    <li>準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                    <li>協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                    <li> 對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter</li>
+                                    <li>更改公司註冊地址資料 Change of Registered Office Address</li>
+                                    <li>準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                    <li>準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                                    <li>更改董事個人資料 Change of Personal Particulars of Director</li>
+                                    <li>業務性質變更 Change of Company Business Nature</li>
+                                    <li>準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register</li>
+                                </ul>
                             </div>
                         </div>
 
