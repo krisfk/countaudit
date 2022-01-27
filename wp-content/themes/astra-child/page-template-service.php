@@ -525,8 +525,9 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="HK1600-year">
-                                    <label class="form-check-label" for="HK1600-year">
+                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK650-year"
+                                        value="lck-HK650-year">
+                                    <label class="form-check-label" for="lck-HK650-year">
                                         HK$650/year
 
                                     </label>
