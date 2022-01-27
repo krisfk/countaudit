@@ -419,7 +419,7 @@ get_header(); ?>
                         <div class="col-12">
 
                             <div class="col-12 mt-4">
-                                <h7 class="text-center mb-4"> 虛擬辦工室 Virtual Office </h7>
+                                <h5 class="text-center mb-4"> 虛擬辦工室 Virtual Office </h5>
 
                             </div>
 
@@ -492,8 +492,8 @@ get_header(); ?>
                         </div>
 
                         <div>
-                            <h7>
-                                荔枝角 Lai Chi Kok</h7>
+                            <h5>
+                                荔枝角 Lai Chi Kok</h5>
                         </div>
 
                         <div class="row">
@@ -558,8 +558,8 @@ get_header(); ?>
 
 
                         <div>
-                            <h7>
-                                觀塘 Kwun Tong</h7>
+                            <h5>
+                                觀塘 Kwun Tong</h5>
 
                         </div>
 
