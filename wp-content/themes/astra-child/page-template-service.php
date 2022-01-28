@@ -633,7 +633,7 @@ get_header(); ?>
                         </div>
 
 
-                        <div class="row mt-4">
+                        <div class="row mt-4 align-items-center">
 
                             <div class="col-12 mb-3">
 
