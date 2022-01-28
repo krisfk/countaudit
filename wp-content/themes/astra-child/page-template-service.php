@@ -725,7 +725,7 @@ get_header(); ?>
 
                         <div class="col-12 mt-4">
                             <h4 class="text-center mb-4">條款及細則 Terms and Conditions </h4>
-                            <textarea name="" id="" cols="30" rows="10">
+                            <textarea class="form-control" name="" id="" cols="30" rows="10">
 服務條款 MAIN TERMS
 *適用於虛擬辦工室客戶Applicable for Virtual Office Service
 
