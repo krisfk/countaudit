@@ -1500,7 +1500,17 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
             $details_of_changes=$_POST['details-of-changes'];
             $details_of_changes_others=$_POST['details-of-changes-others'];
             $remarks=$_POST['remarks'];
-
+            $virtual_office=$_POST['virtual-office'];
+            $increase_of_capital=$_POST['increase-of-capital'];
+            $allotment_of_shares=$_POST['allotment-of-shares'];
+            $register_branch=$_POST['register-branch'];
+            $annual_general_name=$_POST['annual-general-name'];
+            $change_of_company_branch_name=$_POST['change-of-company-branch-name'];
+            $transfer_of_shares= $_POST['transfer-of-shares'];
+            $deregistration_of_limited_company= $_POST['deregistration-of-limited-company'];
+            $others=$_POST['others'];
+            
+            
             $post_title = $client_name.' application';
             $post_id = wp_insert_post(array (
                 'post_type' => 'com_sec_app_form',
@@ -1511,27 +1521,28 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
             ));   
 
             if ($post_id) {
-                add_post_meta($post_id, 'client_name', $client_name);
+                add_post_meta($post_id, 'name', $client_name);
                 add_post_meta($post_id, 'tel', $tel);
                 add_post_meta($post_id, 'email', $email);
-                add_post_meta($post_id, 'tel', $aaa);
-                add_post_meta($post_id, 'fax', $aaa);
-                add_post_meta($post_id, 'is_billing_contact_person', $aaa);
-                add_post_meta($post_id, 'contact_person_name', $aaa);
-                add_post_meta($post_id, 'contact_person_phone_number', $aaa);
-                add_post_meta($post_id, 'company_name_chinese', $aaa);
-                add_post_meta($post_id, 'company_name_english', $aaa);
-                add_post_meta($post_id, 'details_of_changes', $aaa);
-                add_post_meta($post_id, 'details_of_changes_others', $aaa);
-                add_post_meta($post_id, 'virtual_office', $aaa);
-                add_post_meta($post_id, 'increase_of_capital', $aaa);
-                add_post_meta($post_id, 'allotment_of_shares', $aaa);
-                add_post_meta($post_id, 'register_branch', $aaa);
-                add_post_meta($post_id, 'annual_general_name', $aaa);
-                add_post_meta($post_id, 'change_of_company_branch_name', $aaa);
-                add_post_meta($post_id, 'transfer_of_shares', $aaa);
-                add_post_meta($post_id, 'deregistration_of_limited_company', $aaa);
-                add_post_meta($post_id, 'others', $aaa);
+                add_post_meta($post_id, 'fax', $fax);
+                add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
+                add_post_meta($post_id, 'contact_person_name', $contact_name);
+                add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
+                add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
+                add_post_meta($post_id, 'company_name_english', $contact_name_english);
+                add_post_meta($post_id, 'date_of_changing_company_secretary', $date_change_secretary);
+
+                add_post_meta($post_id, 'details_of_changes', $details_of_changes);
+                add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
+                add_post_meta($post_id, 'virtual_office', $virtual_office);
+                add_post_meta($post_id, 'increase_of_capital', $increase_of_capital);
+                add_post_meta($post_id, 'allotment_of_shares', $allotment_of_shares);
+                add_post_meta($post_id, 'register_branch', $register_branch);
+                add_post_meta($post_id, 'annual_general_name', $annual_general_name);
+                add_post_meta($post_id, 'change_of_company_branch_name', $change_of_company_branch_name);
+                add_post_meta($post_id, 'transfer_of_shares', $transfer_of_shares);
+                add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
+                add_post_meta($post_id, 'others', $deregistration_of_limited_company);
      
                 
             }
