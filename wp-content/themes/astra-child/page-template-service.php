@@ -440,8 +440,8 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="tst-HK1600-year"
-                                        value="tst-HK1600-year">
+                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
                                     <label class="form-check-label" for="tst-HK1600-year">
                                         HK$1,600/year
 
@@ -460,8 +460,8 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="tst-HK4000-year"
-                                        value="tst-HK4000-year">
+                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                        id="tst-HK4000-year" value="tst-HK4000-year">
                                     <label class="form-check-label" for="tst-HK4000-year">
                                         HK$4,000/year
 
@@ -484,8 +484,8 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="tst-HK12000-year"
-                                        value="tst-HK12000-year">
+                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                        id="tst-HK12000-year" value="tst-HK12000-year">
                                     <label class="form-check-label" for="tst-HK12000-year">
                                         HK$12,000/year
 
@@ -525,8 +525,8 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK650-year"
-                                        value="lck-HK650-year">
+                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                        id="lck-HK650-year" value="lck-HK650-year">
                                     <label class="form-check-label" for="lck-HK650-year">
                                         HK$650/year
 
@@ -543,8 +543,8 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK950-year"
-                                        value="lck-HK950-year">
+                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                        id="lck-HK950-year" value="lck-HK950-year">
                                     <label class="form-check-label" for="lck-HK950-year">
                                         HK$950/year
 
@@ -564,8 +564,8 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="lck-HK1200-year"
-                                        value="lck-HK950-year">
+                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                        id="lck-HK1200-year" value="lck-HK950-year">
                                     <label class="form-check-label" for="lck-HK1200-year">
                                         HK$1,200/year
 
@@ -605,8 +605,8 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="kt-HK900-year"
-                                        value="lck-HK650-year">
+                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                        id="kt-HK900-year" value="lck-HK650-year">
                                     <label class="form-check-label" for="kt-HK900-year">
                                         HK$900/year
 
@@ -639,8 +639,8 @@ get_header(); ?>
                             <div class="col-12 mb-3">
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-1"
-                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <input name="increase-of-capital" class="form-check-input" type="checkbox"
+                                        id="additional-1" value="1">
                                     <label class="form-check-label" for="additional-1">
                                         增加公司註冊股本 (港幣$500全包) <br>
                                         Increase of Capital (HK$500 all inclusive)
@@ -650,8 +650,8 @@ get_header(); ?>
                             <div class="col-12 mb-3">
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-2"
-                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <input name="allotment-of-shares" class="form-check-input" type="checkbox"
+                                        id="additional-2" value="2">
                                     <label class="form-check-label" for="additional-2">
                                         分配股份(港幣$500全包) <br>
                                         Allotment of Shares (HK$500 all inclusive)
@@ -661,8 +661,8 @@ get_header(); ?>
                             <div class="col-12 mb-3">
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-3"
-                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <input name="register-branch" class="form-check-input" type="checkbox"
+                                        id="additional-3" value="3">
                                     <label class="form-check-label" for="additional-3">
                                         申請分行(港幣$500全包) <br>
                                         Register Branch (HK$500 all inclusive)
@@ -672,8 +672,8 @@ get_header(); ?>
                             <div class="col-12 mb-3">
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-4"
-                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <input name="annual-general-name" class="form-check-input" type="checkbox"
+                                        id="additional-4" value="4">
                                     <label class="form-check-label" for="additional-4">
                                         年度股東大會(港幣$500全包) <br>
                                         Annual General Name (HK$500 all inclusive)
@@ -684,8 +684,8 @@ get_header(); ?>
                             <div class="col-12 mb-3">
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-5"
-                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <input name="change-of-company-branch-name" class="form-check-input" type="checkbox"
+                                        id="additional-5" value="5">
                                     <label class="form-check-label" for="additional-5">
                                         更改公司或分行名稱(港幣$500全包) <br>
                                         Change of Company / Branch Name (HK$500 all inclusive)
@@ -697,8 +697,8 @@ get_header(); ?>
                             <div class="col-12 mb-3">
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-6"
-                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <input name="transfer-of-shares" class="form-check-input" type="checkbox"
+                                        id="additional-6" value="6">
                                     <label class="form-check-label" for="additional-6">
                                         股份轉讓 (HK$700服務費加印花稅） <br>
                                         Transfer of Shares (HK$700 plus stamp duty fees)
@@ -709,8 +709,8 @@ get_header(); ?>
                             <div class="col-12 mb-3">
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="沒有 No" id="additional-7"
-                                        value="增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive)">
+                                    <input name="deregistration-of-limited-company" class="form-check-input"
+                                        type="checkbox" id="additional-7" value="7">
                                     <label class="form-check-label" for="additional-7">
                                         撤銷公司(港幣$1,000加政府費用) <br>
                                         Deregistration of Limited Company (HK$1,000 plus government charges)
@@ -1498,11 +1498,44 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
             $contact_name_english=$_POST['contact-name-english'];
             $date_change_secretary=$_POST['date-change-secretary'];
             $details_of_changes=$_POST['details-of-changes'];
-            
+            $details_of_changes_others=$_POST['details-of-changes-others'];
+            $remarks=$_POST['remarks'];
 
-            
-            
+            $post_title = $client_name.' application';
+            $post_id = wp_insert_post(array (
+                'post_type' => 'com_sec_app_form',
+                'post_title' => $post_title,
+                'post_status' => 'publish',
+                'comment_status' => 'closed',   // if you prefer
+                'ping_status' => 'closed',      // if you prefer
+            ));   
 
+            if ($post_id) {
+                add_post_meta($post_id, 'client_name', $client_name);
+                add_post_meta($post_id, 'tel', $tel);
+                add_post_meta($post_id, 'email', $email);
+                add_post_meta($post_id, 'tel', $aaa);
+                add_post_meta($post_id, 'fax', $aaa);
+                add_post_meta($post_id, 'is_billing_contact_person', $aaa);
+                add_post_meta($post_id, 'contact_person_name', $aaa);
+                add_post_meta($post_id, 'contact_person_phone_number', $aaa);
+                add_post_meta($post_id, 'company_name_chinese', $aaa);
+                add_post_meta($post_id, 'company_name_english', $aaa);
+                add_post_meta($post_id, 'details_of_changes', $aaa);
+                add_post_meta($post_id, 'details_of_changes_others', $aaa);
+                add_post_meta($post_id, 'virtual_office', $aaa);
+                add_post_meta($post_id, 'increase_of_capital', $aaa);
+                add_post_meta($post_id, 'allotment_of_shares', $aaa);
+                add_post_meta($post_id, 'register_branch', $aaa);
+                add_post_meta($post_id, 'annual_general_name', $aaa);
+                add_post_meta($post_id, 'change_of_company_branch_name', $aaa);
+                add_post_meta($post_id, 'transfer_of_shares', $aaa);
+                add_post_meta($post_id, 'deregistration_of_limited_company', $aaa);
+                add_post_meta($post_id, 'others', $aaa);
+     
+                
+            }
+            
 
         }
     }
