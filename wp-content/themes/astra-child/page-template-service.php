@@ -355,7 +355,7 @@ get_header(); ?>
                                         for="defaultCheck1">
                                         其他 Others:
                                     </label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" name="details-of-changes-others" class="form-control">
                                 </div>
 
 
@@ -1497,6 +1497,7 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
             $contact_name_chinese=$_POST['contact-name-chinese'];
             $contact_name_english=$_POST['contact-name-english'];
             $date_change_secretary=$_POST['date-change-secretary'];
+            $details_of_changes=$_POST['details-of-changes'];
             
 
             
