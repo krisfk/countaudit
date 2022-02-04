@@ -656,6 +656,16 @@ get_header(); ?>
 
 
 
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="residential-address">
+                                        住址 <br>
+                                        Residential Address *</label>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="residential-address"
+                                        name="residential-address" type="text" class="form-control">
+                                </div>
+
+
+
 
                             </div>
 
