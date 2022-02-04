@@ -283,7 +283,7 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3 ">
 
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox"
                                         value="沒有 No" id="details-of-changes-1">
                                     <label class="form-check-label" for="details-of-changes-1">
                                         沒有 No
@@ -291,14 +291,14 @@ get_header(); ?>
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox"
                                         value="更改公司名稱 [NNC2] Change of Company Name" id="details-of-changes-2">
                                     <label class="form-check-label" for="details-of-changes-2">
                                         更改公司名稱 [NNC2] Change of Company Name
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox"
                                         value="委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) / Secretary"
                                         id="details-of-changes-3">
                                     <label class="form-check-label" for="details-of-changes-3">
@@ -307,7 +307,7 @@ get_header(); ?>
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox"
                                         value="股權變動 Shares Transfer" id="details-of-changes-4">
                                     <label class="form-check-label" for="details-of-changes-4">
                                         股權變動 Shares Transfer
@@ -316,7 +316,7 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox"
                                         value="更改註冊地址 [NR1] Change of Registered Address" id="details-of-changes-5">
                                     <label class="form-check-label" for="details-of-changes-5">
                                         更改註冊地址 [NR1] Change of Registered Address
@@ -325,7 +325,7 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox" value="更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox" value="更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary
 " id="details-of-changes-6">
                                     <label class="form-check-label" for="details-of-changes-6">
                                         更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary
@@ -334,7 +334,7 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox"
                                         value="增加註冊資本 [NSC1] Return of Allotment" id="details-of-changes-7">
                                     <label class="form-check-label" for="details-of-changes-7">
                                         增加註冊資本 [NSC1] Return of Allotment
@@ -342,7 +342,7 @@ get_header(); ?>
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                    <input name="details-of-changes[]" class="form-check-input" type="checkbox"
                                         value="登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records"
                                         id="details-of-changes-8">
                                     <label class="form-check-label" for="details-of-changes-8">
