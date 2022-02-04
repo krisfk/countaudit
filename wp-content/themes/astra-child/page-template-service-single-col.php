@@ -361,7 +361,7 @@ get_header(); ?>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
                                     for="language">選擇語言Language*:</label>
-                            </div>language
+                            </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="billing-contact-person"
