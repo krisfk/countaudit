@@ -622,6 +622,22 @@ get_header(); ?>
                                         </label>
                                     </div>
                                 </div>
+
+
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-chinese">
+                                        證件上名稱 Name on ID/Passport *(中文 Chinese)</label>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name-chinese"
+                                        name="contact-name-chinese" type="text" class="form-control">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
+                                        證件上名稱 Name on ID/Passport *(英文 English)</label>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name-english"
+                                        name="contact-name-english" type="text" class="form-control">
+                                </div>
+
                             </div>
 
 
