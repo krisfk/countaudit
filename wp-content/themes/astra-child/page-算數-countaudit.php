@@ -827,7 +827,7 @@ get_header(); ?>
             </div>
             <div class="col-6 p-5">
 
-                <div class="form-div white-bg ">
+                <div class="form-div white-bg contact-form-div">
 
                     <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
