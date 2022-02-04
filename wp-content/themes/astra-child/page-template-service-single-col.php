@@ -669,6 +669,7 @@ function generate_fill_area(no_of_applicant, applicant_fill_html) {
 
 function add_fill_area(i) {
     // alert(applicant_fill_html);
+    alert(7);
     applicant_fill_html = $('.applicant-div-wrapper').html();
 
     applicant_fill_html +=
