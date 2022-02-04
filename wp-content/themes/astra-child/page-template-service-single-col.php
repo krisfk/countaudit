@@ -379,6 +379,46 @@ get_header(); ?>
                                 </div>
                             </div>
 
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="billing-contact-person">上述申請人為賬單聯絡人<br>The above applicant is the billing
+                                    contact
+                                    person</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="billing-contact-person"
+                                        id="billing-contact-person-yes" value="yes">
+                                    <label class="form-check-label" for="billing-contact-person-yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="billing-contact-person"
+                                        id="billing-contact-person-no" value="no">
+                                    <label class="form-check-label" for="billing-contact-person-no">
+                                        No
+                                    </label>
+                                </div>
+
+                            </div>
+                            <div class="col-12">
+                                如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name">
+                                    聯絡人姓名 Name:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name"
+                                    name="contact-name" type="text" class="form-control">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="contact-phone-number">聯絡電話Phone
+                                    Number:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-phone-number"
+                                    name="contact-phone-number" type="text" class="form-control">
+                            </div>
+
+
                         </div>
                     </div>
                 </form>
