@@ -449,6 +449,31 @@ get_header(); ?>
                                     </div>
                                 </div>
 
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="language" id="language-chinese"
+                                        value="中文 Chinese">
+                                    <label class="form-check-label" for="language-chinese">
+                                        尖沙咀 Tsim Sha Tsui
+
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="language" id="language-chinese"
+                                        value="中文 Chinese">
+                                    <label class="form-check-label" for="language-chinese">
+                                        荔枝角 Lai Chi Kok
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="language" id="language-chinese"
+                                        value="中文 Chinese">
+                                    <label class="form-check-label" for="language-chinese">
+                                        觀塘 Kwun Tong
+
+                                    </label>
+                                </div>
+
 
 
                             </div>
