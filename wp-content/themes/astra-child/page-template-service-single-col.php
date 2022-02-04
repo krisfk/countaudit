@@ -722,6 +722,8 @@ $(function() {
 
     $('.add-more-applicant-btn').click(function() {
         no_of_applicant++;
+        applicant_fill_html = $('.applicant-div-wrapper').html();
+
         add_fill_area(no_of_applicant);
     })
 
