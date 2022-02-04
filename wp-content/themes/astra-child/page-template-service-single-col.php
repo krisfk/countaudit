@@ -595,19 +595,29 @@ get_header(); ?>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="language">1. 申請人身份
                                         Applicant’s Position *</label>
                                 </div>
+
+
+
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="language"
-                                            id="language-chinese" value="中文 Chinese">
-                                        <label class="form-check-label" for="language-chinese">
-                                            中文 Chinese
+                                        <input class="form-check-input" type="checkbox" name="language" id="shareholder"
+                                            value="股東 Shareholder">
+                                        <label class="form-check-label" for="shareholder">
+                                            股東 Shareholder
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="language"
-                                            id="language-english" value="英文 English">
-                                        <label class="form-check-label" for="language-english">
-                                            英文 English
+                                        <input class="form-check-input" type="checkbox" name="language" id="director"
+                                            value="董事 Director">
+                                        <label class="form-check-label" for="director">
+                                            董事 Director
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="language"
+                                            id="beneficial-owner" value="受益人 Beneficial Owner">
+                                        <label class="form-check-label" for="beneficial-owner">
+                                            受益人 Beneficial Owner
                                         </label>
                                     </div>
                                 </div>
