@@ -495,6 +495,29 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
                                     name="client-name" type="text" class="form-control">
                             </div>
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
+                                    業務性質 Business Nature *</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        HK$1,600/year
+
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        HK$1,600/year
+
+                                    </label>
+                                </div>
+                            </div>
                         </div>
 
 
