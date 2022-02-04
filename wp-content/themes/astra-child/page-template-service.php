@@ -1678,9 +1678,9 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
         // var tnc = '<?php// echo get_field('tnc');?>';
         // $('#tnc').html('<?php //echo get_field('tnc');?>');
         // $('#tnc').val(div.replace("\\n","\n"));
-        alert(90)
-        // $('#tnc').html($('#tnc-data').html());
-        alert(80);
+        // alert(90)
+        $('#tnc').html($('#tnc-data').html());
+        // alert(80);
         $('.form-submit-btn').click(function() {
             // alert(650);
             $('#form').submit();
