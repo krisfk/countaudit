@@ -596,9 +596,6 @@ get_header(); ?>
                                         Applicant’s Position *</label>
                                     <div class="small">(請選擇最少其中一項 Choose at least one)</div>
                                 </div>
-
-
-
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="applicant-position[]"
@@ -668,6 +665,7 @@ get_header(); ?>
 
 
                             </div>
+                            <a href="javascript:void(0);" class="add-more-applicant-btn">＋ 更多申請人</a>
 
 
 
