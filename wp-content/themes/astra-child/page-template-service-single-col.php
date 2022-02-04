@@ -669,6 +669,8 @@ function generate_fill_area(no_of_applicant, applicant_fill_html) {
 
 function add_fill_area(i) {
     // alert(applicant_fill_html);
+    applicant_fill_html = $('.applicant-div-wrapper').html();
+
     applicant_fill_html +=
         '<div class="row applicant-div mx-auto mb-3 "> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="language">' +
         i +
@@ -722,7 +724,6 @@ $(function() {
 
     $('.add-more-applicant-btn').click(function() {
         no_of_applicant++;
-        applicant_fill_html = $('.applicant-div-wrapper').html();
 
         add_fill_area(no_of_applicant);
     })
