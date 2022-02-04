@@ -298,8 +298,9 @@ get_header(); ?>
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="details-of-changes" class="form-check-input" type="checkbox" value="委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) /
-                                        Secretary" id="details-of-changes-3">
+                                    <input name="details-of-changes" class="form-check-input" type="checkbox"
+                                        value="委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) / Secretary"
+                                        id="details-of-changes-3">
                                     <label class="form-check-label" for="details-of-changes-3">
                                         委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) /
                                         Secretary
