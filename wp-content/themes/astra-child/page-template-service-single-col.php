@@ -441,14 +441,13 @@ get_header(); ?>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
 
-                                <input class="form-check-input" type="radio" name="language" id="language-chinese"
-                                    value="中文 Chinese">
-                                <label class="form-check-label" for="language-chinese">
+
+                                <div>
                                     選用算數秘書公司的虛擬辦公室服務 Use CountAudit Virtual Office Service
                                     <div class="small">
                                         (費用詳情請看第4頁 Please see details in page 4 below for the fees)
                                     </div>
-                                </label>
+                                </div>
 
 
 
