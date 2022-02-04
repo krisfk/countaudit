@@ -572,6 +572,12 @@ get_header(); ?>
                                     </label>
                                 </div>
 
+                                <div>服務 Service:</div>
+                                <div><input type="text" class="form-control"></div>
+
+                                <div>其他 Others:</div>
+                                <div><input type="text" class="form-control"></div>
+
 
 
                             </div>
