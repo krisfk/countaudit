@@ -670,9 +670,9 @@ function generate_fill_area(no_of_applicant, applicant_fill_html) {
 function add_fill_area(i) {
     // alert(applicant_fill_html);
     // alert(7);
-    applicant_fill_html = $('.applicant-div-wrapper').html();
+    // applicant_fill_html = $('.applicant-div-wrapper').html();
     // alert(applicant_fill_html);
-    applicant_fill_html +=
+    append_fill_html +=
         '<div class="row applicant-div mx-auto mb-3 "> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="language">' +
         i +
         '. 申請人身份 Applicant’s Position *</label> <div class="small">(請選擇最少其中一項 Choose at least one)</div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
@@ -710,8 +710,8 @@ function add_fill_area(i) {
         '"> 住址 <br> Residential Address *</label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="residential-address-' +
         i + '" name="residential-address-' + i + '" type="text" class="form-control"> </div> </div>';
 
-    console.log(applicant_fill_html);
-    $('.applicant-div-wrapper').html(applicant_fill_html);
+    // console.log(applicant_fill_html);
+    $('.applicant-div-wrapper').append(append_fill_html);
 
 }
 
