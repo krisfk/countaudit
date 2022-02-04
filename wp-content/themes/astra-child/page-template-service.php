@@ -1532,6 +1532,7 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
                 add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
                 add_post_meta($post_id, 'company_name_english', $contact_name_english);
                 add_post_meta($post_id, 'date_of_changing_company_secretary', $date_change_secretary);
+                add_post_meta($post_id, 'remarks', $remarks);
 
                 add_post_meta($post_id, 'details_of_changes', $details_of_changes);
                 add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
