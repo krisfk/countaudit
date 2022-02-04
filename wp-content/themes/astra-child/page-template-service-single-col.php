@@ -646,6 +646,16 @@ get_header(); ?>
                                         name="id-pass-co-no" type="text" class="form-control">
                                 </div>
 
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="percent-of-shares">
+                                        持股比例 <br>
+                                        % of Shares *</label>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="percent-of-shares"
+                                        name="percent-of-shares" type="text" class="form-control">
+                                </div>
+
+
+
 
                             </div>
 
