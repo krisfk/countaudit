@@ -323,7 +323,10 @@ get_header(); ?>
 
                 <?php echo get_field('bottom_form');?>
 
-                <h4 class="text-center lh-base"> Company Secretary in Hong Kong Application Form<br> 香港公司秘書服務計劃申請表 </h4>
+                <h4 class="text-center lh-base"> Limited Company Registration Application Form
+                    <br> 香港有限公司註冊申請表
+                </h4>
+                <div>*為必須填寫項目 Required Fields</div>
 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
                     <input type="hidden" name="form-type" value="com_sec_app_form">
