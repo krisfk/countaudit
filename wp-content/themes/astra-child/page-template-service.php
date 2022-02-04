@@ -441,7 +441,7 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                    <input name="virtual-office" class="form-check-input" type="checkbox"
                                         id="tst-HK1600-year" value="tst-HK1600-year">
                                     <label class="form-check-label" for="tst-HK1600-year">
                                         HK$1,600/year
@@ -461,7 +461,7 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                    <input name="virtual-office" class="form-check-input" type="checkbox"
                                         id="tst-HK4000-year" value="tst-HK4000-year">
                                     <label class="form-check-label" for="tst-HK4000-year">
                                         HK$4,000/year
@@ -485,7 +485,7 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                    <input name="virtual-office" class="form-check-input" type="checkbox"
                                         id="tst-HK12000-year" value="tst-HK12000-year">
                                     <label class="form-check-label" for="tst-HK12000-year">
                                         HK$12,000/year
@@ -526,7 +526,7 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                    <input name="virtual-office" class="form-check-input" type="checkbox"
                                         id="lck-HK650-year" value="lck-HK650-year">
                                     <label class="form-check-label" for="lck-HK650-year">
                                         HK$650/year
@@ -544,7 +544,7 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                    <input name="virtual-office" class="form-check-input" type="checkbox"
                                         id="lck-HK950-year" value="lck-HK950-year">
                                     <label class="form-check-label" for="lck-HK950-year">
                                         HK$950/year
@@ -565,7 +565,7 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                    <input name="virtual-office" class="form-check-input" type="checkbox"
                                         id="lck-HK1200-year" value="lck-HK950-year">
                                     <label class="form-check-label" for="lck-HK1200-year">
                                         HK$1,200/year
@@ -606,7 +606,7 @@ get_header(); ?>
 
 
                                 <div class="form-check">
-                                    <input name="virtual-office" class="form-check-input" type="checkbox" value="沒有 No"
+                                    <input name="virtual-office" class="form-check-input" type="checkbox"
                                         id="kt-HK900-year" value="lck-HK650-year">
                                     <label class="form-check-label" for="kt-HK900-year">
                                         HK$900/year
