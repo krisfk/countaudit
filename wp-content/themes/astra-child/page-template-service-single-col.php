@@ -418,6 +418,24 @@ get_header(); ?>
                                     name="contact-phone-number" type="text" class="form-control">
                             </div>
 
+                            <div class="col-12 mt-4">
+                                <h4 class="text-center mb-4"> 公司資料 Company Information</h4>
+                            </div>
+                            <div class="col-12 fw-bold">公司名稱 Company Name＊</div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-chinese">
+                                    中文名稱 Chinese Name</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name-chinese"
+                                    name="contact-name-chinese" type="text" class="form-control">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
+                                    英文名稱 English Name</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="contact-name-english"
+                                    name="contact-name-english" type="text" class="form-control">
+                            </div>
+
 
                         </div>
                     </div>
