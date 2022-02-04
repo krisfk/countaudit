@@ -719,9 +719,10 @@ get_header(); ?>
                                 </div>
                             </div>
 
-                            <div class="col-6"><label for="other-additional">其他 Others 請註明 please specify:</label></div>
-                            <div class="col-6">
-                                <input type="text" class="form-control" id="other-additional" name="other-additional">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12"><label for="other-additional">其他 Others
+                                    請註明 please specify:</label></div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12"> <input type="text" class="form-control"
+                                    id="other-additional" name="other-additional">
                             </div>
                         </div>
 
