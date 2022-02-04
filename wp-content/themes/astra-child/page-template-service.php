@@ -566,7 +566,7 @@ get_header(); ?>
 
                                 <div class="form-check">
                                     <input name="virtual-office" class="form-check-input" type="checkbox"
-                                        id="lck-HK1200-year" value="lck-HK950-year">
+                                        id="lck-HK1200-year" value="lck-HK1200-year">
                                     <label class="form-check-label" for="lck-HK1200-year">
                                         HK$1,200/year
 
@@ -607,7 +607,7 @@ get_header(); ?>
 
                                 <div class="form-check">
                                     <input name="virtual-office" class="form-check-input" type="checkbox"
-                                        id="kt-HK900-year" value="lck-HK650-year">
+                                        id="kt-HK900-year" value="kt-HK900-year">
                                     <label class="form-check-label" for="kt-HK900-year">
                                         HK$900/year
 
