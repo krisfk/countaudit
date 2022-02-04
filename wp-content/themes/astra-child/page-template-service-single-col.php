@@ -491,39 +491,39 @@ get_header(); ?>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="trading"
+                                        value="貿易 Trading">
+                                    <label class="form-check-label" for="trading">
                                         貿易 Trading
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="retail"
+                                        value="零售 Retail">
+                                    <label class="form-check-label" for="retail">
                                         零售 Retail
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="manufacture"
+                                        value="製造 Manufacture">
+                                    <label class="form-check-label" for="manufacture">
                                         製造 Manufacture
 
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="consultancy"
+                                        value="顧問 Consultancy">
+                                    <label class="form-check-label" for="consultancy">
                                         顧問 Consultancy
 
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="transport"
+                                        value="運輸 Transport">
+                                    <label class="form-check-label" for="transport">
                                         運輸 Transport
 
 
@@ -531,9 +531,9 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="design"
+                                        value="設計 Design">
+                                    <label class="form-check-label" for="design">
                                         設計 Design
 
 
@@ -541,9 +541,9 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="it"
+                                        value="資訊科技 IT">
+                                    <label class="form-check-label" for="it">
                                         資訊科技 IT
 
 
@@ -552,9 +552,9 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
-                                        id="tst-HK1600-year" value="tst-HK1600-year">
-                                    <label class="form-check-label" for="tst-HK1600-year">
+                                    <input name="business[]" class="form-check-input" type="checkbox" id="marketing"
+                                        value="推廣劃 Marketing">
+                                    <label class="form-check-label" for="marketing">
                                         推廣劃 Marketing
 
 
@@ -562,10 +562,11 @@ get_header(); ?>
                                 </div>
 
                                 <div class="mb-2 mt-2">服務 Service:</div>
-                                <div><input type="text" class="form-control"></div>
+                                <div><input type="text" id="service" name="service" class="form-control"></div>
 
                                 <div class="mb-2 mt-2">其他 Others:</div>
-                                <div><input type="text" class="form-control"></div>
+                                <div><input type="text" id="others-business" name="other-business" class="form-control">
+                                </div>
 
 
 
