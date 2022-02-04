@@ -1671,8 +1671,8 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
     <script type="text/javascript">
     $(function() {
 
-        var tnc = '<?php echo get_field('tnc');?>';
-
+        // var tnc = '<?php echo get_field('tnc');?>';
+        $('#tnc').html('fdsafs');
 
         $('.form-submit-btn').click(function() {
             // alert(650);
