@@ -505,7 +505,21 @@ get_header(); ?>
                                     <input name="virtual-office[]" class="form-check-input" type="checkbox"
                                         id="tst-HK1600-year" value="tst-HK1600-year">
                                     <label class="form-check-label" for="tst-HK1600-year">
-                                        HK$1,600/year
+                                        貿易 Trading
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        零售 Retail
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        製造 Manufacture
 
                                     </label>
                                 </div>
@@ -513,10 +527,53 @@ get_header(); ?>
                                     <input name="virtual-office[]" class="form-check-input" type="checkbox"
                                         id="tst-HK1600-year" value="tst-HK1600-year">
                                     <label class="form-check-label" for="tst-HK1600-year">
-                                        HK$1,600/year
+                                        顧問 Consultancy
 
                                     </label>
                                 </div>
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        運輸 Transport
+
+
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        設計 Design
+
+
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        資訊科技 IT
+
+
+
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input name="virtual-office[]" class="form-check-input" type="checkbox"
+                                        id="tst-HK1600-year" value="tst-HK1600-year">
+                                    <label class="form-check-label" for="tst-HK1600-year">
+                                        推廣劃 Marketing
+
+
+                                    </label>
+                                </div>
+
+
+
                             </div>
                         </div>
 
