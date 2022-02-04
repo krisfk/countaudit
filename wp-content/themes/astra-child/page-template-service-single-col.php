@@ -722,9 +722,13 @@ $(function() {
 
     $('.add-more-applicant-btn').click(function() {
         no_of_applicant++;
-        // alert(applicant_fill_html);
         add_fill_area(no_of_applicant);
-        // alert(no_of_applicant);
+    })
+
+    $('.minus-applicant-btn').click(function() {
+        no_of_applicant--;
+        $('.applicant-div:last-child').remove();
+
     })
 
     $('.about-carousel').slick({
