@@ -337,6 +337,21 @@ get_header(); ?>
                                 <h4 class="text-center mb-4"> 申請人資料 Applicant Information</h4>
                             </div>
                         </div>
+
+                        <div class="row  align-items-center">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">
+                                    姓名 Name:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
+                                    name="client-name" type="text" class="form-control">
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">電郵 E-mail:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="email" name="email"
+                                    type="text" class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
