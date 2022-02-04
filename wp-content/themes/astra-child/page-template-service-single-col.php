@@ -303,7 +303,7 @@ get_header(); ?>
 
     <div class="container contact-form-container">
         <div class="row pt-0 pb-0  mt-0 align-items-center justify-content-center">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12  text-center mt-5">
 
                 <div>
                     <div>
@@ -317,51 +317,41 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
-                <div class="form-div white-bg contact-form-div">
 
-                    <input type="text" class="form-control" placeholder="如何稱呼您？">
-                    <input type="text" class="form-control" placeholder="聯絡電話">
-                    <input type="text" class="form-control" placeholder="電郵">
-                    <input type="text" class="form-control" placeholder="查詢類別">
-                    <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="簡短留言"></textarea>
 
-                    <div class="text-end">
-                        <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
-                    </div>
-
-                </div>
+                <?php echo get_field('bottom_form');?>
+                </dib>
             </div>
         </div>
+
     </div>
 
-</div>
+    <?php get_footer(); ?>
+    <script type="text/javascript">
+    $(function() {
+        $('.about-carousel').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            autoplay: false,
+            pauseOnFocus: false,
+            infinite: true,
+            speed: 800,
+            autoplaySpeed: 5000,
+            cssEase: 'ease-out',
+            pauseOnHover: false
 
-<?php get_footer(); ?>
-<script type="text/javascript">
-$(function() {
-    $('.about-carousel').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false,
-        autoplay: false,
-        pauseOnFocus: false,
-        infinite: true,
-        speed: 800,
-        autoplaySpeed: 5000,
-        cssEase: 'ease-out',
-        pauseOnHover: false
-
-    });
+        });
 
 
 
 
-})
-</script>
-</body>
+    })
+    </script>
+    </body>
 
-</html>
+    </html>
