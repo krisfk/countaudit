@@ -135,7 +135,7 @@ get_header(); ?>
                 <?php echo get_field('bottom_form');?>
 
 
-                <h4 class="text-center lh-base"> Company Secretary in Hong Kong Application Form<br> 香港公司秘書服務計劃申請表 </h4>
+                <!-- <h4 class="text-center lh-base"> Company Secretary in Hong Kong Application Form<br> 香港公司秘書服務計劃申請表 </h4>
 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
                     <input type="hidden" name="form-type" value="com_sec_app_form">
@@ -883,8 +883,8 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
 
 
             </div>
-            </form>
-            <!-- 
+            </form> -->
+                <!-- 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
 
                     <div class="form-div white-bg mt-4">
@@ -1339,14 +1339,14 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
                         </div>
                     </div>
                 </form> -->
+            </div>
         </div>
+
     </div>
 
-</div>
+    <?php get_footer(); ?>
 
-<?php get_footer(); ?>
-
-<?php
+    <?php
     
     if($_POST)
     {
@@ -1668,33 +1668,33 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
 
     
     ?>
-<script type="text/javascript">
-$(function() {
-    $('.form-submit-btn').click(function() {
-        // alert(650);
-        $('#form').submit();
-    });
-    $('.about-carousel').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false,
-        autoplay: false,
-        pauseOnFocus: false,
-        infinite: true,
-        speed: 800,
-        autoplaySpeed: 5000,
-        cssEase: 'ease-out',
-        pauseOnHover: false
+    <script type="text/javascript">
+    $(function() {
+        $('.form-submit-btn').click(function() {
+            // alert(650);
+            $('#form').submit();
+        });
+        $('.about-carousel').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            autoplay: false,
+            pauseOnFocus: false,
+            infinite: true,
+            speed: 800,
+            autoplaySpeed: 5000,
+            cssEase: 'ease-out',
+            pauseOnHover: false
 
-    });
-
-
+        });
 
 
-})
-</script>
-</body>
 
-</html>
+
+    })
+    </script>
+    </body>
+
+    </html>
