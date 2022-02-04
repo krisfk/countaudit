@@ -571,7 +571,7 @@ get_header(); ?>
 
 
                             </div>
-                            <div class="col-12 mt-4">
+                            <div class="col-12 mt-4 mb-3">
                                 <h4 class="text-center mb-4"> 股東及董事資料 Shareholder’s and Director’s Information </h4>
                                 <div>
 
@@ -591,7 +591,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="row applicant-div mx-auto mt-3 ">
+                            <div class="row applicant-div mx-auto mb-3 ">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="language">1. 申請人身份
                                         Applicant’s Position *</label>
                                     <div class="small">(請選擇最少其中一項 Choose at least one)</div>
