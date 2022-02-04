@@ -1343,6 +1343,7 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
         </div>
 
     </div>
+    <textarea class="form-control" name="" id="" cols="30" rows="10"><?php echo get_field('tnc');?></textarea>
 
     <?php get_footer(); ?>
 
@@ -1672,7 +1673,9 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
     $(function() {
 
         // var tnc = '<?php// echo get_field('tnc');?>';
-        $('#tnc').html('<?php echo get_field('tnc');?>');
+        // $('#tnc').html('<?php echo get_field('tnc');?>');
+        // $('#tnc').val(div.replace("\\n","\n"));
+
 
         $('.form-submit-btn').click(function() {
             // alert(650);
