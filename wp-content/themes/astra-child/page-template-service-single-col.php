@@ -618,7 +618,7 @@ get_header(); ?>
 
 <?php get_footer(); ?>
 <script type="text/javascript">
-var no_of_applicant = 1;
+var no_of_applicant = 0;
 var applicant_fill_html = '';
 
 function generate_fill_area(no_of_applicant, applicant_fill_html) {
@@ -712,13 +712,15 @@ function add_fill_area(i) {
 $(function() {
 
 
+    no_of_applicant++;
+    add_fill_area(no_of_applicant);
 
 
-    generate_fill_area(no_of_applicant, applicant_fill_html);
+    // generate_fill_area(no_of_applicant, applicant_fill_html);
 
     $('.add-more-applicant-btn').click(function() {
         no_of_applicant++;
-        alert(applicant_fill_html);
+        // alert(applicant_fill_html);
         add_fill_area(no_of_applicant);
         // alert(no_of_applicant);
     })
