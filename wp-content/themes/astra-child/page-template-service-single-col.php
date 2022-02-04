@@ -358,6 +358,27 @@ get_header(); ?>
                                     type="text" class="form-control">
                             </div>
 
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                    for="language">選擇語言Language*:</label>
+                            </div>language
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="billing-contact-person"
+                                        id="billing-contact-person-yes" value="yes">
+                                    <label class="form-check-label" for="billing-contact-person-yes">
+                                        中文 Chinese
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="billing-contact-person"
+                                        id="billing-contact-person-no" value="no">
+                                    <label class="form-check-label" for="billing-contact-person-no">
+                                        英文 English
+                                    </label>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </form>
