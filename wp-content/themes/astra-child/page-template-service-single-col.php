@@ -436,6 +436,11 @@ get_header(); ?>
                                     name="contact-name-english" type="text" class="form-control">
                             </div>
 
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
+                                    公司註冊地址 Registered Address</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"></div>
+
 
                         </div>
                     </div>
