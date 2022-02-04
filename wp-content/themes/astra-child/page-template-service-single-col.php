@@ -340,10 +340,16 @@ get_header(); ?>
 
                         <div class="row  align-items-center">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">
-                                    姓名 Name:</label>
+                                    申請人姓名 Applicant’s Name*</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="client-name"
                                     name="client-name" type="text" class="form-control">
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="tel">聯絡電話 Phone
+                                    Number:</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="tel" name="tel" type="text"
+                                    class="form-control">
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">電郵 E-mail:</label>
@@ -351,6 +357,7 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="email" name="email"
                                     type="text" class="form-control">
                             </div>
+
                         </div>
                     </div>
                 </form>
