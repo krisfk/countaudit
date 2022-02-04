@@ -599,10 +599,11 @@ get_header(); ?>
 
 
 
-                            <a href="javascript:void(0);" class="add-more-applicant-btn">＋ 更多申請人</a>
+                            <div class="text-center">
+                                <a href="javascript:void(0);" class="add-more-applicant-btn">＋ 更多申請人</a>
 
-                            <a href="javascript:void(0);" class="minus-applicant-btn">- 滅少申請人</a>
-
+                                <a href="javascript:void(0);" class="minus-applicant-btn">- 滅少申請人</a>
+                            </div>
 
 
 
