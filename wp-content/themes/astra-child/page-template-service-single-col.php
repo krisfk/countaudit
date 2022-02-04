@@ -729,6 +729,8 @@ $(function() {
         no_of_applicant--;
         $('.applicant-div:last-child').remove();
 
+        applicant_fill_html = $('.applicant-div-wrapper').html();
+
     })
 
     $('.about-carousel').slick({
