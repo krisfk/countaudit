@@ -473,6 +473,16 @@ get_header(); ?>
                                     </label>
                                 </div>
 
+                                <label for="other-registered-office">以下列地址為公司註冊(英文)地址：Use the following address as
+                                    registered office (English) address
+                                </label>
+
+                                <input type="text" id="other-registered-office" name="other-registered-office"
+                                    class="form-control">
+
+
+
+
                             </div>
 
                         </div>
