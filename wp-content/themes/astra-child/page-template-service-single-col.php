@@ -618,12 +618,10 @@ get_header(); ?>
 
 <?php get_footer(); ?>
 <script type="text/javascript">
-$(function() {
+var no_of_applicant = 1;
+var applicant_fill_html = '';
 
-    var no_of_applicant = 1;
-
-    var applicant_fill_html = '';
-
+function generate_fill_area(no_of_applicant, applicant_fill_html) {
     for (i = 1; i <= no_of_applicant; i++) {
         applicant_fill_html +=
             '<div class="row applicant-div mx-auto mb-3 "> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="language">' +
@@ -663,6 +661,14 @@ $(function() {
     }
 
     $('.applicant-div-wrapper').html(applicant_fill_html);
+}
+
+$(function() {
+
+
+    generate_fill_area(no_of_applicant, applicant_fill_html);
+
+
 
     $('.about-carousel').slick({
         infinite: true,
