@@ -561,10 +561,10 @@ get_header(); ?>
                                     </label>
                                 </div>
 
-                                <div class="mb-2 mt-2">服務 Service:</div>
+                                <div class="mb-2 mt-2"> <label for="service"> 服務 Service:</label></div>
                                 <div><input type="text" id="service" name="service" class="form-control"></div>
 
-                                <div class="mb-2 mt-2">其他 Others:</div>
+                                <div class="mb-2 mt-2"> <label for="other-business"> 其他 Others:</label></div>
                                 <div><input type="text" id="others-business" name="other-business" class="form-control">
                                 </div>
 
