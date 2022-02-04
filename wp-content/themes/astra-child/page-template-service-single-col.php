@@ -618,6 +618,9 @@ get_header(); ?>
 
 <?php get_footer(); ?>
 <script type="text/javascript">
+var no_of_applicant = 1;
+var applicant_fill_html = '';
+
 function generate_fill_area(no_of_applicant, applicant_fill_html) {
     for (i = 1; i <= no_of_applicant; i++) {
         applicant_fill_html +=
@@ -704,8 +707,7 @@ function add_fill_area(i) {
 
 $(function() {
 
-    var no_of_applicant = 1;
-    var applicant_fill_html = '';
+
 
 
     generate_fill_area(no_of_applicant, applicant_fill_html);
