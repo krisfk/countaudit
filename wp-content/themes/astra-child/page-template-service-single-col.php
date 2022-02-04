@@ -668,7 +668,10 @@ $(function() {
 
     generate_fill_area(no_of_applicant, applicant_fill_html);
 
-
+    $('.add-more-applicant-btn').click(function() {
+        no_of_applicant++;
+        alert(no_of_applicant);
+    })
 
     $('.about-carousel').slick({
         infinite: true,
