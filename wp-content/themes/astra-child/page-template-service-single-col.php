@@ -436,6 +436,8 @@ get_header(); ?>
                                     name="contact-name-english" type="text" class="form-control">
                             </div>
 
+                        </div>
+                        <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
                                     公司註冊地址 Registered Address</label>
                             </div>
@@ -471,43 +473,43 @@ get_header(); ?>
                                     </label>
                                 </div>
 
-
-
                             </div>
 
-
                         </div>
-                    </div>
-                </form>
-            </div>
-        </div>
 
+
+                    </div>
+            </div>
+            </form>
+        </div>
     </div>
 
-    <?php get_footer(); ?>
-    <script type="text/javascript">
-    $(function() {
-        $('.about-carousel').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            autoplay: false,
-            pauseOnFocus: false,
-            infinite: true,
-            speed: 800,
-            autoplaySpeed: 5000,
-            cssEase: 'ease-out',
-            pauseOnHover: false
+</div>
 
-        });
+<?php get_footer(); ?>
+<script type="text/javascript">
+$(function() {
+    $('.about-carousel').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        autoplay: false,
+        pauseOnFocus: false,
+        infinite: true,
+        speed: 800,
+        autoplaySpeed: 5000,
+        cssEase: 'ease-out',
+        pauseOnHover: false
+
+    });
 
 
 
 
-    })
-    </script>
-    </body>
+})
+</script>
+</body>
 
-    </html>
+</html>
