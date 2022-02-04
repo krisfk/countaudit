@@ -633,7 +633,8 @@ $(function() {
             '" value="股東 Shareholder"> <label class="form-check-label" for="shareholder' + i +
             '"> 股東 Shareholder </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
             i + '[]" id="director-' + i +
-            '" value="董事 Director"> <label class="form-check-label" for="director"> 董事 Director </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
+            '" value="董事 Director"> <label class="form-check-label" for="director-' + i +
+            '"> 董事 Director </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
             i +
             '[]" id="beneficial-owner" value="受益人 Beneficial Owner"> <label class="form-check-label" for="beneficial-owner"> 受益人 Beneficial Owner </label> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="name-on-id-chinese-' +
             i +
