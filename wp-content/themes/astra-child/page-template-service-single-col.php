@@ -597,77 +597,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="row applicant-div mx-auto mb-3 ">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="language">n. 申請人身份
-                                        Applicant’s Position *</label>
-                                    <div class="small">(請選擇最少其中一項 Choose at least one)</div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="applicant-position-n[]"
-                                            id="shareholder" value="股東 Shareholder">
-                                        <label class="form-check-label" for="shareholder">
-                                            股東 Shareholder
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="applicant-position-n[]"
-                                            id="director" value="董事 Director">
-                                        <label class="form-check-label" for="director">
-                                            董事 Director
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="applicant-position-n[]"
-                                            id="beneficial-owner" value="受益人 Beneficial Owner">
-                                        <label class="form-check-label" for="beneficial-owner">
-                                            受益人 Beneficial Owner
-                                        </label>
-                                    </div>
-                                </div>
 
-
-
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="name-on-id-chinese-n">
-                                        證件上名稱 Name on ID/Passport * <div class="small">(中文 Chinese)</div></label>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="name-on-id-chinese-n"
-                                        name="name-on-id-chinese-n" type="text" class="form-control">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="name-on-id-english-n">
-                                        證件上名稱 Name on ID/Passport *<div class="small">(英文 English)</div></label>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="name-on-id-english-n"
-                                        name="name-on-id-english-n" type="text" class="form-control">
-                                </div>
-
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="id-pass-co-no-n">
-                                        身份證/護照/公司號碼 <br>
-                                        ID/Passport/Company No *</label>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="id-pass-co-no-n"
-                                        name="id-pass-co-no-n" type="text" class="form-control">
-                                </div>
-
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="percent-of-shares-n">
-                                        持股比例 <br>
-                                        % of Shares *</label>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="percent-of-shares-n"
-                                        name="percent-of-shares-n" type="text" class="form-control">
-                                </div>
-
-
-
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
-                                        for="residential-address-n">
-                                        住址 <br>
-                                        Residential Address *</label>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="residential-address-n"
-                                        name="residential-address-n" type="text" class="form-control">
-                                </div>
-                            </div>
 
                             <a href="javascript:void(0);" class="add-more-applicant-btn">＋ 更多申請人</a>
 
@@ -689,6 +619,50 @@ get_header(); ?>
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
+
+    var no_of_applicant = 1;
+
+    var applicant_fill_html = '';
+
+    for (i = 1; i <= no_of_applicant; i++) {
+        applicant_fill_html +=
+            '<div class="row applicant-div mx-auto mb-3 "> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="language">' +
+            i +
+            '. 申請人身份 Applicant’s Position *</label> <div class="small">(請選擇最少其中一項 Choose at least one)</div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
+            i + '[]" id="shareholder' + i +
+            '" value="股東 Shareholder"> <label class="form-check-label" for="shareholder' + i +
+            '"> 股東 Shareholder </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
+            i + '[]" id="director-' + i +
+            '" value="董事 Director"> <label class="form-check-label" for="director"> 董事 Director </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
+            i +
+            '[]" id="beneficial-owner" value="受益人 Beneficial Owner"> <label class="form-check-label" for="beneficial-owner"> 受益人 Beneficial Owner </label> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="name-on-id-chinese-' +
+            i +
+            '"> 證件上名稱 Name on ID/Passport * <div class="small">(中文 Chinese)</div></label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="name-on-id-chinese-' +
+            i +
+            '" name="name-on-id-chinese-' + i +
+            '" type="text" class="form-control"> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="name-on-id-english-' +
+            i +
+            '"> 證件上名稱 Name on ID/Passport *<div class="small">(英文 English)</div></label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="name-on-id-english-' +
+            i +
+            '" name="name-on-id-english-' + i +
+            '" type="text" class="form-control"> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="id-pass-co-no-' +
+            i +
+            '"> 身份證/護照/公司號碼 <br> ID/Passport/Company No *</label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="id-pass-co-no-' +
+            i +
+            '" name="id-pass-co-no-' + i +
+            '" type="text" class="form-control"> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="percent-of-shares-' +
+            i +
+            '"> 持股比例 <br> % of Shares *</label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="percent-of-shares-' +
+            i +
+            '" name="percent-of-shares-' + i +
+            '" type="text" class="form-control"> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="residential-address-' +
+            i +
+            '"> 住址 <br> Residential Address *</label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="residential-address-' +
+            i + '" name="residential-address-' + i + '" type="text" class="form-control"> </div> </div>';
+    }
+
+    $('.applicant-div-wrapper').html(applicant_fill_html);
+
     $('.about-carousel').slick({
         infinite: true,
         slidesToShow: 1,
