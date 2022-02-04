@@ -642,8 +642,8 @@ get_header(); ?>
                                         身份證/護照/公司號碼 <br>
                                         ID/Passport/Company No *</label>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="name-on-id-english"
-                                        name="name-on-id-english" type="text" class="form-control">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><input id="id-pass-co-no"
+                                        name="id-pass-co-no" type="text" class="form-control">
                                 </div>
 
 
