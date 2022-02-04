@@ -465,7 +465,7 @@ get_header(); ?>
                                     </label>
                                 </div>
 
-                                <div class="form-check">
+                                <div class="form-check mb-3">
                                     <input class="form-check-input" type="radio" name="language" id="kt" value="kt">
                                     <label class="form-check-label" for="kt">
                                         觀塘 Kwun Tong
@@ -473,7 +473,7 @@ get_header(); ?>
                                     </label>
                                 </div>
 
-                                <label for="other-registered-office mt-3">以下列地址為公司註冊(英文)地址：Use the following address as
+                                <label for="other-registered-office">以下列地址為公司註冊(英文)地址：Use the following address as
                                     registered office (English) address
                                 </label>
 
