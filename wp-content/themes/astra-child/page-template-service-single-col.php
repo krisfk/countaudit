@@ -450,25 +450,22 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="language" id="language-chinese"
-                                        value="中文 Chinese">
-                                    <label class="form-check-label" for="language-chinese">
+                                    <input class="form-check-input" type="radio" name="language" id="tst" value="tst">
+                                    <label class="form-check-label" for="tst">
                                         尖沙咀 Tsim Sha Tsui
 
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="language" id="language-chinese"
-                                        value="中文 Chinese">
-                                    <label class="form-check-label" for="language-chinese">
+                                    <input class="form-check-input" type="radio" name="language" id="lck" value="lck">
+                                    <label class="form-check-label" for="lck">
                                         荔枝角 Lai Chi Kok
                                     </label>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="language" id="language-chinese"
-                                        value="中文 Chinese">
-                                    <label class="form-check-label" for="language-chinese">
+                                    <input class="form-check-input" type="radio" name="language" id="kt" value="kt">
+                                    <label class="form-check-label" for="kt">
                                         觀塘 Kwun Tong
 
                                     </label>
