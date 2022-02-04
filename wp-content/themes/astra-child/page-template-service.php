@@ -434,7 +434,7 @@ get_header(); ?>
 
                         <div class="row">
 
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
 
@@ -457,7 +457,7 @@ get_header(); ?>
                                     <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
                                 </ul>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
                                 <div class="form-check">
@@ -481,7 +481,7 @@ get_header(); ?>
                                     <li>準備及保存重要控制人登記册</li>
                                 </ul>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
                                 <div class="form-check">
@@ -519,7 +519,7 @@ get_header(); ?>
 
                         <div class="row">
 
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
 
@@ -561,7 +561,7 @@ get_header(); ?>
 
                                 </ul>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
                                 <div class="form-check">
@@ -599,7 +599,7 @@ get_header(); ?>
 
                         <div class="row">
 
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
 
@@ -620,11 +620,11 @@ get_header(); ?>
                                     <li>製作公司水牌</li>
                                 </ul>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
 
 
