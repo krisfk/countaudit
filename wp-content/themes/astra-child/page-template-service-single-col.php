@@ -634,7 +634,9 @@ function generate_fill_area(no_of_applicant, applicant_fill_html) {
             '" value="董事 Director"> <label class="form-check-label" for="director-' + i +
             '"> 董事 Director </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
             i +
-            '[]" id="beneficial-owner" value="受益人 Beneficial Owner"> <label class="form-check-label" for="beneficial-owner"> 受益人 Beneficial Owner </label> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="name-on-id-chinese-' +
+            '[]" id="beneficial-owner-' + i +
+            '" value="受益人 Beneficial Owner"> <label class="form-check-label" for="beneficial-owner-' + i +
+            '"> 受益人 Beneficial Owner </label> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="name-on-id-chinese-' +
             i +
             '"> 證件上名稱 Name on ID/Passport * <div class="small">(中文 Chinese)</div></label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="name-on-id-chinese-' +
             i +
@@ -676,7 +678,9 @@ function add_fill_area(i) {
         '" value="董事 Director"> <label class="form-check-label" for="director-' + i +
         '"> 董事 Director </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
         i +
-        '[]" id="beneficial-owner" value="受益人 Beneficial Owner"> <label class="form-check-label" for="beneficial-owner"> 受益人 Beneficial Owner </label> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="name-on-id-chinese-' +
+        '[]" id="beneficial-owner-' + i +
+        '" value="受益人 Beneficial Owner"> <label class="form-check-label" for="beneficial-owner-' + i +
+        '"> 受益人 Beneficial Owner </label> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="name-on-id-chinese-' +
         i +
         '"> 證件上名稱 Name on ID/Passport * <div class="small">(中文 Chinese)</div></label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="name-on-id-chinese-' +
         i +
