@@ -710,7 +710,6 @@ function add_fill_area(i) {
         '"> 住址 <br> Residential Address *</label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="residential-address-' +
         i + '" name="residential-address-' + i + '" type="text" class="form-control"> </div> </div>';
 
-    // console.log(applicant_fill_html);
     $('.applicant-div-wrapper').append(append_fill_html);
 
 }
@@ -731,10 +730,12 @@ $(function() {
     })
 
     $('.minus-applicant-btn').click(function() {
-        no_of_applicant--;
-        $('.applicant-div:last-child').remove();
+        if (no_of_applicant >= 2) {
+            no_of_applicant--;
+            $('.applicant-div:last-child').remove();
 
-        applicant_fill_html = $('.applicant-div-wrapper').html();
+            applicant_fill_html = $('.applicant-div-wrapper').html();
+        }
 
     })
 
