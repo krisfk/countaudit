@@ -322,7 +322,6 @@ get_header(); ?>
 
 
                 <?php echo get_field('bottom_form');?>
-                </dib>
             </div>
         </div>
 
