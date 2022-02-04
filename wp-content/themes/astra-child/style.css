@@ -759,7 +759,8 @@ img.scaled-image {
     color: #fff;
 }
 
-.add-more-applicant-btn {
+.add-more-applicant-btn,
+.minus-applicant-btn {
     display: inline-block;
     background: #363f50;
     color: #fff;
@@ -771,7 +772,8 @@ img.scaled-image {
     width: auto !important;
 }
 
-.add-more-applicant-btn:hover {
+.add-more-applicant-btn:hover,
+.minus-applicant-btn:hover {
     color: #fff;
 }
 
