@@ -1343,7 +1343,7 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
         </div>
 
     </div>
-    <textarea id="tnc-data" class="form-control" name="" id="" cols="30"
+    <textarea id="tnc-data" class="form-control d-none" name="" id="" cols="30"
         rows="10"><?php echo get_field('tnc');?></textarea>
 
     <?php get_footer(); ?>
