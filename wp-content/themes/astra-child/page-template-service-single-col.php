@@ -710,7 +710,7 @@ function add_fill_area(i) {
         '"> 住址 <br> Residential Address *</label> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="residential-address-' +
         i + '" name="residential-address-' + i + '" type="text" class="form-control"> </div> </div>';
 
-    alert(applicant_fill_html);
+    console.log(applicant_fill_html);
     $('.applicant-div-wrapper').html(applicant_fill_html);
 
 }
