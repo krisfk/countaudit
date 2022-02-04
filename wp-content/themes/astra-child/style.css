@@ -421,6 +421,10 @@ img.scaled-image {
     border-radius: 1rem;
 }
 
+.form-div p {
+    margin: 0;
+}
+
 .form-div td {
     vertical-align: middle;
 }
