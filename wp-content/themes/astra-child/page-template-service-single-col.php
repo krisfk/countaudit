@@ -600,21 +600,21 @@ get_header(); ?>
 
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="language" id="shareholder"
-                                            value="股東 Shareholder">
+                                        <input class="form-check-input" type="checkbox" name="applicant-position[]"
+                                            id="shareholder" value="股東 Shareholder">
                                         <label class="form-check-label" for="shareholder">
                                             股東 Shareholder
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="language" id="director"
-                                            value="董事 Director">
+                                        <input class="form-check-input" type="checkbox" name="applicant-position[]"
+                                            id="director" value="董事 Director">
                                         <label class="form-check-label" for="director">
                                             董事 Director
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="language"
+                                        <input class="form-check-input" type="checkbox" name="applicant-position[]"
                                             id="beneficial-owner" value="受益人 Beneficial Owner">
                                         <label class="form-check-label" for="beneficial-owner">
                                             受益人 Beneficial Owner
