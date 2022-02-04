@@ -591,7 +591,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="row applicant-div-wrapper">
+                            <div class="row applicant-div-wrapper mx-auto">
 
 
                             </div>
