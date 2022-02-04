@@ -1558,43 +1558,118 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
 
    if(!empty($_FILES))
     {
-        // print_r($_FILES);
-
+ 
+        
         //File 1
         if($_FILES["excel-file"]['size'])
         {
-        $wordpress_upload_dir = wp_upload_dir();
+                $wordpress_upload_dir = wp_upload_dir();
 
-        $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["excel-file"]["name"];
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["excel-file"]["name"];
 
-            $i=0;
-        while( file_exists( $new_file_path ) ) {
-            $i++;
-            $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["excel-file"]["name"];
+                    $i=0;
+                while( file_exists( $new_file_path ) ) {
+                    $i++;
+                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["excel-file"]["name"];
+                }
+                
+                if (move_uploaded_file($_FILES["excel-file"]["tmp_name"], $new_file_path)) {
+        
+                    $upload_id = wp_insert_attachment( array(
+                    'guid'           => $new_file_path, 
+                    'post_mime_type' => 'image/*',
+                    //$_FILES["file_upload"]["tmp_name"],
+                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["excel-file"]["name"] ),
+                    'post_content'   => '',
+                    'post_status'    => 'inherit'
+                ), $new_file_path );
+                require_once( ABSPATH . 'wp-admin/includes/image.php' );
+            
+                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+
+                update_field( 'excel_file', $upload_id, $post_id );
+                // update_field( 'mid_report_approval', false, $school_id );
+
+
+                } else {
+                    echo "Sorry, there was an error uploading your file.";
+                }
+        }
+
+         
+        //File a
+        if($_FILES["upload-file-1"]['size'])
+        {
+                $wordpress_upload_dir = wp_upload_dir();
+
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-1"]["name"];
+
+                    $i=0;
+                while( file_exists( $new_file_path ) ) {
+                    $i++;
+                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-1"]["name"];
+                }
+                
+                if (move_uploaded_file($_FILES["upload-file-1"]["tmp_name"], $new_file_path)) {
+        
+                    $upload_id = wp_insert_attachment( array(
+                    'guid'           => $new_file_path, 
+                    'post_mime_type' => 'image/*',
+                    //$_FILES["file_upload"]["tmp_name"],
+                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-1"]["name"] ),
+                    'post_content'   => '',
+                    'post_status'    => 'inherit'
+                ), $new_file_path );
+                require_once( ABSPATH . 'wp-admin/includes/image.php' );
+            
+                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+
+                update_field( 'upload_file_1', $upload_id, $post_id );
+                // update_field( 'mid_report_approval', false, $school_id );
+
+
+                } else {
+                    echo "Sorry, there was an error uploading your file.";
+                }
+        }
+
+         
+        //File b
+        if($_FILES["upload-file-2"]['size'])
+        {
+                $wordpress_upload_dir = wp_upload_dir();
+
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-2"]["name"];
+
+                    $i=0;
+                while( file_exists( $new_file_path ) ) {
+                    $i++;
+                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-2"]["name"];
+                }
+                
+                if (move_uploaded_file($_FILES["upload-file-2"]["tmp_name"], $new_file_path)) {
+        
+                    $upload_id = wp_insert_attachment( array(
+                    'guid'           => $new_file_path, 
+                    'post_mime_type' => 'image/*',
+                    //$_FILES["file_upload"]["tmp_name"],
+                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-2"]["name"] ),
+                    'post_content'   => '',
+                    'post_status'    => 'inherit'
+                ), $new_file_path );
+                require_once( ABSPATH . 'wp-admin/includes/image.php' );
+            
+                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+
+                update_field( 'upload_file_2', $upload_id, $post_id );
+                // update_field( 'mid_report_approval', false, $school_id );
+
+
+                } else {
+                    echo "Sorry, there was an error uploading your file.";
+                }
         }
         
-        if (move_uploaded_file($_FILES["excel-file"]["tmp_name"], $new_file_path)) {
-   
-            $upload_id = wp_insert_attachment( array(
-            'guid'           => $new_file_path, 
-            'post_mime_type' => 'image/*',
-            //$_FILES["file_upload"]["tmp_name"],
-            'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["excel-file"]["name"] ),
-            'post_content'   => '',
-            'post_status'    => 'inherit'
-        ), $new_file_path );
-         require_once( ABSPATH . 'wp-admin/includes/image.php' );
-    
-         wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
-
-        update_field( 'excel_file', $upload_id, $post_id );
-        // update_field( 'mid_report_approval', false, $school_id );
-
-
-        } else {
-            echo "Sorry, there was an error uploading your file.";
-        }
-    }
 }
 
 
