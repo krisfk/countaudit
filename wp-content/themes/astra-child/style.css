@@ -766,8 +766,9 @@ img.scaled-image {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-    margin: 0.5rem 0 1rem 0;
+    margin: 0 auto;
     font-size: 0.8rem;
+    width: auto !important;
 }
 
 .add-more-applicant-btn:hover {
