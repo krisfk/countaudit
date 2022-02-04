@@ -485,9 +485,6 @@ get_header(); ?>
 
                             </div>
 
-                        </div>
-
-                        <div class="row align-items-center">
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="client-name">
                                     申請人姓名 Applicant’s Name*:</label>
