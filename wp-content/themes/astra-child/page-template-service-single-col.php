@@ -591,7 +591,7 @@ get_header(); ?>
                             </div>
 
 
-                            <div class="row mt-3">
+                            <div class="row mt-3 border-1">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="language">1. 申請人身份
                                         Applicant’s Position *</label>
                                     <div class="small">(請選擇最少其中一項 Choose at least one)</div>
