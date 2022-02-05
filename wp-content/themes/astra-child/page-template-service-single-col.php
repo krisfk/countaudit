@@ -625,19 +625,28 @@ get_header(); ?>
 
 
                             <div class="col-12 mt-4 mb-3">
-                                <h4 class="text-center mb-4"> 股東及董事資料 Shareholder’s and Director’s Information </h4>
+                                <h4 class="text-center mb-4"> 服務計劃資料 Service Plan Information </h4>
+
+                                <div> 服務費用 (港幣$3,845 [已包括政府費用]) Service fee (HK$3,845 inclusive of government
+                                    charges)，已包括：</div>
                                 <div>
 
 
 
                                     <ul class="m-0 mt-2 p-0 ps-3">
-                                        <li>請連同所有董事及股東之身份證明及住宅地址副本一併遞交。Please also submit the ID/Passport copy and
-                                            address proof of every director and shareholder.
-                                        </li>
-                                        <li>如股東或董事是公司，請提供NNC1/NAR1，CI，BR，公司所有董事及股東之身份證明及住宅地址副本。If the
-                                            Director or Shareholder is company, please also submit the NNCI / NAR1, CI,
-                                            BR and ID/Passport copy and address proof of every director and shareholder.
-                                        </li>
+
+                                        <li>查册公司名稱Name Search</li>
+                                        <li>準備公司註冊證書申請文件 Prepare documents for Certificate of Incorporation</li>
+                                        <li>準備商業登記證申請文件 Prepare documents for Business Registration</li>
+                                        <li>首年公司秘書服務 First Year Company Secretary Service</li>
+                                        <li>精美綠盒 Green Box (內含公司章程，公司鋼印，公司簽名印，公司圓印，股票書，法定記錄薄)</li>
+                                        <li>會計師核證副本（如需要，銀行開戶用）Certified True Copy by CPA (for Bank Account Opening, if
+                                            needed)</li>
+                                        <li>轉介開設銀行戶口（HSBC/東亞/中信）Bank Account Opening Referral</li>
+                                        <li>設立僱主MPF戶口 Setting up Employer’s MPF Account</li>
+                                        <li>勞保報價 Quotation for Employees’ Compensation Insurance</li>
+                                        <li>員工福利報價 Quotation for Employees’ Benefits</li>
+                                        <li>持續業務諮詢 Free Business Consultation</li>
 
                                     </ul>
                                 </div>
