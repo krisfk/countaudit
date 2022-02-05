@@ -911,6 +911,11 @@ get_header(); ?>
 
                         </div>
 
+
+                        <h4 class="text-center mb-4 mt-4  lh-base">
+                            條款及細則 Terms and Conditions </h4>
+
+
                         <textarea id="tnc" class="form-control" name="" id="" cols="30" rows="10"></textarea>
 
 
