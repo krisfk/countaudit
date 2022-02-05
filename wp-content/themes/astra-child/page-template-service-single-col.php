@@ -329,7 +329,7 @@ get_header(); ?>
                 <div class="text-center">*為必須填寫項目 Required Fields</div>
 
                 <form id="form" action="" method="post" enctype="multipart/form-data">
-                    <input type="hidden" name="form-type" value="com_sec_app_form">
+                    <input type="hidden" name="form-type" value="incorp_limited_app">
                     <div class="form-div white-bg mt-4">
 
                         <div class="row  align-items-center">
@@ -935,6 +935,18 @@ get_header(); ?>
 
 
     <?php get_footer(); ?>
+    <?php
+    
+      
+    if($_POST)
+    {
+        if($_POST['form-type']=='incorp_limited_app')
+        {
+            echo 1;
+        }
+    }
+    
+    ?>
     <script type="text/javascript">
     var no_of_applicant = 0;
     var applicant_fill_html = '';
