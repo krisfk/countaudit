@@ -911,8 +911,7 @@ get_header(); ?>
 
                         </div>
 
-                        <textarea id="tnc-data" class="form-control d-none" name="" id="" cols="30"
-                            rows="10"><?php echo get_field('tnc');?></textarea>
+                        <textarea id="tnc" class="form-control" name="" id="" cols="30" rows="10"></textarea>
 
 
                         <div class="text-center mt-3">
