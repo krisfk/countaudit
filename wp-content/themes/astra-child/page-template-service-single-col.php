@@ -973,6 +973,11 @@ get_header(); ?>
             $('#year-end-date-3').click();
         });
 
+        $('#year-end-date-3').focus(function() {
+            $('input[name="other-year-end-date"]').focus();
+        })
+
+
         no_of_applicant++;
         add_fill_area(no_of_applicant);
 
