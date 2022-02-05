@@ -656,7 +656,7 @@ get_header(); ?>
 
 
                             </div>
-                            <h4 class="text-center mb-4 mt-3">附加服務 Additional Services </h4>
+                            <h4 class="text-center mb-4 mt-4">附加服務 Additional Services </h4>
 
 
                             <div class="row">
@@ -692,7 +692,128 @@ get_header(); ?>
 
 
                                 </div>
+                                <div class="col-12 mt-4">
+                                    <h5 class="text-center mb-4">虛擬辦工室 Virtual Office</h5>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="text-center">– 尖沙咀 Tsim Sha Tsui –</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                        <div class="form-check"><input id="tst-HK1600-year" class="form-check-input"
+                                                name="virtual-office[]" type="checkbox" value="tst-HK1600-year"> <label
+                                                class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label>
+                                        </div>
+                                        <ul class="m-0 ps-4">
+                                            <li>註冊公司地址</li>
+                                            <li>信件包裹代收</li>
+                                            <li>稅局郵件轉寄</li>
+                                            <li>製作公司水牌</li>
+                                            <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                        <div class="form-check"><input id="tst-HK4000-year" class="form-check-input"
+                                                name="virtual-office[]" type="checkbox" value="tst-HK4000-year"> <label
+                                                class="form-check-label" for="tst-HK4000-year"> HK$4,000/year </label>
+                                        </div>
+                                        <ul class="m-0 ps-4">
+                                            <li>註冊公司地址</li>
+                                            <li>信件包裹代收</li>
+                                            <li>稅局郵件轉寄</li>
+                                            <li>製作公司水牌</li>
+                                            <li>每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                            <li>辦公室電話代接</li>
+                                            <li>稅局文件代處理及信件代開</li>
+                                            <li>準備及保存重要控制人登記册</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                        <div class="form-check"><input id="tst-HK12000-year" class="form-check-input"
+                                                name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
+                                                class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label>
+                                        </div>
+                                        <ul class="m-0 ps-4">
+                                            <li>註冊公司地址</li>
+                                            <li>信件包裹代收</li>
+                                            <li>稅局郵件轉寄</li>
+                                            <li>製作公司水牌</li>
+                                            <li>更改商業登記地址</li>
+                                            <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li>辦公室電話代接</li>
+                                            <li>稅局文件代處理及信件代開</li>
+                                            <li>準備及保存重要控制人登記册</li>
+                                            <li>每月三次會議室出租</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <h5 class="text-center">– 荔枝角 Lai Chi Kok –</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                        <div class="form-check"><input id="lck-HK650-year" class="form-check-input"
+                                                name="virtual-office[]" type="checkbox" value="lck-HK650-year"> <label
+                                                class="form-check-label" for="lck-HK650-year"> HK$650/year </label>
+                                        </div>
+                                        <ul class="m-0 ps-4">
+                                            <li>註冊公司地址</li>
+                                            <li>信件代收</li>
+                                            <li>製作公司水牌</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                        <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
+                                                name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
+                                                class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                        </div>
+                                        <ul class="m-0 ps-4">
+                                            <li>註冊公司地址</li>
+                                            <li>信件包裹代收</li>
+                                            <li>稅局郵件轉寄</li>
+                                            <li>製作公司水牌</li>
+                                            <li>每月轉寄郵件</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                        <div class="form-check"><input id="lck-HK1200-year" class="form-check-input"
+                                                name="virtual-office[]" type="checkbox" value="lck-HK1200-year"> <label
+                                                class="form-check-label" for="lck-HK1200-year"> HK$1,200/year </label>
+                                        </div>
+                                        <ul class="m-0 ps-4">
+                                            <li>註冊公司地址</li>
+                                            <li>信件包裹代收</li>
+                                            <li>稅局郵件轉寄</li>
+                                            <li>製作公司水牌</li>
+                                            <li>更改商業登記地址</li>
+                                            <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li>每月一次會議室出租</li>
+                                            <li>辦公室電話代接</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mt-4 mb-3">
+                                    <h5 class="text-center">– 觀塘 Kwun Tong –</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                        <div class="form-check"><input id="kt-HK900-year" class="form-check-input"
+                                                name="virtual-office[]" type="checkbox" value="kt-HK900-year"> <label
+                                                class="form-check-label" for="kt-HK900-year"> HK$900/year </label></div>
+                                        <ul class="m-0 ps-4">
+                                            <li>註冊公司地址</li>
+                                            <li>信件代收</li>
+                                            <li>製作公司水牌</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
+                                </div>
+
+
+
                             </div>
+
 
 
 
