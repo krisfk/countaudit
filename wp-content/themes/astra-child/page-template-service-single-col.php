@@ -452,21 +452,24 @@ get_header(); ?>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="language" id="tst" value="tst">
+                                    <input class="form-check-input" type="radio"
+                                        name="countaudit_virtual_office_service" id="tst" value="tst">
                                     <label class="form-check-label" for="tst">
                                         尖沙咀 Tsim Sha Tsui
 
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="language" id="lck" value="lck">
+                                    <input class="form-check-input" type="radio"
+                                        name="countaudit_virtual_office_service" id="lck" value="lck">
                                     <label class="form-check-label" for="lck">
                                         荔枝角 Lai Chi Kok
                                     </label>
                                 </div>
 
                                 <div class="form-check mb-3">
-                                    <input class="form-check-input" type="radio" name="language" id="kt" value="kt">
+                                    <input class="form-check-input" type="radio"
+                                        name="countaudit_virtual_office_service" id="kt" value="kt">
                                     <label class="form-check-label" for="kt">
                                         觀塘 Kwun Tong
 
@@ -942,7 +945,17 @@ get_header(); ?>
     {
         if($_POST['form-type']=='incorp_limited_app')
         {
-            echo 1;
+            $client_name = $_POST['client-name'];
+            $tel = $_POST['tel'];
+            $email = $_POST['email'];
+            $language = $_POST['language'];
+            $billing_contact_person =$_POST['billing-contact-person'];
+            $contact_name=$_POST['contact-name'];
+            $contact_phone_number=$_POST['contact-phone-number'];
+            $contact_name_chinese=$_POST['contact-name-chinese'];
+            $contact_name_english=$_POST['contact-name-english'];
+            
+       
         }
     }
     
