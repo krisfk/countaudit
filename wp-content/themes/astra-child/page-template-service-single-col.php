@@ -885,6 +885,30 @@ get_header(); ?>
 
                             </div>
 
+                            <h4 class="text-center mb-4 mt-4">
+                                轉介公司銀行戶口服務 Bank Account Opening Referral Services
+                            </h4>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12  mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="bank-account-opening"
+                                        id="bank-account-opening-yes" value="yes">
+                                    <label class="form-check-label" for="bank-account-opening-yes">
+                                        需要 Need
+
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="bank-account-opening"
+                                        id="bank-account-opening-no" value="no">
+                                    <label class="form-check-label" for="bank-account-opening-no">
+                                        不需要 No Need
+                                    </label>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
                 </form>
