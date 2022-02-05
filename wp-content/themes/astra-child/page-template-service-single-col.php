@@ -911,6 +911,9 @@ get_header(); ?>
 
                         </div>
 
+                        <textarea id="tnc-data" class="form-control d-none" name="" id="" cols="30"
+                            rows="10"><?php echo get_field('tnc');?></textarea>
+
 
                         <div class="text-center mt-3">
                             <a href="javascript:void(0);" class="form-submit-btn">Submit</a>
@@ -923,6 +926,9 @@ get_header(); ?>
         </div>
 
     </div>
+    <textarea id="tnc-data" class="form-control d-none" name="" id="" cols="30"
+        rows="10"><?php echo get_field('tnc');?></textarea>
+
 
     <?php get_footer(); ?>
     <script type="text/javascript">
