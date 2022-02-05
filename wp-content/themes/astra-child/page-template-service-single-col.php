@@ -589,7 +589,7 @@ get_header(); ?>
                                     </ul>
                                 </div>
 
-                                <div class="row">
+                                <div class="row align-items-center">
 
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
                                             for="email">上載股東及董事資料文件</label>
