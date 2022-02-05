@@ -969,7 +969,8 @@ get_header(); ?>
 
 
         $('input[name="other-year-end-date"]').focus(function() {
-            alert(7);
+            // alert(7);
+            $('#year-end-date-3').click();
         });
 
         no_of_applicant++;
