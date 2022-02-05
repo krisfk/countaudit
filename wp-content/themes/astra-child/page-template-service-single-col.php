@@ -661,14 +661,32 @@ get_header(); ?>
 
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
-                                        業務性質 Business Nature *</label>
+                                        公司印章
+                                    </label>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <div class="form-check">
                                         <input name="business[]" class="form-check-input" type="checkbox" id="trading"
                                             value="貿易 Trading">
                                         <label class="form-check-label" for="trading">
-                                            貿易 Trading
+                                            小圓印 Round Chop [HK$150/個each]
+
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input name="business[]" class="form-check-input" type="checkbox" id="trading"
+                                            value="貿易 Trading">
+                                        <label class="form-check-label" for="trading">
+                                            支票印 Signature Chop [HK$150/個 each]
+
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input name="business[]" class="form-check-input" type="checkbox" id="trading"
+                                            value="貿易 Trading">
+                                        <label class="form-check-label" for="trading">
+                                            鋼印 Company Seal [HK$250/個 each]
+
                                         </label>
                                     </div>
 
