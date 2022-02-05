@@ -848,9 +848,10 @@ get_header(); ?>
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="year-end-date"
-                                            id="year-end-date-3" value="客戶自訂 Others">
                                         <label class="form-check-label" for="year-end-date-3">
+                                            <input class="form-check-input" type="radio" name="year-end-date"
+                                                id="year-end-date-3" value="客戶自訂 Others">
+
                                             客戶自訂 Others ：
 
                                             <input type="text" class="form-control mt-2" name="other-year-end-date">
