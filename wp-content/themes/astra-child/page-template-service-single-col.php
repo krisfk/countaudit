@@ -833,7 +833,20 @@ get_header(); ?>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <!-- <input type="text" class="form-control" name="upload-file-1" id="upload-file-1"> -->
-
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="language"
+                                            id="language-chinese" value="中文 Chinese">
+                                        <label class="form-check-label" for="language-chinese">
+                                            中文 Chinese
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="language"
+                                            id="language-english" value="英文 English">
+                                        <label class="form-check-label" for="language-english">
+                                            英文 English
+                                        </label>
+                                    </div>
 
 
                                 </div>
