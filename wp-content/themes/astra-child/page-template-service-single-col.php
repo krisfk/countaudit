@@ -867,17 +867,17 @@ get_header(); ?>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="billing-contact-person"
-                                            id="billing-contact-person-yes" value="yes">
-                                        <label class="form-check-label" for="billing-contact-person-yes">
+                                        <input class="form-check-input" type="radio" name="appoint-countaudit"
+                                            id="appoint-countaudit-yes" value="yes">
+                                        <label class="form-check-label" for="appoint-countaudit-yes">
                                             會 Yes
 
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="billing-contact-person"
-                                            id="billing-contact-person-no" value="no">
-                                        <label class="form-check-label" for="billing-contact-person-no">
+                                        <input class="form-check-input" type="radio" name="appoint-countaudit"
+                                            id="appoint-countaudit-no" value="no">
+                                        <label class="form-check-label" for="appoint-countaudit-no">
                                             不會 No
                                         </label>
                                     </div>
