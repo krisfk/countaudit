@@ -834,25 +834,26 @@ get_header(); ?>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <!-- <input type="text" class="form-control" name="upload-file-1" id="upload-file-1"> -->
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="language"
-                                            id="language-chinese" value="中文 Chinese">
-                                        <label class="form-check-label" for="language-chinese">
+                                        <input class="form-check-input" type="radio" name="year-end-date"
+                                            id="year-end-date-1" value="12 月 31 日 (31-Dec)">
+                                        <label class="form-check-label" for="year-end-date-1">
                                             12 月 31 日 (31-Dec)
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="language"
-                                            id="language-english" value="英文 English">
-                                        <label class="form-check-label" for="language-english">
+                                        <input class="form-check-input" type="radio" name="year-end-date"
+                                            id="year-end-date-2" value="3 月 31 日 (31-Mar)">
+                                        <label class="form-check-label" for="year-end-date-2">
                                             3 月 31 日 (31-Mar)
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="language"
-                                            id="language-english" value="英文 English">
-                                        <label class="form-check-label" for="language-english">
+                                        <input class="form-check-input" type="radio" name="year-end-date"
+                                            id="year-end-date-3" value="客戶自訂 Others">
+                                        <label class="form-check-label" for="year-end-date-3">
                                             客戶自訂 Others ：
                                         </label>
+                                        <input type="text" class="form-control">
                                     </div>
 
 
