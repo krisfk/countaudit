@@ -666,25 +666,25 @@ get_header(); ?>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <div class="form-check">
-                                        <input name="business[]" class="form-check-input" type="checkbox" id="trading"
-                                            value="貿易 Trading">
-                                        <label class="form-check-label" for="trading">
+                                        <input name="business-stamp[]" class="form-check-input" type="checkbox"
+                                            id="stamp1" name="stamp1" value="小圓印 Round Chop [HK$150/個each]">
+                                        <label class="form-check-label" for="stamp1">
                                             小圓印 Round Chop <br> [HK$150/個each]
 
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input name="business[]" class="form-check-input" type="checkbox" id="trading"
-                                            value="貿易 Trading">
-                                        <label class="form-check-label" for="trading">
+                                        <input name="business-stamp[]" class="form-check-input" type="checkbox"
+                                            id="stamp2" name="stamp2" value="支票印 Signature Chop [HK$150/個 each]">
+                                        <label class="form-check-label" for="stamp2">
                                             支票印 Signature Chop <br> [HK$150/個 each]
 
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input name="business[]" class="form-check-input" type="checkbox" id="trading"
-                                            value="貿易 Trading">
-                                        <label class="form-check-label" for="trading">
+                                        <input name="business-stamp[]" class="form-check-input" type="checkbox"
+                                            id="stamp3" name="stamp3" value="鋼印 Company Seal [HK$250/個 each]">
+                                        <label class="form-check-label" for="stamp3">
                                             鋼印 Company Seal <br> [HK$250/個 each]
 
                                         </label>
