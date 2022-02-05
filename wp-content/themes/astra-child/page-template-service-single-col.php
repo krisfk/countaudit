@@ -837,14 +837,21 @@ get_header(); ?>
                                         <input class="form-check-input" type="radio" name="language"
                                             id="language-chinese" value="中文 Chinese">
                                         <label class="form-check-label" for="language-chinese">
-                                            中文 Chinese
+                                            12 月 31 日 (31-Dec)
                                         </label>
                                     </div>
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="language"
                                             id="language-english" value="英文 English">
                                         <label class="form-check-label" for="language-english">
-                                            英文 English
+                                            3 月 31 日 (31-Mar)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="language"
+                                            id="language-english" value="英文 English">
+                                        <label class="form-check-label" for="language-english">
+                                            客戶自訂 Others ：
                                         </label>
                                     </div>
 
