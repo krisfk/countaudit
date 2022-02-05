@@ -624,8 +624,28 @@ get_header(); ?>
 
 
 
+                            <div class="col-12 mt-4 mb-3">
+                                <h4 class="text-center mb-4"> 股東及董事資料 Shareholder’s and Director’s Information </h4>
+                                <div>
+
+
+
+                                    <ul class="m-0 mt-2 p-0 ps-3">
+                                        <li>請連同所有董事及股東之身份證明及住宅地址副本一併遞交。Please also submit the ID/Passport copy and
+                                            address proof of every director and shareholder.
+                                        </li>
+                                        <li>如股東或董事是公司，請提供NNC1/NAR1，CI，BR，公司所有董事及股東之身份證明及住宅地址副本。If the
+                                            Director or Shareholder is company, please also submit the NNCI / NAR1, CI,
+                                            BR and ID/Passport copy and address proof of every director and shareholder.
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
 
                         </div>
+
 
 
                     </div>
