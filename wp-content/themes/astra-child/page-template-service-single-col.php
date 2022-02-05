@@ -885,11 +885,11 @@ get_header(); ?>
 
                             </div>
 
-                            <h4 class="text-center mb-4 mt-4">
-                                轉介公司銀行戶口服務 Bank Account Opening Referral Services
+                            <h4 class="text-center mb-4 mt-4  lh-base">
+                                轉介公司銀行戶口服務 <br> Bank Account Opening Referral Services
                             </h4>
 
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-12  mb-3">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12  mb-3 text-center">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="bank-account-opening"
                                         id="bank-account-opening-yes" value="yes">
