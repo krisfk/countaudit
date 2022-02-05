@@ -669,7 +669,7 @@ get_header(); ?>
                                         <input name="business[]" class="form-check-input" type="checkbox" id="trading"
                                             value="貿易 Trading">
                                         <label class="form-check-label" for="trading">
-                                            小圓印 Round Chop [HK$150/個each]
+                                            小圓印 Round Chop <br> [HK$150/個each]
 
                                         </label>
                                     </div>
@@ -677,7 +677,7 @@ get_header(); ?>
                                         <input name="business[]" class="form-check-input" type="checkbox" id="trading"
                                             value="貿易 Trading">
                                         <label class="form-check-label" for="trading">
-                                            支票印 Signature Chop [HK$150/個 each]
+                                            支票印 Signature Chop <br> [HK$150/個 each]
 
                                         </label>
                                     </div>
@@ -685,7 +685,7 @@ get_header(); ?>
                                         <input name="business[]" class="form-check-input" type="checkbox" id="trading"
                                             value="貿易 Trading">
                                         <label class="form-check-label" for="trading">
-                                            鋼印 Company Seal [HK$250/個 each]
+                                            鋼印 Company Seal <br> [HK$250/個 each]
 
                                         </label>
                                     </div>
