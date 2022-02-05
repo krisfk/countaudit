@@ -659,7 +659,7 @@ get_header(); ?>
                             <h4 class="text-center mb-4 mt-4">附加服務 Additional Services </h4>
 
 
-                            <h5 class="text-center mb-4 mt-0">公司印章 </h5>
+                            <h5 class="text-center mb-4 mt-0">A. 公司印章 </h5>
 
 
                             <div class="row">
@@ -699,7 +699,7 @@ get_header(); ?>
 
                                 </div>
                                 <div class="col-12 mt-4">
-                                    <h5 class="text-center mb-4">虛擬辦工室 Virtual Office</h5>
+                                    <h5 class="text-center mb-4">B. 虛擬辦工室 Virtual Office</h5>
                                 </div>
                                 <div class="mb-3">
                                     <h6 class="text-center">– 尖沙咀 Tsim Sha Tsui –</h6>
