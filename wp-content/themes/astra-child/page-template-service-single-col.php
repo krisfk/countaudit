@@ -702,7 +702,7 @@ get_header(); ?>
                                     <h5 class="text-center mb-4">虛擬辦工室 Virtual Office</h5>
                                 </div>
                                 <div class="mb-3">
-                                    <h5 class="text-center">– 尖沙咀 Tsim Sha Tsui –</h5>
+                                    <h6 class="text-center">– 尖沙咀 Tsim Sha Tsui –</h6>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
@@ -754,7 +754,7 @@ get_header(); ?>
                                     </div>
                                 </div>
                                 <div class="mb-3 mt-4">
-                                    <h5 class="text-center">– 荔枝角 Lai Chi Kok –</h5>
+                                    <h6 class="text-center">– 荔枝角 Lai Chi Kok –</h6>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
@@ -799,7 +799,7 @@ get_header(); ?>
                                     </div>
                                 </div>
                                 <div class="mt-4 mb-3">
-                                    <h5 class="text-center">– 觀塘 Kwun Tong –</h5>
+                                    <h6 class="text-center">– 觀塘 Kwun Tong –</h6>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
