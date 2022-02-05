@@ -853,7 +853,7 @@ get_header(); ?>
                                         <label class="form-check-label" for="year-end-date-3">
                                             客戶自訂 Others ：
                                         </label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control mt-2" name="other-year-end-date">
                                     </div>
 
 
