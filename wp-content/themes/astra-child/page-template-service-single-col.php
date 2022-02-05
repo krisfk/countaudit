@@ -592,6 +592,7 @@ get_header(); ?>
                                 <div class="row align-items-center mt-3">
 
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">上載股東及董事資料文件
+                                            *
                                             <br> <span class="small">(壓縮zip檔 15mb上限)<span></label>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
