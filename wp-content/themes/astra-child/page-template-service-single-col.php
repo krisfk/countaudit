@@ -659,11 +659,11 @@ get_header(); ?>
                             <h4 class="text-center mb-4 mt-4">附加服務 Additional Services </h4>
 
 
+                            <h4 class="text-center mb-4 mt-4">公司印章 </h4>
+
+
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="contact-name-english">
-                                        公司印章
-                                    </label>
-                                </div>
+
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                     <div class="form-check">
                                         <input name="business-stamp[]" class="form-check-input" type="checkbox"
@@ -673,6 +673,9 @@ get_header(); ?>
 
                                         </label>
                                     </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
                                     <div class="form-check">
                                         <input name="business-stamp[]" class="form-check-input" type="checkbox"
                                             id="stamp2" name="stamp2" value="支票印 Signature Chop [HK$150/個 each]">
@@ -681,6 +684,9 @@ get_header(); ?>
 
                                         </label>
                                     </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
+
                                     <div class="form-check">
                                         <input name="business-stamp[]" class="form-check-input" type="checkbox"
                                             id="stamp3" name="stamp3" value="鋼印 Company Seal [HK$250/個 each]">
