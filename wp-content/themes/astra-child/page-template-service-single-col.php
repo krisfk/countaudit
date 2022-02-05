@@ -1044,6 +1044,14 @@ get_header(); ?>
 
     $(function() {
 
+        $('#tnc').html($('#tnc-data').html());
+        // alert(80);
+        $('.form-submit-btn').click(function() {
+            // alert(650);
+            $('#form').submit();
+        });
+
+
 
         $('input[name="other-year-end-date"]').focus(function() {
             // alert(7);
