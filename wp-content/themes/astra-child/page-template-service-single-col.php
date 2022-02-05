@@ -592,7 +592,7 @@ get_header(); ?>
                                 <div class="row align-items-center mt-3">
 
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
-                                            for="email">上載股東及董事資料文件(15mb上限)</label>
+                                            for="email">上載股東及董事資料文件(壓縮zip檔 15mb上限)</label>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3">
                                         <input type="file" class="form-control" name="upload-file-1" id="upload-file-1">
