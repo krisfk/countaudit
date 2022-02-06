@@ -724,6 +724,7 @@ get_header(); ?>
         $categories = get_categories();
         foreach($categories as $category) {
             echo $category->slug;
+            echo '<br>';
             // print_r($category);
         //    echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
         }
