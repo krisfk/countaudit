@@ -727,30 +727,25 @@ get_header(); ?>
             // echo $category->slug;
 
             $slug = $category->slug;
+           
             $args = array(
-                'posts_per_page' => 1, 
-                'tax_query' => array( 
-                    'relation' => 'AND', 
-                    array( 
-                        'taxonomy' => 'product_cat', 
-                        'field' => 'slug', 
-                        'terms' => $slug 
-                    ) 
-                ), 
-                'post_type' => 'post', 
-                // 'orderby' => 'title', 
-            ); 
+                'post_type' => 'post',
+                'posts_per_page' => 1,
+                // Use the $slug variable here.
+                'category_name' => $slug,
+              );
+
             $the_query = new WP_Query( $args ); 
 
-            foreach ($the_query->posts as $key => $value) {
-                echo 1;
-                // print_r($value->ID); 
+            while( $the_query->have_posts() ) {
+                $the_query->the_post(); 
+            echo 1;
             } 
 
-
-            // echo '<br>';
-            // print_r($category);
-        //    echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+        // echo '<br>';
+        // print_r($category);
+        // echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name .
+                '</a></div>';
         }
         ?>
         <div class="article-carousel">
