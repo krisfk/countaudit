@@ -703,7 +703,8 @@ get_header(); ?>
                         <li> - 服務報價</li>
                     </ul>
 
-                    <a href="#" class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+                    <a href="<?php echo get_site_url();?>/審計服務%e2%80%8b/"
+                        class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
 
                 </div>
             </div>
