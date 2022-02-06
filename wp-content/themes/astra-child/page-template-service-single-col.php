@@ -453,7 +453,7 @@ get_header(); ?>
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio"
-                                        name="countaudit_virtual_office_service" id="tst" value="tst">
+                                        name="countaudit-virtual-office-service" id="tst" value="tst">
                                     <label class="form-check-label" for="tst">
                                         尖沙咀 Tsim Sha Tsui
 
@@ -461,7 +461,7 @@ get_header(); ?>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio"
-                                        name="countaudit_virtual_office_service" id="lck" value="lck">
+                                        name="countaudit-virtual-office-service" id="lck" value="lck">
                                     <label class="form-check-label" for="lck">
                                         荔枝角 Lai Chi Kok
                                     </label>
@@ -469,7 +469,7 @@ get_header(); ?>
 
                                 <div class="form-check mb-3">
                                     <input class="form-check-input" type="radio"
-                                        name="countaudit_virtual_office_service" id="kt" value="kt">
+                                        name="countaudit-virtual-office-service" id="kt" value="kt">
                                     <label class="form-check-label" for="kt">
                                         觀塘 Kwun Tong
 
@@ -594,7 +594,8 @@ get_header(); ?>
 
                                 <div class="row align-items-center mt-3">
 
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label for="email">上載股東及董事資料文件
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12  mb-3"><label
+                                            for="upload-file-1">上載股東及董事資料文件
                                             *
                                             <br> <span class="small">(壓縮zip檔 15mb上限)<span></label>
                                     </div>
@@ -954,7 +955,14 @@ get_header(); ?>
             $contact_phone_number=$_POST['contact-phone-number'];
             $contact_name_chinese=$_POST['contact-name-chinese'];
             $contact_name_english=$_POST['contact-name-english'];
+
+            $countaudit_virtual_office_service=$_POST['countaudit-virtual-office-service'];
+            $other_registered_office=$_POST['other-registered-office'];
+            $business = $_POST['business'];
+            $service= $_POST['service'];
+            $other_business= $_POST['other-business'];
             
+
        
         }
     }
