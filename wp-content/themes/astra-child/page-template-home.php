@@ -720,7 +720,10 @@ get_header(); ?>
 
 
     <div class="container mt-5">
-        <?php
+
+        <div class="article-carousel">
+
+            <?php
         $categories = get_categories();
         foreach($categories as $category) {
             
@@ -740,33 +743,27 @@ get_header(); ?>
             while( $the_query->have_posts() ) {
                 $the_query->the_post(); 
                 ?>
-        <div class="article-container"><img class="w-100"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
-            <div class="white-bg blue  ps-4 pe-4 pb-4">
-                <h3 class="text-center blue pt-3"><?php echo get_the_title();?></h3>
-                <div class="pt-2 pb-3">
-                    <!-- 我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！ -->
-                    <?php echo get_the_excerpt();?>
-                </div>
+            <div class="article-container"><img class="w-100"
+                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                <div class="white-bg blue  ps-4 pe-4 pb-4">
+                    <h3 class="text-center blue pt-3"><?php echo get_the_title();?></h3>
+                    <div class="pt-2 pb-3">
+                        <!-- 我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！ -->
+                        <?php echo get_the_excerpt();?>
+                    </div>
 
-                <div class="text-end">
-                    <a href="#" class="article-read-more gold  small">Read More>></a>
+                    <div class="text-end">
+                        <a href="#" class="article-read-more gold  small">Read More>></a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <?php
+            <?php
             } 
 
-        // echo '<br>';
-        // print_r($category);
-        // echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name .
-                '</a></div>';
+            
         }
         ?>
-        <div class="article-carousel">
-
-
 
             <!-- 
                 <div class="article-container"><img class="w-100"
