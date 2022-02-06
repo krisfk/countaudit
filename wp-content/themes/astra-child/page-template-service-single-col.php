@@ -975,7 +975,7 @@ get_header(); ?>
 
             $post_title = $client_name.' application';
             $post_id = wp_insert_post(array (
-                'post_type' => 'com_sec_app_form',
+                'post_type' => 'incorp_limited_app',
                 'post_title' => $post_title,
                 'post_status' => 'publish',
                 'comment_status' => 'closed',   // if you prefer
