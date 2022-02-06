@@ -280,7 +280,7 @@ get_header(); ?>
                             </li>
                         </ul>
 
-                        <a href="<?php echo get_site_url();?>/銀行開戶-hsbc-企業帳號/"
+                        <a href="http://64.227.13.14/countaudit/銀行開戶-hsbc-企業帳號/"
                             class="blue-bg white know-more-btn mt-3">了解更多</a>
                         <div class="small-2">亦可聯絡我們詳議</div>
                     </div>
@@ -395,7 +395,7 @@ get_header(); ?>
                             </li>
                         </ul>
 
-                        <a href="<?php echo get_site_url();?>/s88牌申請-ngo-非牟利團體-慈善機構/"
+                        <a href="http://64.227.13.14/countaudit/s88牌申請-ngo-非牟利團體-慈善機構/"
                             class="blue-bg white know-more-btn mt-3">了解更多</a>
                         <div class="small-2">亦可聯絡我們詳議</div>
                     </div>
@@ -454,7 +454,7 @@ get_header(); ?>
                             </li>
                         </ul>
 
-                        <a href="<?php echo get_site_url();?>/審計服務%e2%80%8b/"
+                        <a href="http://64.227.13.14/countaudit/審計服務%e2%80%8b/"
                             class="blue-bg white know-more-btn mt-3">了解更多</a>
                         <div class="small-2">亦可聯絡我們詳議</div>
                     </div>
@@ -704,7 +704,7 @@ get_header(); ?>
                         <li> - 服務報價</li>
                     </ul>
 
-                    <a href="<?php echo get_site_url();?>/審計服務%e2%80%8b/"
+                    <a href="http://64.227.13.14/countaudit/審計服務%e2%80%8b/"
                         class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
 
                 </div>
