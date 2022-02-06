@@ -987,23 +987,23 @@ get_header(); ?>
                 add_post_meta($post_id, 'tel', $tel);
                 add_post_meta($post_id, 'email', $email);
                 add_post_meta($post_id, 'language', $language);
-                add_post_meta($post_id, 'is_billing_contact_person', $aaa);
-                add_post_meta($post_id, 'contact_person_name', $aaa);
-                add_post_meta($post_id, 'contact_person_phone_number', $aaa);
-                add_post_meta($post_id, 'company_name_chinese', $aaa);
-                add_post_meta($post_id, 'company_name_english', $aaa);
-                add_post_meta($post_id, 'use_countaudit_virtual_office', $aaa);
-                add_post_meta($post_id, 'business_nature', $aaa);
-                add_post_meta($post_id, 'business_service', $aaa);
-                add_post_meta($post_id, 'business_others', $aaa);
+                add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
+                add_post_meta($post_id, 'contact_person_name', $contact_name);
+                add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
+                add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
+                add_post_meta($post_id, 'company_name_english', $contact_name_english);
+                add_post_meta($post_id, 'use_countaudit_virtual_office', $countaudit_virtual_office_service);
+                add_post_meta($post_id, 'business_nature', $business);
+                add_post_meta($post_id, 'business_service', $service);
+                add_post_meta($post_id, 'business_others', $other_business);
                 // add_post_meta($post_id, 'custom_address_as_registered_office', $aaa);
                 // add_post_meta($post_id, 'shareholders_and_directors', $aaa);
-                add_post_meta($post_id, 'business_stamp', $aaa);
-                add_post_meta($post_id, 'virtual_office', $aaa);
-                add_post_meta($post_id, 'year_end_date', $aaa);
-                add_post_meta($post_id, 'other_year_end_date', $aaa);
-                add_post_meta($post_id, 'appoint_countaudit_to_provide_accounting_audit_services', $aaa);
-                add_post_meta($post_id, 'bank_account_opening_referral_services', $aaa);
+                add_post_meta($post_id, 'business_stamp', $business_stamp);
+                add_post_meta($post_id, 'virtual_office', $virtual_office);
+                add_post_meta($post_id, 'year_end_date', $year_end_date);
+                add_post_meta($post_id, 'other_year_end_date', $other_year_end_date);
+                add_post_meta($post_id, 'appoint_countaudit_to_provide_accounting_audit_services', $appoint_countaudit);
+                add_post_meta($post_id, 'bank_account_opening_referral_services', $bank_account_opening);
 
 
 
