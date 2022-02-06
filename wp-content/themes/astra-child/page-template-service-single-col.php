@@ -961,6 +961,18 @@ get_header(); ?>
             $business = $_POST['business'];
             $service= $_POST['service'];
             $other_business= $_POST['other-business'];
+      
+            //shareholders
+
+            //
+            $business_stamp = $_POST['business-stamp'];
+            $virtual_office = $_POST['virtual-office'];
+            $year_end_date = $_POST['year-end-date'];
+            $other_year_end_date=$_POST['other-year-end-date'];
+
+            $appoint_countaudit=$_POST['appoint-countaudit'];
+            $bank_account_opening= $_POST['bank-account-opening'];
+            
             
 
        
