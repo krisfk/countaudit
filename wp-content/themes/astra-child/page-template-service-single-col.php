@@ -945,7 +945,7 @@ get_header(); ?>
     if($_POST)
     {
         // applicant-position-1[]
-        print_r($_POST['applicant-position-1']);
+        // print_r($_POST['applicant-position 1-1']);
         if($_POST['form-type']=='incorp_limited_app')
         {
             $client_name = $_POST['client-name'];
@@ -1068,8 +1068,8 @@ get_header(); ?>
             applicant_fill_html +=
                 '<div class="row applicant-div mx-auto mb-3 "> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="language">' +
                 i +
-                '. 申請人身份 Applicant’s Position *</label> <div class="small">(請選擇最少其中一項 Choose at least one)</div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
-                i + '[]" id="shareholder' + i +
+                '. 申請人身份 Applicant’s Position *</label> <div class="small">(請選擇最少其中一項 Choose at least one)</div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-' +
+                i + '-position[]" id="shareholder' + i +
                 '" value="股東 Shareholder"> <label class="form-check-label" for="shareholder' + i +
                 '"> 股東 Shareholder </label> </div> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-position-' +
                 i + '[]" id="director-' + i +
