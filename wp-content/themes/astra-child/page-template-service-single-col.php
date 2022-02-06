@@ -950,7 +950,6 @@ get_header(); ?>
 
         if($_POST['form-type']=='incorp_limited_app')
         {
-            echo count($_POST['applicant-fill']);
 
 
             $client_name = $_POST['client-name'];
@@ -972,6 +971,11 @@ get_header(); ?>
             //shareholders
 
             //
+
+         
+
+
+
             $business_stamp = $_POST['business-stamp'];
             $virtual_office = $_POST['virtual-office'];
             $year_end_date = $_POST['year-end-date'];
@@ -1016,6 +1020,40 @@ get_header(); ?>
                 add_post_meta($post_id, 'appoint_countaudit_to_provide_accounting_audit_services', $appoint_countaudit);
                 add_post_meta($post_id, 'bank_account_opening_referral_services', $bank_account_opening);
 
+
+
+                for($i=1;$i<=count($_POST['applicant-fill']);$i++)
+                {
+    
+                    $applicant_position=$_POST['applicant-position-'.$i];
+                    $name_on_id_chinese=$_POST['name-on-id-chinese-'.$i];
+                    $name_on_id_english=$_POST['name-on-id-english-'.$i];
+                    $id_pass_co_no=$_POST['id-pass-co-no-'.$i];
+                    $percent_of_shares=$_POST['percent-of-shares-'.$i];
+                    $residential_address=$_POST['residential-address-'.$i];
+    
+                    add_row('applicant_position', $applicant_position, $post_id);
+                    add_row('applicant_name_chinese', $name_on_id_chinese, $post_id);
+                    add_row('applicant_name_english', $name_on_id_english, $post_id);
+                    add_row('applicant_id_passport_company_no', $id_pass_co_no, $post_id);
+                    add_row('percent_of_shares', $percent_of_shares, $post_id);
+                    add_row('residential_address', $residential_address, $post_id);
+    
+                    
+        //        [applicant-position-1] => Array
+        //     (
+        //         [0] => 股東 Shareholder
+        //         [1] => 董事 Director
+        //     )
+    
+        // [name-on-id-chinese-1] => 
+        // [name-on-id-english-1] => 
+        // [id-pass-co-no-1] => 
+        // [percent-of-shares-1] => 
+        // [residential-address-1] => 
+    
+                }
+                
 
 
             }
