@@ -1032,14 +1032,26 @@ get_header(); ?>
                     $percent_of_shares=$_POST['percent-of-shares-'.$i];
                     $residential_address=$_POST['residential-address-'.$i];
     
-                    add_row('applicant_position', $applicant_position, $post_id);
-                    add_row('applicant_name_chinese', $name_on_id_chinese, $post_id);
-                    add_row('applicant_name_english', $name_on_id_english, $post_id);
-                    add_row('applicant_id_passport_company_no', $id_pass_co_no, $post_id);
-                    add_row('percent_of_shares', $percent_of_shares, $post_id);
-                    add_row('residential_address', $residential_address, $post_id);
+                    // add_row('applicant_position', $applicant_position, $post_id);
+                    // add_row('applicant_name_chinese', $name_on_id_chinese, $post_id);
+                    // add_row('applicant_name_english', $name_on_id_english, $post_id);
+                    // add_row('applicant_id_passport_company_no', $id_pass_co_no, $post_id);
+                    // add_row('percent_of_shares', $percent_of_shares, $post_id);
+                    // add_row('residential_address', $residential_address, $post_id);
     
+                    $row = array(
+                        'applicant_position' => $applicant_position,
+                        'applicant_name_chinese'   => $name_on_id_chinese,
+                        'applicant_name_english'  => $name_on_id_english,
+                        'applicant_id_passport_company_no'  => $id_pass_co_no,
+                        'percent_of_shares'  => $percent_of_shares,
+                        'residential_address'  => $residential_address
+                        
+                    );
+
                     
+                    
+                    add_row('shareholders_and_directors',$row,$post_id);
         //        [applicant-position-1] => Array
         //     (
         //         [0] => 股東 Shareholder
