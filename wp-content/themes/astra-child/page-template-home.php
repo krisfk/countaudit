@@ -512,7 +512,8 @@ get_header(); ?>
                             </li>
                         </ul>
 
-                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <a href="http://64.227.13.14/countaudit/%e8%99%9b%e6%93%ac%e8%be%a6%e5%85%ac%e5%ae%a4%e5%87%ba%e7%a7%9f%e6%9c%8d%e5%8b%99/"
+                            class="blue-bg white know-more-btn mt-3">了解更多</a>
                         <div class="small-2">亦可聯絡我們詳議</div>
                     </div>
 
