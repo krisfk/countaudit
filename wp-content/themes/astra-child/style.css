@@ -349,6 +349,10 @@ img.scaled-image {
     text-decoration: none;
 }
 
+.read-more {
+    display: none;
+}
+
 .slick-dots {
     bottom: -3rem !important;
 }
