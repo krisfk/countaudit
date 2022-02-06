@@ -723,8 +723,32 @@ get_header(); ?>
         <?php
         $categories = get_categories();
         foreach($categories as $category) {
-            echo $category->slug;
-            echo '<br>';
+            
+            // echo $category->slug;
+
+            $slug = $category->slug;
+            $args = array(
+                'posts_per_page' => 1, 
+                'tax_query' => array( 
+                    'relation' => 'AND', 
+                    array( 
+                        'taxonomy' => 'product_cat', 
+                        'field' => 'slug', 
+                        'terms' => $slug 
+                    ) 
+                ), 
+                'post_type' => 'post', 
+                // 'orderby' => 'title', 
+            ); 
+            $the_query = new WP_Query( $args ); 
+
+            foreach ($the_query->posts as $key => $value) {
+                echo 1;
+                // print_r($value->ID); 
+            } 
+
+
+            // echo '<br>';
             // print_r($category);
         //    echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
         }
