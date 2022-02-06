@@ -1065,8 +1065,10 @@ get_header(); ?>
 
     function generate_fill_area(no_of_applicant, applicant_fill_html) {
         for (i = 1; i <= no_of_applicant; i++) {
+
+
             applicant_fill_html +=
-                '<div class="row applicant-div mx-auto mb-3 "> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="language">' +
+                '<div class="row applicant-div mx-auto mb-3 "><input type="hidden" name="applicant-fill[]" value="1"><div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="language">' +
                 i +
                 '. 申請人身份 Applicant’s Position *</label> <div class="small">(請選擇最少其中一項 Choose at least one)</div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <div class="form-check"> <input class="form-check-input" type="checkbox" name="applicant-' +
                 i + '-position[]" id="shareholder' + i +
