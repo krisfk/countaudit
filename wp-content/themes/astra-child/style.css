@@ -915,7 +915,9 @@ a.gold.no-deco:hover {
 }
 
 a.mail,
-a.mail:hover {
+a.mail:hover,
+a.tel,
+a.tel:hover {
     color: #fff;
     text-decoration: none;
 }
