@@ -196,7 +196,7 @@ get_header(); ?>
                 <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2.png" alt="">
                 </div>
                 <div>
-                    <a href="mailto:info@countaudit.hk" target="_blank">info@countaudit.hk</a>
+                    <a href="mailto:info@countaudit.hk" target="_blank" class="mail">info@countaudit.hk</a>
 
 
 
