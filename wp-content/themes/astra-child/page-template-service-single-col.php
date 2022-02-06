@@ -972,6 +972,42 @@ get_header(); ?>
 
             $appoint_countaudit=$_POST['appoint-countaudit'];
             $bank_account_opening= $_POST['bank-account-opening'];
+
+            $post_title = $client_name.' application';
+            $post_id = wp_insert_post(array (
+                'post_type' => 'com_sec_app_form',
+                'post_title' => $post_title,
+                'post_status' => 'publish',
+                'comment_status' => 'closed',   // if you prefer
+                'ping_status' => 'closed',      // if you prefer
+            ));   
+
+            if ($post_id) {
+                add_post_meta($post_id, 'name', $client_name);
+                add_post_meta($post_id, 'tel', $tel);
+                add_post_meta($post_id, 'email', $email);
+                add_post_meta($post_id, 'language', $language);
+                add_post_meta($post_id, 'is_billing_contact_person', $aaa);
+                add_post_meta($post_id, 'contact_person_name', $aaa);
+                add_post_meta($post_id, 'contact_person_phone_number', $aaa);
+                add_post_meta($post_id, 'company_name_chinese', $aaa);
+                add_post_meta($post_id, 'company_name_english', $aaa);
+                add_post_meta($post_id, 'use_countaudit_virtual_office', $aaa);
+                add_post_meta($post_id, 'business_nature', $aaa);
+                add_post_meta($post_id, 'business_service', $aaa);
+                add_post_meta($post_id, 'business_others', $aaa);
+                // add_post_meta($post_id, 'custom_address_as_registered_office', $aaa);
+                // add_post_meta($post_id, 'shareholders_and_directors', $aaa);
+                add_post_meta($post_id, 'business_stamp', $aaa);
+                add_post_meta($post_id, 'virtual_office', $aaa);
+                add_post_meta($post_id, 'year_end_date', $aaa);
+                add_post_meta($post_id, 'other_year_end_date', $aaa);
+                add_post_meta($post_id, 'appoint_countaudit_to_provide_accounting_audit_services', $aaa);
+                add_post_meta($post_id, 'bank_account_opening_referral_services', $aaa);
+
+
+
+            }
             
             
 
