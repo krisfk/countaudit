@@ -395,7 +395,8 @@ get_header(); ?>
                             </li>
                         </ul>
 
-                        <a href="#" class="blue-bg white know-more-btn mt-3">了解更多</a>
+                        <a href="<?php echo get_site_url();?>/s88牌申請-ngo-非牟利團體-慈善機構/"
+                            class="blue-bg white know-more-btn mt-3">了解更多</a>
                         <div class="small-2">亦可聯絡我們詳議</div>
                     </div>
 
