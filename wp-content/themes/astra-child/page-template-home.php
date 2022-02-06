@@ -753,7 +753,7 @@ get_header(); ?>
                     </div>
 
                     <div class="text-end">
-                        <a href="#" class="article-read-more gold  small">Read More>></a>
+                        <a href="<?php echo get_permalink();?>" class="article-read-more gold  small">Read More>></a>
                     </div>
                 </div>
             </div>
