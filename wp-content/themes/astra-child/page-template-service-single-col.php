@@ -945,9 +945,14 @@ get_header(); ?>
     if($_POST)
     {
         // applicant-position-1[]
-        print_r($_POST);
+        // print_r($_POST);
+        
+
         if($_POST['form-type']=='incorp_limited_app')
         {
+            echo count($_POST['applicant-fill']);
+
+
             $client_name = $_POST['client-name'];
             $tel = $_POST['tel'];
             $email = $_POST['email'];
