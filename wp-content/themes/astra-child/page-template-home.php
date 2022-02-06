@@ -742,7 +742,7 @@ get_header(); ?>
 
             while( $the_query->have_posts() ) {
                 $the_query->the_post();
-                echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'single-post-thumbnail' );  
+                echo wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'single-post-thumbnail' );  
                 ?>
             <div class="article-container"><img class="w-100"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
