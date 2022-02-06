@@ -208,7 +208,9 @@ get_header(); ?>
                 <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3.png" alt="">
                 </div>
                 <div>
-                    +852 6519 4755</div>
+                    <a href=""></a>
+                    +852 6519 4755
+                </div>
             </li>
         </ul>
     </div>
@@ -720,7 +722,8 @@ get_header(); ?>
     <div class="container mt-5">
         <div class="article-carousel">
 
-            <div class="article-container"><img class="w-100"
+            <!-- 
+                <div class="article-container"><img class="w-100"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
                     <h3 class="text-center blue pt-3">僱員僱主文章</h3>
@@ -767,6 +770,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
+         -->
 
 
         </div>
