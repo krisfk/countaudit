@@ -993,6 +993,10 @@ get_header(); ?>
                 add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
                 add_post_meta($post_id, 'company_name_english', $contact_name_english);
                 add_post_meta($post_id, 'use_countaudit_virtual_office', $countaudit_virtual_office_service);
+                add_post_meta($post_id, 'custom_address_as_registered_office', $other_registered_office);
+
+                
+
                 add_post_meta($post_id, 'business_nature', $business);
                 add_post_meta($post_id, 'business_service', $service);
                 add_post_meta($post_id, 'business_others', $other_business);
