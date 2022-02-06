@@ -722,6 +722,13 @@ get_header(); ?>
     <div class="container mt-5">
         <div class="article-carousel">
 
+
+            <?php
+        $categories = get_categories();
+        foreach($categories as $category) {
+           echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+        }
+        ?>
             <!-- 
                 <div class="article-container"><img class="w-100"
                     src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
