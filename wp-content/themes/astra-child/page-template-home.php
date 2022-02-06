@@ -742,10 +742,11 @@ get_header(); ?>
 
             while( $the_query->have_posts() ) {
                 $the_query->the_post();
-                echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'single-post-thumbnail' )[0];  
+              
                 ?>
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                    src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'single-post-thumbnail' )[0];?>"
+                    alt="">
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
                     <h3 class="text-center blue pt-3"><?php echo get_the_title();?></h3>
                     <div class="pt-2 pb-3">
