@@ -137,6 +137,115 @@ get_header(); ?>
 
                 <?php echo get_field('bottom_form');?>
 
+                <!---
+<h4 class="text-center lh-base">Quotation Form of Accounting Service
+會計服務報價表</h4>
+<form id="form" action="" enctype="multipart/form-data" method="post"><input id="form-type" name="form-type" type="hidden" value="accounting_q_form" />
+<div class="form-div white-bg mt-4">
+<div class="row align-items-center">
+<div class="col-12">
+<h4 class="text-center mb-4">Contact Information 聯絡資料</h4>
+</div>
+</div>
+<div class="row align-items-center">
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="client-name">Name 姓名:</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="client-name" class="form-control" name="client-name" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="tel">Tel 電話:</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="tel" class="form-control" name="tel" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="email">E-mail 電郵:</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="email" class="form-control" name="email" type="text" /></div>
+<div class="col-12 mt-4">
+<h4 class="text-center mb-4">Company Information 公司資料</h4>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="company-name">Company name 公司名稱</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="company-name" class="form-control" name="company-name" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="principal-activities">Principal activities 主要業務</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3 mb-3"><input id="principal-activities" class="form-control" name="principal-activities" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="performed-audit-before">Has performed audit before? 是否曾進行核數</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="performed-audit-before-yes" class="form-check-input" name="performed-audit-before" type="radio" value="yes" /> <label class="form-check-label" for="performed-audit-before-yes"> Yes </label></div>
+<div class="form-check"><input id="performed-audit-before-no" class="form-check-input" name="performed-audit-before" type="radio" value="no" /> <label class="form-check-label" for="performed-audit-before-no"> No </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="year-ended-date"> If Yes, please provide the related year ended date
+如是，請提供相關年結日</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="year-ended-date" class="form-control" name="year-ended-date" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="declared-profits-tax-before">Has declared profits tax before?
+是否曾申報利得稅</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="declared-profits-tax-before-yes" class="form-check-input" name="declared-profits-tax-before" type="radio" value="yes" /> <label class="form-check-label" for="declared-profits-tax-before-yes"> Yes </label></div>
+<div class="form-check"><input id="declared-profits-tax-before-no" class="form-check-input" name="declared-profits-tax-before" type="radio" value="no" /> <label class="form-check-label" for="declared-profits-tax-before-no"> No </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="year-assessment"> If Yes, please provide the related year of assessment
+如是，請提供相關課稅年度</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="year-assessment" class="form-control" name="year-assessment" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="done-accounting-before">Has done accounting before?
+是否曾做會計帳</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="done-accounting-before-yes" class="form-check-input" name="done-accounting-before" type="radio" value="yes" /> <label class="form-check-label" for="done-accounting-before-yes"> Yes </label></div>
+<div class="form-check"><input id="done-accounting-before-no" class="form-check-input" name="done-accounting-before" type="radio" value="no" /> <label class="form-check-label" for="done-accounting-before-no"> No </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="year-ended-date-2"> If Yes, please provide the related year ended date
+如是，請提供相關年結日</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="year-ended-date-2" class="form-control" name="year-ended-date-2" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="reporting-frequency">Reporting Frequency
+會計匯報頻率</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="reporting-frequency-monthly" class="form-check-input" name="reporting-frequency" type="radio" value="monthly" /> <label class="form-check-label" for="reporting-frequency-monthly"> 每月 Monthly </label></div>
+<div class="form-check"><input id="reporting-frequency-quarterly" class="form-check-input" name="reporting-frequency" type="radio" value="quarterly" /> <label class="form-check-label" for="reporting-frequency-quarterly"> 每季 Quarterly </label></div>
+<div class="form-check"><input id="reporting-frequency-yearly" class="form-check-input" name="reporting-frequency" type="radio" value="yearly" /> <label class="form-check-label" for="reporting-frequency-yearly"> 每年 Yearly </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="excel-for-business-records"> Has done Excel for business records?
+有否做Excel營業記錄？ </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="excel-for-business-records-yes" class="form-check-input" name="excel-for-business-records" type="radio" value="yes" /> <label class="form-check-label" for="excel-for-business-records-yes"> Yes </label></div>
+<div class="form-check"><input id="excel-for-business-records-no" class="form-check-input" name="excel-for-business-records" type="radio" value="no" /> <label class="form-check-label" for="excel-for-business-records-no"> No </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="excel-file">if Yes, please upload
+如有，請上載</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="excel-file" class="form-control" name="excel-file" type="file" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="way-of-sorting-receipts"> Way of sorting and keeping receipts
+整理單據的方式
+e.g. Scanning / taking picture / sorted by folder / unsorted
+例如電子掃描//拍照/分類袋分類/沒有任何分類 </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="way-of-sorting-receipts" class="form-control" name="way-of-sorting-receipts" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="total-turnover-yearly"> Total Turnover (yearly) 全年總營業額 </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="total-turnover-yearly" class="form-control" name="total-turnover-yearly" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="any-stock">Any stock? 有否存貨?</label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="any-stock-yes" class="form-check-input" name="any-stock" type="radio" value="yes" /> <label class="form-check-label" for="any-stock-yes"> Yes </label></div>
+<div class="form-check"><input id="any-stock-no" class="form-check-input" name="any-stock" type="radio" value="no" /> <label class="form-check-label" for="any-stock-no"> No </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="no-of-bank-used"> No. of bank used
+使用銀行的數量 </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="no-of-bank-used" class="form-control" name="no-of-bank-used" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="no-of-bank-transactions-monthly"> No. of bank transactions (monthly)
+每月經銀行交易的數量 </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="no-of-bank-transactions-monthly" class="form-control" name="no-of-bank-transactions-monthly" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="any-property"> Any property?
+有否物業? </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="any-property-yes" class="form-check-input" name="any-property" type="radio" value="yes" /> <label class="form-check-label" for="any-property-yes"> Yes </label></div>
+<div class="form-check"><input id="any-property-no" class="form-check-input" name="any-property" type="radio" value="no" /> <label class="form-check-label" for="any-property-no"> No </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="any-motor-vehicle"> Any motor vehicle?
+有否車輛? </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+<div class="form-check"><input id="any-motor-vehicle-yes" class="form-check-input" name="any-motor-vehicle" type="radio" value="yes" /> <label class="form-check-label" for="any-motor-vehicle-yes"> Yes </label></div>
+<div class="form-check"><input id="any-motor-vehicle-no" class="form-check-input" name="any-motor-vehicle" type="radio" value="no" /> <label class="form-check-label" for="any-motor-vehicle-no"> No </label></div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="no-of-loans-hire-purchases"> No. of loans / hire purchases
+貸款/分期付款數目 </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="no-of-loans-hire-purchases" class="form-control" name="no-of-loans-hire-purchases" type="text" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="no-of-employees"> No. of employees
+員工人數 </label></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="no-of-employees" class="form-control" name="no-of-employees" type="text" /></div>
+<div class="text-center mt-3"><input class="form-submit-btn" type="submit" value="Submit" /></div>
+</div>
+</div>
+</form>
+
+            -->
+
 
                 <!-- <h4 class="text-center lh-base"> Company Secretary in Hong Kong Application Form<br> 香港公司秘書服務計劃申請表 </h4>
 
