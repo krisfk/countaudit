@@ -596,7 +596,10 @@ get_header(); ?>
 </div> -->
 <div class="mb-5">
 
-    <div class="container">
+    <?php echo get_field('content_5');?>
+
+
+    <!-- <div class="container">
 
         <div class="row mt-4 align-items-center  justify-content-center">
 
@@ -727,7 +730,7 @@ get_header(); ?>
         </div>
 
 
-    </div>
+    </div> -->
 
 
 </div>
