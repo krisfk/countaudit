@@ -343,7 +343,7 @@ get_header(); ?>
                             </li>
                         </ul>
 
-                        <a href="<?php echo get_site_url()?>/services/審計服務%e2%80%8b/"
+                        <a href="http://64.227.13.14/countaudit/services/審計服務%e2%80%8b/"
                             class="blue-bg white know-more-btn mt-3">了解更多</a>
                         <div class="small-2">亦可聯絡我們詳議</div>
                     </div>
@@ -844,7 +844,7 @@ get_header(); ?>
 
 
 </div>
-
+<?php //echo get_field('content_6');?>
 <!-- <div class="container">
 
     <div class="mt-5">
@@ -907,7 +907,7 @@ get_header(); ?>
     </div>
 
 </div> -->
-fdsf
+
 <?php echo get_field('content_6');?>
 
 <div class="grey-bg-2 mt-5">
