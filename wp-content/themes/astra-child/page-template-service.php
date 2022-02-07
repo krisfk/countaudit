@@ -11,10 +11,6 @@
 
 get_header(); ?>
 
-<form action="" method="post">
-    <input type="text" name="hello">
-    <input type="submit" value="test">
-</form>
 <div class="main-banner">
 
 
@@ -35,6 +31,11 @@ get_header(); ?>
 
 </div>
 
+
+<form action="" method="post">
+    <input type="text" name="hello">
+    <input type="submit" value="test">
+</form>
 
 <div class="container banner-bottom-blue-container">
 
