@@ -32,9 +32,9 @@ get_header(); ?>
 </div>
 
 
-<form action="" method="post">
+<form action="" id="abc" method="post">
     <input type="text" name="hello" class="form-control" required>
-    <input type="submit" value="test">
+    <!-- <input type="submit" value="test"> -->
 </form>
 
 <div class="container banner-bottom-blue-container">
