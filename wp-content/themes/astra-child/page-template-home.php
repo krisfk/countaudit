@@ -598,7 +598,6 @@ get_header(); ?>
 
     <?php echo get_field('content_5');?>
 
-    <?php echo get_field('content_6');?>
 
     <!-- <div class="container">
 
@@ -745,6 +744,10 @@ get_header(); ?>
         <div class="article-carousel">
 
             <?php
+
+            $content_6= get_field('content_6');
+
+
         $categories = get_categories();
         foreach($categories as $category) {
             
@@ -845,8 +848,8 @@ get_header(); ?>
 
 
 </div>
-<?php //echo get_field('content_6');?>
-<div class="container">
+<?php echo $content_6;?>
+<!-- <div class="container">
 
     <div class="mt-5">
         <h4 class="gold text-center">//其他人是怎樣看的？
@@ -907,7 +910,7 @@ get_header(); ?>
 
     </div>
 
-</div>
+</div> -->
 
 <?php //echo get_field('content_6');?>
 
