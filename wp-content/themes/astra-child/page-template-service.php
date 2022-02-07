@@ -33,7 +33,7 @@ get_header(); ?>
 
 
 <form action="" method="post">
-    <input type="text" name="hello" class="form-control">
+    <input type="text" name="hello" class="form-control" required>
     <input type="submit" value="test">
 </form>
 
