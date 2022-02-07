@@ -38,9 +38,12 @@ get_header(); ?>
         <h3 class="white text-center">We'd Love To Meet You <br>And Let You The Perfect Solution</h3>
 
         <ul class="gold-btn-ul">
-            <li> <a class="gold-btn" href="javascript:void(0);"> SCHEDULE A MEETING</a></li>
-            <li><a class="gold-btn" href="javascript:void(0);">CONTACT US</a></li>
-            <li><a class="gold-btn" href="javascript:void(0);">DOWNLOAD BROCHURE</a></li>
+
+            <li> <a class="gold-btn" href="http://64.227.13.14/countaudit/contact-us/"> SCHEDULE A MEETING</a></li>
+            <li><a class="gold-btn" href="http://64.227.13.14/countaudit/contact-us/">CONTACT US</a></li>
+            <li><a class="gold-btn"
+                    href="http://64.227.13.14/countaudit/wp-content/uploads/2022/02/CountAudit-Service-Brochure.pdf">DOWNLOAD
+                    BROCHURE</a></li>
         </ul>
         <!-- <div class="text-end gold small">CountAudit宗旨</div> -->
     </div>
