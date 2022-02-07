@@ -845,7 +845,7 @@ get_header(); ?>
 
 </div>
 <?php //echo get_field('content_6');?>
-<!-- <div class="container">
+<div class="container">
 
     <div class="mt-5">
         <h4 class="gold text-center">//其他人是怎樣看的？
@@ -906,9 +906,9 @@ get_header(); ?>
 
     </div>
 
-</div> -->
+</div>
 
-<?php echo get_field('content_6');?>
+<?php //echo get_field('content_6');?>
 
 <div class="grey-bg-2 mt-5">
 
