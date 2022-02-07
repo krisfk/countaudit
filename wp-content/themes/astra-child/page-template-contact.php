@@ -107,7 +107,7 @@ get_header(); ?>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
-                <div class="form-div white-bg contact-form-div">
+                <!-- <div class="form-div white-bg contact-form-div">
 
                     <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
@@ -119,7 +119,26 @@ get_header(); ?>
                         <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
                     </div>
 
-                </div>
+                </div> -->
+                <form id="form" action="" method="post"> <input type="hidden" name="form-type" value="general_enquiry">
+                    <div class="form-div white-bg contact-form-div"> <input type="text" class="form-control"
+                            placeholder="如何稱呼您？*" name="client-name" required> <input type="text" class="form-control"
+                            placeholder="聯絡電話" name="tel"> <input type="text" class="form-control" placeholder="電郵*"
+                            required name="email" required> <select required name="enquiry-type" id="enquiry-type"
+                            class="form-control">
+                            <option value="">查詢類別*</option>
+                            <option value="稅務">稅務</option>
+                            <option value="會計">會計</option>
+                            <option value="審計">審計</option>
+                            <option value="成立公司">成立公司</option>
+                            <option value="管理公司">管理公司</option>
+                            <option value="僱傭條例">僱傭條例</option>
+                            <option value="其他">其他</option>
+                        </select> <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="簡短留言"
+                            name="message"></textarea>
+                        <div class="text-end"> <input type="submit" value="服務報價" class="form-submit-btn"></div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
