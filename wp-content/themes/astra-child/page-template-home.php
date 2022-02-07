@@ -615,7 +615,8 @@ get_header(); ?>
                         <li>- 資助申請</li>
                     </ul>
 
-                    <a href="#" class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+                    <a href="http://64.227.13.14/countaudit/services/%e5%af%a9%e8%a8%88%e6%9c%8d%e5%8b%99%e2%80%8b/"
+                        class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
 
                 </div>
             </div>
@@ -647,7 +648,8 @@ get_header(); ?>
 
                     </ul>
 
-                    <a href="#" class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+                    <a href="http://64.227.13.14/countaudit/services/%e7%a8%85%e5%8b%99%e7%94%b3%e5%a0%b1%e6%9c%8d%e5%8b%99/"
+                        class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
 
                 </div>
 
@@ -675,7 +677,8 @@ get_header(); ?>
 
                     </ul>
 
-                    <a href="#" class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+                    <a href="http://64.227.13.14/countaudit/services/%e5%85%ac%e5%8f%b8%e7%a7%98%e6%9b%b8%e6%9c%8d%e5%8b%99/"
+                        class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
 
                 </div>
 
@@ -707,7 +710,7 @@ get_header(); ?>
                     </ul>
 
                     <a href="http://64.227.13.14/countaudit/審計服務%e2%80%8b/"
-                        class="blue-bg white know-more-btn mt-4 quote-btn">服務報價</a>
+                        class="blue-bg white know-more-btn mt-4 quote-btn d-none">服務報價</a>
 
                 </div>
             </div>
