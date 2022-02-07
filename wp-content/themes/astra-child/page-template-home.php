@@ -183,7 +183,8 @@ get_header(); ?>
 
 <div class="mt-4 blue-bg">
 
-    <div class="container contact-container pt-5 pb-5">
+    <?php echo get_field('content_3');?>
+    <!-- <div class="container contact-container pt-5 pb-5">
         <h2 class="text-center white">聯絡我們</h2>
 
         <ul class="contact-ul text-center p-0 mt-4 ms-0">
@@ -216,7 +217,7 @@ get_header(); ?>
                 </div>
             </li>
         </ul>
-    </div>
+    </div> -->
 </div>
 
 
