@@ -13,7 +13,7 @@ get_header(); ?>
 
 <form action="" method="post">
     <input type="text" name="hello">
-    <input type="submit">
+    <input type="submit" value="test">
 </form>
 <div class="main-banner">
 
