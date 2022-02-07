@@ -746,6 +746,8 @@ get_header(); ?>
             <?php
 
             $content_6= get_field('content_6');
+            $content_7= get_field('content_7');
+            $content_8= get_field('content_8');
 
 
         $categories = get_categories();
@@ -921,7 +923,8 @@ get_header(); ?>
         <div class="row pt-lg-0 pt-md-0 pt-sm-5  pt-5  mt-5 align-items-center">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
-                <div>
+                <?php echo $content_7;?>
+                <!-- <div>
                     <h2 class="blue">聯絡我們</h2>
 
                     <table class="border-0 contact-table">
@@ -953,15 +956,18 @@ get_header(); ?>
                             <td>
                                 <a href="mailto:info@countaudit.hk" target="_blank">info@countaudit.hk</a>
 
-                                <!--  -->
                             </td>
                         </tr>
                     </table>
-                </div>
+                </div> -->
+
+
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
-                <div class="form-div white-bg contact-form-div">
+                <?php echo $content_8;?>
+
+                <!-- <div class="form-div white-bg contact-form-div">
 
                     <input type="text" class="form-control" placeholder="如何稱呼您？">
                     <input type="text" class="form-control" placeholder="聯絡電話">
@@ -973,7 +979,7 @@ get_header(); ?>
                         <a href="#" class="blue-bg white submit-btn mt-3">服務報價</a>
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
