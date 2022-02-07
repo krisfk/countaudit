@@ -598,6 +598,7 @@ get_header(); ?>
 
     <?php echo get_field('content_5');?>
 
+    <?php echo get_field('content_6');?>
 
     <!-- <div class="container">
 
