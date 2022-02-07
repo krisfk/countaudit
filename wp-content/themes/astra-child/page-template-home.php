@@ -221,7 +221,9 @@ get_header(); ?>
 </div>
 
 
-<div class="container">
+<?php echo get_field('content_4');?>
+
+<!-- <div class="container">
 
     <div class="mt-5">
         <h4 class="gold text-center"> //全方位解決所有商業問題
@@ -591,7 +593,7 @@ get_header(); ?>
 
 
 
-</div>
+</div> -->
 <div class="mb-5">
 
     <div class="container">
