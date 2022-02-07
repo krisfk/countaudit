@@ -66,11 +66,14 @@ get_header(); ?>
 
                 </div>
                 <ul class="member-sm-ul p-0 mt-3 ms-0 me-0">
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-1.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-1.png"
                                 alt=""></a></li>
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-2.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-2.png"
                                 alt=""></a></li>
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-3.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-3.png"
                                 alt=""></a></li>
                 </ul>
 
@@ -96,11 +99,14 @@ get_header(); ?>
 
                 </div>
                 <ul class="member-sm-ul p-0 mt-3 ms-0 me-0">
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-1.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-1.png"
                                 alt=""></a></li>
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-2.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-2.png"
                                 alt=""></a></li>
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-3.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-3.png"
                                 alt=""></a></li>
                 </ul>
                 <div class="respon  white">
@@ -125,11 +131,14 @@ get_header(); ?>
 
                 </div>
                 <ul class="member-sm-ul p-0 mt-3 ms-0 me-0">
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-1.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-1.png"
                                 alt=""></a></li>
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-2.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-2.png"
                                 alt=""></a></li>
-                    <li><a href="#"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-3.png"
+                    <li><a href="http://64.227.13.14/countaudit/%e7%ae%97%e6%95%b8-countaudit/about/"><img
+                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/sm-icon-3.png"
                                 alt=""></a></li>
                 </ul>
                 <div class="respon  white">
