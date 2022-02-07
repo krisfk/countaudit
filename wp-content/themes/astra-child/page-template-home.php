@@ -72,8 +72,9 @@ get_header(); ?>
 <?php echo get_field('banners');?>
 
 <div class="container home-pts-ul-wrapper-container">
+    <?php echo get_field('content_1');?>
 
-    <ul class="home-pts-ul  p-0 ">
+    <!-- <ul class="home-pts-ul  p-0 ">
         <li>
             <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png"
                 alt="">
@@ -97,7 +98,7 @@ get_header(); ?>
             實用資訊文章 <br>
             舉辦講座工作坊
         </li>
-    </ul>
+    </ul> -->
 
 </div>
 
