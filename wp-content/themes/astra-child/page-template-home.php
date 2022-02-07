@@ -103,8 +103,9 @@ get_header(); ?>
 </div>
 
 <div class="container mt-5">
+    <?php echo get_field('content_2');?>
 
-    <div class="row justify-content-center">
+    <!-- <div class="row justify-content-center">
 
         <div class="col-lg-5 col-md-10 col-sm-10 col-10  pb-5">
 
@@ -176,7 +177,7 @@ get_header(); ?>
                 </tr>
             </table>
         </div>
-    </div>
+    </div> -->
 </div>
 
 
