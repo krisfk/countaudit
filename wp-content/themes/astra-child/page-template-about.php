@@ -362,7 +362,7 @@ get_header(); ?>
     <div class="text-center pt-5 pb-5">
         <div class="about-slogan blue">Our Team Of Experts <br>
             Are Here For You</div>
-        <a href="javascript:void(0);" class="meet-them-btn gold-bg white">Meet Them</a>
+        <a href="http://64.227.13.14/countaudit/contact-us/" class="meet-them-btn gold-bg white">Meet Them</a>
     </div>
 </div>
 
