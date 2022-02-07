@@ -449,6 +449,8 @@ img.scaled-image {
     border-radius: 1rem;
     margin: 0 0 1rem 0;
     background: #f6f6f6;
+    padding: 0.75em;
+    border-color: #eaeaea;
 }
 
 .form-div textarea {
