@@ -1225,6 +1225,19 @@ get_header(); ?>
 
         });
 
+        $('.service-contact-btn').click(function() {
+
+
+            $("html, body").animate({
+                scrollTop: $('.contact-form-container').offset().top
+            }, 200);
+
+
+
+
+        })
+
+
 
 
 
