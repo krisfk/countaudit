@@ -81,3 +81,12 @@ function add_slug_body_class( $classes ) {
 	return $classes;
 	}
 	add_filter( 'body_class', 'add_slug_body_class' );
+
+
+add_filter('pll_get_post_types', 'unset_cpt_pll', 10, 2);
+function unset_cpt_pll( $post_types, $is_settings ) {
+
+    $post_types['acf'] = 'acf';
+
+    return $post_types;
+}
