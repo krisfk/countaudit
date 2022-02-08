@@ -83,10 +83,45 @@ function add_slug_body_class( $classes ) {
 	add_filter( 'body_class', 'add_slug_body_class' );
 
 
-add_filter('pll_get_post_types', 'unset_cpt_pll', 10, 2);
-function unset_cpt_pll( $post_types, $is_settings ) {
+// add_filter('pll_get_post_types', 'unset_cpt_pll', 10, 2);
+// function unset_cpt_pll( $post_types, $is_settings ) {
 
-    $post_types['acf'] = 'acf';
+//     $post_types['acf'] = 'acf';
 
-    return $post_types;
-}
+//     return $post_types;
+// }
+
+
+class ACF_Page_Type_Polylang {
+
+	// Whether we hooked page_on_front
+	private $filtered = false;
+  
+	public function __construct() {
+  
+		add_filter( 'acf/location/rule_match/page_type', array( $this, 'hook_page_on_front' ) );
+	}
+  
+	public function hook_page_on_front( $match ) {
+  
+		// Abort if polylang not activated
+		if ( !function_exists( 'pll_get_post' ) ) {
+		   return $match;
+		}
+  
+		// Get the main language front page 
+		$front_page = (int) get_option('page_on_front');
+  
+		// Get the translated page of the curent language
+		$translated_page = pll_get_post($front_page);
+  
+		// Check if it's the same as the current page and set match to true if so
+		if($translated_page === get_the_id()) {
+		  $match = true;
+		}
+  
+		return $match;
+	}
+  }
+  
+  new ACF_Page_Type_Polylang();
