@@ -71,7 +71,7 @@ function wp_get_menu_array($current_menu='Main Menu') {
 	return $menu;
 
 }
-
+// 
 //Page Slug Body Class
 function add_slug_body_class( $classes ) {
 	global $post;
