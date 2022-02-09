@@ -1005,6 +1005,18 @@ get_header(); ?>
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
+
+    $('.home-big-point-content ul li a').click(function() {
+
+        $(this).toggleClass('active');
+        if ($(this).hasClass('active')) {
+
+            $(this).next('.expand-cnt').slideDown(200);
+        }
+
+
+    })
+
     $('.article-carousel').slick({
         infinite: true,
         // slidesToShow: 3,
