@@ -296,7 +296,7 @@ get_header(); ?>
 <div class="container mt-5 mb-5">
 
 
-    <div class="row justify-content-center gx-5 align-items-center">
+    <!-- <div class="row justify-content-center gx-5 align-items-center">
         <div class="col-lg-4 col-md-4 col-sm-10 col-10 ">
             <div class="img-shadow-div grey-bg p-3">
 
@@ -325,7 +325,8 @@ get_header(); ?>
 
             </div>
         </div>
-    </div>
+    </div> -->
+    <?php echo get_field('content_4');?>
 
 
 
