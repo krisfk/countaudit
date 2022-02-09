@@ -751,7 +751,7 @@ get_header(); ?>
 
 
             global $sitepress;
-            echo ICL_LANGUAGE_CODE;
+            $current_lang= ICL_LANGUAGE_CODE;
             // $sitepress->switch_lang('en');
             // echo get_cat_name($fr_cat_id); // get_cat_name($en_cat_id); also work
             $sitepress->switch_lang('zh-hant');
@@ -800,7 +800,7 @@ get_header(); ?>
             
         }
 
-        // $sitepress->switch_lang('zh-hant');
+        $sitepress->switch_lang($current_lang);
 
 
         ?>
