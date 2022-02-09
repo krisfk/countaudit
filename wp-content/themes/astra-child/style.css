@@ -376,6 +376,10 @@ img.scaled-image {
     color: #363e51;
 }
 
+.home-big-point-content ul li a .fa {
+    margin: 0 1rem 0 0;
+}
+
 .home-big-point-content .big-num {
     font-size: 4rem;
     font-weight: bold;
