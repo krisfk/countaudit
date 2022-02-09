@@ -950,6 +950,10 @@ a.tel:hover {
     color: #f6c782;
 }
 
+.expand-cnt {
+    display: block;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
