@@ -29,7 +29,7 @@ get_header(); ?>
 </div>
 
 
-<div class="container contact-pts-ul-wrapper-container">
+<!-- <div class="container contact-pts-ul-wrapper-container">
 
     <ul class="contact-pts-ul  p-0 ">
         <li>
@@ -77,12 +77,16 @@ get_header(); ?>
 
     </ul>
 
-</div>
+</div> -->
 
-<iframe class="map-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+
+<?php echo get_field('content_1');?>
+
+<!-- <iframe class="map-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
     src="https://maps.google.com/maps?q=CountAudit%20Secretarial%20Limited&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
-    aria-label="CountAudit Secretarial Limited"></iframe>
+    aria-label="CountAudit Secretarial Limited"></iframe> -->
 
+<?php echo get_field('content_2');?>
 
 
 
