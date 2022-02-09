@@ -408,6 +408,10 @@ img.scaled-image {
     /* margin: 0 1rem; */
 }
 
+.client-comment-div a {
+    text-decoration: none;
+}
+
 .grey-bg-2 {
     background: #d2d4da;
 }
