@@ -412,6 +412,11 @@ img.scaled-image {
     text-decoration: none;
 }
 
+.client-comment-div p {
+    margin: 0;
+    padding: 0;
+}
+
 .grey-bg-2 {
     background: #d2d4da;
 }
