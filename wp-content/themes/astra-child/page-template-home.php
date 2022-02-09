@@ -1012,6 +1012,9 @@ $(function() {
         if ($(this).hasClass('active')) {
 
             $(this).next('.expand-cnt').slideDown(200);
+        } else {
+            $(this).next('.expand-cnt').slideUp(200);
+
         }
 
 

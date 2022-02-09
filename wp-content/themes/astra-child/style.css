@@ -379,6 +379,7 @@ img.scaled-image {
 
 .home-big-point-content ul li a i.fas {
     margin: 0 0.5rem 0 0;
+    transition: 0.2s all;
 }
 
 .home-big-point-content ul li a.active i.fas {
