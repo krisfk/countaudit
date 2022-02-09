@@ -764,7 +764,7 @@ get_header(); ?>
             // echo $category->slug;
 
             $slug = $category->slug;
-    print_r($category);            
+    // print_r($category);            
            
             $args = array(
                 'post_type' => 'post',
@@ -779,7 +779,10 @@ get_header(); ?>
                 $the_query->the_post();
               
                 ?>
-            <div class="article-container"><img class="w-100"
+            <div class="article-container">
+
+                <div class="article-type-name"><?php echo $category->name;?></div>
+                <img class="w-100"
                     src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'single-post-thumbnail' )[0];?>"
                     alt="">
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
