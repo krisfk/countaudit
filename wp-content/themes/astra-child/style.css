@@ -381,6 +381,11 @@ img.scaled-image {
     margin: 0 0.5rem 0 0;
 }
 
+.home-big-point-content ul li a.active i.fas {
+    margin: 0 0.5rem 0 0;
+    transform: rotate(90deg);
+}
+
 .home-big-point-content .big-num {
     font-size: 4rem;
     font-weight: bold;
