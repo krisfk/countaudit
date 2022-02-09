@@ -58,14 +58,18 @@ get_header(); ?>
 
                 <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('service_image'),'full')[0];?>"
                     alt="">
-                <div class="deep-blue">
+
+
+                <!-- <div class="deep-blue">
                     <h3 class="blue mt-3">我們是CountAudit算數會計師事務所</h3>
                     <div class=" mt-3">是真正在hkicpa登記的執業會計師事務所<br>PC Firm Registration Number:<br>2589</div>
                 </div>
 
                 <div class="text-end mt-3">
                     <a href="javascript:void(0);" class="service-contact-btn">Registry</a>
-                </div>
+                </div> -->
+                <?php echo get_field('content_1');?>
+
                 <div class="img-shadow"></div>
 
 
@@ -119,17 +123,11 @@ get_header(); ?>
         <div class="row pt-0 pb-0  mt-0 align-items-center justify-content-center">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12  text-center mt-5">
 
-                <div>
-                    <div>
-                        <h4 class="gold">//明碼實價
 
-                        </h4>
-                    </div>
-                    <div>
-                        <h2 class="blue"> 索取服務報價 </h2>
-                        <div class="small">請聯絡我們並提供資料，即時能獲取準確報價</div>
-                    </div>
-                </div>
+
+                <?php echo get_field('content_2');?>
+
+
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
