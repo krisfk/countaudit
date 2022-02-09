@@ -737,7 +737,23 @@ get_header(); ?>
 <div class="blue-bg pt-5 pb-5 mt-5">
 
     <h2 class="text-center white">
-        資訊文章類型
+
+
+        <?php 
+        if(ICL_LANGUAGE_CODE=='zh-hang')
+        {
+                echo '資訊文章類型';
+        }
+         
+        if(ICL_LANGUAGE_CODE=='en')
+        {
+                echo 'Types Of Informative Article';
+        }
+
+      
+      ?>
+
+
     </h2>
 
 
