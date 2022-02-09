@@ -308,7 +308,7 @@ get_header(); ?>
         <div class="row pt-0 pb-0  mt-0 align-items-center justify-content-center">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12  text-center mt-5">
 
-                <div>
+                <!-- <div>
                     <div>
                         <h4 class="gold">//明碼實價
 
@@ -318,7 +318,9 @@ get_header(); ?>
                         <h2 class="blue"> 索取服務報價 </h2>
                         <div class="small">請聯絡我們並提供資料，即時能獲取準確報價</div>
                     </div>
-                </div>
+                </div> -->
+                <?php echo get_field('content_2');?>
+
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
