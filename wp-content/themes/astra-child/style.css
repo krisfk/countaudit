@@ -965,6 +965,10 @@ a.tel:hover {
     border-radius: 1rem;
 }
 
+.wpml-ls-flag {
+    margin: 0 0.3rem 0 0;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
