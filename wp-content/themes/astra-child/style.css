@@ -935,6 +935,11 @@ a.tel:hover {
     text-decoration: none;
 }
 
+.map-div p {
+    margin: 0;
+    padding: 0;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
