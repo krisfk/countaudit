@@ -28,16 +28,17 @@ get_header(); ?>
 </div>
 
 
-<div class="container banner-bottom-blue-container">
+<!-- <div class="container banner-bottom-blue-container">
 
     <div class="p-4">
         <h3 class="white text-center">“令中小型規模公司的創業家們可以將所有煩人的行政財務工作交給我們，專心於發展自己的事業”</h3>
 
         <div class="text-end gold small">CountAudit宗旨</div>
     </div>
-</div>
+</div> -->
+<?php echo get_field('content_1');?>
 
-<div class="container mt-5">
+<!-- <div class="container mt-5">
 
 
     <div class="text-center">
@@ -149,51 +150,25 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        <!-- <div class="col-4 mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100">
 
-                <img class="team-member-icon"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/team-member-2.png" alt="">
-
-                <div class="text-center">
-                    <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">IDRPHK LIMITED</h4>
-                    <div class="small gold">香港綜合債務重組機構</div>
-                </div>
-
-                <div class="mt-4">
-                    感謝CountAudit 在公司的出入帳上提供莫大的幫助。基於會計師的專業，令凌亂的帳目得以改善。CountAudit 將會在日後與我們機構維持良好的長期合作關係。</div>
-            </div>
-
-        </div>
-        <div class="col-4 mt-5">
-            <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
-
-                <img class="team-member-icon"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/team-member-3.png" alt="">
-
-                <div class="text-center">
-                    <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">Dream Impact 夢創成真</h4>
-                    <div class="small gold">社創工作空間</div>
-                </div>
-
-                <div class="mt-4">
-                    Sam 是一個貼心的服務提供者。由了解我嘅需要到設計貼身嘅會計服務，整個過程都好順暢，令我可以專注於業務。</div>
-            </div>
-        </div> -->
 
     </div>
 
 
 
 
-</div>
+</div> -->
+
+<?php echo get_field('content_2');?>
+
+
 
 
 <div class="blue-bg mt-5">
 
     <div class="container pt-5 pb-5">
 
-        <div class="about-carousel">
+        <!-- <div class="about-carousel">
 
 
             <div>
@@ -311,7 +286,8 @@ get_header(); ?>
                 </div>
             </div>
 
-        </div>
+        </div> -->
+        <?php echo get_field('content_3');?>
     </div>
 
 </div>
