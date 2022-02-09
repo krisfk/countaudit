@@ -360,6 +360,7 @@ img.scaled-image {
 .home-big-point-content {
     display: table;
     margin: 0 auto;
+    width: 370px;
 }
 
 .home-big-point-content ul {
