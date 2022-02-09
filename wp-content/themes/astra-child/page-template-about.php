@@ -347,6 +347,7 @@ get_header(); ?>
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
+    $('.about-carousel').find('p').remove();
     // $('.about-carousel').slick({
     //     infinite: true,
     //     slidesToShow: 1,
