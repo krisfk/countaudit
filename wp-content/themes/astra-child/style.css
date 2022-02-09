@@ -944,6 +944,10 @@ a.tel:hover {
     text-decoration: none;
 }
 
+.article-type-name {
+    font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
