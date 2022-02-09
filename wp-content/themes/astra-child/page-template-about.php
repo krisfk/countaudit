@@ -348,22 +348,22 @@ get_header(); ?>
 <script type="text/javascript">
 $(function() {
     $('.about-carousel').find('p').remove();
-    // $('.about-carousel').slick({
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     dots: true,
-    //     adaptiveHeight: true,
-    //     arrows: false,
-    //     autoplay: false,
-    //     pauseOnFocus: false,
-    //     infinite: true,
-    //     speed: 800,
-    //     autoplaySpeed: 5000,
-    //     cssEase: 'ease-out',
-    //     pauseOnHover: false
+    $('.about-carousel').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        adaptiveHeight: true,
+        arrows: false,
+        autoplay: false,
+        pauseOnFocus: false,
+        infinite: true,
+        speed: 800,
+        autoplaySpeed: 5000,
+        cssEase: 'ease-out',
+        pauseOnHover: false
 
-    // });
+    });
 
 
 
