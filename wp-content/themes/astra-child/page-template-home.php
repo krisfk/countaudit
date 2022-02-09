@@ -757,7 +757,7 @@ get_header(); ?>
 
         $categories = get_categories();
         // echo 999;
-        print_r($categories);
+        // print_r($categories);
         foreach($categories as $category) {
             
             // echo $category->slug;
