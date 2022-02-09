@@ -369,7 +369,11 @@ img.scaled-image {
 
 .home-big-point-content ul li {
     list-style-type: none;
-    margin: 0 0 0.5rem 0;
+}
+
+.home-big-point-content ul li a {
+    text-decoration: none;
+    color: #363e51;
 }
 
 .home-big-point-content .big-num {
@@ -472,10 +476,6 @@ img.scaled-image {
 .bottom-menu-ul li {
     display: inline-block;
     margin: 0 1rem 0rem 1rem;
-}
-
-.bottom-menu-ul li:last-child {
-    display: none;
 }
 
 .bottom-menu-ul li a {
@@ -938,17 +938,6 @@ a.tel,
 a.tel:hover {
     color: #fff;
     text-decoration: none;
-}
-
-.map-div p {
-    margin: 0;
-    padding: 0;
-}
-
-.article-type-name {
-    font-size: 1.3rem;
-    margin: 0 0 0.5rem 0;
-    color: #f6c782;
 }
 
 @media only screen and (max-width: 1920px) {}
