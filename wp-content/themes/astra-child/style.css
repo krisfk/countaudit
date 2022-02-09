@@ -681,6 +681,10 @@ img.scaled-image {
     /* z-index: 200; */
 }
 
+.title-container p {
+    display: none;
+}
+
 
 /* .title-container {
     position: absolute;
