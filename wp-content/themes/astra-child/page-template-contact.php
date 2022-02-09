@@ -29,7 +29,7 @@ get_header(); ?>
 </div>
 
 
-<div class="container contact-pts-ul-wrapper-container">
+<!-- <div class="container contact-pts-ul-wrapper-container">
 
     <ul class="contact-pts-ul  p-0 ">
         <li>
@@ -77,10 +77,10 @@ get_header(); ?>
 
     </ul>
 
-</div>
+</div> -->
 
 
-<?php //echo get_field('content_1');?>
+<?php echo get_field('content_1');?>
 
 <!-- <iframe class="map-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
     src="https://maps.google.com/maps?q=CountAudit%20Secretarial%20Limited&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
@@ -95,7 +95,7 @@ get_header(); ?>
 
     <div class="container contact-form-container">
         <div class="row   align-items-center">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
+            <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
                 <div class="text-start">
                     <div>
                         <h4 class="gold">//明碼實價
@@ -108,8 +108,12 @@ get_header(); ?>
 
 
                 </div>
-            </div>
+            </div> -->
+            <?php echo get_field('content_3');?>
+
+
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
+                <?php echo get_field('content_4');?>
 
                 <!-- <div class="form-div white-bg contact-form-div">
 
@@ -124,7 +128,7 @@ get_header(); ?>
                     </div>
 
                 </div> -->
-                <form id="form" action="" method="post"> <input type="hidden" name="form-type" value="general_enquiry">
+                <!-- <form id="form" action="" method="post"> <input type="hidden" name="form-type" value="general_enquiry">
                     <div class="form-div white-bg contact-form-div"> <input type="text" class="form-control"
                             placeholder="如何稱呼您？*" name="client-name" required> <input type="text" class="form-control"
                             placeholder="聯絡電話" name="tel"> <input type="text" class="form-control" placeholder="電郵*"
@@ -142,7 +146,7 @@ get_header(); ?>
                             name="message"></textarea>
                         <div class="text-end"> <input type="submit" value="服務報價" class="form-submit-btn"></div>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     </div>
