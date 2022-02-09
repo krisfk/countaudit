@@ -86,8 +86,9 @@ get_header(); ?>
     src="https://maps.google.com/maps?q=CountAudit%20Secretarial%20Limited&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
     aria-label="CountAudit Secretarial Limited"></iframe> -->
 
-<?php echo get_field('content_2');?>
-
+<div class="map-div">
+    <?php echo get_field('content_2');?>
+</div>
 
 
 <div class="grey-bg-2">
