@@ -764,6 +764,7 @@ get_header(); ?>
             // echo $category->slug;
 
             $slug = $category->slug;
+    print_r($category);            
            
             $args = array(
                 'post_type' => 'post',
