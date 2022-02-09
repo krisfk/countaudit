@@ -168,7 +168,7 @@ get_header(); ?>
 
     <div class="container pt-5 pb-5">
 
-        <div class="about-carousel">
+        <!-- <div class="about-carousel">
 
 
             <div>
@@ -286,8 +286,8 @@ get_header(); ?>
                 </div>
             </div>
 
-        </div>
-        <?php //echo get_field('content_3');?>
+        </div> -->
+        <?php echo get_field('content_3');?>
     </div>
 
 </div>
