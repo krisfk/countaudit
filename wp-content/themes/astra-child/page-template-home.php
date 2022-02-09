@@ -750,8 +750,14 @@ get_header(); ?>
             $content_8= get_field('content_8');
 
 
+            global $sitepress;
+            // $sitepress->switch_lang('en');
+            // echo get_cat_name($fr_cat_id); // get_cat_name($en_cat_id); also work
+            $sitepress->switch_lang('zh-hant');
+
         $categories = get_categories();
-        echo 999;
+        // echo 999;
+        print_r($categories);
         foreach($categories as $category) {
             
             // echo $category->slug;
@@ -792,6 +798,10 @@ get_header(); ?>
 
             
         }
+
+        // $sitepress->switch_lang('zh-hant');
+
+
         ?>
 
             <!-- 
