@@ -736,7 +736,9 @@ get_header(); ?>
 </div>
 <div class="blue-bg pt-5 pb-5 mt-5">
 
-    <h2 class="text-center white">資訊文章類型</h2>
+    <h2 class="text-center white">
+        資訊文章類型
+    </h2>
 
 
     <div class="container mt-5">
@@ -754,7 +756,7 @@ get_header(); ?>
             $current_lang= ICL_LANGUAGE_CODE;
             // $sitepress->switch_lang('en');
             // echo get_cat_name($fr_cat_id); // get_cat_name($en_cat_id); also work
-            $sitepress->switch_lang('zh-hant');
+            // $sitepress->switch_lang('zh-hant');
 
         $categories = get_categories();
         // echo 999;
