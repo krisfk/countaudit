@@ -347,22 +347,22 @@ get_header(); ?>
 <?php get_footer(); ?>
 <script type="text/javascript">
 $(function() {
-    $('.about-carousel').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        adaptiveHeight: true,
-        arrows: false,
-        autoplay: false,
-        pauseOnFocus: false,
-        infinite: true,
-        speed: 800,
-        autoplaySpeed: 5000,
-        cssEase: 'ease-out',
-        pauseOnHover: false
+    // $('.about-carousel').slick({
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     dots: true,
+    //     adaptiveHeight: true,
+    //     arrows: false,
+    //     autoplay: false,
+    //     pauseOnFocus: false,
+    //     infinite: true,
+    //     speed: 800,
+    //     autoplaySpeed: 5000,
+    //     cssEase: 'ease-out',
+    //     pauseOnHover: false
 
-    });
+    // });
 
 
 
