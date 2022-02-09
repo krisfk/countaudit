@@ -1020,6 +1020,9 @@ a.tel:hover {
         margin: 0 0.8rem 0.2rem 1rem;
         font-size: 0.8rem;
     }
+    .bottom-menu-ul li:last-child {
+        display: none;
+    }
     .about-slogan {
         font-size: 2rem;
         font-family: serif;
