@@ -682,7 +682,7 @@ img.scaled-image {
 }
 
 .title-container p {
-    display: none;
+    /* display: none; */
 }
 
 
@@ -701,6 +701,7 @@ img.scaled-image {
 .title-container p {
     margin: 0;
     padding: 0;
+    height: 0px;
 }
 
 .title-container .txt {
