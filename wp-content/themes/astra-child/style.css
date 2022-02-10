@@ -498,6 +498,10 @@ img.scaled-image {
     margin: 0 1rem 0rem 1rem;
 }
 
+.bottom-menu-ul li:last-child {
+    display: none;
+}
+
 .bottom-menu-ul li a {
     text-decoration: none;
     color: #fff;
@@ -1038,9 +1042,6 @@ a.tel:hover {
         display: inline-block;
         margin: 0 0.8rem 0.2rem 1rem;
         font-size: 0.8rem;
-    }
-    .bottom-menu-ul li:last-child {
-        display: none;
     }
     .about-slogan {
         font-size: 2rem;
