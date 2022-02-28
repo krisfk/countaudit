@@ -136,7 +136,7 @@ get_header(); ?>
 
 
                 <h4 class="text-center lh-base"> Quotation Form of Audit and Tax Reporting <br> 審計及稅務報價表 </h4>
-                <div class="small">*為必須填寫項目 Required Fields</div>
+                <div class="small text-center">*為必須填寫項目 Required Fields</div>
                 <form id="form" action="" method="post" enctype="multipart/form-data"> <input type="hidden"
                         id="form-type" name="form-type" value="audit_and_tax_report">
                     <div class="form-div white-bg mt-4">
