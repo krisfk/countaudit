@@ -131,6 +131,11 @@ get_header(); ?>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
+                <form action="">
+
+                    <input type="text" required>
+                    <input type="submit">
+                </form>
 
                 <!--  -->
                 <h4 class="text-center lh-base">Company Secretary in Hong Kong Application Form　<br>
