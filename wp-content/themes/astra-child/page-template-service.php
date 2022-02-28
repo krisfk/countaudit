@@ -133,8 +133,10 @@ get_header(); ?>
 
 
                 <!--  -->
-                <h4 class="text-center lh-base">Company Secretary in Hong Kong Application Form
+                <h4 class="text-center lh-base">Company Secretary in Hong Kong Application Form　<br>
                     香港公司秘書服務計劃申請表</h4>
+                <div class="small text-center">*為必須填寫項目 Required Fields
+                </div>
                 <form id="form" action="" enctype="multipart/form-data" method="post"><input name="form-type"
                         type="hidden" value="com_sec_app_form" />
                     <div class="form-div white-bg mt-4">
@@ -144,22 +146,22 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="client-name"> 姓名
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="client-name"> *姓名
                                     Name:</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="client-name"
                                     class="form-control" name="client-name" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="email">電郵 E-mail:</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="email">*電郵 E-mail:</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="email" class="form-control"
                                     name="email" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="tel">電話 Tel:</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="tel">*電話 Tel:</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="tel" class="form-control"
                                     name="tel" type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="fax">傳真 Fax:</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="fax" class="form-control"
                                     name="fax" type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label
-                                    for="billing-contact-person">上述申請人為賬單聯絡人
+                                    for="billing-contact-person">*上述申請人為賬單聯絡人
                                     The above applicant is the billing contact person</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
                                 <div class="form-check"><input id="billing-contact-person-yes" class="form-check-input"
@@ -183,20 +185,22 @@ get_header(); ?>
                                 <h4 class="text-center mb-4">公司資料 Company Information</h4>
                             </div>
                             <div class="col-12 fw-bold">公司名稱 Company Name＊</div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-chinese"> 中文名稱
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-chinese">
+                                    *中文名稱
                                     Chinese Name</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-name-chinese"
                                     class="form-control" name="contact-name-chinese" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-english"> 英文名稱
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-english">
+                                    *英文名稱
                                     English Name</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-name-english"
                                     class="form-control" name="contact-name-english" type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="date-change-secretary">
-                                    公司秘書更改日期 The date of changing Company Secretary＊</label></div>
+                                    *公司秘書更改日期 The date of changing Company Secretary＊</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="date-change-secretary"
                                     class="form-control" name="date-change-secretary" type="text" /></div>
                             <div class="col-12 mt-4">
-                                <h4 class="text-center mb-4">申請所需之文件 Required Documents
+                                <h4 class="text-center mb-4">*申請所需之文件 Required Documents
                                     (請上載下列文件 Please upload the following documents)</h4>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-1"> 1.
@@ -216,7 +220,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="details-of-changes">變動詳情
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="details-of-changes">*變動詳情
                                     Details of changes</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3 ">
                                 <div class="form-check"><input id="details-of-changes-1" class="form-check-input"
