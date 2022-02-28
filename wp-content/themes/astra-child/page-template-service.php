@@ -2164,15 +2164,20 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
 
 
 
+        var delay = 0;
+        var offset = 150;
+
+        document.addEventListener('invalid', function(e) {
+            $(e.target).addClass("invalid");
+            $('html, body').animate({
+                scrollTop: $($(".invalid")[0]).offset().top - offset
+            }, delay);
+        }, true);
+        document.addEventListener('change', function(e) {
+            $(e.target).removeClass("invalid")
+        }, true);
+
     })
-
-    var elements = document.querySelectorAll('input,select,textarea');
-    var invalidListener = function() {
-        this.scrollIntoView(false);
-    };
-
-    for (var i = elements.length; i--;)
-        elements[i].addEventListener('invalid', invalidListener);
     </script>
     </body>
 
