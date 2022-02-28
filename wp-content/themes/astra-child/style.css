@@ -12,6 +12,7 @@ Template: astra
 
 body {
     color: #363e51 !important;
+    scroll-behavior: auto;
 }
 
 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated>.elementor-widget-wrap {
