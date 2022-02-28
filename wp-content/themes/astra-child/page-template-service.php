@@ -279,9 +279,9 @@ get_header(); ?>
                         </div>
                         <div class="col-12 mt-4">
                             <h4 class="text-center mb-4">服務計劃資料 Service Plan Information</h4>
-                            <div>
+                            <div class="mb-4">
 
-                                <b class="text-center">Plan A (HK$1,400)
+                                <b class="d-block text-center">Plan A (HK$1,400)
                                 </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li>擔任法定公司秘書 Act as Company Secretary</li>
@@ -295,9 +295,9 @@ get_header(); ?>
                                 </ul>
                             </div>
 
-                            <div>
+                            <div class="mb-4">
 
-                                <b class="text-center">Plan B (HK$2,200)
+                                <b class="d-block text-center">Plan B (HK$2,200)
 
                                 </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
@@ -321,9 +321,9 @@ get_header(); ?>
                                 </ul>
                             </div>
 
-                            <div>
+                            <div class="mb-4">
 
-                                <b class="text-center">Plan C (HK$3,000)
+                                <b class=" d-block text-center">Plan C (HK$3,000)
 
 
                                 </b>
