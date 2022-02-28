@@ -150,6 +150,7 @@ get_header(); ?>
                                     Name:</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="client-name"
                                     class="form-control" name="client-name" type="text" required></div>
+                            <input type="submit" value="Submit" class="form-submit-btn">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="email">*電郵 E-mail:</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input required id="email"
