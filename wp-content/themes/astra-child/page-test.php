@@ -9,7 +9,81 @@
 </head>
 
 <body>
-    test
+    <div class="divFooter">UNCLASSIFIED</div>
+
+    <div>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+        fdsaf <br>
+
+
+
+    </div>
+
+
+    <style type="text/css">
+    @media screen {
+        div.divFooter {
+            display: none;
+        }
+    }
+
+    @media print {
+        div.divFooter {
+            position: fixed;
+            bottom: 0;
+        }
+    }
+    </style>
 </body>
 
 </html>
