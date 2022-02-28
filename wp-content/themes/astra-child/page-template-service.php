@@ -133,7 +133,7 @@ get_header(); ?>
 
                 <form action="">
 
-                    <input type="text" required>
+                    <input class="form-control" type="text" required>
                     <input type="submit">
                 </form>
 
