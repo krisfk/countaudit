@@ -2164,19 +2164,19 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
 
 
 
-        var delay = 0;
-        var offset = 150;
+        // var delay = 0;
+        // var offset = 150;
 
-        document.addEventListener('invalid', function(e) {
-            alert(7);
-            $(e.target).addClass("invalid");
-            $('html, body').animate({
-                scrollTop: $($(".invalid")[0]).offset().top - offset
-            }, delay);
-        }, true);
-        document.addEventListener('change', function(e) {
-            $(e.target).removeClass("invalid")
-        }, true);
+        // document.addEventListener('invalid', function(e) {
+        //     // alert(7);
+        //     $(e.target).addClass("invalid");
+        //     $('html, body').animate({
+        //         scrollTop: $($(".invalid")[0]).offset().top - offset
+        //     }, delay);
+        // }, true);
+        // document.addEventListener('change', function(e) {
+        //     $(e.target).removeClass("invalid")
+        // }, true);
 
     })
     </script>
