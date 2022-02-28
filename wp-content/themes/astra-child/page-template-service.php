@@ -148,7 +148,7 @@ get_header(); ?>
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="client-name"> *姓名
                                     Name:</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input require id="client-name"
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input required id="client-name"
                                     class="form-control" name="client-name" type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="email">*電郵 E-mail:</label>
                             </div>
