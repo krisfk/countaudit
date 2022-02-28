@@ -200,8 +200,9 @@ get_header(); ?>
                                     type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="date-change-secretary">
                                     *公司秘書更改日期 The date of changing Company Secretary＊</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="date-change-secretary"
-                                    class="form-control" name="date-change-secretary" type="text" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input required
+                                    id="date-change-secretary" class="form-control" name="date-change-secretary"
+                                    type="text" /></div>
                             <div class="col-12 mt-4">
                                 <h4 class="text-center mb-4">*申請所需之文件 Required Documents
                                     (請上載下列文件 Please upload the following documents)</h4>
