@@ -281,7 +281,25 @@ get_header(); ?>
                             <h4 class="text-center mb-4">服務計劃資料 Service Plan Information</h4>
                             <div>
 
-                                <b> 服務費用 (每年港幣$950) Service fee (per year HK$950)，已包括：</b>
+                                <b>Plan A (HK$1,400)
+                                </b>
+                                <ul class="m-0 mt-2 p-0 ps-3">
+                                    <li>擔任法定公司秘書 Act as Company Secretary</li>
+                                    <li>準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                    <li>協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                    <li>對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter</li>
+                                    <li>更改公司註冊地址資料 Change of Registered Office Address</li>
+                                    <li>準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                    <li>準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+
+                                </ul>
+                            </div>
+
+                            <div>
+
+                                <b>Plan B (HK$2,200)
+
+                                </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li>擔任法定公司秘書 Act as Company Secretary</li>
                                     <li>準備及遞交週年申報表 Prepare and Submit Annual Return</li>
@@ -293,8 +311,46 @@ get_header(); ?>
                                     <li>更改董事個人資料 Change of Personal Particulars of Director</li>
                                     <li>業務性質變更 Change of Company Business Nature</li>
                                     <li>準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register</li>
+                                    <li>宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                    <li> 準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
+                                        shareholders</li>
+                                    <li>and company secretaries</li>
+                                    <li>準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                    <li>增加公司註冊股本 Increase of Capital</li>
+
                                 </ul>
                             </div>
+
+                            <div>
+
+                                <b>Plan C (HK$3,000)
+
+
+                                </b>
+                                <ul class="m-0 mt-2 p-0 ps-3">
+
+                                    <li>擔任法定公司秘書 Act as Company Secretary</li>
+                                    <li>準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                    <li>協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                    <li>對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter</li>
+                                    <li>更改公司註冊地址資料 Change of Registered Office Address</li>
+                                    <li>準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                    <li>準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                                    <li> 更改董事個人資料 Change of Personal Particulars of Director</li>
+                                    <li>業務性質變更 Change of Company Business Nature</li>
+                                    <li>準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register</li>
+                                    <li> 宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                    <li>準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
+                                        shareholders
+                                        and company secretaries</li>
+                                    <li> 準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                    <li> 增加公司註冊股本 Increase of Capital</li>
+                                    <li> 分配股份 Allotment of Shares</li>
+
+                                </ul>
+                            </div>
+
+
                         </div>
                         <div class="col-12 mt-4">
                             <h4 class="text-center mb-4">附加服務 Additional Services</h4>
@@ -2164,25 +2220,8 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
 
 
 
-        jQuery(document).ready(function($) {
-            $('.form-submit-btn').on('click', function(e) {
-                e.stopImmediatePropagation();
-            });
-        });
 
-        // var delay = 0;
-        // var offset = 150;
 
-        // document.addEventListener('invalid', function(e) {
-        //     // alert(7);
-        //     $(e.target).addClass("invalid");
-        //     $('html, body').animate({
-        //         scrollTop: $($(".invalid")[0]).offset().top - offset
-        //     }, delay);
-        // }, true);
-        // document.addEventListener('change', function(e) {
-        //     $(e.target).removeClass("invalid")
-        // }, true);
 
     })
     </script>
