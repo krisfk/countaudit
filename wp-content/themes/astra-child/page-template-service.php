@@ -2164,6 +2164,12 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
 
 
 
+        jQuery(document).ready(function($) {
+            $('.form-submit-btn').on('click', function(e) {
+                e.stopImmediatePropagation();
+            });
+        });
+
         // var delay = 0;
         // var offset = 150;
 
