@@ -131,11 +131,6 @@ get_header(); ?>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
-                <form action="">
-
-                    <input class="form-control" type="text" required>
-                    <input type="submit">
-                </form>
 
                 <!--  -->
                 <h4 class="text-center lh-base">Company Secretary in Hong Kong Application Form　<br>
@@ -157,11 +152,11 @@ get_header(); ?>
                                     class="form-control" name="client-name" type="text" required></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="email">*電郵 E-mail:</label>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="email" class="form-control"
-                                    name="email" type="text" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input required id="email"
+                                    class="form-control" name="email" type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="tel">*電話 Tel:</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="tel" class="form-control"
-                                    name="tel" type="text" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input required id="tel"
+                                    class="form-control" name="tel" type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="fax">傳真 Fax:</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="fax" class="form-control"
                                     name="fax" type="text" /></div>
@@ -169,9 +164,10 @@ get_header(); ?>
                                     for="billing-contact-person">*上述申請人為賬單聯絡人
                                     The above applicant is the billing contact person</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="billing-contact-person-yes" class="form-check-input"
-                                        name="billing-contact-person" type="radio" value="yes" /> <label
-                                        class="form-check-label" for="billing-contact-person-yes"> Yes </label></div>
+                                <div class="form-check"><input required id="billing-contact-person-yes"
+                                        class="form-check-input" name="billing-contact-person" type="radio"
+                                        value="yes" /> <label class="form-check-label" for="billing-contact-person-yes">
+                                        Yes </label></div>
                                 <div class="form-check"><input id="billing-contact-person-no" class="form-check-input"
                                         name="billing-contact-person" type="radio" value="no" /> <label
                                         class="form-check-label" for="billing-contact-person-no"> No </label></div>
@@ -193,13 +189,15 @@ get_header(); ?>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-chinese">
                                     *中文名稱
                                     Chinese Name</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-name-chinese"
-                                    class="form-control" name="contact-name-chinese" type="text" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input required
+                                    id="contact-name-chinese" class="form-control" name="contact-name-chinese"
+                                    type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-english">
                                     *英文名稱
                                     English Name</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-name-english"
-                                    class="form-control" name="contact-name-english" type="text" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input required
+                                    id="contact-name-english" class="form-control" name="contact-name-english"
+                                    type="text" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="date-change-secretary">
                                     *公司秘書更改日期 The date of changing Company Secretary＊</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="date-change-secretary"
