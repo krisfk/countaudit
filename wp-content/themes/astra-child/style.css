@@ -846,6 +846,7 @@ a.gold.no-deco:hover {
 
 .home .main-banners {
     display: none;
+    height: 561px;
 }
 
 .home .main-banners .slick-slide {
