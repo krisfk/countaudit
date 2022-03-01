@@ -332,7 +332,7 @@ get_header(); ?>
                 </h4>
                 <div class="small text-center">*為必須填寫項目 Required Fields</div>
                 <form id="form" action="" enctype="multipart/form-data" method="post"><input name="form-type"
-                        type="hidden" value="com_sec_app_form" />
+                        type="hidden" value="virtual_office_form" />
                     <div class="form-div white-bg mt-4">
                         <div class="row align-items-center">
                             <div class="col-12">
@@ -548,6 +548,60 @@ get_header(); ?>
     {
         // applicant-position-1[]
         // print_r($_POST);
+
+        if($_POST['form-type']=='virtual_office_form')
+        {
+            $client_name = $_POST['client-name'];
+            $tel = $_POST['tel'];
+            $email = $_POST['email'];
+            $fax = $_POST['fax'];
+            $billing_contact_person =$_POST['billing-contact-person'];
+            $contact_name=$_POST['contact-name'];
+            $contact_phone_number=$_POST['contact-phone-number'];
+            $contact_name_chinese=$_POST['contact-name-chinese'];
+            $contact_name_english=$_POST['contact-name-english'];
+            // $date_change_secretary=$_POST['date-change-secretary'];
+            // $details_of_changes=$_POST['details-of-changes'];
+            // $details_of_changes_others=$_POST['details-of-changes-others'];
+            // $remarks=$_POST['remarks'];
+            $virtual_office=$_POST['virtual-office'];
+            // $deregistration_of_limited_company = $_POST['deregistration-of-limited-company'];
+            // $others=$_POST['others'];
+            
+            
+            $post_title = $client_name.' application';
+            $post_id = wp_insert_post(array (
+                'post_type' => 'virtual_office_form',
+                'post_title' => $post_title,
+                'post_status' => 'publish',
+                'comment_status' => 'closed',   // if you prefer
+                'ping_status' => 'closed',      // if you prefer
+            ));   
+
+            if ($post_id) {
+                add_post_meta($post_id, 'name', $client_name);
+                add_post_meta($post_id, 'tel', $tel);
+                add_post_meta($post_id, 'email', $email);
+                add_post_meta($post_id, 'fax', $fax);
+                add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
+                add_post_meta($post_id, 'contact_person_name', $contact_name);
+                add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
+                add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
+                add_post_meta($post_id, 'company_name_english', $contact_name_english);
+                // add_post_meta($post_id, 'date_of_changing_company_secretary', $date_change_secretary);
+                // add_post_meta($post_id, 'remarks', $remarks);
+
+                // add_post_meta($post_id, 'details_of_changes', $details_of_changes);
+                // add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
+                add_post_meta($post_id, 'virtual_office', $virtual_office);
+                // add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
+
+
+                // add_post_meta($post_id, 'others', $deregistration_of_limited_company);
+     
+                // 
+            }
+        }
         
 
         if($_POST['form-type']=='incorp_limited_app')
@@ -654,18 +708,7 @@ get_header(); ?>
                     
                     
                     add_row('shareholders_and_directors',$row,$post_id);
-        //        [applicant-position-1] => Array
-        //     (
-        //         [0] => 股東 Shareholder
-        //         [1] => 董事 Director
-        //     )
-    
-        // [name-on-id-chinese-1] => 
-        // [name-on-id-english-1] => 
-        // [id-pass-co-no-1] => 
-        // [percent-of-shares-1] => 
-        // [residential-address-1] => 
-    
+       
                 }
                 
 
@@ -700,6 +743,41 @@ get_header(); ?>
                 wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
 
                 update_field( 'upload_file_1', $upload_id, $post_id );
+                // update_field( 'mid_report_approval', false, $school_id );
+
+
+                } else {
+                    echo "Sorry, there was an error uploading your file.";
+                }
+        }
+        //File b
+        if($_FILES["upload-file-2"]['size'])
+        {
+                $wordpress_upload_dir = wp_upload_dir();
+
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-2"]["name"];
+
+                    $i=0;
+                while( file_exists( $new_file_path ) ) {
+                    $i++;
+                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-2"]["name"];
+                }
+                
+                if (move_uploaded_file($_FILES["upload-file-2"]["tmp_name"], $new_file_path)) {
+        
+                    $upload_id = wp_insert_attachment( array(
+                    'guid'           => $new_file_path, 
+                    'post_mime_type' => 'image/*',
+                    //$_FILES["file_upload"]["tmp_name"],
+                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-2"]["name"] ),
+                    'post_content'   => '',
+                    'post_status'    => 'inherit'
+                ), $new_file_path );
+                require_once( ABSPATH . 'wp-admin/includes/image.php' );
+            
+                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+
+                update_field( 'upload_file_2', $upload_id, $post_id );
                 // update_field( 'mid_report_approval', false, $school_id );
 
 
