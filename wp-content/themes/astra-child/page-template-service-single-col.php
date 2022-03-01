@@ -517,21 +517,7 @@ get_header(); ?>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
                         </div>
-                        <div class="row mt-4 align-items-center">
 
-
-
-                            <div class="col-12 mb-3">
-                                <div class="form-check"><input id="additional-7" class="form-check-input"
-                                        name="deregistration-of-limited-company" type="checkbox" value="7" /> <label
-                                        class="form-check-label" for="additional-7"> 撤銷公司(港幣$1,000加政府費用) Deregistration
-                                        of Limited Company (HK$1,000 plus government charges) </label></div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-3"><label for="other-additional">其他
-                                    Others 請註明 please specify:</label></div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-3"><input id="other-additional"
-                                    class="form-control" name="other-additional" type="text" /></div>
-                        </div>
                         <div class="col-12 mt-4">
                             <h4 class="text-center mb-4">條款及細則 Terms and Conditions</h4>
                             <textarea id="tnc" class="form-control" cols="30" name="" readonly="readonly"
