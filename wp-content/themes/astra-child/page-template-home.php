@@ -1079,7 +1079,7 @@ $(function() {
     $('.main-banners').on('init', function(event, slick, direction) {
         // $('.dummy-banner-img').height(0);
 
-        $(this).fadeIn(0);
+        $(this).fadeIn(200);
 
     }).slick({
         infinite: true,
