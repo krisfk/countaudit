@@ -2052,13 +2052,14 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
             $details_of_changes_others=$_POST['details-of-changes-others'];
             $remarks=$_POST['remarks'];
             $virtual_office=$_POST['virtual-office'];
-            $increase_of_capital=$_POST['increase-of-capital'];
-            $allotment_of_shares=$_POST['allotment-of-shares'];
-            $register_branch=$_POST['register-branch'];
-            $annual_general_name=$_POST['annual-general-name'];
-            $change_of_company_branch_name=$_POST['change-of-company-branch-name'];
-            $transfer_of_shares= $_POST['transfer-of-shares'];
-            $deregistration_of_limited_company= $_POST['deregistration-of-limited-company'];
+            // $increase_of_capital=$_POST['increase-of-capital'];
+            // $allotment_of_shares=$_POST['allotment-of-shares'];
+            // $register_branch=$_POST['register-branch'];
+            // $annual_general_name=$_POST['annual-general-name'];
+            // $change_of_company_branch_name=$_POST['change-of-company-branch-name'];
+            // $transfer_of_shares= $_POST['transfer-of-shares'];
+            // $deregistration_of_limited_company= $_POST['deregistration-of-limited-company'];
+            $deregistration_of_limited_company = $_POST['deregistration_of_limited_company'];
             $others=$_POST['others'];
             
             
@@ -2087,13 +2088,16 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
                 add_post_meta($post_id, 'details_of_changes', $details_of_changes);
                 add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
                 add_post_meta($post_id, 'virtual_office', $virtual_office);
-                add_post_meta($post_id, 'increase_of_capital', $increase_of_capital);
-                add_post_meta($post_id, 'allotment_of_shares', $allotment_of_shares);
-                add_post_meta($post_id, 'register_branch', $register_branch);
-                add_post_meta($post_id, 'annual_general_name', $annual_general_name);
-                add_post_meta($post_id, 'change_of_company_branch_name', $change_of_company_branch_name);
-                add_post_meta($post_id, 'transfer_of_shares', $transfer_of_shares);
                 add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
+
+
+                // add_post_meta($post_id, 'increase_of_capital', $increase_of_capital);
+                // add_post_meta($post_id, 'allotment_of_shares', $allotment_of_shares);
+                // add_post_meta($post_id, 'register_branch', $register_branch);
+                // add_post_meta($post_id, 'annual_general_name', $annual_general_name);
+                // add_post_meta($post_id, 'change_of_company_branch_name', $change_of_company_branch_name);
+                // add_post_meta($post_id, 'transfer_of_shares', $transfer_of_shares);
+                // add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
                 add_post_meta($post_id, 'others', $deregistration_of_limited_company);
      
                 // 
