@@ -1085,7 +1085,14 @@ $(function() {
         pauseOnHover: false,
 
 
+
     });
+
+    $('.main-banners').on('init', function(event, slick) {
+        $(this).fadeIn(300)
+        // console.log("initialized")
+    });
+
 
 
 
