@@ -844,6 +844,10 @@ a.gold.no-deco:hover {
     margin: -1rem 0 0 0;
 }
 
+.home .main-banners {
+    display: none;
+}
+
 .home .main-banners .slick-slide {
     /* margin: 0; */
 }
@@ -1169,7 +1173,7 @@ li.ls3 {
         margin: 0;
     }
     .main-banners {
-        display: none;
+        /* display: none; */
         /* margin: 40px 0 0 0; */
         /* padding: 4rem 0 0 0; */
     }
