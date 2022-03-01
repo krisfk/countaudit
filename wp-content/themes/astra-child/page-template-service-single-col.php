@@ -403,132 +403,14 @@ get_header(); ?>
                                     class="form-control" name="upload-file-2" required="" type="file" /></div>
 
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="details-of-changes">*變動詳情
-                                    Details of changes</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3 ">
-                                <div class="form-check"><input id="details-of-changes-1" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox" value="沒有 No" /> <label
-                                        class="form-check-label" for="details-of-changes-1"> 沒有 No </label></div>
-                                <div class="form-check"><input id="details-of-changes-2" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="更改公司名稱 [NNC2] Change of Company Name" /> <label class="form-check-label"
-                                        for="details-of-changes-2"> 更改公司名稱 [NNC2] Change of Company Name </label></div>
-                                <div class="form-check"><input id="details-of-changes-3" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) / Secretary" />
-                                    <label class="form-check-label" for="details-of-changes-3"> 委任 / 辭任董事或公司秘書 [ND2A /
-                                        ND4] Change / Resignation of Company Director(s) / Secretary </label>
-                                </div>
-                                <div class="form-check"><input id="details-of-changes-4" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox" value="股權變動 Shares Transfer" />
-                                    <label class="form-check-label" for="details-of-changes-4"> 股權變動 Shares Transfer
-                                    </label>
-                                </div>
-                                <div class="form-check"><input id="details-of-changes-5" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="更改註冊地址 [NR1] Change of Registered Address" /> <label
-                                        class="form-check-label" for="details-of-changes-5"> 更改註冊地址 [NR1] Change of
-                                        Registered Address </label></div>
-                                <div class="form-check"><input id="details-of-changes-6" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary " />
-                                    <label class="form-check-label" for="details-of-changes-6"> 更改董事或公司秘書資料 [ND2B]
-                                        Change of Information of Company Director(s) / Secretary </label>
-                                </div>
-                                <div class="form-check"><input id="details-of-changes-7" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="增加註冊資本 [NSC1] Return of Allotment" /> <label class="form-check-label"
-                                        for="details-of-changes-7"> 增加註冊資本 [NSC1] Return of Allotment </label></div>
-                                <div class="form-check"><input id="details-of-changes-8" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records" />
-                                    <label class="form-check-label" for="details-of-changes-8"> 登記册及公司紀錄備存地點通知書 Notice
-                                        of Location of Registers and Company Records </label>
-                                </div>
-                                <div class="mt-3"><label class="form-check-label mb-3" for="defaultCheck1"> 其他 Others:
-                                    </label> <input class="form-control" name="details-of-changes-others" type="text" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="remarks"> 備註
-                                    Remarks</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="remarks"
-                                    class="form-control" name="remarks" type="text" /></div>
-                        </div>
+
+
                         <div class="col-12 mt-4">
                             <h4 class="text-center mb-4">服務計劃資料 Service Plan Information</h4>
-                            <div class="mb-4">
 
-                                <b class="d-block text-center">Plan A (HK$1,400) </b>
-                                <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
-                                        letter</li>
-                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                </ul>
-                            </div>
-                            <div class="mb-4">
-
-                                <b class="d-block text-center">Plan B (HK$2,200) </b>
-                                <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
-                                        letter</li>
-                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li class="">更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li class="">業務性質變更 Change of Company Business Nature</li>
-                                    <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
-                                        Register</li>
-                                    <li class="">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li class="">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
-                                        shareholders</li>
-                                    <li class="">and company secretaries</li>
-                                    <li class="">準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li class="">增加公司註冊股本 Increase of Capital</li>
-                                </ul>
-                            </div>
-                            <div class="mb-4">
-
-                                <b class=" d-block text-center">Plan C (HK$3,000) </b>
-                                <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
-                                        letter</li>
-                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li class="">更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li class="">業務性質變更 Change of Company Business Nature</li>
-                                    <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
-                                        Register</li>
-                                    <li class="">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li class="">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
-                                        shareholders and company secretaries</li>
-                                    <li class="">準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li class="">增加公司註冊股本 Increase of Capital</li>
-                                    <li class="ls3">分配股份 Allotment of Shares</li>
-                                    <li class="ls3">申請分行 Register Branch</li>
-                                    <li class="ls3">年度股東大會Annual General Meeting</li>
-                                    <li class="ls3">更改公司或分行名稱 Change of Company / Branch Name</li>
-                                    <li class="ls3">股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)</li>
-                                </ul>
-                            </div>
                         </div>
-                        <div class="col-12 mt-4">
-                            <h4 class="text-center mb-4">附加服務 Additional Services</h4>
-                        </div>
+
+
                         <div class="col-12 mt-4">
                             <h5 class="text-center mb-4">虛擬辦工室 Virtual Office</h5>
                         </div>
