@@ -341,22 +341,22 @@ get_header(); ?>
                                     <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
                                     <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
                                     <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li class="ls1"> 更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li class="ls1">業務性質變更 Change of Company Business Nature</li>
-                                    <li class="ls1">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
+                                    <li class=""> 更改董事個人資料 Change of Personal Particulars of Director</li>
+                                    <li class="">業務性質變更 Change of Company Business Nature</li>
+                                    <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
                                         Register</li>
-                                    <li class="ls1"> 宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li class="ls1">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
+                                    <li class=""> 宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                    <li class="">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
                                         shareholders
                                         and company secretaries</li>
-                                    <li class="ls1"> 準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li class="ls1"> 增加公司註冊股本 Increase of Capital</li>
-                                    <li class="ls1"> 分配股份 Allotment of Shares</li>
+                                    <li class=""> 準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                    <li class=""> 增加公司註冊股本 Increase of Capital</li>
+                                    <li class=""> 分配股份 Allotment of Shares</li>
 
-                                    <li class="ls1">申請分行 Register Branch</li>
-                                    <li class="ls1">年度股東大會Annual General Meeting</li>
-                                    <li class="ls1"> 更改公司或分行名稱 Change of Company / Branch Name</li>
-                                    <li class="ls1"> 股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)
+                                    <li class="">申請分行 Register Branch</li>
+                                    <li class="">年度股東大會Annual General Meeting</li>
+                                    <li class=""> 更改公司或分行名稱 Change of Company / Branch Name</li>
+                                    <li class=""> 股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)
                                     </li>
 
 
