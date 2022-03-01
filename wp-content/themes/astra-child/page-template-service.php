@@ -134,8 +134,10 @@ get_header(); ?>
 
                 <!--  -->
 
-                <h4 class="text-center lh-base">Company Secretary in Hong Kong Application Form
-                    香港公司秘書服務計劃申請表</h4>
+                <h4 class="text-center lh-base">Virtual Office Service Application Form
+
+                    虛擬辦工室服務計劃申請表
+                </h4>
                 <div class="small text-center">*為必須填寫項目 Required Fields</div>
                 <form id="form" action="" enctype="multipart/form-data" method="post"><input name="form-type"
                         type="hidden" value="com_sec_app_form" />
@@ -232,11 +234,13 @@ get_header(); ?>
                                         name="details-of-changes[]" type="checkbox"
                                         value="委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) / Secretary" />
                                     <label class="form-check-label" for="details-of-changes-3"> 委任 / 辭任董事或公司秘書 [ND2A /
-                                        ND4] Change / Resignation of Company Director(s) / Secretary </label></div>
+                                        ND4] Change / Resignation of Company Director(s) / Secretary </label>
+                                </div>
                                 <div class="form-check"><input id="details-of-changes-4" class="form-check-input"
                                         name="details-of-changes[]" type="checkbox" value="股權變動 Shares Transfer" />
                                     <label class="form-check-label" for="details-of-changes-4"> 股權變動 Shares Transfer
-                                    </label></div>
+                                    </label>
+                                </div>
                                 <div class="form-check"><input id="details-of-changes-5" class="form-check-input"
                                         name="details-of-changes[]" type="checkbox"
                                         value="更改註冊地址 [NR1] Change of Registered Address" /> <label
@@ -246,7 +250,8 @@ get_header(); ?>
                                         name="details-of-changes[]" type="checkbox"
                                         value="更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary " />
                                     <label class="form-check-label" for="details-of-changes-6"> 更改董事或公司秘書資料 [ND2B]
-                                        Change of Information of Company Director(s) / Secretary </label></div>
+                                        Change of Information of Company Director(s) / Secretary </label>
+                                </div>
                                 <div class="form-check"><input id="details-of-changes-7" class="form-check-input"
                                         name="details-of-changes[]" type="checkbox"
                                         value="增加註冊資本 [NSC1] Return of Allotment" /> <label class="form-check-label"
@@ -255,7 +260,8 @@ get_header(); ?>
                                         name="details-of-changes[]" type="checkbox"
                                         value="登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records" />
                                     <label class="form-check-label" for="details-of-changes-8"> 登記册及公司紀錄備存地點通知書 Notice
-                                        of Location of Registers and Company Records </label></div>
+                                        of Location of Registers and Company Records </label>
+                                </div>
                                 <div class="mt-3"><label class="form-check-label mb-3" for="defaultCheck1"> 其他 Others:
                                     </label> <input class="form-control" name="details-of-changes-others" type="text" />
                                 </div>
