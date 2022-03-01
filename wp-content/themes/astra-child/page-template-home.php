@@ -1089,6 +1089,9 @@ $(function() {
     });
 
     $('.main-banners').on('init', function(event, slick) {
+        alert(5);
+        // $(this).fadeIn(300)
+
         $(this).fadeIn(300)
         // console.log("initialized")
     });
