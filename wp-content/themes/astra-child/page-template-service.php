@@ -2059,7 +2059,7 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
             // $change_of_company_branch_name=$_POST['change-of-company-branch-name'];
             // $transfer_of_shares= $_POST['transfer-of-shares'];
             // $deregistration_of_limited_company= $_POST['deregistration-of-limited-company'];
-            $deregistration_of_limited_company = $_POST['deregistration_of_limited_company'];
+            $deregistration_of_limited_company = $_POST['deregistration-of-limited-company'];
             $others=$_POST['others'];
             
             
