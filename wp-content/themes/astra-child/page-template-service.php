@@ -310,17 +310,17 @@ get_header(); ?>
                                     <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
                                     <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
                                     <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li class="ls1">更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li class="ls1">業務性質變更 Change of Company Business Nature</li>
-                                    <li class="ls1">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
+                                    <li class="">更改董事個人資料 Change of Personal Particulars of Director</li>
+                                    <li class="">業務性質變更 Change of Company Business Nature</li>
+                                    <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
                                         Register</li>
-                                    <li class="ls1">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li class="ls1"> 準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of
+                                    <li class="">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                    <li class=""> 準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of
                                         Directors,
                                         shareholders</li>
-                                    <li class="ls1">and company secretaries</li>
-                                    <li class="ls1">準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li class="ls1">增加公司註冊股本 Increase of Capital</li>
+                                    <li class="">and company secretaries</li>
+                                    <li class="">準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                    <li class="">增加公司註冊股本 Increase of Capital</li>
 
                                 </ul>
                             </div>
