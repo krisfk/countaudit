@@ -69,10 +69,14 @@ get_header(); ?>
             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg" alt="">
     </div>
 </div> -->
-<img class="w-100 dummy-banner-img"
-    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg.webp" alt="">
-<?php echo get_field('banners');?>
+<div class="position-relative">
+    <img class="w-100 dummy-banner-img"
+        src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg.webp" alt="">
 
+    <div class="position-absolute w-100 h-100">
+        <?php echo get_field('banners');?>
+    </div>
+</div>
 
 <div class="container home-pts-ul-wrapper-container">
     <?php echo get_field('content_1');?>
