@@ -69,7 +69,8 @@ get_header(); ?>
             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg" alt="">
     </div>
 </div> -->
-<img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg.webp" alt="">
+<img class="w-100 dummy-banner-img"
+    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg.webp" alt="">
 <?php echo get_field('banners');?>
 
 
@@ -1072,7 +1073,9 @@ $(function() {
     });
 
     $('.main-banners').on('init', function(event, slick, direction) {
+        $('.dummy-banner-img').fadeOut(0);
         $(this).fadeIn(300);
+
     }).slick({
         infinite: true,
         slidesToShow: 1,
