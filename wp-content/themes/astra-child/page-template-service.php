@@ -450,9 +450,18 @@ get_header(); ?>
 
                                     </label></div>
                                 <ul class="m-0 ps-4">
-                                    <li>註冊公司地址</li>
-                                    <li>信件代收</li>
-                                    <li>製作公司水牌</li>
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1"> 每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">郵件到取</li>
+                                    <li class="ls1"> 更改商業登記及公司註冊處地址</li>
+
+                                    <li class="ls2"> 郵件電子掃描</li>
+                                    <li class="ls2"> 每月一次會議室出租</li>
+                                    <li class="ls2"> 辦公室電話代接</li>
+
                                 </ul>
                             </div>
                             <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
