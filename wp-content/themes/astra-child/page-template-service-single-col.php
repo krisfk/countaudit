@@ -401,11 +401,7 @@ get_header(); ?>
                                     months</label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-2"
                                     class="form-control" name="upload-file-2" required="" type="file" /></div>
-                            <div class="col-12 mt-4 mb-4">
-                                <h4 class="text-center mb-4">附加詳情 Further Information</h4>
-                                <div>上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the
-                                    Company Members during the past annual year?</div>
-                            </div>
+
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="details-of-changes">*變動詳情
