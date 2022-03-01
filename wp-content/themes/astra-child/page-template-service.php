@@ -284,13 +284,14 @@ get_header(); ?>
                                 <b class="d-block text-center">Plan A (HK$1,400)
                                 </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li>擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li>準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li>協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li>對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter</li>
-                                    <li>更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li>準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li>準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
+                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
+                                        letter</li>
+                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
+                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
 
                                 </ul>
                             </div>
@@ -301,22 +302,25 @@ get_header(); ?>
 
                                 </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li>擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li>準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li>協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li>對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter</li>
-                                    <li>更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li>準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li>準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li>更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li>業務性質變更 Change of Company Business Nature</li>
-                                    <li>準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register</li>
-                                    <li>宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li> 準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
+                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
+                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
+                                        letter</li>
+                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
+                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                                    <li class="ls1">更改董事個人資料 Change of Personal Particulars of Director</li>
+                                    <li class="ls1">業務性質變更 Change of Company Business Nature</li>
+                                    <li class="ls1">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
+                                        Register</li>
+                                    <li class="ls1">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                    <li class="ls1"> 準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of
+                                        Directors,
                                         shareholders</li>
-                                    <li>and company secretaries</li>
-                                    <li>準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li>增加公司註冊股本 Increase of Capital</li>
+                                    <li class="ls1">and company secretaries</li>
+                                    <li class="ls1">準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                    <li class="ls1">增加公司註冊股本 Increase of Capital</li>
 
                                 </ul>
                             </div>
@@ -329,23 +333,25 @@ get_header(); ?>
                                 </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
 
-                                    <li>擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li>準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li>協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li>對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter</li>
-                                    <li>更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li>準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li>準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li> 更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li>業務性質變更 Change of Company Business Nature</li>
-                                    <li>準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register</li>
-                                    <li> 宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li>準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
+                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
+                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
+                                        letter</li>
+                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
+                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                                    <li class="ls1"> 更改董事個人資料 Change of Personal Particulars of Director</li>
+                                    <li class="ls1">業務性質變更 Change of Company Business Nature</li>
+                                    <li class="ls1">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
+                                        Register</li>
+                                    <li class="ls1"> 宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                    <li class="ls1">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
                                         shareholders
                                         and company secretaries</li>
-                                    <li> 準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li> 增加公司註冊股本 Increase of Capital</li>
-                                    <li> 分配股份 Allotment of Shares</li>
+                                    <li class="ls1"> 準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                    <li class="ls1"> 增加公司註冊股本 Increase of Capital</li>
+                                    <li class="ls1"> 分配股份 Allotment of Shares</li>
 
                                 </ul>
                             </div>
@@ -367,11 +373,11 @@ get_header(); ?>
                                         name="virtual-office[]" type="checkbox" value="tst-HK1600-year" /> <label
                                         class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label></div>
                                 <ul class="m-0 ps-4">
-                                    <li>註冊公司地址</li>
-                                    <li>信件包裹代收</li>
-                                    <li>稅局郵件轉寄</li>
-                                    <li>製作公司水牌</li>
-                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
@@ -379,14 +385,14 @@ get_header(); ?>
                                         name="virtual-office[]" type="checkbox" value="tst-HK4000-year" /> <label
                                         class="form-check-label" for="tst-HK4000-year"> HK$4,000/year </label></div>
                                 <ul class="m-0 ps-4">
-                                    <li>註冊公司地址</li>
-                                    <li>信件包裹代收</li>
-                                    <li>稅局郵件轉寄</li>
-                                    <li>製作公司水牌</li>
-                                    <li>每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
-                                    <li>辦公室電話代接</li>
-                                    <li>稅局文件代處理及信件代開</li>
-                                    <li>準備及保存重要控制人登記册</li>
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">辦公室電話代接</li>
+                                    <li class="ls1">稅局文件代處理及信件代開</li>
+                                    <li class="ls1">準備及保存重要控制人登記册</li>
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
@@ -394,16 +400,16 @@ get_header(); ?>
                                         name="virtual-office[]" type="checkbox" value="tst-HK12000-year" /> <label
                                         class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label></div>
                                 <ul class="m-0 ps-4">
-                                    <li>註冊公司地址</li>
-                                    <li>信件包裹代收</li>
-                                    <li>稅局郵件轉寄</li>
-                                    <li>製作公司水牌</li>
-                                    <li>更改商業登記地址</li>
-                                    <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
-                                    <li>辦公室電話代接</li>
-                                    <li>稅局文件代處理及信件代開</li>
-                                    <li>準備及保存重要控制人登記册</li>
-                                    <li>每月三次會議室出租</li>
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">更改商業登記地址</li>
+                                    <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">辦公室電話代接</li>
+                                    <li class="ls1">稅局文件代處理及信件代開</li>
+                                    <li class="ls1">準備及保存重要控制人登記册</li>
+                                    <li class="ls1">每月三次會議室出租</li>
                                 </ul>
                             </div>
                         </div>
@@ -458,9 +464,9 @@ get_header(); ?>
                                         name="virtual-office[]" type="checkbox" value="kt-HK900-year" /> <label
                                         class="form-check-label" for="kt-HK900-year"> HK$900/year </label></div>
                                 <ul class="m-0 ps-4">
-                                    <li>註冊公司地址</li>
-                                    <li>信件代收</li>
-                                    <li>製作公司水牌</li>
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件代收</li>
+                                    <li class="ls1">製作公司水牌</li>
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>

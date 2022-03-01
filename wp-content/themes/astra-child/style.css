@@ -994,6 +994,10 @@ a.tel:hover {
     margin: 0;
 }
 
+li.ls1 {
+    list-style-type: disclosure-closed;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
