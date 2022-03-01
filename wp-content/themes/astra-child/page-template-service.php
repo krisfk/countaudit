@@ -351,12 +351,12 @@ get_header(); ?>
                                         and company secretaries</li>
                                     <li class=""> 準備及保存股票證 Prepare and keep record of stock certificate</li>
                                     <li class=""> 增加公司註冊股本 Increase of Capital</li>
-                                    <li class=""> 分配股份 Allotment of Shares</li>
+                                    <li class="ls3"> 分配股份 Allotment of Shares</li>
 
-                                    <li class="">申請分行 Register Branch</li>
-                                    <li class="">年度股東大會Annual General Meeting</li>
-                                    <li class=""> 更改公司或分行名稱 Change of Company / Branch Name</li>
-                                    <li class=""> 股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)
+                                    <li class="ls3">申請分行 Register Branch</li>
+                                    <li class="ls3">年度股東大會Annual General Meeting</li>
+                                    <li class="ls3"> 更改公司或分行名稱 Change of Company / Branch Name</li>
+                                    <li class="ls3"> 股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)
                                     </li>
 
 
