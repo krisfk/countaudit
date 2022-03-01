@@ -1073,7 +1073,8 @@ $(function() {
     });
 
     $('.main-banners').on('init', function(event, slick, direction) {
-        $('.dummy-banner-img').fadeOut(0);
+        $('.dummy-banner-img').height(0);
+
         $(this).fadeIn(0);
 
     }).slick({
