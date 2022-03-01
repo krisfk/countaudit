@@ -353,6 +353,14 @@ get_header(); ?>
                                     <li class="ls1"> 增加公司註冊股本 Increase of Capital</li>
                                     <li class="ls1"> 分配股份 Allotment of Shares</li>
 
+                                    <li class="ls1">申請分行 Register Branch</li>
+                                    <li class="ls1">年度股東大會Annual General Meeting</li>
+                                    <li class="ls1"> 更改公司或分行名稱 Change of Company / Branch Name</li>
+                                    <li class="ls1"> 股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)
+                                    </li>
+
+
+
                                 </ul>
                             </div>
 
