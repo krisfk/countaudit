@@ -1069,7 +1069,9 @@ $(function() {
 
     });
 
-    $('.main-banners').slick({
+    $('.main-banners').on('init', function(event, slick, direction) {
+        alert(65);
+    }).slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -1088,13 +1090,7 @@ $(function() {
 
     });
 
-    $('.main-banners').on('init', function(event, slick) {
-        alert(5);
-        // $(this).fadeIn(300)
 
-        $(this).fadeIn(300)
-        // console.log("initialized")
-    });
 
 
 
