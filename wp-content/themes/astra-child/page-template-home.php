@@ -69,9 +69,10 @@ get_header(); ?>
             src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg" alt="">
     </div>
 </div> -->
-<div class="banners-wrapper">
-    <?php echo get_field('banners');?>
-</div>
+<img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-4.jpg.webp" alt="">
+<?php echo get_field('banners');?>
+
+
 <div class="container home-pts-ul-wrapper-container">
     <?php echo get_field('content_1');?>
 

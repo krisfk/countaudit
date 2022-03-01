@@ -846,7 +846,7 @@ a.gold.no-deco:hover {
 
 .home .main-banners {
     display: none;
-    height: 561px;
+    /* height: 561px; */
 }
 
 .banners-wrapper {
