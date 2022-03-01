@@ -134,7 +134,7 @@ get_header(); ?>
 
                 <!--  -->
 
-                <h4 class="text-center lh-base">Virtual Office Service Application Form
+                <!-- <h4 class="text-center lh-base">Virtual Office Service Application Form
 
                     虛擬辦工室服務計劃申請表
                 </h4>
@@ -428,39 +428,6 @@ get_header(); ?>
                                     <li class="ls2">辦公室電話代接</li>
                                 </ul>
                             </div>
-                            <!--
-<div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-<div class="form-check"><input id="lck-HK650-year" class="form-check-input" name="virtual-office[]" type="checkbox" value="lck-HK650-year" /> <label class="form-check-label" for="lck-HK650-year"> HK$650/year </label></div>
-<ul class="m-0 ps-4">
- 	<li>註冊公司地址</li>
- 	<li>信件代收</li>
- 	<li>製作公司水牌</li>
-</ul>
-</div>
-<div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-<div class="form-check"><input id="lck-HK950-year" class="form-check-input" name="virtual-office[]" type="checkbox" value="lck-HK950-year" /> <label class="form-check-label" for="lck-HK950-year"> HK$950/year </label></div>
-<ul class="m-0 ps-4">
- 	<li>註冊公司地址</li>
- 	<li>信件包裹代收</li>
- 	<li>稅局郵件轉寄</li>
- 	<li>製作公司水牌</li>
- 	<li>每月轉寄郵件</li>
-</ul>
-</div>
-<div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-<div class="form-check"><input id="lck-HK1200-year" class="form-check-input" name="virtual-office[]" type="checkbox" value="lck-HK1200-year" /> <label class="form-check-label" for="lck-HK1200-year"> HK$1,200/year </label></div>
-<ul class="m-0 ps-4">
- 	<li>註冊公司地址</li>
- 	<li>信件包裹代收</li>
- 	<li>稅局郵件轉寄</li>
- 	<li>製作公司水牌</li>
- 	<li>更改商業登記地址</li>
- 	<li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
- 	<li>每月一次會議室出租</li>
- 	<li>辦公室電話代接</li>
-</ul>
-</div>
--->
 
                         </div>
                         <div class="mt-4 mb-3">
@@ -482,26 +449,8 @@ get_header(); ?>
                         </div>
                         <div class="row mt-4 align-items-center">
 
-                            <!--
-<div class="col-12 mb-3">
-<div class="form-check"><input id="additional-1" class="form-check-input" name="increase-of-capital" type="checkbox" value="1" /> <label class="form-check-label" for="additional-1"> 增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive) </label></div>
-</div>
-<div class="col-12 mb-3">
-<div class="form-check"><input id="additional-2" class="form-check-input" name="allotment-of-shares" type="checkbox" value="2" /> <label class="form-check-label" for="additional-2"> 分配股份(港幣$500全包) Allotment of Shares (HK$500 all inclusive) </label></div>
-</div>
-<div class="col-12 mb-3">
-<div class="form-check"><input id="additional-3" class="form-check-input" name="register-branch" type="checkbox" value="3" /> <label class="form-check-label" for="additional-3"> 申請分行(港幣$500全包) Register Branch (HK$500 all inclusive) </label></div>
-</div>
-<div class="col-12 mb-3">
-<div class="form-check"><input id="additional-4" class="form-check-input" name="annual-general-name" type="checkbox" value="4" /> <label class="form-check-label" for="additional-4"> 年度股東大會(港幣$500全包) Annual General Name (HK$500 all inclusive) </label></div>
-</div>
-<div class="col-12 mb-3">
-<div class="form-check"><input id="additional-5" class="form-check-input" name="change-of-company-branch-name" type="checkbox" value="5" /> <label class="form-check-label" for="additional-5"> 更改公司或分行名稱(港幣$500全包) Change of Company / Branch Name (HK$500 all inclusive) </label></div>
-</div>
-<div class="col-12 mb-3">
-<div class="form-check"><input id="additional-6" class="form-check-input" name="transfer-of-shares" type="checkbox" value="6" /> <label class="form-check-label" for="additional-6"> 股份轉讓 (HK$700服務費加印花稅） Transfer of Shares (HK$700 plus stamp duty fees) </label></div>
-</div>
--->
+
+
                             <div class="col-12 mb-3">
                                 <div class="form-check"><input id="additional-7" class="form-check-input"
                                         name="deregistration-of-limited-company" type="checkbox" value="7" /> <label
@@ -522,7 +471,7 @@ get_header(); ?>
                         <div class="text-center mt-3"><input class="form-submit-btn" type="submit" value="Submit" />
                         </div>
                     </div>
-                </form>
+                </form> -->
                 <?php //echo get_field('bottom_form');?>
 
                 <!---
