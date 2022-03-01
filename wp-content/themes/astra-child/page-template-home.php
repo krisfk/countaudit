@@ -1070,7 +1070,7 @@ $(function() {
     });
 
     $('.main-banners').on('init', function(event, slick, direction) {
-        alert(65);
+        $(this).fadeIn(300);
     }).slick({
         infinite: true,
         slidesToShow: 1,

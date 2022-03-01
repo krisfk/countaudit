@@ -844,7 +844,9 @@ a.gold.no-deco:hover {
     margin: -1rem 0 0 0;
 }
 
-.home .main-banners {}
+.home .main-banners {
+    display: none;
+}
 
 .home .main-banners .slick-slide {
     /* margin: 0; */
