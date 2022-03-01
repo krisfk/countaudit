@@ -999,11 +999,11 @@ li.ls1 {
 }
 
 li.ls2 {
-    list-style-type: disclosure-closed;
+    list-style-type: square;
 }
 
 li.ls3 {
-    list-style-type: disclosure-closed;
+    list-style-type: circle;
 }
 
 @media only screen and (max-width: 1920px) {}
