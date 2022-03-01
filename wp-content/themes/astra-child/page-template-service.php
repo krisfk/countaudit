@@ -411,7 +411,7 @@ get_header(); ?>
                             <h6 class="text-center">- 荔枝角 Lai Chi Kok -</h6>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                            <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
                                 <div class="form-check"><input id="lck-HK650-year" class="form-check-input"
                                         name="virtual-office[]" type="checkbox" value="lck-HK650-year" /> <label
                                         class="form-check-label" for="lck-HK650-year"> HK$650/year </label></div>
@@ -447,7 +447,7 @@ get_header(); ?>
                                     <li>每月一次會議室出租</li>
                                     <li>辦公室電話代接</li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="mt-4 mb-3">
                             <h6 class="text-center">- 觀塘 Kwun Tong -</h6>
@@ -467,7 +467,7 @@ get_header(); ?>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
                         </div>
                         <div class="row mt-4 align-items-center">
-                            <div class="col-12 mb-3">
+                            <!-- <div class="col-12 mb-3">
                                 <div class="form-check"><input id="additional-1" class="form-check-input"
                                         name="increase-of-capital" type="checkbox" value="1" /> <label
                                         class="form-check-label" for="additional-1"> 增加公司註冊股本 (港幣$500全包)
@@ -502,7 +502,7 @@ get_header(); ?>
                                         name="transfer-of-shares" type="checkbox" value="6" /> <label
                                         class="form-check-label" for="additional-6"> 股份轉讓 (HK$700服務費加印花稅）
                                         Transfer of Shares (HK$700 plus stamp duty fees) </label></div>
-                            </div>
+                            </div> -->
                             <div class="col-12 mb-3">
                                 <div class="form-check"><input id="additional-7" class="form-check-input"
                                         name="deregistration-of-limited-company" type="checkbox" value="7" /> <label
