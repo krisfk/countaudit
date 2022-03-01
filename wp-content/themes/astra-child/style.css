@@ -849,6 +849,10 @@ a.gold.no-deco:hover {
     height: 561px;
 }
 
+.banners-wrapper {
+    height: 561px;
+}
+
 .home .main-banners .slick-slide {
     /* margin: 0; */
 }
