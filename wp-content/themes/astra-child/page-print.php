@@ -115,6 +115,14 @@ get_header();
 
             </td>
         </tr>
+        <tr>
+            <td class="fit">Any stock? <br>
+                有否存貨?</td>
+            <td class="text-wrap">Yes/No</td>
+            <td class="fit">No. of bank used <br>
+                使用銀行的數量</td>
+            <td class="text-wrap"></td>
+        </tr>
     </table>
 
 
