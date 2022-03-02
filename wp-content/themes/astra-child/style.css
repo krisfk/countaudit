@@ -1319,6 +1319,12 @@ li.ls3 {
     font-size: 0.8rem;
 }
 
+.page-print .form-table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
 .page-print .form-table td {
     border: 1px solid #000;
     max-width: 100%;
