@@ -1368,6 +1368,9 @@ li.ls3 {
         position: fixed;
         bottom: 0;
     } */
+    .print-form-container {
+        margin: 4rem 0 0 0;
+    }
     .desktop-print-header {
         display: none;
     }
