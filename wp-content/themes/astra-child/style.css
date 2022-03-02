@@ -1350,6 +1350,12 @@ li.ls3 {
     /* div.divFooter {
         display: none;
     } */
+    .desktop-print-header {
+        display: block;
+    }
+    .print-header {
+        display: none;
+    }
 }
 
 @media print {
@@ -1357,4 +1363,13 @@ li.ls3 {
         position: fixed;
         bottom: 0;
     } */
+    .desktop-print-header {
+        display: none;
+    }
+    .print-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
 }
