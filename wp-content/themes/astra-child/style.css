@@ -1302,7 +1302,8 @@ li.ls3 {
 
 .page-print .blue-bg,
 .page-print .blue-bg-2,
-.page-print .top-menu {
+.page-print .top-menu,
+.page-print .top-div {
     display: none !important;
 }
 
