@@ -1329,6 +1329,7 @@ li.ls3 {
     border: 1px solid #000;
     max-width: 100%;
     white-space: nowrap;
+    width: 1%;
 }
 
 @media screen {
