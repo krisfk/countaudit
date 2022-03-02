@@ -14,6 +14,15 @@ get_header();
             信托或公司服務提供牌照:TC007204</div>
     </div>
 
+    <div class="desktop-print-header">
+        <img class="ca-print-logo" src="<?php echo get_site_url();?>/wp-content/uploads/2022/03/ca-print-logo-1.jpg"
+            alt="">
+
+        <div class="float-end border border-dark p-2">Trust or Company Service Provider Liscense No. <br>
+            信托或公司服務提供牌照:TC007204</div>
+
+    </div>
+
     <div class="d-none">
         <h2 class="text-center mt-4">Quotation Form of Accounting Service <br>
             會計服務報價表
