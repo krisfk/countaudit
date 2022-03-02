@@ -23,7 +23,7 @@ get_header();
 
     </div>
 
-    <div class="d-none">
+    <div class="">
         <h2 class="text-center mt-4">Quotation Form of Accounting Service <br>
             會計服務報價表
         </h2>
