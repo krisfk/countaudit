@@ -18,7 +18,7 @@ get_header();
 
     <table class="form-table mt-1">
         <tr>
-            <td colspan="2" class="text-center orange-yellow-bg font-weight-bold">Contact Information 聯絡資料</td>
+            <td colspan="2" class="text-center orange-yellow-bg fw-bold">Contact Information 聯絡資料</td>
         </tr>
         <tr>
             <td>
