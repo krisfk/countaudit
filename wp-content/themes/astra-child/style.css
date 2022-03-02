@@ -1301,7 +1301,11 @@ li.ls3 {
 /* print form data */
 
 .page-print .blue-bg {
-    display: none;
+    display: none !important;
+}
+
+.page-print footer {
+    display: none !important;
 }
 
 .ca-print-logo {
