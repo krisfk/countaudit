@@ -1301,7 +1301,7 @@ li.ls3 {
 /* print form data */
 
 .page-print #page {
-    display: none;
+    /* display: none; */
 }
 
 .ca-print-logo {
