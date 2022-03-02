@@ -12,9 +12,9 @@ get_header();
             信托或公司服務提供牌照:TC007204</div>
     </div>
 
-    <h1>Quotation Form of Accounting Service <br>
+    <h2>Quotation Form of Accounting Service <br>
         會計服務報價表
-    </h1>
+    </h2>
 
     <table class="form-table">
         <tr>
