@@ -1300,7 +1300,8 @@ li.ls3 {
 
 /* print form data */
 
-.page-print .blue-bg {
+.page-print .blue-bg,
+.page-print .blue-bg-2 {
     display: none !important;
 }
 
