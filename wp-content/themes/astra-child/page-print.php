@@ -2,7 +2,7 @@
 get_header(); 
 ?>
 
-<div class="container mx-auto mt-4">
+<div class="container mx-auto">
 
 
     <div class="print-header">
