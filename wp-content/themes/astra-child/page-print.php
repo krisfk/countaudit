@@ -2,7 +2,7 @@
 get_header(); 
 ?>
 
-<div class="container mx-auto">
+<div class="container mx-auto print-form-container">
 
 
     <div class="print-header">

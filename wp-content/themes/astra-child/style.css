@@ -1346,6 +1346,10 @@ li.ls3 {
     -webkit-print-color-adjust: exact;
 }
 
+.print-form-container {
+    margin: 4rem 0 0 0;
+}
+
 @media screen {
     /* div.divFooter {
         display: none;
