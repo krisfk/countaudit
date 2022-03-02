@@ -16,7 +16,7 @@ get_header();
         會計服務報價表
     </h1>
 
-    <table>
+    <table class="form-table">
         <tr>
             <td colspan="2">Contact Information 聯絡資料</td>
         </tr>

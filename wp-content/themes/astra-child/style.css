@@ -1319,6 +1319,10 @@ li.ls3 {
     font-size: 0.8rem;
 }
 
+.page-print .form-table td {
+    border: 1px solid #000;
+}
+
 @media screen {
     /* div.divFooter {
         display: none;
