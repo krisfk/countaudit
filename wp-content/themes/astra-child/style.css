@@ -1315,6 +1315,10 @@ li.ls3 {
     height: 60px;
 }
 
+.page-print {
+    font-size: 0.6rem;
+}
+
 @media screen {
     /* div.divFooter {
         display: none;
