@@ -1323,6 +1323,7 @@ li.ls3 {
     table-layout: auto;
     border-collapse: collapse;
     width: 100%;
+    max-width: 100%;
 }
 
 .page-print .form-table tr td {
