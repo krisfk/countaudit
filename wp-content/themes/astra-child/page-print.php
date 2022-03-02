@@ -8,7 +8,7 @@ get_header();
         <img class="ca-print-logo" src="<?php echo get_site_url();?>/wp-content/uploads/2022/03/ca-print-logo-1.jpg"
             alt="">
 
-        <div class="float-end border border-dark pt-2">Trust or Company Service Provider Liscense No. <br>
+        <div class="float-end border border-dark p-2">Trust or Company Service Provider Liscense No. <br>
             信托或公司服務提供牌照:TC007204</div>
     </div>
 
