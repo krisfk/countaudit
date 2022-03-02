@@ -1300,8 +1300,8 @@ li.ls3 {
 
 /* print form data */
 
-.page-print #page {
-    /* display: none; */
+.page-print .blue-bg {
+    display: none;
 }
 
 .ca-print-logo {
