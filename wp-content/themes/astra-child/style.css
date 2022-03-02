@@ -1300,6 +1300,10 @@ li.ls3 {
 
 /* print form data */
 
+.page-print body {
+    font-size: 0.8rem;
+}
+
 .page-print .blue-bg,
 .page-print .blue-bg-2,
 .page-print .top-menu,
