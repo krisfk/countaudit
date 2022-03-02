@@ -1341,6 +1341,7 @@ li.ls3 {
 
 .orange-yellow-bg {
     background: #f7e3c5;
+    -webkit-print-color-adjust: exact;
 }
 
 @media screen {
