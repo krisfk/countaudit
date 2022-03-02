@@ -84,14 +84,14 @@ get_header();
         <tr>
             <td class="fit">Reporting Frequency <br>
                 會計匯報頻率</td>
-            <td colspan="2">
+            <td colspan="3">
                 每月 Monthly □ 每季 Quarterly □ 每年 Yearly
             </td>
         </tr>
         <tr>
             <td>Has done Excel for business records? <br>
                 有否做Excel營業記錄？ </td>
-            <td colspan="2">
+            <td colspan="3">
 
                 Yes / No, if Yes, please upload <br>
                 　如有，請上載</td>
@@ -103,7 +103,7 @@ get_header();
                 <div class="small"> e.g. Scanning / taking picture /<br>sorted by folder / unsorted <br>
                     例如電子掃描//拍照/<br>分類袋分類/沒有任何分類</div>
             </td>
-            <td colspan="2">
+            <td colspan="3">
 
             </td>
         </tr>
