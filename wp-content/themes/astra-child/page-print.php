@@ -38,6 +38,36 @@ get_header();
     </table>
 
 
+    <table class="form-table mt-3">
+        <tr>
+            <td colspan="2" class="text-center orange-yellow-bg fw-bold">Company Information 公司資料</td>
+        </tr>
+        <tr>
+            <td>Company name <br> 公司名稱</td>
+            <td colspan="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Principal activities <br>
+                主要業務
+            </td>
+            <td colspan="2">
+            </td>
+        </tr>
+        <tr>
+            <td>Incorporation date <br>
+                公司開立日期</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
 
 
 
