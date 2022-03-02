@@ -1325,10 +1325,13 @@ li.ls3 {
     width: 100%;
 }
 
-.page-print .form-table td {
+.page-print .form-table tr td {
     border: 1px solid #000;
-    max-width: 100%;
+    /* max-width: 100%; */
     white-space: nowrap;
+}
+
+.page-print .form-table tr td:first-child {
     width: 1%;
 }
 
