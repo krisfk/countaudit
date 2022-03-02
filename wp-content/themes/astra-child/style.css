@@ -1356,6 +1356,7 @@ li.ls3 {
     } */
     .desktop-print-header {
         display: block;
+        margin: 1rem 0 0 0;
     }
     .print-header {
         display: none;
