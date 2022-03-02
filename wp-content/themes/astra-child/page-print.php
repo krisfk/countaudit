@@ -2,7 +2,7 @@
 get_header(); 
 ?>
 
-<div class="container mx-auto print-form-container">
+<div class="container mx-auto">
 
 
     <div class="print-header">
@@ -23,7 +23,7 @@ get_header();
 
     </div>
 
-    <div class="">
+    <div class="print-form-container">
         <h2 class="text-center mt-4">Quotation Form of Accounting Service <br>
             會計服務報價表
         </h2>
