@@ -65,7 +65,7 @@ get_header();
                 是否曾進行核數</td>
             <td class="fit">Yes / No If Yes,<br>please provide the related year ended date<br>
                 是 / 否 如是，請提供相關年結日</td>
-            <td class="text-wrap">請提供相關年結日請提供相關年結日請提供相關年結日請提供相關年結日請提供相關年結日</td>
+            <td class="text-wrap"></td>
         </tr>
         <tr>
             <td class="fit">Has declared profits tax before?<br>
