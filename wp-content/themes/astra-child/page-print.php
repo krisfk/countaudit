@@ -100,7 +100,7 @@ get_header();
             <td>Way of sorting and keeping receipts <br>
                 整理單據的方式<br>
 
-                <div class="small"> e.g. Scanning / taking picture / sorted by folder / unsorted <br>
+                <div class="small"> e.g. Scanning / taking picture /<br>sorted by folder / unsorted <br>
                     例如電子掃描//拍照/分類袋分類/沒有任何分類</div>
             </td>
             <td colspan="2">
