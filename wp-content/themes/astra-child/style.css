@@ -1331,7 +1331,7 @@ li.ls3 {
     white-space: nowrap;
 }
 
-.page-print .form-table tr td:first-child {
+.page-print .form-table tr td.fit {
     width: 1%;
 }
 
