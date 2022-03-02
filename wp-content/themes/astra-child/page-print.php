@@ -12,6 +12,30 @@ get_header();
             信托或公司服務提供牌照:TC007204</div>
     </div>
 
+    <h1>Quotation Form of Accounting Service <br>
+        會計服務報價表
+    </h1>
+
+    <table>
+        <tr>
+            <td colspan="2">Contact Information 聯絡資料</td>
+        </tr>
+        <tr>
+            <td>
+                Name 姓名:</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Tel 電話:</td>
+        </tr>
+        <tr>
+            <td>
+                E-mail 電郵:</td>
+            <td></td>
+        </tr>
+    </table>
+
 
 
 
