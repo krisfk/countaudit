@@ -13,7 +13,7 @@
     <div class="header">
 
 
-        <img src="<?php echo get_template_directory_uri();?>/assets/images/ca-print-logo.jpg" alt="">
+        <img src="<?php echo get_site_url();?>/wp-content/uploads/2022/03/ca-print-logo.jpg" alt="">
     </div>
 
 
