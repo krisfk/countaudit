@@ -40,7 +40,7 @@ get_header();
 
     <table class="form-table mt-3">
         <tr>
-            <td colspan="2" class="text-center orange-yellow-bg fw-bold">Company Information 公司資料</td>
+            <td colspan="3" class="text-center orange-yellow-bg fw-bold">Company Information 公司資料</td>
         </tr>
         <tr>
             <td>Company name <br> 公司名稱</td>
