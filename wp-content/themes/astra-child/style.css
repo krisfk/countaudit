@@ -1300,10 +1300,6 @@ li.ls3 {
 
 /* print form data */
 
-.page-print body {
-    font-size: 0.8rem;
-}
-
 .page-print .blue-bg,
 .page-print .blue-bg-2,
 .page-print .top-menu,
@@ -1334,6 +1330,7 @@ li.ls3 {
     border: 1px solid #000;
     /* max-width: 100%; */
     white-space: nowrap;
+    font-size: 0.3rem;
 }
 
 .page-print .form-table tr td.fit {
