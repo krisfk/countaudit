@@ -1300,6 +1300,10 @@ li.ls3 {
 
 /* print form data */
 
+.ca-print-logo {
+    height: 20px;
+}
+
 @media screen {
     /* div.divFooter {
         display: none;
