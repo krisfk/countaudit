@@ -61,9 +61,32 @@ get_header();
             <td colspan="2"></td>
         </tr>
         <tr>
+            <td>Has performed audit before?<br>
+                是否曾進行核數</td>
+            <td>Yes / No If Yes, please provide the related year ended date<br>
+                是 / 否 如是，請提供相關年結日</td>
             <td></td>
+        </tr>
+        <tr>
+            <td>Has declared profits tax before?<br>
+                是否曾申報利得稅</td>
+            <td>Yes / No If Yes, please provide the related year of assessment<br>
+                是 / 否 如是，請提供相關課稅年度</td>
             <td></td>
+        </tr>
+        <tr>
+            <td>Has done accounting before?<br>
+                是否曾做會計帳</td>
+            <td>Yes / No If Yes, please provide the related year ended date<br>
+                是 / 否 如是，請提供相關年結日</td>
             <td></td>
+        </tr>
+        <tr>
+            <td>Reporting Frequency <br>
+                會計匯報頻率</td>
+            <td colspan="2">
+                每月 Monthly □ 每季 Quarterly □ 每年 Yearly
+            </td>
         </tr>
     </table>
 
