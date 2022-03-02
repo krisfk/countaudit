@@ -107,6 +107,14 @@ get_header();
 
             </td>
         </tr>
+
+        <tr>
+            <td>Total Turnover (yearly) <br>
+                全年總營業額</td>
+            <td colspan="2">
+
+            </td>
+        </tr>
     </table>
 
 
