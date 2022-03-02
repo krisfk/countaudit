@@ -28,6 +28,7 @@ get_header();
         <tr>
             <td>
                 Tel 電話:</td>
+            <td></td>
         </tr>
         <tr>
             <td>

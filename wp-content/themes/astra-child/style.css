@@ -1321,6 +1321,8 @@ li.ls3 {
 
 .page-print .form-table td {
     border: 1px solid #000;
+    max-width: 100%;
+    white-space: nowrap;
 }
 
 @media screen {
