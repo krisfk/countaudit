@@ -1315,10 +1315,6 @@ li.ls3 {
     height: 3rem;
 }
 
-.page-print {
-    font-size: 0.5rem;
-}
-
 .page-print .form-table {
     table-layout: auto;
     border-collapse: collapse;
@@ -1351,6 +1347,9 @@ li.ls3 {
 }
 
 @media screen {
+    .page-print {
+        font-size: 0.8rem;
+    }
     /* div.divFooter {
         display: none;
     } */
@@ -1364,7 +1363,12 @@ li.ls3 {
 }
 
 @media print {
-    /* div.divFooter {
+    .page-print {
+        font-size: 0.5rem;
+    }
+    /* div.divFooter 
+    
+    {
         position: fixed;
         bottom: 0;
     } */
