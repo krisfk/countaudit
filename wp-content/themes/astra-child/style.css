@@ -1339,6 +1339,10 @@ li.ls3 {
     font-size: 1rem;
 }
 
+.orange-yellow-bg {
+    background: #f7e3c5;
+}
+
 @media screen {
     /* div.divFooter {
         display: none;
