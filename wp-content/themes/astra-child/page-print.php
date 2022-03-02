@@ -44,7 +44,7 @@ get_header();
         </tr>
         <tr>
             <td class="fit">Company name <br> 公司名稱</td>
-            <td colspan="2">
+            <td colspan="3">
             </td>
         </tr>
         <tr>
@@ -52,13 +52,13 @@ get_header();
                 Principal activities <br>
                 主要業務
             </td>
-            <td colspan="2">
+            <td colspan="3">
             </td>
         </tr>
         <tr>
             <td class="fit">Incorporation date <br>
                 公司開立日期</td>
-            <td colspan="2"></td>
+            <td colspan="3"></td>
         </tr>
         <tr>
             <td class="fit">Has performed audit before?<br>
