@@ -2083,7 +2083,7 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td> ❑ 需要 ❑不需要
+                    <td class="text-center"> ❑ 需要 ❑ 不需要
                     </td>
                 </tr>
             </table>
