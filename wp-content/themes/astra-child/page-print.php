@@ -184,7 +184,7 @@ get_header();
      if($_GET['f']=='atrqf')
      {
          ?>
-    <div class="accounting-q-form-div">
+    <div class="audit-and-tax-reporting-q-form">
         <div class="print-form-container">
             <h2 class="text-center mt-4">
                 Quotation Form of Audit and Tax Reporting <br>
