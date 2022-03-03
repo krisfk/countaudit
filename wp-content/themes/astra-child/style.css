@@ -1355,6 +1355,7 @@ li.ls3 {
 
 .sign-line {
     display: block;
+    -webkit-print-color-adjust: exact;
     height: 1px;
     width: 300px;
     background: #000;
