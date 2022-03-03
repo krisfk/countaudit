@@ -25,6 +25,10 @@ get_header();
 
 
 
+    <?php if($_GET['f']=='accounting-q-form-div')
+    {
+        
+    ?>
     <div class="accounting-q-form-div">
         <div class="print-form-container">
             <h2 class="text-center mt-4">Quotation Form of Accounting Service <br>
@@ -172,7 +176,9 @@ get_header();
 
         </div>
     </div>
-
+    <?php
+    }
+?>
 
 </div>
 
