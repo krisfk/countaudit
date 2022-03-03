@@ -1408,7 +1408,7 @@ get_header();
                     <td class="fit">證件上名稱 <br>
                         Name on ID/Passport *
                     </td>
-                    <td colspan="2">中文 <br>
+                    <td>中文 <br>
                         Chinese
                     </td>
                     <td colspan="2">英文 <br>
