@@ -273,19 +273,13 @@ get_header();
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
                 <tr>
-                    <td class="fit">Has done accounting before?<br>
-                        是否曾做會計帳</td>
-                    <td class="fit">Yes / No If Yes,<br>please provide the related year ended date<br>
-                        是 / 否 如是，請提供相關年結日</td>
+                    <td class="fit">Has received the tax return this year <br>
+                        有否收到今年度利得稅報稅表</td>
+                    <td class="fit">Yes / No If Yes,<br>please provide the issued date<br>
+                        是 / 否 如有，請提供發出日期</td>
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
-                <tr>
-                    <td class="fit">Reporting Frequency <br>
-                        會計匯報頻率</td>
-                    <td colspan="3">
-                        每月 Monthly □ 每季 Quarterly □ 每年 Yearly
-                    </td>
-                </tr>
+
 
 
             </table>
