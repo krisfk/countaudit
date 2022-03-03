@@ -466,7 +466,8 @@ get_header();
 
                 </tr>
                 <tr>
-                    <td>上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the Company
+                    <td colspan="2">上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the
+                        Company
                         Members during the past annual year?
 
                     </td>
@@ -489,6 +490,13 @@ get_header();
                         □ 其他 Others:
 
                     </td>
+                </tr>
+                <tr>
+                    <td>備註 <br>
+
+                        Remarks
+                    </td>
+                    <td></td>
                 </tr>
             </table>
             <!-- 
