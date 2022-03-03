@@ -1315,6 +1315,42 @@ get_header();
                     </td>
                 </tr>
             </table>
+
+            <table class="form-table mt-0 mb-0">
+                <tr>
+                    <td colspan="4" class="text-center orange-yellow-bg fw-bold">公司資料 Company Information
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="text-nowrap">*公司名稱 <br>
+                        Company Name
+                    </td>
+                    <td>中文名稱 Chinese Name
+                    </td>
+                </tr>
+                <tr>
+
+
+                    <td>英文名稱 English Name
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="fit  text-nowrap">*公司秘書更改日期 <br>
+                        The date of changing Company Secretary
+                    </td>
+                    <td></td>
+                </tr>
+
+
+
+
+            </table>
+
         </div>
     </div>
     <?php
