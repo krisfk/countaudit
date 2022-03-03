@@ -290,6 +290,36 @@ get_header();
                         全年總營業額</td>
                     <td colspan="3"></td>
                 </tr>
+                <tr>
+                    <td class="fit">Any stock? <br>
+                        有否存貨?</td>
+                    <td class="text-wrap">Yes /No</td>
+                    <td class="fit">No. of bank used <br>
+                        使用銀行的數量</td>
+                    <td class="text-wrap"></td>
+                </tr>
+
+                <tr>
+                    <td class="fit">No. of bank transactions (monthly) <br>
+                        每月經銀行交易的數量</td>
+                    <td class="text-wrap"></td>
+                    <td class="fit">No. of non-bank transactions (monthly) <br>
+                        每月非經銀行交易的數量</td>
+                    <td class="text-wrap"></td>
+                </tr>
+
+                <tr>
+                    <td class="fit">Any property? <br>
+                        有否物業?</td>
+                    <td class="text-wrap">Yes /No</td>
+                    <td class="fit">Any motor vehicle? <br>
+                        有否車輛?</td>
+                    <td class="text-wrap">Yes /No</td>
+                </tr>
+
+
+
+
 
 
 
