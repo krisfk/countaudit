@@ -1877,8 +1877,8 @@ get_header();
                     <td>
                         ❑ 公司印章
                         <div class="ms-2">
-                            ❑ 小圓印 Round Chop [HK$150/個each]
-                            ❑ 支票印 Signature Chop [HK$150/個 each]
+                            ❑ 小圓印 Round Chop [HK$150/個each] <br>
+                            ❑ 支票印 Signature Chop [HK$150/個 each]<br>
                             ❑ 鋼印 Company Seal [HK$250/個 each]
                         </div>
 
