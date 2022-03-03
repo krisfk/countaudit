@@ -382,6 +382,17 @@ get_header();
                     </td>
                     <td></td>
                 </tr>
+                <tr>
+                    <td colspan="4">
+
+                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person ❑ 是 Yes ❑ 否 No <br>
+                        如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person <br>
+                        <br>
+                        姓名Name：_______________________________ 聯絡電話Phone Number：_______________________________
+
+
+                    </td>
+                </tr>
 
 
             </table>
