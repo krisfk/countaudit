@@ -1379,7 +1379,7 @@ get_header();
 
             </table>
 
-            <table>
+            <table class="form-table">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold"> 股東及董事資料 Shareholder’s and Director’s
                         Information
