@@ -1865,6 +1865,30 @@ get_header();
                 </tr>
             </table>
 
+            <table>
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">附加服務 Additional Services
+
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        ❑ 公司印章
+                        <div class="ms-2">
+                            ❑ 小圓印 Round Chop [HK$150/個each]
+                            ❑ 支票印 Signature Chop [HK$150/個 each]
+                            ❑ 鋼印 Company Seal [HK$250/個 each]
+                        </div>
+
+
+                    </td>
+
+                </tr>
+
+            </table>
+
 
 
         </div>
