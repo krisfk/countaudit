@@ -1509,7 +1509,7 @@ get_header();
                 </tbody>
                 <tbody>
                     <tr>
-                        <td class="fit">1. 申請人身份 <br>
+                        <td class="fit">2. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
                         <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
@@ -1550,7 +1550,7 @@ get_header();
                 </tbody>
                 <tbody>
                     <tr>
-                        <td class="fit">1. 申請人身份 <br>
+                        <td class="fit">3. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
                         <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
