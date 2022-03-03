@@ -426,7 +426,7 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td rowspan="2">*公司名稱 <br>
+                    <td rowspan="2" class="text-nowrap">*公司名稱 <br>
                         Company Name
                     </td>
                     <td>中文名稱 Chinese Name
@@ -441,7 +441,7 @@ get_header();
                 </tr>
 
                 <tr>
-                    <td class="fit">*公司秘書更改日期 <br>
+                    <td class="fit  class=" text-nowrap"">*公司秘書更改日期 <br>
                         The date of changing Company Secretary
                     </td>
                     <td></td>
