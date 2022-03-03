@@ -346,6 +346,15 @@ get_header();
      if($_GET['f']=='csf')
      {
         ?>
+    <div class="client-code-div">
+        <table>
+            <tr>
+                <td class="fit">Client Code:</td>
+                <td class="fit"></td>
+            </tr>
+        </table>
+
+    </div>
     <div class="accounting-q-form-div">
         <div class="print-form-container">
             <h2 class="text-center mt-4">Company Secretary in Hong Kong Application Form
