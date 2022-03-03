@@ -280,7 +280,7 @@ get_header();
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
                 <tr>
-                    <td colspan="4 fw-bold">
+                    <td colspan="4" class="fw-bold">
                         是否有做會計帳目？ 如有，請提供審計年度的Profit and Loss, Balance Sheet <br>
                         如沒有，請提供以下資料
                     </td>
