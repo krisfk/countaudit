@@ -351,7 +351,7 @@ get_header();
             <h2 class="text-center mt-4">Company Secretary in Hong Kong Application Form
                 <br>
                 香港公司秘書服務計劃申請表
-                <div class="small">*為必須填寫項目 Required Fields</div>
+                <div class="small nt-3">*為必須填寫項目 Required Fields</div>
             </h2>
 
             <table class="form-table mt-3 mb-0">
