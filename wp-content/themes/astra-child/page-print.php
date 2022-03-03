@@ -1007,11 +1007,67 @@ get_header();
                         <br><br> [4] 客戶涉嫌在未經本公司許可下，把服務轉移或分配至任何第三者使用。
                         In suspicion of the Client is transferring or assigning any or part of the services to any other
                         parties, without the prior authorization from CountAudit Secretarial Limited.
+                        <br><br>
+                        18 如有任何爭議，本公司將保留最終決定權。
+                        Should any disputes arise, the decision of CountAudit Secretarial Limited shall be final.
 
+                    </td>
+                </tr>
+            </table>
 
+            <table class="form-table mt-0">
+                <tr>
+                    <td>責任範圍 LIMITATION OF LIABILITY <br><br>
 
+                        19 客戶已知悉因語言、文字或電子通訊的限制，如服務受阻、延誤或中斷、或任何錯漏，本公司的責任只限於其服務受影響的服務費，本公司不會因上述原因而負上其他責任。
+                        The Client acknowledges that due to the imperfect nature of verbal, written and electronic
+                        communications, CountAudit Secretarial Limited is not responsible for any failure to render any
+                        service, or any delay or interruption of any service, the sole obligation is limited to the
+                        service charges during the affected period. <br><br>
 
+                        20 客戶同意不會因服務受阻、延誤或中斷、或任何錯漏而引致的直接或間接損失(包括業務及收益之損失)而提出索償。
+                        The Client agrees to waive, and agrees not to make, any claims for damages, direct or
+                        consequential, including with respect to lost business or profits, arising out any service, any
+                        error or omission with respect there to, or any delay or interruption of services.
+                        <br><br>
+                        協議期限與終止 SERVICE PERIOD AND TERMINATION
+                        <br><br>
 
+                        21 本次服務由服務生效日開始計算，其後服務期會按照客戶每次繳付的服務週期而延續，而本申請表之內容亦會於新延續的服務期內適用。
+                        The service period starts from the effective date of the service plan and the contract period
+                        will be extended according to the period covered by each payment from the Client. The content of
+                        this application form will be applicable within the extended contract period.
+                        <br><br>
+
+                        22 未經本公司許可下，客戶不能在首張合約期之結束日期終止服務。
+                        The Client is not allowed to terminate the service before the end date of the first contract
+                        period unless prior approval from CountAudit Secretarial Limited is obtained.
+                        <br><br>
+
+                        23 提早終止服務並不會退回已繳交之服務費用。
+                        Service fee will not be refunded for early termination.
+                        <br><br>
+                        資料保護DATE PROTECTION
+                        <br><br>
+                        24 本公司可收集、使用、傳輸、儲存或以其他方式處理（統稱“處理”）可能與個別人士有關的客戶資訊（“個人資料”）。本公司處理個人資料時，將遵照適用的法律及專業守則。
+                        The Company may collect, use, transfer, store or otherwise process (collectively referred to as
+                        the "processing") the information provided by the Clients, which may include personal
+                        information. The processing of those data will be in compliance with applicable laws and
+                        professional codes of practice.
+                        <br><br>
+
+                        25 客戶同意在本公司在為客戶提供服務的情況下向第三者提供與客戶有關之資料。本公司亦將要求代本公司處理個人資料的任何服務供應商，遵守該等規定。
+                        The Client agrees CountAudit Secretarial Limited to provide customer-related information to
+                        third parties for services to be provided to the Client by CountAudit Secretarial Limited.
+                        CountAudit Secretarial Limited will also request any third party service providers to be in
+                        compliance with applicable laws and professional codes of practice.
+                        <br><br>
+
+                        26 客戶同意接收本公司推廣優惠之資訊，如客戶日後不欲繼續接收有關本公司推廣資訊，可隨時通知本公司停止有關資訊之發送。
+                        The Client agrees to receive promotional information from CountAudit Secretarial Limited. Should
+                        the Client determines not to continue receiving such information, the Client can inform
+                        CountAudit Secretarial Limited and cease the receipt of the promotional information.
+                        <br><br>
 
 
                     </td>
