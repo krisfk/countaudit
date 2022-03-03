@@ -421,6 +421,13 @@ get_header();
                     </td>
                 </tr>
 
+                <tr>
+                    <td class="fit">*公司秘書更改日期 <br>
+                        The date of changing Company Secretary
+                    </td>
+                    <td></td>
+                </tr>
+
 
 
 
