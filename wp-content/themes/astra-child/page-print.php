@@ -356,7 +356,7 @@ get_header();
 
             <table class="form-table mt-3 mb-0">
                 <tr>
-                    <td colspan="2" class="text-center orange-yellow-bg fw-bold">申請人資料 Applicant Information
+                    <td colspan="4" class="text-center orange-yellow-bg fw-bold">申請人資料 Applicant Information
 
                     </td>
                 </tr>
