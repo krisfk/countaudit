@@ -1399,7 +1399,7 @@ get_header();
                     <td class="fit">1. 申請人身份 <br>
                         Applicant’s Position *
                     </td>
-                    <td class="fit" colspan="2">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                    <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
 
                         <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                     </td>
