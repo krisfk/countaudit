@@ -373,7 +373,7 @@ get_header();
                 <div class="small mt-2">*為必須填寫項目 Required Fields</div>
             </h2>
 
-            <table class="form-table mt-3 mb-0 text-nowrap">
+            <table class="form-table mt-3 mb-0">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">申請人資料 Applicant Information
 
@@ -417,7 +417,7 @@ get_header();
             </table>
 
 
-            <table class="form-table mt-0 mb-0 text-nowrap">
+            <table class="form-table mt-0 mb-0">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">公司資料 Company Information
 
