@@ -213,7 +213,7 @@ get_header();
             </table>
 
 
-            <table class="form-table mt-0">
+            <table class="form-table mt-0 mb-0">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">Reporting purposes 報表用途</td>
                 </tr>
