@@ -767,7 +767,9 @@ get_header();
             <table class="form-table">
 
                 <tr>
-                    <td class="text-center orange-yellow-bg fw-bold"></td>
+                    <td class="text-center orange-yellow-bg fw-bold">條款及細則 Terms and Conditions
+
+                    </td>
                 </tr>
             </table>
             <!-- 
