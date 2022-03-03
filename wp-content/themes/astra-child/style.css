@@ -1383,7 +1383,7 @@ li.ls3 {
 
 @media screen {
     .client-code-div {
-        position: fixed;
+        position: absolute;
         top: 1rem;
         left: 50%;
         transform: translate(-50%, 0);
@@ -1415,6 +1415,20 @@ li.ls3 {
 }
 
 @media print {
+    client-code-div {
+        position: fixed;
+        top: 1rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .client-code-div table {
+        border: 1px solid;
+    }
+    .client-code-div table td {
+        border: 1px solid;
+        width: 100px;
+        font-size: 0.6rem;
+    }
     .blank-area {
         opacity: 0;
     }
