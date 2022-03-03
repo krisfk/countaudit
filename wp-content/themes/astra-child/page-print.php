@@ -1190,16 +1190,16 @@ get_header();
 
 
 
-                        <table>
+                        <table class="border-0">
                             <tr>
-                                <td class="fit">客戶簽名 Applicant ‘s Signature
+                                <td class="fit border-0">客戶簽名 Applicant ‘s Signature
                                 </td>
-                                <td class="fit">日期 Date</td>
+                                <td class="fit border-0">日期 Date</td>
                             </tr>
                             <tr>
-                                <td class="fit">客戶姓名 Applicant’s Name
+                                <td class="fit border-0">客戶姓名 Applicant’s Name
                                 </td>
-                                <td class="fit"></td>
+                                <td class="fit border-0"></td>
                             </tr>
                         </table>
 
