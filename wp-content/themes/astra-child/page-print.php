@@ -1082,6 +1082,53 @@ get_header();
                         CountAudit Secretarial Limited and cease the receipt of the promotional information.
                         <br><br>
 
+                        不可抗力FORCE MAJEURE <br><br>
+
+
+                        27 若因客戶及本公司合理控制以外的情況而出現違反本申請表的情況，客戶及本公司均無須負責（付款責任除外）。
+                        The Client and CountAudit Secretarial Limited shall not be liable (except payment obligations)
+                        for any violation of the application form due to circumstances beyond the reasonable control of
+                        the Client and CountAudit Secretarial Limited.
+                        <br><br>
+
+                        適用法律與爭議解決APPLICABLE LAW AND DISPUTE RESOLUTION
+                        <br><br>
+
+                        28 本申請表受香港特別行政區法律管轄，且應當依照香港特別行政區法律進行解釋。雙方因本申請表而發生的爭議，應友好協商解決。經友好協商不成的會提交香港國際仲裁中心進行仲裁。
+                        This application form shall be governed by and construed in accordance with the Laws of the Hong
+                        Kong Special Administrative Region. Both parties by this application form of disputes shall be
+                        settled through friendly consultations. If the dispute cannot be resolved, it will be settled by
+                        Hong Kong International Arbitration Center for arbitration.
+                        <br><br>
+
+                        其他事項OTHER BUSINESS
+                        <br><br>
+
+                        29 本申請表構成雙方就本服務及本申請表所涵蓋其他事項的全部協定，並取代先前一切有關的協議、諒解、聲明。
+                        The Application Form constitutes the entire agreement of all matters covered regarding the
+                        service and supersede the previous all relevant agreements, understandings and declarations.
+                        <br><br>
+
+                        30 雙方可用電子方式簽署本申請表（及其修訂），各方可在本申請表的不同副本上簽署。本申請表或任何其附件的修訂，必須經雙方書面同意。
+                        Both sides can electronically sign the application form (and its amendments), the parties sign
+                        on different copies of the application form. Any amendments on the Application Form or on its
+                        Appendix(es) must be agreed by both parties in writing.
+                        <br><br>
+
+                        31 本申請表的任何條文（不論全部或部分）若被認定為不合法、無效或因其他理由不能執行，本申請表其他條文仍具有十足效力。
+                        If any of the provisions of the Application Form (whether in whole or in part) identified as
+                        illegal, void, or for any other reason, unable to perform, the other provisions remain in full
+                        force and in effect.
+                        <br><br>
+
+                        32 本公司不承擔任何與本服務相關的客戶的管理層責任。
+                        CountAudit Secretarial Limited does not undertake any relevant client management responsibility.
+                        <br><br>
+
+                        33 現有客戶續約本公司服務最少6個月起。
+                        Existing Customers renewal to CountAudit Secretarial Limited with not less  than 6-month
+                        commitment period and agree to the relevant terms and conditions.
+
 
                     </td>
                 </tr>
