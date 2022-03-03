@@ -380,10 +380,10 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         Name 姓名:</td>
                     <td></td>
-                    <td class="fit">*電郵 Email:
+                    <td class="fit text-nowrap">*電郵 Email:
 
                     </td>
                     <td></td>
