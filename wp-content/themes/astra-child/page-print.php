@@ -945,7 +945,23 @@ get_header();
                         mails and/or parcels.
                         <br>
                         <br>
-                        11 *電話服務 CALL SERVICES    
+                        11 *電話服務 CALL SERVICES <br> <br>
+
+                        1  所有來電轉駁服務只適用於本地電話號碼。  <br><br>
+                         All call forwarding services apply to local telephone number only.
+                        2 若客戶須更改系統直接轉駁之指定號碼，須於生效期前2個工作天向本公司以書面形式通知。 
+                        If the designated number direct transferred by system is to be changed, a formal written
+                        notification should be submitted to CountAudit Secretarial Limited on or before 2 working days
+                        prior to the effective date.<br><br>
+                        3 為保障客戶之利益及私隱，所有來電訊息只會儲存48小時。 
+                        For protecting the Client’s interest and privacy, all messages from callers will be reserved 48
+                        hours only.<br><br>
+                        4 專線電話服務只限代接後留言及轉駁電話，而不包括任何產品查詢，報價及客戶服務的工作。
+                        The telephone services provided by CountAudit Secretarial Limited can be only used for receiving
+                        calls, leaving messages and transferring calls on behalf of the Client, not including any
+                        services related to product inquires, making quotations and customer services.
+
+
 
 
                     </td>
