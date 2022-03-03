@@ -236,6 +236,60 @@ get_header();
 
             </table>
 
+            <table class="form-table mt-0">
+                <tr>
+                    <td colspan="4" class="text-center orange-yellow-bg fw-bold">Company Information 公司資料</td>
+                </tr>
+                <tr>
+                    <td class="fit">Company name <br> 公司名稱</td>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fit">
+                        Principal activities <br>
+                        主要業務
+                    </td>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fit">Incorporation date <br>
+                        公司開立日期</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td class="fit">Has performed audit before?<br>
+                        是否曾進行核數</td>
+                    <td class="fit">Yes / No If Yes,<br>please provide the related year ended date<br>
+                        是 / 否 如是，請提供相關年結日</td>
+                    <td class="text-wrap" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="fit">Has declared profits tax before?<br>
+                        是否曾申報利得稅</td>
+                    <td class="fit">Yes / No If Yes,<br>please provide the related year of assessment<br>
+                        是 / 否 如是，請提供相關課稅年度</td>
+                    <td class="text-wrap" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="fit">Has done accounting before?<br>
+                        是否曾做會計帳</td>
+                    <td class="fit">Yes / No If Yes,<br>please provide the related year ended date<br>
+                        是 / 否 如是，請提供相關年結日</td>
+                    <td class="text-wrap" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="fit">Reporting Frequency <br>
+                        會計匯報頻率</td>
+                    <td colspan="3">
+                        每月 Monthly □ 每季 Quarterly □ 每年 Yearly
+                    </td>
+                </tr>
+
+
+            </table>
+
         </div>
     </div>
     <?php
