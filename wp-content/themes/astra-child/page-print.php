@@ -509,7 +509,7 @@ get_header();
                     <td>
                         <div class="mb-4">
                             <p><b class="d-block text-center">Plan A (HK$1,400) </b></p>
-                            <ul class="m-0 mt-2 p-0 ps-3">
+                            <ul class="m-0 mt-2 p-0 ps-4">
                                 <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                 <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
                                 <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
@@ -526,7 +526,7 @@ get_header();
                     <td>
                         <div class="mb-4">
                             <p><b class="d-block text-center">Plan B (HK$2,200) </b></p>
-                            <ul class="m-0 mt-2 p-0 ps-3">
+                            <ul class="m-0 mt-2 p-0 ps-4">
                                 <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                 <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
                                 <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
@@ -553,7 +553,7 @@ get_header();
                     <td>
                         <div class="mb-4">
                             <p><b class=" d-block text-center">Plan C (HK$3,000) </b></p>
-                            <ul class="m-0 mt-2 p-0 ps-3">
+                            <ul class="m-0 mt-2 p-0 ps-4">
                                 <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                 <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
                                 <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
