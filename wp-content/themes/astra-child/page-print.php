@@ -2032,6 +2032,41 @@ get_header();
 
             </table>
 
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+
+            <table class="form-table">
+
+                <tr>
+                    <td colspan="2" class="text-center orange-yellow-bg fw-bold">會計年度資料 Account Audit Information
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>年結日 <br>
+                        Year End Date
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        會否委任CountAudit為您提供會計/審計服務 <br>
+                        Will you appoint CountAudit to provide Accounting / Audit Services?
+
+
+                    </td>
+                    <td>
+                        ❑ 會 Yes <br>
+                        ❑ 不會 No
+
+
+                    </td>
+                </tr>
+            </table>
+
 
 
         </div>
