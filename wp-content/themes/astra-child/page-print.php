@@ -773,7 +773,7 @@ get_header();
                 </tr>
                 <tr>
                     <td>
-                        <textarea name="" id="" cols="30" rows="10">
+                        <textarea readonly name="" id="" cols="30" rows="200">
 服務條款 MAIN TERMS
 *適用於虛擬辦工室客戶Applicable for Virtual Office Service
 
@@ -1052,19 +1052,7 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  tha
 </div>
 
 <script type="text/javascript">
-$(function() {
 
-
-    function setHeight(jq_in) {
-        jq_in.each(function(index, elem) {
-            // This line will work with pure Javascript (taken from NicB's answer):
-            elem.style.height = elem.scrollHeight + 'px';
-        });
-
-        setHeight($('textarea'));
-
-    }
-});
 </script>
 
 <?php get_footer(); ?>
