@@ -444,6 +444,15 @@ get_header();
 
                     </td>
                 </tr>
+                <tr>
+                    <td>1. 商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格 <br>
+                        (NNC1); 公司證書 (CI); 公司章程 (AA)*
+
+                    </td>
+                    <td>2. 有效之身份證 / 護照副本 及 3 個月內之住址證明 <br>
+                        All member’s ID/passport copy and address proof within 3 months
+                    </td>
+                </tr>
             </table>
             <!-- 
             <table class="form-table mt-0">
