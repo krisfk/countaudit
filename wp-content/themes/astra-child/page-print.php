@@ -389,12 +389,12 @@ get_header();
                     <td></td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         *電話 Tel:
 
                     </td>
                     <td></td>
-                    <td class="fit">傳真 Fax:
+                    <td class="fit text-nowrap">傳真 Fax:
 
 
 
