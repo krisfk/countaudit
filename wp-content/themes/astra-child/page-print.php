@@ -1300,6 +1300,7 @@ get_header();
                         Language *
                     </td>
                     <td>
+                        ☑
                         ❑ 中文 Chinese ❑ 英文 English
 
                     </td>
