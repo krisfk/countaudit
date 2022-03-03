@@ -750,6 +750,19 @@ get_header();
 
                     </td>
                 </tr>
+                <tr>
+                    <td>
+
+                        ❑ 撤銷公司(港幣$1,500加政府費用) <br>
+                        Deregistration of Limited Company (HK$1,500 plus government charges)
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>❑ 其他 Others 請註明 please specify:____________________________________
+                    </td>
+                </tr>
             </table>
             <!-- 
             <table class="form-table mt-0">
