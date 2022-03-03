@@ -7,6 +7,15 @@ get_header();
 
     <div class="print-header">
 
+        <div class="client-code-div">
+            <table>
+                <tr>
+                    <td class="fit">Client Code:</td>
+                    <td class="fit"></td>
+                </tr>
+            </table>
+        </div>
+
         <img class="ca-print-logo" src="<?php echo get_site_url();?>/wp-content/uploads/2022/03/ca-print-logo-1.jpg"
             alt="">
 
@@ -346,15 +355,7 @@ get_header();
      if($_GET['f']=='csf')
      {
         ?>
-    <div class="client-code-div">
-        <table>
-            <tr>
-                <td class="fit">Client Code:</td>
-                <td class="fit"></td>
-            </tr>
-        </table>
 
-    </div>
     <div class="accounting-q-form-div">
         <div class="print-form-container">
             <h2 class="text-center mt-4">Company Secretary in Hong Kong Application Form
