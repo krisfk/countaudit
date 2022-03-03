@@ -677,6 +677,66 @@ get_header();
 
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
+                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
+                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    </div>
+
+                                    <ul class="m-0 ps-4">
+                                        <li class="ls1">註冊公司地址</li>
+                                        <li class="ls1">信件包裹代收</li>
+                                        <li class="ls1">稅局郵件轉寄 (按要求)</li>
+                                        <li class="ls1">製作公司水牌</li>
+                                        <li class="ls1">每月轉寄郵件</li>
+                                        <li class="ls1">郵件到取</li>
+                                        <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="form-check"><input id="lck-HK1500-year" class="form-check-input"
+                                            name="virtual-office[]" type="checkbox" value="lck-HK1500-year"> <label
+                                            class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label>
+                                    </div>
+                                    <ul class="m-0 ps-4">
+                                        <li class="ls1">註冊公司地址</li>
+                                        <li class="ls1">信件包裹代收</li>
+                                        <li class="ls1">稅局郵件轉寄</li>
+                                        <li class="ls1">製作公司水牌</li>
+                                        <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                        <li class="ls1">郵件到取</li>
+                                        <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                        <li class="ls2">郵件電子掃描</li>
+                                        <li class="ls2">每月一次會議室出租</li>
+                                        <li class="ls2">辦公室電話代接</li>
+                                    </ul>
+
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check"><input id="tst-HK12000-year" class="form-check-input"
+                                            name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
+                                            class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label>
+                                    </div>
+                                    <ul class="m-0 ps-4">
+                                        <li class="ls1">註冊公司地址</li>
+                                        <li class="ls1">信件包裹代收</li>
+                                        <li class="ls1">稅局郵件轉寄</li>
+                                        <li class="ls1">製作公司水牌</li>
+                                        <li class="ls1">更改商業登記地址</li>
+                                        <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                        <li class="ls2">辦公室電話代接</li>
+                                        <li class="ls2">稅局文件代處理及信件代開</li>
+                                        <li class="ls2">準備及保存重要控制人登記册</li>
+                                        <li class="ls3">每月三次會議室出租</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
                         </table>
 
 
