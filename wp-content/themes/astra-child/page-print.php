@@ -647,8 +647,35 @@ get_header();
                                     </ul>
 
                                 </td>
-                                <td></td>
-                                <td></td>
+                                <td>
+                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
+                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
+                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    </div>
+                                    <ul class="m-0 ps-4">
+                                        <li class="ls1">註冊公司地址</li>
+                                        <li class="ls1">信件包裹代收</li>
+                                        <li class="ls1">稅局郵件轉寄 (按要求)</li>
+                                        <li class="ls1">製作公司水牌</li>
+                                        <li class="ls1">每月轉寄郵件</li>
+                                        <li class="ls1">郵件到取</li>
+                                        <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                    </ul>
+
+
+                                </td>
+                                <td>
+
+                                    <div class="form-check"><input id="kt-HK900-year" class="form-check-input"
+                                            name="virtual-office[]" type="checkbox" value="kt-HK900-year"> <label
+                                            class="form-check-label" for="kt-HK900-year"> HK$900/year </label></div>
+                                    <ul class="m-0 ps-4">
+                                        <li class="ls1">註冊公司地址</li>
+                                        <li class="ls1">信件代收</li>
+                                        <li class="ls1">製作公司水牌</li>
+                                    </ul>
+
+                                </td>
                             </tr>
                         </table>
 
