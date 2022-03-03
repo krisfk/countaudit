@@ -914,8 +914,6 @@ CountAudit Secretarial Limited does not undertake any relevant client management
 
 	33	現有客戶續約本公司服務最少6個月起。
 Existing Customers renewal to CountAudit Secretarial Limited with not less  than 6-month commitment period and agree to the relevant terms and conditions.
-
-
 </textarea>
 
                     </td>
