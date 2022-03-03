@@ -1379,6 +1379,23 @@ get_header();
 
             </table>
 
+            <table>
+                <tr>
+                    <td colspan="4" class="text-center orange-yellow-bg fw-bold"> 股東及董事資料 Shareholder’s and Director’s
+                        Information
+                    </td>
+                </tr>
+                <tr>
+                    <td>請連同所有董事及股東之身份證明及住宅地址副本一併遞交。Please also submit the ID/Passport copy and address proof of every
+                        director and shareholder. <br>
+                        如股東或董事是公司，請提供NNC1/NAR1，CI，BR，公司所有董事及股東之身份證明及住宅地址副本。If the
+                        Director or Shareholder is company, please also submit the NNCI / NAR1, CI, BR and ID/Passport
+                        copy and address proof of every director and shareholder.
+
+                    </td>
+                </tr>
+            </table>
+
         </div>
     </div>
     <?php
