@@ -279,6 +279,12 @@ get_header();
                         是 / 否 如有，請提供發出日期</td>
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
+                <tr>
+                    <td colspan="4 fw-bold">
+                        是否有做會計帳目？ 如有，請提供審計年度的Profit and Loss, Balance Sheet <br>
+                        如沒有，請提供以下資料
+                    </td>
+                </tr>
 
 
 
