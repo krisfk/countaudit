@@ -397,6 +397,31 @@ get_header();
 
             </table>
 
+
+            <table class="form-table mt-3 mb-0">
+                <tr>
+                    <td colspan="4" class="text-center orange-yellow-bg fw-bold">公司資料 Company Information
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">*公司名稱 <br>
+                        Company Name
+                    </td>
+                    <td>中文名稱 Chinese Name
+                    </td>
+                    <td>英文名稱 English Name
+
+                    </td>
+                </tr>
+
+
+
+
+            </table>
+
             <!-- 
             <table class="form-table mt-0">
                 <tr>
