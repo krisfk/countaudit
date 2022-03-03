@@ -1192,14 +1192,14 @@ get_header();
 
                         <table>
                             <tr>
-                                <td>客戶簽名 Applicant ‘s Signature
+                                <td class="fit">客戶簽名 Applicant ‘s Signature
                                 </td>
-                                <td>日期 Date</td>
+                                <td class="fit">日期 Date</td>
                             </tr>
                             <tr>
-                                <td>客戶姓名 Applicant’s Name
+                                <td class="fit">客戶姓名 Applicant’s Name
                                 </td>
-                                <td></td>
+                                <td class="fit"></td>
                             </tr>
                         </table>
 
