@@ -24,6 +24,15 @@ get_header();
     </div>
 
     <div class="desktop-print-header">
+        <div class="client-code-div">
+            <table>
+                <tr>
+                    <td class="fit">Client Code:</td>
+                    <td class="fit"></td>
+                </tr>
+            </table>
+        </div>
+
         <img class="ca-print-logo" src="<?php echo get_site_url();?>/wp-content/uploads/2022/03/ca-print-logo-1.jpg"
             alt="">
 
