@@ -806,7 +806,7 @@ get_header();
             <div class="blank-area">- BLANK AREA -</div>
             <div class="blank-area">- BLANK AREA -</div>
 
-            <table class="form-table">
+            <table class="form-table mt-0 mb-0">
 
                 <tr>
                     <td class="text-center orange-yellow-bg fw-bold">條款及細則 Terms and Conditions
@@ -908,8 +908,20 @@ get_header();
                         responsible for any losses or any obligations. CountAudit Secretarial Limited shall not be
                         liable if the stored items are lost, being stolen or damaged due to any reason during the
                         storage period. 
-                        <br>
-                        <br>
+
+
+
+
+
+
+                    </td>
+                </tr>
+            </table>
+
+            <table class="form-table mt-0 mb-0">
+
+                <tr>
+                    <td>
                         10 *轉寄郵件及包裹服務 MAIL FORWARDING SERVICES <br>
                         若客戶需要轉寄郵件及包裹，需於服務申請時提出，或每次以電郵或書面形式通知本公司。本公司不會為轉寄郵件及包裹所引致的損失、被竊、被破壞、或任何災害，而作出任何賠償及負上任何責任。本公司每次將收取HKD80元手續費（不包轉寄郵件及包裹之郵寄費用）。
                         If mail forwarding services is required, the Client should state at the time of application.
@@ -921,10 +933,6 @@ get_header();
                         <br>
                         <br>
                         11 *電話服務 CALL SERVICES    
-
-
-
-
 
 
                     </td>
