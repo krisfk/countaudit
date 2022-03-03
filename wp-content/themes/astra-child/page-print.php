@@ -454,6 +454,43 @@ get_header();
                     </td>
                 </tr>
             </table>
+
+            <table class="form-table mt-0 mb-0">
+                <tr>
+                    <td colspan="2" class="text-center orange-yellow-bg fw-bold">
+
+                        附加詳情 Further Information
+
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the Company
+                        Members during the past annual year?
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>*變動詳情 <br>
+
+                        Details of changes
+
+                    </td>
+                    <td>
+                        □ 沒有 No <br>
+                        □ 更改公司名稱 [NNC2] Change of Company Name<br>
+                        □ 委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) / Secretary<br>
+                        □ 股權變動 Shares Transfer<br>
+                        □ 更改註冊地址 [NR1] Change of Registered Address<br>
+                        □ 更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary<br>
+                        □ 增加註冊資本 [NSC1] Return of Allotment<br>
+                        □ 登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records<br>
+                        □ 其他 Others:
+
+                    </td>
+                </tr>
+            </table>
             <!-- 
             <table class="form-table mt-0">
                 <tr>
