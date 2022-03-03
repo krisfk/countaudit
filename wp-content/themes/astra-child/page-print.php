@@ -2484,6 +2484,89 @@ get_header();
             <div class="blank-area">- BLANK AREA -</div>
             <div class="blank-area">- BLANK AREA -</div>
 
+            <table class="form-table mt-0">
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">付款方法 Payment Methods
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                        客戶可以用以下途徑繳付款項 Client can settle the payment by following methods <br><br>
+                        (I)親身付款 Pay in person<br>
+                        (II)存入現金或轉帳至匯豐銀行(戶口號碼: 747-122000-838)<br>
+                        Direct deposit into HSBC (Account No.: 747-122000-838)<br>
+                        (III)劃線支票抬頭「CountAudit」至以下地址: 九龍荔枝角永康街18號永康中心11樓C室<br>
+                        Crossed cheque payable to “CountAudit” to following address: Flat C, 11/F., Wing Hong Centre, 18
+                        Wing Hong Street, Lai Chi Kok, Kowloon<br>
+                        (IV)轉數快 (轉數快識別號碼: 0818617) FPS Identifier: 0818617<br>
+                        (V)網上連結支付Online Payment: https://app.cardup.hk/collect/pay/countaudit (網上付款系統或設相關手續費)<br>
+                        #付款後請提供入數紙/截圖作紀錄
+
+
+
+                    </td>
+                </tr>
+            </table>
+
+            <table class="form-table mt-0">
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">聲明 Declaration
+
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+
+
+                        本人茲證實上述資料確實無誤，並已知悉及同意以上所有條款。 <br>
+                        I have read and agreed with all the terms and conditions above.<br>
+                        *本人清楚知道須於每年於公司成立為法團之日在該年中的周年日後的 42 日內 (訂明時限)，向公司註冊處處長交付周年申報表登記。逾期罰款及相關的法律責任會由本人 / 我司自行承擔。<br>
+                        I acknowledge and understand every year annual return is required to be delivered to the
+                        Registrar of Companies for registration within 42 days after the anniversary of the date of the
+                        company’s incorporation in that year (the prescribed time period) period), I/ my comp any will
+                        have responsibilities for all penalties and legal liability from late delivery. <br>
+                        *（只適用於公司秘書服務 Applicable for Company Secretarial Services Only）
+
+
+
+                        <table class="border-0 mt-5">
+                            <tr>
+                                <td class="fit border-0">
+                                    <div class="sign-line"></div>
+                                    <div>
+                                        客戶簽名 Applicant ‘s Signature</div>
+                                </td>
+                                <td class="fit border-0">
+                                    <div class="sign-line"></div>
+
+                                    <div>
+                                        日期 Date</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fit border-0 pt-4">
+                                    <div class="sign-line"></div>
+
+                                    <div>
+                                        客戶姓名 Applicant’s Name
+                                    </div>
+                                </td>
+                                <td class="fit border-0"></td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+
+
 
         </div>
     </div>
