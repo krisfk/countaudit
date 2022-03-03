@@ -398,7 +398,7 @@ get_header();
             </table>
 
 
-            <table class="form-table mt-3 mb-0">
+            <table class="form-table mt-0 mb-0">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">公司資料 Company Information
 
@@ -433,6 +433,18 @@ get_header();
 
             </table>
 
+            <table class="form-table mt-0 mb-0">
+                <tr>
+                    <td colspan="2" class="text-center orange-yellow-bg fw-bold">
+
+                        *申請所需之文件 Required Documents
+                        <div class="small">(請上載下列文件 Please upload the following documents)
+                        </div>
+
+
+                    </td>
+                </tr>
+            </table>
             <!-- 
             <table class="form-table mt-0">
                 <tr>
