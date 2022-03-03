@@ -412,10 +412,13 @@ get_header();
                     </td>
 
                 </tr>
-
                 <tr>
                     <td>中文名稱 Chinese Name
                     </td>
+                </tr>
+
+                <tr>
+
                     <td>英文名稱 English Name
 
                     </td>
