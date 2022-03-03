@@ -2049,7 +2049,12 @@ get_header();
                     <td>年結日 <br>
                         Year End Date
                     </td>
-                    <td></td>
+                    <td>
+                        12 月 31 日 (31-Dec) ❑ 3 月 31 日 (31-Mar) ❑ 客戶自訂 Others ： _________________
+
+
+
+                    </td>
                 </tr>
                 <tr>
                     <td>
