@@ -773,7 +773,7 @@ get_header();
                 </tr>
                 <tr>
                     <td>
-                        <textarea readonly name="" id="" cols="30" rows="188">
+                        <textarea readonly name="" id="" cols="30" rows="258">
 服務條款 MAIN TERMS
 *適用於虛擬辦工室客戶Applicable for Virtual Office Service
 
