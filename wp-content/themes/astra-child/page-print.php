@@ -1192,12 +1192,25 @@ get_header();
 
                         <table class="border-0 mt-5">
                             <tr>
-                                <td class="fit border-0">客戶簽名 Applicant ‘s Signature
+                                <td class="fit border-0">
+                                    <div class="sign-line"></div>
+                                    <div>
+                                        客戶簽名 Applicant ‘s Signature</div>
                                 </td>
-                                <td class="fit border-0">日期 Date</td>
+                                <td class="fit border-0">
+                                    <div class="sign-line"></div>
+
+                                    <div>
+                                        日期 Date</div>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="fit border-0">客戶姓名 Applicant’s Name
+                                <td class="fit border-0">
+                                    <div class="sign-line"></div>
+
+                                    <div>
+                                        客戶姓名 Applicant’s Name
+                                    </div>
                                 </td>
                                 <td class="fit border-0"></td>
                             </tr>
