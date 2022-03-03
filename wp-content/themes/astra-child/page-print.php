@@ -947,19 +947,69 @@ get_header();
                         <br>
                         11 *電話服務 CALL SERVICES <br> <br>
 
-                        1  所有來電轉駁服務只適用於本地電話號碼。  <br><br>
+                        [1]  所有來電轉駁服務只適用於本地電話號碼。  <br><br>
                          All call forwarding services apply to local telephone number only.
-                        2 若客戶須更改系統直接轉駁之指定號碼，須於生效期前2個工作天向本公司以書面形式通知。 
+                        [2] 若客戶須更改系統直接轉駁之指定號碼，須於生效期前2個工作天向本公司以書面形式通知。 
                         If the designated number direct transferred by system is to be changed, a formal written
                         notification should be submitted to CountAudit Secretarial Limited on or before 2 working days
                         prior to the effective date.<br><br>
-                        3 為保障客戶之利益及私隱，所有來電訊息只會儲存48小時。 
+                        [3] 為保障客戶之利益及私隱，所有來電訊息只會儲存48小時。 
                         For protecting the Client’s interest and privacy, all messages from callers will be reserved 48
                         hours only.<br><br>
-                        4 專線電話服務只限代接後留言及轉駁電話，而不包括任何產品查詢，報價及客戶服務的工作。
+                        [4] 專線電話服務只限代接後留言及轉駁電話，而不包括任何產品查詢，報價及客戶服務的工作。
                         The telephone services provided by CountAudit Secretarial Limited can be only used for receiving
                         calls, leaving messages and transferring calls on behalf of the Client, not including any
-                        services related to product inquires, making quotations and customer services.
+                        services related to product inquires, making quotations and customer services. <br> <br>
+                        <br><br>
+                        12 若有本公司不能控制的事件（包括客戶的作為或不作為），影響本公司按原定計劃履行本服務的能力，本公司或會酌加服務費用。
+                        For CountAudit Secretarial Limited uncontrollable events, including Client act or omission to
+                        act, which affects CountAudit Secretarial Limited's ability to perform the service, CountAudit
+                        Secretarial Limited reserves the right to charge extra fee. 
+                        <br><br>
+                        13 客戶應於賬單上列明的到期日前繳交有關款項，否則本公司有權終止其服務而不作另行通知。同時客戶有責任於到期日前確保已繳交之費用已由本公司收取並確認。 
+                        The Client shall settle the fees before the due date specified on the relevant invoices,
+                        otherwise, CountAudit Secretarial Limited has right to suspend the services to the Client. The
+                        Client has the responsibility to ensure that their payments are received and identified by
+                        CountAudit Secretarial Limited before the due date specified on the relevant invoices.
+                        <br><br>
+                        14 若客戶要求重啟因延遲繳款或欠款被終止的服務，本公司將會向客戶收取於終止期間的相關服務費用。 
+                        If Client requests to reactivate the services which has been suspended by CountAudit Secretarial
+                        Limited due to late payment or overdue situation, CountAudit Secretarial Limited shall charge
+                        the Client the service fees for the suspended period.
+                        <br><br>
+                        15 客戶如需更改服務指令、內容，需以書面形式通知本公司，及繳付相關費用。
+                        If the Client requires to amend service instructions, contents, a written notice is required to
+                        provide to CountAudit Secretarial Limited, and the related service fees shall be applied.
+                        <br><br>
+                        16 客戶或客戶代表所提供的一切資訊（“客戶資訊”）均為準確與完整的。本公司將依賴所獲提供的客戶資訊，本公司不會對客戶資訊進行任何評估或核證，也不會對任何錯誤資訊所引致之損失負責。
+                        The information provided by the Client (“Client Information”) must be accurate and complete.
+                        CountAudit Secretarial Limited will depend on what the Client provide, and CountAudit
+                        Secretarial Limited shall not do any evaluation or certification about the Client Information
+                        and shall not be responsible for any loss suffered due to the inaccurate or incomplete
+                        information.
+                        <br><br>
+                        17 就以下情況，本公司有權終止服務而不作任何通知；同時亦無須為停止提供服務，而負上法律責任或承擔任何被索償的後果。
+                        Under the following circumstances, CountAudit Secretarial Limited reserves all rights to
+                        terminate services without any prior notice. CountAudit Secretarial Limited shall bear no legal
+                        responsibilities nor shall be liable for any claims or compensation for discontinuing services.
+                        <br><br>
+
+
+                        [1]   客戶未能按時繳交費用，包括服務費、手續費或轉寄郵件費用；或未能及時更新商業登記；
+                        The Client has failed to settle any service fees, handing fees or reimbursements of postage, or
+                        to renew business registration on time;
+                        <br><br> [2] 客戶涉嫌進行或涉及任何非法、違例或詐騙活動；
+                        In suspicion of the Client is involving or carrying out a fraud and any illegal or improper
+                        activities;
+                        <br><br> [3] 客戶涉嫌利用本公司提供的服務作展銷會或招聘會等活動；
+                        In suspicion of the Client is using provided services to hold any promotional sales or public
+                        recruitment events;
+                        <br><br> [4] 客戶涉嫌在未經本公司許可下，把服務轉移或分配至任何第三者使用。
+                        In suspicion of the Client is transferring or assigning any or part of the services to any other
+                        parties, without the prior authorization from CountAudit Secretarial Limited.
+
+
+
 
 
 
