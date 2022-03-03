@@ -881,6 +881,49 @@ get_header();
                         disposal of CountAudit Secretarial Limited at its absolute discretion.
                         <br>
                         <br>
+                        9 *代收取客戶郵件及包裹 MAIL HANDING SERVICES
+                        <br>
+                        <br>
+                        [1]
+                        包裹的體積不應超過20釐米*20釐米*20釐米。如包裹超過20釐米*20釐米*20釐米，本公司將按HKD20/每天/每20釐米*20釐米*20釐米收取存放費，並且本公司有權拒收任何超出上述體積的包裹。
+                        The volume of parcels shall not exceed 20cm*20cm*20cm.If the volume of parcels exceed
+                        20cm*20cm*20cm, storage fee will be charged at HKD20/day/20cm*20cm*20cm.Moreover, CountAudit
+                        Secretarial Limited reserves the right to refuse receiving mails and parcels exceeding the above
+                        stated size. <br>
+                        <br>
+
+                        [2] 客戶之體積不超過20釐米*20釐米*20釐米的包裹可以免費存放3天，3天後本公司將收取存放費(HKD20/每天/每件)
+                        The storage of the parcel with its volume not exceeding 20cm*20cm*20cm will be free of charge
+                        for the first 3 days and HKD20/item/day will be charged afterwards.
+                        <br>
+                        <br>
+                        [3] 本公司有權拒絕收任何危險或非法物件。 
+                        CountAudit Secretarial Limited reserves the right to refuse receiving any dangerous or illegal
+                        items.
+                        <br>
+                        <br>
+                        [4] 超逾30天不取，及不能聯絡者，本公司將自行處理寄存物，而不另行通知，並且不負任何責任，後果客戶自負。若客戶暫存的物件基於任何原因而被盜，遺失或損毀，本公司不須為此而負上任何責任。
+                        Mails and parcels uncollected over 30 days, or if the Client is un-contactable, the mails and
+                        parcels shall be disposed of without any notice. CountAudit Secretarial Limited shall not be
+                        responsible for any losses or any obligations. CountAudit Secretarial Limited shall not be
+                        liable if the stored items are lost, being stolen or damaged due to any reason during the
+                        storage period. 
+                        <br>
+                        <br>
+                        10 *轉寄郵件及包裹服務 MAIL FORWARDING SERVICES <br>
+                        若客戶需要轉寄郵件及包裹，需於服務申請時提出，或每次以電郵或書面形式通知本公司。本公司不會為轉寄郵件及包裹所引致的損失、被竊、被破壞、或任何災害，而作出任何賠償及負上任何責任。本公司每次將收取HKD80元手續費（不包轉寄郵件及包裹之郵寄費用）。
+                        If mail forwarding services is required, the Client should state at the time of application.
+                        Otherwise, the Client     should notice CountAudit Secretarial Limited by email or written
+                        notice every time. CountAudit Secretarial Limited shall not be liable for any losses, damages,
+                        cost, claims and expenses of liabilities of whatever nature in mail forwarding. CountAudit
+                        Secretarial Limited will charge HKD80 for handling charge (excluding mailing fee) of the forward
+                        mails and/or parcels.
+                        <br>
+                        <br>
+                        11 *電話服務 CALL SERVICES    
+
+
+
 
 
 
