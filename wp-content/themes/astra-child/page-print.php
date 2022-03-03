@@ -499,6 +499,33 @@ get_header();
                     <td></td>
                 </tr>
             </table>
+            <table class="form-table mt-0">
+                <tr>
+                    <td colspan="4" class="text-center orange-yellow-bg fw-bold">服務計劃資料 Service Plan Information
+                        <div class="mb-4">
+                            <p><b class="d-block text-center">Plan A (HK$1,400) </b></p>
+                            <ul class="m-0 mt-2 p-0 ps-3">
+                                <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
+                                <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter
+                                </li>
+                                <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
+                                <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
             <!-- 
             <table class="form-table mt-0">
                 <tr>
