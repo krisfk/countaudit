@@ -1366,6 +1366,8 @@ li.ls3 {
 
 .client-code-div {}
 
+.client-code-div table {}
+
 .client-code-div table td {}
 
 @media screen {
