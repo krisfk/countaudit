@@ -1366,6 +1366,9 @@ li.ls3 {
     .page-print {
         font-size: 0.5rem;
     }
+    .page-print .small {
+        font-size: 0.4rem;
+    }
     /* div.divFooter 
     
     {
