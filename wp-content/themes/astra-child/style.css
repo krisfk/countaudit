@@ -1364,11 +1364,22 @@ li.ls3 {
     background: #000;
 }
 
-.client-code-div {}
+.client-code-div {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 
-.client-code-div table {}
+.client-code-div table {
+    border: 1px solid;
+}
 
-.client-code-div table td {}
+.client-code-div table td {
+    border: 1px solid;
+    width: 100px;
+    font-size: 0.6rem;
+}
 
 @media screen {
     .page-print .small {
