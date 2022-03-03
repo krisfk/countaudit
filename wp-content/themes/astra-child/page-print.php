@@ -1834,7 +1834,7 @@ get_header();
             ?>
 
 
-            <table class="table-form">
+            <table class="form-table">
                 <tr>
                     <td class="text-center orange-yellow-bg fw-bold">服務計劃資料 Service Plan Information
 
@@ -1865,7 +1865,7 @@ get_header();
                 </tr>
             </table>
 
-            <table class="table-form">
+            <table class="form-table">
                 <tr>
                     <td class="text-center orange-yellow-bg fw-bold">附加服務 Additional Services
 
