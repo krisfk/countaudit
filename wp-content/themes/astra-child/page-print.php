@@ -751,17 +751,74 @@ get_header();
                 </tr>
                 <tr>
                     <td>
-                        <div> <u> 服務條款 MAIN TERMS</u> </div>
+                        <u> 服務條款 MAIN TERMS</u> <br>
+                        <u> *適用於虛擬辦工室客戶Applicable for Virtual Office Service</u>
 
-                        <div> *適用於虛擬辦工室客戶Applicable for Virtual Office Service <br> <br></div>
+                        <br>
+                        1 本申請表由算數秘書有限公司（“本公司”）提供，並由公司秘書/虛擬辦公室服務計畫申請人（“客戶”）同意，雙方共同履行申請表內所載的條款及細則。 <br>
+                        This application form is offered by CountAudit Secretarial Limited and accepted by the
+                        Company Secretarial Service / Virtual Office Service  Applicants (the “Client”), both
+                        executing the terms and conditions started in this application form.
+                        <br> <br>
 
+                        2 客戶須於服務到期日一個月前與本公司書面提出續約或中止服務，否則會遞交政府文件辭任公司秘書。 <br>
+                        Client are required to renew / terminate the service with CountAudit Secretarial Limited 1 month
+                        before the expiry date of the service period. Otherwise, the resignation form of company
+                        secretary will be submitted to Companies Registry.  <br><br>
 
-                        <div> 1 本申請表由算數秘書有限公司（“本公司”）提供，並由公司秘書/虛擬辦公室服務計畫申請人（“客戶”）同意，雙方共同履行申請表內所載的條款及細則。 <br>
-                            This application form is offered by CountAudit Secretarial Limited and accepted by the
-                            Company Secretarial Service / Virtual Office Service  Applicants (the “Client”), both
-                            executing the terms and conditions started in this application form.</div>
+                        3 客戶如自行更改過公司資料，包括及不限於公司名稱、股權變動等，必須於周年日前   7   
+                        個工作天將相關資料以電郵通知本公司，如果因客戶的遺漏而導致周年申報表資料錯誤，客戶需另外支付額外費用，並可能需要支付遲交罰款。  <br>
+                        If there is any Shares Transfer or Information Change of the Company Members during the past
+                        Annual year. Client must send the related information and documents to CountAudit Secretarial
+                        Limited 7 days prior to the anniversary of the date of the company’s incorporation of that year.
+                        Client would be responsible if there is any missing of providing accurate information for
+                        preparing the Annual Return, and have to pay the additional fees for re-doing the Annual Return,
+                        the Client would also be responsible for paying the late charge / penalty (if any) due to late
+                        submission. <br> <br>
+                        4 客戶如需要簽署周年申報表或相關文件，必須將簽妥的文件正本於該年中的周年日後的    30   
+                        日內寄回本公司以確保有足夠時間安排提交文件及費用，如果因遲交而導致任何罰款，客戶需要自行承擔。 <br>
+                        If Client has to sign the Annual Return, the signed documents must be returned to CountAudit
+                        Secretarial Limited within 30 days after the anniversary of the date of the company’s
+                        incorporation in that year, to ensure CountAudit Secretarial Limited has sufficient time to
+                        arrange submission of the documents. If there is any late charge / penalty due to late
+                        submission, the Client should hold full responsibilities.  <br><br>
+                        5 *客戶知悉並同意本申請表中沒有賦予客戶佔用或使用任何本虛擬辦公室服務所列位址之辦公室、設備或設施的權力。
+                        The Client understands and agrees that they will have no right to occupy and access any part of
+                        the premises, and any equipment or facilities within the premise of the virtual office address
+                        under this application form. <br> <br>
 
-
+                        6 *客戶不能在服務生效前或終止後，公開或使用本公司提供的位址、電話號碼以及傳真號碼。客戶也不能以其他未向本公司登記的公司和用戶的名義，公開或使用本公司提供的位址、電話號碼以及傳真號碼。
+                        <br>
+                        The Client shall not publish or use the provided address, telephone number and fax number
+                        provided by CountAudit Secretarial Limited before the commencement of the service or after the
+                        termination of service. The Client shall not allow any company or user not registered with
+                        CountAudit Secretarial Limited to publish or use the provided address, telephone number and fax
+                        number provided by CountAudit Secretarial Limited.
+                        <br>
+                        <br>
+                        7
+                        *本公司只為申請人之公司提供虛擬辦公室服務，故不會代收其聯絡人之私人信件或包裹。如有此情況，本公司將收取HKD100手續費，並且本公司不承擔任何因此引致之損失（包括但不限於信件或包裹丟失）。
+                        <br>
+                        The virtual office service is provided to the applicant only, i.e.the Company registered with
+                        us. Thus, CountAudit Secretarial Limited will not accept the mails or parcels addressed to the
+                        other parties (including but not limited to the company contact persons) (“unauthorized mails
+                        and parcels”). If any unauthorized mails or parcels are sent to CountAudit Secretarial Limited,
+                        CountAudit Secretarial Limited will charge HKD100 handling fee. Moreover, CountAudit Secretarial
+                        Limited will not be responsible for any loss incurred resulted from this matter (including but
+                        not limited to the loss of mail or parcels).
+                        <br> <br>
+                        8
+                        *在服務生效前及或終止期間，或任何未經許可的情況下，本公司有權拒絕收取客戶的郵件、包裹、電郵或傳真，及拒絕處理客戶專線電話的來電或傳真，並且不會通知以上各種項目的傳送。在服務終止的30天后，客戶遺下的任何郵件、包裹、傳真和物件，本公司有權代為處理。
+                        <br>
+                        Before the commencement of service, during suspension period, or any situation without the prior
+                        authorization, CountAudit Secretarial Limited reserves the right to reject any mails, parcels,
+                        faxes or any other objects sent to the Client and will not handle all calls from the assigned
+                        telephone/fax numbers. CountAudit Secretarial Limited is not responsible to notify the Client of
+                        such delivery. 30 days after the termination of service, any mail, parcels, fax or any other
+                        objects sent to or left at any offices of CountAudit Secretarial Limited shall be at the
+                        disposal of CountAudit Secretarial Limited at its absolute discretion.
+                        <br>
+                        <br>
 
 
 
