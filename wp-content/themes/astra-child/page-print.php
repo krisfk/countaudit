@@ -2868,569 +2868,570 @@ get_header();
                                 </td>
                             </tr>
                         </table>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
+                    </td>
+                </tr>
+            </table>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
 
 
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
 
-                        <table class="form-table mt-0 mb-0">
+            <table class="form-table mt-0 mb-0">
 
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">條款及細則 Terms and Conditions
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <u> 服務條款 MAIN TERMS</u> <br>
+                        <u> *適用於虛擬辦工室客戶Applicable for Virtual Office Service</u>
+
+                        <br>
+                        1 本申請表由算數秘書有限公司（“本公司”）提供，並由公司秘書/虛擬辦公室服務計畫申請人（“客戶”）同意，雙方共同履行申請表內所載的條款及細則。
+                        This application form is offered by CountAudit Secretarial Limited and accepted by
+                        the
+                        Company Secretarial Service / Virtual Office Service  Applicants (the “Client”),
+                        both
+                        executing the terms and conditions started in this application form.
+                        <br> <br>
+
+                        2 客戶須於服務到期日一個月前與本公司書面提出續約或中止服務，否則會遞交政府文件辭任公司秘書。
+                        Client are required to renew / terminate the service with CountAudit Secretarial
+                        Limited 1 month
+                        before the expiry date of the service period. Otherwise, the resignation form of
+                        company
+                        secretary will be submitted to Companies Registry.  <br><br>
+
+                        3 客戶如自行更改過公司資料，包括及不限於公司名稱、股權變動等，必須於周年日前   7   
+                        個工作天將相關資料以電郵通知本公司，如果因客戶的遺漏而導致周年申報表資料錯誤，客戶需另外支付額外費用，並可能需要支付遲交罰款。 
+                        If there is any Shares Transfer or Information Change of the Company Members during
+                        the past
+                        Annual year. Client must send the related information and documents to CountAudit
+                        Secretarial
+                        Limited 7 days prior to the anniversary of the date of the company’s incorporation
+                        of that year.
+                        Client would be responsible if there is any missing of providing accurate
+                        information for
+                        preparing the Annual Return, and have to pay the additional fees for re-doing the
+                        Annual Return,
+                        the Client would also be responsible for paying the late charge / penalty (if any)
+                        due to late
+                        submission. <br> <br>
+                        4 客戶如需要簽署周年申報表或相關文件，必須將簽妥的文件正本於該年中的周年日後的    30   
+                        日內寄回本公司以確保有足夠時間安排提交文件及費用，如果因遲交而導致任何罰款，客戶需要自行承擔。
+                        If Client has to sign the Annual Return, the signed documents must be returned to
+                        CountAudit
+                        Secretarial Limited within 30 days after the anniversary of the date of the
+                        company’s
+                        incorporation in that year, to ensure CountAudit Secretarial Limited has sufficient
+                        time to
+                        arrange submission of the documents. If there is any late charge / penalty due to
+                        late
+                        submission, the Client should hold full responsibilities.  <br><br>
+                        5 *客戶知悉並同意本申請表中沒有賦予客戶佔用或使用任何本虛擬辦公室服務所列位址之辦公室、設備或設施的權力。
+                        The Client understands and agrees that they will have no right to occupy and access
+                        any part of
+                        the premises, and any equipment or facilities within the premise of the virtual
+                        office address
+                        under this application form. <br> <br>
+
+                        6
+                        *客戶不能在服務生效前或終止後，公開或使用本公司提供的位址、電話號碼以及傳真號碼。客戶也不能以其他未向本公司登記的公司和用戶的名義，公開或使用本公司提供的位址、電話號碼以及傳真號碼。
+                        The Client shall not publish or use the provided address, telephone number and fax
+                        number
+                        provided by CountAudit Secretarial Limited before the commencement of the service or
+                        after the
+                        termination of service. The Client shall not allow any company or user not
+                        registered with
+                        CountAudit Secretarial Limited to publish or use the provided address, telephone
+                        number and fax
+                        number provided by CountAudit Secretarial Limited.
+                        <br>
+                        <br>
+                        7
+                        *本公司只為申請人之公司提供虛擬辦公室服務，故不會代收其聯絡人之私人信件或包裹。如有此情況，本公司將收取HKD100手續費，並且本公司不承擔任何因此引致之損失（包括但不限於信件或包裹丟失）。
+                        The virtual office service is provided to the applicant only, i.e.the Company
+                        registered with
+                        us. Thus, CountAudit Secretarial Limited will not accept the mails or parcels
+                        addressed to the
+                        other parties (including but not limited to the company contact persons)
+                        (“unauthorized mails
+                        and parcels”). If any unauthorized mails or parcels are sent to CountAudit
+                        Secretarial Limited,
+                        CountAudit Secretarial Limited will charge HKD100 handling fee. Moreover, CountAudit
+                        Secretarial
+                        Limited will not be responsible for any loss incurred resulted from this matter
+                        (including but
+                        not limited to the loss of mail or parcels).
+                        <br> <br>
+                        8
+                        *在服務生效前及或終止期間，或任何未經許可的情況下，本公司有權拒絕收取客戶的郵件、包裹、電郵或傳真，及拒絕處理客戶專線電話的來電或傳真，並且不會通知以上各種項目的傳送。在服務終止的30天后，客戶遺下的任何郵件、包裹、傳真和物件，本公司有權代為處理。
+
+                        Before the commencement of service, during suspension period, or any situation
+                        without the prior
+                        authorization, CountAudit Secretarial Limited reserves the right to reject any
+                        mails, parcels,
+                        faxes or any other objects sent to the Client and will not handle all calls from the
+                        assigned
+                        telephone/fax numbers. CountAudit Secretarial Limited is not responsible to notify
+                        the Client of
+                        such delivery. 30 days after the termination of service, any mail, parcels, fax or
+                        any other
+                        objects sent to or left at any offices of CountAudit Secretarial Limited shall be at
+                        the
+                        disposal of CountAudit Secretarial Limited at its absolute discretion.
+                        <br>
+                        <br>
+                        9 *代收取客戶郵件及包裹 MAIL HANDING SERVICES
+                        <br>
+                        <br>
+                        [1]
+                        包裹的體積不應超過20釐米*20釐米*20釐米。如包裹超過20釐米*20釐米*20釐米，本公司將按HKD20/每天/每20釐米*20釐米*20釐米收取存放費，並且本公司有權拒收任何超出上述體積的包裹。
+                        The volume of parcels shall not exceed 20cm*20cm*20cm.If the volume of parcels
+                        exceed
+                        20cm*20cm*20cm, storage fee will be charged at HKD20/day/20cm*20cm*20cm.Moreover,
+                        CountAudit
+                        Secretarial Limited reserves the right to refuse receiving mails and parcels
+                        exceeding the above
+                        stated size. <br>
+                        <br>
+
+                        [2] 客戶之體積不超過20釐米*20釐米*20釐米的包裹可以免費存放3天，3天後本公司將收取存放費(HKD20/每天/每件)
+                        The storage of the parcel with its volume not exceeding 20cm*20cm*20cm will be free
+                        of charge
+                        for the first 3 days and HKD20/item/day will be charged afterwards.
+                        <br>
+                        <br>
+                        [3] 本公司有權拒絕收任何危險或非法物件。 
+                        CountAudit Secretarial Limited reserves the right to refuse receiving any dangerous
+                        or illegal
+                        items.
+                        <br>
+                        <br>
+                        [4]
+                        超逾30天不取，及不能聯絡者，本公司將自行處理寄存物，而不另行通知，並且不負任何責任，後果客戶自負。若客戶暫存的物件基於任何原因而被盜，遺失或損毀，本公司不須為此而負上任何責任。
+                        Mails and parcels uncollected over 30 days, or if the Client is un-contactable, the
+                        mails and
+                        parcels shall be disposed of without any notice. CountAudit Secretarial Limited
+                        shall not be
+                        responsible for any losses or any obligations. CountAudit Secretarial Limited shall
+                        not be
+                        liable if the stored items are lost, being stolen or damaged due to any reason
+                        during the
+                        storage period. 
+
+
+
+
+
+
+                    </td>
+                </tr>
+            </table>
+
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+
+
+            <table class="form-table mt-0 mb-0">
+
+                <tr>
+                    <td>
+                        10 *轉寄郵件及包裹服務 MAIL FORWARDING SERVICES <br>
+                        若客戶需要轉寄郵件及包裹，需於服務申請時提出，或每次以電郵或書面形式通知本公司。本公司不會為轉寄郵件及包裹所引致的損失、被竊、被破壞、或任何災害，而作出任何賠償及負上任何責任。本公司每次將收取HKD80元手續費（不包轉寄郵件及包裹之郵寄費用）。
+                        If mail forwarding services is required, the Client should state at the time of
+                        application.
+                        Otherwise, the Client     should notice CountAudit Secretarial Limited by email or
+                        written
+                        notice every time. CountAudit Secretarial Limited shall not be liable for any
+                        losses, damages,
+                        cost, claims and expenses of liabilities of whatever nature in mail forwarding.
+                        CountAudit
+                        Secretarial Limited will charge HKD80 for handling charge (excluding mailing fee) of
+                        the forward
+                        mails and/or parcels.
+                        <br>
+                        <br>
+                        11 *電話服務 CALL SERVICES <br> <br>
+
+                        [1]  所有來電轉駁服務只適用於本地電話號碼。  <br><br>
+                         All call forwarding services apply to local telephone number only.
+                        [2] 若客戶須更改系統直接轉駁之指定號碼，須於生效期前2個工作天向本公司以書面形式通知。 
+                        If the designated number direct transferred by system is to be changed, a formal
+                        written
+                        notification should be submitted to CountAudit Secretarial Limited on or before 2
+                        working days
+                        prior to the effective date.<br><br>
+                        [3] 為保障客戶之利益及私隱，所有來電訊息只會儲存48小時。 
+                        For protecting the Client’s interest and privacy, all messages from callers will be
+                        reserved 48
+                        hours only.<br><br>
+                        [4] 專線電話服務只限代接後留言及轉駁電話，而不包括任何產品查詢，報價及客戶服務的工作。
+                        The telephone services provided by CountAudit Secretarial Limited can be only used
+                        for receiving
+                        calls, leaving messages and transferring calls on behalf of the Client, not
+                        including any
+                        services related to product inquires, making quotations and customer services. <br>
+                        <br>
+                        <br><br>
+                        12 若有本公司不能控制的事件（包括客戶的作為或不作為），影響本公司按原定計劃履行本服務的能力，本公司或會酌加服務費用。
+                        For CountAudit Secretarial Limited uncontrollable events, including Client act or
+                        omission to
+                        act, which affects CountAudit Secretarial Limited's ability to perform the service,
+                        CountAudit
+                        Secretarial Limited reserves the right to charge extra fee. 
+                        <br><br>
+                        13 客戶應於賬單上列明的到期日前繳交有關款項，否則本公司有權終止其服務而不作另行通知。同時客戶有責任於到期日前確保已繳交之費用已由本公司收取並確認。 
+                        The Client shall settle the fees before the due date specified on the relevant
+                        invoices,
+                        otherwise, CountAudit Secretarial Limited has right to suspend the services to the
+                        Client. The
+                        Client has the responsibility to ensure that their payments are received and
+                        identified by
+                        CountAudit Secretarial Limited before the due date specified on the relevant
+                        invoices.
+                        <br><br>
+                        14 若客戶要求重啟因延遲繳款或欠款被終止的服務，本公司將會向客戶收取於終止期間的相關服務費用。 
+                        If Client requests to reactivate the services which has been suspended by CountAudit
+                        Secretarial
+                        Limited due to late payment or overdue situation, CountAudit Secretarial Limited
+                        shall charge
+                        the Client the service fees for the suspended period.
+                        <br><br>
+                        15 客戶如需更改服務指令、內容，需以書面形式通知本公司，及繳付相關費用。
+                        If the Client requires to amend service instructions, contents, a written notice is
+                        required to
+                        provide to CountAudit Secretarial Limited, and the related service fees shall be
+                        applied.
+                        <br><br>
+                        16
+                        客戶或客戶代表所提供的一切資訊（“客戶資訊”）均為準確與完整的。本公司將依賴所獲提供的客戶資訊，本公司不會對客戶資訊進行任何評估或核證，也不會對任何錯誤資訊所引致之損失負責。
+                        The information provided by the Client (“Client Information”) must be accurate and
+                        complete.
+                        CountAudit Secretarial Limited will depend on what the Client provide, and
+                        CountAudit
+                        Secretarial Limited shall not do any evaluation or certification about the Client
+                        Information
+                        and shall not be responsible for any loss suffered due to the inaccurate or
+                        incomplete
+                        information.
+                        <br><br>
+                        17 就以下情況，本公司有權終止服務而不作任何通知；同時亦無須為停止提供服務，而負上法律責任或承擔任何被索償的後果。
+                        Under the following circumstances, CountAudit Secretarial Limited reserves all
+                        rights to
+                        terminate services without any prior notice. CountAudit Secretarial Limited shall
+                        bear no legal
+                        responsibilities nor shall be liable for any claims or compensation for
+                        discontinuing services.
+                        <br><br>
+
+
+                        [1]   客戶未能按時繳交費用，包括服務費、手續費或轉寄郵件費用；或未能及時更新商業登記；
+                        The Client has failed to settle any service fees, handing fees or reimbursements of
+                        postage, or
+                        to renew business registration on time;
+                        <br><br> [2] 客戶涉嫌進行或涉及任何非法、違例或詐騙活動；
+                        In suspicion of the Client is involving or carrying out a fraud and any illegal or
+                        improper
+                        activities;
+                        <br><br> [3] 客戶涉嫌利用本公司提供的服務作展銷會或招聘會等活動；
+                        In suspicion of the Client is using provided services to hold any promotional sales
+                        or public
+                        recruitment events;
+                        <br><br> [4] 客戶涉嫌在未經本公司許可下，把服務轉移或分配至任何第三者使用。
+                        In suspicion of the Client is transferring or assigning any or part of the services
+                        to any other
+                        parties, without the prior authorization from CountAudit Secretarial Limited.
+                        <br><br>
+                        18 如有任何爭議，本公司將保留最終決定權。
+                        Should any disputes arise, the decision of CountAudit Secretarial Limited shall be
+                        final.
+
+                    </td>
+                </tr>
+            </table>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+
+            <table class="form-table mt-0">
+                <tr>
+                    <td>責任範圍 LIMITATION OF LIABILITY <br><br>
+
+                        19 客戶已知悉因語言、文字或電子通訊的限制，如服務受阻、延誤或中斷、或任何錯漏，本公司的責任只限於其服務受影響的服務費，本公司不會因上述原因而負上其他責任。
+                        The Client acknowledges that due to the imperfect nature of verbal, written and
+                        electronic
+                        communications, CountAudit Secretarial Limited is not responsible for any failure to
+                        render any
+                        service, or any delay or interruption of any service, the sole obligation is limited
+                        to the
+                        service charges during the affected period. <br><br>
+
+                        20 客戶同意不會因服務受阻、延誤或中斷、或任何錯漏而引致的直接或間接損失(包括業務及收益之損失)而提出索償。
+                        The Client agrees to waive, and agrees not to make, any claims for damages, direct
+                        or
+                        consequential, including with respect to lost business or profits, arising out any
+                        service, any
+                        error or omission with respect there to, or any delay or interruption of services.
+                        <br><br>
+                        協議期限與終止 SERVICE PERIOD AND TERMINATION
+                        <br><br>
+
+                        21 本次服務由服務生效日開始計算，其後服務期會按照客戶每次繳付的服務週期而延續，而本申請表之內容亦會於新延續的服務期內適用。
+                        The service period starts from the effective date of the service plan and the
+                        contract period
+                        will be extended according to the period covered by each payment from the Client.
+                        The content of
+                        this application form will be applicable within the extended contract period.
+                        <br><br>
+
+                        22 未經本公司許可下，客戶不能在首張合約期之結束日期終止服務。
+                        The Client is not allowed to terminate the service before the end date of the first
+                        contract
+                        period unless prior approval from CountAudit Secretarial Limited is obtained.
+                        <br><br>
+
+                        23 提早終止服務並不會退回已繳交之服務費用。
+                        Service fee will not be refunded for early termination.
+                        <br><br>
+                        資料保護DATE PROTECTION
+                        <br><br>
+                        24 本公司可收集、使用、傳輸、儲存或以其他方式處理（統稱“處理”）可能與個別人士有關的客戶資訊（“個人資料”）。本公司處理個人資料時，將遵照適用的法律及專業守則。
+                        The Company may collect, use, transfer, store or otherwise process (collectively
+                        referred to as
+                        the "processing") the information provided by the Clients, which may include
+                        personal
+                        information. The processing of those data will be in compliance with applicable laws
+                        and
+                        professional codes of practice.
+                        <br><br>
+
+                        25 客戶同意在本公司在為客戶提供服務的情況下向第三者提供與客戶有關之資料。本公司亦將要求代本公司處理個人資料的任何服務供應商，遵守該等規定。
+                        The Client agrees CountAudit Secretarial Limited to provide customer-related
+                        information to
+                        third parties for services to be provided to the Client by CountAudit Secretarial
+                        Limited.
+                        CountAudit Secretarial Limited will also request any third party service providers
+                        to be in
+                        compliance with applicable laws and professional codes of practice.
+                        <br><br>
+
+                        26 客戶同意接收本公司推廣優惠之資訊，如客戶日後不欲繼續接收有關本公司推廣資訊，可隨時通知本公司停止有關資訊之發送。
+                        The Client agrees to receive promotional information from CountAudit Secretarial
+                        Limited. Should
+                        the Client determines not to continue receiving such information, the Client can
+                        inform
+                        CountAudit Secretarial Limited and cease the receipt of the promotional information.
+                        <br><br>
+
+                        不可抗力FORCE MAJEURE <br><br>
+
+
+                        27 若因客戶及本公司合理控制以外的情況而出現違反本申請表的情況，客戶及本公司均無須負責（付款責任除外）。
+                        The Client and CountAudit Secretarial Limited shall not be liable (except payment
+                        obligations)
+                        for any violation of the application form due to circumstances beyond the reasonable
+                        control of
+                        the Client and CountAudit Secretarial Limited.
+                        <br><br>
+
+                        適用法律與爭議解決APPLICABLE LAW AND DISPUTE RESOLUTION
+                        <br><br>
+
+                        28
+                        本申請表受香港特別行政區法律管轄，且應當依照香港特別行政區法律進行解釋。雙方因本申請表而發生的爭議，應友好協商解決。經友好協商不成的會提交香港國際仲裁中心進行仲裁。
+                        This application form shall be governed by and construed in accordance with the Laws
+                        of the Hong
+                        Kong Special Administrative Region. Both parties by this application form of
+                        disputes shall be
+                        settled through friendly consultations. If the dispute cannot be resolved, it will
+                        be settled by
+                        Hong Kong International Arbitration Center for arbitration.
+                        <br><br>
+
+                        其他事項OTHER BUSINESS
+                        <br><br>
+
+                        29 本申請表構成雙方就本服務及本申請表所涵蓋其他事項的全部協定，並取代先前一切有關的協議、諒解、聲明。
+                        The Application Form constitutes the entire agreement of all matters covered
+                        regarding the
+                        service and supersede the previous all relevant agreements, understandings and
+                        declarations.
+                        <br><br>
+
+                        30 雙方可用電子方式簽署本申請表（及其修訂），各方可在本申請表的不同副本上簽署。本申請表或任何其附件的修訂，必須經雙方書面同意。
+                        Both sides can electronically sign the application form (and its amendments), the
+                        parties sign
+                        on different copies of the application form. Any amendments on the Application Form
+                        or on its
+                        Appendix(es) must be agreed by both parties in writing.
+                        <br><br>
+
+                        31 本申請表的任何條文（不論全部或部分）若被認定為不合法、無效或因其他理由不能執行，本申請表其他條文仍具有十足效力。
+                        If any of the provisions of the Application Form (whether in whole or in part)
+                        identified as
+                        illegal, void, or for any other reason, unable to perform, the other provisions
+                        remain in full
+                        force and in effect.
+                        <br><br>
+
+                        32 本公司不承擔任何與本服務相關的客戶的管理層責任。
+                        CountAudit Secretarial Limited does not undertake any relevant client management
+                        responsibility.
+                        <br><br>
+
+                        33 現有客戶續約本公司服務最少6個月起。
+                        Existing Customers renewal to CountAudit Secretarial Limited with not less  than
+                        6-month
+                        commitment period and agree to the relevant terms and conditions.
+
+
+                    </td>
+                </tr>
+            </table>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <table class="form-table mt-0">
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">付款方法 Payment Methods
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                        客戶可以用以下途徑繳付款項 Client can settle the payment by following methods <br><br>
+                        (I)親身付款 Pay in person<br>
+                        (II)存入現金或轉帳至匯豐銀行(戶口號碼: 747-122000-838)<br>
+                        Direct deposit into HSBC (Account No.: 747-122000-838)<br>
+                        (III)劃線支票抬頭「CountAudit」至以下地址: 九龍荔枝角永康街18號永康中心11樓C室<br>
+                        Crossed cheque payable to “CountAudit” to following address: Flat C, 11/F., Wing
+                        Hong Centre, 18
+                        Wing Hong Street, Lai Chi Kok, Kowloon<br>
+                        (IV)轉數快 (轉數快識別號碼: 0818617) FPS Identifier: 0818617<br>
+                        (V)網上連結支付Online Payment: https://app.cardup.hk/collect/pay/countaudit
+                        (網上付款系統或設相關手續費)<br>
+                        #付款後請提供入數紙/截圖作紀錄
+
+
+
+                    </td>
+                </tr>
+            </table>
+
+            <table class="form-table mt-0">
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">聲明 Declaration
+
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+
+
+                        本人茲證實上述資料確實無誤，並已知悉及同意以上所有條款。 <br>
+                        I have read and agreed with all the terms and conditions above.<br>
+                        *本人清楚知道須於每年於公司成立為法團之日在該年中的周年日後的 42 日內 (訂明時限)，向公司註冊處處長交付周年申報表登記。逾期罰款及相關的法律責任會由本人 /
+                        我司自行承擔。<br>
+                        I acknowledge and understand every year annual return is required to be delivered to
+                        the
+                        Registrar of Companies for registration within 42 days after the anniversary of the
+                        date of the
+                        company’s incorporation in that year (the prescribed time period) period), I/ my
+                        comp any will
+                        have responsibilities for all penalties and legal liability from late delivery. <br>
+                        *（只適用於公司秘書服務 Applicable for Company Secretarial Services Only）
+
+
+
+                        <table class="border-0 mt-5">
                             <tr>
-                                <td class="text-center orange-yellow-bg fw-bold">條款及細則 Terms and Conditions
+                                <td class="fit border-0">
+                                    <div class="sign-line"></div>
+                                    <div>
+                                        客戶簽名 Applicant ‘s Signature</div>
+                                </td>
+                                <td class="fit border-0">
+                                    <div class="sign-line"></div>
 
+                                    <div>
+                                        日期 Date</div>
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    <u> 服務條款 MAIN TERMS</u> <br>
-                                    <u> *適用於虛擬辦工室客戶Applicable for Virtual Office Service</u>
+                                <td class="fit border-0 pt-4">
+                                    <div class="sign-line"></div>
 
-                                    <br>
-                                    1 本申請表由算數秘書有限公司（“本公司”）提供，並由公司秘書/虛擬辦公室服務計畫申請人（“客戶”）同意，雙方共同履行申請表內所載的條款及細則。
-                                    This application form is offered by CountAudit Secretarial Limited and accepted by
-                                    the
-                                    Company Secretarial Service / Virtual Office Service  Applicants (the “Client”),
-                                    both
-                                    executing the terms and conditions started in this application form.
-                                    <br> <br>
-
-                                    2 客戶須於服務到期日一個月前與本公司書面提出續約或中止服務，否則會遞交政府文件辭任公司秘書。
-                                    Client are required to renew / terminate the service with CountAudit Secretarial
-                                    Limited 1 month
-                                    before the expiry date of the service period. Otherwise, the resignation form of
-                                    company
-                                    secretary will be submitted to Companies Registry.  <br><br>
-
-                                    3 客戶如自行更改過公司資料，包括及不限於公司名稱、股權變動等，必須於周年日前   7   
-                                    個工作天將相關資料以電郵通知本公司，如果因客戶的遺漏而導致周年申報表資料錯誤，客戶需另外支付額外費用，並可能需要支付遲交罰款。 
-                                    If there is any Shares Transfer or Information Change of the Company Members during
-                                    the past
-                                    Annual year. Client must send the related information and documents to CountAudit
-                                    Secretarial
-                                    Limited 7 days prior to the anniversary of the date of the company’s incorporation
-                                    of that year.
-                                    Client would be responsible if there is any missing of providing accurate
-                                    information for
-                                    preparing the Annual Return, and have to pay the additional fees for re-doing the
-                                    Annual Return,
-                                    the Client would also be responsible for paying the late charge / penalty (if any)
-                                    due to late
-                                    submission. <br> <br>
-                                    4 客戶如需要簽署周年申報表或相關文件，必須將簽妥的文件正本於該年中的周年日後的    30   
-                                    日內寄回本公司以確保有足夠時間安排提交文件及費用，如果因遲交而導致任何罰款，客戶需要自行承擔。
-                                    If Client has to sign the Annual Return, the signed documents must be returned to
-                                    CountAudit
-                                    Secretarial Limited within 30 days after the anniversary of the date of the
-                                    company’s
-                                    incorporation in that year, to ensure CountAudit Secretarial Limited has sufficient
-                                    time to
-                                    arrange submission of the documents. If there is any late charge / penalty due to
-                                    late
-                                    submission, the Client should hold full responsibilities.  <br><br>
-                                    5 *客戶知悉並同意本申請表中沒有賦予客戶佔用或使用任何本虛擬辦公室服務所列位址之辦公室、設備或設施的權力。
-                                    The Client understands and agrees that they will have no right to occupy and access
-                                    any part of
-                                    the premises, and any equipment or facilities within the premise of the virtual
-                                    office address
-                                    under this application form. <br> <br>
-
-                                    6
-                                    *客戶不能在服務生效前或終止後，公開或使用本公司提供的位址、電話號碼以及傳真號碼。客戶也不能以其他未向本公司登記的公司和用戶的名義，公開或使用本公司提供的位址、電話號碼以及傳真號碼。
-                                    The Client shall not publish or use the provided address, telephone number and fax
-                                    number
-                                    provided by CountAudit Secretarial Limited before the commencement of the service or
-                                    after the
-                                    termination of service. The Client shall not allow any company or user not
-                                    registered with
-                                    CountAudit Secretarial Limited to publish or use the provided address, telephone
-                                    number and fax
-                                    number provided by CountAudit Secretarial Limited.
-                                    <br>
-                                    <br>
-                                    7
-                                    *本公司只為申請人之公司提供虛擬辦公室服務，故不會代收其聯絡人之私人信件或包裹。如有此情況，本公司將收取HKD100手續費，並且本公司不承擔任何因此引致之損失（包括但不限於信件或包裹丟失）。
-                                    The virtual office service is provided to the applicant only, i.e.the Company
-                                    registered with
-                                    us. Thus, CountAudit Secretarial Limited will not accept the mails or parcels
-                                    addressed to the
-                                    other parties (including but not limited to the company contact persons)
-                                    (“unauthorized mails
-                                    and parcels”). If any unauthorized mails or parcels are sent to CountAudit
-                                    Secretarial Limited,
-                                    CountAudit Secretarial Limited will charge HKD100 handling fee. Moreover, CountAudit
-                                    Secretarial
-                                    Limited will not be responsible for any loss incurred resulted from this matter
-                                    (including but
-                                    not limited to the loss of mail or parcels).
-                                    <br> <br>
-                                    8
-                                    *在服務生效前及或終止期間，或任何未經許可的情況下，本公司有權拒絕收取客戶的郵件、包裹、電郵或傳真，及拒絕處理客戶專線電話的來電或傳真，並且不會通知以上各種項目的傳送。在服務終止的30天后，客戶遺下的任何郵件、包裹、傳真和物件，本公司有權代為處理。
-
-                                    Before the commencement of service, during suspension period, or any situation
-                                    without the prior
-                                    authorization, CountAudit Secretarial Limited reserves the right to reject any
-                                    mails, parcels,
-                                    faxes or any other objects sent to the Client and will not handle all calls from the
-                                    assigned
-                                    telephone/fax numbers. CountAudit Secretarial Limited is not responsible to notify
-                                    the Client of
-                                    such delivery. 30 days after the termination of service, any mail, parcels, fax or
-                                    any other
-                                    objects sent to or left at any offices of CountAudit Secretarial Limited shall be at
-                                    the
-                                    disposal of CountAudit Secretarial Limited at its absolute discretion.
-                                    <br>
-                                    <br>
-                                    9 *代收取客戶郵件及包裹 MAIL HANDING SERVICES
-                                    <br>
-                                    <br>
-                                    [1]
-                                    包裹的體積不應超過20釐米*20釐米*20釐米。如包裹超過20釐米*20釐米*20釐米，本公司將按HKD20/每天/每20釐米*20釐米*20釐米收取存放費，並且本公司有權拒收任何超出上述體積的包裹。
-                                    The volume of parcels shall not exceed 20cm*20cm*20cm.If the volume of parcels
-                                    exceed
-                                    20cm*20cm*20cm, storage fee will be charged at HKD20/day/20cm*20cm*20cm.Moreover,
-                                    CountAudit
-                                    Secretarial Limited reserves the right to refuse receiving mails and parcels
-                                    exceeding the above
-                                    stated size. <br>
-                                    <br>
-
-                                    [2] 客戶之體積不超過20釐米*20釐米*20釐米的包裹可以免費存放3天，3天後本公司將收取存放費(HKD20/每天/每件)
-                                    The storage of the parcel with its volume not exceeding 20cm*20cm*20cm will be free
-                                    of charge
-                                    for the first 3 days and HKD20/item/day will be charged afterwards.
-                                    <br>
-                                    <br>
-                                    [3] 本公司有權拒絕收任何危險或非法物件。 
-                                    CountAudit Secretarial Limited reserves the right to refuse receiving any dangerous
-                                    or illegal
-                                    items.
-                                    <br>
-                                    <br>
-                                    [4]
-                                    超逾30天不取，及不能聯絡者，本公司將自行處理寄存物，而不另行通知，並且不負任何責任，後果客戶自負。若客戶暫存的物件基於任何原因而被盜，遺失或損毀，本公司不須為此而負上任何責任。
-                                    Mails and parcels uncollected over 30 days, or if the Client is un-contactable, the
-                                    mails and
-                                    parcels shall be disposed of without any notice. CountAudit Secretarial Limited
-                                    shall not be
-                                    responsible for any losses or any obligations. CountAudit Secretarial Limited shall
-                                    not be
-                                    liable if the stored items are lost, being stolen or damaged due to any reason
-                                    during the
-                                    storage period. 
-
-
-
-
-
-
+                                    <div>
+                                        客戶姓名 Applicant’s Name
+                                    </div>
                                 </td>
+                                <td class="fit border-0"></td>
                             </tr>
                         </table>
 
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
 
-
-                        <table class="form-table mt-0 mb-0">
-
-                            <tr>
-                                <td>
-                                    10 *轉寄郵件及包裹服務 MAIL FORWARDING SERVICES <br>
-                                    若客戶需要轉寄郵件及包裹，需於服務申請時提出，或每次以電郵或書面形式通知本公司。本公司不會為轉寄郵件及包裹所引致的損失、被竊、被破壞、或任何災害，而作出任何賠償及負上任何責任。本公司每次將收取HKD80元手續費（不包轉寄郵件及包裹之郵寄費用）。
-                                    If mail forwarding services is required, the Client should state at the time of
-                                    application.
-                                    Otherwise, the Client     should notice CountAudit Secretarial Limited by email or
-                                    written
-                                    notice every time. CountAudit Secretarial Limited shall not be liable for any
-                                    losses, damages,
-                                    cost, claims and expenses of liabilities of whatever nature in mail forwarding.
-                                    CountAudit
-                                    Secretarial Limited will charge HKD80 for handling charge (excluding mailing fee) of
-                                    the forward
-                                    mails and/or parcels.
-                                    <br>
-                                    <br>
-                                    11 *電話服務 CALL SERVICES <br> <br>
-
-                                    [1]  所有來電轉駁服務只適用於本地電話號碼。  <br><br>
-                                     All call forwarding services apply to local telephone number only.
-                                    [2] 若客戶須更改系統直接轉駁之指定號碼，須於生效期前2個工作天向本公司以書面形式通知。 
-                                    If the designated number direct transferred by system is to be changed, a formal
-                                    written
-                                    notification should be submitted to CountAudit Secretarial Limited on or before 2
-                                    working days
-                                    prior to the effective date.<br><br>
-                                    [3] 為保障客戶之利益及私隱，所有來電訊息只會儲存48小時。 
-                                    For protecting the Client’s interest and privacy, all messages from callers will be
-                                    reserved 48
-                                    hours only.<br><br>
-                                    [4] 專線電話服務只限代接後留言及轉駁電話，而不包括任何產品查詢，報價及客戶服務的工作。
-                                    The telephone services provided by CountAudit Secretarial Limited can be only used
-                                    for receiving
-                                    calls, leaving messages and transferring calls on behalf of the Client, not
-                                    including any
-                                    services related to product inquires, making quotations and customer services. <br>
-                                    <br>
-                                    <br><br>
-                                    12 若有本公司不能控制的事件（包括客戶的作為或不作為），影響本公司按原定計劃履行本服務的能力，本公司或會酌加服務費用。
-                                    For CountAudit Secretarial Limited uncontrollable events, including Client act or
-                                    omission to
-                                    act, which affects CountAudit Secretarial Limited's ability to perform the service,
-                                    CountAudit
-                                    Secretarial Limited reserves the right to charge extra fee. 
-                                    <br><br>
-                                    13 客戶應於賬單上列明的到期日前繳交有關款項，否則本公司有權終止其服務而不作另行通知。同時客戶有責任於到期日前確保已繳交之費用已由本公司收取並確認。 
-                                    The Client shall settle the fees before the due date specified on the relevant
-                                    invoices,
-                                    otherwise, CountAudit Secretarial Limited has right to suspend the services to the
-                                    Client. The
-                                    Client has the responsibility to ensure that their payments are received and
-                                    identified by
-                                    CountAudit Secretarial Limited before the due date specified on the relevant
-                                    invoices.
-                                    <br><br>
-                                    14 若客戶要求重啟因延遲繳款或欠款被終止的服務，本公司將會向客戶收取於終止期間的相關服務費用。 
-                                    If Client requests to reactivate the services which has been suspended by CountAudit
-                                    Secretarial
-                                    Limited due to late payment or overdue situation, CountAudit Secretarial Limited
-                                    shall charge
-                                    the Client the service fees for the suspended period.
-                                    <br><br>
-                                    15 客戶如需更改服務指令、內容，需以書面形式通知本公司，及繳付相關費用。
-                                    If the Client requires to amend service instructions, contents, a written notice is
-                                    required to
-                                    provide to CountAudit Secretarial Limited, and the related service fees shall be
-                                    applied.
-                                    <br><br>
-                                    16
-                                    客戶或客戶代表所提供的一切資訊（“客戶資訊”）均為準確與完整的。本公司將依賴所獲提供的客戶資訊，本公司不會對客戶資訊進行任何評估或核證，也不會對任何錯誤資訊所引致之損失負責。
-                                    The information provided by the Client (“Client Information”) must be accurate and
-                                    complete.
-                                    CountAudit Secretarial Limited will depend on what the Client provide, and
-                                    CountAudit
-                                    Secretarial Limited shall not do any evaluation or certification about the Client
-                                    Information
-                                    and shall not be responsible for any loss suffered due to the inaccurate or
-                                    incomplete
-                                    information.
-                                    <br><br>
-                                    17 就以下情況，本公司有權終止服務而不作任何通知；同時亦無須為停止提供服務，而負上法律責任或承擔任何被索償的後果。
-                                    Under the following circumstances, CountAudit Secretarial Limited reserves all
-                                    rights to
-                                    terminate services without any prior notice. CountAudit Secretarial Limited shall
-                                    bear no legal
-                                    responsibilities nor shall be liable for any claims or compensation for
-                                    discontinuing services.
-                                    <br><br>
-
-
-                                    [1]   客戶未能按時繳交費用，包括服務費、手續費或轉寄郵件費用；或未能及時更新商業登記；
-                                    The Client has failed to settle any service fees, handing fees or reimbursements of
-                                    postage, or
-                                    to renew business registration on time;
-                                    <br><br> [2] 客戶涉嫌進行或涉及任何非法、違例或詐騙活動；
-                                    In suspicion of the Client is involving or carrying out a fraud and any illegal or
-                                    improper
-                                    activities;
-                                    <br><br> [3] 客戶涉嫌利用本公司提供的服務作展銷會或招聘會等活動；
-                                    In suspicion of the Client is using provided services to hold any promotional sales
-                                    or public
-                                    recruitment events;
-                                    <br><br> [4] 客戶涉嫌在未經本公司許可下，把服務轉移或分配至任何第三者使用。
-                                    In suspicion of the Client is transferring or assigning any or part of the services
-                                    to any other
-                                    parties, without the prior authorization from CountAudit Secretarial Limited.
-                                    <br><br>
-                                    18 如有任何爭議，本公司將保留最終決定權。
-                                    Should any disputes arise, the decision of CountAudit Secretarial Limited shall be
-                                    final.
-
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-
-                        <table class="form-table mt-0">
-                            <tr>
-                                <td>責任範圍 LIMITATION OF LIABILITY <br><br>
-
-                                    19 客戶已知悉因語言、文字或電子通訊的限制，如服務受阻、延誤或中斷、或任何錯漏，本公司的責任只限於其服務受影響的服務費，本公司不會因上述原因而負上其他責任。
-                                    The Client acknowledges that due to the imperfect nature of verbal, written and
-                                    electronic
-                                    communications, CountAudit Secretarial Limited is not responsible for any failure to
-                                    render any
-                                    service, or any delay or interruption of any service, the sole obligation is limited
-                                    to the
-                                    service charges during the affected period. <br><br>
-
-                                    20 客戶同意不會因服務受阻、延誤或中斷、或任何錯漏而引致的直接或間接損失(包括業務及收益之損失)而提出索償。
-                                    The Client agrees to waive, and agrees not to make, any claims for damages, direct
-                                    or
-                                    consequential, including with respect to lost business or profits, arising out any
-                                    service, any
-                                    error or omission with respect there to, or any delay or interruption of services.
-                                    <br><br>
-                                    協議期限與終止 SERVICE PERIOD AND TERMINATION
-                                    <br><br>
-
-                                    21 本次服務由服務生效日開始計算，其後服務期會按照客戶每次繳付的服務週期而延續，而本申請表之內容亦會於新延續的服務期內適用。
-                                    The service period starts from the effective date of the service plan and the
-                                    contract period
-                                    will be extended according to the period covered by each payment from the Client.
-                                    The content of
-                                    this application form will be applicable within the extended contract period.
-                                    <br><br>
-
-                                    22 未經本公司許可下，客戶不能在首張合約期之結束日期終止服務。
-                                    The Client is not allowed to terminate the service before the end date of the first
-                                    contract
-                                    period unless prior approval from CountAudit Secretarial Limited is obtained.
-                                    <br><br>
-
-                                    23 提早終止服務並不會退回已繳交之服務費用。
-                                    Service fee will not be refunded for early termination.
-                                    <br><br>
-                                    資料保護DATE PROTECTION
-                                    <br><br>
-                                    24 本公司可收集、使用、傳輸、儲存或以其他方式處理（統稱“處理”）可能與個別人士有關的客戶資訊（“個人資料”）。本公司處理個人資料時，將遵照適用的法律及專業守則。
-                                    The Company may collect, use, transfer, store or otherwise process (collectively
-                                    referred to as
-                                    the "processing") the information provided by the Clients, which may include
-                                    personal
-                                    information. The processing of those data will be in compliance with applicable laws
-                                    and
-                                    professional codes of practice.
-                                    <br><br>
-
-                                    25 客戶同意在本公司在為客戶提供服務的情況下向第三者提供與客戶有關之資料。本公司亦將要求代本公司處理個人資料的任何服務供應商，遵守該等規定。
-                                    The Client agrees CountAudit Secretarial Limited to provide customer-related
-                                    information to
-                                    third parties for services to be provided to the Client by CountAudit Secretarial
-                                    Limited.
-                                    CountAudit Secretarial Limited will also request any third party service providers
-                                    to be in
-                                    compliance with applicable laws and professional codes of practice.
-                                    <br><br>
-
-                                    26 客戶同意接收本公司推廣優惠之資訊，如客戶日後不欲繼續接收有關本公司推廣資訊，可隨時通知本公司停止有關資訊之發送。
-                                    The Client agrees to receive promotional information from CountAudit Secretarial
-                                    Limited. Should
-                                    the Client determines not to continue receiving such information, the Client can
-                                    inform
-                                    CountAudit Secretarial Limited and cease the receipt of the promotional information.
-                                    <br><br>
-
-                                    不可抗力FORCE MAJEURE <br><br>
-
-
-                                    27 若因客戶及本公司合理控制以外的情況而出現違反本申請表的情況，客戶及本公司均無須負責（付款責任除外）。
-                                    The Client and CountAudit Secretarial Limited shall not be liable (except payment
-                                    obligations)
-                                    for any violation of the application form due to circumstances beyond the reasonable
-                                    control of
-                                    the Client and CountAudit Secretarial Limited.
-                                    <br><br>
-
-                                    適用法律與爭議解決APPLICABLE LAW AND DISPUTE RESOLUTION
-                                    <br><br>
-
-                                    28
-                                    本申請表受香港特別行政區法律管轄，且應當依照香港特別行政區法律進行解釋。雙方因本申請表而發生的爭議，應友好協商解決。經友好協商不成的會提交香港國際仲裁中心進行仲裁。
-                                    This application form shall be governed by and construed in accordance with the Laws
-                                    of the Hong
-                                    Kong Special Administrative Region. Both parties by this application form of
-                                    disputes shall be
-                                    settled through friendly consultations. If the dispute cannot be resolved, it will
-                                    be settled by
-                                    Hong Kong International Arbitration Center for arbitration.
-                                    <br><br>
-
-                                    其他事項OTHER BUSINESS
-                                    <br><br>
-
-                                    29 本申請表構成雙方就本服務及本申請表所涵蓋其他事項的全部協定，並取代先前一切有關的協議、諒解、聲明。
-                                    The Application Form constitutes the entire agreement of all matters covered
-                                    regarding the
-                                    service and supersede the previous all relevant agreements, understandings and
-                                    declarations.
-                                    <br><br>
-
-                                    30 雙方可用電子方式簽署本申請表（及其修訂），各方可在本申請表的不同副本上簽署。本申請表或任何其附件的修訂，必須經雙方書面同意。
-                                    Both sides can electronically sign the application form (and its amendments), the
-                                    parties sign
-                                    on different copies of the application form. Any amendments on the Application Form
-                                    or on its
-                                    Appendix(es) must be agreed by both parties in writing.
-                                    <br><br>
-
-                                    31 本申請表的任何條文（不論全部或部分）若被認定為不合法、無效或因其他理由不能執行，本申請表其他條文仍具有十足效力。
-                                    If any of the provisions of the Application Form (whether in whole or in part)
-                                    identified as
-                                    illegal, void, or for any other reason, unable to perform, the other provisions
-                                    remain in full
-                                    force and in effect.
-                                    <br><br>
-
-                                    32 本公司不承擔任何與本服務相關的客戶的管理層責任。
-                                    CountAudit Secretarial Limited does not undertake any relevant client management
-                                    responsibility.
-                                    <br><br>
-
-                                    33 現有客戶續約本公司服務最少6個月起。
-                                    Existing Customers renewal to CountAudit Secretarial Limited with not less  than
-                                    6-month
-                                    commitment period and agree to the relevant terms and conditions.
-
-
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <div class="blank-area">- BLANK AREA -</div>
-                        <table class="form-table mt-0">
-                            <tr>
-                                <td class="text-center orange-yellow-bg fw-bold">付款方法 Payment Methods
-
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>
-
-                                    客戶可以用以下途徑繳付款項 Client can settle the payment by following methods <br><br>
-                                    (I)親身付款 Pay in person<br>
-                                    (II)存入現金或轉帳至匯豐銀行(戶口號碼: 747-122000-838)<br>
-                                    Direct deposit into HSBC (Account No.: 747-122000-838)<br>
-                                    (III)劃線支票抬頭「CountAudit」至以下地址: 九龍荔枝角永康街18號永康中心11樓C室<br>
-                                    Crossed cheque payable to “CountAudit” to following address: Flat C, 11/F., Wing
-                                    Hong Centre, 18
-                                    Wing Hong Street, Lai Chi Kok, Kowloon<br>
-                                    (IV)轉數快 (轉數快識別號碼: 0818617) FPS Identifier: 0818617<br>
-                                    (V)網上連結支付Online Payment: https://app.cardup.hk/collect/pay/countaudit
-                                    (網上付款系統或設相關手續費)<br>
-                                    #付款後請提供入數紙/截圖作紀錄
-
-
-
-                                </td>
-                            </tr>
-                        </table>
-
-                        <table class="form-table mt-0">
-                            <tr>
-                                <td class="text-center orange-yellow-bg fw-bold">聲明 Declaration
-
-
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>
-
-
-
-                                    本人茲證實上述資料確實無誤，並已知悉及同意以上所有條款。 <br>
-                                    I have read and agreed with all the terms and conditions above.<br>
-                                    *本人清楚知道須於每年於公司成立為法團之日在該年中的周年日後的 42 日內 (訂明時限)，向公司註冊處處長交付周年申報表登記。逾期罰款及相關的法律責任會由本人 /
-                                    我司自行承擔。<br>
-                                    I acknowledge and understand every year annual return is required to be delivered to
-                                    the
-                                    Registrar of Companies for registration within 42 days after the anniversary of the
-                                    date of the
-                                    company’s incorporation in that year (the prescribed time period) period), I/ my
-                                    comp any will
-                                    have responsibilities for all penalties and legal liability from late delivery. <br>
-                                    *（只適用於公司秘書服務 Applicable for Company Secretarial Services Only）
-
-
-
-                                    <table class="border-0 mt-5">
-                                        <tr>
-                                            <td class="fit border-0">
-                                                <div class="sign-line"></div>
-                                                <div>
-                                                    客戶簽名 Applicant ‘s Signature</div>
-                                            </td>
-                                            <td class="fit border-0">
-                                                <div class="sign-line"></div>
-
-                                                <div>
-                                                    日期 Date</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="fit border-0 pt-4">
-                                                <div class="sign-line"></div>
-
-                                                <div>
-                                                    客戶姓名 Applicant’s Name
-                                                </div>
-                                            </td>
-                                            <td class="fit border-0"></td>
-                                        </tr>
-                                    </table>
-
-                                </td>
-                            </tr>
-                        </table>
 
 
 
