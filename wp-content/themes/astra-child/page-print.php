@@ -606,7 +606,7 @@ get_header();
                 </tr>
             </table>
 
-            <table>
+            <table class="form-table mt-0 mb-0">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">附加服務 Additional Services
 
