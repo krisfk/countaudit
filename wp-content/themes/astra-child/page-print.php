@@ -1360,6 +1360,19 @@ get_header();
 
                     </td>
                 </tr>
+                <tr>
+                    <td>業務性質 <br>
+                        Business Nature *
+                    </td>
+                    <td>
+                        ❑ 貿易 Trading ❑ 服務 Service: ________ <br>
+                        ❑ 零售 Retail ❑ 製造 Manufacture<br>
+                        ❑ 顧問 Consultancy ❑ 運輸 Transport<br>
+                        ❑ 設計 Design ❑ 資訊科技 IT<br>
+                        ❑ 推廣劃 Marketing ❑ 其他 Others:________
+
+                    </td>
+                </tr>
 
 
 
