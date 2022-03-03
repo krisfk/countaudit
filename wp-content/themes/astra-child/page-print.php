@@ -1417,16 +1417,16 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td>身份證/護照/公司號碼 <br>
+                    <td class="fit">身份證/護照/公司號碼 <br>
                         ID/Passport/Company No *
 
                     </td>
-                    <td></td>
-                    <td>持股比例 <br>
+                    <td class="fit"></td>
+                    <td class="fit">持股比例 <br>
                         % of Shares *
 
                     </td>
-                    <td></td>
+                    <td class="fit"></td>
 
                 </tr>
             </table>
