@@ -619,7 +619,39 @@ get_header();
                             ❑ 虛擬辦工室 Virtual Office
                         </div>
 
-                        <div>fdsf</div>
+
+                        <table class="form-table mt-0 mb-0">
+                            <tr>
+                                <td>尖沙咀 Tsim Sha Tsui
+
+                                </td>
+                                <td>荔枝角 Lai Chi Kok
+
+                                </td>
+                                <td>觀塘 Kwun Tong
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check"><input id="tst-HK1600-year" class="form-check-input"
+                                            name="virtual-office[]" type="checkbox" value="tst-HK1600-year"> <label
+                                            class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label>
+                                    </div>
+                                    <ul class="m-0 ps-4">
+                                        <li class="ls1">註冊公司地址</li>
+                                        <li class="ls1">信件包裹代收</li>
+                                        <li class="ls1">稅局郵件轉寄</li>
+                                        <li class="ls1">製作公司水牌</li>
+                                        <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    </ul>
+
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+
 
                     </td>
                 </tr>
