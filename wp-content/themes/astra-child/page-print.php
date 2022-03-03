@@ -1386,7 +1386,8 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td>請連同所有董事及股東之身份證明及住宅地址副本一併遞交。Please also submit the ID/Passport copy and address proof of every
+                    <td colspan="3">請連同所有董事及股東之身份證明及住宅地址副本一併遞交。Please also submit the ID/Passport copy and address
+                        proof of every
                         director and shareholder. <br>
                         如股東或董事是公司，請提供NNC1/NAR1，CI，BR，公司所有董事及股東之身份證明及住宅地址副本。If the
                         Director or Shareholder is company, please also submit the NNCI / NAR1, CI, BR and ID/Passport
