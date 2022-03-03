@@ -2658,6 +2658,27 @@ get_header();
 
 
             </table>
+            <table class="form-table mt-0 mb-0">
+                <tr>
+                    <td colspan="2" class="text-center orange-yellow-bg fw-bold">
+
+                        *申請所需之文件 Required Documents
+                        <div class="small">(請上載下列文件 Please upload the following documents)
+                        </div>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>1. 商業登記証(副本) (BR); 最新周年申報表(副本) (latest NAR1) / 法團成立表格 (NNC1); 公司證書 (CI)
+                    </td>
+                    <td>
+                        2. 有效之身份證 / 護照副本 及 3 個月內之住址證明 <b></b>
+                        All member’s ID/passport copy and address proof within 3 months
+                    </td>
+                </tr>
+            </table>
+
 
 
         </div>
