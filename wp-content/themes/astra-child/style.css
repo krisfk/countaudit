@@ -1356,7 +1356,10 @@ li.ls3 {
 .sign-line {
     display: block;
     height: 1px;
-    width: 100px;
+    width: 300px;
+    background: #000;
+    margin: 0 0 0.5rem 0;
+    height: 1px;
     background: #000;
 }
 
@@ -1406,7 +1409,6 @@ li.ls3 {
         position: fixed;
         top: 0;
         left: 0;
-        margin: 0 0 1rem 0;
         width: 100%;
     }
     textarea {
