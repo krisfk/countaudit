@@ -1468,47 +1468,6 @@ get_header();
                 </tbody>
                 <tbody>
                     <tr>
-                        <td class="fit">1. 申請人身份 <br>
-                            Applicant’s Position *
-                        </td>
-                        <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
-
-                            <div class="small"> 請選擇最少其中一項 Choose at least one</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="fit">證件上名稱 <br>
-                            Name on ID/Passport *
-                        </td>
-                        <td>中文 <br>
-                            Chinese
-                        </td>
-                        <td colspan="2">英文 <br>
-                            English
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="fit">身份證/護照/公司號碼 <br>
-                            ID/Passport/Company No *
-
-                        </td>
-                        <td class="fit"></td>
-                        <td class="fit">持股比例 <br>
-                            % of Shares *
-
-                        </td>
-                        <td class="fit"></td>
-
-                    </tr>
-                    <tr>
-                        <td colspan="4">住址 <br>
-                            Residential Address *
-                        </td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
                         <td class="fit">2. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
@@ -1551,6 +1510,47 @@ get_header();
                 <tbody>
                     <tr>
                         <td class="fit">3. 申請人身份 <br>
+                            Applicant’s Position *
+                        </td>
+                        <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+
+                            <div class="small"> 請選擇最少其中一項 Choose at least one</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fit">證件上名稱 <br>
+                            Name on ID/Passport *
+                        </td>
+                        <td>中文 <br>
+                            Chinese
+                        </td>
+                        <td colspan="2">英文 <br>
+                            English
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fit">身份證/護照/公司號碼 <br>
+                            ID/Passport/Company No *
+
+                        </td>
+                        <td class="fit"></td>
+                        <td class="fit">持股比例 <br>
+                            % of Shares *
+
+                        </td>
+                        <td class="fit"></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="4">住址 <br>
+                            Residential Address *
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="fit">4. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
                         <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
