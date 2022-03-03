@@ -1384,7 +1384,7 @@ li.ls3 {
 @media screen {
     .client-code-div {
         position: fixed;
-        top: -40px;
+        top: 1rem;
         left: 50%;
         transform: translate(-50%, 0);
     }
@@ -1439,7 +1439,7 @@ li.ls3 {
     .print-header {
         display: block;
         position: fixed;
-        top: 0;
+        top: 1rem;
         left: 0;
         width: 100%;
     }
