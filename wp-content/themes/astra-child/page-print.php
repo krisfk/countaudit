@@ -1205,7 +1205,7 @@ get_header();
                                 </td>
                             </tr>
                             <tr>
-                                <td class="fit border-0">
+                                <td class="fit border-0 pt-4">
                                     <div class="sign-line"></div>
 
                                     <div>
