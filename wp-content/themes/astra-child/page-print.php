@@ -1589,7 +1589,7 @@ get_header();
                         </td>
                     </tr>
                 </tbody>
-                <tbody>
+                <!-- <tbody>
                     <tr>
                         <td class="fit">5. 申請人身份 <br>
                             Applicant’s Position *
@@ -1629,7 +1629,7 @@ get_header();
                             Residential Address *
                         </td>
                     </tr>
-                </tbody>
+                </tbody> -->
             </table>
 
         </div>
