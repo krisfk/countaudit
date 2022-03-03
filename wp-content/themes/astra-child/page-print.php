@@ -1416,6 +1416,19 @@ get_header();
 
                     </td>
                 </tr>
+                <tr>
+                    <td>身份證/護照/公司號碼 <br>
+                        ID/Passport/Company No *
+
+                    </td>
+                    <td></td>
+                    <td>持股比例 <br>
+                        % of Shares *
+
+                    </td>
+                    <td></td>
+
+                </tr>
             </table>
 
         </div>
