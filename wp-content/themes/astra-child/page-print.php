@@ -2574,6 +2574,70 @@ get_header();
          }
     ?>
 
+    <?php
+    if($_GET['f']=='vof')
+    {
+        ?>
+    <div class="incorp-limited-app-form">
+        <div class="print-form-container">
+            <h2 class="text-center mt-4">
+                Virtual Office Service Application Form
+                <br>
+                虛擬辦工室服務計劃申請表
+                <div class="small mt-2">*為必須填寫項目 Required Fields
+                </div>
+
+            </h2>
+
+            <table class="form-table mt-3 mb-0">
+                <tr>
+                    <td colspan="4" class="text-center orange-yellow-bg fw-bold">申請人資料 Applicant Information
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fit text-nowrap">
+                        Name 姓名:</td>
+                    <td></td>
+                    <td class="fit text-nowrap">*電郵 Email:
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="fit text-nowrap">
+                        *電話 Tel:
+
+                    </td>
+                    <td></td>
+                    <td class="fit text-nowrap">傳真 Fax:
+
+
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+
+                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person ❑ 是 Yes ❑ 否 No <br>
+                        如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person <br>
+                        <br>
+                        姓名Name：_______________________________ 聯絡電話Phone Number：_______________________________
+
+
+                    </td>
+                </tr>
+
+
+            </table>
+
+        </div>
+    </div>
+    <?php
+    }
+    ?>
+
 
 
 
