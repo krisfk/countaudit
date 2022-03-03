@@ -318,6 +318,17 @@ get_header();
                 </tr>
 
 
+                <tr>
+                    <td class="fit">No. of loans / hire purchases <br>
+                        貸款/分期付款數目</td>
+                    <td class="text-wrap"></td>
+                    <td class="fit">No. of employees <br>
+                        員工人數</td>
+                    <td class="text-wrap"></td>
+                </tr>
+
+
+
 
 
 
