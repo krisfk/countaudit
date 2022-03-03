@@ -1185,10 +1185,23 @@ get_header();
                         I acknowledge and understand every year annual return is required to be delivered to the
                         Registrar of Companies for registration within 42 days after the anniversary of the date of the
                         company’s incorporation in that year (the prescribed time period) period), I/ my comp any will
-                        have responsibilities for all penalties and legal liability from late delivery.
+                        have responsibilities for all penalties and legal liability from late delivery. <br>
                         *（只適用於公司秘書服務 Applicable for Company Secretarial Services Only）
 
 
+
+                        <table>
+                            <tr>
+                                <td>客戶簽名 Applicant ‘s Signature
+                                </td>
+                                <td>日期 Date</td>
+                            </tr>
+                            <tr>
+                                <td>客戶姓名 Applicant’s Name
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
 
                     </td>
                 </tr>
