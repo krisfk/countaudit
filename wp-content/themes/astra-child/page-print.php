@@ -781,7 +781,7 @@ get_header();
                         Secretarial Service / Virtual Office Service  Applicants (the “Client”), both executing the
                         terms and conditions started in this application form.<br><br>
 
-                        2 客戶須於服務到期日一個月前與本公司書面提出續約或中止服務，否則會遞交政府文件辭任公司秘書。
+                        <!-- 2 客戶須於服務到期日一個月前與本公司書面提出續約或中止服務，否則會遞交政府文件辭任公司秘書。
                         Client are required to renew / terminate the service with CountAudit Secretarial Limited 1 month
                         before the expiry date of the service period. Otherwise, the resignation form of company
                         secretary will be submitted to Companies Registry.  <br><br>
@@ -1013,7 +1013,7 @@ get_header();
 
                         33 現有客戶續約本公司服務最少6個月起。
                         Existing Customers renewal to CountAudit Secretarial Limited with not less  than 6-month
-                        commitment period and agree to the relevant terms and conditions.
+                        commitment period and agree to the relevant terms and conditions. -->
 
 
                     </td>
