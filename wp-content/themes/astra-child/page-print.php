@@ -918,6 +918,31 @@ get_header();
                 </tr>
             </table>
 
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+
             <table class="form-table mt-0 mb-0">
 
                 <tr>
