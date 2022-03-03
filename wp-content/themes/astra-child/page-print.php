@@ -1617,7 +1617,7 @@ get_header();
             <div class="blank-area">- BLANK AREA -</div>
             <div class="blank-area">- BLANK AREA -</div>
             <div class="blank-area">- BLANK AREA -</div>
-            <table>
+            <table class="form-table">
                 <tbody>
                     <tr>
                         <td class="fit">4. 申請人身份 <br>
