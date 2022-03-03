@@ -502,6 +502,11 @@ get_header();
             <table class="form-table mt-0">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">服務計劃資料 Service Plan Information
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <div class="mb-4">
                             <p><b class="d-block text-center">Plan A (HK$1,400) </b></p>
                             <ul class="m-0 mt-2 p-0 ps-3">
@@ -515,11 +520,6 @@ get_header();
                                 <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
                             </ul>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-
                     </td>
                 </tr>
                 <tr>
