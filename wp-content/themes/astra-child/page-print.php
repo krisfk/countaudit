@@ -1834,6 +1834,38 @@ get_header();
             ?>
 
 
+            <table>
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">服務計劃資料 Service Plan Information
+
+                    </td>
+                </tr>
+                <tr>
+                    <td> 服務費用 (港幣$3,845 [已包括政府費用]) Service fee (HK$3,845 inclusive of government charges)，已包括：
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul class="m-0 mt-2 p-0 ps-3">
+                            <li>查册公司名稱Name Search</li>
+                            <li>準備公司註冊證書申請文件 Prepare documents for Certificate of Incorporation</li>
+                            <li>準備商業登記證申請文件 Prepare documents for Business Registration</li>
+                            <li>首年公司秘書服務 First Year Company Secretary Service</li>
+                            <li>精美綠盒 Green Box (內含公司章程，公司鋼印，公司簽名印，公司圓印，股票書，法定記錄薄)</li>
+                            <li>會計師核證副本（如需要，銀行開戶用）Certified True Copy by CPA (for Bank Account Opening, if needed)</li>
+                            <li>轉介開設銀行戶口（HSBC/東亞/中信）Bank Account Opening Referral</li>
+                            <li>設立僱主MPF戶口 Setting up Employer’s MPF Account</li>
+                            <li>勞保報價 Quotation for Employees’ Compensation Insurance</li>
+                            <li>員工福利報價 Quotation for Employees’ Benefits</li>
+                            <li>持續業務諮詢 Free Business Consultation</li>
+                        </ul>
+
+                    </td>
+                </tr>
+            </table>
+
+
 
         </div>
     </div>
