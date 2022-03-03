@@ -1340,10 +1340,21 @@ get_header();
                 </tr>
 
                 <tr>
-                    <td class="fit  text-nowrap">*公司秘書更改日期 <br>
-                        The date of changing Company Secretary
+                    <td class="fit  text-nowrap">公司註冊地址 <br>
+                        Registered Address
+
                     </td>
-                    <td></td>
+                    <td>
+
+                        ❑ 選用算數秘書公司的虛擬辦公室服務 Use CountAudit Virtual Office Service <br>
+                        (費用詳情請看第4頁 Please see details in page 4 below for the fees) <br> <br>
+
+                        ❑ 尖沙咀 Tsim Sha Tsui <br>
+                        ❑ 荔枝角 Lai Chi Kok <br>
+                        ❑ 觀塘 Kwun Tong
+
+
+                    </td>
                 </tr>
 
 
