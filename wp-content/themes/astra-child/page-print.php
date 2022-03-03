@@ -1165,6 +1165,35 @@ get_header();
                     </td>
                 </tr>
             </table>
+
+            <table class="form-table mt-0">
+                <tr>
+                    <td class="text-center orange-yellow-bg fw-bold">聲明 Declaration
+
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+
+
+                        本人茲證實上述資料確實無誤，並已知悉及同意以上所有條款。 <br>
+                        I have read and agreed with all the terms and conditions above.<br>
+                        *本人清楚知道須於每年於公司成立為法團之日在該年中的周年日後的 42 日內 (訂明時限)，向公司註冊處處長交付周年申報表登記。逾期罰款及相關的法律責任會由本人 / 我司自行承擔。<br>
+                        I acknowledge and understand every year annual return is required to be delivered to the
+                        Registrar of Companies for registration within 42 days after the anniversary of the date of the
+                        company’s incorporation in that year (the prescribed time period) period), I/ my comp any will
+                        have responsibilities for all penalties and legal liability from late delivery.
+                        *（只適用於公司秘書服務 Applicable for Company Secretarial Services Only）
+
+
+
+                    </td>
+                </tr>
+            </table>
+
             <!-- 
             <table class="form-table mt-0">
                 <tr>
