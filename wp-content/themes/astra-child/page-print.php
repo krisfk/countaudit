@@ -680,7 +680,7 @@ get_header();
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td class="fit">
                                     <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
                                             name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
                                             class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
@@ -696,7 +696,7 @@ get_header();
                                         <li class="ls1">更改商業登記及公司註冊處地址</li>
                                     </ul>
                                 </td>
-                                <td>
+                                <td class="fit">
                                     <div class="form-check"><input id="lck-HK1500-year" class="form-check-input"
                                             name="virtual-office[]" type="checkbox" value="lck-HK1500-year"> <label
                                             class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label>
@@ -715,10 +715,12 @@ get_header();
                                     </ul>
 
                                 </td>
-                                <td></td>
+                                <td class="fit">
+
+                                </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td class="fit">
                                     <div class="form-check"><input id="tst-HK12000-year" class="form-check-input"
                                             name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
                                             class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label>
@@ -736,8 +738,12 @@ get_header();
                                         <li class="ls3">每月三次會議室出租</li>
                                     </ul>
                                 </td>
-                                <td></td>
-                                <td></td>
+                                <td class="fit">
+
+                                </td>
+                                <td class="fit">
+
+                                </td>
                             </tr>
                         </table>
 
