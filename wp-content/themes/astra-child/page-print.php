@@ -1351,7 +1351,13 @@ get_header();
 
                         ❑ 尖沙咀 Tsim Sha Tsui <br>
                         ❑ 荔枝角 Lai Chi Kok <br>
-                        ❑ 觀塘 Kwun Tong
+                        ❑ 觀塘 Kwun Tong <br>
+
+                        ❑ 以下列地址為公司註冊(英文)地址：Use the following address as registered office (English) address
+
+                        <u></u>
+
+
 
 
                     </td>
