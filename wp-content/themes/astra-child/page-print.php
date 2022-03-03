@@ -285,6 +285,11 @@ get_header();
                         如沒有，請提供以下資料
                     </td>
                 </tr>
+                <tr>
+                    <td class="fit">Total Turnover (yearly) <br>
+                        全年總營業額</td>
+                    <td colspan="3"></td>
+                </tr>
 
 
 
