@@ -441,7 +441,7 @@ get_header();
                 </tr>
 
                 <tr>
-                    <td class="fit  class=" text-nowrap"">*公司秘書更改日期 <br>
+                    <td class="fit  text-nowrap">*公司秘書更改日期 <br>
                         The date of changing Company Secretary
                     </td>
                     <td></td>
