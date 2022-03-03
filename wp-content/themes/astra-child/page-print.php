@@ -743,27 +743,8 @@ get_header();
                 </tr>
             </table>
 
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
-            <div class="blank-line">-----------------blank line---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+
             <table class="form-table">
 
                 <tr>
