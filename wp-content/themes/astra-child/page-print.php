@@ -1394,6 +1394,29 @@ get_header();
 
                     </td>
                 </tr>
+                <tr>
+                    <td class="fit">1. 申請人身份 <br>
+                        Applicant’s Position *
+                    </td>
+                    <td class="fit">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner
+                    </td>
+                    <td class="fit">請選擇最少其中一項
+                        Choose at least one
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fit">證件上名稱 <br>
+                        Name on ID/Passport *
+                    </td>
+                    <td>中文 <br>
+                        Chinese
+                    </td>
+                    <td>英文 <br>
+                        English
+
+                    </td>
+                </tr>
             </table>
 
         </div>
