@@ -410,6 +410,10 @@ get_header();
                     <td rowspan="2">*公司名稱 <br>
                         Company Name
                     </td>
+
+                </tr>
+
+                <tr>
                     <td>中文名稱 Chinese Name
                     </td>
                     <td>英文名稱 English Name
