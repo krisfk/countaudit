@@ -1364,6 +1364,10 @@ li.ls3 {
     background: #000;
 }
 
+.client-code-div {}
+
+.client-code-div table td {}
+
 @media screen {
     .page-print .small {
         font-size: 0.8rem !important;
