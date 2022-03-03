@@ -501,24 +501,24 @@ get_header();
                 </tr>
             </table>
 
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
 
             <table class="form-table mt-0">
                 <tr>
@@ -762,7 +762,7 @@ get_header();
                 </tr>
             </table>
 
-            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">- BLANK AREA -</div>
 
             <table class="form-table">
 

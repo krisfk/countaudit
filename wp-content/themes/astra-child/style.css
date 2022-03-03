@@ -1346,6 +1346,13 @@ li.ls3 {
     margin: 1rem 0 0 0;
 }
 
+.blank-area {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
 @media screen {
     .page-print .small {
         font-size: 0.8rem !important;
