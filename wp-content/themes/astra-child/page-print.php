@@ -523,7 +523,62 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>
+                        <div class="mb-4">
+                            <p><b class="d-block text-center">Plan B (HK$2,200) </b></p>
+                            <ul class="m-0 mt-2 p-0 ps-3">
+                                <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
+                                <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter
+                                </li>
+                                <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
+                                <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                                <li class="">更改董事個人資料 Change of Personal Particulars of Director</li>
+                                <li class="">業務性質變更 Change of Company Business Nature</li>
+                                <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register
+                                </li>
+                                <li class="">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                <li class="">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
+                                    shareholders</li>
+                                <li class="">and company secretaries</li>
+                                <li class="">準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                <li class="">增加公司註冊股本 Increase of Capital</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="mb-4">
+                            <p><b class=" d-block text-center">Plan C (HK$3,000) </b></p>
+                            <ul class="m-0 mt-2 p-0 ps-3">
+                                <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
+                                <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
+                                <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
+                                <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s letter
+                                </li>
+                                <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
+                                <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
+                                <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
+                                <li class="">更改董事個人資料 Change of Personal Particulars of Director</li>
+                                <li class="">業務性質變更 Change of Company Business Nature</li>
+                                <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers Register
+                                </li>
+                                <li class="">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
+                                <li class="">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
+                                    shareholders and company secretaries</li>
+                                <li class="">準備及保存股票證 Prepare and keep record of stock certificate</li>
+                                <li class="">增加公司註冊股本 Increase of Capital</li>
+                                <li class="ls3">分配股份 Allotment of Shares</li>
+                                <li class="ls3">申請分行 Register Branch</li>
+                                <li class="ls3">年度股東大會Annual General Meeting</li>
+                                <li class="ls3">更改公司或分行名稱 Change of Company / Branch Name</li>
+                                <li class="ls3">股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)</li>
+                            </ul>
+                        </div>
+                    </td>
                 </tr>
             </table>
             <!-- 
