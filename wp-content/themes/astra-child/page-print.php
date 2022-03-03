@@ -501,6 +501,32 @@ get_header();
                 </tr>
             </table>
 
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+            <div class="blank-area">-----------------blank area---------------</div>
+
             <table class="form-table mt-0">
                 <tr>
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">服務計劃資料 Service Plan Information
