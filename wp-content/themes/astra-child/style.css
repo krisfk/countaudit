@@ -1384,7 +1384,7 @@ li.ls3 {
 @media screen {
     .client-code-div {
         position: absolute;
-        top: 1rem;
+        top: 0;
         left: 50%;
         transform: translate(-50%, 0);
     }
