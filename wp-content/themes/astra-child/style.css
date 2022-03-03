@@ -1366,6 +1366,9 @@ li.ls3 {
 }
 
 @media print {
+    .blank-area {
+        opacity: 0;
+    }
     .page-print {
         font-size: 0.5rem;
     }

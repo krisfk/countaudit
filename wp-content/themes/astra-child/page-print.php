@@ -519,13 +519,6 @@ get_header();
             <div class="blank-area">-----------------blank area---------------</div>
             <div class="blank-area">-----------------blank area---------------</div>
             <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
-            <div class="blank-area">-----------------blank area---------------</div>
 
             <table class="form-table mt-0">
                 <tr>
