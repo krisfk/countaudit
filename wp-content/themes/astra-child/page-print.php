@@ -633,7 +633,7 @@ get_header();
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td class="fit">
                                     <div class="form-check"><input id="tst-HK1600-year" class="form-check-input"
                                             name="virtual-office[]" type="checkbox" value="tst-HK1600-year"> <label
                                             class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label>
@@ -647,7 +647,7 @@ get_header();
                                     </ul>
 
                                 </td>
-                                <td>
+                                <td class="fit">
                                     <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
                                             name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
                                             class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
@@ -664,7 +664,9 @@ get_header();
 
 
                                 </td>
-                                <td>
+
+
+                                <td class="fit">
 
                                     <div class="form-check"><input id="kt-HK900-year" class="form-check-input"
                                             name="virtual-office[]" type="checkbox" value="kt-HK900-year"> <label
