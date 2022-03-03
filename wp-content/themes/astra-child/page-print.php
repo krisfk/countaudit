@@ -1147,10 +1147,10 @@ get_header();
                         客戶可以用以下途徑繳付款項 Client can settle the payment by following methods <br><br>
                         (I)親身付款 Pay in person<br>
                         (II)存入現金或轉帳至匯豐銀行(戶口號碼: 747-122000-838)<br>
-                        Direct deposit into HSBC (Account No.: 747-122000-838)
+                        Direct deposit into HSBC (Account No.: 747-122000-838)<br>
                         (III)劃線支票抬頭「CountAudit」至以下地址: 九龍荔枝角永康街18號永康中心11樓C室<br>
                         Crossed cheque payable to “CountAudit” to following address: Flat C, 11/F., Wing Hong Centre, 18
-                        Wing Hong Street, Lai Chi Kok, Kowloon
+                        Wing Hong Street, Lai Chi Kok, Kowloon<br>
                         (IV)轉數快 (轉數快識別號碼: 0818617) FPS Identifier: 0818617<br>
                         (V)網上連結支付Online Payment: https://app.cardup.hk/collect/pay/countaudit (網上付款系統或設相關手續費)<br>
                         #付款後請提供入數紙/截圖作紀錄
