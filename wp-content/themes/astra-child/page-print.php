@@ -2073,6 +2073,21 @@ get_header();
             </table>
 
 
+            <table class="form-table">
+
+                <tr>
+                    <td colspan="2" class="text-center orange-yellow-bg fw-bold">轉介公司銀行戶口服務 Bank Account Opening
+                        Referral Services
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td> ❑ 需要 ❑不需要
+                    </td>
+                </tr>
+            </table>
+
 
         </div>
     </div>
