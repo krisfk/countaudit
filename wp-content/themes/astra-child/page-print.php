@@ -1400,7 +1400,8 @@ get_header();
                         Applicant’s Position *
                     </td>
                     <td class="fit" colspan="2">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
-                        請選擇最少其中一項 Choose at least one
+
+                        <div class="small mt-2"> 請選擇最少其中一項 Choose at least one</div>
                     </td>
                 </tr>
                 <tr>
