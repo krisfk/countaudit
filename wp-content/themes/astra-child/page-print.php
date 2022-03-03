@@ -1024,6 +1024,9 @@ get_header();
             <div class="blank-area">- BLANK AREA -</div>
             <div class="blank-area">- BLANK AREA -</div>
             <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
 
             <table class="form-table mt-0">
                 <tr>
