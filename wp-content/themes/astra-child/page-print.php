@@ -230,7 +230,7 @@ get_header();
                 </tr>
                 <tr>
                     <td class="fit text-nowrap">
-                        Name 姓名: <span class="text-info"><?php echo get_field('client_name');?></span></td>
+                        Name 姓名: <span class="text-primary"><?php echo get_field('client_name');?></span></td>
                     <td></td>
                 </tr>
                 <tr>
