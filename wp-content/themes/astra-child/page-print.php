@@ -336,7 +336,7 @@ get_header();
                     <td class="text-wrap" colspan="2">
                         <span class="text-primary"><?php echo get_field('has_receive_tax_return');?></span>
 
-                        <span class="text-primary"><?php echo get_field('excel_file');?></span>
+                        <span class="text-primary"><?php echo wp_get_attachment_url(get_field('excel_file'));?></span>
 
 
 
