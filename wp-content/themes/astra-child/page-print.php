@@ -63,12 +63,12 @@ get_header();
                     <td class="fit"></td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         Tel 電話:</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         E-mail 電郵:</td>
                     <td></td>
                 </tr>
@@ -85,7 +85,7 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         Principal activities <br>
                         主要業務
                     </td>
@@ -93,14 +93,14 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td class="fit">Incorporation date <br>
+                    <td class="fit text-nowrap">Incorporation date <br>
                         公司開立日期</td>
                     <td colspan="3"></td>
                 </tr>
                 <tr>
-                    <td class="fit">Has performed audit before?<br>
+                    <td class="fit text-nowrap">Has performed audit before?<br>
                         是否曾進行核數</td>
-                    <td class="fit">Yes / No If Yes,<br>please provide the related year ended date<br>
+                    <td class="fit text-nowrap">Yes / No If Yes,<br>please provide the related year ended date<br>
                         是 / 否 如是，請提供相關年結日</td>
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
