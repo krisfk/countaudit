@@ -204,7 +204,19 @@ get_header();
          // 4289
          $application_no = $_GET['aid'];
 
-         echo $application_no;
+         $query_args = array(
+            'post_type' => 'audit_and_tax_report',
+            'p' => $application_no,
+        );
+        $the_query = new WP_Query( $query_args );
+        if ( $the_query->have_posts() ) {
+                $the_query->the_post();
+                echo 1;
+        } else {
+            // no posts found
+        }
+        
+
          ?>
     <div class="audit-and-tax-reporting-q-form">
         <div class="print-form-container">
