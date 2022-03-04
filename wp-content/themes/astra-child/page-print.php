@@ -267,7 +267,8 @@ get_header();
                     <td>
                         Other: Please specify <br>
                         其他：請註明 <br>
-                        _____________________
+                        <?php echo get_field('other_reporting_purposes') ? '<u>'.get_field('other_reporting_purposes').'</u>' : '_____________________';?>
+
                     </td>
                 </tr>
 
