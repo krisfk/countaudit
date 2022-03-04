@@ -58,7 +58,7 @@ get_header();
                     <td colspan="2" class="text-center orange-yellow-bg fw-bold">Contact Information 聯絡資料</td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         Name 姓名:</td>
                     <td></td>
                 </tr>
@@ -80,7 +80,7 @@ get_header();
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">Company Information 公司資料</td>
                 </tr>
                 <tr>
-                    <td class="fit">Company name <br> 公司名稱</td>
+                    <td class="fit  text-nowrap">Company name <br> 公司名稱</td>
                     <td colspan="3">
                     </td>
                 </tr>
