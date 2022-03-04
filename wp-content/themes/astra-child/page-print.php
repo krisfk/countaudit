@@ -60,7 +60,7 @@ get_header();
                 <tr>
                     <td class="fit text-nowrap">
                         Name 姓名:</td>
-                    <td></td>
+                    <td class="fit"></td>
                 </tr>
                 <tr>
                     <td class="fit">
