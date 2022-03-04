@@ -162,10 +162,10 @@ get_header();
                 </tr>
 
                 <tr>
-                    <td class="fit">No. of bank transactions <br> (monthly) <br>
+                    <td class="fit text-nowrap">No. of bank transactions <br> (monthly) <br>
                         每月經銀行交易的數量</td>
                     <td class="text-wrap"></td>
-                    <td class="fit">No. of non-bank transactions <br>(monthly) <br>
+                    <td class="fit  text-nowrap">No. of non-bank transactions <br>(monthly) <br>
                         每月非經銀行交易的數量</td>
                     <td class="text-wrap"></td>
                 </tr>
