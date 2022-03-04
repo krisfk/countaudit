@@ -201,6 +201,10 @@ get_header();
     <?php
      if($_GET['f']=='atrqf')
      {
+         // 4289
+         $application_no = $_GET['aid'];
+
+         echo $application_no;
          ?>
     <div class="audit-and-tax-reporting-q-form">
         <div class="print-form-container">
