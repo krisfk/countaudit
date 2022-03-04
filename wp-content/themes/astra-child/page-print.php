@@ -203,7 +203,7 @@ get_header();
      {
          // 4289
          $application_no = $_GET['aid'];
-        echo 99;
+        // echo 99;
          $query_args = array(
             'post_type' => 'audit_and_tax_report',
             'p' => $application_no,
@@ -211,9 +211,8 @@ get_header();
         $the_query = new WP_Query( $query_args );
         if ( $the_query->have_posts() ) {
                 $the_query->the_post();
-                echo 1;
         } else {
-            // no posts found
+            
         }
         
 
@@ -231,7 +230,7 @@ get_header();
                 </tr>
                 <tr>
                     <td class="fit text-nowrap">
-                        Name 姓名:</td>
+                        Name 姓名: <span class="text-info"><?php echo get_field('client_name');?></span></td>
                     <td></td>
                 </tr>
                 <tr>
