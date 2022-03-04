@@ -311,7 +311,7 @@ get_header();
                     <td class="fit">Yes / No If Yes, please provide the related year ended date<br>
                         是 / 否 如是，請提供相關年結日</td>
                     <td class="text-wrap" colspan="2">
-                        <span class="text-primary"><?php echo get_field('reporting_purposes');?></span>
+                        <span class="text-primary"><?php echo get_field('performed_audit_before');?></span>
                         <span class="text-primary"><?php echo get_field('year_ended_date');?></span>
 
                     </td>
