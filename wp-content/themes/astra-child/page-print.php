@@ -251,16 +251,17 @@ get_header();
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">Reporting purposes 報表用途</td>
                 </tr>
                 <tr>
-                    <td><?php echo get_field('reporting_purposes')  =='HK Profits Tax declaration 申報香港利得稅' ? '☑':'☐';  ?>
+                    <td><?php echo get_field('reporting_purposes')  =='HK Profits Tax declaration 申報香港利得稅' ? '<span class="text-primary">☑</span>':'☐';  ?>
                         HK
                         Profits Tax declaration <br>
                         申報香港利得稅</td>
                     <!-- Borrowing loans from banks 向銀行借款 -->
-                    <td><?php echo get_field('reporting_purposes')  =='Borrowing loans from banks 向銀行借款' ? '☑':'☐';  ?>
+                    <td><?php echo get_field('reporting_purposes')  =='Borrowing loans from banks 向銀行借款' ? '<span class="text-primary">☑</span>':'☐';  ?>
                         Borrowing loans from banks<br>
                         向銀行借款</td>
                     <!-- Funding purposes 基金要求 -->
-                    <td><?php echo get_field('reporting_purposes')  =='Funding purposes 基金要求' ? '☑':'☐';  ?> Funding
+                    <td><?php echo get_field('reporting_purposes')  =='Funding purposes 基金要求' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        Funding
                         purposes <br>
                         基金要求</td>
                     <td>
