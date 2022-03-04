@@ -334,8 +334,9 @@ get_header();
                     <td class="fit text-nowrap">Yes / No If Yes, please provide the issued date<br>
                         是 / 否 如有，請提供發出日期</td>
                     <td class="text-wrap" colspan="2">
-                        <span class="text-primary"><?php echo get_field('year_assessment');?></span>
                         <span class="text-primary"><?php echo get_field('has_receive_tax_return');?></span>
+
+                        <span class="text-primary"><?php echo get_field('excel_file');?></span>
 
 
 
