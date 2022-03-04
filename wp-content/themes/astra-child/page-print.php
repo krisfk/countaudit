@@ -214,17 +214,17 @@ get_header();
                     <td colspan="2" class="text-center orange-yellow-bg fw-bold">Contact Information 聯絡資料</td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         Name 姓名:</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         Tel 電話:</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit text-nowrap">
                         E-mail 電郵:</td>
                     <td></td>
                 </tr>
@@ -259,12 +259,12 @@ get_header();
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">Company Information 公司資料</td>
                 </tr>
                 <tr>
-                    <td class="fit">Company name <br> 公司名稱</td>
+                    <td class="fit  text-nowrap">Company name <br> 公司名稱</td>
                     <td colspan="3">
                     </td>
                 </tr>
                 <tr>
-                    <td class="fit">
+                    <td class="fit  text-nowrap">
                         Principal activities <br>
                         主要業務
                     </td>
@@ -272,28 +272,28 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td class="fit">Incorporation date <br>
+                    <td class="fit  text-nowrap">Incorporation date <br>
                         公司開立日期</td>
                     <td colspan="3"></td>
                 </tr>
                 <tr>
-                    <td class="fit">Has performed audit before?<br>
+                    <td class="fit  text-nowrap">Has performed audit before?<br>
                         是否曾進行核數</td>
-                    <td class="fit">Yes / No If Yes,<br>please provide the related year ended date<br>
+                    <td class="fit">Yes / No If Yes, please provide the related year ended date<br>
                         是 / 否 如是，請提供相關年結日</td>
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
                 <tr>
-                    <td class="fit">Has declared profits tax before?<br>
+                    <td class="fit  text-nowrap">Has declared profits tax before?<br>
                         是否曾申報利得稅</td>
-                    <td class="fit">Yes / No If Yes,<br>please provide the related year of assessment<br>
+                    <td class="fit  text-nowrap">Yes / No If Yes, please provide the related year of assessment<br>
                         是 / 否 如是，請提供相關課稅年度</td>
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
                 <tr>
-                    <td class="fit">Has received the tax return this year <br>
+                    <td class="fit text-nowrap">Has received the tax return this year <br>
                         有否收到今年度利得稅報稅表</td>
-                    <td class="fit">Yes / No If Yes,<br>please provide the issued date<br>
+                    <td class="fit text-nowrap">Yes / No If Yes, please provide the issued date<br>
                         是 / 否 如有，請提供發出日期</td>
                     <td class="text-wrap" colspan="2"></td>
                 </tr>
@@ -304,15 +304,15 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td class="fit">Total Turnover (yearly) <br>
+                    <td class="fit  text-nowrap">Total Turnover (yearly) <br>
                         全年總營業額</td>
                     <td colspan="3"></td>
                 </tr>
                 <tr>
-                    <td class="fit">Any stock? <br>
+                    <td class="fit  text-nowrap">Any stock? <br>
                         有否存貨?</td>
                     <td class="text-wrap">Yes /No</td>
-                    <td class="fit">No. of bank used <br>
+                    <td class="fit  text-nowrap">No. of bank used <br>
                         使用銀行的數量</td>
                     <td class="text-wrap"></td>
                 </tr>
@@ -327,20 +327,20 @@ get_header();
                 </tr>
 
                 <tr>
-                    <td class="fit">Any property? <br>
+                    <td class="fit  text-nowrap">Any property? <br>
                         有否物業?</td>
                     <td class="text-wrap">Yes /No</td>
-                    <td class="fit">Any motor vehicle? <br>
+                    <td class="fit text-nowrap">Any motor vehicle? <br>
                         有否車輛?</td>
                     <td class="text-wrap">Yes /No</td>
                 </tr>
 
 
                 <tr>
-                    <td class="fit">No. of loans / hire purchases <br>
+                    <td class="fit text-nowrap">No. of loans / hire purchases <br>
                         貸款/分期付款數目</td>
                     <td class="text-wrap"></td>
-                    <td class="fit">No. of employees <br>
+                    <td class="fit text-nowrap">No. of employees <br>
                         員工人數</td>
                     <td class="text-wrap"></td>
                 </tr>
