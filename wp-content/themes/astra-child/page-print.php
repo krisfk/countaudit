@@ -230,18 +230,18 @@ get_header();
                 </tr>
                 <tr>
                     <td class="fit text-nowrap">
-                        Name 姓名: <span class="text-primary"><?php echo get_field('client_name');?></span></td>
-                    <td></td>
+                        Name 姓名:</td>
+                    <td> <span class="text-primary"><?php echo get_field('client_name');?></span></td>
                 </tr>
                 <tr>
                     <td class="fit text-nowrap">
                         Tel 電話:</td>
-                    <td></td>
+                    <td> <span class="text-primary"><?php echo get_field('tel');?></span></td>
                 </tr>
                 <tr>
                     <td class="fit text-nowrap">
                         E-mail 電郵:</td>
-                    <td></td>
+                    <td> <span class="text-primary"><?php echo get_field('email');?></span></td>
                 </tr>
             </table>
 
@@ -251,11 +251,17 @@ get_header();
                     <td colspan="4" class="text-center orange-yellow-bg fw-bold">Reporting purposes 報表用途</td>
                 </tr>
                 <tr>
-                    <td>□ HK Profits Tax declaration <br>
+                    <td><?php echo get_field('reporting_purposes')  =='HK Profits Tax declaration 申報香港利得稅' ? '☑':'☐';  ?>
+                        HK
+                        Profits Tax declaration <br>
                         申報香港利得稅</td>
-                    <td>□ Borrowing loans from banks<br>
+                    <!-- Borrowing loans from banks 向銀行借款 -->
+                    <td><?php echo get_field('reporting_purposes')  =='Borrowing loans from banks 向銀行借款' ? '☑':'☐';  ?>
+                        Borrowing loans from banks<br>
                         向銀行借款</td>
-                    <td>□ Funding purposes <br>
+                    <!-- Funding purposes 基金要求 -->
+                    <td><?php echo get_field('reporting_purposes')  =='Funding purposes 基金要求' ? '☑':'☐';  ?> Funding
+                        purposes <br>
                         基金要求</td>
                     <td>
                         Other: Please specify <br>
