@@ -351,43 +351,74 @@ get_header();
                 <tr>
                     <td class="fit  text-nowrap">Total Turnover (yearly) <br>
                         全年總營業額</td>
-                    <td colspan="3"></td>
+                    <td colspan="3">
+                        <span class="text-primary"><?php echo get_field('total_turnover_yearly');?></span>
+
+                    </td>
                 </tr>
                 <tr>
                     <td class="fit  text-nowrap">Any stock? <br>
                         有否存貨?</td>
-                    <td class="text-wrap">Yes /No</td>
+                    <td class="text-wrap">
+                        <span class="text-primary"><?php echo get_field('any_stock');?></span>
+
+
+                    </td>
                     <td class="fit  text-nowrap">No. of bank used <br>
                         使用銀行的數量</td>
-                    <td class="text-wrap"></td>
+                    <td class="text-wrap">
+                        <span class="text-primary"><?php echo get_field('no_of_bank_used');?></span>
+
+
+                    </td>
                 </tr>
 
                 <tr>
                     <td class="fit">No. of bank transactions (monthly) <br>
                         每月經銀行交易的數量</td>
-                    <td class="text-wrap"></td>
+                    <td class="text-wrap">
+                        <span class="text-primary"><?php echo get_field('no_of_bank_transactions_monthly');?></span>
+
+
+                    </td>
                     <td class="fit">No. of non-bank transactions (monthly) <br>
                         每月非經銀行交易的數量</td>
-                    <td class="text-wrap"></td>
+                    <td class="text-wrap">
+                        <span class="text-primary"><?php echo get_field('no_of_non_bank_transactions_monthly');?></span>
+
+                    </td>
                 </tr>
 
                 <tr>
                     <td class="fit  text-nowrap">Any property? <br>
                         有否物業?</td>
-                    <td class="text-wrap">Yes /No</td>
+                    <td class="text-wrap">
+                        <span class="text-primary"><?php echo get_field('any_property');?></span>
+
+                    </td>
                     <td class="fit text-nowrap">Any motor vehicle? <br>
                         有否車輛?</td>
-                    <td class="text-wrap">Yes /No</td>
+                    <td class="text-wrap">
+                        <span class="text-primary"><?php echo get_field('any_motor_vehicle');?></span>
+
+                    </td>
                 </tr>
 
 
                 <tr>
                     <td class="fit text-nowrap">No. of loans / hire purchases <br>
                         貸款/分期付款數目</td>
-                    <td class="text-wrap"></td>
+                    <td class="text-wrap">
+
+                        <span class="text-primary"><?php echo get_field('no_of_loans_hire_purchases');?></span>
+
+                    </td>
                     <td class="fit text-nowrap">No. of employees <br>
                         員工人數</td>
-                    <td class="text-wrap"></td>
+                    <td class="text-wrap">
+                        <span class="text-primary"><?php echo get_field('no_of_employees');?></span>
+
+                    </td>
                 </tr>
 
 
