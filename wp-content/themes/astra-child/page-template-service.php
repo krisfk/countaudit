@@ -1540,11 +1540,16 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
             $company_name=$_POST['company-name'];
             $principal_activities=$_POST['principal-activities'];
             $incorporation_date=$_POST['incorporation-date'];
+           
             $performed_audit_before=$_POST['performed-audit-before'];
             $year_ended_date=$_POST['year-ended-date'];
+           
             $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
             $year_assessment=$_POST['year-assessment'];
+           
             $has_receive_tax_return=$_POST['has-receive-tax-return'];
+           
+           
             $total_turnover_yearly=$_POST['total-turnover-yearly'];
             $any_stock=$_POST['any-stock'];
             $no_of_bank_used=$_POST['no-of-bank-used'];
