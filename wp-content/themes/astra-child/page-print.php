@@ -284,6 +284,7 @@ get_header();
                 <tr>
                     <td class="fit  text-nowrap">Company name <br> 公司名稱</td>
                     <td colspan="3">
+                        <span class="text-primary"><?php echo get_field('email');?></span>
                     </td>
                 </tr>
                 <tr>
@@ -292,33 +293,53 @@ get_header();
                         主要業務
                     </td>
                     <td colspan="3">
+                        <span class="text-primary"><?php echo get_field('principal_activities');?></span>
+
                     </td>
                 </tr>
                 <tr>
                     <td class="fit  text-nowrap">Incorporation date <br>
                         公司開立日期</td>
-                    <td colspan="3"></td>
+                    <td colspan="3">
+                        <span class="text-primary"><?php echo get_field('incorporation_date');?></span>
+
+                    </td>
                 </tr>
                 <tr>
                     <td class="fit  text-nowrap">Has performed audit before?<br>
                         是否曾進行核數</td>
                     <td class="fit">Yes / No If Yes, please provide the related year ended date<br>
                         是 / 否 如是，請提供相關年結日</td>
-                    <td class="text-wrap" colspan="2"></td>
+                    <td class="text-wrap" colspan="2">
+                        <span class="text-primary"><?php echo get_field('reporting_purposes');?></span>
+                        <span class="text-primary"><?php echo get_field('year_ended_date');?></span>
+
+                    </td>
                 </tr>
                 <tr>
                     <td class="fit  text-nowrap">Has declared profits tax before?<br>
                         是否曾申報利得稅</td>
                     <td class="fit  text-nowrap">Yes / No If Yes, please provide the related year of assessment<br>
                         是 / 否 如是，請提供相關課稅年度</td>
-                    <td class="text-wrap" colspan="2"></td>
+                    <td class="text-wrap" colspan="2">
+                        <span class="text-primary"><?php echo get_field('declared_profits_tax_before');?></span>
+
+                        <span class="text-primary"><?php echo get_field('year_assessment');?></span>
+
+                    </td>
                 </tr>
                 <tr>
                     <td class="fit text-nowrap">Has received the tax return this year <br>
                         有否收到今年度利得稅報稅表</td>
                     <td class="fit text-nowrap">Yes / No If Yes, please provide the issued date<br>
                         是 / 否 如有，請提供發出日期</td>
-                    <td class="text-wrap" colspan="2"></td>
+                    <td class="text-wrap" colspan="2">
+                        <span class="text-primary"><?php echo get_field('year_assessment');?></span>
+                        <span class="text-primary"><?php echo get_field('has_receive_tax_return');?></span>
+
+
+
+                    </td>
                 </tr>
                 <tr>
                     <td colspan="4" class="fw-bold">
