@@ -775,7 +775,7 @@ get_header();
                     <td>
                         <div class="text-start">
                             <span
-                                class="text-primary"><?php echo count(get_field('virtual_office')) >0 ? '☑' : '❑'; ?></span>
+                                class="text-primary"><?php echo count(get_field('virtual_office')) >0 ? '<span class="text-primary">☑</span>' : '❑'; ?></span>
                             虛擬辦工室 Virtual Office
                         </div>
 
@@ -795,7 +795,7 @@ get_header();
                             <tr>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
+                                        <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
                                         HK$1,600/year
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -809,7 +809,7 @@ get_header();
                                 </td>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
+                                        <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
                                         <label class="-label" for="lck-HK950-year"> HK$950/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -829,7 +829,7 @@ get_header();
                                 <td class="fit">
 
                                     <div class="">
-                                        <?php echo in_array("kt-HK900-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
+                                        <?php echo in_array("kt-HK900-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
                                         <label class="-label" for="kt-HK900-year"> HK$900/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -843,7 +843,7 @@ get_header();
                             <tr>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
+                                        <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
                                         <label class="-label" for="lck-HK950-year"> HK$950/year </label>
                                     </div>
 
@@ -859,7 +859,7 @@ get_header();
                                 </td>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("lck-HK1500-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
+                                        <?php echo in_array("lck-HK1500-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
                                         <label class="-label" for="lck-HK1500-year"> HK$1,500/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -883,7 +883,7 @@ get_header();
                             <tr>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("tst-HK12000-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
+                                        <?php echo in_array("tst-HK12000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
                                         <label class="-label" for="tst-HK12000-year"> HK$12,000/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
