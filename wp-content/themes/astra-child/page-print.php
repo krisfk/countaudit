@@ -774,8 +774,8 @@ get_header();
                 <tr>
                     <td>
                         <div class="text-start">
-                            <?php print_r(get_field('virtual_office'));?>
-                            ❑ 虛擬辦工室 Virtual Office
+                            <?php echo count(get_field('virtual_office')) >0 ? '☑' : '❑'; ?>
+                            虛擬辦工室 Virtual Office
                         </div>
 
 
