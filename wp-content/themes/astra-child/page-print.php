@@ -1534,11 +1534,30 @@ get_header();
                         Business Nature *
                     </td>
                     <td>
-                        ❑ 貿易 Trading ❑ 服務 Service: ________ <br>
-                        ❑ 零售 Retail ❑ 製造 Manufacture<br>
-                        ❑ 顧問 Consultancy ❑ 運輸 Transport<br>
-                        ❑ 設計 Design ❑ 資訊科技 IT<br>
-                        ❑ 推廣劃 Marketing ❑ 其他 Others:________
+                        <?php echo in_array("貿易 Trading", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        貿易 Trading
+                        <?php echo get_field('business_service') ? '<span class="text-primary">☑</span>':'☐';?> 服務
+                        Service:
+                        <?php echo get_field('business_service') ? '<u class="text-primary">'.get_field('business_service').'</u>' : '_____________________';?>
+                        <br>
+                        <?php echo in_array("零售 Retail", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        零售 Retail
+                        <?php echo in_array("製造 Manufacture", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        製造 Manufacture<br>
+                        <?php echo in_array("顧問 Consultancy", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        顧問 Consultancy
+                        <?php echo in_array("運輸 Transport", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        運輸 Transport<br>
+                        <?php echo in_array("設計 Design", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        設計 Design
+                        <?php echo in_array("資訊科技 IT", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        資訊科技 IT<br>
+                        <?php echo in_array("推廣劃 Marketing", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        推廣劃 Marketing
+                        <?php echo get_field('business_others') ? '<span class="text-primary">☑</span>':'☐';?> 其他
+                        Others:
+                        <?php echo get_field('business_others') ? '<u class="text-primary">'.get_field('business_others').'</u>' : '_____________________';?>
+
 
                     </td>
                 </tr>
