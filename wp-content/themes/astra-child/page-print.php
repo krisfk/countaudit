@@ -775,7 +775,7 @@ get_header();
                     <td>
                         <div class="text-start">
                             <span
-                                class="text-primary"><?php echo count(get_field('virtual_office')) >0 ? '<span class="text-primary">☑</span>' : '❑'; ?></span>
+                                class="text-primary"><?php echo count(get_field('virtual_office')) >0 ? '<span class="text-primary">☑</span>' : '☐'; ?></span>
                             虛擬辦工室 Virtual Office
                         </div>
 
@@ -795,7 +795,7 @@ get_header();
                             <tr>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                                        <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                                         HK$1,600/year
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -809,7 +809,7 @@ get_header();
                                 </td>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                                        <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                                         <label class="-label" for="lck-HK950-year"> HK$950/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -829,7 +829,7 @@ get_header();
                                 <td class="fit">
 
                                     <div class="">
-                                        <?php echo in_array("kt-HK900-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                                        <?php echo in_array("kt-HK900-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                                         <label class="-label" for="kt-HK900-year"> HK$900/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -844,7 +844,7 @@ get_header();
                                 <td class="fit">
 
                                     <div class="">
-                                        <?php echo in_array("tst-HK4000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                                        <?php echo in_array("tst-HK4000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                                         <label class="form-check-label" for="tst-HK4000-year"> HK$4,000/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -860,7 +860,7 @@ get_header();
                                 </td>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("lck-HK1500-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                                        <?php echo in_array("lck-HK1500-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                                         <label class="-label" for="lck-HK1500-year"> HK$1,500/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -884,7 +884,7 @@ get_header();
                             <tr>
                                 <td class="fit">
                                     <div class="">
-                                        <?php echo in_array("tst-HK12000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                                        <?php echo in_array("tst-HK12000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                                         <label class="-label" for="tst-HK12000-year"> HK$12,000/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
@@ -1534,25 +1534,25 @@ get_header();
                         Business Nature *
                     </td>
                     <td>
-                        <?php echo in_array("貿易 Trading", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("貿易 Trading", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         貿易 Trading
                         <?php echo get_field('business_service') ? '<span class="text-primary">☑</span>':'☐';?> 服務
                         Service:
                         <?php echo get_field('business_service') ? '<u class="text-primary">'.get_field('business_service').'</u>' : '_____________________';?>
                         <br>
-                        <?php echo in_array("零售 Retail", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("零售 Retail", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         零售 Retail
-                        <?php echo in_array("製造 Manufacture", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("製造 Manufacture", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         製造 Manufacture<br>
-                        <?php echo in_array("顧問 Consultancy", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("顧問 Consultancy", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         顧問 Consultancy
-                        <?php echo in_array("運輸 Transport", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("運輸 Transport", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         運輸 Transport<br>
-                        <?php echo in_array("設計 Design", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("設計 Design", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         設計 Design
-                        <?php echo in_array("資訊科技 IT", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("資訊科技 IT", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         資訊科技 IT<br>
-                        <?php echo in_array("推廣劃 Marketing", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                        <?php echo in_array("推廣劃 Marketing", get_field('business_nature')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
                         推廣劃 Marketing
                         <?php echo get_field('business_others') ? '<span class="text-primary">☑</span>':'☐';?> 其他
                         Others:
@@ -1618,7 +1618,7 @@ get_header();
                         <td class="fit">1. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
-                        <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                        <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                             <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                         </td>
@@ -1659,7 +1659,7 @@ get_header();
                         <td class="fit">2. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
-                        <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                        <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                             <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                         </td>
@@ -1700,7 +1700,7 @@ get_header();
                         <td class="fit">3. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
-                        <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                        <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                             <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                         </td>
@@ -1741,7 +1741,7 @@ get_header();
                         <td class="fit">4. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
-                        <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                        <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                             <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                         </td>
@@ -1807,7 +1807,7 @@ get_header();
                             <td class="fit">4. 申請人身份 <br>
                                 Applicant’s Position *
                             </td>
-                            <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                                 <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                             </td>
@@ -1848,7 +1848,7 @@ get_header();
                             <td class="fit">4. 申請人身份 <br>
                                 Applicant’s Position *
                             </td>
-                            <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                                 <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                             </td>
@@ -1889,7 +1889,7 @@ get_header();
                             <td class="fit">4. 申請人身份 <br>
                                 Applicant’s Position *
                             </td>
-                            <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                                 <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                             </td>
@@ -1931,7 +1931,7 @@ get_header();
                             <td class="fit">4. 申請人身份 <br>
                                 Applicant’s Position *
                             </td>
-                            <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                                 <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                             </td>
@@ -1972,7 +1972,7 @@ get_header();
                             <td class="fit">4. 申請人身份 <br>
                                 Applicant’s Position *
                             </td>
-                            <td class="fit" colspan="3">❑ 股東 Shareholder ❑ 董事 Director ❑ 受益人 Beneficial Owner <br>
+                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
 
                                 <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                             </td>
@@ -2068,11 +2068,11 @@ get_header();
                 </tr>
                 <tr>
                     <td>
-                        ❑ 公司印章
+                        ☐ 公司印章
                         <div class="ms-2">
-                            ❑ 小圓印 Round Chop [HK$150/個each] <br>
-                            ❑ 支票印 Signature Chop [HK$150/個 each]<br>
-                            ❑ 鋼印 Company Seal [HK$250/個 each]
+                            ☐ 小圓印 Round Chop [HK$150/個each] <br>
+                            ☐ 支票印 Signature Chop [HK$150/個 each]<br>
+                            ☐ 鋼印 Company Seal [HK$250/個 each]
                         </div>
 
 
@@ -2083,7 +2083,7 @@ get_header();
 
                     <td>
                         <div class="text-start">
-                            ❑ 虛擬辦工室 Virtual Office
+                            ☐ 虛擬辦工室 Virtual Office
                         </div>
 
 
@@ -2241,7 +2241,7 @@ get_header();
                         Year End Date
                     </td>
                     <td>
-                        12 月 31 日 (31-Dec) ❑ 3 月 31 日 (31-Mar) ❑ 客戶自訂 Others ： _________________
+                        12 月 31 日 (31-Dec) ☐ 3 月 31 日 (31-Mar) ☐ 客戶自訂 Others ： _________________
 
 
 
@@ -2255,8 +2255,8 @@ get_header();
 
                     </td>
                     <td>
-                        ❑ 會 Yes <br>
-                        ❑ 不會 No
+                        ☐ 會 Yes <br>
+                        ☐ 不會 No
 
 
                     </td>
@@ -2274,7 +2274,7 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td class="text-center"> ❑ 需要 ❑ 不需要
+                    <td class="text-center"> ☐ 需要 ☐ 不需要
                     </td>
                 </tr>
             </table>
@@ -2811,7 +2811,7 @@ get_header();
                 <tr>
                     <td colspan="4">
 
-                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person ❑ 是 Yes ❑ 否 No <br>
+                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person ☐ 是 Yes ☐ 否 No <br>
                         如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person <br>
                         <br>
                         姓名Name：_______________________________ 聯絡電話Phone Number：_______________________________
