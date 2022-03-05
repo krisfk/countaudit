@@ -1388,7 +1388,7 @@ get_header();
          if($_GET['f']=='ilaf')
          {
 
-               // 4292
+               // 4297
        
                $application_no = $_GET['aid'];
                $query_args = array(
@@ -1430,7 +1430,9 @@ get_header();
                     <td>申請人姓名 <br>
                         Applicant’s Name*
                     </td>
-                    <td></td>
+                    <td>
+                        <span class="text-primary"> <?php echo get_field('name');?></span>
+                    </td>
                 </tr>
                 <tr>
                     <td>聯絡電話 <br>
