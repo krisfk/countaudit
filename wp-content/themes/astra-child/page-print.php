@@ -543,7 +543,8 @@ get_header();
                     <td class="fit  text-nowrap">*公司秘書更改日期 <br>
                         The date of changing Company Secretary
                     </td>
-                    <td></td>
+                    <td> <span class="text-primary"><?php echo get_field('date_of_changing_company_secretary');?></span>
+                    </td>
                 </tr>
 
 
@@ -565,10 +566,11 @@ get_header();
                 <tr>
                     <td>1. 商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格 <br>
                         (NNC1); 公司證書 (CI); 公司章程 (AA)*
-
+                        <?php echo wp_get_attachment_url(get_field('upload_file_1'));?>
                     </td>
                     <td>2. 有效之身份證 / 護照副本 及 3 個月內之住址證明 <br>
                         All member’s ID/passport copy and address proof within 3 months
+                        <?php echo  wp_get_attachment_url(get_field('upload_file_2'));?>
                     </td>
                 </tr>
             </table>
