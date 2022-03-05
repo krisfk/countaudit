@@ -774,6 +774,7 @@ get_header();
                 <tr>
                     <td>
                         <div class="text-start">
+                            <?php echo get_field('virtual_office');?>
                             ❑ 虛擬辦工室 Virtual Office
                         </div>
 
