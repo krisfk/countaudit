@@ -621,8 +621,8 @@ get_header();
                         <?php echo get_field('details_of_changes')  =='登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records' ? '<span class="text-primary">☑</span>':'☐';  ?>
                         登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records<br>
                         <?php echo get_field('details_of_changes_others')  ? '<span class="text-primary">☑</span>':'☐';  ?>
-                        <?php echo '<span class="text-primary">'.get_field('details_of_changes_others').'</span>'?>
                         其他 Others:
+                        <?php echo '<span class="text-primary">'.get_field('details_of_changes_others').'</span>'?>
 
                     </td>
                 </tr>
