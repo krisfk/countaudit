@@ -794,8 +794,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check">dd <label class="form-check-label" for="tst-HK1600-year">
-                                            HK$1,600/year </label>
+                                    <div class="form-check">
+                                        <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
+                                        HK$1,600/year
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
