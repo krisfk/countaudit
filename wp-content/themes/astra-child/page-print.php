@@ -915,7 +915,8 @@ get_header();
                 <tr>
                     <td>
 
-                        ❑ 撤銷公司(港幣$1,500加政府費用) <br>
+                        <?php echo get_field('deregistration_of_limited_company') ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        撤銷公司(港幣$1,500加政府費用) <br>
                         Deregistration of Limited Company (HK$1,500 plus government charges)
 
 
