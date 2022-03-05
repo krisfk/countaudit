@@ -472,11 +472,11 @@ get_header();
                 <tr>
                     <td class="fit text-nowrap">
                         Name 姓名:</td>
-                    <td><span class="text-primary"><?php echo get_field('client_name');?></span></td>
+                    <td><span class="text-primary"><?php echo get_field('name');?></span></td>
                     <td class="fit text-nowrap">*電郵 Email:
-                        <span class="text-primary"><?php echo get_field('email');?></span>
                     </td>
-                    <td></td>
+                    <td> <span class="text-primary"><?php echo get_field('email');?></span>
+                    </td>
                 </tr>
                 <tr>
                     <td class="fit text-nowrap">
