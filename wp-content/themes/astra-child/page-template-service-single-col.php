@@ -654,10 +654,10 @@ get_header(); ?>
 
         $('#tnc').html($('#tnc-data').html());
         // alert(80);
-        $('.form-submit-btn').click(function() {
-            // alert(650);
-            $('#form').submit();
-        });
+        // $('.form-submit-btn').click(function() {
+        // alert(650);
+        // $('#form').submit();
+        // });
 
 
 
