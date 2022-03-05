@@ -631,7 +631,11 @@ get_header();
 
                         Remarks
                     </td>
-                    <td></td>
+                    <td>
+                        <span class="text-primary"><?php echo get_field('remarks');?></span>
+
+
+                    </td>
                 </tr>
             </table>
 
