@@ -842,19 +842,20 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="">
-                                        <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
-                                        <label class="-label" for="lck-HK950-year"> HK$950/year </label>
-                                    </div>
 
+                                    <div class="">
+                                        <?php echo in_array("tst-HK4000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'❑'; ?>
+                                        <label class="form-check-label" for="tst-HK4000-year"> HK$4,000/year </label>
+                                    </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
                                         <li class="ls1">信件包裹代收</li>
-                                        <li class="ls1">稅局郵件轉寄 (按要求)</li>
+                                        <li class="ls1">稅局郵件轉寄</li>
                                         <li class="ls1">製作公司水牌</li>
-                                        <li class="ls1">每月轉寄郵件</li>
-                                        <li class="ls1">郵件到取</li>
-                                        <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                        <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                        <li class="ls2">辦公室電話代接</li>
+                                        <li class="ls2">稅局文件代處理及信件代開</li>
+                                        <li class="ls2">準備及保存重要控制人登記册</li>
                                     </ul>
                                 </td>
                                 <td class="fit">
