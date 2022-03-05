@@ -282,7 +282,7 @@ get_header();
                 <tr>
                     <td class="fit  text-nowrap">Company name <br> 公司名稱</td>
                     <td colspan="3">
-                        <span class="text-primary"><?php echo get_field('email');?></span>
+                        <span class="text-primary"><?php echo get_field('company_name');?></span>
                     </td>
                 </tr>
                 <tr>
@@ -1438,31 +1438,40 @@ get_header();
                     <td>聯絡電話 <br>
                         Phone Number *
                     </td>
-                    <td></td>
+                    <td> <span class="text-primary"> <?php echo get_field('tel');?></span>
+                    </td>
                 </tr>
                 <tr>
                     <td>電郵 <br>
                         Email *
                     </td>
-                    <td></td>
+                    <td> <span class="text-primary"> <?php echo get_field('email');?></span>
+                    </td>
                 </tr>
                 <tr>
                     <td>選擇語言 <br>
                         Language *
                     </td>
                     <td>
-                        ❑ 中文 Chinese ❑ 英文 English
+                        <?php echo get_field('language')  =='中文 Chinese' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        中文 Chinese
+                        <?php echo get_field('language')  =='英文 English' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        英文 English
 
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-
-                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person ❑ 是 Yes ❑ 否 No <br>
+                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person
+                        <?php echo get_field('is_billing_contact_person')  =='yes' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        是 Yes
+                        <?php echo get_field('is_billing_contact_person')  =='no' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        否 No <br>
                         如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person <br>
                         <br>
-                        姓名Name：_______________________________ 聯絡電話Phone Number：_______________________________
-
+                        姓名Name：<?php echo get_field('is_billing_contact_person')=='no' ? '<u class="text-primary">'.get_field('contact_person_name').'</u>' : '_____________________';?>
+                        聯絡電話Phone
+                        Number：<?php echo get_field('is_billing_contact_person')=='no' ? '<u class="text-primary">'.get_field('contact_person_phone_number').'</u>' : '_____________________';?>
                     </td>
                 </tr>
             </table>
@@ -1479,13 +1488,13 @@ get_header();
                     <td rowspan="2" class="text-nowrap">*公司名稱 <br>
                         Company Name
                     </td>
-                    <td>中文名稱 Chinese Name
+                    <td>中文名稱 Chinese Name <?php echo get_field('company_name_chinese');?>
                     </td>
                 </tr>
                 <tr>
 
 
-                    <td>英文名稱 English Name
+                    <td>英文名稱 English Name <?php echo get_field('company_name_english');?>
 
                     </td>
                 </tr>
@@ -1497,14 +1506,21 @@ get_header();
                     </td>
                     <td>
 
-                        ❑ 選用算數秘書公司的虛擬辦公室服務 Use CountAudit Virtual Office Service <br>
+                        <?php echo get_field('use_countaudit_virtual_office') ? '<span class="text-primary">☑</span>':'☐';?>
+                        選用算數秘書公司的虛擬辦公室服務 Use CountAudit Virtual Office Service <br>
                         (費用詳情請看第4頁 Please see details in page 4 below for the fees) <br> <br>
 
-                        ❑ 尖沙咀 Tsim Sha Tsui <br>
-                        ❑ 荔枝角 Lai Chi Kok <br>
-                        ❑ 觀塘 Kwun Tong <br>
+                        <?php echo get_field('use_countaudit_virtual_office')=='tst' ? '<span class="text-primary">☑</span>':'☐';?>
+                        尖沙咀 Tsim Sha Tsui <br>
+                        <?php echo get_field('use_countaudit_virtual_office')=='lck' ? '<span class="text-primary">☑</span>':'☐';?>
+                        荔枝角 Lai Chi Kok <br>
+                        <?php echo get_field('use_countaudit_virtual_office')=='kt' ? '<span class="text-primary">☑</span>':'☐';?>
+                        觀塘 Kwun Tong <br>
 
-                        ❑ 以下列地址為公司註冊(英文)地址：Use the following address as registered office (English) address
+                        <?php echo get_field('custom_address_as_registered_office') ? '<span class="text-primary">☑</span>':'☐'; ?>
+                        以下列地址為公司註冊(英文)地址：Use the following address as registered office (English) address <br>
+                        <?php echo get_field('custom_address_as_registered_office') ? '<u class="text-primary">'.get_field('custom_address_as_registered_office').'</u>' : '_____________________';?>
+                        ?>
 
 
 
