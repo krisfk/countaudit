@@ -1489,14 +1489,14 @@ get_header();
                         Company Name
                     </td>
                     <td>中文名稱 Chinese Name <span
-                            class="primary-text"><?php echo get_field('company_name_chinese');?></span>
+                            class="text-primary"><?php echo get_field('company_name_chinese');?></span>
                     </td>
                 </tr>
                 <tr>
 
 
                     <td>英文名稱 English Name <span
-                            class="primary-text"><?php echo get_field('company_name_english');?></span>
+                            class="text-primary"><?php echo get_field('company_name_english');?></span>
 
                     </td>
                 </tr>
