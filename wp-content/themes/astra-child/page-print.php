@@ -923,7 +923,9 @@ get_header();
                     </td>
                 </tr>
                 <tr>
-                    <td>❑ 其他 Others 請註明 please specify:____________________________________
+                    <td><?php echo get_field('others') ? '<span class="text-primary">☑</span>':'☐';  ?> 其他 Others 請註明
+                        please specify:
+                        <?php echo get_field('others') ? '<span class="text-primary">'.get_field('others').'</span>':'____________________________________';  ?>
                     </td>
                 </tr>
             </table>
