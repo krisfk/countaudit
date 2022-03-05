@@ -505,7 +505,6 @@ get_header();
                         聯絡電話Phone
                         Number：<?php echo get_field('is_billing_contact_person')=='no' ? '<u class="text-primary">'.get_field('contact_person_phone_number').'</u>' : '_____________________';?>
 
-                        <!--  -->
                     </td>
                 </tr>
 
