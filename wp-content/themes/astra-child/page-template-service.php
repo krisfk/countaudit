@@ -1806,7 +1806,10 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
         $('#form').submit(function() {
 
             if ($('div.checkbox-group.required :checkbox:checked').length == 0) {
-                alert('請填上必須填寫項目* Please fill all required Fields*');
+                $('html, body').animate({
+                    scrollTop: $('div.checkbox-group.required').offset().top - 50
+                });
+                // alert('請填上必須填寫項目* Please fill all required Fields*');
                 // $('html, body').animate({
                 // scrollTop: $('div.checkbox-group.required :checkbox:checked').offset().top
                 // }, 200);
