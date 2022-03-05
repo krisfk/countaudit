@@ -794,7 +794,7 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check">
+                                    <div class="">
                                         <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '☑' :'❑'; ?>
                                         HK$1,600/year
                                     </div>
@@ -808,9 +808,9 @@ get_header();
 
                                 </td>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
-                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK950-year"> <label class="-label"
+                                            for="lck-HK950-year"> HK$950/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -828,9 +828,9 @@ get_header();
 
                                 <td class="fit">
 
-                                    <div class="form-check"><input id="kt-HK900-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="kt-HK900-year"> <label
-                                            class="form-check-label" for="kt-HK900-year"> HK$900/year </label></div>
+                                    <div class=""><input id="kt-HK900-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="kt-HK900-year"> <label class="-label"
+                                            for="kt-HK900-year"> HK$900/year </label></div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
                                         <li class="ls1">信件代收</li>
@@ -841,9 +841,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
-                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK950-year"> <label class="-label"
+                                            for="lck-HK950-year"> HK$950/year </label>
                                     </div>
 
                                     <ul class="m-0 ps-4">
@@ -857,9 +857,9 @@ get_header();
                                     </ul>
                                 </td>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK1500-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK1500-year"> <label
-                                            class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label>
+                                    <div class=""><input id="lck-HK1500-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK1500-year"> <label class="-label"
+                                            for="lck-HK1500-year"> HK$1,500/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -881,9 +881,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="tst-HK12000-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
-                                            class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label>
+                                    <div class=""><input id="tst-HK12000-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="tst-HK12000-year"> <label class="-label"
+                                            for="tst-HK12000-year"> HK$12,000/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2034,9 +2034,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="tst-HK1600-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="tst-HK1600-year"> <label
-                                            class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label>
+                                    <div class=""><input id="tst-HK1600-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="tst-HK1600-year"> <label class="-label"
+                                            for="tst-HK1600-year"> HK$1,600/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2048,9 +2048,9 @@ get_header();
 
                                 </td>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
-                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK950-year"> <label class="-label"
+                                            for="lck-HK950-year"> HK$950/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2068,9 +2068,9 @@ get_header();
 
                                 <td class="fit">
 
-                                    <div class="form-check"><input id="kt-HK900-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="kt-HK900-year"> <label
-                                            class="form-check-label" for="kt-HK900-year"> HK$900/year </label></div>
+                                    <div class=""><input id="kt-HK900-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="kt-HK900-year"> <label class="-label"
+                                            for="kt-HK900-year"> HK$900/year </label></div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
                                         <li class="ls1">信件代收</li>
@@ -2081,9 +2081,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
-                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK950-year"> <label class="-label"
+                                            for="lck-HK950-year"> HK$950/year </label>
                                     </div>
 
                                     <ul class="m-0 ps-4">
@@ -2097,9 +2097,9 @@ get_header();
                                     </ul>
                                 </td>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK1500-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK1500-year"> <label
-                                            class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label>
+                                    <div class=""><input id="lck-HK1500-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK1500-year"> <label class="-label"
+                                            for="lck-HK1500-year"> HK$1,500/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2121,9 +2121,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="tst-HK12000-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
-                                            class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label>
+                                    <div class=""><input id="tst-HK12000-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="tst-HK12000-year"> <label class="-label"
+                                            for="tst-HK12000-year"> HK$12,000/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2877,9 +2877,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="tst-HK1600-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="tst-HK1600-year"> <label
-                                            class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label>
+                                    <div class=""><input id="tst-HK1600-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="tst-HK1600-year"> <label class="-label"
+                                            for="tst-HK1600-year"> HK$1,600/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2891,9 +2891,9 @@ get_header();
 
                                 </td>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
-                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK950-year"> <label class="-label"
+                                            for="lck-HK950-year"> HK$950/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2911,9 +2911,9 @@ get_header();
 
                                 <td class="fit">
 
-                                    <div class="form-check"><input id="kt-HK900-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="kt-HK900-year"> <label
-                                            class="form-check-label" for="kt-HK900-year"> HK$900/year </label></div>
+                                    <div class=""><input id="kt-HK900-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="kt-HK900-year"> <label class="-label"
+                                            for="kt-HK900-year"> HK$900/year </label></div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
                                         <li class="ls1">信件代收</li>
@@ -2924,9 +2924,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK950-year"> <label
-                                            class="form-check-label" for="lck-HK950-year"> HK$950/year </label>
+                                    <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK950-year"> <label class="-label"
+                                            for="lck-HK950-year"> HK$950/year </label>
                                     </div>
 
                                     <ul class="m-0 ps-4">
@@ -2940,9 +2940,9 @@ get_header();
                                     </ul>
                                 </td>
                                 <td class="fit">
-                                    <div class="form-check"><input id="lck-HK1500-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="lck-HK1500-year"> <label
-                                            class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label>
+                                    <div class=""><input id="lck-HK1500-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="lck-HK1500-year"> <label class="-label"
+                                            for="lck-HK1500-year"> HK$1,500/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
@@ -2964,9 +2964,9 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="tst-HK12000-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
-                                            class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label>
+                                    <div class=""><input id="tst-HK12000-year" class="-input" name="virtual-office[]"
+                                            type="checkbox" value="tst-HK12000-year"> <label class="-label"
+                                            for="tst-HK12000-year"> HK$12,000/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
