@@ -565,13 +565,15 @@ get_header();
                 </tr>
                 <tr>
                     <td>1. 商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格 <br>
-                        (NNC1); 公司證書 (CI); 公司章程 (AA)* <?php
-                        
-                         echo get_field('upload_file_1')['url'];?>
+                        (NNC1); 公司證書 (CI); 公司章程 (AA)*
+                        <br>
+                        <?php echo get_field('upload_file_1')['url'];?>
                         <?php //echo get_field('upload_file_1'); //echo wp_get_attachment_url(get_field('upload_file_1'));?>
                     </td>
                     <td>2. 有效之身份證 / 護照副本 及 3 個月內之住址證明 <br>
-                        All member’s ID/passport copy and address proof within 3 months
+                        All member’s ID/passport copy and address proof within 3 months <br>
+                        <?php echo get_field('upload_file_2')['url'];?>
+
                         <?php //echo  wp_get_attachment_url(get_field('upload_file_2'));?>
                     </td>
                 </tr>
