@@ -794,9 +794,8 @@ get_header();
                             </tr>
                             <tr>
                                 <td class="fit">
-                                    <div class="form-check"><input id="tst-HK1600-year" class="form-check-input"
-                                            name="virtual-office[]" type="checkbox" value="tst-HK1600-year"> <label
-                                            class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label>
+                                    <div class="form-check">dd <label class="form-check-label" for="tst-HK1600-year">
+                                            HK$1,600/year </label>
                                     </div>
                                     <ul class="m-0 ps-4">
                                         <li class="ls1">註冊公司地址</li>
