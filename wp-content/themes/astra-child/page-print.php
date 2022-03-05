@@ -1387,6 +1387,23 @@ get_header();
     <?php
          if($_GET['f']=='ilaf')
          {
+
+               // 4292
+       
+               $application_no = $_GET['aid'];
+               $query_args = array(
+                  'post_type' => 'incorp_limited_app',
+                  'p' => $application_no,
+              );
+              $the_query = new WP_Query( $query_args );
+              if ( $the_query->have_posts() ) {
+                      $the_query->the_post();
+              } else {
+                  
+              }
+       
+              
+
     ?>
 
 
