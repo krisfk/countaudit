@@ -654,12 +654,8 @@ get_header(); ?>
 
             for (i = 0; i < $('div.checkbox-group.required').length; i++) {
 
-                // if ($('div.checkbox-group.required :checkbox:checked').length == 0) {
                 if ($('div.checkbox-group.required').eq(i).find(':checkbox:checked').length == 0) {
                     invalid_obj_arr.push($('div.checkbox-group.required').eq(i));
-                    // $('html, body').animate({
-                    //     scrollTop: $('div.checkbox-group.required').eq(i).offset().top - 50
-                    // });
                 }
             }
 
@@ -667,10 +663,12 @@ get_header(); ?>
                 $('html, body').animate({
                     scrollTop: invalid_obj_arr[0].offset().top - 50
                 });
+
+                return false;
+
             }
 
 
-            return false;
 
         })
 
