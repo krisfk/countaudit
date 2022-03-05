@@ -532,8 +532,9 @@ get_header();
                 <tr>
 
 
-                    <span class="text-primary"><?php echo get_field('company_name_english');?></span>
-                    <td>英文名稱 English Name
+                    <td>英文名稱 English Name <span
+                            class="text-primary"><?php echo get_field('company_name_english');?></span>
+
 
                     </td>
                 </tr>
