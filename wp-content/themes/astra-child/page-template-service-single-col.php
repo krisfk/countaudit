@@ -649,13 +649,29 @@ get_header(); ?>
         $('.applicant-div-wrapper').append(append_fill_html);
 
         $('#form').submit(function() {
-            if ($('div.checkbox-group.required :checkbox:checked').length == 0) {
-                $('html, body').animate({
-                    scrollTop: $('div.checkbox-group.required').offset().top - 50
-                });;
 
-                return false;
+            var invalid_obj_arr = [];
+
+            for (i = 0; i < $('div.checkbox-group.required').length; i++) {
+
+                // if ($('div.checkbox-group.required :checkbox:checked').length == 0) {
+                if ($('div.checkbox-group.required').eq(i).find(':checkbox:checked').length == 0) {
+                    invalid_obj_arr.push($('div.checkbox-group.required').eq(i));
+                    // $('html, body').animate({
+                    //     scrollTop: $('div.checkbox-group.required').eq(i).offset().top - 50
+                    // });
+                }
             }
+
+            if (invalid_obj_arr.length > 0) {
+                $('html, body').animate({
+                    scrollTop: invalid_obj_arr[0].offset().top - 50
+                });
+            }
+
+
+            return false;
+
         })
 
 
