@@ -201,9 +201,7 @@ get_header();
     <?php
      if($_GET['f']=='atrqf')
      {
-         // 4289
          $application_no = $_GET['aid'];
-        // echo 99;
          $query_args = array(
             'post_type' => 'audit_and_tax_report',
             'p' => $application_no,
@@ -439,6 +437,23 @@ get_header();
     <?php
      if($_GET['f']=='csf')
      {
+
+        // 4292
+
+        $application_no = $_GET['aid'];
+        $query_args = array(
+           'post_type' => 'com_sec_app_form',
+           'p' => $application_no,
+       );
+       $the_query = new WP_Query( $query_args );
+       if ( $the_query->have_posts() ) {
+               $the_query->the_post();
+       } else {
+           
+       }
+       
+
+
         ?>
     <div class="accounting-q-form-div">
         <div class="print-form-container">
@@ -457,9 +472,9 @@ get_header();
                 <tr>
                     <td class="fit text-nowrap">
                         Name 姓名:</td>
-                    <td></td>
+                    <td><span class="text-primary"><?php echo get_field('client_name');?></span></td>
                     <td class="fit text-nowrap">*電郵 Email:
-
+                        <span class="text-primary"><?php echo get_field('email');?></span>
                     </td>
                     <td></td>
                 </tr>
@@ -468,21 +483,27 @@ get_header();
                         *電話 Tel:
 
                     </td>
-                    <td></td>
+                    <td><span class="text-primary"><?php echo get_field('tel');?></span></td>
                     <td class="fit text-nowrap">傳真 Fax:
 
 
 
                     </td>
-                    <td></td>
+                    <td><span class="text-primary"><?php echo get_field('fax');?></span></td>
                 </tr>
                 <tr>
                     <td colspan="4">
 
-                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person ❑ 是 Yes ❑ 否 No <br>
+                        *上述申請人為賬單聯絡人 The above applicant is the billing contact person
+                        <?php echo get_field('is_billing_contact_person')  =='yes' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        是 Yes
+                        <?php echo get_field('is_billing_contact_person')  =='no' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                        否 No <br>
                         如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person <br>
                         <br>
-                        姓名Name：_______________________________ 聯絡電話Phone Number：_______________________________
+                        姓名Name：<?php echo get_field('is_billing_contact_person')=='no' ? '<u class="text-primary">'.get_field('contact_person_name').'</u>' : '_____________________';?>
+                        聯絡電話Phone
+                        Number：<?php echo get_field('is_billing_contact_person')=='no' ? '<u class="text-primary">'.get_field('contact_person_phone_number').'</u>' : '_____________________';?>
 
 
                     </td>
