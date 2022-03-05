@@ -661,6 +661,22 @@ get_header(); ?>
 
 
 
+        $('#form').submit(function() {
+
+            if ($('div.checkbox-group.required :checkbox:checked').length == 0) {
+                $('html, body').animate({
+                    scrollTop: $('div.checkbox-group.required').offset().top - 50
+                });
+                // alert('請填上必須填寫項目* Please fill all required Fields*');
+                // $('html, body').animate({
+                // scrollTop: $('div.checkbox-group.required :checkbox:checked').offset().top
+                // }, 200);
+
+                return false;
+            }
+
+        })
+
         $('input[name="other-year-end-date"]').focus(function() {
             // alert(7);
             $('#year-end-date-3').click();
