@@ -1653,6 +1653,9 @@ get_header();
                         $applicant_id_passport_company_no='';    
                         $percent_of_shares='';    
                         $residential_address='';    
+                        $is_shareholder=false;
+                        $is_director=false;
+                        $is_beneficial_owner=false;
                     }
                    
                     
@@ -1770,7 +1773,10 @@ get_header();
                         $applicant_name_english='';    
                         $applicant_id_passport_company_no='';    
                         $percent_of_shares='';    
-                        $residential_address='';    
+                        $residential_address='';   
+                        $is_shareholder=false;
+                        $is_director=false;
+                        $is_beneficial_owner=false; 
                     }
                    
                     
