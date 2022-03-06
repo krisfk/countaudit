@@ -1006,6 +1006,44 @@ get_header(); ?>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
+                <?php
+if ($_POST) {
+    function post_captcha($user_response) {
+        $fields_string = '';
+        $fields = array(
+            'secret' => '6LdMWbweAAAAANK8OWHVYPts4avJ5fblHpeBpV-C',
+            'response' => $user_response
+        );
+        foreach($fields as $key=>$value)
+        $fields_string .= $key . '=' . $value . '&';
+        $fields_string = rtrim($fields_string, '&');
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+        curl_setopt($ch, CURLOPT_POST, count($fields));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
+
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        return json_decode($result, true);
+    }
+
+    // Call the function post_captcha
+    $res = post_captcha($_POST['g-recaptcha-response']);
+
+    if (!$res['success']) {
+        alert('Please go back and make sure you check the security CAPTCHA box.');
+        // echo '<p>Please go back and make sure you check the security CAPTCHA box.</p><br>';
+    } else {
+        alert('submitted');
+        // echo '<br><p>CAPTCHA was completed successfully!</p><br>';
+    }
+}
+
+?>
+
                 <?php echo $content_8;?>
 
                 <!-- <div class="form-div white-bg contact-form-div">
