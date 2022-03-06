@@ -1624,18 +1624,10 @@ get_header();
                 <?php
 
                 $count_shareholders_and_directors=count(get_field('shareholders_and_directors'));
-
+                $current_idx=1;
                 for($i=1;$i<=4;$i++)
                 {
-                    // while(have_rows('shareholders_and_directors'))
-                    // {
-                    //     if( have_rows('shareholders_and_directors') ){
-                    //         the_row();
-                    //         // echo 1;
-                    //         $applicant_name_chinese=get_field('applicant_name_chinese');
-                    //         echo $applicant_name_chinese;
-                    //     }
-                    // }
+                
                     if($i<$count_shareholders_and_directors)
                     {
                         have_rows('shareholders_and_directors');
@@ -1667,7 +1659,7 @@ get_header();
                     ?>
                 <tbody>
                     <tr>
-                        <td class="fit"><?php echo $i;?>. 申請人身份 <br>
+                        <td class="fit"><?php echo $current_idx;?>. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
                         <td class="fit" colspan="3">
@@ -1710,6 +1702,7 @@ get_header();
                     </tr>
                 </tbody>
                 <?php
+                $current_idx++;
                 }
                 ?>
 
@@ -1734,7 +1727,7 @@ get_header();
             <?php 
         //    (11 - 4) /5
            $additional_page = $count_shareholders_and_directors > 4 ? ceil(($count_shareholders_and_directors - 4)/5) :0;
-           $additional_page=40;
+        //    $additional_page=40;
             // echo  $additional_page;
             for($i=0;$i<$additional_page;$i++)
             {?>
@@ -1748,12 +1741,52 @@ get_header();
                 <div class="blank-area">- BLANK AREA -</div>
                 <div class="blank-area">- BLANK AREA -</div>
                 <table class="form-table">
+
+                    <?php
+                for($i=1;$i<=5;$i++)
+                {
+                
+                    if($current_idx<$count_shareholders_and_directors)
+                    {
+                        have_rows('shareholders_and_directors');
+                        the_row();
+                        $applicant_name_chinese=get_sub_field('applicant_name_chinese');    
+                        $applicant_name_english=get_sub_field('applicant_name_english');    
+                        $applicant_id_passport_company_no=get_sub_field('applicant_id_passport_company_no');    
+                        $percent_of_shares=get_sub_field('percent_of_shares');    
+                        $residential_address=get_sub_field('residential_address'); 
+                       
+                        // $applicant_position=get_sub_field('applicant_position'); 
+
+                        // in_array("tst-HK1600-year", get_field('virtual_office'));
+                        $is_shareholder=in_array("股東 Shareholder", get_sub_field('applicant_position')) ? true:false;
+                        $is_director=in_array("董事 Director", get_sub_field('applicant_position')) ? true:false;
+                        $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_sub_field('applicant_position')) ? true:false;
+
+                    }
+                    else
+                    {
+                        $applicant_name_chinese='';
+                        $applicant_name_english='';    
+                        $applicant_id_passport_company_no='';    
+                        $percent_of_shares='';    
+                        $residential_address='';    
+                    }
+                   
+                    
+                    ?>
                     <tbody>
                         <tr>
-                            <td class="fit">4. 申請人身份 <br>
+                            <td class="fit"><?php echo $current_idx;?>. 申請人身份 <br>
                                 Applicant’s Position *
                             </td>
-                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
+                            <td class="fit" colspan="3">
+                                <?php echo $is_shareholder ? '<span class="text-primary">☑</span>' :'☐';?> 股東
+                                Shareholder
+                                <?php echo $is_director ? '<span class="text-primary">☑</span>' :'☐';?> 董事 Director
+                                <?php echo $is_beneficial_owner? '<span class="text-primary">☑</span>' :'☐';?> 受益人
+                                Beneficial
+                                Owner <br>
 
                                 <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                             </td>
@@ -1762,198 +1795,36 @@ get_header();
                             <td class="fit">證件上名稱 <br>
                                 Name on ID/Passport *
                             </td>
-                            <td>中文 <br>
-                                Chinese
+                            <td>中文 Chinese <span class="text-primary"><?php echo $applicant_name_chinese;?></span>
                             </td>
-                            <td colspan="2">英文 <br>
-                                English
+                            <td colspan="2">英文 English <span
+                                    class="text-primary"><?php echo $applicant_name_english;?></span>
 
                             </td>
                         </tr>
                         <tr>
-                            <td class="fit">身份證/護照/公司號碼 <br>
-                                ID/Passport/Company No *
+                            <td class="fit">身份證/護照/公司號碼 ID/Passport/Company No *
 
                             </td>
-                            <td class="fit"></td>
-                            <td class="fit">持股比例 <br>
-                                % of Shares *
+                            <td class="fit"><span
+                                    class="text-primary"><?php echo $applicant_id_passport_company_no;?></span></td>
+                            <td class="fit">持股比例 % of Shares *
 
                             </td>
-                            <td class="fit"></td>
+                            <td class="fit"><span class="text-primary"><?php echo $percent_of_shares;?></span></td>
 
                         </tr>
                         <tr>
-                            <td colspan="4">住址 <br>
-                                Residential Address *
+                            <td colspan="4">住址 Residential Address * <span
+                                    class="text-primary"><?php echo $residential_address;?></span>
                             </td>
                         </tr>
                     </tbody>
-                    <tbody>
-                        <tr>
-                            <td class="fit">4. 申請人身份 <br>
-                                Applicant’s Position *
-                            </td>
-                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
-
-                                <div class="small"> 請選擇最少其中一項 Choose at least one</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">證件上名稱 <br>
-                                Name on ID/Passport *
-                            </td>
-                            <td>中文 <br>
-                                Chinese
-                            </td>
-                            <td colspan="2">英文 <br>
-                                English
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">身份證/護照/公司號碼 <br>
-                                ID/Passport/Company No *
-
-                            </td>
-                            <td class="fit"></td>
-                            <td class="fit">持股比例 <br>
-                                % of Shares *
-
-                            </td>
-                            <td class="fit"></td>
-
-                        </tr>
-                        <tr>
-                            <td colspan="4">住址 <br>
-                                Residential Address *
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td class="fit">4. 申請人身份 <br>
-                                Applicant’s Position *
-                            </td>
-                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
-
-                                <div class="small"> 請選擇最少其中一項 Choose at least one</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">證件上名稱 <br>
-                                Name on ID/Passport *
-                            </td>
-                            <td>中文 <br>
-                                Chinese
-                            </td>
-                            <td colspan="2">英文 <br>
-                                English
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">身份證/護照/公司號碼 <br>
-                                ID/Passport/Company No *
-
-                            </td>
-                            <td class="fit"></td>
-                            <td class="fit">持股比例 <br>
-                                % of Shares *
-
-                            </td>
-                            <td class="fit"></td>
-
-                        </tr>
-                        <tr>
-                            <td colspan="4">住址 <br>
-                                Residential Address *
-                            </td>
-                        </tr>
-                    </tbody>
-
-                    <tbody>
-                        <tr>
-                            <td class="fit">4. 申請人身份 <br>
-                                Applicant’s Position *
-                            </td>
-                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
-
-                                <div class="small"> 請選擇最少其中一項 Choose at least one</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">證件上名稱 <br>
-                                Name on ID/Passport *
-                            </td>
-                            <td>中文 <br>
-                                Chinese
-                            </td>
-                            <td colspan="2">英文 <br>
-                                English
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">身份證/護照/公司號碼 <br>
-                                ID/Passport/Company No *
-
-                            </td>
-                            <td class="fit"></td>
-                            <td class="fit">持股比例 <br>
-                                % of Shares *
-
-                            </td>
-                            <td class="fit"></td>
-
-                        </tr>
-                        <tr>
-                            <td colspan="4">住址 <br>
-                                Residential Address *
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td class="fit">4. 申請人身份 <br>
-                                Applicant’s Position *
-                            </td>
-                            <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
-
-                                <div class="small"> 請選擇最少其中一項 Choose at least one</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">證件上名稱 <br>
-                                Name on ID/Passport *
-                            </td>
-                            <td>中文 <br>
-                                Chinese
-                            </td>
-                            <td colspan="2">英文 <br>
-                                English
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fit">身份證/護照/公司號碼 <br>
-                                ID/Passport/Company No *
-
-                            </td>
-                            <td class="fit"></td>
-                            <td class="fit">持股比例 <br>
-                                % of Shares *
-
-                            </td>
-                            <td class="fit"></td>
-
-                        </tr>
-                        <tr>
-                            <td colspan="4">住址 <br>
-                                Residential Address *
-                            </td>
-                        </tr>
-                    </tbody>
+                    <?php
+                $current_idx++;
+                }
+                ?>
+                    ?>
                 </table>
                 <div class="blank-area">- BLANK AREA -</div>
                 <div class="blank-area">- BLANK AREA -</div>
