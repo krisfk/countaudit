@@ -1824,7 +1824,7 @@ get_header();
                 $current_idx++;
                 }
                 ?>
-                    ?>
+
                 </table>
                 <div class="blank-area">- BLANK AREA -</div>
                 <div class="blank-area">- BLANK AREA -</div>
