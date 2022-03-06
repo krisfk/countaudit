@@ -1043,7 +1043,7 @@ li.ls3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(149 196 194 / 80%);
+    background: rgb(62 72 94 / 80%);
     z-index: 9999;
 }
 
@@ -1057,7 +1057,7 @@ li.ls3 {
     position: relative;
     top: 50%;
     padding: 1rem;
-    border: 4px solid #73b0a7;
+    border: 4px solid #2d4068;
     transform: translate(0px, -50%);
     border-radius: 1rem;
     margin: 0 auto;
