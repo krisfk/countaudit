@@ -1034,10 +1034,20 @@ if ($_POST) {
     $res = post_captcha($_POST['g-recaptcha-response']);
 
     if (!$res['success']) {
-        alert('Please go back and make sure you check the security CAPTCHA box.');
+        ?>
+                <script type="text/javascript">
+                alert('Please go back and make sure you check the security CAPTCHA box.');
+                </script>
+                <?php
+        // alert('Please go back and make sure you check the security CAPTCHA box.');
         // echo '<p>Please go back and make sure you check the security CAPTCHA box.</p><br>';
     } else {
-        alert('submitted');
+        ?>
+                <script type="text/javascript">
+                alert('submitted');
+                </script>
+                <?php
+        // alert('submitted');
         // echo '<br><p>CAPTCHA was completed successfully!</p><br>';
     }
 }
