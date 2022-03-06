@@ -1535,21 +1535,21 @@ get_header();
                             Applicant’s Name*
                         </td>
                         <td>
-                            <span class="text-primary"> <?php echo get_field('name');?></span>
+                            <span class="text-primary"> <?php echo get_field('name')?get_field('name'):'' ;?></span>
                         </td>
                     </tr>
                     <tr>
                         <td>聯絡電話 <br>
                             Phone Number *
                         </td>
-                        <td> <span class="text-primary"> <?php echo get_field('tel');?></span>
+                        <td> <span class="text-primary"> <?php echo get_field('tel')?get_field('tel'):'';?></span>
                         </td>
                     </tr>
                     <tr>
                         <td>電郵 <br>
                             Email *
                         </td>
-                        <td> <span class="text-primary"> <?php echo get_field('email');?></span>
+                        <td> <span class="text-primary"> <?php echo get_field('email')?get_field('email'):'';?></span>
                         </td>
                     </tr>
                     <tr>
@@ -1593,14 +1593,14 @@ get_header();
                             Company Name
                         </td>
                         <td>中文名稱 Chinese Name <span
-                                class="text-primary"><?php echo get_field('company_name_chinese');?></span>
+                                class="text-primary"><?php echo get_field('company_name_chinese')?get_field('company_name_chinese'):'';?></span>
                         </td>
                     </tr>
                     <tr>
 
 
                         <td>英文名稱 English Name <span
-                                class="text-primary"><?php echo get_field('company_name_english');?></span>
+                                class="text-primary"><?php echo get_field('company_name_english')?get_field('company_name_english'):'';?></span>
 
                         </td>
                     </tr>
@@ -1742,10 +1742,10 @@ get_header();
                         $applicant_name_english=get_sub_field('applicant_name_english');    
                         $applicant_id_passport_company_no=get_sub_field('applicant_id_passport_company_no');    
                         $percent_of_shares=get_sub_field('percent_of_shares');    
-                        // $residential_address=get_sub_field('residential_address'); 
-                        // $is_shareholder=in_array("股東 Shareholder", get_sub_field('applicant_position')) ? true:false;
-                        // $is_director=in_array("董事 Director", get_sub_field('applicant_position')) ? true:false;
-                        // $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_sub_field('applicant_position')) ? true:false;
+                        $residential_address=get_sub_field('residential_address'); 
+                        $is_shareholder=in_array("股東 Shareholder", get_sub_field('applicant_position')) ? true:false;
+                        $is_director=in_array("董事 Director", get_sub_field('applicant_position')) ? true:false;
+                        $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_sub_field('applicant_position')) ? true:false;
 
                         // $applicant_name_chinese='';
                         // $applicant_name_english='';    
@@ -1791,10 +1791,11 @@ get_header();
                             <td class="fit">證件上名稱 <br>
                                 Name on ID/Passport *
                             </td>
-                            <td>中文 Chinese <span class="text-primary"><?php echo $applicant_name_chinese;?></span>
+                            <td>中文 Chinese <span
+                                    class="text-primary"><?php echo $applicant_name_chinese?$applicant_name_chinese:'<span class="opacity-0">empty</span>' ;?></span>
                             </td>
                             <td colspan="2">英文 English <span
-                                    class="text-primary"><?php echo $applicant_name_english;?></span>
+                                    class="text-primary"><?php echo $applicant_name_english?$applicant_name_english:'<span class="opacity-0">empty</span>';?></span>
 
                             </td>
                         </tr>
@@ -1803,18 +1804,19 @@ get_header();
 
                             </td>
                             <td class="fit"><span
-                                    class="text-primary"><?php echo $applicant_id_passport_company_no;?></span></td>
+                                    class="text-primary"><?php echo $applicant_id_passport_company_no ? $applicant_id_passport_company_no : '<span class="opacity-0">empty</span>';?></span>
+                            </td>
                             <td class="fit">持股比例 % of Shares *
 
                             </td>
-                            <td class="fit"><span class="text-primary"><span
-                                        class="opacity-0">fdasf</span><?php //echo $percent_of_shares;?></span>
+                            <td class="fit"><span
+                                    class="text-primary"><?php echo $percent_of_shares ? $percent_of_shares : '<span class="opacity-0">empty</span>';?></span>
                             </td>
 
                         </tr>
                         <tr>
                             <td colspan="4">住址 Residential Address * <span
-                                    class="text-primary"><?php echo $residential_address;?></span>
+                                    class="text-primary"><?php echo $residential_address ? $residential_address :'<span class="opacity-0">empty</span>';?></span>
                             </td>
                         </tr>
                     </tbody>
@@ -1844,7 +1846,6 @@ get_header();
                 <?php 
         //    (11 - 4) /5
            $additional_page = $count_shareholders_and_directors > 4 ? ceil(($count_shareholders_and_directors - 4)/5) :0;
-        //    $additional_page=10;
 
             // echo  $additional_page;
             for($i=0;$i<$additional_page;$i++)
@@ -1874,22 +1875,22 @@ get_header();
                     {
                         have_rows('shareholders_and_directors');
                         the_row();
-                        // $applicant_name_chinese=get_sub_field('applicant_name_chinese');    
-                        // $applicant_name_english=get_sub_field('applicant_name_english');    
-                        // $applicant_id_passport_company_no=get_sub_field('applicant_id_passport_company_no');    
-                        // $percent_of_shares=get_sub_field('percent_of_shares');    
-                        // $residential_address=get_sub_field('residential_address'); 
-                        // $is_shareholder=in_array("股東 Shareholder", get_sub_field('applicant_position')) ? true:false;
-                        // $is_director=in_array("董事 Director", get_sub_field('applicant_position')) ? true:false;
-                        // $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_sub_field('applicant_position')) ? true:false;
-                        $applicant_name_chinese='';
-                        $applicant_name_english='';    
-                        $applicant_id_passport_company_no='';    
-                        $percent_of_shares='';    
-                        $residential_address='';   
-                        $is_shareholder=false;
-                        $is_director=false;
-                        $is_beneficial_owner=false; 
+                        $applicant_name_chinese=get_sub_field('applicant_name_chinese');    
+                        $applicant_name_english=get_sub_field('applicant_name_english');    
+                        $applicant_id_passport_company_no=get_sub_field('applicant_id_passport_company_no');    
+                        $percent_of_shares=get_sub_field('percent_of_shares');    
+                        $residential_address=get_sub_field('residential_address'); 
+                        $is_shareholder=in_array("股東 Shareholder", get_sub_field('applicant_position')) ? true:false;
+                        $is_director=in_array("董事 Director", get_sub_field('applicant_position')) ? true:false;
+                        $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_sub_field('applicant_position')) ? true:false;
+                        // $applicant_name_chinese='';
+                        // $applicant_name_english='';    
+                        // $applicant_id_passport_company_no='';    
+                        // $percent_of_shares='';    
+                        // $residential_address='';   
+                        // $is_shareholder=false;
+                        // $is_director=false;
+                        // $is_beneficial_owner=false; 
                     }
                     else
                     {
@@ -1925,10 +1926,11 @@ get_header();
                                 <td class="fit">證件上名稱 <br>
                                     Name on ID/Passport *
                                 </td>
-                                <td>中文 Chinese <span class="text-primary"><?php echo $applicant_name_chinese;?></span>
+                                <td>中文 Chinese <span
+                                        class="text-primary"><?php echo $applicant_name_chinese ? $applicant_name_chinese :'<span class="opacity-0">empty</span>';?></span>
                                 </td>
                                 <td colspan="2">英文 English <span
-                                        class="text-primary"><?php echo $applicant_name_english;?></span>
+                                        class="text-primary"><?php echo $applicant_name_english ? $applicant_name_english :'<span class="opacity-0">empty</span>';?></span>
 
                                 </td>
                             </tr>
@@ -1937,16 +1939,19 @@ get_header();
 
                                 </td>
                                 <td class="fit"><span
-                                        class="text-primary"><?php echo $applicant_id_passport_company_no;?></span></td>
+                                        class="text-primary"><?php echo $applicant_id_passport_company_no ? $applicant_id_passport_company_no : '<span class="opacity-0">empty</span>';?></span>
+                                </td>
                                 <td class="fit">持股比例 % of Shares *
 
                                 </td>
-                                <td class="fit"><span class="text-primary"><?php echo $percent_of_shares;?></span></td>
+                                <td class="fit"><span
+                                        class="text-primary"><?php echo $percent_of_shares ? $percent_of_shares : '<span class="opacity-0">empty</span>';?></span>
+                                </td>
 
                             </tr>
                             <tr>
                                 <td colspan="4">住址 Residential Address * <span
-                                        class="text-primary"><?php echo $residential_address;?></span>
+                                        class="text-primary"><?php echo $residential_address ? $residential_address : '<span class="opacity-0">empty</span>';?></span>
                                 </td>
                             </tr>
                         </tbody>
@@ -2028,11 +2033,17 @@ get_header();
                     </tr>
                     <tr>
                         <td>
-                            ☐ 公司印章
+                            <?php echo count(get_field('business_stamp'))?'<span class="text-primary">☑</span>':'☐';?>
+                            公司印章
+
                             <div class="ms-2">
-                                ☐ 小圓印 Round Chop [HK$150/個each] <br>
-                                ☐ 支票印 Signature Chop [HK$150/個 each]<br>
-                                ☐ 鋼印 Company Seal [HK$250/個 each]
+                                <?php echo in_array("小圓印 Round Chop [HK$150/個each]", get_field('business_stamp')) ?'<span class="text-primary">☑</span>':'☐';?>
+                                小圓印 Round
+                                Chop [HK$150/個each] <br>
+                                <?php echo in_array("支票印 Signature Chop [HK$150/個 each]", get_field('business_stamp')) ?'<span class="text-primary">☑</span>':'☐';?>
+                                支票印 Signature Chop [HK$150/個 each]<br>
+                                <?php echo in_array("鋼印 Company Seal [HK$250/個 each]", get_field('business_stamp')) ?'<span class="text-primary">☑</span>':'☐';?>
+                                鋼印 Company Seal [HK$250/個 each]
                             </div>
 
 
@@ -2043,7 +2054,8 @@ get_header();
 
                         <td>
                             <div class="text-start">
-                                ☐ 虛擬辦工室 Virtual Office
+                                <?php echo count(get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐';?>
+                                虛擬辦工室 Virtual Office
                             </div>
 
 
@@ -2061,9 +2073,9 @@ get_header();
                                 </tr>
                                 <tr>
                                     <td class="fit">
-                                        <div class=""><input id="tst-HK1600-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="tst-HK1600-year"> <label class="-label"
-                                                for="tst-HK1600-year"> HK$1,600/year </label>
+                                        <div class="">
+                                            <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            HK$1,600/year
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
@@ -2075,9 +2087,9 @@ get_header();
 
                                     </td>
                                     <td class="fit">
-                                        <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="lck-HK950-year"> <label class="-label"
-                                                for="lck-HK950-year"> HK$950/year </label>
+                                        <div class="">
+                                            <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="lck-HK950-year"> HK$950/year </label>
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
@@ -2095,9 +2107,10 @@ get_header();
 
                                     <td class="fit">
 
-                                        <div class=""><input id="kt-HK900-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="kt-HK900-year"> <label class="-label"
-                                                for="kt-HK900-year"> HK$900/year </label></div>
+                                        <div class="">
+                                            <?php echo in_array("kt-HK900-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="kt-HK900-year"> HK$900/year </label>
+                                        </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
                                             <li class="ls1">信件代收</li>
@@ -2108,25 +2121,27 @@ get_header();
                                 </tr>
                                 <tr>
                                     <td class="fit">
-                                        <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="lck-HK950-year"> <label class="-label"
-                                                for="lck-HK950-year"> HK$950/year </label>
-                                        </div>
 
+                                        <div class="">
+                                            <?php echo in_array("tst-HK4000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="form-check-label" for="tst-HK4000-year"> HK$4,000/year
+                                            </label>
+                                        </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
                                             <li class="ls1">信件包裹代收</li>
-                                            <li class="ls1">稅局郵件轉寄 (按要求)</li>
+                                            <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
-                                            <li class="ls1">每月轉寄郵件</li>
-                                            <li class="ls1">郵件到取</li>
-                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls2">辦公室電話代接</li>
+                                            <li class="ls2">稅局文件代處理及信件代開</li>
+                                            <li class="ls2">準備及保存重要控制人登記册</li>
                                         </ul>
                                     </td>
                                     <td class="fit">
-                                        <div class=""><input id="lck-HK1500-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="lck-HK1500-year"> <label class="-label"
-                                                for="lck-HK1500-year"> HK$1,500/year </label>
+                                        <div class="">
+                                            <?php echo in_array("lck-HK1500-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="lck-HK1500-year"> HK$1,500/year </label>
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
@@ -2148,9 +2163,9 @@ get_header();
                                 </tr>
                                 <tr>
                                     <td class="fit">
-                                        <div class=""><input id="tst-HK12000-year" class="-input"
-                                                name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
-                                                class="-label" for="tst-HK12000-year"> HK$12,000/year </label>
+                                        <div class="">
+                                            <?php echo in_array("tst-HK12000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="tst-HK12000-year"> HK$12,000/year </label>
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
