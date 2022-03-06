@@ -1624,6 +1624,9 @@ get_header();
                 <?php
                 for($i=1;$i<=4;$i++)
                 {
+                    the_row();
+                    $sub_value = get_sub_field('sub_field');
+                    echo 1;
                     ?>
                 <tbody>
                     <tr>
