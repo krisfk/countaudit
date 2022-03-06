@@ -9,7 +9,23 @@
 </head>
 
 <body>
-    test
+    form test <br>
+
+
+    <form action="">
+
+        <div>item1</div>
+        <div><input type="text" name="item1">
+        </div>
+        <div>item2</div>
+
+        <div><input type="text" name="item2">
+        </div>
+        <div> <input type="submit" value="s"></div>
+
+    </form>
+
+
 </body>
 
 </html>
