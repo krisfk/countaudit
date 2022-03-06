@@ -1848,14 +1848,14 @@ get_header();
                         // $is_shareholder=in_array("股東 Shareholder", get_sub_field('applicant_position')) ? true:false;
                         // $is_director=in_array("董事 Director", get_sub_field('applicant_position')) ? true:false;
                         // $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_sub_field('applicant_position')) ? true:false;
-                        // $applicant_name_chinese='';
-                        // $applicant_name_english='';    
-                        // $applicant_id_passport_company_no='';    
-                        // $percent_of_shares='';    
-                        // $residential_address='';   
-                        // $is_shareholder=false;
-                        // $is_director=false;
-                        // $is_beneficial_owner=false; 
+                        $applicant_name_chinese='';
+                        $applicant_name_english='';    
+                        $applicant_id_passport_company_no='';    
+                        $percent_of_shares='';    
+                        $residential_address='';   
+                        $is_shareholder=false;
+                        $is_director=false;
+                        $is_beneficial_owner=false; 
                     }
                     else
                     {
