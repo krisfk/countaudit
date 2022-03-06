@@ -1736,7 +1736,7 @@ get_header();
            $additional_page = $count_shareholders_and_directors > 4 ? ceil(($count_shareholders_and_directors - 4)/5) :0;
            $additional_page=0;
             // echo  $additional_page;
-            for($i=0;$i<=$additional_page;$i++)
+            for($i=0;$i<$additional_page;$i++)
             {?>
             <div class="shareholder-page">
                 <div class="blank-area">- BLANK AREA -</div>
