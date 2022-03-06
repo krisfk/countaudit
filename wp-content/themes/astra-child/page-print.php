@@ -2243,6 +2243,7 @@ get_header();
 
                         </td>
                         <td>
+                            <?php echo get_field('bank_account_opening_referral_services');?>
                             <?php echo get_field('bank_account_opening_referral_services')=='need' ?'<span class="text-primary">☑</span>' :'☐';?>
                             會
                             Yes <br>
