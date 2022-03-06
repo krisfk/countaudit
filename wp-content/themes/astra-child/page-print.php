@@ -1598,11 +1598,11 @@ get_header();
 
             <!-- shareholders_and_directors -->
             <?php
-            // if( have_rows('shareholders_and_directors') ){
-            //     while( have_rows('shareholders_and_directors') ) { the_row();
-            //         // $sub_value = get_sub_field('sub_field');
-            //     }
-            // }
+            if( have_rows('shareholders_and_directors') ){
+                while( have_rows('shareholders_and_directors') ) { the_row();
+                    // $sub_value = get_sub_field('sub_field');
+                }
+            }
             // echo count(get_field('shareholders_and_directors'));
             ?>
             <table class="form-table">
@@ -1624,8 +1624,12 @@ get_header();
                 <?php
                 for($i=1;$i<=4;$i++)
                 {
-                    the_row();
-                    $sub_value = get_sub_field('sub_field');
+                    if( have_rows('shareholders_and_directors') ){
+                        the_row();
+                        $applicant_name_chinese=get_field('applicant_name_chinese');
+                    
+                    }
+                    // $sub_value = get_sub_field('sub_field');
                     // echo 1;
                     ?>
                 <tbody>
@@ -1643,8 +1647,7 @@ get_header();
                             Name on ID/Passport *
                         </td>
                         <td>中文 <br>
-                            Chinese <span
-                                class="text-primary"><?php echo get_sub_field('applicant_name_chinese');?></span>
+                            Chinese <span class="text-primary"><?php echo $applicant_name_chinese;?></span>
                         </td>
                         <td colspan="2">英文 <br>
                             English
