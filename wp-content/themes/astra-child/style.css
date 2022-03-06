@@ -1460,4 +1460,8 @@ li.ls3 {
     textarea {
         overflow: hidden;
     }
+    .print-content {
+        position: relative;
+        top: 100px;
+    }
 }

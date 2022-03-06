@@ -41,7 +41,7 @@ get_header();
 
     </div>
 
-    <div>
+    <div class="print-content">
 
 
         <?php if($_GET['f']=='aqf')
