@@ -1775,7 +1775,7 @@ get_header();
                             <td class="fit">持股比例 % of Shares *
 
                             </td>
-                            <td class="fit"><span class="text-primary"><?php echo $percent_of_shares;?></span></td>
+                            <td class="fit"><span class="text-primary">fff<?php echo $percent_of_shares;?></span></td>
 
                         </tr>
                         <tr>
