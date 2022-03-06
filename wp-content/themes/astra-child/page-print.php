@@ -2848,24 +2848,26 @@ get_header();
                     <tr>
                         <td class="fit text-nowrap">
                             Name 姓名:</td>
-                        <td><?php echo get_field('name') ? get_field('name'):'';?></td>
+                        <td><span class="text-primary"><?php echo get_field('name') ? get_field('name'):'';?></span>
+                        </td>
                         <td class="fit text-nowrap">*電郵 Email:
 
                         </td>
-                        <td><?php echo get_field('email') ? get_field('email'):'';?></td>
+                        <td><span class="text-primary"><?php echo get_field('email') ? get_field('email'):'';?></span>
+                        </td>
                     </tr>
                     <tr>
                         <td class="fit text-nowrap">
                             *電話 Tel:
 
                         </td>
-                        <td><?php echo get_field('tel') ? get_field('tel'):'';?></td>
+                        <td><span class="text-primary"><?php echo get_field('tel') ? get_field('tel'):'';?></span></td>
                         <td class="fit text-nowrap">傳真 Fax:
 
 
 
                         </td>
-                        <td><?php echo get_field('fax') ? get_field('fax'):'';?></td>
+                        <td><span class="text-primary"><?php echo get_field('fax') ? get_field('fax'):'';?></span></td>
                     </tr>
                     <tr>
                         <td colspan="4">
