@@ -1733,8 +1733,8 @@ get_header();
 -->
             <?php 
         //    (11 - 4) /5
-           $additional_page = ceil($count_shareholders_and_directors - 4)/5;
-            echo           $additional_page;
+           $additional_page = ceil(($count_shareholders_and_directors - 4)/5);
+            echo  $additional_page;
             for($i=0;$i<=1;$i++)
             {?>
             <div class="shareholder-page">
