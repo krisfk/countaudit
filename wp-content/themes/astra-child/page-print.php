@@ -1635,7 +1635,8 @@ get_header();
                     // }
                     have_rows('shareholders_and_directors');
                     the_row();
-                    echo 1;
+                    $applicant_name_chinese=get_field('applicant_name_chinese');
+                    echo $applicant_name_chinese;
                     // $sub_value = get_sub_field('sub_field');
                     // echo 1;
                     ?>
