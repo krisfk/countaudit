@@ -1955,9 +1955,6 @@ get_header();
                         </tr>
                     </tbody>
                 </table>
-                <div class="blank-area">- BLANK AREA -</div>
-                <div class="blank-area">- BLANK AREA -</div>
-                <div class="blank-area">- BLANK AREA -</div>
                 <!-- <div class="blank-area">- BLANK AREA -</div> -->
 
             </div>
