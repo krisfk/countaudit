@@ -57,6 +57,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
 
+
+
     <?php astra_body_top(); ?>
     <?php wp_body_open(); ?>
     <div <?php
@@ -79,6 +81,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <?php //astra_content_before(); ?>
 
+
+
+        <div class="lightbox" style="display: block;">
+
+            <div class="lightbox-bg-btn ">
+
+            </div>
+
+            <div class="lightbox-content lightbox-msg" style="">
+                <a href="javascript:void(0);" class="close-btn">
+                    <img src="https://hktutorcloud.com/wp-content/themes/tutorcloud/assets/images/close-btn.png" alt="">
+                </a>
+                <span class="lightbox-msg-txt d-block p-3"></span>
+
+            </div>
+        </div>
 
         <div class="mobile-top-div">
             <a href="<?php echo get_site_url();?>" class="logo-a">
