@@ -1741,6 +1741,8 @@ get_header();
             <div class="shareholder-page">
                 <div class="blank-area">- BLANK AREA -</div>
                 <div class="blank-area">- BLANK AREA -</div>
+                <div class="blank-area">- BLANK AREA -</div>
+                <div class="blank-area">- BLANK AREA -</div>
 
                 <div class="blank-area">- BLANK AREA -</div>
                 <div class="blank-area">- BLANK AREA -</div>
