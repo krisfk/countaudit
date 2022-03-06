@@ -1677,18 +1677,19 @@ get_header();
                             Chinese <span class="text-primary"><?php echo $applicant_name_chinese;?></span>
                         </td>
                         <td colspan="2">英文 <br>
-                            English
+                            English <span class="text-primary"><?php echo $applicant_name_english;?></span>
 
                         </td>
                     </tr>
                     <tr>
                         <td class="fit">身份證/護照/公司號碼 <br>
-                            ID/Passport/Company No *
+                            ID/Passport/Company No * <span
+                                class="text-primary"><?php echo $applicant_id_passport_company_no;?></span>
 
                         </td>
                         <td class="fit"></td>
                         <td class="fit">持股比例 <br>
-                            % of Shares *
+                            % of Shares * <span class="text-primary"><?php echo $percent_of_shares;?></span>
 
                         </td>
                         <td class="fit"></td>
@@ -1696,7 +1697,7 @@ get_header();
                     </tr>
                     <tr>
                         <td colspan="4">住址 <br>
-                            Residential Address *
+                            Residential Address * <span class="text-primary"><?php echo $residential_address;?></span>
                         </td>
                     </tr>
                 </tbody>
