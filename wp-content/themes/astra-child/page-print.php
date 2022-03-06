@@ -1624,12 +1624,15 @@ get_header();
                 <?php
                 for($i=1;$i<=4;$i++)
                 {
+                    while(have_rows('shareholders_and_directors'))
+                    {
                     if( have_rows('shareholders_and_directors') ){
                         the_row();
-                        // echo 1;
+                        echo 1;
                         $applicant_name_chinese=get_field('applicant_name_chinese');
                     
                     }
+                }
                     // $sub_value = get_sub_field('sub_field');
                     // echo 1;
                     ?>
