@@ -1455,7 +1455,8 @@ li.ls3 {
     }
     .print-header {
         display: block;
-        position: fixed;
+        /* position: fixed; */
+        position: running(header);
         top: 1rem;
         left: 0;
         width: 100%;
