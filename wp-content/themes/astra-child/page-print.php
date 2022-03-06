@@ -1643,7 +1643,8 @@ get_header();
                             Name on ID/Passport *
                         </td>
                         <td>中文 <br>
-                            Chinese 1<span class="text-primary"><?php echo get_field('applicant_name_chinese');?></span>
+                            Chinese <span
+                                class="text-primary"><?php echo get_sub_field('applicant_name_chinese');?></span>
                         </td>
                         <td colspan="2">英文 <br>
                             English
