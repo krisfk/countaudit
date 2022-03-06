@@ -230,17 +230,23 @@ get_header();
                     <tr>
                         <td class="fit text-nowrap">
                             Name 姓名:</td>
-                        <td> <span class="text-primary"><?php echo get_field('client_name');?></span></td>
+                        <td> <span
+                                class="text-primary"><?php echo get_field('client_name') ? get_field('client_name') :'<span class="opacity-0">empty</span>' ;?></span>
+                        </td>
                     </tr>
                     <tr>
                         <td class="fit text-nowrap">
                             Tel 電話:</td>
-                        <td> <span class="text-primary"><?php echo get_field('tel');?></span></td>
+                        <td> <span
+                                class="text-primary"><?php echo get_field('tel') ? get_field('tel') : '<span class="opacity-0">empty</span>';?></span>
+                        </td>
                     </tr>
                     <tr>
                         <td class="fit text-nowrap">
                             E-mail 電郵:</td>
-                        <td> <span class="text-primary"><?php echo get_field('email');?></span></td>
+                        <td> <span
+                                class="text-primary"><?php echo get_field('email') ?  get_field('email') :'<span class="opacity-0">empty</span>';?></span>
+                        </td>
                     </tr>
                 </table>
 
@@ -283,7 +289,8 @@ get_header();
                     <tr>
                         <td class="fit  text-nowrap">Company name <br> 公司名稱</td>
                         <td colspan="3">
-                            <span class="text-primary"><?php echo get_field('company_name');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('company_name') ? get_field('company_name') : '<span class="opacity-0">empty</span>' ;?></span>
                         </td>
                     </tr>
                     <tr>
@@ -292,7 +299,8 @@ get_header();
                             主要業務
                         </td>
                         <td colspan="3">
-                            <span class="text-primary"><?php echo get_field('principal_activities');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('principal_activities') ? get_field('principal_activities'): '<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
@@ -300,7 +308,8 @@ get_header();
                         <td class="fit  text-nowrap">Incorporation date <br>
                             公司開立日期</td>
                         <td colspan="3">
-                            <span class="text-primary"><?php echo get_field('incorporation_date');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('incorporation_date') ? get_field('incorporation_date') : '<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
@@ -310,8 +319,10 @@ get_header();
                         <td class="fit">Yes / No If Yes, please provide the related year ended date<br>
                             是 / 否 如是，請提供相關年結日</td>
                         <td class="text-wrap" colspan="2">
-                            <span class="text-primary"><?php echo get_field('performed_audit_before');?></span>
-                            <span class="text-primary"><?php echo get_field('year_ended_date');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('performed_audit_before') ? get_field('performed_audit_before'):'<span class="opacity-0">empty</span>';?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('year_ended_date') ? get_field('year_ended_date') :'<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
@@ -321,9 +332,11 @@ get_header();
                         <td class="fit  text-nowrap">Yes / No If Yes, please provide the related year of assessment<br>
                             是 / 否 如是，請提供相關課稅年度</td>
                         <td class="text-wrap" colspan="2">
-                            <span class="text-primary"><?php echo get_field('declared_profits_tax_before');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('declared_profits_tax_before')? get_field('declared_profits_tax_before'):'<span class="opacity-0">empty</span>';?></span>
 
-                            <span class="text-primary"><?php echo get_field('year_assessment');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('year_assessment') ? get_field('year_assessment'):'<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
@@ -333,7 +346,8 @@ get_header();
                         <td class="fit text-nowrap">Yes / No If Yes, please provide the issued date<br>
                             是 / 否 如有，請提供發出日期</td>
                         <td class="text-wrap" colspan="2">
-                            <span class="text-primary"><?php echo get_field('has_receive_tax_return');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('has_receive_tax_return') ? get_field('has_receive_tax_return'):'<span class="opacity-0">empty</span>' ;?></span>
 
                             <div class="text-primary"><?php echo wp_get_attachment_url(get_field('excel_file'));?></div>
 
@@ -351,7 +365,8 @@ get_header();
                         <td class="fit  text-nowrap">Total Turnover (yearly) <br>
                             全年總營業額</td>
                         <td colspan="3">
-                            <span class="text-primary"><?php echo get_field('total_turnover_yearly');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('total_turnover_yearly') ? get_field('total_turnover_yearly'): '<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
@@ -359,14 +374,16 @@ get_header();
                         <td class="fit  text-nowrap">Any stock? <br>
                             有否存貨?</td>
                         <td class="text-wrap">
-                            <span class="text-primary"><?php echo get_field('any_stock');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('any_stock') ? get_field('any_stock') :'<span class="opacity-0">empty</span>';?></span>
 
 
                         </td>
                         <td class="fit  text-nowrap">No. of bank used <br>
                             使用銀行的數量</td>
                         <td class="text-wrap">
-                            <span class="text-primary"><?php echo get_field('no_of_bank_used');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('no_of_bank_used') ? get_field('no_of_bank_used') :'<span class="opacity-0">empty</span>';?></span>
 
 
                         </td>
@@ -376,7 +393,8 @@ get_header();
                         <td class="fit">No. of bank transactions (monthly) <br>
                             每月經銀行交易的數量</td>
                         <td class="text-wrap">
-                            <span class="text-primary"><?php echo get_field('no_of_bank_transactions_monthly');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('no_of_bank_transactions_monthly') ? get_field('no_of_bank_transactions_monthly'):'<span class="opacity-0">empty</span>';?></span>
 
 
                         </td>
@@ -384,7 +402,7 @@ get_header();
                             每月非經銀行交易的數量</td>
                         <td class="text-wrap">
                             <span
-                                class="text-primary"><?php echo get_field('no_of_non_bank_transactions_monthly');?></span>
+                                class="text-primary"><?php echo get_field('no_of_non_bank_transactions_monthly')? get_field('no_of_non_bank_transactions_monthly'):'<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
@@ -393,13 +411,15 @@ get_header();
                         <td class="fit  text-nowrap">Any property? <br>
                             有否物業?</td>
                         <td class="text-wrap">
-                            <span class="text-primary"><?php echo get_field('any_property');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('any_property')?get_field('any_property'):'<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                         <td class="fit text-nowrap">Any motor vehicle? <br>
                             有否車輛?</td>
                         <td class="text-wrap">
-                            <span class="text-primary"><?php echo get_field('any_motor_vehicle');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('any_motor_vehicle')?get_field('any_motor_vehicle'):'<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
@@ -410,13 +430,15 @@ get_header();
                             貸款/分期付款數目</td>
                         <td class="text-wrap">
 
-                            <span class="text-primary"><?php echo get_field('no_of_loans_hire_purchases');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('no_of_loans_hire_purchases') ? get_field('no_of_loans_hire_purchases'):'<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                         <td class="fit text-nowrap">No. of employees <br>
                             員工人數</td>
                         <td class="text-wrap">
-                            <span class="text-primary"><?php echo get_field('no_of_employees');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('no_of_employees') ? get_field('no_of_employees') : '<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
