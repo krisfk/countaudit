@@ -1626,6 +1626,7 @@ get_header();
                 {
                     if( have_rows('shareholders_and_directors') ){
                         the_row();
+                        echo 1;
                         $applicant_name_chinese=get_field('applicant_name_chinese');
                     
                     }
