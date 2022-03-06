@@ -91,7 +91,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             <div class="lightbox-content lightbox-msg" style="">
                 <a href="javascript:void(0);" class="close-btn">
-                    <img src="https://hktutorcloud.com/wp-content/themes/tutorcloud/assets/images/close-btn.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/close-btn.png" alt="">
                 </a>
                 <span class="lightbox-msg-txt d-block p-3"></span>
 
