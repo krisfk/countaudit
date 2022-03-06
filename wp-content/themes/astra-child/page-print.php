@@ -1776,7 +1776,7 @@ get_header();
 
                             </td>
                             <td class="fit"><span class="text-primary"><span
-                                        class="opacity-0">fdasf</span><?php echo $percent_of_shares;?></span>
+                                        class="opacity-0">fdasf</span><?php //echo $percent_of_shares;?></span>
                             </td>
 
                         </tr>
