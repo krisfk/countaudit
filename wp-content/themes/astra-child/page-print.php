@@ -2243,8 +2243,11 @@ get_header();
 
                         </td>
                         <td>
-                            ☐ 會 Yes <br>
-                            ☐ 不會 No
+                            <?php echo get_field('bank_account_opening_referral_services')=='need' ?'<span class="text-primary">☑</span>' :'☐';?>
+                            會
+                            Yes <br>
+                            <?php echo get_field('bank_account_opening_referral_services')=='no need' ?'<span class="text-primary">☑</span>' :'☐';?>
+                            不會 No
 
 
                         </td>
@@ -2262,7 +2265,11 @@ get_header();
                         </td>
                     </tr>
                     <tr>
-                        <td class="text-center"> ☐ 需要 ☐ 不需要
+                        <td class="text-center">
+                            <?php echo get_field('appoint_countaudit_to_provide_accounting_audit_services')=='yes' ?'<span class="text-primary">☑</span>' :'☐';?>
+                            需要
+                            <?php echo get_field('appoint_countaudit_to_provide_accounting_audit_services')=='yes' ?'<span class="text-primary">☑</span>' :'☐';?>
+                            不需要
                         </td>
                     </tr>
                 </table>
