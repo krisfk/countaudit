@@ -1683,16 +1683,16 @@ get_header();
                     </tr>
                     <tr>
                         <td class="fit">身份證/護照/公司號碼 <br>
-                            ID/Passport/Company No * <span
-                                class="text-primary"><?php echo $applicant_id_passport_company_no;?></span>
+                            ID/Passport/Company No *
 
                         </td>
-                        <td class="fit"></td>
+                        <td class="fit"><span
+                                class="text-primary"><?php echo $applicant_id_passport_company_no;?></span></td>
                         <td class="fit">持股比例 <br>
-                            % of Shares * <span class="text-primary"><?php echo $percent_of_shares;?></span>
+                            % of Shares *
 
                         </td>
-                        <td class="fit"></td>
+                        <td class="fit"><span class="text-primary"><?php echo $percent_of_shares;?></span></td>
 
                     </tr>
                     <tr>
