@@ -11,8 +11,10 @@
 <body>
     form test <br>
 
-
-    <form action="">
+    <?php
+echo $_POST['item1'];
+?>
+    <form action="" method="post">
 
         <div>item1</div>
         <div><input type="text" name="item1">
