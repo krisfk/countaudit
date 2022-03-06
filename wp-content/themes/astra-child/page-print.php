@@ -1752,7 +1752,7 @@ get_header();
                 <table class="form-table">
 
                     <?php
-                for($i=1;$i<=5;$i++)
+                for($j=1;$j<=5;$j++)
                 {
                 
                     if($current_idx<$count_shareholders_and_directors)
