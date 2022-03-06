@@ -2814,6 +2814,19 @@ get_header();
         <?php
     if($_GET['f']=='vof')
     {
+
+        $application_no = $_GET['aid'];
+        $query_args = array(
+           'post_type' => 'virtual_office_form',
+           'p' => $application_no,
+       );
+       $the_query = new WP_Query( $query_args );
+       if ( $the_query->have_posts() ) {
+               $the_query->the_post();
+       } else {
+           
+       }
+       
         ?>
         <div class="incorp-limited-app-form">
             <div class="print-form-container">
@@ -2835,32 +2848,39 @@ get_header();
                     <tr>
                         <td class="fit text-nowrap">
                             Name 姓名:</td>
-                        <td></td>
+                        <td><?php echo get_field('name') ? get_field('name'):'';?></td>
                         <td class="fit text-nowrap">*電郵 Email:
 
                         </td>
-                        <td></td>
+                        <td><?php echo get_field('email') ? get_field('email'):'';?></td>
                     </tr>
                     <tr>
                         <td class="fit text-nowrap">
                             *電話 Tel:
 
                         </td>
-                        <td></td>
+                        <td><?php echo get_field('tel') ? get_field('tel'):'';?></td>
                         <td class="fit text-nowrap">傳真 Fax:
 
 
 
                         </td>
-                        <td></td>
+                        <td><?php echo get_field('fax') ? get_field('fax'):'';?></td>
                     </tr>
                     <tr>
                         <td colspan="4">
 
-                            *上述申請人為賬單聯絡人 The above applicant is the billing contact person ☐ 是 Yes ☐ 否 No <br>
+
+                            *上述申請人為賬單聯絡人 The above applicant is the billing contact person
+                            <?php echo get_field('is_billing_contact_person')  =='yes' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                            是 Yes
+                            <?php echo get_field('is_billing_contact_person')  =='no' ? '<span class="text-primary">☑</span>':'☐';  ?>
+                            否 No <br>
                             如否，請提供賬單聯絡人資料 If No, please provide the information of the billing contact person <br>
                             <br>
-                            姓名Name：_______________________________ 聯絡電話Phone Number：_______________________________
+                            姓名Name：<?php echo get_field('is_billing_contact_person')=='no' ? '<u class="text-primary">'.get_field('contact_person_name').'</u>' : '_____________________';?>
+                            聯絡電話Phone
+                            Number：<?php echo get_field('is_billing_contact_person')=='no' ? '<u class="text-primary">'.get_field('contact_person_phone_number').'</u>' : '_____________________';?>
 
 
                         </td>
@@ -2880,13 +2900,15 @@ get_header();
                         <td rowspan="2" class="text-nowrap">*公司名稱 <br>
                             Company Name
                         </td>
-                        <td>中文名稱 Chinese Name
+                        <td>中文名稱 Chinese Name <span
+                                class="text-primary"><?php echo get_field('company_name_chinese')?get_field('company_name_chinese'):'';?></span>
                         </td>
                     </tr>
                     <tr>
 
 
-                        <td>英文名稱 English Name
+                        <td>英文名稱 English Name <span
+                                class="text-primary"><?php echo get_field('company_name_english')?get_field('company_name_english'):'';?></span>
 
                         </td>
                     </tr>
@@ -2908,10 +2930,15 @@ get_header();
                     </tr>
                     <tr>
                         <td class="fit">1. 商業登記証(副本) (BR); 最新周年申報表(副本) (latest NAR1) / 法團成立表格 (NNC1); 公司證書 (CI)
+                            <br>
+                            <?php echo get_field('upload_file_1')['url'];?>
+
                         </td>
                         <td class="fit">
                             2. 有效之身份證 / 護照副本 及 3 個月內之住址證明 <br>
-                            All member’s ID/passport copy and address proof within 3 months
+                            All member’s ID/passport copy and address proof within 3 months <br>
+                            <?php echo get_field('upload_file_2')['url'];?>
+
                         </td>
                     </tr>
                 </table>
@@ -2993,9 +3020,9 @@ get_header();
                                 </tr>
                                 <tr>
                                     <td class="fit">
-                                        <div class=""><input id="tst-HK1600-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="tst-HK1600-year"> <label class="-label"
-                                                for="tst-HK1600-year"> HK$1,600/year </label>
+                                        <div class="">
+                                            <?php echo in_array("tst-HK1600-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            HK$1,600/year
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
@@ -3007,9 +3034,9 @@ get_header();
 
                                     </td>
                                     <td class="fit">
-                                        <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="lck-HK950-year"> <label class="-label"
-                                                for="lck-HK950-year"> HK$950/year </label>
+                                        <div class="">
+                                            <?php echo in_array("lck-HK950-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="lck-HK950-year"> HK$950/year </label>
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
@@ -3027,9 +3054,10 @@ get_header();
 
                                     <td class="fit">
 
-                                        <div class=""><input id="kt-HK900-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="kt-HK900-year"> <label class="-label"
-                                                for="kt-HK900-year"> HK$900/year </label></div>
+                                        <div class="">
+                                            <?php echo in_array("kt-HK900-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="kt-HK900-year"> HK$900/year </label>
+                                        </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
                                             <li class="ls1">信件代收</li>
@@ -3040,25 +3068,27 @@ get_header();
                                 </tr>
                                 <tr>
                                     <td class="fit">
-                                        <div class=""><input id="lck-HK950-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="lck-HK950-year"> <label class="-label"
-                                                for="lck-HK950-year"> HK$950/year </label>
-                                        </div>
 
+                                        <div class="">
+                                            <?php echo in_array("tst-HK4000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="form-check-label" for="tst-HK4000-year"> HK$4,000/year
+                                            </label>
+                                        </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
                                             <li class="ls1">信件包裹代收</li>
-                                            <li class="ls1">稅局郵件轉寄 (按要求)</li>
+                                            <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
-                                            <li class="ls1">每月轉寄郵件</li>
-                                            <li class="ls1">郵件到取</li>
-                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls2">辦公室電話代接</li>
+                                            <li class="ls2">稅局文件代處理及信件代開</li>
+                                            <li class="ls2">準備及保存重要控制人登記册</li>
                                         </ul>
                                     </td>
                                     <td class="fit">
-                                        <div class=""><input id="lck-HK1500-year" class="-input" name="virtual-office[]"
-                                                type="checkbox" value="lck-HK1500-year"> <label class="-label"
-                                                for="lck-HK1500-year"> HK$1,500/year </label>
+                                        <div class="">
+                                            <?php echo in_array("lck-HK1500-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="lck-HK1500-year"> HK$1,500/year </label>
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
@@ -3080,9 +3110,9 @@ get_header();
                                 </tr>
                                 <tr>
                                     <td class="fit">
-                                        <div class=""><input id="tst-HK12000-year" class="-input"
-                                                name="virtual-office[]" type="checkbox" value="tst-HK12000-year"> <label
-                                                class="-label" for="tst-HK12000-year"> HK$12,000/year </label>
+                                        <div class="">
+                                            <?php echo in_array("tst-HK12000-year", get_field('virtual_office')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                            <label class="-label" for="tst-HK12000-year"> HK$12,000/year </label>
                                         </div>
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
@@ -3105,6 +3135,7 @@ get_header();
                                     </td>
                                 </tr>
                             </table>
+
                         </td>
                     </tr>
                 </table>
