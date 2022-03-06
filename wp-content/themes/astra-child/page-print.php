@@ -1649,9 +1649,9 @@ get_header();
                         // $applicant_position=get_sub_field('applicant_position'); 
 
                         // in_array("tst-HK1600-year", get_field('virtual_office'));
-                        $is_shareholder=in_array("股東 Shareholder", get_field('applicant_position')) ? true:false;
-                        $is_director=in_array("董事 Director", get_field('applicant_position')) ? true:false;
-                        $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_field('applicant_position')) ? true:false;
+                        $is_shareholder=in_array("股東 Shareholder", get_sub_field('applicant_position')) ? true:false;
+                        $is_director=in_array("董事 Director", get_sub_field('applicant_position')) ? true:false;
+                        $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_sub_field('applicant_position')) ? true:false;
 
                     }
                     else
