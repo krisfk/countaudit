@@ -966,8 +966,9 @@ get_header();
                     <tr>
                         <td><?php echo get_field('others') ? '<span class="text-primary">☑</span>':'☐';  ?> 其他 Others
                             請註明
-                            please specify:f
-                            <?php echo get_field('others') ? '<span class="text-primary">'.get_field('others')?get_field('others'):'<span class="opacity-0">empty</span>'.'</span>':'____________________________________';  ?>
+                            please specify:
+                            <?php echo get_field('others') ? '<span class="text-primary">'.get_field('others').'</span>':'____________________________________';  ?>
+
                         </td>
                     </tr>
                 </table>
