@@ -1415,9 +1415,6 @@ li.ls3 {
 }
 
 @media print {
-    @page {
-        padding-top: 500px;
-    }
     .client-code-div {
         position: absolute;
         top: 0.5rem;
@@ -1455,8 +1452,7 @@ li.ls3 {
     }
     .print-header {
         display: block;
-        /* position: fixed; */
-        position: running(header);
+        position: fixed;
         top: 1rem;
         left: 0;
         width: 100%;
