@@ -496,10 +496,13 @@ get_header();
                     <tr>
                         <td class="fit text-nowrap">
                             Name 姓名:</td>
-                        <td><span class="text-primary"><?php echo get_field('name');?></span></td>
+                        <td><span
+                                class="text-primary"><?php echo get_field('name') ? get_field('name'):'<span class="opacity-0">empty</span>' ;?></span>
+                        </td>
                         <td class="fit text-nowrap">*電郵 Email:
                         </td>
-                        <td> <span class="text-primary"><?php echo get_field('email');?></span>
+                        <td> <span
+                                class="text-primary"><?php echo get_field('email') ? get_field('email'):'<span class="opacity-0">empty</span>';?></span>
                         </td>
                     </tr>
                     <tr>
@@ -507,13 +510,17 @@ get_header();
                             *電話 Tel:
 
                         </td>
-                        <td><span class="text-primary"><?php echo get_field('tel');?></span></td>
+                        <td><span
+                                class="text-primary"><?php echo get_field('tel')? get_field('tel'):'<span class="opacity-0">empty</span>';?></span>
+                        </td>
                         <td class="fit text-nowrap">傳真 Fax:
 
 
 
                         </td>
-                        <td><span class="text-primary"><?php echo get_field('fax');?></span></td>
+                        <td><span
+                                class="text-primary"><?php echo get_field('fax')? get_field('fax'):'<span class="opacity-0">empty</span>';?></span>
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="4">
@@ -550,14 +557,15 @@ get_header();
                         </td>
                         <td>中文名稱 Chinese Name
 
-                            <span class="text-primary"><?php echo get_field('company_name_chinese');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('company_name_chinese')? get_field('company_name_chinese'):'<span class="opacity-0">empty</span>';?></span>
                         </td>
                     </tr>
                     <tr>
 
 
                         <td>英文名稱 English Name <span
-                                class="text-primary"><?php echo get_field('company_name_english');?></span>
+                                class="text-primary"><?php echo get_field('company_name_chinese')? get_field('company_name_chinese'):'<span class="opacity-0">empty</span>';?></span>
 
 
                         </td>
@@ -568,7 +576,7 @@ get_header();
                             The date of changing Company Secretary
                         </td>
                         <td> <span
-                                class="text-primary"><?php echo get_field('date_of_changing_company_secretary');?></span>
+                                class="text-primary"><?php echo get_field('date_of_changing_company_secretary')? get_field('date_of_changing_company_secretary'):'<span class="opacity-0">empty</span>';?></span>
                         </td>
                     </tr>
 
@@ -648,7 +656,7 @@ get_header();
                             登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records<br>
                             <?php echo get_field('details_of_changes_others')  ? '<span class="text-primary">☑</span>':'☐';  ?>
                             其他 Others:
-                            <?php echo '<span class="text-primary">'.get_field('details_of_changes_others').'</span>'?>
+                            <?php echo '<span class="text-primary">'.get_field('details_of_changes_others') ? get_field('details_of_changes_others') :''.'</span>'?>
 
                         </td>
                     </tr>
@@ -658,7 +666,8 @@ get_header();
                             Remarks
                         </td>
                         <td>
-                            <span class="text-primary"><?php echo get_field('remarks');?></span>
+                            <span
+                                class="text-primary"><?php echo get_field('remarks')?get_field('remarks'):'<span class="opacity-0">empty</span>';?></span>
 
 
                         </td>
@@ -958,7 +967,7 @@ get_header();
                         <td><?php echo get_field('others') ? '<span class="text-primary">☑</span>':'☐';  ?> 其他 Others
                             請註明
                             please specify:
-                            <?php echo get_field('others') ? '<span class="text-primary">'.get_field('others').'</span>':'____________________________________';  ?>
+                            <?php echo get_field('others') ? '<span class="text-primary">'.get_field('others')?get_field('others'):'<span class="opacity-0">empty</span>'.'</span>':'____________________________________';  ?>
                         </td>
                     </tr>
                 </table>
