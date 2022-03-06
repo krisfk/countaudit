@@ -1622,7 +1622,7 @@ get_header();
                     </td>
                 </tr>
                 <?php
-                for($i=1;$i<=4;$i++)
+                for($i=1;$i<=10;$i++)
                 {
                     // while(have_rows('shareholders_and_directors'))
                     // {
