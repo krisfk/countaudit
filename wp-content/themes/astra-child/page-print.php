@@ -2848,12 +2848,14 @@ get_header();
                     <tr>
                         <td class="fit text-nowrap">
                             Name 姓名:</td>
-                        <td><span class="text-primary"><?php echo get_field('name') ? get_field('name'):'';?></span>
+                        <td><span
+                                class="text-primary"><?php echo get_field('name') ? get_field('name'):'<span class="opacity-0">empty</span>';?></span>
                         </td>
                         <td class="fit text-nowrap">*電郵 Email:
 
                         </td>
-                        <td><span class="text-primary"><?php echo get_field('email') ? get_field('email'):'';?></span>
+                        <td><span
+                                class="text-primary"><?php echo get_field('email') ? get_field('email'):'<span class="opacity-0">empty</span>';?></span>
                         </td>
                     </tr>
                     <tr>
@@ -2861,13 +2863,17 @@ get_header();
                             *電話 Tel:
 
                         </td>
-                        <td><span class="text-primary"><?php echo get_field('tel') ? get_field('tel'):'';?></span></td>
+                        <td><span
+                                class="text-primary"><?php echo get_field('tel') ? get_field('tel'):'<span class="opacity-0">empty</span>';?></span>
+                        </td>
                         <td class="fit text-nowrap">傳真 Fax:
 
 
 
                         </td>
-                        <td><span class="text-primary"><?php echo get_field('fax') ? get_field('fax'):'';?></span></td>
+                        <td><span
+                                class="text-primary"><?php echo get_field('fax') ? get_field('fax'):'<span class="opacity-0">empty</span>';?></span>
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="4">
@@ -2903,14 +2909,14 @@ get_header();
                             Company Name
                         </td>
                         <td>中文名稱 Chinese Name <span
-                                class="text-primary"><?php echo get_field('company_name_chinese')?get_field('company_name_chinese'):'';?></span>
+                                class="text-primary"><?php echo get_field('company_name_chinese')?get_field('company_name_chinese'):'<span class="opacity-0">empty</span>';?></span>
                         </td>
                     </tr>
                     <tr>
 
 
                         <td>英文名稱 English Name <span
-                                class="text-primary"><?php echo get_field('company_name_english')?get_field('company_name_english'):'';?></span>
+                                class="text-primary"><?php echo get_field('company_name_english')?get_field('company_name_english'):'<span class="opacity-0">empty</span>';?></span>
 
                         </td>
                     </tr>
