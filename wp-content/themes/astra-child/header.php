@@ -83,7 +83,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-        <div class="lightbox" style="display: block;">
+        <div class="lightbox" style="">
 
             <div class="lightbox-bg-btn ">
 
