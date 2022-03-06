@@ -1673,31 +1673,28 @@ get_header();
                         <td class="fit">證件上名稱 <br>
                             Name on ID/Passport *
                         </td>
-                        <td>中文 <br>
-                            Chinese <span class="text-primary"><?php echo $applicant_name_chinese;?></span>
+                        <td>中文 Chinese <span class="text-primary"><?php echo $applicant_name_chinese;?></span>
                         </td>
-                        <td colspan="2">英文 <br>
-                            English <span class="text-primary"><?php echo $applicant_name_english;?></span>
+                        <td colspan="2">英文 English <span
+                                class="text-primary"><?php echo $applicant_name_english;?></span>
 
                         </td>
                     </tr>
                     <tr>
-                        <td class="fit">身份證/護照/公司號碼 <br>
-                            ID/Passport/Company No *
+                        <td class="fit">身份證/護照/公司號碼 ID/Passport/Company No *
 
                         </td>
                         <td class="fit"><span
                                 class="text-primary"><?php echo $applicant_id_passport_company_no;?></span></td>
-                        <td class="fit">持股比例 <br>
-                            % of Shares *
+                        <td class="fit">持股比例 % of Shares *
 
                         </td>
                         <td class="fit"><span class="text-primary"><?php echo $percent_of_shares;?></span></td>
 
                     </tr>
                     <tr>
-                        <td colspan="4">住址 <br>
-                            Residential Address * <span class="text-primary"><?php echo $residential_address;?></span>
+                        <td colspan="4">住址 Residential Address * <span
+                                class="text-primary"><?php echo $residential_address;?></span>
                         </td>
                     </tr>
                 </tbody>
