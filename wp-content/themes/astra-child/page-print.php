@@ -1644,7 +1644,15 @@ get_header();
                         $applicant_name_english=get_sub_field('applicant_name_english');    
                         $applicant_id_passport_company_no=get_sub_field('applicant_id_passport_company_no');    
                         $percent_of_shares=get_sub_field('percent_of_shares');    
-                        $residential_address=get_sub_field('residential_address');    
+                        $residential_address=get_sub_field('residential_address'); 
+                       
+                        // $applicant_position=get_sub_field('applicant_position'); 
+
+                        // in_array("tst-HK1600-year", get_field('virtual_office'));
+                        $is_shareholder=in_array("股東 Shareholder", get_field('applicant_position')) ? true:false;
+                        $is_director=in_array("董事 Director", get_field('applicant_position')) ? true:false;
+                        $is_beneficial_owner=in_array("受益人 Beneficial Owner", get_field('applicant_position')) ? true:false;
+
                     }
                     else
                     {
@@ -1664,7 +1672,12 @@ get_header();
                         <td class="fit"><?php echo $i;?>. 申請人身份 <br>
                             Applicant’s Position *
                         </td>
-                        <td class="fit" colspan="3">☐ 股東 Shareholder ☐ 董事 Director ☐ 受益人 Beneficial Owner <br>
+                        <td class="fit" colspan="3">
+                            <?php echo $is_shareholder ? '<span class="text-primary">☑</span>' :'☐';?> 股東 Shareholder
+                            <?php echo $is_director ? '<span class="text-primary">☑</span>' :'☐';?> 董事 Director
+                            <?php echo $is_beneficial_owner? '<span class="text-primary">☑</span>' :'☐';?> 受益人
+                            Beneficial
+                            Owner <br>
 
                             <div class="small"> 請選擇最少其中一項 Choose at least one</div>
                         </td>
