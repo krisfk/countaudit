@@ -2218,8 +2218,18 @@ get_header();
                         <td>年結日 <br>
                             Year End Date
                         </td>
+
                         <td>
-                            12 月 31 日 (31-Dec) ☐ 3 月 31 日 (31-Mar) ☐ 客戶自訂 Others ： _________________
+                            <?php echo get_field('year_end_date') =='12 月 31 日 (31-Dec)' ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                            12 月 31 日 (31-Dec)
+                            <?php echo get_field('year_end_date') =='3 月 31 日 (31-Mar)' ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                            3 月 31 日
+                            (31-Mar)
+                            <?php echo get_field('year_end_date') =='客戶自訂 Others' ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                            客戶自訂
+                            Others ：
+                            <?php echo get_field('other_year_end_date') ? '<u class="text-primary">'.get_field('other_year_end_date').'</u>' : '_____________________';?>
+
 
 
 
