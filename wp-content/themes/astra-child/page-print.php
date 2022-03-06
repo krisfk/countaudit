@@ -1869,6 +1869,10 @@ get_header();
             <div class="blank-area">- BLANK AREA -</div>
             <div class="blank-area">- BLANK AREA -</div>
 
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+            <div class="blank-area">- BLANK AREA -</div>
+
             <table class="form-table">
                 <tr>
                     <td class="text-center orange-yellow-bg fw-bold">服務計劃資料 Service Plan Information
