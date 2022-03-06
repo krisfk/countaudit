@@ -1663,9 +1663,7 @@ get_header();
                         $residential_address='';    
                     }
                    
-                    // echo $applicant_name_chinese;
-                    // $sub_value = get_sub_field('sub_field');
-                    // echo 1;
+                    
                     ?>
                 <tbody>
                     <tr>
@@ -1730,7 +1728,14 @@ get_header();
             <div class="blank-area">- BLANK AREA -</div>
 
             <!--new page  -->
-            <?php for($i=0;$i<=1;$i++)
+            <!-- additional page
+
+-->
+            <?php 
+        //    (11 - 4) /5
+           $additional_page = ceil($count_shareholders_and_directors - 4)/5;
+            echo           $additional_page;
+            for($i=0;$i<=1;$i++)
             {?>
             <div class="shareholder-page">
                 <div class="blank-area">- BLANK AREA -</div>
