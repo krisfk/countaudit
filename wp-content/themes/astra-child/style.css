@@ -1416,7 +1416,7 @@ li.ls3 {
 
 @media print {
     @page {
-        margin-top: 100px;
+        margin-top: 500px;
     }
     .client-code-div {
         position: absolute;
