@@ -1036,7 +1036,14 @@ if ($_POST) {
     if (!$res['success']) {
         ?>
                 <script type="text/javascript">
-                alert('Please go back and make sure you check the security CAPTCHA box.');
+                $(function() {
+
+                    $('.lightbox').fadeIn(200);
+                    $('.lightbox-msg-txt').html(
+                        'Please go back and make sure you check the security CAPTCHA box.');
+
+                })
+                // alert('Please go back and make sure you check the security CAPTCHA box.');
                 </script>
                 <?php
         // alert('Please go back and make sure you check the security CAPTCHA box.');
@@ -1044,7 +1051,13 @@ if ($_POST) {
     } else {
         ?>
                 <script type="text/javascript">
-                alert('submitted');
+                $(function() {
+
+                    $('.lightbox').fadeIn(200);
+                    $('.lightbox-msg-txt').html(
+                        'Submitted successfully, we will get back to you soon.');
+
+                })
                 </script>
                 <?php
         // alert('submitted');
