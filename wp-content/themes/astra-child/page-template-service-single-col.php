@@ -345,255 +345,291 @@ get_header(); ?>
       
     if($_POST)
     {
-        // applicant-position-1[]
-        // print_r($_POST);
 
-        if($_POST['form-type']=='virtual_office_form')
-        {
-            $client_name = $_POST['client-name'];
-            $tel = $_POST['tel'];
-            $email = $_POST['email'];
-            $fax = $_POST['fax'];
-            $billing_contact_person =$_POST['billing-contact-person'];
-            $contact_name=$_POST['contact-name'];
-            $contact_phone_number=$_POST['contact-phone-number'];
-            $contact_name_chinese=$_POST['contact-name-chinese'];
-            $contact_name_english=$_POST['contact-name-english'];
-            // $date_change_secretary=$_POST['date-change-secretary'];
-            // $details_of_changes=$_POST['details-of-changes'];
-            // $details_of_changes_others=$_POST['details-of-changes-others'];
-            // $remarks=$_POST['remarks'];
-            $virtual_office=$_POST['virtual-office'];
-            // $deregistration_of_limited_company = $_POST['deregistration-of-limited-company'];
-            // $others=$_POST['others'];
-            
-            
-            $post_title = $client_name.' application';
-            $post_id = wp_insert_post(array (
-                'post_type' => 'virtual_office_form',
-                'post_title' => $post_title,
-                'post_status' => 'publish',
-                'comment_status' => 'closed',   // if you prefer
-                'ping_status' => 'closed',      // if you prefer
-            ));   
+        function post_captcha($user_response) {
+            $fields_string = '';
+            $fields = array(
+                'secret' => '6LdMWbweAAAAANK8OWHVYPts4avJ5fblHpeBpV-C',
+                'response' => $user_response
+            );
+            foreach($fields as $key=>$value)
+            $fields_string .= $key . '=' . $value . '&';
+            $fields_string = rtrim($fields_string, '&');
+    
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+            curl_setopt($ch, CURLOPT_POST, count($fields));
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
+    
+            $result = curl_exec($ch);
+            curl_close($ch);
+    
+            return json_decode($result, true);
+        }
+       $res = post_captcha($_POST['g-recaptcha-response']);
+    
+        if (!$res['success']) {
+            ?>
+    <script type="text/javascript">
+    $(function() {
 
-            if ($post_id) {
-                add_post_meta($post_id, 'name', $client_name);
-                add_post_meta($post_id, 'tel', $tel);
-                add_post_meta($post_id, 'email', $email);
-                add_post_meta($post_id, 'fax', $fax);
-                add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
-                add_post_meta($post_id, 'contact_person_name', $contact_name);
-                add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
-                add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
-                add_post_meta($post_id, 'company_name_english', $contact_name_english);
-                // add_post_meta($post_id, 'date_of_changing_company_secretary', $date_change_secretary);
-                // add_post_meta($post_id, 'remarks', $remarks);
+        $('.lightbox').fadeIn(200);
+        $('.lightbox-msg-txt').html(
+            'Please go back and make sure you check the security CAPTCHA box.');
 
-                // add_post_meta($post_id, 'details_of_changes', $details_of_changes);
-                // add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
-                add_post_meta($post_id, 'virtual_office', $virtual_office);
-                // add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
+    })
+    </script>
+    <?php
+        } else {
+            ?>
+    <script type="text/javascript">
+    $(function() {
+
+        $('.lightbox').fadeIn(200);
+        $('.lightbox-msg-txt').html(
+            'Submitted successfully, we will get back to you soon.');
+
+    })
+    </script>
+    <?php
 
 
-                // add_post_meta($post_id, 'others', $deregistration_of_limited_company);
      
-                // 
+if($_POST['form-type']=='virtual_office_form')
+{
+    $client_name = $_POST['client-name'];
+    $tel = $_POST['tel'];
+    $email = $_POST['email'];
+    $fax = $_POST['fax'];
+    $billing_contact_person =$_POST['billing-contact-person'];
+    $contact_name=$_POST['contact-name'];
+    $contact_phone_number=$_POST['contact-phone-number'];
+    $contact_name_chinese=$_POST['contact-name-chinese'];
+    $contact_name_english=$_POST['contact-name-english'];
+    $virtual_office=$_POST['virtual-office'];
+    
+    
+    $post_title = $client_name.' application';
+    $post_id = wp_insert_post(array (
+        'post_type' => 'virtual_office_form',
+        'post_title' => $post_title,
+        'post_status' => 'publish',
+        'comment_status' => 'closed',   // if you prefer
+        'ping_status' => 'closed',      // if you prefer
+    ));   
+
+    if ($post_id) {
+        add_post_meta($post_id, 'name', $client_name);
+        add_post_meta($post_id, 'tel', $tel);
+        add_post_meta($post_id, 'email', $email);
+        add_post_meta($post_id, 'fax', $fax);
+        add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
+        add_post_meta($post_id, 'contact_person_name', $contact_name);
+        add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
+        add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
+        add_post_meta($post_id, 'company_name_english', $contact_name_english);
+         add_post_meta($post_id, 'virtual_office', $virtual_office);
+       
+    }
+}
+
+
+if($_POST['form-type']=='incorp_limited_app')
+{
+
+
+    $client_name = $_POST['client-name'];
+    $tel = $_POST['tel'];
+    $email = $_POST['email'];
+    $language = $_POST['language'];
+    $billing_contact_person =$_POST['billing-contact-person'];
+    $contact_name=$_POST['contact-name'];
+    $contact_phone_number=$_POST['contact-phone-number'];
+    $contact_name_chinese=$_POST['contact-name-chinese'];
+    $contact_name_english=$_POST['contact-name-english'];
+
+    $countaudit_virtual_office_service=$_POST['countaudit-virtual-office-service'];
+    $other_registered_office=$_POST['other-registered-office'];
+    $business = $_POST['business'];
+    $service= $_POST['service'];
+    $other_business= $_POST['other-business'];
+
+
+
+
+    $business_stamp = $_POST['business-stamp'];
+    $virtual_office = $_POST['virtual-office'];
+    $year_end_date = $_POST['year-end-date'];
+    $other_year_end_date=$_POST['other-year-end-date'];
+
+    $appoint_countaudit=$_POST['appoint-countaudit'];
+    $bank_account_opening= $_POST['bank-account-opening'];
+
+    $post_title = $client_name.' application';
+    $post_id = wp_insert_post(array (
+        'post_type' => 'incorp_limited_app',
+        'post_title' => $post_title,
+        'post_status' => 'publish',
+        'comment_status' => 'closed',   // if you prefer
+        'ping_status' => 'closed',      // if you prefer
+    ));   
+
+    if ($post_id) {
+        add_post_meta($post_id, 'name', $client_name);
+        add_post_meta($post_id, 'tel', $tel);
+        add_post_meta($post_id, 'email', $email);
+        add_post_meta($post_id, 'language', $language);
+        add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
+        add_post_meta($post_id, 'contact_person_name', $contact_name);
+        add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
+        add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
+        add_post_meta($post_id, 'company_name_english', $contact_name_english);
+        add_post_meta($post_id, 'use_countaudit_virtual_office', $countaudit_virtual_office_service);
+        add_post_meta($post_id, 'custom_address_as_registered_office', $other_registered_office);
+
+        
+
+        add_post_meta($post_id, 'business_nature', $business);
+        add_post_meta($post_id, 'business_service', $service);
+        add_post_meta($post_id, 'business_others', $other_business);
+        // add_post_meta($post_id, 'custom_address_as_registered_office', $aaa);
+        // add_post_meta($post_id, 'shareholders_and_directors', $aaa);
+        add_post_meta($post_id, 'business_stamp', $business_stamp);
+        add_post_meta($post_id, 'virtual_office', $virtual_office);
+        add_post_meta($post_id, 'year_end_date', $year_end_date);
+        add_post_meta($post_id, 'other_year_end_date', $other_year_end_date);
+        add_post_meta($post_id, 'appoint_countaudit_to_provide_accounting_audit_services', $appoint_countaudit);
+        add_post_meta($post_id, 'bank_account_opening_referral_services', $bank_account_opening);
+
+
+
+        for($i=1;$i<=count($_POST['applicant-fill']);$i++)
+        {
+
+            $applicant_position=$_POST['applicant-position-'.$i];
+            $name_on_id_chinese=$_POST['name-on-id-chinese-'.$i];
+            $name_on_id_english=$_POST['name-on-id-english-'.$i];
+            $id_pass_co_no=$_POST['id-pass-co-no-'.$i];
+            $percent_of_shares=$_POST['percent-of-shares-'.$i];
+            $residential_address=$_POST['residential-address-'.$i];
+
+            // add_row('applicant_position', $applicant_position, $post_id);
+            // add_row('applicant_name_chinese', $name_on_id_chinese, $post_id);
+            // add_row('applicant_name_english', $name_on_id_english, $post_id);
+            // add_row('applicant_id_passport_company_no', $id_pass_co_no, $post_id);
+            // add_row('percent_of_shares', $percent_of_shares, $post_id);
+            // add_row('residential_address', $residential_address, $post_id);
+
+            $row = array(
+                'applicant_position' => $applicant_position,
+                'applicant_name_chinese'   => $name_on_id_chinese,
+                'applicant_name_english'  => $name_on_id_english,
+                'applicant_id_passport_company_no'  => $id_pass_co_no,
+                'percent_of_shares'  => $percent_of_shares,
+                'residential_address'  => $residential_address
+                
+            );
+
+            
+            
+            add_row('shareholders_and_directors',$row,$post_id);
+
+        }
+        
+
+
+    }
+    
+    
+
+
+    
+    
+
+
+}
+
+
+    if(!empty($_FILES))
+    {
+
+                //File a
+                if($_FILES["upload-file-1"]['size'])
+                {
+                        $wordpress_upload_dir = wp_upload_dir();
+        
+                        $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-1"]["name"];
+        
+                            $i=0;
+                        while( file_exists( $new_file_path ) ) {
+                            $i++;
+                            $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-1"]["name"];
+                        }
+                        
+                        if (move_uploaded_file($_FILES["upload-file-1"]["tmp_name"], $new_file_path)) {
+                
+                            $upload_id = wp_insert_attachment( array(
+                            'guid'           => $new_file_path, 
+                            'post_mime_type' => 'image/*',
+                            //$_FILES["file_upload"]["tmp_name"],
+                            'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-1"]["name"] ),
+                            'post_content'   => '',
+                            'post_status'    => 'inherit'
+                        ), $new_file_path );
+                        require_once( ABSPATH . 'wp-admin/includes/image.php' );
+                    
+                        wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+        
+                        update_field( 'upload_file_1', $upload_id, $post_id );
+                        // update_field( 'mid_report_approval', false, $school_id );
+        
+        
+                        } else {
+                            echo "Sorry, there was an error uploading your file.";
+                        }
+                }
+                //File b
+                if($_FILES["upload-file-2"]['size'])
+                {
+                        $wordpress_upload_dir = wp_upload_dir();
+        
+                        $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-2"]["name"];
+        
+                            $i=0;
+                        while( file_exists( $new_file_path ) ) {
+                            $i++;
+                            $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-2"]["name"];
+                        }
+                        
+                        if (move_uploaded_file($_FILES["upload-file-2"]["tmp_name"], $new_file_path)) {
+                
+                            $upload_id = wp_insert_attachment( array(
+                            'guid'           => $new_file_path, 
+                            'post_mime_type' => 'image/*',
+                            //$_FILES["file_upload"]["tmp_name"],
+                            'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-2"]["name"] ),
+                            'post_content'   => '',
+                            'post_status'    => 'inherit'
+                        ), $new_file_path );
+                        require_once( ABSPATH . 'wp-admin/includes/image.php' );
+                    
+                        wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+        
+                        update_field( 'upload_file_2', $upload_id, $post_id );
+                        // update_field( 'mid_report_approval', false, $school_id );
+        
+        
+                        } else {
+                            echo "Sorry, there was an error uploading your file.";
+                        }
+                }
+
             }
         }
         
 
-        if($_POST['form-type']=='incorp_limited_app')
-        {
-
-
-            $client_name = $_POST['client-name'];
-            $tel = $_POST['tel'];
-            $email = $_POST['email'];
-            $language = $_POST['language'];
-            $billing_contact_person =$_POST['billing-contact-person'];
-            $contact_name=$_POST['contact-name'];
-            $contact_phone_number=$_POST['contact-phone-number'];
-            $contact_name_chinese=$_POST['contact-name-chinese'];
-            $contact_name_english=$_POST['contact-name-english'];
-
-            $countaudit_virtual_office_service=$_POST['countaudit-virtual-office-service'];
-            $other_registered_office=$_POST['other-registered-office'];
-            $business = $_POST['business'];
-            $service= $_POST['service'];
-            $other_business= $_POST['other-business'];
-      
-
-
-
-            $business_stamp = $_POST['business-stamp'];
-            $virtual_office = $_POST['virtual-office'];
-            $year_end_date = $_POST['year-end-date'];
-            $other_year_end_date=$_POST['other-year-end-date'];
-
-            $appoint_countaudit=$_POST['appoint-countaudit'];
-            $bank_account_opening= $_POST['bank-account-opening'];
-
-            $post_title = $client_name.' application';
-            $post_id = wp_insert_post(array (
-                'post_type' => 'incorp_limited_app',
-                'post_title' => $post_title,
-                'post_status' => 'publish',
-                'comment_status' => 'closed',   // if you prefer
-                'ping_status' => 'closed',      // if you prefer
-            ));   
-
-            if ($post_id) {
-                add_post_meta($post_id, 'name', $client_name);
-                add_post_meta($post_id, 'tel', $tel);
-                add_post_meta($post_id, 'email', $email);
-                add_post_meta($post_id, 'language', $language);
-                add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
-                add_post_meta($post_id, 'contact_person_name', $contact_name);
-                add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
-                add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
-                add_post_meta($post_id, 'company_name_english', $contact_name_english);
-                add_post_meta($post_id, 'use_countaudit_virtual_office', $countaudit_virtual_office_service);
-                add_post_meta($post_id, 'custom_address_as_registered_office', $other_registered_office);
-
-                
-
-                add_post_meta($post_id, 'business_nature', $business);
-                add_post_meta($post_id, 'business_service', $service);
-                add_post_meta($post_id, 'business_others', $other_business);
-                // add_post_meta($post_id, 'custom_address_as_registered_office', $aaa);
-                // add_post_meta($post_id, 'shareholders_and_directors', $aaa);
-                add_post_meta($post_id, 'business_stamp', $business_stamp);
-                add_post_meta($post_id, 'virtual_office', $virtual_office);
-                add_post_meta($post_id, 'year_end_date', $year_end_date);
-                add_post_meta($post_id, 'other_year_end_date', $other_year_end_date);
-                add_post_meta($post_id, 'appoint_countaudit_to_provide_accounting_audit_services', $appoint_countaudit);
-                add_post_meta($post_id, 'bank_account_opening_referral_services', $bank_account_opening);
-
-
-
-                for($i=1;$i<=count($_POST['applicant-fill']);$i++)
-                {
-    
-                    $applicant_position=$_POST['applicant-position-'.$i];
-                    $name_on_id_chinese=$_POST['name-on-id-chinese-'.$i];
-                    $name_on_id_english=$_POST['name-on-id-english-'.$i];
-                    $id_pass_co_no=$_POST['id-pass-co-no-'.$i];
-                    $percent_of_shares=$_POST['percent-of-shares-'.$i];
-                    $residential_address=$_POST['residential-address-'.$i];
-    
-                    // add_row('applicant_position', $applicant_position, $post_id);
-                    // add_row('applicant_name_chinese', $name_on_id_chinese, $post_id);
-                    // add_row('applicant_name_english', $name_on_id_english, $post_id);
-                    // add_row('applicant_id_passport_company_no', $id_pass_co_no, $post_id);
-                    // add_row('percent_of_shares', $percent_of_shares, $post_id);
-                    // add_row('residential_address', $residential_address, $post_id);
-    
-                    $row = array(
-                        'applicant_position' => $applicant_position,
-                        'applicant_name_chinese'   => $name_on_id_chinese,
-                        'applicant_name_english'  => $name_on_id_english,
-                        'applicant_id_passport_company_no'  => $id_pass_co_no,
-                        'percent_of_shares'  => $percent_of_shares,
-                        'residential_address'  => $residential_address
-                        
-                    );
-
-                    
-                    
-                    add_row('shareholders_and_directors',$row,$post_id);
-       
-                }
-                
-
-
-            }
-            
-            
-
-      
-            
-            
-
-       
-        }
-
-
-            if(!empty($_FILES))
-            {
-
-                        //File a
-                        if($_FILES["upload-file-1"]['size'])
-                        {
-                                $wordpress_upload_dir = wp_upload_dir();
-                
-                                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-1"]["name"];
-                
-                                    $i=0;
-                                while( file_exists( $new_file_path ) ) {
-                                    $i++;
-                                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-1"]["name"];
-                                }
-                                
-                                if (move_uploaded_file($_FILES["upload-file-1"]["tmp_name"], $new_file_path)) {
-                        
-                                    $upload_id = wp_insert_attachment( array(
-                                    'guid'           => $new_file_path, 
-                                    'post_mime_type' => 'image/*',
-                                    //$_FILES["file_upload"]["tmp_name"],
-                                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-1"]["name"] ),
-                                    'post_content'   => '',
-                                    'post_status'    => 'inherit'
-                                ), $new_file_path );
-                                require_once( ABSPATH . 'wp-admin/includes/image.php' );
-                            
-                                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
-                
-                                update_field( 'upload_file_1', $upload_id, $post_id );
-                                // update_field( 'mid_report_approval', false, $school_id );
-                
-                
-                                } else {
-                                    echo "Sorry, there was an error uploading your file.";
-                                }
-                        }
-                        //File b
-                        if($_FILES["upload-file-2"]['size'])
-                        {
-                                $wordpress_upload_dir = wp_upload_dir();
-                
-                                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-2"]["name"];
-                
-                                    $i=0;
-                                while( file_exists( $new_file_path ) ) {
-                                    $i++;
-                                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-2"]["name"];
-                                }
-                                
-                                if (move_uploaded_file($_FILES["upload-file-2"]["tmp_name"], $new_file_path)) {
-                        
-                                    $upload_id = wp_insert_attachment( array(
-                                    'guid'           => $new_file_path, 
-                                    'post_mime_type' => 'image/*',
-                                    //$_FILES["file_upload"]["tmp_name"],
-                                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-2"]["name"] ),
-                                    'post_content'   => '',
-                                    'post_status'    => 'inherit'
-                                ), $new_file_path );
-                                require_once( ABSPATH . 'wp-admin/includes/image.php' );
-                            
-                                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
-                
-                                update_field( 'upload_file_2', $upload_id, $post_id );
-                                // update_field( 'mid_report_approval', false, $school_id );
-                
-                
-                                } else {
-                                    echo "Sorry, there was an error uploading your file.";
-                                }
-                        }
-
-            }
+   
                
     }
     
@@ -656,11 +692,6 @@ get_header(); ?>
     $(function() {
 
         $('#tnc').html($('#tnc-data').html());
-        // alert(80);
-        // $('.form-submit-btn').click(function() {
-        // alert(650);
-        // $('#form').submit();
-        // });
 
 
 
