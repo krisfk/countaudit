@@ -1464,329 +1464,383 @@ Existing Customers renewal to CountAudit Secretarial Limited with not less  than
     
     if($_POST)
     {
-        
-        if($_POST['form-type']=='accounting_q_form')
-        {
-            
-            $client_name = $_POST['client-name'];
-            $tel = $_POST['tel'];
-            $email = $_POST['email'];
-            $company_name=$_POST['company-name'];
-            $principal_activities=$_POST['principal-activities'];
-            $performed_audit_before=$_POST['performed-audit-before'];
-            $year_ended_date=$_POST['year-ended-date'];
-            $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
-            $year_assessment=$_POST['year-assessment'];
-            $done_accounting_before=$_POST['done-accounting-before'];
-            $year_ended_date_2=$_POST['year-ended-date-2'];
-            $reporting_frequency=$_POST['reporting-frequency'];
-            $excel_for_business_records=$_POST['excel-for-business-records'];
-            $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
-            $total_turnover_yearly = $_POST['total-turnover-yearly'];
-            $any_stock=$_POST['any-stock'];
-            $no_of_bank_used=$_POST['no-of-bank-used'];
-            $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
-            $any_property= $_POST['any-property'];
-            $any_motor_vehicle=$_POST['any-motor-vehicle'];
-            $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
-            $no_of_employees=$_POST['no-of-employees'];
 
-            $post_title = $client_name.' application';
-            $post_id = wp_insert_post(array (
-                'post_type' => 'accounting_q_form',
-                'post_title' => $post_title,
-                'post_status' => 'publish',
-                'comment_status' => 'closed',   // if you prefer
-                'ping_status' => 'closed',      // if you prefer
-            ));
-
-            if ($post_id) {
-                add_post_meta($post_id, 'client_name', $client_name);
-                add_post_meta($post_id, 'tel', $tel);
-                add_post_meta($post_id, 'email', $email);
-                add_post_meta($post_id, 'company_name', $company_name);
-                add_post_meta($post_id, 'principal_activities', $principal_activities);
-                add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
-                add_post_meta($post_id, 'year_ended_date', $year_ended_date);
-                add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
-                add_post_meta($post_id, 'year_assessment', $year_assessment);
-                add_post_meta($post_id, 'done_accounting_before', $done_accounting_before);
-                add_post_meta($post_id, 'year_ended_date_2', $year_ended_date_2);
-                add_post_meta($post_id, 'reporting_frequency', $reporting_frequency);
-                add_post_meta($post_id, 'excel_for_business_records', $excel_for_business_records);
-                add_post_meta($post_id, 'way_of_sorting_receipts', $way_of_sorting_receipts);
-                add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
-                add_post_meta($post_id, 'any_stock', $any_stock);
-                add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
-                add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
-                add_post_meta($post_id, 'any_property', $any_property);
-                add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
-                add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
-                add_post_meta($post_id, 'no_of_employees', $no_of_employees);
+        function post_captcha($user_response) {
+            $fields_string = '';
+            $fields = array(
+                'secret' => '6LdMWbweAAAAANK8OWHVYPts4avJ5fblHpeBpV-C',
+                'response' => $user_response
+            );
+            foreach($fields as $key=>$value)
+            $fields_string .= $key . '=' . $value . '&';
+            $fields_string = rtrim($fields_string, '&');
     
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+            curl_setopt($ch, CURLOPT_POST, count($fields));
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
+    
+            $result = curl_exec($ch);
+            curl_close($ch);
+    
+            return json_decode($result, true);
+        }
+       $res = post_captcha($_POST['g-recaptcha-response']);
+    
+        if (!$res['success']) {
+            ?>
+    <script type="text/javascript">
+    $(function() {
+
+        $('.lightbox').fadeIn(200);
+        $('.lightbox-msg-txt').html(
+            'Please go back and make sure you check the security CAPTCHA box.');
+
+    })
+    </script>
+    <?php
+        } else {
+
+            
+            ?>
+    <script type="text/javascript">
+    $(function() {
+
+        $('.lightbox').fadeIn(200);
+        $('.lightbox-msg-txt').html(
+            'Submitted successfully, we will get back to you soon.');
+
+    })
+    </script>
+    <?php
+
+       
+if($_POST['form-type']=='accounting_q_form')
+{
+    
+    $client_name = $_POST['client-name'];
+    $tel = $_POST['tel'];
+    $email = $_POST['email'];
+    $company_name=$_POST['company-name'];
+    $principal_activities=$_POST['principal-activities'];
+    $performed_audit_before=$_POST['performed-audit-before'];
+    $year_ended_date=$_POST['year-ended-date'];
+    $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
+    $year_assessment=$_POST['year-assessment'];
+    $done_accounting_before=$_POST['done-accounting-before'];
+    $year_ended_date_2=$_POST['year-ended-date-2'];
+    $reporting_frequency=$_POST['reporting-frequency'];
+    $excel_for_business_records=$_POST['excel-for-business-records'];
+    $way_of_sorting_receipts=$_POST['way-of-sorting-receipts'];
+    $total_turnover_yearly = $_POST['total-turnover-yearly'];
+    $any_stock=$_POST['any-stock'];
+    $no_of_bank_used=$_POST['no-of-bank-used'];
+    $no_of_bank_transactions_monthly=$_POST['no-of-bank-transactions-monthly'];
+    $any_property= $_POST['any-property'];
+    $any_motor_vehicle=$_POST['any-motor-vehicle'];
+    $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
+    $no_of_employees=$_POST['no-of-employees'];
+
+    $post_title = $client_name.' application';
+    $post_id = wp_insert_post(array (
+        'post_type' => 'accounting_q_form',
+        'post_title' => $post_title,
+        'post_status' => 'publish',
+        'comment_status' => 'closed',   // if you prefer
+        'ping_status' => 'closed',      // if you prefer
+    ));
+
+    if ($post_id) {
+        add_post_meta($post_id, 'client_name', $client_name);
+        add_post_meta($post_id, 'tel', $tel);
+        add_post_meta($post_id, 'email', $email);
+        add_post_meta($post_id, 'company_name', $company_name);
+        add_post_meta($post_id, 'principal_activities', $principal_activities);
+        add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
+        add_post_meta($post_id, 'year_ended_date', $year_ended_date);
+        add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
+        add_post_meta($post_id, 'year_assessment', $year_assessment);
+        add_post_meta($post_id, 'done_accounting_before', $done_accounting_before);
+        add_post_meta($post_id, 'year_ended_date_2', $year_ended_date_2);
+        add_post_meta($post_id, 'reporting_frequency', $reporting_frequency);
+        add_post_meta($post_id, 'excel_for_business_records', $excel_for_business_records);
+        add_post_meta($post_id, 'way_of_sorting_receipts', $way_of_sorting_receipts);
+        add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
+        add_post_meta($post_id, 'any_stock', $any_stock);
+        add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
+        add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
+        add_post_meta($post_id, 'any_property', $any_property);
+        add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
+        add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
+        add_post_meta($post_id, 'no_of_employees', $no_of_employees);
+
+    }
+
+}
+
+
+if($_POST['form-type']=='audit_and_tax_report')
+{
+   
+    $client_name = $_POST['client-name'];
+    $tel = $_POST['tel'];
+    $email = $_POST['email'];
+    $reporting_purposes = $_POST['reporting-purposes'];
+    $other_reporting_purposes=$_POST['other-reporting-purposes'];
+    $company_name=$_POST['company-name'];
+    $principal_activities=$_POST['principal-activities'];
+    $incorporation_date=$_POST['incorporation-date'];
+   
+    $performed_audit_before=$_POST['performed-audit-before'];
+    $year_ended_date=$_POST['year-ended-date'];
+   
+    $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
+    $year_assessment=$_POST['year-assessment'];
+   
+    $has_receive_tax_return=$_POST['has-receive-tax-return'];
+   
+   
+    $total_turnover_yearly=$_POST['total-turnover-yearly'];
+    $any_stock=$_POST['any-stock'];
+    $no_of_bank_used=$_POST['no-of-bank-used'];
+    $no_of_bank_transactions_monthly= $_POST['no-of-bank-transactions-monthly'];
+    $no_of_non_bank_transactions_monthly=$_POST['no-of-non-bank-transactions-monthly'];
+    $any_property= $_POST['any-property'];
+    $any_motor_vehicle=$_POST['any-motor-vehicle'];
+    $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
+    $no_of_employees=$_POST['no-of-employees'];
+   
+    
+    $post_title = $client_name.' application';
+    $post_id = wp_insert_post(array (
+        'post_type' => 'audit_and_tax_report',
+        'post_title' => $post_title,
+        'post_status' => 'publish',
+        'comment_status' => 'closed',   // if you prefer
+        'ping_status' => 'closed',      // if you prefer
+    ));   
+
+
+    if ($post_id) {
+        add_post_meta($post_id, 'client_name', $client_name);
+        add_post_meta($post_id, 'tel', $tel);
+        add_post_meta($post_id, 'email', $email);
+        add_post_meta($post_id, 'reporting_purposes', $reporting_purposes);
+        add_post_meta($post_id, 'other_reporting_purposes', $other_reporting_purposes);
+        add_post_meta($post_id, 'company_name', $company_name);
+        add_post_meta($post_id, 'principal_activities', $principal_activities);
+        add_post_meta($post_id, 'incorporation_date', $incorporation_date);
+        add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
+        add_post_meta($post_id, 'year_ended_date', $year_ended_date);
+        add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
+        add_post_meta($post_id, 'year_assessment', $year_assessment);
+        add_post_meta($post_id, 'has_receive_tax_return', $has_receive_tax_return);
+        add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
+        add_post_meta($post_id, 'any_stock', $any_stock);
+        add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
+        add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
+        add_post_meta($post_id, 'no_of_non_bank_transactions_monthly', $no_of_non_bank_transactions_monthly);
+        add_post_meta($post_id, 'any_property', $any_property);
+        add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
+        add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
+        add_post_meta($post_id, 'no_of_employees', $no_of_employees);   
+    }
+}
+
+
+if($_POST['form-type']=='com_sec_app_form')
+{
+    $client_name = $_POST['client-name'];
+    $tel = $_POST['tel'];
+    $email = $_POST['email'];
+    $fax = $_POST['fax'];
+    $billing_contact_person =$_POST['billing-contact-person'];
+    $contact_name=$_POST['contact-name'];
+    $contact_phone_number=$_POST['contact-phone-number'];
+    $contact_name_chinese=$_POST['contact-name-chinese'];
+    $contact_name_english=$_POST['contact-name-english'];
+    $date_change_secretary=$_POST['date-change-secretary'];
+    $details_of_changes=$_POST['details-of-changes'];
+    $details_of_changes_others=$_POST['details-of-changes-others'];
+    $remarks=$_POST['remarks'];
+    $virtual_office=$_POST['virtual-office'];
+    // $increase_of_capital=$_POST['increase-of-capital'];
+    // $allotment_of_shares=$_POST['allotment-of-shares'];
+    // $register_branch=$_POST['register-branch'];
+    // $annual_general_name=$_POST['annual-general-name'];
+    // $change_of_company_branch_name=$_POST['change-of-company-branch-name'];
+    // $transfer_of_shares= $_POST['transfer-of-shares'];
+    // $deregistration_of_limited_company= $_POST['deregistration-of-limited-company'];
+    $deregistration_of_limited_company = $_POST['deregistration-of-limited-company'];
+    $others=$_POST['others'];
+    
+    
+    $post_title = $client_name.' application';
+    $post_id = wp_insert_post(array (
+        'post_type' => 'com_sec_app_form',
+        'post_title' => $post_title,
+        'post_status' => 'publish',
+        'comment_status' => 'closed',   // if you prefer
+        'ping_status' => 'closed',      // if you prefer
+    ));   
+
+    if ($post_id) {
+        add_post_meta($post_id, 'name', $client_name);
+        add_post_meta($post_id, 'tel', $tel);
+        add_post_meta($post_id, 'email', $email);
+        add_post_meta($post_id, 'fax', $fax);
+        add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
+        add_post_meta($post_id, 'contact_person_name', $contact_name);
+        add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
+        add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
+        add_post_meta($post_id, 'company_name_english', $contact_name_english);
+        add_post_meta($post_id, 'date_of_changing_company_secretary', $date_change_secretary);
+        add_post_meta($post_id, 'remarks', $remarks);
+
+        add_post_meta($post_id, 'details_of_changes', $details_of_changes);
+        add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
+        add_post_meta($post_id, 'virtual_office', $virtual_office);
+        add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
+
+
+        // add_post_meta($post_id, 'increase_of_capital', $increase_of_capital);
+        // add_post_meta($post_id, 'allotment_of_shares', $allotment_of_shares);
+        // add_post_meta($post_id, 'register_branch', $register_branch);
+        // add_post_meta($post_id, 'annual_general_name', $annual_general_name);
+        // add_post_meta($post_id, 'change_of_company_branch_name', $change_of_company_branch_name);
+        // add_post_meta($post_id, 'transfer_of_shares', $transfer_of_shares);
+        // add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
+        add_post_meta($post_id, 'others', $deregistration_of_limited_company);
+
+        // 
+    }
+    
+
+}
+
+
+if(!empty($_FILES))
+{
+
+    
+    //File 1
+    if($_FILES["excel-file"]['size'])
+    {
+            $wordpress_upload_dir = wp_upload_dir();
+
+            $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["excel-file"]["name"];
+
+                $i=0;
+            while( file_exists( $new_file_path ) ) {
+                $i++;
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["excel-file"]["name"];
             }
+            
+            if (move_uploaded_file($_FILES["excel-file"]["tmp_name"], $new_file_path)) {
+    
+                $upload_id = wp_insert_attachment( array(
+                'guid'           => $new_file_path, 
+                'post_mime_type' => 'image/*',
+                //$_FILES["file_upload"]["tmp_name"],
+                'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["excel-file"]["name"] ),
+                'post_content'   => '',
+                'post_status'    => 'inherit'
+            ), $new_file_path );
+            require_once( ABSPATH . 'wp-admin/includes/image.php' );
+        
+            wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+
+            update_field( 'excel_file', $upload_id, $post_id );
+            // update_field( 'mid_report_approval', false, $school_id );
+
+
+            } else {
+                echo "Sorry, there was an error uploading your file.";
+            }
+    }
+
+        
+    //File a
+    if($_FILES["upload-file-1"]['size'])
+    {
+            $wordpress_upload_dir = wp_upload_dir();
+
+            $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-1"]["name"];
+
+                $i=0;
+            while( file_exists( $new_file_path ) ) {
+                $i++;
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-1"]["name"];
+            }
+            
+            if (move_uploaded_file($_FILES["upload-file-1"]["tmp_name"], $new_file_path)) {
+    
+                $upload_id = wp_insert_attachment( array(
+                'guid'           => $new_file_path, 
+                'post_mime_type' => 'image/*',
+                //$_FILES["file_upload"]["tmp_name"],
+                'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-1"]["name"] ),
+                'post_content'   => '',
+                'post_status'    => 'inherit'
+            ), $new_file_path );
+            require_once( ABSPATH . 'wp-admin/includes/image.php' );
+        
+            wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+
+            update_field( 'upload_file_1', $upload_id, $post_id );
+            // update_field( 'mid_report_approval', false, $school_id );
+
+
+            } else {
+                echo "Sorry, there was an error uploading your file.";
+            }
+    }
+
+        
+    //File b
+    if($_FILES["upload-file-2"]['size'])
+    {
+            $wordpress_upload_dir = wp_upload_dir();
+
+            $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-2"]["name"];
+
+                $i=0;
+            while( file_exists( $new_file_path ) ) {
+                $i++;
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-2"]["name"];
+            }
+            
+            if (move_uploaded_file($_FILES["upload-file-2"]["tmp_name"], $new_file_path)) {
+    
+                $upload_id = wp_insert_attachment( array(
+                'guid'           => $new_file_path, 
+                'post_mime_type' => 'image/*',
+                //$_FILES["file_upload"]["tmp_name"],
+                'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-2"]["name"] ),
+                'post_content'   => '',
+                'post_status'    => 'inherit'
+            ), $new_file_path );
+            require_once( ABSPATH . 'wp-admin/includes/image.php' );
+        
+            wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+
+            update_field( 'upload_file_2', $upload_id, $post_id );
+            // update_field( 'mid_report_approval', false, $school_id );
+
+
+            } else {
+                echo "Sorry, there was an error uploading your file.";
+            }
+    }
+    
+}
 
         }
-
-
-        if($_POST['form-type']=='audit_and_tax_report')
-        {
-           
-            $client_name = $_POST['client-name'];
-            $tel = $_POST['tel'];
-            $email = $_POST['email'];
-            $reporting_purposes = $_POST['reporting-purposes'];
-            $other_reporting_purposes=$_POST['other-reporting-purposes'];
-            $company_name=$_POST['company-name'];
-            $principal_activities=$_POST['principal-activities'];
-            $incorporation_date=$_POST['incorporation-date'];
-           
-            $performed_audit_before=$_POST['performed-audit-before'];
-            $year_ended_date=$_POST['year-ended-date'];
-           
-            $declared_profits_tax_before=$_POST['declared-profits-tax-before'];
-            $year_assessment=$_POST['year-assessment'];
-           
-            $has_receive_tax_return=$_POST['has-receive-tax-return'];
-           
-           
-            $total_turnover_yearly=$_POST['total-turnover-yearly'];
-            $any_stock=$_POST['any-stock'];
-            $no_of_bank_used=$_POST['no-of-bank-used'];
-            $no_of_bank_transactions_monthly= $_POST['no-of-bank-transactions-monthly'];
-            $no_of_non_bank_transactions_monthly=$_POST['no-of-non-bank-transactions-monthly'];
-            $any_property= $_POST['any-property'];
-            $any_motor_vehicle=$_POST['any-motor-vehicle'];
-            $no_of_loans_hire_purchases=$_POST['no-of-loans-hire-purchases'];
-            $no_of_employees=$_POST['no-of-employees'];
-           
-            
-            $post_title = $client_name.' application';
-            $post_id = wp_insert_post(array (
-                'post_type' => 'audit_and_tax_report',
-                'post_title' => $post_title,
-                'post_status' => 'publish',
-                'comment_status' => 'closed',   // if you prefer
-                'ping_status' => 'closed',      // if you prefer
-            ));   
-
-
-            if ($post_id) {
-                add_post_meta($post_id, 'client_name', $client_name);
-                add_post_meta($post_id, 'tel', $tel);
-                add_post_meta($post_id, 'email', $email);
-                add_post_meta($post_id, 'reporting_purposes', $reporting_purposes);
-                add_post_meta($post_id, 'other_reporting_purposes', $other_reporting_purposes);
-                add_post_meta($post_id, 'company_name', $company_name);
-                add_post_meta($post_id, 'principal_activities', $principal_activities);
-                add_post_meta($post_id, 'incorporation_date', $incorporation_date);
-                add_post_meta($post_id, 'performed_audit_before', $performed_audit_before);
-                add_post_meta($post_id, 'year_ended_date', $year_ended_date);
-                add_post_meta($post_id, 'declared_profits_tax_before', $declared_profits_tax_before);
-                add_post_meta($post_id, 'year_assessment', $year_assessment);
-                add_post_meta($post_id, 'has_receive_tax_return', $has_receive_tax_return);
-                add_post_meta($post_id, 'total_turnover_yearly', $total_turnover_yearly);
-                add_post_meta($post_id, 'any_stock', $any_stock);
-                add_post_meta($post_id, 'no_of_bank_used', $no_of_bank_used);
-                add_post_meta($post_id, 'no_of_bank_transactions_monthly', $no_of_bank_transactions_monthly);
-                add_post_meta($post_id, 'no_of_non_bank_transactions_monthly', $no_of_non_bank_transactions_monthly);
-                add_post_meta($post_id, 'any_property', $any_property);
-                add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
-                add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
-                add_post_meta($post_id, 'no_of_employees', $no_of_employees);   
-            }
-        }
-
-
-        if($_POST['form-type']=='com_sec_app_form')
-        {
-            $client_name = $_POST['client-name'];
-            $tel = $_POST['tel'];
-            $email = $_POST['email'];
-            $fax = $_POST['fax'];
-            $billing_contact_person =$_POST['billing-contact-person'];
-            $contact_name=$_POST['contact-name'];
-            $contact_phone_number=$_POST['contact-phone-number'];
-            $contact_name_chinese=$_POST['contact-name-chinese'];
-            $contact_name_english=$_POST['contact-name-english'];
-            $date_change_secretary=$_POST['date-change-secretary'];
-            $details_of_changes=$_POST['details-of-changes'];
-            $details_of_changes_others=$_POST['details-of-changes-others'];
-            $remarks=$_POST['remarks'];
-            $virtual_office=$_POST['virtual-office'];
-            // $increase_of_capital=$_POST['increase-of-capital'];
-            // $allotment_of_shares=$_POST['allotment-of-shares'];
-            // $register_branch=$_POST['register-branch'];
-            // $annual_general_name=$_POST['annual-general-name'];
-            // $change_of_company_branch_name=$_POST['change-of-company-branch-name'];
-            // $transfer_of_shares= $_POST['transfer-of-shares'];
-            // $deregistration_of_limited_company= $_POST['deregistration-of-limited-company'];
-            $deregistration_of_limited_company = $_POST['deregistration-of-limited-company'];
-            $others=$_POST['others'];
-            
-            
-            $post_title = $client_name.' application';
-            $post_id = wp_insert_post(array (
-                'post_type' => 'com_sec_app_form',
-                'post_title' => $post_title,
-                'post_status' => 'publish',
-                'comment_status' => 'closed',   // if you prefer
-                'ping_status' => 'closed',      // if you prefer
-            ));   
-
-            if ($post_id) {
-                add_post_meta($post_id, 'name', $client_name);
-                add_post_meta($post_id, 'tel', $tel);
-                add_post_meta($post_id, 'email', $email);
-                add_post_meta($post_id, 'fax', $fax);
-                add_post_meta($post_id, 'is_billing_contact_person', $billing_contact_person);
-                add_post_meta($post_id, 'contact_person_name', $contact_name);
-                add_post_meta($post_id, 'contact_person_phone_number', $contact_phone_number);
-                add_post_meta($post_id, 'company_name_chinese', $contact_name_chinese);
-                add_post_meta($post_id, 'company_name_english', $contact_name_english);
-                add_post_meta($post_id, 'date_of_changing_company_secretary', $date_change_secretary);
-                add_post_meta($post_id, 'remarks', $remarks);
-
-                add_post_meta($post_id, 'details_of_changes', $details_of_changes);
-                add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
-                add_post_meta($post_id, 'virtual_office', $virtual_office);
-                add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
-
-
-                // add_post_meta($post_id, 'increase_of_capital', $increase_of_capital);
-                // add_post_meta($post_id, 'allotment_of_shares', $allotment_of_shares);
-                // add_post_meta($post_id, 'register_branch', $register_branch);
-                // add_post_meta($post_id, 'annual_general_name', $annual_general_name);
-                // add_post_meta($post_id, 'change_of_company_branch_name', $change_of_company_branch_name);
-                // add_post_meta($post_id, 'transfer_of_shares', $transfer_of_shares);
-                // add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
-                add_post_meta($post_id, 'others', $deregistration_of_limited_company);
      
-                // 
-            }
-            
-
-        }
     }
 
 
-
-
-   if(!empty($_FILES))
-    {
- 
-        
-        //File 1
-        if($_FILES["excel-file"]['size'])
-        {
-                $wordpress_upload_dir = wp_upload_dir();
-
-                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["excel-file"]["name"];
-
-                    $i=0;
-                while( file_exists( $new_file_path ) ) {
-                    $i++;
-                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["excel-file"]["name"];
-                }
-                
-                if (move_uploaded_file($_FILES["excel-file"]["tmp_name"], $new_file_path)) {
-        
-                    $upload_id = wp_insert_attachment( array(
-                    'guid'           => $new_file_path, 
-                    'post_mime_type' => 'image/*',
-                    //$_FILES["file_upload"]["tmp_name"],
-                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["excel-file"]["name"] ),
-                    'post_content'   => '',
-                    'post_status'    => 'inherit'
-                ), $new_file_path );
-                require_once( ABSPATH . 'wp-admin/includes/image.php' );
-            
-                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
-
-                update_field( 'excel_file', $upload_id, $post_id );
-                // update_field( 'mid_report_approval', false, $school_id );
-
-
-                } else {
-                    echo "Sorry, there was an error uploading your file.";
-                }
-        }
-
-         
-        //File a
-        if($_FILES["upload-file-1"]['size'])
-        {
-                $wordpress_upload_dir = wp_upload_dir();
-
-                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-1"]["name"];
-
-                    $i=0;
-                while( file_exists( $new_file_path ) ) {
-                    $i++;
-                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-1"]["name"];
-                }
-                
-                if (move_uploaded_file($_FILES["upload-file-1"]["tmp_name"], $new_file_path)) {
-        
-                    $upload_id = wp_insert_attachment( array(
-                    'guid'           => $new_file_path, 
-                    'post_mime_type' => 'image/*',
-                    //$_FILES["file_upload"]["tmp_name"],
-                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-1"]["name"] ),
-                    'post_content'   => '',
-                    'post_status'    => 'inherit'
-                ), $new_file_path );
-                require_once( ABSPATH . 'wp-admin/includes/image.php' );
-            
-                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
-
-                update_field( 'upload_file_1', $upload_id, $post_id );
-                // update_field( 'mid_report_approval', false, $school_id );
-
-
-                } else {
-                    echo "Sorry, there was an error uploading your file.";
-                }
-        }
-
-         
-        //File b
-        if($_FILES["upload-file-2"]['size'])
-        {
-                $wordpress_upload_dir = wp_upload_dir();
-
-                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-2"]["name"];
-
-                    $i=0;
-                while( file_exists( $new_file_path ) ) {
-                    $i++;
-                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-2"]["name"];
-                }
-                
-                if (move_uploaded_file($_FILES["upload-file-2"]["tmp_name"], $new_file_path)) {
-        
-                    $upload_id = wp_insert_attachment( array(
-                    'guid'           => $new_file_path, 
-                    'post_mime_type' => 'image/*',
-                    //$_FILES["file_upload"]["tmp_name"],
-                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-2"]["name"] ),
-                    'post_content'   => '',
-                    'post_status'    => 'inherit'
-                ), $new_file_path );
-                require_once( ABSPATH . 'wp-admin/includes/image.php' );
-            
-                wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
-
-                update_field( 'upload_file_2', $upload_id, $post_id );
-                // update_field( 'mid_report_approval', false, $school_id );
-
-
-                } else {
-                    echo "Sorry, there was an error uploading your file.";
-                }
-        }
-        
-}
 
 
     

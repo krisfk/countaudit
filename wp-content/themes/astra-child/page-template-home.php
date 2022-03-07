@@ -1029,9 +1029,7 @@ if ($_POST) {
 
         return json_decode($result, true);
     }
-
-    // Call the function post_captcha
-    $res = post_captcha($_POST['g-recaptcha-response']);
+   $res = post_captcha($_POST['g-recaptcha-response']);
 
     if (!$res['success']) {
         ?>
@@ -1043,11 +1041,8 @@ if ($_POST) {
                         'Please go back and make sure you check the security CAPTCHA box.');
 
                 })
-                // alert('Please go back and make sure you check the security CAPTCHA box.');
                 </script>
                 <?php
-        // alert('Please go back and make sure you check the security CAPTCHA box.');
-        // echo '<p>Please go back and make sure you check the security CAPTCHA box.</p><br>';
     } else {
         ?>
                 <script type="text/javascript">
@@ -1060,8 +1055,6 @@ if ($_POST) {
                 })
                 </script>
                 <?php
-        // alert('submitted');
-        // echo '<br><p>CAPTCHA was completed successfully!</p><br>';
     }
 }
 
