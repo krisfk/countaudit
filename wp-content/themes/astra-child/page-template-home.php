@@ -1068,7 +1068,7 @@ if ($_POST) {
 
 // 
                     
-                wp_mail( $receive_email, 'Countaudit 一般查詢(from'.$client_name.')', $send_content );   
+                wp_mail( $receive_email, 'Countaudit 一般查詢(from '.$client_name.')', $send_content );   
                
                 
         }
