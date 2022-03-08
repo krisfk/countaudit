@@ -116,6 +116,83 @@ get_header(); ?>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
                 <?php echo get_field('content_4');?>
 
+
+                <?php
+if ($_POST) {
+    function post_captcha($user_response) {
+        $fields_string = '';
+        $fields = array(
+            'secret' => '6LdMWbweAAAAANK8OWHVYPts4avJ5fblHpeBpV-C',
+            'response' => $user_response
+        );
+        foreach($fields as $key=>$value)
+        $fields_string .= $key . '=' . $value . '&';
+        $fields_string = rtrim($fields_string, '&');
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+        curl_setopt($ch, CURLOPT_POST, count($fields));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
+
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        return json_decode($result, true);
+    }
+   $res = post_captcha($_POST['g-recaptcha-response']);
+
+    if (!$res['success']) {
+        ?>
+                <script type="text/javascript">
+                $(function() {
+
+                    $('.lightbox').fadeIn(200);
+                    $('.lightbox-msg-txt').html(
+                        'Please go back and make sure you check the security CAPTCHA box.');
+
+                })
+                </script>
+                <?php
+    } else {
+
+
+        if($_POST)
+        {
+            global $receive_email;
+
+                    $client_name=$_POST['client-name'];
+                    $tel=$_POST['tel'];
+                    $email=$_POST['email'];
+                    $enquiry_type=$_POST['enquiry-type'];
+                    $message = $_POST['message'];
+                    $send_content='';
+                    $send_content .='稱呼:'.$client_name.'<br>';
+                    $send_content .='聯絡電話:'.$tel.'<br>';
+                    $send_content .='電郵:'.$email.'<br>';
+                    $send_content .='查詢類別:'.$enquiry_type.'<br>';
+                    $send_content .='簡短留言:'.$message.'<br>';
+                 
+                wp_mail( $receive_email, 'Countaudit 一般查詢(from '.$client_name.')', $send_content );   
+               
+                
+        }
+        
+        ?>
+                <script type="text/javascript">
+                $(function() {
+
+                    $('.lightbox').fadeIn(200);
+                    $('.lightbox-msg-txt').html(
+                        'Submitted successfully, we will get back to you soon.');
+
+                })
+                </script>
+                <?php
+    }
+}
+
+?>
                 <!-- <div class="form-div white-bg contact-form-div">
 
                     <input type="text" class="form-control" placeholder="如何稱呼您？">

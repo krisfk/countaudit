@@ -1049,11 +1049,7 @@ if ($_POST) {
         if($_POST)
         {
             global $receive_email;
-            //    
-            // 
-                    // $to='krisfk@gmail.com';
-                    // $subject='testing -subject';
-                    // $message='msg tdxgt';
+
                     $client_name=$_POST['client-name'];
                     $tel=$_POST['tel'];
                     $email=$_POST['email'];
@@ -1065,9 +1061,7 @@ if ($_POST) {
                     $send_content .='電郵:'.$email.'<br>';
                     $send_content .='查詢類別:'.$enquiry_type.'<br>';
                     $send_content .='簡短留言:'.$message.'<br>';
-
-// 
-                    
+                 
                 wp_mail( $receive_email, 'Countaudit 一般查詢(from '.$client_name.')', $send_content );   
                
                 
