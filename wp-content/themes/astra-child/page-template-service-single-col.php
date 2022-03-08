@@ -431,6 +431,18 @@ if($_POST['form-type']=='virtual_office_form')
         add_post_meta($post_id, 'company_name_english', $contact_name_english);
          add_post_meta($post_id, 'virtual_office', $virtual_office);
        
+         global $receive_email;
+
+         $send_content='';
+         $send_content .='稱呼:'.$client_name.'<br>';
+         $send_content .='聯絡電話:'.$tel.'<br>';
+         $send_content .='電郵:'.$email.'<br>';
+         $send_content .='Browse form:'.get_site_url().'/print/?f=vof&aid='.$post_id.'<br>';
+      
+         wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content );   
+ 
+        
+         
     }
 }
 
@@ -503,6 +515,17 @@ if($_POST['form-type']=='incorp_limited_app')
         add_post_meta($post_id, 'bank_account_opening_referral_services', $bank_account_opening);
 
 
+         global $receive_email;
+
+        $send_content='';
+        $send_content .='稱呼:'.$client_name.'<br>';
+        $send_content .='聯絡電話:'.$tel.'<br>';
+        $send_content .='電郵:'.$email.'<br>';
+        $send_content .='Browse form:'.get_site_url().'/print/?f=ilaf&aid='.$post_id.'<br>';
+     
+        wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content );   
+
+        
 
         for($i=1;$i<=count($_POST['applicant-fill']);$i++)
         {

@@ -1656,7 +1656,6 @@ if($_POST['form-type']=='audit_and_tax_report')
         $send_content .='稱呼:'.$client_name.'<br>';
         $send_content .='聯絡電話:'.$tel.'<br>';
         $send_content .='電郵:'.$email.'<br>';
-        // $send_content .='查詢類別:'.$enquiry_type.'<br>';
         $send_content .='Browse form:'.get_site_url().'/print/?f=atrqf&aid='.$post_id.'<br>';
      
         wp_mail( $receive_email, 'Countaudit 審計及稅務報價表(from '.$client_name.')', $send_content );   
@@ -1729,6 +1728,18 @@ if($_POST['form-type']=='com_sec_app_form')
         // add_post_meta($post_id, 'transfer_of_shares', $transfer_of_shares);
         // add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
         add_post_meta($post_id, 'others', $deregistration_of_limited_company);
+
+        global $receive_email;
+
+        $send_content='';
+        $send_content .='稱呼:'.$client_name.'<br>';
+        $send_content .='聯絡電話:'.$tel.'<br>';
+        $send_content .='電郵:'.$email.'<br>';
+        $send_content .='Browse form:'.get_site_url().'/print/?f=csf&aid='.$post_id.'<br>';
+     
+        wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content );   
+
+        
 
         // 
     }
