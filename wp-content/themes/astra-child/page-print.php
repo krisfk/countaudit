@@ -6,7 +6,7 @@ get_header();
 
 
     <div class="print-header">
-
+        <a href="javascript:void(0);" class="print-btn">Print/Print as PDF</a>
         <div class="client-code-div">
             <table>
                 <tr>
@@ -3724,7 +3724,14 @@ get_header();
 </div>
 
 <script type="text/javascript">
+$(function() {
 
+
+    $('.print-btn').click(function() {
+
+        window.print();
+    })
+})
 </script>
 
 <?php get_footer(); ?>
