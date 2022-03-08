@@ -135,6 +135,6 @@ add_filter( 'wp_mail_content_type','wpse27856_set_content_type' );
 
 function receive_email_func() {
 	global $receive_email;
-	$receive_email = 'krisfk@gmail.com';
+	$receive_email = 'info@countaudit.hk';
 }
 add_action( 'after_setup_theme', 'receive_email_func' );
