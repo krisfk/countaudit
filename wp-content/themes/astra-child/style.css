@@ -1075,6 +1075,8 @@ li.ls3 {
     right: -35px;
 }
 
+.print-btn {}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}

@@ -6,7 +6,6 @@ get_header();
 
 
     <div class="print-header">
-        <a href="javascript:void(0);" class="print-btn">Print/Print as PDF</a>
         <div class="client-code-div">
             <table>
                 <tr>
@@ -24,6 +23,10 @@ get_header();
     </div>
 
     <div class="desktop-print-header">
+
+        <a href="javascript:void(0);" class="print-btn">Print/Print as PDF</a>
+
+
         <div class="client-code-div">
             <table>
                 <tr>
