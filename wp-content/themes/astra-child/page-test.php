@@ -10,10 +10,10 @@
 
 <body>
     <?php 
-    $to='krisfk@gmail.com';
-    $subject='testing -subject';
-    $message='msg tdxgt';
-    wp_mail( $to, $subject, $message );
+    // $to='krisfk@gmail.com';
+    // $subject='testing -subject';
+    // $message='msg tdxgt';
+    // wp_mail( $to, $subject, $message );
     
     ?>
 </body>

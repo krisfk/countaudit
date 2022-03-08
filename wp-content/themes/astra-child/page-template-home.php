@@ -1044,6 +1044,20 @@ if ($_POST) {
                 </script>
                 <?php
     } else {
+
+
+        if($_POST)
+        {
+            
+               
+                    // $to='krisfk@gmail.com';
+                    // $subject='testing -subject';
+                    // $message='msg tdxgt';
+                    // wp_mail( $to, $subject, $message );   
+               
+                
+        }
+        
         ?>
                 <script type="text/javascript">
                 $(function() {
@@ -1062,6 +1076,7 @@ if ($_POST) {
 
                 <?php echo $content_8;?>
 
+
                 <!-- <div class="form-div white-bg contact-form-div">
 
                     <input type="text" class="form-control" placeholder="如何稱呼您？">
@@ -1075,6 +1090,13 @@ if ($_POST) {
                     </div>
 
                 </div> -->
+                <?php
+                	global $receive_email;
+                    echo $receive_email;
+                    // $receive_email = 'krisfk@gmail.com';
+
+                    
+                ?>
             </div>
         </div>
     </div>
