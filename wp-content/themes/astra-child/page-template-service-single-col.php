@@ -543,7 +543,7 @@ if($_POST['form-type']=='incorp_limited_app')
             // add_row('applicant_id_passport_company_no', $id_pass_co_no, $post_id);
             // add_row('percent_of_shares', $percent_of_shares, $post_id);
             // add_row('residential_address', $residential_address, $post_id);
-
+// 
             $row = array(
                 'applicant_position' => $applicant_position,
                 'applicant_name_chinese'   => $name_on_id_chinese,
