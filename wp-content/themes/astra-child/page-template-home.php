@@ -1062,7 +1062,11 @@ if ($_POST) {
                     $send_content .='查詢類別:'.$enquiry_type.'<br>';
                     $send_content .='簡短留言:'.$message.'<br>';
                  
-                wp_mail( $receive_email, 'Countaudit 一般查詢(from '.$client_name.')', $send_content );   
+                    $headers = array(
+                        'From: Countaudit <info@countaudit.com>',
+                      );
+                      
+                wp_mail( $receive_email, 'Countaudit 一般查詢(from '.$client_name.')', $send_content,$headers );   
                
                 
         }
