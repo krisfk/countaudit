@@ -1050,6 +1050,7 @@ if ($_POST) {
         {
             global $receive_email;
             //    
+            // 
                     // $to='krisfk@gmail.com';
                     // $subject='testing -subject';
                     // $message='msg tdxgt';
