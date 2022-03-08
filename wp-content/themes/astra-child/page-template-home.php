@@ -1058,9 +1058,17 @@ if ($_POST) {
                     $tel=$_POST['tel'];
                     $email=$_POST['email'];
                     $enquiry_type=$_POST['enquiry-type'];
+                    $message = $_POST['message'];
+
+                    $send_content ='稱呼:'.$client_name.'<br>';
+                    $send_content ='聯絡電話:'.$tel.'<br>';
+                    $send_content ='電郵:'.$email.'<br>';
+                    $send_content ='查詢類別:'.$enquiry_type.'<br>';
+                    $send_content ='簡短留言:'.$message.'<br>';
+
 // 
                     
-                wp_mail( $receive_email, 'Countaudit 一般查詢', $message );   
+                wp_mail( $receive_email, 'Countaudit 一般查詢(from'.$client_name.')', $message );   
                
                 
         }
