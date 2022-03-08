@@ -1075,7 +1075,16 @@ li.ls3 {
     right: -35px;
 }
 
-.print-btn {}
+.print-btn {
+    position: absolute;
+    left: 320px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    background: #3b475e;
+}
 
 @media only screen and (max-width: 1920px) {}
 
