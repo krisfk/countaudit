@@ -1075,7 +1075,8 @@ li.ls3 {
     right: -35px;
 }
 
-.print-btn {
+.print-btn,
+.print-btn:hover {
     position: absolute;
     left: 320px;
     text-decoration: none;
@@ -1467,6 +1468,7 @@ li.ls3 {
     .desktop-print-header {
         display: block;
         margin: 1rem 0 0 0;
+        position: relative;
     }
     .print-header {
         display: none;
