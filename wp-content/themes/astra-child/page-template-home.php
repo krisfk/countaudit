@@ -1058,7 +1058,7 @@ if ($_POST) {
                     $email=$_POST['email'];
                     $enquiry_type=$_POST['enquiry-type'];
 
-                    
+                    // 
                 wp_mail( $receive_email, 'Countaudit 一般查詢', $message );   
                
                 
