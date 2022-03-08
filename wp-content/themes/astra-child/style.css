@@ -1121,6 +1121,7 @@ li.ls3 {
 
 .print-btn:hover {
     opacity: 0.85;
+    color: #fff;
 }
 
 @media only screen and (max-width: 1920px) {}
