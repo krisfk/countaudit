@@ -439,7 +439,12 @@ if($_POST['form-type']=='virtual_office_form')
          $send_content .='電郵:'.$email.'<br>';
          $send_content .='Browse form:'.get_site_url().'/print/?f=vof&aid='.$post_id.'<br>';
       
-         wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content );   
+
+        $headers = array(
+            'From: Countaudit <info@countaudit.com>',
+          );
+
+         wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content,$headers );   
  
         
          
@@ -523,7 +528,12 @@ if($_POST['form-type']=='incorp_limited_app')
         $send_content .='電郵:'.$email.'<br>';
         $send_content .='Browse form:'.get_site_url().'/print/?f=ilaf&aid='.$post_id.'<br>';
      
-        wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content );   
+
+        $headers = array(
+            'From: Countaudit <info@countaudit.com>',
+          );
+
+        wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content,$headers );   
 
         
 

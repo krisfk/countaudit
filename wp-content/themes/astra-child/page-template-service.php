@@ -1658,7 +1658,10 @@ if($_POST['form-type']=='audit_and_tax_report')
         $send_content .='電郵:'.$email.'<br>';
         $send_content .='Browse form:'.get_site_url().'/print/?f=atrqf&aid='.$post_id.'<br>';
      
-        wp_mail( $receive_email, 'Countaudit 審計及稅務報價表(from '.$client_name.')', $send_content );   
+        $headers = array(
+            'From: Countaudit <info@countaudit.com>',
+          );
+        wp_mail( $receive_email, 'Countaudit 審計及稅務報價表(from '.$client_name.')', $send_content,$headers );   
 
         
     }
@@ -1737,7 +1740,12 @@ if($_POST['form-type']=='com_sec_app_form')
         $send_content .='電郵:'.$email.'<br>';
         $send_content .='Browse form:'.get_site_url().'/print/?f=csf&aid='.$post_id.'<br>';
      
-        wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content );   
+
+        $headers = array(
+            'From: Countaudit <info@countaudit.com>',
+          );
+
+        wp_mail( $receive_email, 'Countaudit 香港公司秘書服務計劃申請表 (from '.$client_name.')', $send_content,$headers );   
 
         
 
