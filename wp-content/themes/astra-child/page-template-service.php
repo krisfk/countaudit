@@ -1575,6 +1575,9 @@ if($_POST['form-type']=='accounting_q_form')
         add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
         add_post_meta($post_id, 'no_of_employees', $no_of_employees);
 
+   
+
+
     }
 
 }
@@ -1645,6 +1648,20 @@ if($_POST['form-type']=='audit_and_tax_report')
         add_post_meta($post_id, 'any_motor_vehicle', $any_motor_vehicle);
         add_post_meta($post_id, 'no_of_loans_hire_purchases', $no_of_loans_hire_purchases);
         add_post_meta($post_id, 'no_of_employees', $no_of_employees);   
+
+
+        global $receive_email;
+
+        $send_content='';
+        $send_content .='稱呼:'.$client_name.'<br>';
+        $send_content .='聯絡電話:'.$tel.'<br>';
+        $send_content .='電郵:'.$email.'<br>';
+        // $send_content .='查詢類別:'.$enquiry_type.'<br>';
+        $send_content .='Browse form:'.get_site_url().'/print/?f=atrqf&aid='.$post_id.'<br>';
+     
+        wp_mail( $receive_email, 'Countaudit 審計及稅務報價表(from '.$client_name.')', $send_content );   
+
+        
     }
 }
 
