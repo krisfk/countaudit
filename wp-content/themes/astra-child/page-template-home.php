@@ -1048,12 +1048,18 @@ if ($_POST) {
 
         if($_POST)
         {
-            
+            global $receive_email;
                
                     // $to='krisfk@gmail.com';
                     // $subject='testing -subject';
                     // $message='msg tdxgt';
-                    // wp_mail( $to, $subject, $message );   
+                    $client_name=$_POST['client-name'];
+                    $tel=$_POST['tel'];
+                    $email=$_POST['email'];
+                    $enquiry_type=$_POST['enquiry-type'];
+
+                    
+                wp_mail( $receive_email, 'Countaudit 一般查詢', $message );   
                
                 
         }
@@ -1091,9 +1097,9 @@ if ($_POST) {
 
                 </div> -->
                 <?php
-                	global $receive_email;
-                    echo $receive_email;
-                    // $receive_email = 'krisfk@gmail.com';
+                	// global $receive_email;
+                    // echo $receive_email;
+                    // // $receive_email = 'krisfk@gmail.com';
 
                     
                 ?>
