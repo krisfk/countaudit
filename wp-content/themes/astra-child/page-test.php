@@ -16,6 +16,7 @@
     wp_mail( $to, $subject, $message );
     
     ?>
+    <img src="https://i.ibb.co/SV0h427/octobus.jpg">
 </body>
 
 </html>
