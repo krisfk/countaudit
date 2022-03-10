@@ -12,7 +12,7 @@
     <?php 
     $to='krisfk@gmail.com';
     $subject='testing -subject';
-    $message='fdsfdffdsfs<img src="https://www.djs.com.hk/wp-content/uploads/2021/06/cropped-djs-logo.jpg">';
+    $message='fdsfdffdsfs<img src="http://64.227.13.14/testwp/wp-content/uploads/2022/03/octobus.jpeg" style="width:300px;height:300px;">';
     wp_mail( $to, $subject, $message );
     
     ?>
