@@ -12,11 +12,11 @@
     <?php 
     $to='krisfk@gmail.com';
     $subject='testing -subject';
-    $message='fdsfdffdsfs<img src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/octobus.jpeg">';
+    $message='fdsfdffdsfs<img src="https://www.djs.com.hk/wp-content/uploads/2021/06/cropped-djs-logo.jpg">';
     wp_mail( $to, $subject, $message );
     
     ?>
-    <img src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/octobus.jpeg">
+    <!-- <img src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/octobus.jpeg"> -->
 </body>
 
 </html>
