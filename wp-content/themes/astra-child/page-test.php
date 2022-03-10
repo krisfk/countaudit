@@ -10,10 +10,10 @@
 
 <body>
     <?php 
-    $to='krisfk@gmail.com';
-    $subject='testing -subject';
-    $message='fdsfdffdsfshaha<img title="test" alt="test" src="https://a5living.com/wp-content/uploads/2021/07/LOGO%EF%BC%BFSQUARE.png" style="width:400px;height:400px;">';
-    wp_mail( $to, $subject, $message );
+    // $to='krisfk@gmail.com';
+    // $subject='testing -subject';
+    // $message='fdsfdffdsfshaha<img title="test" alt="test" src="https://a5living.com/wp-content/uploads/2021/07/LOGO%EF%BC%BFSQUARE.png" style="width:400px;height:400px;">';
+    // wp_mail( $to, $subject, $message );
     
     ?>
     <!-- <img src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/octobus.jpeg"> -->
