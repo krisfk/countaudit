@@ -12,7 +12,7 @@
     <?php 
     $to='krisfk@gmail.com';
     $subject='testing -subject';
-    $message='fdsfdffdsfs<img src="https://a5living.com/wp-content/uploads/2021/07/LOGO%EF%BC%BFSQUARE.png" style="width:400px;height:400px;">';
+    $message='fdsfdffdsfshaha<img title="test" alt="test" src="https://a5living.com/wp-content/uploads/2021/07/LOGO%EF%BC%BFSQUARE.png" style="width:400px;height:400px;">';
     wp_mail( $to, $subject, $message );
     
     ?>
