@@ -99,7 +99,7 @@ get_header(); ?>
                     <div class="container title-container">
                         <div>
                             <div>
-                                <h1 class="txt">承包您所有企業行政工作</h1>
+                                <h1 class="txt big">承包您所有企業行政工作</h1>
                             </div>
                             <h3 class="txt smaller">審計 | 會計 | 報稅 | 秘書 | 網站 | 數位宣傳 | 設計 等服務</h3>
                         </div>
