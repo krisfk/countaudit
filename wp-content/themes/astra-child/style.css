@@ -1360,6 +1360,10 @@ a[href^='tel:'] {
         height: 300px;
         background-size: auto 100% !important;
     }
+    .dummy-banner-img {
+        opacity: 0;
+        height: 300px;
+    }
     .main-banner .main-banner-img {
         opacity: 0;
     }
