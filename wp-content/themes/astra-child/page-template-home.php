@@ -116,7 +116,7 @@ get_header(); ?>
                         <div>
                             <div>
 
-                                <h1 class="txt">每天不分晝夜</h1>
+                                <h1 class="txt big">每天不分晝夜</h1>
                             </div>
                             <h3 class="txt">解答您的各種商業疑難</h3>
                         </div>
