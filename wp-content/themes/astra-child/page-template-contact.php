@@ -11,7 +11,8 @@
 
 get_header(); ?>
 
-<div class="main-banner">
+<div class="main-banner"
+    style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-1.jpg)">
 
     <div class="position-absolute top-0 start-0 w-100 h-100">
         <div class="container title-container">
