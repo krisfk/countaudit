@@ -847,6 +847,9 @@ get_header();
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
                                             <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                         </ul>
 
                                     </td>
@@ -878,7 +881,8 @@ get_header();
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
                                             <li class="ls1">信件代收</li>
-                                            <li class="ls1">製作公司水牌</li>
+                                            <li class="ls1">每月一次郵件轉寄 （註：不設到取服務）</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
                                         </ul>
 
                                     </td>
@@ -897,6 +901,9 @@ get_header();
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
                                             <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                             <li class="ls2">辦公室電話代接</li>
                                             <li class="ls2">稅局文件代處理及信件代開</li>
                                             <li class="ls2">準備及保存重要控制人登記册</li>
@@ -936,8 +943,10 @@ get_header();
                                             <li class="ls1">信件包裹代收</li>
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
-                                            <li class="ls1">更改商業登記地址</li>
                                             <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                             <li class="ls2">辦公室電話代接</li>
                                             <li class="ls2">稅局文件代處理及信件代開</li>
                                             <li class="ls2">準備及保存重要控制人登記册</li>
@@ -2075,6 +2084,9 @@ get_header();
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
                                             <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                         </ul>
 
                                     </td>
@@ -2106,7 +2118,8 @@ get_header();
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
                                             <li class="ls1">信件代收</li>
-                                            <li class="ls1">製作公司水牌</li>
+                                            <li class="ls1">每月一次郵件轉寄 （註：不設到取服務）</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
                                         </ul>
 
                                     </td>
@@ -2125,6 +2138,9 @@ get_header();
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
                                             <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                             <li class="ls2">辦公室電話代接</li>
                                             <li class="ls2">稅局文件代處理及信件代開</li>
                                             <li class="ls2">準備及保存重要控制人登記册</li>
@@ -2164,8 +2180,10 @@ get_header();
                                             <li class="ls1">信件包裹代收</li>
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
-                                            <li class="ls1">更改商業登記地址</li>
                                             <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                             <li class="ls2">辦公室電話代接</li>
                                             <li class="ls2">稅局文件代處理及信件代開</li>
                                             <li class="ls2">準備及保存重要控制人登記册</li>
@@ -3041,6 +3059,9 @@ get_header();
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
                                             <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                         </ul>
 
                                     </td>
@@ -3072,7 +3093,8 @@ get_header();
                                         <ul class="m-0 ps-4">
                                             <li class="ls1">註冊公司地址</li>
                                             <li class="ls1">信件代收</li>
-                                            <li class="ls1">製作公司水牌</li>
+                                            <li class="ls1">每月一次郵件轉寄 （註：不設到取服務）</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
                                         </ul>
 
                                     </td>
@@ -3091,6 +3113,9 @@ get_header();
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
                                             <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                             <li class="ls2">辦公室電話代接</li>
                                             <li class="ls2">稅局文件代處理及信件代開</li>
                                             <li class="ls2">準備及保存重要控制人登記册</li>
@@ -3130,8 +3155,10 @@ get_header();
                                             <li class="ls1">信件包裹代收</li>
                                             <li class="ls1">稅局郵件轉寄</li>
                                             <li class="ls1">製作公司水牌</li>
-                                            <li class="ls1">更改商業登記地址</li>
                                             <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                            <li class="ls1">郵件到取</li>
+                                            <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                            <li class="ls1">郵件電子掃描</li>
                                             <li class="ls2">辦公室電話代接</li>
                                             <li class="ls2">稅局文件代處理及信件代開</li>
                                             <li class="ls2">準備及保存重要控制人登記册</li>
