@@ -733,7 +733,9 @@ img.scaled-image {
 }
 
 .title-container .txt.big {
-    font-size: 40px;
+    font-size: 60px;
+    font-family: serif;
+    font-weight: bold;
 }
 
 .title-container .txt {
