@@ -1362,6 +1362,14 @@ a[href^='tel:'] {
         margin: 0 auto;
         width: 370px;
     }
+    .expand-cnt {
+        display: none;
+        background: #f7f7f7;
+        padding: 1rem;
+        margin: 1rem 0 1rem 0;
+        border-radius: 1rem;
+        text-align: left;
+    }
     .home-big-point-content ul li a {
         text-decoration: none;
         color: #363e51;
