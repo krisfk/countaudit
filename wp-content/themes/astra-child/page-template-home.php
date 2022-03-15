@@ -147,7 +147,7 @@ get_header(); ?>
 <div class="container home-pts-ul-wrapper-container">
     <?php echo get_field('content_1');?>
 
-    <h1>商業財務，從此變得簡單
+    <h1 class="text-center mt-4">商業財務，從此變得簡單
     </h1>
     <!-- <ul class="home-pts-ul  p-0 ">
         <li>
