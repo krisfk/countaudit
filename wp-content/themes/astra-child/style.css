@@ -1423,7 +1423,7 @@ a[href^='tel:'] {
 
 @media only screen and (max-width: 480px) {
     .title-container .txt.big {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-family: serif;
         font-weight: bold;
     }
