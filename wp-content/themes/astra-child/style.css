@@ -1370,6 +1370,9 @@ a[href^='tel:'] {
         opacity: 0;
         height: 300px;
     }
+    .main-banner {
+        height: 300px;
+    }
     .main-banner .main-banner-img {
         opacity: 0;
     }
