@@ -1422,6 +1422,11 @@ a[href^='tel:'] {
 }
 
 @media only screen and (max-width: 480px) {
+    .title-container .txt.big {
+        font-size: 1rem;
+        font-family: serif;
+        font-weight: bold;
+    }
     /* .gold-diamond {
         width: 50px;
         position: relative;
