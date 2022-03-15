@@ -22,7 +22,7 @@ get_header(); ?>
 
 
         <div class="container title-container">
-            <div class="txt big"><?php echo get_field('title_txt');?></div>
+            <div><?php echo get_field('title_txt');?></div>
         </div>
 
     </div>
