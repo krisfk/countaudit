@@ -1375,6 +1375,7 @@ a[href^='tel:'] {
     }
     .main-banner .main-banner-img {
         opacity: 0;
+        height: 300px;
     }
     .home-big-point-content {
         display: table;
