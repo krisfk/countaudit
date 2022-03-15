@@ -732,6 +732,10 @@ img.scaled-image {
     height: 0px;
 }
 
+.title-container .txt.big {
+    font-size: 40px;
+}
+
 .title-container .txt {
     display: inline-block;
     font-size: 1.5rem;
