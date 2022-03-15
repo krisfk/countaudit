@@ -1124,6 +1124,10 @@ li.ls3 {
     color: #fff;
 }
 
+.gold-diamond {
+    width: 14px;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
