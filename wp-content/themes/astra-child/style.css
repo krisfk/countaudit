@@ -1356,6 +1356,12 @@ a[href^='tel:'] {
 }
 
 @media only screen and (max-width: 640px) {
+    .home-big-point-content {
+        display: table;
+        text-align: center;
+        margin: 0 auto;
+        width: 370px;
+    }
     .about-carousel .slick-slide {
         margin: 0 1rem;
     }
@@ -1385,12 +1391,6 @@ a[href^='tel:'] {
 }
 
 @media only screen and (max-width: 480px) {
-    .home-big-point-content {
-        display: table;
-        text-align: center;
-        margin: 0 auto;
-        width: 370px;
-    }
     /* .gold-diamond {
         width: 50px;
         position: relative;
