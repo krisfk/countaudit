@@ -166,6 +166,126 @@ get_header(); ?>
                     </div>
                 </div>
 
+                <div class="qt-ans-group mb-3">
+
+                    <a href="javascript:void(0);" class="qt position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2 align-middle  symbol-td">
+                                    <span class="symbol align-top">Q2.</span>
+                                </td>
+                                <td class="align-middle">
+                                    審計有什麼用途? </td>
+                            </tr>
+                        </table>
+
+
+                        <img class="arrow"
+                            src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/down-arrow-qa.png.webp"
+                            alt="">
+                    </a>
+
+                    <div class="ans position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2  symbol-td align-top">
+                                    <span class="symbol">A2.</span>
+                                </td>
+                                <td class="align-middle">
+                                    如上所述，審計的目的是令第三方信賴。故此審計的用途便視乎第三方是誰。 <br> <br>
+
+                                    如果第三方是稅務局的話，審計的用途便是在於報稅。如果第三方是銀行的話，審計的用途便是在於借錢。如果第三方是投資者/監管機構的話，審計的用途便是在於引進資金/完成合規程序。
+                                </td>
+                            </tr>
+
+                        </table>
+
+
+
+                    </div>
+                </div>
+                <div class="qt-ans-group mb-3">
+
+                    <a href="javascript:void(0);" class="qt position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2 align-middle  symbol-td">
+                                    <span class="symbol align-top">Q3.</span>
+                                </td>
+                                <td class="align-middle">
+                                    審計是如何收費? </td>
+                            </tr>
+                        </table>
+
+
+                        <img class="arrow"
+                            src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/down-arrow-qa.png.webp"
+                            alt="">
+                    </a>
+
+                    <div class="ans position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2  symbol-td align-top">
+                                    <span class="symbol">A3.</span>
+                                </td>
+                                <td class="align-middle">
+                                    審計的收費是在乎於公司的風險系數，公司的營業額、資產總值、業務類型、資產及支出類型均會影響公司的風險指數。
+                                </td>
+                            </tr>
+
+                        </table>
+
+
+
+                    </div>
+                </div>
+
+                <div class="qt-ans-group mb-3">
+
+                    <a href="javascript:void(0);" class="qt position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2 align-middle  symbol-td">
+                                    <span class="symbol align-top">Q4.</span>
+                                </td>
+                                <td class="align-middle">
+                                    審計是幾密收一次錢？ </td>
+                            </tr>
+                        </table>
+
+
+                        <img class="arrow"
+                            src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/down-arrow-qa.png.webp"
+                            alt="">
+                    </a>
+
+                    <div class="ans position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2  symbol-td align-top">
+                                    <span class="symbol">A4.</span>
+                                </td>
+                                <td class="align-middle">
+                                    一般審計是需要每年做一次的，那審計便是每年收一次錢。 <br> <br>
+
+                                    一般除了首年審計及最後一年審計外，其他年度的審計期間也是一年。首年審計及最後一年審計可以自訂審計結束日期（例如12月31日或者3月31日），但審計期間總長度不可以多於年半。
+                                </td>
+                            </tr>
+
+                        </table>
+
+
+
+                    </div>
+                </div>
+
 
             </div>
         </div>
