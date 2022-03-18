@@ -127,7 +127,7 @@ get_header(); ?>
                         <table class="m-0 border-0">
                             <tr>
                                 <td class="pe-2 align-middle">
-                                    <span class="symbol">Q</span>
+                                    <span class="symbol symbol-td">Q</span>
                                 </td>
                                 <td class="align-middle">
                                     問題問題問題問題問題問題問題問題問題問題問題問題問題</td>
@@ -143,7 +143,7 @@ get_header(); ?>
 
                         <table class="m-0 border-0">
                             <tr>
-                                <td class="pe-2 align-middle">
+                                <td class="pe-2 align-middle symbol-td">
                                     <span class="symbol">A</span>
                                 </td>
                                 <td class="align-middle">
