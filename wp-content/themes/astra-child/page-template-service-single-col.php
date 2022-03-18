@@ -300,7 +300,26 @@ get_header(); ?>
     <div class="img-shadow"></div>
 </div> -->
 
+<?php if(get_field('intro_title'))
+{
+    ?>
+<div class="row justify-content-center gx-5 mt-4">
 
+    <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
+
+        <h2 class="blue text-center mb-4"><?php echo get_field('intro_title');?>
+        </h2>
+
+        <div class="mt-4"><?php echo get_field('intro_content');?>
+        </div>
+
+
+    </div>
+</div>
+<?php
+}
+
+    ?>
 
 <div class="grey-bg-2 mt-5">
 

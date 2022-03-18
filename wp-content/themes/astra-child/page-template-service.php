@@ -114,7 +114,6 @@ get_header(); ?>
             </div>
         </div>
 
-        <?php //echo get_field('faq');?>
         <?php if(get_field('intro_title'))
 {
     ?>
