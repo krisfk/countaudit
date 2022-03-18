@@ -1186,6 +1186,8 @@ a[href^='tel:'] {
 .ans .symbol {
     font-size: 1.5rem;
     /* color: #7798f0; */
+    position: relative;
+    top: -8px;
 }
 
 .symbol-td {
