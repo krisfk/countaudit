@@ -114,15 +114,16 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="row justify-content-center gx-5">
+        <?php //echo get_field('faq');?>
+
+        <div class="row justify-content-center gx-5 mt-5">
 
             <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
 
 
-                <?php //echo get_field('faq');?>
 
 
-                <h2 class="blue text-center">FAQ</h2>
+                <h2 class="blue text-center mb-4">FAQ</h2>
 
                 <div class="qt-ans-group mb-3">
 
