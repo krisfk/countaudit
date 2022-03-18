@@ -125,6 +125,7 @@ get_header(); ?>
 
                 <?php
                     // Loop through rows.
+                    $idx=1;
                     while( have_rows('faqs') ) { the_row();
                 
                         ?>
@@ -136,7 +137,7 @@ get_header(); ?>
                         <table class="m-0 border-0">
                             <tr>
                                 <td class="pe-2 align-middle  symbol-td">
-                                    <span class="symbol align-top">Q1.</span>
+                                    <span class="symbol align-top">Q<?php echo $idx;?>.</span>
                                 </td>
                                 <td class="align-middle">
                                     <?php echo get_sub_field('question');?>
@@ -155,7 +156,7 @@ get_header(); ?>
                         <table class="m-0 border-0">
                             <tr>
                                 <td class="pe-2  symbol-td align-top">
-                                    <span class="symbol">A1.</span>
+                                    <span class="symbol">A<?php echo $idx;?>.</span>
                                 </td>
                                 <td class="align-middle">
                                     <?php echo get_sub_field('answer');?>
@@ -172,6 +173,7 @@ get_header(); ?>
                         // Load sub field value.
                         // $sub_value = get_sub_field('sub_field');
                         // Do something...
+                        $idx++;
                 
                     }
                 ?>
