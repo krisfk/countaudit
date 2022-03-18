@@ -119,10 +119,52 @@ get_header(); ?>
             <div class="col-10">
 
 
-                <?php echo get_field('faq');?>
+                <?php //echo get_field('faq');?>
+
+
+                <h2 class="blue text-center">FAQ</h2>
+
+                <div class="qt-ans-group mb-3">
+
+                    <a href="javascript:void(0);" class="qt position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2 align-middle  symbol-td">
+                                    <span class="symbol align-top">Q1.</span>
+                                </td>
+                                <td class="align-middle">
+                                    審計其實是什麼？跟核數/埋數/會計/做帳有什麼分別？
+                                </td>
+                            </tr>
+                        </table>
+
+
+                        <img class="arrow"
+                            src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/down-arrow-qa.png.webp"
+                            alt="">
+                    </a>
+
+                    <div class="ans position-relative">
+
+                        <table class="m-0 border-0">
+                            <tr>
+                                <td class="pe-2  symbol-td align-top">
+                                    <span class="symbol">A1.</span>
+                                </td>
+                                <td class="align-middle">
+                                    普遍來說，審計跟核數和埋數其實是同一個意思。簡單來說會計是記錄及反映公司的讚蝕錢及資產負債。 <br> <br>
+
+                                    而審計便是去按法例及規管程序去覆核及檢查會計帳目，然後出一份審計報告。審計的意義是在於用一個獨立的身份去確認會計帳目的真偽，令公司的財務狀況更有公信力，更能令第三方信賴。
+                                </td>
+                            </tr>
+
+                        </table>
 
 
 
+                    </div>
+                </div>
 
 
             </div>
