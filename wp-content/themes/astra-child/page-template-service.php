@@ -119,6 +119,42 @@ get_header(); ?>
             <div class="col-10">
 
                 <h2 class="blue text-center">FAQ</h2>
+
+                <div class="qt-ans-group mb-3">
+
+                    <a href="javascript:void(0);" class="qt position-relative">
+
+                        <table>
+                            <tr>
+                                <td class="pe-2">
+                                    <span class="symbol">Q</span>
+                                </td>
+                                <td>問題問題問題問題問題問題問題問題問題問題問題問題問題</td>
+                            </tr>
+                        </table>
+
+
+                        <img class="arrow" src="<?php echo get_template_directory_uri()?>/assets/images/down-arrow.png"
+                            alt="">
+                    </a>
+
+                    <div class="ans position-relative">
+
+                        <table>
+                            <tr>
+                                <td class="pe-2">
+                                    <span class="symbol">A</span>
+                                </td>
+                                <td>答案答案答案答案答案答案答案答案答案答案答案答案答案</td>
+                            </tr>
+                        </table>
+
+
+
+                    </div>
+                </div>
+
+
             </div>
         </div>
 
