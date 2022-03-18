@@ -118,7 +118,7 @@ get_header(); ?>
 
             <div class="col-10">
 
-                <h2 class="blue">FAQ</h2>
+                <h2 class="blue text-center">FAQ</h2>
             </div>
         </div>
 
