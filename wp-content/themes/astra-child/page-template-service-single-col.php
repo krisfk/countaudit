@@ -301,7 +301,7 @@ get_header(); ?>
 </div> -->
 <div class="mt-5">
 
-    <?php if(get_field('intro_title'))
+    <?php if(get_field('intro_title') ||get_field('intro_content'))
 {
     ?>
     <div class="row justify-content-center gx-5 mt-4">
