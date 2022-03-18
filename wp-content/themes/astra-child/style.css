@@ -10,6 +10,11 @@ Text Domain: astra-child
 Template: astra
 */
 
+a:hover,
+a:focus {
+    color: #3e485e;
+}
+
 body {
     color: #363e51 !important;
     scroll-behavior: auto;
