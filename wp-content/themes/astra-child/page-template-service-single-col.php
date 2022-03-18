@@ -822,6 +822,17 @@ if($_POST['form-type']=='incorp_limited_app')
 
     $(function() {
 
+
+        $('.qt').click(function() {
+            $(this).toggleClass('active');
+            if ($(this).hasClass('active')) {
+                $(this).next('.ans').slideDown(200);
+            } else {
+                $(this).next('.ans').slideUp(200);
+
+            }
+        });
+
         $('#tnc').html($('#tnc-data').html());
 
 
