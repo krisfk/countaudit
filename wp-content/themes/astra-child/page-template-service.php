@@ -83,6 +83,10 @@ get_header(); ?>
         <div class="col-lg-5 col-md-10 col-sm-10 col-10 ">
             <div class="text-start">
                 <?php echo get_field('service_content');?>
+
+                <div>test</div>
+
+
                 <!--
                     
                 <div>
@@ -130,7 +134,6 @@ get_header(); ?>
 
                 <?php echo get_field('content_2');?>
 
-                <div>test</div>
 
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
