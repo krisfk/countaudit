@@ -625,6 +625,18 @@ if(!empty($_FILES))
 
     $(function() {
 
+
+
+        $('.qt').click(function() {
+            $(this).toggleClass('active');
+            if ($(this).hasClass('active')) {
+                $(this).next('.ans').slideDown(200);
+            } else {
+                $(this).next('.ans').slideUp(200);
+
+            }
+        });
+
         // var tnc = '<?php// echo get_field('tnc');?>';
         // $('#tnc').html('<?php //echo get_field('tnc');?>');
         // $('#tnc').val(div.replace("\\n","\n"));
