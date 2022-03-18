@@ -1175,12 +1175,12 @@ a[href^='tel:'] {
 
 .qt .symbol {
     font-size: 1.5rem;
-    color: #f07798;
+    /* color: #f07798; */
 }
 
 .ans .symbol {
     font-size: 1.5rem;
-    color: #7798f0;
+    /* color: #7798f0; */
 }
 
 @media only screen and (max-width: 1920px) {}
