@@ -235,11 +235,13 @@ get_header(); ?>
                                         name="details-of-changes[]" type="checkbox"
                                         value="委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) / Secretary" />
                                     <label class="form-check-label" for="details-of-changes-3"> 委任 / 辭任董事或公司秘書 [ND2A /
-                                        ND4] Change / Resignation of Company Director(s) / Secretary </label></div>
+                                        ND4] Change / Resignation of Company Director(s) / Secretary </label>
+                                </div>
                                 <div class="form-check"><input id="details-of-changes-4" class="form-check-input"
                                         name="details-of-changes[]" type="checkbox" value="股權變動 Shares Transfer" />
                                     <label class="form-check-label" for="details-of-changes-4"> 股權變動 Shares Transfer
-                                    </label></div>
+                                    </label>
+                                </div>
                                 <div class="form-check"><input id="details-of-changes-5" class="form-check-input"
                                         name="details-of-changes[]" type="checkbox"
                                         value="更改註冊地址 [NR1] Change of Registered Address" /> <label
@@ -249,7 +251,8 @@ get_header(); ?>
                                         name="details-of-changes[]" type="checkbox"
                                         value="更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary " />
                                     <label class="form-check-label" for="details-of-changes-6"> 更改董事或公司秘書資料 [ND2B]
-                                        Change of Information of Company Director(s) / Secretary </label></div>
+                                        Change of Information of Company Director(s) / Secretary </label>
+                                </div>
                                 <div class="form-check"><input id="details-of-changes-7" class="form-check-input"
                                         name="details-of-changes[]" type="checkbox"
                                         value="增加註冊資本 [NSC1] Return of Allotment" /> <label class="form-check-label"
@@ -258,7 +261,8 @@ get_header(); ?>
                                         name="details-of-changes[]" type="checkbox"
                                         value="登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records" />
                                     <label class="form-check-label" for="details-of-changes-8"> 登記册及公司紀錄備存地點通知書 Notice
-                                        of Location of Registers and Company Records </label></div>
+                                        of Location of Registers and Company Records </label>
+                                </div>
                                 <div class="mt-3"><label class="form-check-label mb-3" for="defaultCheck1"> 其他 Others:
                                     </label> <input class="form-control" name="details-of-changes-others" type="text" />
                                 </div>
@@ -274,7 +278,9 @@ get_header(); ?>
                             <h4 class="text-center mb-4">服務計劃資料 Service Plan Information</h4>
                             <div class="mb-4">
 
-                                <b class="d-block text-center">Plan A (HK$1,400) </b>
+                                <b class="d-block text-center"> <label for="plan-a">Plan A (HK$1,400)</label> <input
+                                        id="plan-a" class="form-check-input" name="service_plan_information[]"
+                                        type="checkbox" value="plan A" /> </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                     <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
