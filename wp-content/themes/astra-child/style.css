@@ -1163,7 +1163,7 @@ a[href^='tel:'] {
 .qt:hover {
     display: block;
     border: 1px solid #dedede;
-    padding: 0.2rem;
+    padding: 0.2rem 0.5rem;
     text-decoration: none;
     color: #595959;
 }
@@ -1171,7 +1171,7 @@ a[href^='tel:'] {
 .ans {
     display: none;
     border: 1px solid #dcdcdc;
-    padding: 1rem;
+    padding: 0.2rem 0.5rem;
     text-decoration: none;
     color: #595959;
     margin: 0.2rem 0 0 0;
