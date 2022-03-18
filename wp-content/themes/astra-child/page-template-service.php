@@ -116,7 +116,10 @@ get_header(); ?>
 
         <div class="row justify-content-center gx-5">
 
-            <div class="col-10">fds</div>
+            <div class="col-10">
+
+                <h2 class="blue">FAQ</h2>
+            </div>
         </div>
 
     </div>
