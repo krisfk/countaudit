@@ -84,7 +84,6 @@ get_header(); ?>
             <div class="text-start">
                 <?php echo get_field('service_content');?>
 
-                <div>test</div>
 
 
                 <!--
@@ -114,6 +113,10 @@ get_header(); ?>
                  -->
             </div>
         </div>
+
+        <div>test</div>
+
+
     </div>
 
 
