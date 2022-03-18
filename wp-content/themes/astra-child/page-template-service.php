@@ -279,7 +279,7 @@ get_header(); ?>
                             <div class="mb-4">
 
                                 <b class="d-block text-center"> <label for="plan-a">Plan A (HK$1,400)</label> <input
-                                        id="plan-a" class="form-check-input" name="service_plan_information[]"
+                                        id="plan-a" class="form-check-input ms-2" name="service_plan_information[]"
                                         type="checkbox" value="plan A" /> </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
