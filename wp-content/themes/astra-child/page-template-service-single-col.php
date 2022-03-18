@@ -299,7 +299,7 @@ get_header(); ?>
     </div>
     <div class="img-shadow"></div>
 </div> -->
-<div>
+<div class="mt-5">
 
     <?php if(get_field('intro_title'))
 {
@@ -322,6 +322,81 @@ get_header(); ?>
 
     ?>
 
+
+    <?php
+if( have_rows('faqs'))
+{
+?>
+    <div class="row justify-content-center gx-5 mt-4">
+
+        <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
+
+            <h2 class="blue text-center mb-4">FAQ</h2>
+
+
+            <?php
+                    // Loop through rows.
+                    $idx=1;
+                    while( have_rows('faqs') ) { the_row();
+                
+                        ?>
+
+            <div class="qt-ans-group mb-3">
+
+                <a href="javascript:void(0);" class="qt position-relative">
+
+                    <table class="m-0 border-0">
+                        <tr>
+                            <td class="pe-2 align-middle  symbol-td">
+                                <span class="symbol align-top">Q<?php echo $idx;?>.</span>
+                            </td>
+                            <td class="align-middle">
+                                <?php echo get_sub_field('question');?>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                    <img class="arrow"
+                        src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/down-arrow-qa.png.webp" alt="">
+                </a>
+
+                <div class="ans position-relative">
+
+                    <table class="m-0 border-0">
+                        <tr>
+                            <td class="pe-2  symbol-td align-top">
+                                <span class="symbol">A<?php echo $idx;?>.</span>
+                            </td>
+                            <td class="align-middle">
+                                <?php echo get_sub_field('answer');?>
+                            </td>
+                        </tr>
+
+                    </table>
+
+
+
+                </div>
+            </div>
+            <?php
+                        // Load sub field value.
+                        // $sub_value = get_sub_field('sub_field');
+                        // Do something...
+                        $idx++;
+                
+                    }
+                ?>
+
+
+
+
+        </div>
+    </div>
+
+    <?php
+        
+                }?>
 </div>
 
 <div class="grey-bg-2 mt-5">
