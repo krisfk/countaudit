@@ -115,7 +115,12 @@ get_header(); ?>
         </div>
 
         <?php //echo get_field('faq');?>
+        <?php
+if( have_rows('faqs'))
+{
 
+
+?>
         <div class="row justify-content-center gx-5 mt-4">
 
             <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
@@ -183,6 +188,10 @@ get_header(); ?>
 
             </div>
         </div>
+
+        <?php
+        
+                }?>
 
     </div>
 
