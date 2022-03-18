@@ -127,7 +127,7 @@ get_header(); ?>
                         <table class="m-0 border-0">
                             <tr>
                                 <td class="pe-2 align-middle  symbol-td">
-                                    <span class="symbol">Q1.</span>
+                                    <span class="symbol align-top">Q1.</span>
                                 </td>
                                 <td class="align-middle">
                                     審計其實是什麼？跟核數/埋數/會計/做帳有什麼分別？
@@ -144,7 +144,7 @@ get_header(); ?>
 
                         <table class="m-0 border-0">
                             <tr>
-                                <td class="pe-2 align-middle symbol-td">
+                                <td class="pe-2  symbol-td align-top">
                                     <span class="symbol">A1.</span>
                                 </td>
                                 <td class="align-middle">
