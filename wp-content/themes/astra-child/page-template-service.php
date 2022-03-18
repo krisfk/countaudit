@@ -124,7 +124,7 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="qt position-relative">
 
-                        <table>
+                        <table class="m-0">
                             <tr>
                                 <td class="pe-2">
                                     <span class="symbol">Q</span>
@@ -140,7 +140,7 @@ get_header(); ?>
 
                     <div class="ans position-relative">
 
-                        <table>
+                        <table class="m-0">
                             <tr>
                                 <td class="pe-2">
                                     <span class="symbol">A</span>
