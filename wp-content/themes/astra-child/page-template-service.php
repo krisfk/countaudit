@@ -294,7 +294,9 @@ get_header(); ?>
                             </div>
                             <div class="mb-4">
 
-                                <b class="d-block text-center">Plan B (HK$2,200) </b>
+                                <b class="d-block text-center"> <label for="plan-b">Plan B (HK$2,200)</label><input
+                                        id="plan-b" class="form-check-input ms-2" name="service_plan_information[]"
+                                        type="checkbox" value="plan B" /> </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                     <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
@@ -317,7 +319,9 @@ get_header(); ?>
                             </div>
                             <div class="mb-4">
 
-                                <b class=" d-block text-center">Plan C (HK$3,000) </b>
+                                <b class=" d-block text-center"><label for="plan-c">Plan C (HK$3,000)</label> <input
+                                        id="plan-c" class="form-check-input ms-2" name="service_plan_information[]"
+                                        type="checkbox" value="plan C" /> </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                     <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
