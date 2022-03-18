@@ -1150,7 +1150,7 @@ a[href^='tel:'] {
     height: 17px;
     width: auto;
     position: absolute;
-    top: 1.7rem;
+    top: 23px;
     right: 1rem;
     transition: 0.2s all;
 }
