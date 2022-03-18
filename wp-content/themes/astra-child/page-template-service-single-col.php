@@ -329,7 +329,7 @@ if( have_rows('faqs'))
 ?>
     <div class="row justify-content-center gx-5 mt-4">
 
-        <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
 
             <h2 class="blue text-center mb-4">FAQ</h2>
 
