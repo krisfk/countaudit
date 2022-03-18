@@ -1165,7 +1165,7 @@ a[href^='tel:'] {
     border: 1px solid #dedede;
     padding: 0.2rem 0.5rem;
     text-decoration: none;
-    color: #595959;
+    color: #363e51;
 }
 
 .ans {
@@ -1173,7 +1173,7 @@ a[href^='tel:'] {
     border: 1px solid #dcdcdc;
     padding: 0.2rem 0.5rem;
     text-decoration: none;
-    color: #595959;
+    color: #363e51;
     margin: 0.2rem 0 0 0;
     background: #f6f6f6;
 }
