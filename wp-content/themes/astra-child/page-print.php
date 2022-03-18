@@ -709,7 +709,9 @@ get_header();
                     <tr>
                         <td>
                             <div class="mb-2">
-                                <p><b class="d-block text-center">Plan A (HK$1,400) </b></p>
+                                <p><b class="d-block text-center">Plan A (HK$1,400) </b>
+                                    <?php echo in_array("plan A", get_field('service_plan_information')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                </p>
                                 <ul class="m-0 mt-2 p-0 ps-4">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                     <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
@@ -727,7 +729,9 @@ get_header();
                     <tr>
                         <td>
                             <div class="mb-2">
-                                <p><b class="d-block text-center">Plan B (HK$2,200) </b></p>
+                                <p><b class="d-block text-center">Plan B (HK$2,200) </b>
+                                    <?php echo in_array("plan B", get_field('service_plan_information')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                </p>
                                 <ul class="m-0 mt-2 p-0 ps-4">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                     <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
@@ -756,7 +760,9 @@ get_header();
                     <tr>
                         <td>
                             <div class="mb-2">
-                                <p><b class=" d-block text-center">Plan C (HK$3,000) </b></p>
+                                <p><b class=" d-block text-center">Plan C (HK$3,000) </b>
+                                    <?php echo in_array("plan C", get_field('service_plan_information')) ? '<span class="text-primary">☑</span>' :'☐'; ?>
+                                </p>
                                 <ul class="m-0 mt-2 p-0 ps-4">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
                                     <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
