@@ -279,7 +279,7 @@ get_header(); ?>
                             <div class="mb-4">
 
                                 <b class="d-block text-center"> <label for="plan-a">Plan A (HK$1,400)</label> <input
-                                        id="plan-a" class="form-check-input ms-2" name="service_plan_information[]"
+                                        id="plan-a" class="form-check-input ms-2" name="service-plan-information[]"
                                         type="checkbox" value="plan A" /> </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
@@ -295,7 +295,7 @@ get_header(); ?>
                             <div class="mb-4">
 
                                 <b class="d-block text-center"> <label for="plan-b">Plan B (HK$2,200)</label><input
-                                        id="plan-b" class="form-check-input ms-2" name="service_plan_information[]"
+                                        id="plan-b" class="form-check-input ms-2" name="service-plan-information[]"
                                         type="checkbox" value="plan B" /> </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
@@ -320,7 +320,7 @@ get_header(); ?>
                             <div class="mb-4">
 
                                 <b class=" d-block text-center"><label for="plan-c">Plan C (HK$3,000)</label> <input
-                                        id="plan-c" class="form-check-input ms-2" name="service_plan_information[]"
+                                        id="plan-c" class="form-check-input ms-2" name="service-plan-information[]"
                                         type="checkbox" value="plan C" /> </b>
                                 <ul class="m-0 mt-2 p-0 ps-3">
                                     <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
@@ -776,6 +776,7 @@ if($_POST['form-type']=='com_sec_app_form')
     $details_of_changes=$_POST['details-of-changes'];
     $details_of_changes_others=$_POST['details-of-changes-others'];
     $remarks=$_POST['remarks'];
+    $service_plan_information=$_POST['service-plan-information'];
     $virtual_office=$_POST['virtual-office'];
     // $increase_of_capital=$_POST['increase-of-capital'];
     // $allotment_of_shares=$_POST['allotment-of-shares'];
@@ -812,6 +813,9 @@ if($_POST['form-type']=='com_sec_app_form')
 
         add_post_meta($post_id, 'details_of_changes', $details_of_changes);
         add_post_meta($post_id, 'details_of_changes_others', $details_of_changes_others);
+        add_post_meta($post_id, 'service_plan_information', $service_plan_information);
+
+
         add_post_meta($post_id, 'virtual_office', $virtual_office);
         add_post_meta($post_id, 'deregistration_of_limited_company', $deregistration_of_limited_company);
 
