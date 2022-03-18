@@ -126,10 +126,11 @@ get_header(); ?>
 
                         <table class="m-0 border-0">
                             <tr>
-                                <td class="pe-2">
+                                <td class="pe-2 align-middle">
                                     <span class="symbol">Q</span>
                                 </td>
-                                <td>問題問題問題問題問題問題問題問題問題問題問題問題問題</td>
+                                <td class="align-middle">
+                                    問題問題問題問題問題問題問題問題問題問題問題問題問題</td>
                             </tr>
                         </table>
 
@@ -142,10 +143,11 @@ get_header(); ?>
 
                         <table class="m-0 border-0">
                             <tr>
-                                <td class="pe-2">
+                                <td class="pe-2 align-middle">
                                     <span class="symbol">A</span>
                                 </td>
-                                <td>答案答案答案答案答案答案答案答案答案答案答案答案答案</td>
+                                <td class="align-middle">
+                                    答案答案答案答案答案答案答案答案答案答案答案答案答案</td>
                             </tr>
                         </table>
 
