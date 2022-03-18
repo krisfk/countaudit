@@ -116,7 +116,7 @@ get_header(); ?>
 
         <div class="row justify-content-center gx-5">
 
-            <div class="col-10">
+            <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
 
 
                 <?php //echo get_field('faq');?>
