@@ -237,7 +237,7 @@ if( have_rows('faqs'))
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
 
-                <?php //echo get_field('bottom_form');?>
+                <?php echo get_field('bottom_form');?>
 
                 <!--  -->
                 <h4 class="text-center lh-base"> Virtual Office Service Application Form<br />虛擬辦工室服務計劃申請表 </h4>
