@@ -603,12 +603,12 @@ get_header();
                         <td>1. 商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格 <br>
                             (NNC1); 公司證書 (CI); 公司章程 (AA)*
                             <br>
-                            <?php echo get_field('upload_file_1')['url'];?>
+                            <?php //echo get_field('upload_file_1')['url'];?>
                             <?php //echo get_field('upload_file_1'); //echo wp_get_attachment_url(get_field('upload_file_1'));?>
                         </td>
                         <td>2. 有效之身份證 / 護照副本 及 3 個月內之住址證明 <br>
                             All member’s ID/passport copy and address proof within 3 months <br>
-                            <?php echo get_field('upload_file_2')['url'];?>
+                            <?php //echo get_field('upload_file_2')['url'];?>
 
                             <?php //echo  wp_get_attachment_url(get_field('upload_file_2'));?>
                         </td>
@@ -2961,13 +2961,13 @@ get_header();
                     <tr>
                         <td class="fit">1. 商業登記証(副本) (BR); 最新周年申報表(副本) (latest NAR1) / 法團成立表格 (NNC1); 公司證書 (CI)
                             <br>
-                            <?php echo get_field('upload_file_1')['url'];?>
+                            <?php //echo get_field('upload_file_1')['url'];?>
 
                         </td>
                         <td class="fit">
                             2. 有效之身份證 / 護照副本 及 3 個月內之住址證明 <br>
                             All member’s ID/passport copy and address proof within 3 months <br>
-                            <?php echo get_field('upload_file_2')['url'];?>
+                            <?php //echo get_field('upload_file_2')['url'];?>
 
                         </td>
                     </tr>
