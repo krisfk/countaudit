@@ -918,6 +918,10 @@ if($_POST['form-type']=='incorp_limited_app')
 
                 return false;
 
+            } else {
+                $('.lightbox').fadeIn(200);
+                $('.lightbox-msg-txt').html(
+                    'Submitting the form. Please wait...');
             }
 
 

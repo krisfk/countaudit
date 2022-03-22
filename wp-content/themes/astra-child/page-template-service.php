@@ -1093,6 +1093,10 @@ if(!empty($_FILES))
                 // }, 200);
 
                 return false;
+            } else {
+                $('.lightbox').fadeIn(200);
+                $('.lightbox-msg-txt').html(
+                    'Submitting the form. Please wait...');
             }
 
         })
