@@ -306,16 +306,18 @@ if( have_rows('faqs'))
                                 <h4 class="text-center mb-4">*申請所需之文件 Required Documents (請上載下列文件 Please upload the
                                     following documents)</h4>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-1"> 1.
-                                    商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格 (NNC1); 公司證書 (CI); 公司章程 (AA) </label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                                <label for="upload-file-1">商業登記証(副本) (BR)</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-1"
                                     class="form-control" name="upload-file-1" required="" type="file" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-2">2. 有效之身份證 /
-                                    護照副本 及 3 個月內之住址證明 All member’s ID/passport copy and address proof within 3
-                                    months</label></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-2">周年申報表(副本)
+                                    (NAR1) / 法團成立表格 (NNC1)
+                                </label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-2"
                                     class="form-control" name="upload-file-2" required="" type="file" /></div>
+
+
                             <div class="col-12 mt-4 mb-4">
                                 <h4 class="text-center mb-4">附加詳情 Further Information</h4>
                                 <div>上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the
