@@ -311,25 +311,25 @@ if( have_rows('faqs'))
                                 <label for="upload-file-1">商業登記証(副本) (BR)</label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-1"
-                                    class="form-control" name="upload-file-1" required="" type="file" /></div>
+                                    class="form-control" name="upload-file-1" type="file" /></div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-2">周年申報表(副本)
                                     (NAR1) / 法團成立表格 (NNC1)
                                 </label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-2"
-                                    class="form-control" name="upload-file-2" required="" type="file" /></div>
+                                    class="form-control" name="upload-file-2" type="file" /></div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-3">公司證書 (CI)
                                 </label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-3"
-                                    class="form-control" name="upload-file-3" required="" type="file" /></div>
+                                    class="form-control" name="upload-file-3" type="file" /></div>
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-4">公司章程 (AA)
 
                                 </label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-4"
-                                    class="form-control" name="upload-file-4" required="" type="file" /></div>
+                                    class="form-control" name="upload-file-4" type="file" /></div>
 
 
 
@@ -337,14 +337,14 @@ if( have_rows('faqs'))
                                     護照副本
                                 </label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-5"
-                                    class="form-control" name="upload-file-5" required="" type="file" /></div>
+                                    class="form-control" name="upload-file-5" type="file" /></div>
 
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-6">3 個月內之住址證明
                                 </label></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-6"
-                                    class="form-control" name="upload-file-6" required="" type="file" /></div>
+                                    class="form-control" name="upload-file-6" type="file" /></div>
 
 
 
