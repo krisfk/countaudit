@@ -82,6 +82,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         <?php //astra_content_before(); ?>
 
 
+        <div class="cover"></div>
 
         <div class="lightbox" style="">
 

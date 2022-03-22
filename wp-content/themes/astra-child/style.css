@@ -1198,6 +1198,16 @@ a[href^='tel:'] {
     display: none;
 }
 
+.cover {
+    position: fixed;
+    top: 0;
+    display: none;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
