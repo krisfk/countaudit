@@ -556,11 +556,21 @@ if( have_rows('faqs'))
                                     </ul>
                                 </div>
                                 <div class="row align-items-center mt-3">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label
-                                            for="upload-file-1">上載股東及董事資料文件<span class="small">(壓縮zip檔
-                                                15mb上限)</span></label> </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-1">
+                                            所有董事及股東之身份證明(zip file)
+                                        </label> </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-1"
                                             class="form-control" name="upload-file-1" type="file" /> </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+
+                                        <label for="upload-file-2">所有董事及股東之地址証明副本 (zip file)</label>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-2"
+                                            class="form-control" name="upload-file-2" type="file" /> </div>
+
+
                                 </div>
                             </div>
                             <div class="row applicant-div-wrapper mx-auto"></div>
