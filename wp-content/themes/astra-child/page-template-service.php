@@ -970,27 +970,27 @@ if(!empty($_FILES))
         
     //File a
 
-    for($i=1;$i<=1;$i++)
+    for($j=1;$j<=1;$j++)
     {
-        if($_FILES["upload-file-".$i]['size'])
+        if($_FILES["upload-file-".$j]['size'])
         {
                 $wordpress_upload_dir = wp_upload_dir();
     
-                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-".$i]["name"];
+                $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-".$j]["name"];
     
                     $i=0;
                 while( file_exists( $new_file_path ) ) {
                     $i++;
-                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-".$i]["name"];
+                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-".$j]["name"];
                 }
                 
-                if (move_uploaded_file($_FILES["upload-file-".$i]["tmp_name"], $new_file_path)) {
+                if (move_uploaded_file($_FILES["upload-file-".$j]["tmp_name"], $new_file_path)) {
         
                     $upload_id = wp_insert_attachment( array(
                     'guid'           => $new_file_path, 
                     'post_mime_type' => 'image/*',
                     //$_FILES["file_upload"]["tmp_name"],
-                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-".$i]["name"] ),
+                    'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-".$j]["name"] ),
                     'post_content'   => '',
                     'post_status'    => 'inherit'
                 ), $new_file_path );
