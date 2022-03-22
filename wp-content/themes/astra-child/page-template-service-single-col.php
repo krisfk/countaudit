@@ -426,8 +426,240 @@ if( have_rows('faqs'))
 
 
 
-                <?php echo get_field('bottom_form');?>
+                <?php //echo get_field('bottom_form');?>
+                <h4 class="text-center lh-base"> Virtual Office Service Application Form<br />虛擬辦工室服務計劃申請表 </h4>
+                <div class="small text-center">*為必須填寫項目 Required Fields</div>
+                <form id="form" action="" enctype="multipart/form-data" method="post"> <input name="form-type"
+                        type="hidden" value="virtual_office_form" />
+                    <div class="form-div white-bg mt-4">
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <h4 class="text-center mb-4">申請人資料 Applicant Information</h4>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="client-name"> *姓名
+                                    Name:</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="client-name"
+                                    class="form-control" name="client-name" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="email">*電郵 E-mail:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="email" class="form-control"
+                                    name="email" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="tel">*電話 Tel:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="tel" class="form-control"
+                                    name="tel" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="fax">傳真 Fax:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="fax" class="form-control"
+                                    name="fax" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label
+                                    for="billing-contact-person">*上述申請人為賬單聯絡人 The above applicant is the billing contact
+                                    person</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                                <div class="form-check"> <input id="billing-contact-person-yes" class="form-check-input"
+                                        name="billing-contact-person" required="" type="radio" value="yes" /> <label
+                                        class="form-check-label" for="billing-contact-person-yes"> Yes </label> </div>
+                                <div class="form-check"> <input id="billing-contact-person-no" class="form-check-input"
+                                        name="billing-contact-person" type="radio" value="no" /> <label
+                                        class="form-check-label" for="billing-contact-person-no"> No </label> </div>
+                            </div>
+                            <div class="col-12"> 如否，請提供賬單聯絡人資料 If No, please provide the information of the billing
+                                contact person </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="contact-name"> 聯絡人姓名
+                                    Name:</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-name"
+                                    class="form-control" name="contact-name" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label
+                                    for="contact-phone-number">聯絡電話Phone Number:</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-phone-number"
+                                    class="form-control" name="contact-phone-number" type="text" /> </div>
+                            <div class="col-12 mt-4">
+                                <h4 class="text-center mb-4">公司資料 Company Information</h4>
+                            </div>
+                            <div class="col-12 fw-bold">公司名稱 Company Name＊</div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="contact-name-chinese">
+                                    *中文名稱 Chinese Name</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-name-chinese"
+                                    class="form-control" name="contact-name-chinese" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="contact-name-english">
+                                    *英文名稱 English Name</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-name-english"
+                                    class="form-control" name="contact-name-english" required="" type="text" /> </div>
+                            <div class="col-12 mt-4">
+                                <h4 class="text-center mb-4"> *申請所需之文件 Required Documents (請上載下列文件 Please upload the
+                                    following documents) </h4>
+                            </div>
 
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-1">商業登記証(副本)
+                                    (BR) </label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-1"
+                                    class="form-control" name="upload-file-1" type="file" /> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-2">周年申報表(副本)
+                                    (NAR1) / 法團成立表格 (NNC1) </label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-2"
+                                    class="form-control" name="upload-file-2" type="file" /> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-3">公司證書
+                                    (CI)</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-3"
+                                    class="form-control" name="upload-file-3" type="file" /> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-4">公司章程
+                                    (AA)</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-4"
+                                    class="form-control" name="upload-file-4" type="file" /> </div>
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-5">有效之身份證 /
+                                    護照副本</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-5"
+                                    class="form-control" name="upload-file-5" type="file" /> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-6">3
+                                    個月內之住址證明</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-6"
+                                    class="form-control" name="upload-file-6" type="file" /> </div>
+
+
+
+
+                        </div>
+                        <div class="col-12 mt-4">
+                            <h4 class="text-center mb-4"> 服務計劃資料 Service Plan Information </h4>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <h5 class="text-center mb-4">虛擬辦工室 Virtual Office</h5>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="text-center">- 尖沙咀 Tsim Sha Tsui -</h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                <div class="form-check"> <input id="tst-HK1600-year" class="form-check-input"
+                                        name="virtual-office[]" type="checkbox" value="tst-HK1600-year" /> <label
+                                        class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label> </div>
+                                <ul class="m-0 ps-4">
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">郵件到取</li>
+                                    <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                    <li class="ls1">郵件電子掃描</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                <div class="form-check"> <input id="tst-HK4000-year" class="form-check-input"
+                                        name="virtual-office[]" type="checkbox" value="tst-HK4000-year" /> <label
+                                        class="form-check-label" for="tst-HK4000-year"> HK$4,000/year </label> </div>
+                                <ul class="m-0 ps-4">
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">每月轉寄郵件/包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">郵件到取</li>
+                                    <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                    <li class="ls1">郵件電子掃描</li>
+                                    <li class="ls2">辦公室電話代接</li>
+                                    <li class="ls2">稅局文件代處理及信件代開</li>
+                                    <li class="ls2">準備及保存重要控制人登記册</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                <div class="form-check"> <input id="tst-HK12000-year" class="form-check-input"
+                                        name="virtual-office[]" type="checkbox" value="tst-HK12000-year" /> <label
+                                        class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label> </div>
+                                <ul class="m-0 ps-4">
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">郵件到取</li>
+                                    <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                    <li class="ls1">郵件電子掃描</li>
+                                    <li class="ls2">辦公室電話代接</li>
+                                    <li class="ls2">稅局文件代處理及信件代開</li>
+                                    <li class="ls2">準備及保存重要控制人登記册</li>
+                                    <li class="ls3">每月三次會議室出租</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <h6 class="text-center">- 荔枝角 Lai Chi Kok -</h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                <div class="form-check"> <input id="lck-HK950-year" class="form-check-input"
+                                        name="virtual-office[]" type="checkbox" value="lck-HK950-year" /> <label
+                                        class="form-check-label" for="lck-HK950-year"> HK$950/year </label> </div>
+                                <ul class="m-0 ps-4">
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄 (按要求)</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">每月轉寄郵件</li>
+                                    <li class="ls1">郵件到取</li>
+                                    <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                <div class="form-check"> <input id="lck-HK1500-year" class="form-check-input"
+                                        name="virtual-office[]" type="checkbox" value="lck-HK1500-year" /> <label
+                                        class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label> </div>
+                                <ul class="m-0 ps-4">
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件包裹代收</li>
+                                    <li class="ls1">稅局郵件轉寄</li>
+                                    <li class="ls1">製作公司水牌</li>
+                                    <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
+                                    <li class="ls1">郵件到取</li>
+                                    <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                    <li class="ls2">郵件電子掃描</li>
+                                    <li class="ls2">每月一次會議室出租</li>
+                                    <li class="ls2">辦公室電話代接</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mt-4 mb-3">
+                            <h6 class="text-center">- 觀塘 Kwun Tong -</h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                                <div class="form-check"> <input id="kt-HK900-year" class="form-check-input"
+                                        name="virtual-office[]" type="checkbox" value="kt-HK900-year" /> <label
+                                        class="form-check-label" for="kt-HK900-year"> HK$900/year </label> </div>
+                                <ul class="m-0 ps-4">
+                                    <li class="ls1">註冊公司地址</li>
+                                    <li class="ls1">信件代收</li>
+                                    <li class="ls1">每月一次郵件轉寄 （註：不設到取服務）</li>
+                                    <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <h4 class="text-center mb-4">條款及細則 Terms and Conditions</h4> <textarea id="tnc"
+                                class="form-control" cols="30" name="" readonly="readonly" rows="10"> </textarea>
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6LdMWbweAAAAALQmZOSO7C8OvF2Zf8um7r1rSQGG"></div>
+                        <div class="text-center mt-3"> <input class="form-submit-btn" type="submit" value="Submit" />
+                        </div>
+                    </div>
+                </form>
 
             </div>
         </div>
@@ -685,76 +917,44 @@ if($_POST['form-type']=='incorp_limited_app')
     if(!empty($_FILES))
     {
 
-                //File a
-                if($_FILES["upload-file-1"]['size'])
-                {
-                        $wordpress_upload_dir = wp_upload_dir();
+             
+        for($j=1;$j<=6;$j++)
+        {
+            if($_FILES["upload-file-".$j]['size'])
+            {
+                    $wordpress_upload_dir = wp_upload_dir();
         
-                        $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-1"]["name"];
+                    $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-".$j]["name"];
         
-                            $i=0;
-                        while( file_exists( $new_file_path ) ) {
-                            $i++;
-                            $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-1"]["name"];
-                        }
-                        
-                        if (move_uploaded_file($_FILES["upload-file-1"]["tmp_name"], $new_file_path)) {
-                
-                            $upload_id = wp_insert_attachment( array(
-                            'guid'           => $new_file_path, 
-                            'post_mime_type' => 'image/*',
-                            //$_FILES["file_upload"]["tmp_name"],
-                            'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-1"]["name"] ),
-                            'post_content'   => '',
-                            'post_status'    => 'inherit'
-                        ), $new_file_path );
-                        require_once( ABSPATH . 'wp-admin/includes/image.php' );
+                        $i=0;
+                    while( file_exists( $new_file_path ) ) {
+                        $i++;
+                        $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-".$j]["name"];
+                    }
                     
-                        wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
-        
-                        update_field( 'upload_file_1', $upload_id, $post_id );
-                        // update_field( 'mid_report_approval', false, $school_id );
-        
-        
-                        } else {
-                            echo "Sorry, there was an error uploading your file.";
-                        }
-                }
-                //File b
-                if($_FILES["upload-file-2"]['size'])
-                {
-                        $wordpress_upload_dir = wp_upload_dir();
-        
-                        $new_file_path = $wordpress_upload_dir['path'] . '/' . $_FILES["upload-file-2"]["name"];
-        
-                            $i=0;
-                        while( file_exists( $new_file_path ) ) {
-                            $i++;
-                            $new_file_path = $wordpress_upload_dir['path'] . '/' . $i . '_' . $_FILES["upload-file-2"]["name"];
-                        }
-                        
-                        if (move_uploaded_file($_FILES["upload-file-2"]["tmp_name"], $new_file_path)) {
+                    if (move_uploaded_file($_FILES["upload-file-".$j]["tmp_name"], $new_file_path)) {
+            
+                        $upload_id = wp_insert_attachment( array(
+                        'guid'           => $new_file_path, 
+                        'post_mime_type' => 'image/*',
+                        //$_FILES["file_upload"]["tmp_name"],
+                        'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-".$j]["name"] ),
+                        'post_content'   => '',
+                        'post_status'    => 'inherit'
+                    ), $new_file_path );
+                    require_once( ABSPATH . 'wp-admin/includes/image.php' );
                 
-                            $upload_id = wp_insert_attachment( array(
-                            'guid'           => $new_file_path, 
-                            'post_mime_type' => 'image/*',
-                            //$_FILES["file_upload"]["tmp_name"],
-                            'post_title'     => preg_replace( '/\.[^.]+$/', '', $_FILES["upload-file-2"]["name"] ),
-                            'post_content'   => '',
-                            'post_status'    => 'inherit'
-                        ), $new_file_path );
-                        require_once( ABSPATH . 'wp-admin/includes/image.php' );
-                    
-                        wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
+                    wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
         
-                        update_field( 'upload_file_2', $upload_id, $post_id );
-                        // update_field( 'mid_report_approval', false, $school_id );
+                    update_field( 'upload_file_'.$j, $upload_id, $post_id );
+                    // update_field( 'mid_report_approval', false, $school_id );
         
         
-                        } else {
-                            echo "Sorry, there was an error uploading your file.";
-                        }
-                }
+                    } else {
+                        echo "Sorry, there was an error uploading your file.";
+                    }
+            }
+        }
 
             }
         }
