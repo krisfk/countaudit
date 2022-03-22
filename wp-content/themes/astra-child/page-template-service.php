@@ -240,10 +240,10 @@ if( have_rows('faqs'))
                 <?php //echo get_field('bottom_form');?>
 
                 <!--  -->
-                <h4 class="text-center lh-base">Company Secretary in Hong Kong Application Form<br>香港公司秘書服務計劃申請表</h4>
+                <h4 class="text-center lh-base"> Virtual Office Service Application Form<br />虛擬辦工室服務計劃申請表 </h4>
                 <div class="small text-center">*為必須填寫項目 Required Fields</div>
-                <form id="form" action="" enctype="multipart/form-data" method="post"><input name="form-type"
-                        type="hidden" value="com_sec_app_form" />
+                <form id="form" action="" enctype="multipart/form-data" method="post"> <input name="form-type"
+                        type="hidden" value="virtual_office_form" />
                     <div class="form-div white-bg mt-4">
                         <div class="row align-items-center">
                             <div class="col-12">
@@ -251,234 +251,72 @@ if( have_rows('faqs'))
                             </div>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="client-name"> *姓名
-                                    Name:</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="client-name"
-                                    class="form-control" name="client-name" required="" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="email">*電郵 E-mail:</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="client-name"> *姓名
+                                    Name:</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="client-name"
+                                    class="form-control" name="client-name" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="email">*電郵 E-mail:</label>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="email" class="form-control"
-                                    name="email" required="" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="tel">*電話 Tel:</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="tel" class="form-control"
-                                    name="tel" required="" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="fax">傳真 Fax:</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="fax" class="form-control"
-                                    name="fax" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="email" class="form-control"
+                                    name="email" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="tel">*電話 Tel:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="tel" class="form-control"
+                                    name="tel" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="fax">傳真 Fax:</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="fax" class="form-control"
+                                    name="fax" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label
                                     for="billing-contact-person">*上述申請人為賬單聯絡人 The above applicant is the billing contact
-                                    person</label></div>
+                                    person</label> </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="billing-contact-person-yes" class="form-check-input"
+                                <div class="form-check"> <input id="billing-contact-person-yes" class="form-check-input"
                                         name="billing-contact-person" required="" type="radio" value="yes" /> <label
-                                        class="form-check-label" for="billing-contact-person-yes"> Yes </label></div>
-                                <div class="form-check"><input id="billing-contact-person-no" class="form-check-input"
+                                        class="form-check-label" for="billing-contact-person-yes"> Yes </label> </div>
+                                <div class="form-check"> <input id="billing-contact-person-no" class="form-check-input"
                                         name="billing-contact-person" type="radio" value="no" /> <label
-                                        class="form-check-label" for="billing-contact-person-no"> No </label></div>
+                                        class="form-check-label" for="billing-contact-person-no"> No </label> </div>
                             </div>
-                            <div class="col-12">如否，請提供賬單聯絡人資料 If No, please provide the information of the billing
-                                contact person</div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name"> 聯絡人姓名
-                                    Name:</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-name"
-                                    class="form-control" name="contact-name" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label
-                                    for="contact-phone-number">聯絡電話Phone Number:</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-phone-number"
-                                    class="form-control" name="contact-phone-number" type="text" /></div>
+                            <div class="col-12"> 如否，請提供賬單聯絡人資料 If No, please provide the information of the billing
+                                contact person </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="contact-name"> 聯絡人姓名
+                                    Name:</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-name"
+                                    class="form-control" name="contact-name" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label
+                                    for="contact-phone-number">聯絡電話Phone Number:</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-phone-number"
+                                    class="form-control" name="contact-phone-number" type="text" /> </div>
                             <div class="col-12 mt-4">
                                 <h4 class="text-center mb-4">公司資料 Company Information</h4>
                             </div>
                             <div class="col-12 fw-bold">公司名稱 Company Name＊</div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-chinese">
-                                    *中文名稱 Chinese Name</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-name-chinese"
-                                    class="form-control" name="contact-name-chinese" required="" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="contact-name-english">
-                                    *英文名稱 English Name</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="contact-name-english"
-                                    class="form-control" name="contact-name-english" required="" type="text" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="date-change-secretary">
-                                    *公司秘書更改日期 The date of changing Company Secretary＊</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="date-change-secretary"
-                                    class="form-control" name="date-change-secretary" required="" type="text" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="contact-name-chinese">
+                                    *中文名稱 Chinese Name</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-name-chinese"
+                                    class="form-control" name="contact-name-chinese" required="" type="text" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="contact-name-english">
+                                    *英文名稱 English Name</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="contact-name-english"
+                                    class="form-control" name="contact-name-english" required="" type="text" /> </div>
                             <div class="col-12 mt-4">
-                                <h4 class="text-center mb-4">*申請所需之文件 Required Documents (請上載下列文件 Please upload the
-                                    following documents)</h4>
+                                <h4 class="text-center mb-4"> *申請所需之文件 Required Documents (請上載下列文件 Please upload the
+                                    following documents) </h4>
                             </div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-                                <label for="upload-file-1">商業登記証(副本) (BR)</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-1"> 1.
+                                    商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格 (NNC1); 公司證書 (CI); 公司章程 (AA) </label>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-1"
-                                    class="form-control" name="upload-file-1" type="file" /></div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-2">周年申報表(副本)
-                                    (NAR1) / 法團成立表格 (NNC1)
-                                </label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-2"
-                                    class="form-control" name="upload-file-2" type="file" /></div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-3">公司證書 (CI)
-                                </label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-3"
-                                    class="form-control" name="upload-file-3" type="file" /></div>
-
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-4">公司章程 (AA)
-
-                                </label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-4"
-                                    class="form-control" name="upload-file-4" type="file" /></div>
-
-
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-5">有效之身份證 /
-                                    護照副本
-                                </label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-5"
-                                    class="form-control" name="upload-file-5" type="file" /></div>
-
-
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="upload-file-6">3 個月內之住址證明
-                                </label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="upload-file-6"
-                                    class="form-control" name="upload-file-6" type="file" /></div>
-
-
-
-
-                            <div class="col-12 mt-4 mb-4">
-                                <h4 class="text-center mb-4">附加詳情 Further Information</h4>
-                                <div>上一個年度至今是否有任何股份變動或成員資料變更? Is there any Shares Transfer or Information change of the
-                                    Company Members during the past annual year?</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="details-of-changes">*變動詳情
-                                    Details of changes</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3 checkbox-group required">
-                                <div class="form-check"><input id="details-of-changes-1" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox" value="沒有 No" /> <label
-                                        class="form-check-label" for="details-of-changes-1"> 沒有 No </label></div>
-                                <div class="form-check"><input id="details-of-changes-2" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="更改公司名稱 [NNC2] Change of Company Name" /> <label class="form-check-label"
-                                        for="details-of-changes-2"> 更改公司名稱 [NNC2] Change of Company Name </label></div>
-                                <div class="form-check"><input id="details-of-changes-3" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="委任 / 辭任董事或公司秘書 [ND2A / ND4] Change / Resignation of Company Director(s) / Secretary" />
-                                    <label class="form-check-label" for="details-of-changes-3"> 委任 / 辭任董事或公司秘書 [ND2A /
-                                        ND4] Change / Resignation of Company Director(s) / Secretary </label>
-                                </div>
-                                <div class="form-check"><input id="details-of-changes-4" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox" value="股權變動 Shares Transfer" />
-                                    <label class="form-check-label" for="details-of-changes-4"> 股權變動 Shares Transfer
-                                    </label>
-                                </div>
-                                <div class="form-check"><input id="details-of-changes-5" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="更改註冊地址 [NR1] Change of Registered Address" /> <label
-                                        class="form-check-label" for="details-of-changes-5"> 更改註冊地址 [NR1] Change of
-                                        Registered Address </label></div>
-                                <div class="form-check"><input id="details-of-changes-6" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="更改董事或公司秘書資料 [ND2B] Change of Information of Company Director(s) / Secretary " />
-                                    <label class="form-check-label" for="details-of-changes-6"> 更改董事或公司秘書資料 [ND2B]
-                                        Change of Information of Company Director(s) / Secretary </label>
-                                </div>
-                                <div class="form-check"><input id="details-of-changes-7" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="增加註冊資本 [NSC1] Return of Allotment" /> <label class="form-check-label"
-                                        for="details-of-changes-7"> 增加註冊資本 [NSC1] Return of Allotment </label></div>
-                                <div class="form-check"><input id="details-of-changes-8" class="form-check-input"
-                                        name="details-of-changes[]" type="checkbox"
-                                        value="登記册及公司紀錄備存地點通知書 Notice of Location of Registers and Company Records" />
-                                    <label class="form-check-label" for="details-of-changes-8"> 登記册及公司紀錄備存地點通知書 Notice
-                                        of Location of Registers and Company Records </label>
-                                </div>
-                                <div class="mt-3"><label class="form-check-label mb-3" for="defaultCheck1"> 其他 Others:
-                                    </label> <input class="form-control" name="details-of-changes-others" type="text" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><label for="remarks"> 備註
-                                    Remarks</label></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"><input id="remarks"
-                                    class="form-control" name="remarks" type="text" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-1"
+                                    class="form-control" name="upload-file-1" type="file" /> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-2">2. 有效之身份證 /
+                                    護照副本 及 3 個月內之住址證明 All member’s ID/passport copy and address proof within 3
+                                    months</label> </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-2"
+                                    class="form-control" name="upload-file-2" type="file" /> </div>
                         </div>
                         <div class="col-12 mt-4">
-                            <h4 class="text-center mb-4">服務計劃資料 Service Plan Information</h4>
-                            <div class="mb-4"> <b class="d-block text-center"> <label for="plan-a">Plan A
-                                        (HK$1,400)</label> <input id="plan-a" class="form-check-input ms-2"
-                                        name="service-plan-information[]" type="checkbox" value="plan A" /> </b>
-                                <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
-                                        letter</li>
-                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                </ul>
-                            </div>
-                            <div class="mb-4"> <b class="d-block text-center"> <label for="plan-b">Plan B
-                                        (HK$2,200)</label><input id="plan-b" class="form-check-input ms-2"
-                                        name="service-plan-information[]" type="checkbox" value="plan B" /> </b>
-                                <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
-                                        letter</li>
-                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li class="">更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li class="">業務性質變更 Change of Company Business Nature</li>
-                                    <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
-                                        Register</li>
-                                    <li class="">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li class="">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
-                                        shareholders and company secretaries</li>
-                                    <li class="">準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li class="">增加公司註冊股本 Increase of Capital</li>
-                                </ul>
-                            </div>
-                            <div class="mb-4"> <b class=" d-block text-center"><label for="plan-c">Plan C
-                                        (HK$3,000)</label> <input id="plan-c" class="form-check-input ms-2"
-                                        name="service-plan-information[]" type="checkbox" value="plan C" /> </b>
-                                <ul class="m-0 mt-2 p-0 ps-3">
-                                    <li class="ls1">擔任法定公司秘書 Act as Company Secretary</li>
-                                    <li class="ls1">準備及遞交週年申報表 Prepare and Submit Annual Return</li>
-                                    <li class="ls1">協助續辦商業登記證 Renew the Business Registration Certificate</li>
-                                    <li class="ls1">對公司註冊署及稅局信提供專業意見 Provide professional opinions for CR and IRD’s
-                                        letter</li>
-                                    <li class="ls1">更改公司註冊地址資料 Change of Registered Office Address</li>
-                                    <li class="ls1">準備及遞交任免董事資料 Appointment / Resignation / Change of Director</li>
-                                    <li class="ls1">準備及遞交任免秘書資料 Appointment / Resignation / Change of Secretary</li>
-                                    <li class="">更改董事個人資料 Change of Personal Particulars of Director</li>
-                                    <li class="">業務性質變更 Change of Company Business Nature</li>
-                                    <li class="">準備及保存重要控制人登記册 Prepare and keep record of Significant Controllers
-                                        Register</li>
-                                    <li class="">宣布及登記公司處於不活動狀態 Declare Dormant Business</li>
-                                    <li class="">準備及保存董事、股東及公司秘書登記册 Prepare and keep record of Register of Directors,
-                                        shareholders and company secretaries</li>
-                                    <li class="">準備及保存股票證 Prepare and keep record of stock certificate</li>
-                                    <li class="">增加公司註冊股本 Increase of Capital</li>
-                                    <li class="ls3">分配股份 Allotment of Shares</li>
-                                    <li class="ls3">申請分行 Register Branch</li>
-                                    <li class="ls3">年度股東大會Annual General Meeting</li>
-                                    <li class="ls3">更改公司或分行名稱 Change of Company / Branch Name</li>
-                                    <li class="ls3">股份轉讓 Transfer of Shares (不包括印花稅 stamp duty fee is not included)</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <h4 class="text-center mb-4">附加服務 Additional Services</h4>
+                            <h4 class="text-center mb-4"> 服務計劃資料 Service Plan Information </h4>
                         </div>
                         <div class="col-12 mt-4">
                             <h5 class="text-center mb-4">虛擬辦工室 Virtual Office</h5>
@@ -488,9 +326,9 @@ if( have_rows('faqs'))
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="tst-HK1600-year" class="form-check-input"
+                                <div class="form-check"> <input id="tst-HK1600-year" class="form-check-input"
                                         name="virtual-office[]" type="checkbox" value="tst-HK1600-year" /> <label
-                                        class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label></div>
+                                        class="form-check-label" for="tst-HK1600-year"> HK$1,600/year </label> </div>
                                 <ul class="m-0 ps-4">
                                     <li class="ls1">註冊公司地址</li>
                                     <li class="ls1">信件包裹代收</li>
@@ -503,9 +341,9 @@ if( have_rows('faqs'))
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="tst-HK4000-year" class="form-check-input"
+                                <div class="form-check"> <input id="tst-HK4000-year" class="form-check-input"
                                         name="virtual-office[]" type="checkbox" value="tst-HK4000-year" /> <label
-                                        class="form-check-label" for="tst-HK4000-year"> HK$4,000/year </label></div>
+                                        class="form-check-label" for="tst-HK4000-year"> HK$4,000/year </label> </div>
                                 <ul class="m-0 ps-4">
                                     <li class="ls1">註冊公司地址</li>
                                     <li class="ls1">信件包裹代收</li>
@@ -521,18 +359,18 @@ if( have_rows('faqs'))
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="tst-HK12000-year" class="form-check-input"
+                                <div class="form-check"> <input id="tst-HK12000-year" class="form-check-input"
                                         name="virtual-office[]" type="checkbox" value="tst-HK12000-year" /> <label
-                                        class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label></div>
+                                        class="form-check-label" for="tst-HK12000-year"> HK$12,000/year </label> </div>
                                 <ul class="m-0 ps-4">
                                     <li class="ls1">註冊公司地址</li>
                                     <li class="ls1">信件包裹代收</li>
                                     <li class="ls1">稅局郵件轉寄</li>
                                     <li class="ls1">製作公司水牌</li>
                                     <li class="ls1">每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li>
-                                    <li class="ls1">郵件到取</ls1>
-                                    <li class="ls1">更改商業登記及公司註冊處地址</ls1>
-                                    <li class="ls1">郵件電子掃描</ls1>
+                                    <li class="ls1">郵件到取</li>
+                                    <li class="ls1">更改商業登記及公司註冊處地址</li>
+                                    <li class="ls1">郵件電子掃描</li>
                                     <li class="ls2">辦公室電話代接</li>
                                     <li class="ls2">稅局文件代處理及信件代開</li>
                                     <li class="ls2">準備及保存重要控制人登記册</li>
@@ -545,9 +383,9 @@ if( have_rows('faqs'))
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="lck-HK950-year" class="form-check-input"
+                                <div class="form-check"> <input id="lck-HK950-year" class="form-check-input"
                                         name="virtual-office[]" type="checkbox" value="lck-HK950-year" /> <label
-                                        class="form-check-label" for="lck-HK950-year"> HK$950/year </label></div>
+                                        class="form-check-label" for="lck-HK950-year"> HK$950/year </label> </div>
                                 <ul class="m-0 ps-4">
                                     <li class="ls1">註冊公司地址</li>
                                     <li class="ls1">信件包裹代收</li>
@@ -559,9 +397,9 @@ if( have_rows('faqs'))
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="lck-HK1500-year" class="form-check-input"
+                                <div class="form-check"> <input id="lck-HK1500-year" class="form-check-input"
                                         name="virtual-office[]" type="checkbox" value="lck-HK1500-year" /> <label
-                                        class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label></div>
+                                        class="form-check-label" for="lck-HK1500-year"> HK$1,500/year </label> </div>
                                 <ul class="m-0 ps-4">
                                     <li class="ls1">註冊公司地址</li>
                                     <li class="ls1">信件包裹代收</li>
@@ -575,45 +413,31 @@ if( have_rows('faqs'))
                                     <li class="ls2">辦公室電話代接</li>
                                 </ul>
                             </div>
-                            <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"> <div class="form-check"><input id="lck-HK650-year" class="form-check-input" name="virtual-office[]" type="checkbox" value="lck-HK650-year" /> <label class="form-check-label" for="lck-HK650-year"> HK$650/year </label></div> <ul class="m-0 ps-4"> <li>註冊公司地址</li> <li>信件代收</li> <li>製作公司水牌</li> </ul> </div> <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"> <div class="form-check"><input id="lck-HK950-year" class="form-check-input" name="virtual-office[]" type="checkbox" value="lck-HK950-year" /> <label class="form-check-label" for="lck-HK950-year"> HK$950/year </label></div> <ul class="m-0 ps-4"> <li>註冊公司地址</li> <li>信件包裹代收</li> <li>稅局郵件轉寄</li> <li>製作公司水牌</li> <li>每月轉寄郵件</li> </ul> </div> <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"> <div class="form-check"><input id="lck-HK1200-year" class="form-check-input" name="virtual-office[]" type="checkbox" value="lck-HK1200-year" /> <label class="form-check-label" for="lck-HK1200-year"> HK$1,200/year </label></div> <ul class="m-0 ps-4"> <li>註冊公司地址</li> <li>信件包裹代收</li> <li>稅局郵件轉寄</li> <li>製作公司水牌</li> <li>更改商業登記地址</li> <li>每月轉寄郵件及包裹(包首1KG 20x20x20cm)</li> <li>每月一次會議室出租</li> <li>辦公室電話代接</li> </ul> </div> -->
                         </div>
                         <div class="mt-4 mb-3">
                             <h6 class="text-center">- 觀塘 Kwun Tong -</h6>
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
-                                <div class="form-check"><input id="kt-HK900-year" class="form-check-input"
+                                <div class="form-check"> <input id="kt-HK900-year" class="form-check-input"
                                         name="virtual-office[]" type="checkbox" value="kt-HK900-year" /> <label
-                                        class="form-check-label" for="kt-HK900-year"> HK$900/year </label></div>
+                                        class="form-check-label" for="kt-HK900-year"> HK$900/year </label> </div>
                                 <ul class="m-0 ps-4">
                                     <li class="ls1">註冊公司地址</li>
                                     <li class="ls1">信件代收</li>
-                                    <li class="ls1">每月一次郵件轉寄<br> （註：不設到取服務）</li>
+                                    <li class="ls1">每月一次郵件轉寄 （註：不設到取服務）</li>
                                     <li class="ls1">更改商業登記及公司註冊處地址</li>
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3"></div>
                         </div>
-                        <div class="row mt-4 align-items-center">
-                            <!-- <div class="col-12 mb-3"> <div class="form-check"><input id="additional-1" class="form-check-input" name="increase-of-capital" type="checkbox" value="1" /> <label class="form-check-label" for="additional-1"> 增加公司註冊股本 (港幣$500全包) Increase of Capital (HK$500 all inclusive) </label></div> </div> <div class="col-12 mb-3"> <div class="form-check"><input id="additional-2" class="form-check-input" name="allotment-of-shares" type="checkbox" value="2" /> <label class="form-check-label" for="additional-2"> 分配股份(港幣$500全包) Allotment of Shares (HK$500 all inclusive) </label></div> </div> <div class="col-12 mb-3"> <div class="form-check"><input id="additional-3" class="form-check-input" name="register-branch" type="checkbox" value="3" /> <label class="form-check-label" for="additional-3"> 申請分行(港幣$500全包) Register Branch (HK$500 all inclusive) </label></div> </div> <div class="col-12 mb-3"> <div class="form-check"><input id="additional-4" class="form-check-input" name="annual-general-name" type="checkbox" value="4" /> <label class="form-check-label" for="additional-4"> 年度股東大會(港幣$500全包) Annual General Name (HK$500 all inclusive) </label></div> </div> <div class="col-12 mb-3"> <div class="form-check"><input id="additional-5" class="form-check-input" name="change-of-company-branch-name" type="checkbox" value="5" /> <label class="form-check-label" for="additional-5"> 更改公司或分行名稱(港幣$500全包) Change of Company / Branch Name (HK$500 all inclusive) </label></div> </div> <div class="col-12 mb-3"> <div class="form-check"><input id="additional-6" class="form-check-input" name="transfer-of-shares" type="checkbox" value="6" /> <label class="form-check-label" for="additional-6"> 股份轉讓 (HK$700服務費加印花稅） Transfer of Shares (HK$700 plus stamp duty fees) </label></div> </div> -->
-                            <div class="col-12 mb-3">
-                                <div class="form-check"><input id="additional-7" class="form-check-input"
-                                        name="deregistration-of-limited-company" type="checkbox" value="7" /> <label
-                                        class="form-check-label" for="additional-7"> 撤銷公司(港幣$1,000加政府費用) Deregistration
-                                        of Limited Company (HK$1,000 plus government charges) </label></div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-3"><label for="other-additional">其他
-                                    Others 請註明 please specify:</label></div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-3"><input id="other-additional"
-                                    class="form-control" name="other-additional" type="text" /></div>
-                        </div>
                         <div class="col-12 mt-4">
                             <h4 class="text-center mb-4">條款及細則 Terms and Conditions</h4> <textarea id="tnc"
                                 class="form-control" cols="30" name="" readonly="readonly" rows="10"> </textarea>
                         </div>
                         <div class="g-recaptcha" data-sitekey="6LdMWbweAAAAALQmZOSO7C8OvF2Zf8um7r1rSQGG"></div>
-                        <div class="text-center mt-3"><input class="form-submit-btn" type="submit" value="Submit" />
+                        <div class="text-center mt-3"> <input class="form-submit-btn" type="submit" value="Submit" />
                         </div>
                     </div>
                 </form>
