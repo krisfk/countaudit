@@ -732,17 +732,17 @@ if(!empty($_FILES))
 
 
 
-        $('.service-contact-btn').click(function() {
+        // $('.service-contact-btn').click(function() {
 
 
-            $("html, body").animate({
-                scrollTop: $('.contact-form-container').offset().top
-            }, 200);
+        //     $("html, body").animate({
+        //         scrollTop: $('.contact-form-container').offset().top
+        //     }, 200);
 
 
 
 
-        })
+        // })
 
 
 
