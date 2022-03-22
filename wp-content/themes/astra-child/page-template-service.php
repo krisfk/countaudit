@@ -970,7 +970,7 @@ if(!empty($_FILES))
         
     //File a
 
-    for($j=1;$j<=1;$j++)
+    for($j=1;$j<=6;$j++)
     {
         if($_FILES["upload-file-".$j]['size'])
         {
