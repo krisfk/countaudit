@@ -237,7 +237,7 @@ if( have_rows('faqs'))
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
 
 
-                <?php echo get_field('bottom_form');?>
+                <?php //echo get_field('bottom_form');?>
 
                 <!--  -->
                 <h4 class="text-center lh-base"> Virtual Office Service Application Form<br />虛擬辦工室服務計劃申請表 </h4>
@@ -304,16 +304,48 @@ if( have_rows('faqs'))
                                 <h4 class="text-center mb-4"> *申請所需之文件 Required Documents (請上載下列文件 Please upload the
                                     following documents) </h4>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-1"> 1.
-                                    商業登記証(副本) (BR); 周年申報表(副本) (NAR1) / 法團成立表格 (NNC1); 公司證書 (CI); 公司章程 (AA) </label>
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-1">商業登記証(副本)
+                                    (BR) </label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-1"
                                     class="form-control" name="upload-file-1" type="file" /> </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-2">2. 有效之身份證 /
-                                    護照副本 及 3 個月內之住址證明 All member’s ID/passport copy and address proof within 3
-                                    months</label> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-2">周年申報表(副本)
+                                    (NAR1) / 法團成立表格 (NNC1) </label>
+                            </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-2"
                                     class="form-control" name="upload-file-2" type="file" /> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-3">公司證書
+                                    (CI)</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-3"
+                                    class="form-control" name="upload-file-3" type="file" /> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-4">公司章程
+                                    (AA)</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-4"
+                                    class="form-control" name="upload-file-4" type="file" /> </div>
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-5">有效之身份證 /
+                                    護照副本</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-5"
+                                    class="form-control" name="upload-file-5" type="file" /> </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <label for="upload-file-6">3
+                                    個月內之住址證明</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3"> <input id="upload-file-6"
+                                    class="form-control" name="upload-file-6" type="file" /> </div>
+
+
+
+
                         </div>
                         <div class="col-12 mt-4">
                             <h4 class="text-center mb-4"> 服務計劃資料 Service Plan Information </h4>
