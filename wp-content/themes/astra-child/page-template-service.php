@@ -998,7 +998,7 @@ if(!empty($_FILES))
             
                 wp_update_attachment_metadata( $upload_id, wp_generate_attachment_metadata( $upload_id, $new_file_path ) );
     
-                update_field( 'upload_file_'.$i, $upload_id, $post_id );
+                update_field( 'upload_file_'.$j, $upload_id, $post_id );
                 // update_field( 'mid_report_approval', false, $school_id );
     
     
