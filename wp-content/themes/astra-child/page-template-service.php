@@ -1097,6 +1097,8 @@ if(!empty($_FILES))
                 $('.lightbox').fadeIn(200);
                 $('.lightbox-msg-txt').html(
                     'Submitting the form. Please wait...');
+                $('.close-btn').fadeOut(0);
+                $('.cover').fadeIn(0);
             }
 
         })
