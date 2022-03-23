@@ -8,11 +8,10 @@
 get_header(); ?>
 
 <div class="main-banner position-relative"
-    style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/banner-bg.jpg)">
+    style="background:url(<?php echo get_site_url();?>/wp-content/uploads/2021/12/banner-bg.jpg)">
 
 
-    <img class="main-banner-img" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/banner-bg.jpg" alt="">
-    <!-- <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/banner-bg.jpg" alt=""> -->
+    <img class="main-banner-img" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/banner-bg.jpg" alt="">
 
 </div>
 
@@ -21,24 +20,24 @@ get_header(); ?>
 
     <ul class="home-pts-ul  p-0 ">
         <li>
-            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-1.png"
+            <img class="home-pts-icon" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-icon-1.png"
                 alt="">
             專業認可 持牌執業 <br>
             會計師事務所
         </li>
         <li>
-            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-2.png"
+            <img class="home-pts-icon" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-icon-2.png"
                 alt="">
             1對1專人長期跟進
         </li>
         <li>
-            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-3.png"
+            <img class="home-pts-icon" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-icon-3.png"
                 alt="">
             實用資訊文章 <br>
             舉辦講座工作坊
         </li>
         <li>
-            <img class="home-pts-icon" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-icon-4.png"
+            <img class="home-pts-icon" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-icon-4.png"
                 alt="">
             實用資訊文章 <br>
             舉辦講座工作坊
@@ -54,8 +53,7 @@ get_header(); ?>
         <div class="col-5 pb-5">
 
             <div class="img-shadow-div">
-                <img class="w-100" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-img-1.jpg"
-                    alt="">
+                <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-img-1.jpg" alt="">
                 <div class="img-shadow"></div>
             </div>
         </div>
@@ -71,7 +69,7 @@ get_header(); ?>
             <table class="border-0 mt-4">
                 <tr>
                     <td><img class="gold-diamond"
-                            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
                     <td class="pb-3">
 
@@ -85,7 +83,7 @@ get_header(); ?>
                 </tr>
                 <tr>
                     <td><img class="gold-diamond"
-                            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
                     <td class="pb-3">
 
@@ -100,7 +98,7 @@ get_header(); ?>
 
                 <tr>
                     <td><img class="gold-diamond"
-                            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
                     <td class="pb-3">
 
@@ -111,7 +109,7 @@ get_header(); ?>
                 </tr>
                 <tr>
                     <td><img class="gold-diamond"
-                            src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/gold-diamond.png" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/gold-diamond.png" alt="">
                     </td>
                     <td class="pb-3">
                         <h5 class="gold">連結社會創新企業</h5>
@@ -132,7 +130,7 @@ get_header(); ?>
 
         <ul class="contact-ul text-center p-0 mt-4 ms-0">
             <li>
-                <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1.png" alt="">
+                <div><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/contact-icon-1.png" alt="">
                 </div>
                 <div>
 
@@ -140,13 +138,13 @@ get_header(); ?>
                 </div>
             </li>
             <li>
-                <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2.png" alt="">
+                <div><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/contact-icon-2.png" alt="">
                 </div>
                 <div>
                     xxxxxxxxx@mail.com</div>
             </li>
             <li>
-                <div><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3.png" alt="">
+                <div><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/contact-icon-3.png" alt="">
                 </div>
                 <div>
                     +852 2345 6789</div>
@@ -190,7 +188,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-1.png"
                                                 alt=""></td>
                                         <td class="ps-2">HSBC, BEA, CITIC
                                             開戶專人跟進</td>
@@ -201,7 +199,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-2.png"
                                                 alt=""></td>
                                         <td class="ps-2">最快一星期成功開戶</td>
                                     </tr>
@@ -211,7 +209,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-3.png"
                                                 alt=""></td>
                                         <td class="ps-2">開戶費可減甚至全免</td>
                                     </tr>
@@ -247,7 +245,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-4.png"
                                                 alt=""></td>
                                         <td class="ps-2">審計服務</td>
                                     </tr>
@@ -257,7 +255,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-5.png"
                                                 alt=""></td>
                                         <td class="ps-2">報稅服務</td>
                                     </tr>
@@ -267,7 +265,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-6.png"
                                                 alt=""></td>
                                         <td class="ps-2">稅務支出減免建議</td>
                                     </tr>
@@ -303,7 +301,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-7.png"
                                                 alt=""></td>
                                         <td class="ps-2">成立公司全包服務</td>
                                     </tr>
@@ -313,7 +311,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-8.png"
                                                 alt=""></td>
                                         <td class="ps-2">轉介開戶服務</td>
                                     </tr>
@@ -323,7 +321,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-9.png"
                                                 alt=""></td>
                                         <td class="ps-2">各種牌照,技術轉介</td>
                                     </tr>
@@ -360,7 +358,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-1.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-1.png"
                                                 alt=""></td>
                                         <td class="ps-2">雲端會計服務
                                         </td>
@@ -371,7 +369,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-2.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-2.png"
                                                 alt=""></td>
                                         <td class="ps-2">會計紀錄整理代存服務</td>
                                     </tr>
@@ -381,7 +379,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-3.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-3.png"
                                                 alt=""></td>
                                         <td class="ps-2">會計分析服務</td>
                                     </tr>
@@ -418,7 +416,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-4.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-4.png"
                                                 alt=""></td>
                                         <td class="ps-2">代收信件包裹</td>
                                     </tr>
@@ -428,7 +426,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-5.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-5.png"
                                                 alt=""></td>
                                         <td class="ps-2">公司水牌</td>
                                     </tr>
@@ -438,7 +436,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-6.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-6.png"
                                                 alt=""></td>
                                         <td class="ps-2">其他業務增值服務</td>
                                     </tr>
@@ -473,7 +471,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-7.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-7.png"
                                                 alt=""></td>
                                         <td class="ps-2">製作交付周年申報
                                             及其他表格</td>
@@ -484,7 +482,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-8.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-8.png"
                                                 alt=""></td>
                                         <td class="ps-2">合規及盡職調查</td>
                                     </tr>
@@ -494,7 +492,7 @@ get_header(); ?>
                                 <table>
                                     <tr>
                                         <td class="icon-td"><img
-                                                src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/small-i-9.png"
+                                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/small-i-9.png"
                                                 alt=""></td>
                                         <td class="ps-2">重要控制人士登記冊</td>
                                     </tr>
@@ -526,7 +524,7 @@ get_header(); ?>
 
         <div class="row mt-4 align-items-center justify-content-middle">
 
-            <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-1.jpg"
+            <div class="col-6"><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-big-point-1.jpg"
                     alt=""></div>
             <div class="col-6">
 
@@ -554,7 +552,7 @@ get_header(); ?>
 
         <div class="row mt-5 align-items-center justify-content-middle">
 
-            <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-2.jpg"
+            <div class="col-6"><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-big-point-2.jpg"
                     alt=""></div>
             <div class="col-6">
 
@@ -610,7 +608,7 @@ get_header(); ?>
                 </div>
 
             </div>
-            <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-3.jpg"
+            <div class="col-6"><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-big-point-3.jpg"
                     alt="">
 
 
@@ -640,7 +638,7 @@ get_header(); ?>
 
                 </div>
             </div>
-            <div class="col-6"><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/home-big-point-4.jpg"
+            <div class="col-6"><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/home-big-point-4.jpg"
                     alt=""></div>
 
         </div>
@@ -659,7 +657,7 @@ get_header(); ?>
         <div class="article-carousel">
 
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                    src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
                 <!--  -->
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
                     <h3 class="text-center blue pt-3">僱員僱主文章</h3>
@@ -672,7 +670,7 @@ get_header(); ?>
             </div>
 
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                    src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
                 <!--  -->
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
                     <h3 class="text-center blue pt-3">僱員僱主文章</h3>
@@ -685,7 +683,7 @@ get_header(); ?>
             </div>
 
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                    src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
                 <!--  -->
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
                     <h3 class="text-center blue pt-3">僱員僱主文章</h3>
@@ -698,7 +696,7 @@ get_header(); ?>
             </div>
 
             <div class="article-container"><img class="w-100"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
+                    src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/dummy-article-img.png" alt="">
                 <!--  -->
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
                     <h3 class="text-center blue pt-3">僱員僱主文章</h3>
@@ -734,7 +732,7 @@ get_header(); ?>
         <div class="col-4 mt-5">
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
                 <img class="profile-shadow"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+                    src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
                 <div class="text-center">
                     <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">樹洞香港 TreeholeHK</h4>
@@ -749,7 +747,7 @@ get_header(); ?>
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5 h-100">
 
                 <img class="profile-shadow"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+                    src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
                 <div class="text-center">
                     <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">IDRPHK LIMITED</h4>
@@ -766,7 +764,7 @@ get_header(); ?>
             <div class=" grey-bg client-comment-div pe-4 ps-4 pt-5  pb-5  h-100">
 
                 <img class="profile-shadow"
-                    src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/profile-shadow.png" alt="">
+                    src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/profile-shadow.png" alt="">
 
                 <div class="text-center">
                     <h4 class="blue m-0 ps-0 pe-0 pb-0 pt-2">Dream Impact 夢創成真</h4>
@@ -794,7 +792,7 @@ get_header(); ?>
 
                     <table class="border-0 contact-table">
                         <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-1-1.png"
+                            <td><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/contact-icon-1-1.png"
                                     alt="">
 
                             </td>
@@ -809,14 +807,14 @@ get_header(); ?>
                         </tr>
 
                         <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-2-1.png"
+                            <td><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/contact-icon-2-1.png"
                                     alt=""> </td>
                             <td>3525 1900 <br>
                                 Office hour: Mon to Fri 10am - 7pm<br>
                                 6519 4755 (Whatsapp Only)</td>
                         </tr>
                         <tr>
-                            <td><img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/contact-icon-3-1.png"
+                            <td><img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/contact-icon-3-1.png"
                                     alt=""></td>
                             <td>
                                 <a href="mailto:info@countaudit.hk" target="_blank">info@countaudit.hk</a>
