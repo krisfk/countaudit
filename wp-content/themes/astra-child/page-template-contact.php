@@ -12,7 +12,7 @@
 get_header(); ?>
 
 <div class="main-banner"
-    style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-1.jpg)">
+    style="background:url(<?php echo get_site_url();?>/wp-content/uploads/2021/12/main-banner-bg-1.jpg)">
 
     <div class="position-absolute top-0 start-0 w-100 h-100">
         <div class="container title-container">
@@ -21,71 +21,18 @@ get_header(); ?>
     </div>
 
 
-    <!-- <img class="main-banner-img" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/banner-bg.jpg" alt=""> -->
-
-    <img class="main-banner-img" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-1.jpg"
+    <img class="main-banner-img" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/main-banner-bg-1.jpg"
         alt="">
-    <!-- <img src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/banner-bg.jpg" alt=""> -->
-
+        
 </div>
 
 
-<!-- <div class="container contact-pts-ul-wrapper-container">
 
-    <ul class="contact-pts-ul  p-0 ">
-        <li>
-            <img class="contact-pts-icon"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-1.png" alt="">
 
-            <h3 class="white m-0 fw-bold">VISIT US</h3>
-            <div>可預約會面</div>
-
-            <div class="gold mt-3">Lai Chi Kok Office</div>
-            <div>Flat C, 11/F., Wing Hong Centre, 18 Wing Hong Street, Lai Chi Kok, Kowloon
-                Unit C, 4/F, 760 Cheung Sha Wan Rd, Lai Chi Kok, Kowloon</div>
-
-            <div class="gold mt-3">Kwun Tong Office</div>
-            <div>Unit 9039, 9/F, Block B, Chung Mei Centre, 15-17 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong
-            </div>
-        </li>
-        <li>
-            <img class="contact-pts-icon"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-2.png" alt="">
-            <h3 class="white m-0 fw-bold">CALL US</h3>
-            <div>可致電或Whatsapp我們</div>
-
-            <div class="gold mt-3">3525 1900
-            </div>
-            <div>Office hour: Mon to Fri 10am - 7pm
-            </div>
-
-            <div class="gold mt-3">6519 4755 </div>
-            <div>Office hour: Mon to Fri 10am - 7pm
-
-            </div>
-        </li>
-        <li>
-            <img class="contact-pts-icon"
-                src="http://64.227.13.14/countaudit/wp-content/uploads/2022/01/contact-icon-3.png" alt="">
-            <h3 class="white m-0 fw-bold">CONTACT US</h3>
-            <div>數小時內回覆</div>
-
-            <div class="mt-3">
-                <a class="gold no-deco" href="#" target="_blank">info@countaudit.hk
-                </a>
-            </div>
-        </li>
-
-    </ul>
-
-</div> -->
 
 
 <?php echo get_field('content_1');?>
 
-<!-- <iframe class="map-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-    src="https://maps.google.com/maps?q=CountAudit%20Secretarial%20Limited&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
-    aria-label="CountAudit Secretarial Limited"></iframe> -->
 
 <div class="map-div">
     <?php echo get_field('content_2');?>
@@ -97,20 +44,8 @@ get_header(); ?>
 
     <div class="container contact-form-container">
         <div class="row   align-items-center">
-            <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
-                <div class="text-start">
-                    <div>
-                        <h4 class="gold">//明碼實價
-                        </h4>
-                    </div>
-                    <div>
-                        <h2 class="blue">索取服務報價</h2>
-                        <div class="small">請聯絡我們並提供資料，即時能獲取準確報價</div>
-                    </div>
-
-
-                </div>
-            </div> -->
+           
+        
             <?php echo get_field('content_3');?>
 
 

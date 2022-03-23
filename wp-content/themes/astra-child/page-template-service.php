@@ -15,7 +15,7 @@ get_header(); ?>
 
 
 <div class="main-banner position-relative"
-    style="background:url(http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-1.jpg)">
+    style="background:url(<?php echo get_site_url();?>/wp-content/uploads/2021/12/main-banner-bg-1.jpg)">
 
 
     <div class="position-absolute top-0 start-0 w-100 h-100">
@@ -28,7 +28,7 @@ get_header(); ?>
     </div>
 
 
-    <img class="main-banner-img" src="http://64.227.13.14/countaudit/wp-content/uploads/2021/12/main-banner-bg-1.jpg"
+    <img class="main-banner-img" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/main-banner-bg-1.jpg"
         alt="">
 
 
@@ -42,10 +42,10 @@ get_header(); ?>
         <h3 class="white text-center">We'd Love To Meet You <br>And Let You The Perfect Solution</h3>
 
         <ul class="gold-btn-ul">
-            <li> <a class="gold-btn" href="http://64.227.13.14/countaudit/contact-us/"> SCHEDULE A MEETING</a></li>
-            <li><a class="gold-btn" href="http://64.227.13.14/countaudit/contact-us/">CONTACT US</a></li>
+            <li> <a class="gold-btn" href="<?php echo get_site_url();?>/contact-us/"> SCHEDULE A MEETING</a></li>
+            <li><a class="gold-btn" href="<?php echo get_site_url();?>/contact-us/">CONTACT US</a></li>
             <li><a class="gold-btn"
-                    href="http://64.227.13.14/countaudit/wp-content/uploads/2022/02/CountAudit-Service-Brochure.pdf">DOWNLOAD
+                    href="<?php echo get_site_url();?>/wp-content/uploads/2022/02/CountAudit-Service-Brochure.pdf">DOWNLOAD
                     BROCHURE</a></li>
         </ul>
         <!-- <div class="text-end gold small">CountAudit宗旨</div> -->
@@ -171,8 +171,7 @@ if( have_rows('faqs'))
 
 
                         <img class="arrow"
-                            src="http://64.227.13.14/countaudit/wp-content/uploads/2022/03/down-arrow-qa.png.webp"
-                            alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2022/03/down-arrow-qa.png.webp" alt="">
                     </a>
 
                     <div class="ans position-relative">
