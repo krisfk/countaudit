@@ -129,8 +129,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <div class="top-menu">
 
-           
-        
+
+
 
 
 
@@ -147,7 +147,7 @@ $url = $menu_item['url'];
 $title = $menu_item['title'];
 $class = $menu_item['class'];
 
-$temp_arr=explode(get_site_url(),$url);
+// $temp_arr=explode(get_site_url(),$url);
 $slug=str_replace('/en/','',$temp_arr[1]);
 $slug=str_replace('/cn/','',$slug);
 $slug=str_replace('/','',$slug);
