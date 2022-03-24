@@ -8,7 +8,7 @@
 // if ( ! defined( 'ABSPATH' ) ) {
 	// exit; // Exit if accessed directly.
 // }
-
+// 
 get_header(); ?>
 
 <div class="main-banner position-relative"
@@ -44,8 +44,8 @@ get_header(); ?>
 
     <div class="container pt-5 pb-5">
 
-     
-    
+
+
         <?php echo get_field('content_3');?>
     </div>
 
@@ -55,7 +55,7 @@ get_header(); ?>
 <div class="container mt-5 mb-5">
 
 
-   
+
 
     <?php echo get_field('content_4');?>
 
