@@ -39,6 +39,7 @@ $title = $menu_item['title'];
 $class = $menu_item['class'];
 echo 999;
 $temp_arr=explode(get_site_url(),$url);
+echo 111;
 $slug=str_replace('/en/','',$temp_arr[1]);
 $slug=str_replace('/cn/','',$slug);
 $slug=str_replace('/','',$slug);
