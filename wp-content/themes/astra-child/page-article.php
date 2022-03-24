@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header(); ?>
-
+<!--  -->
 <!-- <div class="main-banner"> -->
 
 <div class="main-banner position-relative"
