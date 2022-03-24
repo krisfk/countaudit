@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <div class="bottom-menu">
 
-      
+
 
 
 
@@ -37,7 +37,7 @@ foreach ($main_menu as $menu_item) {
 $url = $menu_item['url'];
 $title = $menu_item['title'];
 $class = $menu_item['class'];
-
+echo 999;
 $temp_arr=explode(get_site_url(),$url);
 $slug=str_replace('/en/','',$temp_arr[1]);
 $slug=str_replace('/cn/','',$slug);
