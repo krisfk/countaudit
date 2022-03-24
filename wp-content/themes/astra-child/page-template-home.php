@@ -29,15 +29,15 @@ get_header(); ?>
 <div class="container mt-5">
     <?php echo get_field('content_2');?>
 
-    
+
 </div>
 
 
 <div class="mt-4 blue-bg">
 
     <?php echo get_field('content_3');?>
-   
-    
+
+
 </div>
 
 
@@ -51,7 +51,7 @@ get_header(); ?>
 
 
 
-    
+
 
 
 </div>
@@ -148,7 +148,7 @@ get_header(); ?>
 
         ?>
 
-          
+
 
 
         </div>
@@ -170,8 +170,8 @@ get_header(); ?>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
                 <?php echo $content_7;?>
-              
-                
+
+
 
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  p-lg-5 p-md-5 p-sm-3 p-3 ">
